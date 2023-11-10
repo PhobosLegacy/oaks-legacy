@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:proto_dex/components/base_background.dart';
 import 'package:proto_dex/models/preferences.dart';
 import 'package:proto_dex/models/version.dart';
-import 'start_screen.dart';
+import 'package:proto_dex/screens/maintainance_screen.dart';
+import 'package:proto_dex/screens/start_screen.dart';
 import 'package:proto_dex/file_manager.dart';
 import 'package:proto_dex/models/pokemon.dart';
 import 'package:proto_dex/constants.dart';
@@ -95,7 +96,8 @@ class _LoadingScreenState extends State<LoadingScreen> {
 
     kPokedex = await Pokemon.createPokedex(pokedex);
     // await Future.delayed(const Duration(seconds: 2));
-    openStartScreen();
+    openStartScreen(const MaintainanceScreen());
+    // openStartScreen(const StartScreen());
   }
 
   Future<String> fetchData(String url) async {
@@ -125,13 +127,13 @@ class _LoadingScreenState extends State<LoadingScreen> {
     );
   }
 
-  void openStartScreen() {
+  void openStartScreen(screen) {
     Navigator.pop(context);
     Navigator.push(
       context,
       MaterialPageRoute(
         builder: (context) {
-          return const StartScreen();
+          return screen;
         },
       ),
     );
