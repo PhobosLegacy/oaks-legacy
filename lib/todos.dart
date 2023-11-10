@@ -4,7 +4,6 @@ class Todos {
 
 TODO: Image enhacement
   Types, Backgrounds on app
-TODO: Check permission for windows desktop
 TODO BUG iOS: Archibac issue on LF/FT when screen size small
 TODO BUG iOS: Screenshot doesnt work on ios simulator
 TODO BUG iOS: Permission issue with mac desktop
@@ -36,9 +35,11 @@ GOOD TO KNOW
 ON MAC, for web app, files are here: /Users/itorres/Library/Containers/com.example.protoDex/Data/Documents
 
 To run on web and be able to connect with the mobile browser:
-flutter run -d web-server --web-port 8080 --web-hostname 0.0.0.0
 flutter run -d web-server --web-port 8080 --web-hostname 0.0.0.0 --debug --web-renderer canvaskit
  192.168.1.192:8080
+
+Flutter Pub cache (to overwrite file_saver)
+C:\Users\icaro\AppData\Local\Pub\Cache\hosted\pub.dev\file_saver-0.2.9\android\build.gradle
  */
   String listBase;
 }

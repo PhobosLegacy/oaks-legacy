@@ -1,9 +1,9 @@
-import 'package:file_saver/file_saver.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:image_gallery_saver/image_gallery_saver.dart';
-import 'package:permission_handler/permission_handler.dart';
 import 'package:proto_dex/components/base_background.dart';
+import 'package:proto_dex/components/button_filters.dart';
+import 'package:proto_dex/components/button_screenshot.dart';
+import 'package:proto_dex/components/button_search.dart';
 import 'package:proto_dex/constants.dart';
 import 'package:proto_dex/models/game.dart';
 import 'package:screenshot/screenshot.dart';
@@ -250,38 +250,15 @@ class _CollectionScreenState extends State<CollectionScreen> {
 
   List<Widget> appBarActions() {
     return [
-      IconButton(
-        icon: const Icon(Icons.search_outlined),
+      SearchButton(
         onPressed: () {
           setState(() {
             _isSearchOpened = !_isSearchOpened;
           });
         },
       ),
-      if (_selectedTab == 0)
-        IconButton(
-          icon: const Icon(Icons.camera_enhance),
-          onPressed: () async {
-            Uint8List? image;
-            try {
-              image = await controller.capture();
-            } catch (e) {
-              ScaffoldMessenger.of(context)
-                  .showSnackBar(SnackBar(content: Text('here: $e')));
-            }
-            if (image == null) return;
-            await saveImage(image);
-          },
-        ),
-      if (_selectedTab == 0)
-        IconButton(
-          icon: const Icon(Icons.filter_alt_outlined),
-          onPressed: () {
-            setState(() {
-              scaffoldKey.currentState!.openEndDrawer();
-            });
-          },
-        ),
+      if (_selectedTab == 0) ScreenShotButton(screenshotController: controller),
+      if (_selectedTab == 0) FiltersButton(scaffoldKey: scaffoldKey),
     ];
   }
 
@@ -348,22 +325,7 @@ class _CollectionScreenState extends State<CollectionScreen> {
     return item;
   }
 
-  Future<void> saveImage(Uint8List bytes) async {
-    final time = DateTime.now()
-        .toIso8601String()
-        .replaceAll('.', '-')
-        .replaceAll(':', '-');
-
-    final name = 'collection_$time';
-
-    if (kIsWeb) {
-      FileSaver.instance.saveFile(name: '$name.png', bytes: bytes);
-    } else {
-      await [Permission.storage].request();
-      // final result = await ImageGallerySaver.saveImage(bytes, name: name);
-      await ImageGallerySaver.saveImage(bytes, name: name);
-    }
-  }
+  Future<void> saveImage(Uint8List bytes) async {}
 
   String getSubTitle(displayType) {
     switch (displayType) {

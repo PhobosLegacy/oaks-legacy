@@ -4,6 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:image_gallery_saver/image_gallery_saver.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:proto_dex/components/base_background.dart';
+import 'package:proto_dex/components/button_filters.dart';
+import 'package:proto_dex/components/button_screenshot.dart';
+import 'package:proto_dex/components/button_search.dart';
 import 'package:proto_dex/constants.dart';
 import 'package:proto_dex/models/game.dart';
 import 'package:screenshot/screenshot.dart';
@@ -250,32 +253,15 @@ class _ForTradeScreenState extends State<ForTradeScreen> {
 
   List<Widget> appBarActions() {
     return [
-      IconButton(
-        icon: const Icon(Icons.search_outlined),
+      SearchButton(
         onPressed: () {
           setState(() {
             _isSearchOpened = !_isSearchOpened;
           });
         },
       ),
-      if (_selectedTab == 0)
-        IconButton(
-          icon: const Icon(Icons.camera_enhance),
-          onPressed: () async {
-            final image = await controller.capture();
-            if (image == null) return;
-            await saveImage(image);
-          },
-        ),
-      if (_selectedTab == 0)
-        IconButton(
-          icon: const Icon(Icons.filter_alt_outlined),
-          onPressed: () {
-            setState(() {
-              scaffoldKey.currentState!.openEndDrawer();
-            });
-          },
-        ),
+      if (_selectedTab == 0) ScreenShotButton(screenshotController: controller),
+      if (_selectedTab == 0) FiltersButton(scaffoldKey: scaffoldKey),
     ];
   }
 

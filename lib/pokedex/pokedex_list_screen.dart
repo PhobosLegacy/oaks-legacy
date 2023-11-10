@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:proto_dex/components/base_background.dart';
+import 'package:proto_dex/components/button_filters.dart';
+import 'package:proto_dex/components/button_search.dart';
 import 'package:proto_dex/pokedex/pokedex_cards.dart';
 import 'package:proto_dex/components/custom_scrollbar.dart';
 import '../components/app_bar.dart';
@@ -126,25 +128,14 @@ class _PokedexListScreenState extends State<PokedexListScreen> {
 
   List<Widget> appBarActions() {
     return [
-      IconButton(
-        icon: const Icon(Icons.search_outlined),
-        // tooltip: 'Show Snackbar',
+      SearchButton(
         onPressed: () {
           setState(() {
             _isSearchOpened = !_isSearchOpened;
           });
-          // ScaffoldMessenger.of(context).showSnackBar(
-          //     const SnackBar(content: Text('This is a snackbar')));
         },
       ),
-      IconButton(
-        icon: const Icon(Icons.filter_alt_outlined),
-        onPressed: () {
-          setState(() {
-            scaffoldKey.currentState!.openEndDrawer();
-          });
-        },
-      ),
+      FiltersButton(scaffoldKey: scaffoldKey),
       // IconButton(
       //   icon: const Icon(Icons.more_vert),
       //   onPressed: () {
