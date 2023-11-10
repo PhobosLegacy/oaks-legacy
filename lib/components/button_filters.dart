@@ -13,7 +13,7 @@ class FiltersButton extends StatelessWidget {
     return IconButton(
       icon: const Icon(
         Icons.filter_alt_outlined,
-        color: Colors.red,
+        color: Colors.white,
       ),
       onPressed: () {
         scaffoldKey.currentState?.openEndDrawer();

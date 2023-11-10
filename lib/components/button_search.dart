@@ -13,7 +13,7 @@ class SearchButton extends StatelessWidget {
     return IconButton(
       icon: const Icon(
         Icons.search_outlined,
-        color: Colors.red,
+        color: Colors.white,
       ),
       onPressed: onPressed,
     );

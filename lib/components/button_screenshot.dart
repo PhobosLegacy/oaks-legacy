@@ -15,7 +15,7 @@ class ScreenShotButton extends StatelessWidget {
     return IconButton(
       icon: const Icon(
         Icons.camera_enhance,
-        color: Colors.red,
+        color: Colors.white,
       ),
       onPressed: () async {
         Uint8List? image;
