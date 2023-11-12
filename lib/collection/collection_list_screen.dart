@@ -1,11 +1,11 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:proto_dex/components/base_background.dart';
 import 'package:proto_dex/components/button_filters.dart';
 import 'package:proto_dex/components/button_screenshot.dart';
 import 'package:proto_dex/components/button_search.dart';
+import 'package:proto_dex/components/list_pokedex.dart';
 import 'package:proto_dex/constants.dart';
-import 'package:proto_dex/models/game.dart';
+import 'package:proto_dex/utils/enum_manager.dart';
 import 'package:screenshot/screenshot.dart';
 import '../components/app_bar.dart';
 import '../components/filters_side_screen.dart';
@@ -19,7 +19,6 @@ import '../utils/items_manager.dart';
 import 'collection_cards.dart';
 import 'collection_details_screen.dart';
 import 'collection_tile.dart';
-import '../pokedex/pokedex_cards.dart' as dex_card;
 
 class CollectionScreen extends StatefulWidget {
   const CollectionScreen({
@@ -32,9 +31,9 @@ class CollectionScreen extends StatefulWidget {
 
 class _CollectionScreenState extends State<CollectionScreen> {
   final controller = ScreenshotController();
-  String _query = "";
+  String searchQuery = "";
   int _selectedTab = 0;
-  bool _isSearchOpened = false;
+  bool isSearchOpened = false;
   CollectionDisplayType displayType = CollectionDisplayType.flatList;
   List<Item> collection = List<Item>.empty(growable: true);
   List<Pokemon> originalPokedex = [];
@@ -57,10 +56,15 @@ class _CollectionScreenState extends State<CollectionScreen> {
       appBar: AppBarBase(
         title: Column(
           children: [
-            const Text("My Collection"),
+            const Text(
+              "My Collection",
+              style: TextStyle(
+                color: Colors.white,
+              ),
+            ),
             if (displayType != CollectionDisplayType.flatList)
               Text(
-                getSubTitle(displayType),
+                displayType.text(),
                 style: const TextStyle(
                   fontSize: 10,
                   fontStyle: FontStyle.italic,
@@ -78,27 +82,27 @@ class _CollectionScreenState extends State<CollectionScreen> {
         },
       ),
       body: Stack(
-        children: <Widget>[
+        children: [
           const BaseBackground(),
           SafeArea(
             child: Column(
               children: [
                 Search(
-                  isSearchOpened: _isSearchOpened,
+                  isSearchOpened: isSearchOpened,
                   editingController: editingController,
                   onCloseTap: () => {
                     setState(
                       () {
                         (editingController.text == "")
-                            ? _isSearchOpened = false
+                            ? isSearchOpened = false
                             : editingController.clear();
-                        _query = "";
+                        searchQuery = "";
                         applyFilters();
                       },
                     )
                   },
                   onValueChange: (value) {
-                    _query = value;
+                    searchQuery = value;
                     applyFilters();
                   },
                 ),
@@ -210,7 +214,7 @@ class _CollectionScreenState extends State<CollectionScreen> {
     collection = retrieveItems(kCollectionKey);
     collection.removeWhere((element) => element.ref == item.ref);
     saveItems(kCollectionKey, collection);
-    collection = collection.applyAllFilters(filters, _query);
+    collection = collection.applyAllFilters(filters, searchQuery);
   }
 
   void saveToCollection(Item item) {
@@ -222,19 +226,20 @@ class _CollectionScreenState extends State<CollectionScreen> {
       collection[index] = item;
     }
     saveItems(kCollectionKey, collection);
-    collection = collection.applyAllFilters(filters, _query);
+    collection = collection.applyAllFilters(filters, searchQuery);
   }
 
   void applyFilters() {
     setState(() {
-      (_query == "")
+      (searchQuery == "")
           ? removeFilters([FilterType.byValue])
           : addFilter(FilterType.byValue);
 
       collection = retrieveItems(kCollectionKey);
-      collection = collection.applyAllFilters(filters, _query);
+      collection = collection.applyAllFilters(filters, searchQuery);
 
-      originalPokedex = originalPokedex.applyAllFilters(filters, _query, null);
+      originalPokedex =
+          originalPokedex.applyAllFilters(filters, searchQuery, null);
     });
   }
 
@@ -253,7 +258,7 @@ class _CollectionScreenState extends State<CollectionScreen> {
       SearchButton(
         onPressed: () {
           setState(() {
-            _isSearchOpened = !_isSearchOpened;
+            isSearchOpened = !isSearchOpened;
           });
         },
       ),
@@ -278,65 +283,16 @@ class _CollectionScreenState extends State<CollectionScreen> {
   }
 
 //This is the Second Tab Bits
-  Expanded pokedex() {
-    return Expanded(
-      child: ListView.builder(
-        itemBuilder: ((context, index) {
-          return dex_card.createCards(
-            originalPokedex,
-            [index],
-            onStateChange: (indexes) {
-              List<Item> items = [createItem(originalPokedex, indexes)];
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) {
-                    return CollectionDetailsPage(
-                      pokemons: items,
-                      indexes: const [0],
-                      onStateChange: (item) {
-                        saveToCollection(item);
-                      },
-                    );
-                  },
-                ),
-              );
-              setState(() {
-                () => {};
-              });
-            },
-          );
-        }),
-        itemCount: originalPokedex.length,
-        shrinkWrap: true,
-        padding: const EdgeInsets.all(5),
-        scrollDirection: Axis.vertical,
+  pokedex() {
+    return PokedexList(
+      detailsKey: kCollectionKey,
+      pageBuilder: (items, indexes) => CollectionDetailsPage(
+        pokemons: items,
+        indexes: indexes,
+        onStateChange: (item) {
+          saveToCollection(item);
+        },
       ),
     );
-  }
-
-  Item createItem(List<Pokemon> pokemons, List<int> indexes) {
-    Pokemon pokemon = pokemons.current(indexes);
-    Game tempGame =
-        Game(name: "Unknown", dex: "", number: "", notes: "", shinyLocked: "");
-    Item item = Item.fromDex(pokemon, tempGame, kCollectionKey);
-    item.currentLocation = "Unknown";
-    item.catchDate = DateTime.now().toString();
-    return item;
-  }
-
-  Future<void> saveImage(Uint8List bytes) async {}
-
-  String getSubTitle(displayType) {
-    switch (displayType) {
-      case CollectionDisplayType.groupByCurrentGame:
-        return "(By Current Game)";
-      case CollectionDisplayType.groupByOriginalGame:
-        return "(By Origin Game)";
-      case CollectionDisplayType.groupByPokemon:
-        return "(By Pokemon)";
-      default:
-        return "";
-    }
   }
 }

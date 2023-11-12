@@ -24,20 +24,20 @@ class PokedexListScreen extends StatefulWidget {
 }
 
 class _PokedexListScreenState extends State<PokedexListScreen> {
-  ScrollController scrollController = ScrollController();
-  List<Pokemon> originalPokedex = [];
-  List<FilterType> filters = [];
-  String _query = "";
+  String searchQuery = "";
+  bool isSearchOpened = false;
 
-  List<String> _drawerByTypesSelected = [];
-  bool _isSearchOpened = false;
+  List<FilterType> filters = [];
+  List<String> typesSelected = [];
+  List<Pokemon> originalPokedex = [];
+
+  ScrollController scrollController = ScrollController();
   TextEditingController editingController = TextEditingController();
   GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
   void initState() {
     originalPokedex.addAll(widget.pokemons);
-
     super.initState();
   }
 
@@ -47,7 +47,12 @@ class _PokedexListScreenState extends State<PokedexListScreen> {
       resizeToAvoidBottomInset: false,
       key: scaffoldKey,
       appBar: AppBarBase(
-        title: const Text("Pokedex"),
+        title: const Text(
+          "Pokedex",
+          style: TextStyle(
+            color: Colors.white,
+          ),
+        ),
         color: Colors.blueGrey[800],
         actions: appBarActions(),
       ),
@@ -58,27 +63,27 @@ class _PokedexListScreenState extends State<PokedexListScreen> {
         },
       ),
       body: Stack(
-        children: <Widget>[
+        children: [
           const BaseBackground(),
           SafeArea(
             child: Column(
               children: [
                 Search(
-                  isSearchOpened: _isSearchOpened,
+                  isSearchOpened: isSearchOpened,
                   editingController: editingController,
                   onCloseTap: () => {
                     setState(
                       () {
                         (editingController.text == "")
-                            ? _isSearchOpened = false
+                            ? isSearchOpened = false
                             : editingController.clear();
-                        _query = "";
+                        searchQuery = "";
                         applyFilters();
                       },
                     )
                   },
                   onValueChange: (value) {
-                    _query = value;
+                    searchQuery = value;
                     applyFilters();
                   },
                 ),
@@ -108,11 +113,11 @@ class _PokedexListScreenState extends State<PokedexListScreen> {
 
   void applyFilters() {
     setState(() {
-      (_query == "")
+      (searchQuery == "")
           ? removeFilters([FilterType.byValue])
           : addFilter(FilterType.byValue);
-      originalPokedex = widget.pokemons
-          .applyAllFilters(filters, _query, _drawerByTypesSelected);
+      originalPokedex =
+          widget.pokemons.applyAllFilters(filters, searchQuery, typesSelected);
     });
   }
 
@@ -131,17 +136,11 @@ class _PokedexListScreenState extends State<PokedexListScreen> {
       SearchButton(
         onPressed: () {
           setState(() {
-            _isSearchOpened = !_isSearchOpened;
+            isSearchOpened = !isSearchOpened;
           });
         },
       ),
       FiltersButton(scaffoldKey: scaffoldKey),
-      // IconButton(
-      //   icon: const Icon(Icons.more_vert),
-      //   onPressed: () {
-      //     setState(() {});
-      //   },
-      // ),
     ];
   }
 
@@ -149,12 +148,12 @@ class _PokedexListScreenState extends State<PokedexListScreen> {
     return [
       const Divider(thickness: 2),
       FilterByType(
-        selectedTypes: _drawerByTypesSelected,
+        selectedTypes: typesSelected,
         onTypeSelected: (List<String> list) {
           setState(
             () => {
-              _drawerByTypesSelected = list,
-              (_drawerByTypesSelected.isEmpty)
+              typesSelected = list,
+              (typesSelected.isEmpty)
                   ? removeFilters([FilterType.byType])
                   : addFilter(FilterType.byType),
               applyFilters(),
@@ -163,7 +162,7 @@ class _PokedexListScreenState extends State<PokedexListScreen> {
         },
         onClearPressed: () {
           setState(() {
-            _drawerByTypesSelected.clear();
+            typesSelected.clear();
             removeFilters([FilterType.byType]);
             applyFilters();
           });

@@ -1,14 +1,11 @@
-import 'dart:typed_data';
-
 import 'package:flutter/material.dart';
-import 'package:image_gallery_saver/image_gallery_saver.dart';
-import 'package:permission_handler/permission_handler.dart';
 import 'package:proto_dex/components/base_background.dart';
 import 'package:proto_dex/components/button_filters.dart';
 import 'package:proto_dex/components/button_screenshot.dart';
 import 'package:proto_dex/components/button_search.dart';
+import 'package:proto_dex/components/list_pokedex.dart';
 import 'package:proto_dex/constants.dart';
-import 'package:proto_dex/models/game.dart';
+import 'package:proto_dex/utils/enum_manager.dart';
 import 'package:screenshot/screenshot.dart';
 import '../components/app_bar.dart';
 import '../components/filters_side_screen.dart';
@@ -22,7 +19,6 @@ import '../utils/items_manager.dart';
 import 'fortrade_cards.dart';
 import 'fortrade_details_screen.dart';
 import 'fortrade_tile.dart';
-import '../pokedex/pokedex_cards.dart' as dex_card;
 
 class ForTradeScreen extends StatefulWidget {
   const ForTradeScreen({
@@ -35,7 +31,7 @@ class ForTradeScreen extends StatefulWidget {
 
 class _ForTradeScreenState extends State<ForTradeScreen> {
   final controller = ScreenshotController();
-  String _query = "";
+  String searchQuery = "";
   int _selectedTab = 0;
   bool _isSearchOpened = false;
   CollectionDisplayType displayType = CollectionDisplayType.flatList;
@@ -63,7 +59,7 @@ class _ForTradeScreenState extends State<ForTradeScreen> {
             const Text("For Trade"),
             if (displayType != CollectionDisplayType.flatList)
               Text(
-                getSubTitle(displayType),
+                displayType.text(),
                 style: const TextStyle(
                   fontSize: 10,
                   fontStyle: FontStyle.italic,
@@ -95,13 +91,13 @@ class _ForTradeScreenState extends State<ForTradeScreen> {
                         (editingController.text == "")
                             ? _isSearchOpened = false
                             : editingController.clear();
-                        _query = "";
+                        searchQuery = "";
                         applyFilters();
                       },
                     )
                   },
                   onValueChange: (value) {
-                    _query = value;
+                    searchQuery = value;
                     applyFilters();
                   },
                 ),
@@ -213,7 +209,7 @@ class _ForTradeScreenState extends State<ForTradeScreen> {
     collection = retrieveItems(kForTrade);
     collection.removeWhere((element) => element.ref == item.ref);
     saveItems(kForTrade, collection);
-    collection = collection.applyAllFilters(filters, _query);
+    collection = collection.applyAllFilters(filters, searchQuery);
   }
 
   void saveToCollection(Item item) {
@@ -225,19 +221,20 @@ class _ForTradeScreenState extends State<ForTradeScreen> {
       collection[index] = item;
     }
     saveItems(kForTrade, collection);
-    collection = collection.applyAllFilters(filters, _query);
+    collection = collection.applyAllFilters(filters, searchQuery);
   }
 
   void applyFilters() {
     setState(() {
-      (_query == "")
+      (searchQuery == "")
           ? removeFilters([FilterType.byValue])
           : addFilter(FilterType.byValue);
 
       collection = retrieveItems(kForTrade);
-      collection = collection.applyAllFilters(filters, _query);
+      collection = collection.applyAllFilters(filters, searchQuery);
 
-      originalPokedex = originalPokedex.applyAllFilters(filters, _query, null);
+      originalPokedex =
+          originalPokedex.applyAllFilters(filters, searchQuery, null);
     });
   }
 
@@ -281,76 +278,16 @@ class _ForTradeScreenState extends State<ForTradeScreen> {
   }
 
 //This is the Second Tab Bits
-  Expanded pokedex() {
-    return Expanded(
-      child: ListView.builder(
-        itemBuilder: ((context, index) {
-          return dex_card.createCards(
-            originalPokedex,
-            [index],
-            onStateChange: (indexes) {
-              List<Item> items = [createItem(originalPokedex, indexes)];
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) {
-                    return ForTradeDetailsPage(
-                      pokemons: items,
-                      indexes: const [0],
-                      onStateChange: (item) {
-                        saveToCollection(item);
-                      },
-                    );
-                  },
-                ),
-              );
-              setState(() {
-                () => {};
-              });
-            },
-          );
-        }),
-        itemCount: originalPokedex.length,
-        shrinkWrap: true,
-        padding: const EdgeInsets.all(5),
-        scrollDirection: Axis.vertical,
+  pokedex() {
+    return PokedexList(
+      detailsKey: kForTrade,
+      pageBuilder: (items, indexes) => ForTradeDetailsPage(
+        pokemons: items,
+        indexes: indexes,
+        onStateChange: (item) {
+          saveToCollection(item);
+        },
       ),
     );
-  }
-
-  Item createItem(List<Pokemon> pokemons, List<int> indexes) {
-    Pokemon pokemon = pokemons.current(indexes);
-    Game tempGame =
-        Game(name: "Unknown", dex: "", number: "", notes: "", shinyLocked: "");
-    Item item = Item.fromDex(pokemon, tempGame, kForTrade);
-    item.currentLocation = "Unknown";
-    item.catchDate = DateTime.now().toString();
-    return item;
-  }
-
-  Future<String> saveImage(Uint8List bytes) async {
-    await [Permission.storage].request();
-
-    final time = DateTime.now()
-        .toIso8601String()
-        .replaceAll('.', '-')
-        .replaceAll(':', '-');
-
-    final name = 'collection_$time';
-    final result = await ImageGallerySaver.saveImage(bytes, name: name);
-    return result['filePath'];
-  }
-
-  String getSubTitle(displayType) {
-    switch (displayType) {
-      case CollectionDisplayType.groupByCurrentGame:
-        return "(By Current Game)";
-      case CollectionDisplayType.groupByOriginalGame:
-        return "(By Origin Game)";
-      case CollectionDisplayType.groupByPokemon:
-        return "(By Pokemon)";
-      default:
-        return "";
-    }
   }
 }
