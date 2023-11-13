@@ -31,7 +31,7 @@ class LookingForScreen extends StatefulWidget {
 
 class _LookingForScreenState extends State<LookingForScreen> {
   final controller = ScreenshotController();
-  String _query = "";
+  String searchQuery = "";
   int _selectedTab = 0;
   bool _isSearchOpened = false;
   CollectionDisplayType displayType = CollectionDisplayType.flatList;
@@ -91,13 +91,13 @@ class _LookingForScreenState extends State<LookingForScreen> {
                         (editingController.text == "")
                             ? _isSearchOpened = false
                             : editingController.clear();
-                        _query = "";
+                        searchQuery = "";
                         applyFilters();
                       },
                     )
                   },
                   onValueChange: (value) {
-                    _query = value;
+                    searchQuery = value;
                     applyFilters();
                   },
                 ),
@@ -209,7 +209,7 @@ class _LookingForScreenState extends State<LookingForScreen> {
     collection = retrieveItems(kLookingFor);
     collection.removeWhere((element) => element.ref == item.ref);
     saveItems(kLookingFor, collection);
-    collection = collection.applyAllFilters(filters, _query);
+    collection = collection.applyAllFilters(filters, searchQuery);
   }
 
   void saveToCollection(Item item) {
@@ -221,19 +221,20 @@ class _LookingForScreenState extends State<LookingForScreen> {
       collection[index] = item;
     }
     saveItems(kLookingFor, collection);
-    collection = collection.applyAllFilters(filters, _query);
+    collection = collection.applyAllFilters(filters, searchQuery);
   }
 
   void applyFilters() {
     setState(() {
-      (_query == "")
+      (searchQuery == "")
           ? removeFilters([FilterType.byValue])
           : addFilter(FilterType.byValue);
 
       collection = retrieveItems(kLookingFor);
-      collection = collection.applyAllFilters(filters, _query);
+      collection = collection.applyAllFilters(filters, searchQuery);
 
-      originalPokedex = originalPokedex.applyAllFilters(filters, _query, null);
+      originalPokedex =
+          originalPokedex.applyAllFilters(filters, searchQuery, null);
     });
   }
 

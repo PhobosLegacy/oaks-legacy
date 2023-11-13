@@ -48,6 +48,62 @@ Icon to see 3 dots:
 //     setState(() {});
 //   },
 // ),
+
+
+
+
+
+
+*************Previous Scrollbar implementation*************
+// CustomScrollbar(
+//   scrollController: scrollController,
+//   child: ListView.builder(
+//     controller: scrollController,
+//     itemBuilder: ((context, index) {
+//       return createCards(
+//         originalPokedex,
+//         [index],
+//       );
+//     }),
+//     itemCount: originalPokedex.length,
+//     shrinkWrap: false,
+//     padding: const EdgeInsets.all(5),
+//     scrollDirection: Axis.vertical,
+//   ),
+// ),
+//This could be used if you want to keep the CustomScrollbar
+// ListView pokedexListView({String? detailsKey,
+//     Widget Function(List<Item>? items, List<int>? indexes)? pageBuilder}) {
+//   return ListView.builder(
+//     itemBuilder: ((context, index) {
+//       return createCards(
+//         kPokedex,
+//         [index],
+//         onStateChange: (pageBuilder != null)
+//             ? (indexes) {
+//                 List<Item> items = [
+//                   createPlaceholderItem(indexes, detailsKey!)
+//                 ];
+//                 Navigator.push(
+//                   context,
+//                   MaterialPageRoute(
+//                     builder: (context) {
+//                       return pageBuilder(items, [0]);
+//                     },
+//                   ),
+//                 );
+//               }
+//             : null,
+//       );
+//     }),
+//     itemCount: kPokedex.length,
+//     shrinkWrap: true,
+//     padding: const EdgeInsets.all(5),
+//     scrollDirection: Axis.vertical,
+//   );
+// }
+*************Previous Scrollbar implementation*************
+
  */
   String listBase;
 }

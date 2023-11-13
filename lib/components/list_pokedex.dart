@@ -21,39 +21,42 @@ class PokedexList extends StatefulWidget {
 
 class _PokedexListState extends State<PokedexList> {
   @override
-  Widget build(BuildContext context) {
-    return ListView.builder(
-      itemBuilder: ((context, index) {
-        return createCards(
-          kPokedex,
-          [index],
-          onStateChange: (widget.pageBuilder != null)
-              ? (indexes) {
-                  setState(() {
-                    List<Item> items = [
-                      createPlaceholderItem(indexes, widget.detailsKey!)
-                    ];
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) {
-                          return widget.pageBuilder!(items, [0]);
-                        },
-                      ),
-                    );
-                  });
-                }
-              : null,
-        );
-      }),
-      itemCount: kPokedex.length,
-      shrinkWrap: true,
-      padding: const EdgeInsets.all(5),
-      scrollDirection: Axis.vertical,
+  build(BuildContext context) {
+    return Expanded(
+      child: ListView.builder(
+        itemBuilder: ((context, index) {
+          return createCards(
+            kPokedex,
+            [index],
+            onStateChange: (widget.pageBuilder != null)
+                ? (indexes) {
+                    setState(() {
+                      List<Item> items = [
+                        createPlaceholderItem(indexes, widget.detailsKey!)
+                      ];
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) {
+                            return widget.pageBuilder!(items, [0]);
+                          },
+                        ),
+                      );
+                    });
+                  }
+                : null,
+          );
+        }),
+        itemCount: kPokedex.length,
+        shrinkWrap: true,
+        padding: const EdgeInsets.all(5),
+        scrollDirection: Axis.vertical,
+      ),
     );
   }
 }
 
+//This makes sure that when you click on one of the Pokedex list pokemon, it converts to an Item so it can be added to any collection
 Item createPlaceholderItem(List<int> indexes, String origin) {
   Pokemon pokemon = kPokedex.current(indexes);
   Game tempGame =
