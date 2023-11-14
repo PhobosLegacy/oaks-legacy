@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:proto_dex/components/app_bar_details.dart';
 import 'package:proto_dex/models/enums.dart';
 import '../models/item.dart';
 import '../models/tab.dart';
@@ -73,16 +74,13 @@ class _TrackerDetailsPageState extends State<TrackerDetailsPage> {
         children: [
           TypeBackground(
               type1: displayPokemon.type1, type2: displayPokemon.type2),
-          AppBar(
-            backgroundColor: Colors.transparent,
-            elevation: 0.0,
-          ),
-          DetailsHeader(
+          DetailsAppBar(
             name: displayPokemon.name,
             number: displayPokemon.number,
+          ),
+          DetailsHeader(
             type1: displayPokemon.type1,
             type2: displayPokemon.type2,
-            displayNumber: true,
           ),
           Panel(tabs: giveMeATab(displayPokemon)),
           WillPopScope(

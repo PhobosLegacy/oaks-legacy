@@ -49,11 +49,6 @@ Icon to see 3 dots:
 //   },
 // ),
 
-
-
-
-
-
 *************Previous Scrollbar implementation*************
 // CustomScrollbar(
 //   scrollController: scrollController,

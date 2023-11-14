@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../components/details_next_prev.dart';
-import '../components/empty_app_bar.dart';
+import '../components/app_bar_details.dart';
 import '../models/tab.dart';
 import '../components/breeding_card.dart';
 import '../components/type_background.dart';
@@ -47,13 +47,13 @@ class _PokedexDetailsPage extends State<PokedexDetailsPage> {
       body: Stack(
         children: [
           TypeBackground(type1: pokemon.type1, type2: pokemon.type2),
-          const EmptyAppBar(),
-          DetailsHeader(
+          DetailsAppBar(
             name: pokemon.name,
             number: pokemon.number,
+          ),
+          DetailsHeader(
             type1: pokemon.type1,
             type2: pokemon.type2,
-            displayNumber: true,
           ),
           Panel(tabs: buildTab(pokemon)),
           WillPopScope(
