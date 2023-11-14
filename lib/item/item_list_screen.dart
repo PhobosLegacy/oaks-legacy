@@ -1,41 +1,47 @@
 import 'package:flutter/material.dart';
-import 'package:proto_dex/components/base_background.dart';
-import 'package:proto_dex/components/button_filters.dart';
-import 'package:proto_dex/components/button_screenshot.dart';
-import 'package:proto_dex/components/button_search.dart';
-import 'package:proto_dex/components/list_pokedex.dart';
 import 'package:proto_dex/constants.dart';
+import 'package:proto_dex/item/item_details_screen.dart';
+import 'package:proto_dex/item/item_tile.dart';
 import 'package:proto_dex/utils/enum_manager.dart';
 import 'package:screenshot/screenshot.dart';
+
 import '../components/app_bar.dart';
+import '../components/base_background.dart';
+import '../components/button_filters.dart';
+import '../components/button_search.dart';
+import '../components/button_screenshot.dart';
 import '../components/filters_side_screen.dart';
 import '../components/group_list_by.dart';
+import '../components/list_pokedex.dart';
 import '../components/search_bar.dart';
 import '../models/enums.dart';
 import '../models/group.dart';
 import '../models/item.dart';
 import '../models/pokemon.dart';
 import '../utils/items_manager.dart';
-import 'collection_cards.dart';
-import 'collection_details_screen.dart';
-import 'collection_tile.dart';
+import 'item_expansion_tile.dart';
 
-class CollectionScreen extends StatefulWidget {
-  const CollectionScreen({
+class BaseCollectionScreen extends StatefulWidget {
+  final String screenKey;
+  final String title;
+
+  const BaseCollectionScreen({
+    required this.screenKey,
+    required this.title,
     super.key,
   });
 
   @override
-  State<CollectionScreen> createState() => _CollectionScreenState();
+  State<BaseCollectionScreen> createState() => _BaseCollectionScreenState();
 }
 
-class _CollectionScreenState extends State<CollectionScreen> {
+class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
   final controller = ScreenshotController();
   String searchQuery = "";
   int _selectedTab = 0;
-  bool isSearchOpened = false;
+  bool _isSearchOpened = false;
   CollectionDisplayType displayType = CollectionDisplayType.flatList;
-  List<Item> collection = List<Item>.empty(growable: true);
+  List<Item> collection = [];
   List<Pokemon> originalPokedex = [];
   List<FilterType> filters = [];
   TextEditingController editingController = TextEditingController();
@@ -44,7 +50,7 @@ class _CollectionScreenState extends State<CollectionScreen> {
   @override
   void initState() {
     originalPokedex.addAll(kPokedex);
-    collection = retrieveItems(kCollectionKey);
+    collection = retrieveItems(widget.screenKey);
     super.initState();
   }
 
@@ -56,12 +62,7 @@ class _CollectionScreenState extends State<CollectionScreen> {
       appBar: AppBarBase(
         title: Column(
           children: [
-            const Text(
-              "My Collection",
-              style: TextStyle(
-                color: Colors.white,
-              ),
-            ),
+            Text(widget.title),
             if (displayType != CollectionDisplayType.flatList)
               Text(
                 displayType.text(),
@@ -72,8 +73,8 @@ class _CollectionScreenState extends State<CollectionScreen> {
               ),
           ],
         ),
-        actions: appBarActions(),
         color: Colors.blueGrey[800],
+        actions: appBarActions(),
       ),
       endDrawer: FiltersSideScreen(
         filters: trackerFilters(),
@@ -82,19 +83,19 @@ class _CollectionScreenState extends State<CollectionScreen> {
         },
       ),
       body: Stack(
-        children: [
+        children: <Widget>[
           const BaseBackground(),
           SafeArea(
             child: Column(
               children: [
                 Search(
-                  isSearchOpened: isSearchOpened,
+                  isSearchOpened: _isSearchOpened,
                   editingController: editingController,
                   onCloseTap: () => {
                     setState(
                       () {
                         (editingController.text == "")
-                            ? isSearchOpened = false
+                            ? _isSearchOpened = false
                             : editingController.clear();
                         searchQuery = "";
                         applyFilters();
@@ -110,7 +111,7 @@ class _CollectionScreenState extends State<CollectionScreen> {
                   const Expanded(
                     child: Center(
                       child: Text(
-                        "You have no mons in your collection",
+                        "You have no items in your collection",
                         style: TextStyle(color: Colors.yellow, fontSize: 15),
                       ),
                     ),
@@ -127,7 +128,7 @@ class _CollectionScreenState extends State<CollectionScreen> {
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.check_circle_outline_outlined),
-            label: "Collection",
+            label: "My List",
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.add_circle),
@@ -149,7 +150,7 @@ class _CollectionScreenState extends State<CollectionScreen> {
     );
   }
 
-  collectionList() {
+  Widget collectionList() {
     List<Group> groups;
     switch (displayType) {
       case CollectionDisplayType.groupByCurrentGame:
@@ -176,33 +177,8 @@ class _CollectionScreenState extends State<CollectionScreen> {
                 : groups.length,
             itemBuilder: ((context, index) {
               return (displayType == CollectionDisplayType.flatList)
-                  ? CollectionTile(
-                      pokemons: collection,
-                      indexes: [index],
-                      onStateChange: (item) {
-                        setState(() {
-                          saveToCollection(item);
-                        });
-                      },
-                      onDelete: (item) {
-                        setState(() {
-                          removeFromColletion(item);
-                        });
-                      },
-                    )
-                  : createCards(
-                      groups[index],
-                      onStateChange: (item) {
-                        setState(() {
-                          saveToCollection(item);
-                        });
-                      },
-                      onDelete: (item) {
-                        setState(() {
-                          removeFromColletion(item);
-                        });
-                      },
-                    );
+                  ? createTile(collection, index)
+                  : createCards(groups[index]);
             }),
           ),
         ),
@@ -210,22 +186,56 @@ class _CollectionScreenState extends State<CollectionScreen> {
     );
   }
 
+  Widget createTile(List<Item> items, int index) {
+    // Common tile creation logic for each screen
+    return ItemTile(
+      pokemons: items,
+      indexes: [index],
+      onStateChange: (item) {
+        setState(() {
+          saveToCollection(item);
+        });
+      },
+      onDelete: (item) {
+        setState(() {
+          removeFromColletion(item);
+        });
+      },
+    );
+  }
+
+  cards(Group groups) {
+    return createCards(
+      groups,
+      onStateChange: (item) {
+        setState(() {
+          saveToCollection(item);
+        });
+      },
+      onDelete: (item) {
+        setState(() {
+          removeFromColletion(item);
+        });
+      },
+    );
+  }
+
   void removeFromColletion(Item item) {
-    collection = retrieveItems(kCollectionKey);
+    collection = retrieveItems(widget.screenKey);
     collection.removeWhere((element) => element.ref == item.ref);
-    saveItems(kCollectionKey, collection);
+    saveItems(widget.screenKey, collection);
     collection = collection.applyAllFilters(filters, searchQuery);
   }
 
   void saveToCollection(Item item) {
-    collection = retrieveItems(kCollectionKey);
+    collection = retrieveItems(widget.screenKey);
     final index = collection.indexWhere((element) => element.ref == item.ref);
     if (index == -1) {
       collection.add(item);
     } else {
       collection[index] = item;
     }
-    saveItems(kCollectionKey, collection);
+    saveItems(widget.screenKey, collection);
     collection = collection.applyAllFilters(filters, searchQuery);
   }
 
@@ -235,7 +245,7 @@ class _CollectionScreenState extends State<CollectionScreen> {
           ? removeFilters([FilterType.byValue])
           : addFilter(FilterType.byValue);
 
-      collection = retrieveItems(kCollectionKey);
+      collection = retrieveItems(widget.screenKey);
       collection = collection.applyAllFilters(filters, searchQuery);
 
       originalPokedex =
@@ -258,7 +268,7 @@ class _CollectionScreenState extends State<CollectionScreen> {
       SearchButton(
         onPressed: () {
           setState(() {
-            isSearchOpened = !isSearchOpened;
+            _isSearchOpened = !_isSearchOpened;
           });
         },
       ),
@@ -282,11 +292,11 @@ class _CollectionScreenState extends State<CollectionScreen> {
     ];
   }
 
-//This is the Second Tab Bits
+  // This is the Second Tab Bits
   pokedex() {
     return PokedexList(
-      detailsKey: kCollectionKey,
-      pageBuilder: (items, indexes) => CollectionDetailsPage(
+      detailsKey: widget.screenKey,
+      pageBuilder: (items, indexes) => ItemDetailsPage(
         pokemons: items,
         indexes: indexes,
         onStateChange: (item) {
@@ -295,4 +305,25 @@ class _CollectionScreenState extends State<CollectionScreen> {
       ),
     );
   }
+}
+
+class CollectionScreen extends BaseCollectionScreen {
+  const CollectionScreen({super.key})
+      : super(
+          screenKey: kCollectionKey,
+          title: 'My Collection',
+        );
+}
+
+class LookingForScreen extends BaseCollectionScreen {
+  const LookingForScreen({super.key})
+      : super(
+          screenKey: kLookingFor,
+          title: 'Looking For',
+        );
+}
+
+class ForTradeScreen extends BaseCollectionScreen {
+  const ForTradeScreen({super.key})
+      : super(screenKey: kForTrade, title: 'For Trade');
 }

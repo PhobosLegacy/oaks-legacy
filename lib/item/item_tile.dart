@@ -1,32 +1,37 @@
 import 'package:flutter/material.dart';
 import 'package:proto_dex/components/catch_card.dart';
-import 'package:proto_dex/fortrade/fortrade_details_screen.dart';
-import '../components/image.dart';
-import '../constants.dart';
-import '../models/enums.dart';
-import '../models/game.dart';
-import '../models/item.dart';
+import 'package:proto_dex/constants.dart';
+import 'package:proto_dex/components/image.dart';
+import 'package:proto_dex/item/item_details_screen.dart';
+import 'package:proto_dex/models/enums.dart';
+import 'package:proto_dex/models/game.dart';
+import 'package:proto_dex/models/item.dart';
 
-class ForTradeTile extends StatefulWidget {
-  const ForTradeTile(
-      {super.key,
-      required this.pokemons,
-      required this.indexes,
-      this.tileColor,
-      this.onStateChange,
-      this.onDelete});
+class ItemTile extends StatefulWidget {
+  const ItemTile({
+    super.key,
+    required this.pokemons,
+    required this.indexes,
+    this.tileColor,
+    required this.onStateChange,
+    required this.onDelete,
+    // required this.detailsPageRoute,
+  });
 
   final Color? tileColor;
   final List<Item> pokemons;
   final List<int> indexes;
   final Function(Item)? onStateChange;
   final Function(Item)? onDelete;
+  // final Widget Function(
+  //         List<Item> pokemons, List<int> indexes, Function(Item)? onStateChange)
+  //     detailsPageRoute;
 
   @override
-  State<ForTradeTile> createState() => _ForTradeTile();
+  State<ItemTile> createState() => _ItemTile();
 }
 
-class _ForTradeTile extends State<ForTradeTile> {
+class _ItemTile extends State<ItemTile> {
   @override
   Widget build(BuildContext context) {
     Item pokemon = widget.pokemons.current(widget.indexes);
@@ -35,19 +40,26 @@ class _ForTradeTile extends State<ForTradeTile> {
       child: ListTile(
         tileColor: widget.tileColor,
         textColor: Colors.black,
-        onTap: () => {
+        onTap: () {
           Navigator.push(
             context,
             MaterialPageRoute(
               builder: (context) {
-                return ForTradeDetailsPage(
+                return ItemDetailsPage(
                   pokemons: widget.pokemons,
                   indexes: widget.indexes,
                   onStateChange: widget.onStateChange,
                 );
               },
             ),
-          ),
+          );
+          // Navigator.push(
+          //   context,
+          //   MaterialPageRoute(
+          //     builder: (context) => widget.detailsPageRoute(
+          //         widget.pokemons, widget.indexes, widget.onStateChange),
+          //   ),
+          // );
         },
         onLongPress: () {
           widget.onDelete!(pokemon);
@@ -151,3 +163,24 @@ class _ForTradeTile extends State<ForTradeTile> {
     );
   }
 }
+
+
+/**
+ * Usage:
+ * 
+ *CustomTile(
+  key: UniqueKey(),
+  pokemons: yourPokemonList,
+  indexes: yourIndexesList,
+  tileColor: Colors.blue, // Provide your color
+  onStateChange: (Item item) {
+    // Handle state change
+  },
+  onDelete: (Item item) {
+    // Handle delete
+  },
+  detailsPageRoute: (List<Item> pokemons, List<int> indexes, Function(Item)? onStateChange) {
+    return YourDetailsPage(pokemons: pokemons, indexes: indexes, onStateChange: onStateChange);
+  },
+),
+ */

@@ -8,8 +8,8 @@ import '../components/type_background.dart';
 import '../components/image.dart';
 import '../components/details_panel.dart';
 
-class ForTradeDetailsPage extends StatefulWidget {
-  const ForTradeDetailsPage({
+class ItemDetailsPage extends StatefulWidget {
+  const ItemDetailsPage({
     super.key,
     required this.pokemons,
     required this.indexes,
@@ -21,10 +21,10 @@ class ForTradeDetailsPage extends StatefulWidget {
   final Function(Item)? onStateChange;
 
   @override
-  State<ForTradeDetailsPage> createState() => _ForTradeDetailsPageState();
+  State<ItemDetailsPage> createState() => _ItemDetailsPageState();
 }
 
-class _ForTradeDetailsPageState extends State<ForTradeDetailsPage> {
+class _ItemDetailsPageState extends State<ItemDetailsPage> {
   bool isFirstInList = false;
   bool isLastInList = false;
   bool isEditable = false;

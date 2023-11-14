@@ -28,7 +28,7 @@ class TrackerListScreen extends StatefulWidget {
 class _TrackerListScreenState extends State<TrackerListScreen> {
   List<Item> filteredList = [];
   List<FilterType> filters = [];
-  String _query = "";
+  String searchQuery = "";
   int _selectedIndex = 0;
   bool _exclusiveOnly = false;
   bool _isSearchOpened = false;
@@ -97,13 +97,13 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
                         (editingController.text == "")
                             ? _isSearchOpened = false
                             : editingController.clear();
-                        _query = "";
+                        searchQuery = "";
                         applyFilters();
                       },
                     )
                   },
                   onValueChange: (value) {
-                    _query = value;
+                    searchQuery = value;
                     applyFilters();
                   },
                 ),
@@ -180,12 +180,12 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
 
   void applyFilters() {
     setState(() {
-      (_query == "")
+      (searchQuery == "")
           ? removeFilters([FilterType.byValue])
           : addFilter(FilterType.byValue);
 
       filteredList = widget.collection
-          .applyAllFilters(filters, _query, _drawerByTypesSelected);
+          .applyAllFilters(filters, searchQuery, _drawerByTypesSelected);
     });
   }
 

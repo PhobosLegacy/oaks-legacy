@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:proto_dex/item/item_tile.dart';
 import '../../components/image.dart';
 import '../../models/group.dart';
-import '../../collection/collection_tile.dart';
 import '../models/item.dart';
 
 Widget createCards(
@@ -22,7 +22,6 @@ Widget createCards(
     }
   }
 
-  // var image = pokemons[index].displayImage;
   return Card(
     shape: RoundedRectangleBorder(
       borderRadius: BorderRadius.circular(5.0),
@@ -59,7 +58,7 @@ Widget createCards(
         ListView.builder(
           physics: const NeverScrollableScrollPhysics(),
           itemBuilder: (context, index2) {
-            return CollectionTile(
+            return ItemTile(
               pokemons: group.items,
               indexes: [index2],
               onStateChange: onStateChange,
