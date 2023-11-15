@@ -71,6 +71,20 @@ class ListImage extends StatelessWidget {
   }
 }
 
+class TrackerIcon extends StatelessWidget {
+  const TrackerIcon({
+    super.key,
+    required this.image,
+  });
+
+  final String image;
+
+  @override
+  Widget build(BuildContext context) {
+    return getImage('$kImageLocalPrefix$image', 50);
+  }
+}
+
 getImage(String image, double size, {bool shadow = false}) {
   return Image.network(
     image,
