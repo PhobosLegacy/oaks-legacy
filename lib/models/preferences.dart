@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:proto_dex/file_manager.dart';
+import 'package:oaks_legacy/file_manager.dart';
 
 class Preferences {
   bool revealUncaught;

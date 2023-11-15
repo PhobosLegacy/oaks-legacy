@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:proto_dex/components/catch_card.dart';
-import 'package:proto_dex/constants.dart';
-import 'package:proto_dex/components/image.dart';
-import 'package:proto_dex/item/item_details_screen.dart';
-import 'package:proto_dex/models/enums.dart';
-import 'package:proto_dex/models/game.dart';
-import 'package:proto_dex/models/item.dart';
+import 'package:oaks_legacy/components/catch_card.dart';
+import 'package:oaks_legacy/constants.dart';
+import 'package:oaks_legacy/components/image.dart';
+import 'package:oaks_legacy/item/item_details_screen.dart';
+import 'package:oaks_legacy/models/enums.dart';
+import 'package:oaks_legacy/models/game.dart';
+import 'package:oaks_legacy/models/item.dart';
 
 class ItemTile extends StatefulWidget {
   const ItemTile({

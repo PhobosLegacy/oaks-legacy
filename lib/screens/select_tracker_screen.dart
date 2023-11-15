@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:proto_dex/components/app_bar.dart';
-import 'package:proto_dex/components/base_background.dart';
-import 'package:proto_dex/components/start_tracking_button.dart';
-import 'package:proto_dex/components/tracker_option.dart';
-import 'package:proto_dex/components/tracker_options_title.dart';
+import 'package:oaks_legacy/components/app_bar.dart';
+import 'package:oaks_legacy/components/base_background.dart';
+import 'package:oaks_legacy/components/start_tracking_button.dart';
+import 'package:oaks_legacy/components/tracker_option.dart';
+import 'package:oaks_legacy/components/tracker_options_title.dart';
 import '../models/tracker.dart';
 import '../models/game.dart';
 import '../tracker/tracker_list_screen.dart';

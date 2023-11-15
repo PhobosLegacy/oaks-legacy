@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:proto_dex/components/image.dart';
+import 'package:oaks_legacy/components/image.dart';
 
 class TrackerOption extends StatelessWidget {
   const TrackerOption({

@@ -1,4 +1,4 @@
-import 'package:proto_dex/models/enums.dart';
+import 'package:oaks_legacy/models/enums.dart';
 
 extension CollectionDisplayTypeExtension on CollectionDisplayType {
   String text() {

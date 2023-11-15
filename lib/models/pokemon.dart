@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
-import 'package:proto_dex/constants.dart';
+import 'package:oaks_legacy/constants.dart';
 import 'breeding.dart';
 import 'gender_ratio.dart';
 import 'weakness.dart';

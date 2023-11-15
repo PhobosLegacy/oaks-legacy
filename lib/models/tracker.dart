@@ -1,7 +1,7 @@
 import 'item.dart';
 import '../constants.dart';
 import 'package:uuid/uuid.dart';
-import 'package:proto_dex/models/enums.dart';
+import 'package:oaks_legacy/models/enums.dart';
 
 class Tracker {
   String name;

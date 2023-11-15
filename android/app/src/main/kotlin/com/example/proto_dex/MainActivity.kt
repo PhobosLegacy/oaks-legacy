@@ -1,4 +1,4 @@
-package com.example.proto_dex
+package com.phobos.oaks_legacy
 
 import io.flutter.embedding.android.FlutterActivity
 

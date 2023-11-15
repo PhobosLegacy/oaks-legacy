@@ -1,8 +1,8 @@
 import 'dart:math';
 import 'package:confetti/confetti.dart';
 import 'package:flutter/material.dart';
-import 'package:proto_dex/constants.dart';
-import 'package:proto_dex/tracker/tracker_details_screen.dart';
+import 'package:oaks_legacy/constants.dart';
+import 'package:oaks_legacy/tracker/tracker_details_screen.dart';
 import '../../components/image.dart';
 import '../../models/game.dart';
 import '../models/item.dart';

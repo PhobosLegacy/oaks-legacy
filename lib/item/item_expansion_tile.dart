@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:proto_dex/item/item_tile.dart';
+import 'package:oaks_legacy/item/item_tile.dart';
 import '../../components/image.dart';
 import '../../models/group.dart';
 import '../models/item.dart';

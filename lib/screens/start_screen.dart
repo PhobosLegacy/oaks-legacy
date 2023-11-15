@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:proto_dex/components/base_background.dart';
-import 'package:proto_dex/components/disclaimer.dart';
-import 'package:proto_dex/components/main_button.dart';
-import 'package:proto_dex/constants.dart';
-import 'package:proto_dex/item/item_list_screen.dart';
-import 'package:proto_dex/pokedex/pokedex_list_screen.dart';
+import 'package:oaks_legacy/components/base_background.dart';
+import 'package:oaks_legacy/components/disclaimer.dart';
+import 'package:oaks_legacy/components/main_button.dart';
+import 'package:oaks_legacy/constants.dart';
+import 'package:oaks_legacy/item/item_list_screen.dart';
+import 'package:oaks_legacy/pokedex/pokedex_list_screen.dart';
 import 'preferences_screen.dart';
-import 'package:proto_dex/screens/select_tracker_screen.dart';
+import 'package:oaks_legacy/screens/select_tracker_screen.dart';
 
 class StartScreen extends StatefulWidget {
   const StartScreen({super.key});

@@ -1,5 +1,5 @@
-import 'package:proto_dex/models/enums.dart';
-import 'package:proto_dex/models/pokemon.dart';
+import 'package:oaks_legacy/models/enums.dart';
+import 'package:oaks_legacy/models/pokemon.dart';
 import 'package:uuid/uuid.dart';
 
 import '../constants.dart';

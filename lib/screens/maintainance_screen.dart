@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:proto_dex/components/base_background.dart';
+import 'package:oaks_legacy/components/base_background.dart';
 
 class MaintainanceScreen extends StatefulWidget {
   const MaintainanceScreen({super.key});

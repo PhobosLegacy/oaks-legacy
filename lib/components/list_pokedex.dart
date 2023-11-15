@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:proto_dex/constants.dart';
-import 'package:proto_dex/models/game.dart';
-import 'package:proto_dex/models/item.dart';
-import 'package:proto_dex/models/pokemon.dart';
-import 'package:proto_dex/pokedex/pokedex_cards.dart';
+import 'package:oaks_legacy/constants.dart';
+import 'package:oaks_legacy/models/game.dart';
+import 'package:oaks_legacy/models/item.dart';
+import 'package:oaks_legacy/models/pokemon.dart';
+import 'package:oaks_legacy/pokedex/pokedex_cards.dart';
 
 class PokedexList extends StatefulWidget {
   const PokedexList({

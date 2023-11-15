@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "proto_dex" "\0"
+            VALUE "FileDescription", "oaks_legacy" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "proto_dex" "\0"
+            VALUE "InternalName", "oaks_legacy" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2022 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "proto_dex.exe" "\0"
-            VALUE "ProductName", "proto_dex" "\0"
+            VALUE "OriginalFilename", "oaks_legacy.exe" "\0"
+            VALUE "ProductName", "oaks_legacy" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:proto_dex/constants.dart';
-// import 'package:proto_dex/models/tracker.dart';
-import 'package:proto_dex/tracker/tracker_tiles.dart';
+import 'package:oaks_legacy/constants.dart';
+// import 'package:oaks_legacy/models/tracker.dart';
+import 'package:oaks_legacy/tracker/tracker_tiles.dart';
 import '../../components/image.dart';
 import '../../models/enums.dart';
 import '../../models/item.dart';

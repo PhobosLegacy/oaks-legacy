@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:proto_dex/constants.dart';
+import 'package:oaks_legacy/constants.dart';
 import '../models/enums.dart';
 import '../models/pokemon.dart';
 

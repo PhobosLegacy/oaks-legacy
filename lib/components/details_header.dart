@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:proto_dex/components/image.dart';
-import 'package:proto_dex/models/enums.dart';
+import 'package:oaks_legacy/components/image.dart';
+import 'package:oaks_legacy/models/enums.dart';
 
 class DetailsHeader extends StatelessWidget {
   const DetailsHeader({

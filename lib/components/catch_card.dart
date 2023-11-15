@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:proto_dex/constants.dart';
-import 'package:proto_dex/models/enums.dart';
+import 'package:oaks_legacy/constants.dart';
+import 'package:oaks_legacy/models/enums.dart';
 import '../../components/basic.dart';
 import '../../models/game.dart';
 import '../../models/item.dart';

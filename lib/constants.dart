@@ -1,4 +1,4 @@
-import 'package:proto_dex/models/preferences.dart';
+import 'package:oaks_legacy/models/preferences.dart';
 
 import 'models/pokemon.dart';
 

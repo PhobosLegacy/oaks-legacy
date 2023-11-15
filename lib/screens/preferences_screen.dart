@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:proto_dex/components/app_bar.dart';
-import 'package:proto_dex/components/base_background.dart';
-import 'package:proto_dex/components/switch_option.dart';
-import 'package:proto_dex/constants.dart';
-import 'package:proto_dex/models/preferences.dart';
+import 'package:oaks_legacy/components/app_bar.dart';
+import 'package:oaks_legacy/components/base_background.dart';
+import 'package:oaks_legacy/components/switch_option.dart';
+import 'package:oaks_legacy/constants.dart';
+import 'package:oaks_legacy/models/preferences.dart';
 
 class PreferencesScreen extends StatefulWidget {
   const PreferencesScreen({super.key});

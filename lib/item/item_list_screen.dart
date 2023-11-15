@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:proto_dex/constants.dart';
-import 'package:proto_dex/item/item_details_screen.dart';
-import 'package:proto_dex/item/item_tile.dart';
-import 'package:proto_dex/utils/enum_manager.dart';
+import 'package:oaks_legacy/constants.dart';
+import 'package:oaks_legacy/item/item_details_screen.dart';
+import 'package:oaks_legacy/item/item_tile.dart';
+import 'package:oaks_legacy/utils/enum_manager.dart';
 import 'package:screenshot/screenshot.dart';
 
 import '../components/app_bar.dart';

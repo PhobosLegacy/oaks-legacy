@@ -1,6 +1,6 @@
 {
-    "name": "proto_dex",
-    "short_name": "proto_dex",
+    "name": "oaks_legacy",
+    "short_name": "oaks_legacy",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

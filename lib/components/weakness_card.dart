@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:proto_dex/components/image.dart';
+import 'package:oaks_legacy/components/image.dart';
 import '../../components/basic.dart';
 import '../../models/enums.dart';
 import '../../models/pokemon.dart';

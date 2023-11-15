@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:proto_dex/components/base_background.dart';
-import 'package:proto_dex/models/game.dart';
-import 'package:proto_dex/tracker/tracker_cards.dart';
+import 'package:oaks_legacy/components/base_background.dart';
+import 'package:oaks_legacy/models/game.dart';
+import 'package:oaks_legacy/tracker/tracker_cards.dart';
 import '../components/app_bar.dart';
 import '../components/filter_by_type.dart';
 import '../components/filters_side_screen.dart';

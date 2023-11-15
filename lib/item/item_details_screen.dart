@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:proto_dex/components/app_bar_details.dart';
+import 'package:oaks_legacy/components/app_bar_details.dart';
 import '../models/enums.dart';
 import '../models/item.dart';
 import '../models/tab.dart';

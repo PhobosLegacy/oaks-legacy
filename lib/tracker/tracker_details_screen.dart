@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:proto_dex/components/app_bar_details.dart';
-import 'package:proto_dex/models/enums.dart';
+import 'package:oaks_legacy/components/app_bar_details.dart';
+import 'package:oaks_legacy/models/enums.dart';
 import '../models/item.dart';
 import '../models/tab.dart';
 import '../components/catch_card.dart';
