@@ -11,7 +11,8 @@ TODO BUG iOS: Back button on details screen overlaps with pokemon name
 TODO BUG iOS: List to have a back button on iOS
 TODO BUG iOS: Details page remove static height/width as it breaks on iOS
 TODO BUG iOS: Check why image looks smaller on iOS????
-
+TODO BUG iOS: iPhone SE Alolan Sandshrew/Sandslash have render issue on Weaknesses  cause overflow
+TODO BUG: Charizard Gigantamax on collection with attributes cause overflow
 TODO: Add generation property + generation filter (use to test the auto updates)
 TODO: Tracker is displaying forms that are not really catchable (eg. Mimiko hunger form, Ogerpon masks)
 TODO: Scroll bar on other screens?

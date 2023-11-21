@@ -19,7 +19,7 @@ class DetailsHeader extends StatelessWidget {
       padding: const EdgeInsets.fromLTRB(20, 60, 20, 0),
       child: Column(
         children: [
-          const Divider(thickness: 2, color: Colors.black),
+          // const Divider(thickness: 2, color: Colors.black),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[

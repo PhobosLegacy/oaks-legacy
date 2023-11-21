@@ -15,38 +15,68 @@ class DetailsAppBar extends StatelessWidget {
       backgroundColor: Colors.transparent,
       elevation: 0,
       centerTitle: true,
-      title: Row(
+      title: Column(
         children: [
-          Expanded(
-            flex: 4,
-            child: FittedBox(
-              fit: BoxFit.scaleDown,
-              child: Text(
-                name,
-                style: const TextStyle(
-                  fontSize: 25,
-                  fontFamily: 'SigmarOne',
-                  color: Colors.black,
-                ),
+          FittedBox(
+            fit: BoxFit.scaleDown,
+            child: Text(
+              name,
+              style: const TextStyle(
+                fontSize: 45,
+                fontFamily: 'SigmarOne',
+                color: Colors.black,
               ),
             ),
           ),
-          const Spacer(),
-          if (number != "" && number.isNotEmpty)
-            Expanded(
-              child: FittedBox(
-                fit: BoxFit.scaleDown,
-                child: Text(
-                  '#$number',
-                  style: const TextStyle(
-                    fontFamily: 'SigmarOne',
-                    color: Colors.black,
-                  ),
-                ),
-              ),
-            ),
+          // const Divider(
+          //   thickness: 2,
+          //   color: Colors.black,
+          //   height: 0.5,
+          // ),
+          // if (number != "" && number.isNotEmpty)
+          //   Text(
+          //     '#$number',
+          //     style: const TextStyle(
+          //       fontFamily: 'SigmarOne',
+          //       color: Colors.black,
+          //     ),
+          //   ),
         ],
       ),
     );
   }
 }
+
+
+// title: Row(
+//         children: [
+//           Expanded(
+//             flex: 4,
+//             child: FittedBox(
+//               fit: BoxFit.scaleDown,
+//               child: Text(
+//                 name,
+//                 style: const TextStyle(
+//                   fontSize: 25,
+//                   fontFamily: 'SigmarOne',
+//                   color: Colors.black,
+//                 ),
+//               ),
+//             ),
+//           ),
+//           const Spacer(),
+//           if (number != "" && number.isNotEmpty)
+//             Expanded(
+//               child: FittedBox(
+//                 fit: BoxFit.scaleDown,
+//                 child: Text(
+//                   '#$number',
+//                   style: const TextStyle(
+//                     fontFamily: 'SigmarOne',
+//                     color: Colors.black,
+//                   ),
+//                 ),
+//               ),
+//             ),
+//         ],
+//       ),

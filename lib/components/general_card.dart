@@ -28,6 +28,12 @@ class GeneralInformationCard extends StatelessWidget {
                   children: [
                     Center(
                       child: Text(
+                        '#${pokemon.number}',
+                        style: const TextStyle(color: Colors.white),
+                      ),
+                    ),
+                    Center(
+                      child: Text(
                         pokemon.species,
                         style: const TextStyle(color: Colors.white),
                       ),

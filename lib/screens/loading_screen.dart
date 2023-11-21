@@ -1,13 +1,14 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:proto_dex/components/base_background.dart';
-import 'package:proto_dex/models/preferences.dart';
-import 'package:proto_dex/models/version.dart';
-import 'package:proto_dex/screens/maintainance_screen.dart';
-import 'package:proto_dex/screens/start_screen.dart';
-import 'package:proto_dex/file_manager.dart';
-import 'package:proto_dex/models/pokemon.dart';
-import 'package:proto_dex/constants.dart';
+import 'package:oaks_legacy/components/base_background.dart';
+import 'package:oaks_legacy/models/preferences.dart';
+import 'package:oaks_legacy/models/version.dart';
+import 'package:oaks_legacy/pokedex/pokedex_details_screen.dart';
+import 'package:oaks_legacy/screens/maintainance_screen.dart';
+import 'package:oaks_legacy/screens/start_screen.dart';
+import 'package:oaks_legacy/file_manager.dart';
+import 'package:oaks_legacy/models/pokemon.dart';
+import 'package:oaks_legacy/constants.dart';
 import 'package:http/http.dart' as http;
 
 class LoadingScreen extends StatefulWidget {
@@ -96,8 +97,12 @@ class _LoadingScreenState extends State<LoadingScreen> {
 
     kPokedex = await Pokemon.createPokedex(pokedex);
     // await Future.delayed(const Duration(seconds: 2));
-    openStartScreen(const MaintainanceScreen());
-    // openStartScreen(const StartScreen());
+    // openStartScreen(const MaintainanceScreen());
+    openStartScreen(const StartScreen());
+    // openStartScreen(PokedexDetailsPage(
+    //   pokemons: kPokedex,
+    //   indexes: const [0],
+    // ));
   }
 
   Future<String> fetchData(String url) async {
