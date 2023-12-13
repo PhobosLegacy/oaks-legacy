@@ -1,3 +1,5 @@
+import 'dart:js_util';
+
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/base_background.dart';
 import 'package:oaks_legacy/components/disclaimer.dart';
@@ -20,57 +22,53 @@ class _StartScreenState extends State<StartScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Stack(
-        children: <Widget>[
+        children: [
           const BaseBackground(),
-          Column(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  MainScreenButton(
-                    name: 'Pokedex',
-                    image: 'main/mew.png',
-                    screen: PokedexListScreen(pokemons: kPokedex),
-                  ),
-                ],
-              ),
-              const Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  MainScreenButton(
-                    name: 'Collection',
-                    image: 'main/pikachu.png',
-                    screen: CollectionScreen(),
-                  ),
-                  MainScreenButton(
-                    name: 'Trackers',
-                    image: 'main/eevee.png',
-                    screen: SelectTrackerScreen(),
-                  ),
-                ],
-              ),
-              const Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  MainScreenButton(
-                    name: 'Looking For',
-                    image: 'main/bulbasaur.png',
-                    screen: LookingForScreen(),
-                  ),
-                  MainScreenButton(
-                    name: 'For Trade',
-                    image: 'main/charmander.png',
-                    screen: ForTradeScreen(),
-                  ),
-                  MainScreenButton(
-                    name: 'Settings',
-                    image: 'main/squirtle.png',
-                    screen: PreferencesScreen(),
-                  ),
-                ],
-              ),
-            ],
+          Center(
+            child: Wrap(
+              spacing: 20,
+              runSpacing: 20,
+              direction: Axis.horizontal,
+              alignment: WrapAlignment.start,
+              children: [
+                MainScreenButton(
+                  title: 'Pokedex',
+                  subtitle: 'Check data of all Pokemon!',
+                  image: 'main/mew.png',
+                  screen: PokedexListScreen(pokemons: kPokedex),
+                ),
+                const MainScreenButton(
+                  title: 'Collection',
+                  subtitle: 'See and edit your collection.',
+                  image: 'main/pikachu.png',
+                  screen: CollectionScreen(),
+                ),
+                const MainScreenButton(
+                  title: 'Trackers',
+                  subtitle: 'Track your progress through game pokedex!',
+                  image: 'main/eevee.png',
+                  screen: SelectTrackerScreen(),
+                ),
+                const MainScreenButton(
+                  title: 'Looking For',
+                  subtitle: 'Make a list of the pokemon you are looking for.',
+                  image: 'main/bulbasaur.png',
+                  screen: LookingForScreen(),
+                ),
+                const MainScreenButton(
+                  title: 'For Trade',
+                  subtitle: 'Show everyone what you have for trade!',
+                  image: 'main/charmander.png',
+                  screen: ForTradeScreen(),
+                ),
+                const MainScreenButton(
+                  title: 'Settings',
+                  subtitle: 'Set up trainer names and other configs',
+                  image: 'main/squirtle.png',
+                  screen: PreferencesScreen(),
+                ),
+              ],
+            ),
           ),
           const Disclaimer(),
         ],
