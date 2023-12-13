@@ -9,25 +9,24 @@ class Disclaimer extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Padding(
       padding: EdgeInsets.all(5),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.end,
-        children: [
-          DisclaimerText(
-            text:
-                "Pokémon and its trademarks are ©1995-2023 Nintendo,  Creatures, and GAMEFREAK.",
-          ),
-          Divider(height: 6),
-          DisclaimerText(
-            text:
-                "All images and names owned and trademarked by Nintendo, The Pokémon Company, and GAMEFREAK are property of their respective owners.",
-          ),
-          Divider(height: 6),
-          DisclaimerText(
-            text:
-                "This website is not officially affiliated with Pokémon and is intended to fall under Fair Use doctrine, similar to any other informational site such as a wiki.",
-          ),
-          Divider(height: 6),
-        ],
+      child: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.end,
+          children: [
+            DisclaimerText(
+              text:
+                  "Pokémon and its trademarks are ©1995-2023 Nintendo,  Creatures, and GAMEFREAK.",
+            ),
+            DisclaimerText(
+              text:
+                  "All images and names owned and trademarked by Nintendo, The Pokémon Company, and GAMEFREAK are property of their respective owners.",
+            ),
+            DisclaimerText(
+              text:
+                  "This website is not officially affiliated with Pokémon and is intended to fall under Fair Use doctrine, similar to any other informational site such as a wiki.",
+            ),
+          ],
+        ),
       ),
     );
   }

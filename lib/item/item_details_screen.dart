@@ -79,10 +79,9 @@ class _ItemDetailsPageState extends State<ItemDetailsPage> {
             type2: displayPokemon.type2,
           ),
           Panel(tabs: giveMeATab(displayPokemon)),
-          WillPopScope(
-              onWillPop: () async {
+          PopScope(
+              onPopInvoked: (didpop) async {
                 Navigator.pop(context, false);
-                return false;
               },
               child: MainImage(imagePath: displayPokemon.displayImage)),
         ],

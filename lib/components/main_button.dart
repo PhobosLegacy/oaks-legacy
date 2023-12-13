@@ -16,8 +16,8 @@ class MainScreenButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    double height = MediaQuery.of(context).size.width > 600 ? 200 : 100;
-    double widght = MediaQuery.of(context).size.width > 600 ? 500 : 400;
+    double height = MediaQuery.of(context).size.width > 1024 ? 200 : 100;
+    double widght = MediaQuery.of(context).size.width > 1024 ? 500 : 400;
     return GestureDetector(
       onTap: () {
         Navigator.push(
@@ -72,13 +72,12 @@ class MainScreenButton extends StatelessWidget {
                   Expanded(
                     child: Text(
                       subtitle,
-                      style: const TextStyle(
+                      style: TextStyle(
                         color: Colors.white70,
-                        fontSize: 20,
+                        fontSize: (height / 10) + 5,
                         fontStyle: FontStyle.italic,
                       ),
                       maxLines: 2,
-                      overflow: TextOverflow.ellipsis,
                     ),
                   ),
                 ],

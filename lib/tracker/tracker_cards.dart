@@ -73,7 +73,6 @@ Widget createCards(
           itemBuilder: (context, index2) {
             return createCards(pokemons, [...indexes, index2],
                 onStateChange: () {
-              print('My Test');
               onStateChange!();
             }, subLevel: true);
           },
