@@ -83,9 +83,10 @@ class _TrackerDetailsPageState extends State<TrackerDetailsPage> {
             type2: displayPokemon.type2,
           ),
           Panel(tabs: giveMeATab(displayPokemon)),
-          PopScope(
-              onPopInvoked: (didPop) async {
+          WillPopScope(
+              onWillPop: () async {
                 Navigator.pop(context, false);
+                return false;
               },
               child: MainImage(imagePath: displayPokemon.displayImage)),
         ],
