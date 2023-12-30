@@ -86,7 +86,9 @@ class _PokedexListScreenState extends State<PokedexListScreen> {
                     applyFilters();
                   },
                 ),
-                const PokedexList(),
+                PokedexList(
+                  pokemons: originalPokedex,
+                ),
               ],
             ),
           ),

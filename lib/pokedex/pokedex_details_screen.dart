@@ -56,12 +56,20 @@ class _PokedexDetailsPage extends State<PokedexDetailsPage> {
             type2: pokemon.type2,
           ),
           Panel(tabs: buildTab(pokemon)),
-          WillPopScope(
-              onWillPop: () async {
-                imageIndex = 0;
-                Navigator.pop(context, false);
-                return false;
+          PopScope(
+              canPop: true,
+              onPopInvoked: (didPop) {
+                if (!didPop) {
+                  imageIndex = 0;
+                  Navigator.pop(context, false);
+                }
               },
+              // WillPopScope(
+              //     onWillPop: () async {
+              //       imageIndex = 0;
+              //       Navigator.pop(context, false);
+              //       return false;
+              //     },
               child: Hero(
                   tag: pokemon.ref,
                   child: MainImage(imagePath: pokemon.image[imageIndex]))),

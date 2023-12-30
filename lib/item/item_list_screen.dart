@@ -295,6 +295,7 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
   // This is the Second Tab Bits
   pokedex() {
     return PokedexList(
+      pokemons: originalPokedex,
       detailsKey: widget.screenKey,
       pageBuilder: (items, indexes) => ItemDetailsPage(
         pokemons: items,
