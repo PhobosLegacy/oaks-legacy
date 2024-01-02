@@ -101,6 +101,29 @@ Icon to see 3 dots:
 // }
 *************Previous Scrollbar implementation*************
 
+To check if a tracker is missing a number
+  List<int> numbers =
+      tracker.pokemons.map((tracker) => int.parse(tracker.number)).toList();
+  List<int> missingNumbers = findMissingNumbers(numbers, 1, 242);
+
+  if (missingNumbers.isEmpty) {
+    print("No missing numbers found.");
+  } else {
+    print("Missing numbers: $missingNumbers");
+  }
+List<int> findMissingNumbers(List<int> numbersList, int start, int end) {
+  Set<int> numbersSet = Set<int>.from(numbersList);
+  List<int> missingNumbers = [];
+
+  for (int i = start; i <= end; i++) {
+    if (!numbersSet.contains(i)) {
+      missingNumbers.add(i);
+    }
+  }
+
+  return missingNumbers;
+}
+
  */
   String listBase;
 }

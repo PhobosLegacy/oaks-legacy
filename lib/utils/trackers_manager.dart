@@ -36,9 +36,14 @@ Tracker createTracker(
   Tracker tracker =
       Tracker.create(trackerName, gameName, dexName, trackerType, pokemons);
 
-  for (var pokemon in kPokedex) {
-    Item? item = checkPokemon(pokemon, gameName, dexName, tracker.ref,
-        isShinyTracker, isLivingDexTracker);
+  List<Pokemon> pokedex = List.from(kPokedex);
+  for (var pokemon in pokedex) {
+    Item? item = checkPokemon(pokemon,
+        gameName: gameName,
+        dexName: dexName,
+        entryOrigin: tracker.ref,
+        isShinyTracker: isShinyTracker,
+        isLivingDexTracker: isLivingDexTracker);
     if (item != null) {
       if (isLivingDexTracker) {
         if (item.hasGenderDiff()) {
@@ -60,15 +65,13 @@ Tracker createTracker(
 
           item.forms.insert(0, male);
           item.forms.insert(1, female);
-        } else if (item.forms.isNotEmpty) {
-          item.forms.insert(0, Item.copy(item));
         }
       }
-
+      //(dexPokemon.formName == "") ? dexPokemon.name : dexPokemon.formName,
+      item.displayName = item.name;
       pokemons.add(item);
     }
   }
-
   tracker.pokemons.sortBy((pokemon) => pokemon.number);
   tracker = applyTrackerChanges(tracker);
 
@@ -86,56 +89,80 @@ Tracker applyTrackerChanges(Tracker tracker) {
   return tracker;
 }
 
-Item? checkPokemon(Pokemon pokemon, gameName, dexName, entryOrigin,
-    isShinyTracker, isLivingDexTracker) {
+Item? checkPokemon(
+  Pokemon pokemon, {
+  required String gameName,
+  required String dexName,
+  required String entryOrigin,
+  required bool isShinyTracker,
+  required bool isLivingDexTracker,
+}) {
   Item? item;
-  if (pokemon.forms.isEmpty) {
-    item = createItem(pokemon, gameName, dexName, entryOrigin, isShinyTracker);
-  } else {
+
+  if (pokemon.forms.isEmpty && pokemon.hasGameAndDex(gameName, dexName)) {
+    Game game = pokemon.getGameDex(gameName, dexName);
+    if ((isShinyTracker && game.shinyLocked == "UNLOCKED") || !isShinyTracker) {
+      item = createNewItem(pokemon, game, entryOrigin, isShinyTracker);
+    }
+  } else if (pokemon.forms.isNotEmpty) {
+    List<Item> forms = [];
     for (var form in pokemon.forms) {
-      Item? result = checkPokemon(form, gameName, dexName, entryOrigin,
-          isShinyTracker, isLivingDexTracker);
-      if (result == null) continue;
-      if (item == null) {
-        item = result;
-      } else if (isLivingDexTracker) {
-        item.displayName = item.formName;
-        result.displayName = result.formName;
-        item.forms.add(Item.copy(result));
+      Item? itemFromForm = checkPokemon(form,
+          gameName: gameName,
+          dexName: dexName,
+          entryOrigin: entryOrigin,
+          isShinyTracker: isShinyTracker,
+          isLivingDexTracker: isLivingDexTracker);
+
+      if (itemFromForm != null) {
+        forms.add(itemFromForm);
       }
     }
+    if (pokemon.hasGameAndDex(gameName, dexName)) {
+      Game game = pokemon.getGameDex(gameName, dexName);
+      if ((isShinyTracker && game.shinyLocked == "UNLOCKED") ||
+          !isShinyTracker) {
+        item = createNewItem(pokemon, game, entryOrigin, isShinyTracker);
+        item.forms.addAll(forms);
+        if (item.forms.length == 1) {
+          item.forms.clear();
+        }
+      }
+    } else if (forms.isNotEmpty) {
+      item = forms[0];
+      forms.removeAt(0);
+      item.forms.addAll(forms);
+    }
+
+    if (!isLivingDexTracker && item != null) {
+      item.forms.clear();
+    }
   }
+
   return item;
 }
 
-Item? createItem(
-    Pokemon pokemon, gameName, dexName, entryOrigin, isShinyTracker) {
-  Game? game = pokemon.findGameDex(gameName, dexName);
-  if (game != null) {
-    if ((isShinyTracker && game.shinyLocked == "UNLOCKED") || !isShinyTracker) {
-      Item item =
-          Item.fromDex(pokemon, game, entryOrigin, useGameDexNumber: true);
-      if (isShinyTracker) {
-        item.displayImage =
-            item.image.firstWhere((img) => img.contains("-shiny-"));
-        item.attributes.add(PokemonAttributes.isShiny);
-        for (var form in item.forms) {
-          form.displayImage =
-              form.image.firstWhere((img) => img.contains("-shiny-"));
-          form.attributes.add(PokemonAttributes.isShiny);
-        }
-      }
-      if (pokemon.genderRatio.genderless == "100") {
-        item.gender = PokemonGender.genderless;
-      } else if (pokemon.genderRatio.male == "100") {
-        item.gender = PokemonGender.male;
-      } else if (pokemon.genderRatio.female == "100") {
-        item.gender = PokemonGender.female;
-      }
-      item.originalLocation = gameName;
-      item.currentLocation = gameName;
-      return item;
-    }
+Item createNewItem(Pokemon pokemon, Game game, entryOrigin, isShinyTracker) {
+  Item item = Item.fromDex(pokemon, game, entryOrigin, useGameDexNumber: true);
+  item.forms.clear();
+  item.displayName = (item.formName == "") ? item.name : item.formName;
+  if (isShinyTracker) {
+    item.displayImage = item.image.firstWhere((img) => img.contains("-shiny-"));
+    item.attributes.add(PokemonAttributes.isShiny);
+    // for (var form in item.forms) {
+    //   form.displayImage =
+    //       form.image.firstWhere((img) => img.contains("-shiny-"));
+    //   form.attributes.add(PokemonAttributes.isShiny);
+    // }
   }
-  return null;
+  if (pokemon.genderRatio.genderless == "100") {
+    item.gender = PokemonGender.genderless;
+  } else if (pokemon.genderRatio.male == "100") {
+    item.gender = PokemonGender.male;
+  } else if (pokemon.genderRatio.female == "100") {
+    item.gender = PokemonGender.female;
+  }
+  item.originalLocation = game.name;
+  item.currentLocation = game.name;
+  return item;
 }

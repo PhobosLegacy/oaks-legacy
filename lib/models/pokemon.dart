@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'breeding.dart';
@@ -343,9 +342,15 @@ class Pokemon {
     }
   }
 
-  Game? findGameDex(String gameName, String dexName) {
-    return games.firstWhereOrNull(
+  Game getGameDex(String gameName, String dexName) {
+    return games.firstWhere(
         (element) => element.name == gameName && element.dex == dexName);
+  }
+
+  bool hasGameAndDex(String gameName, String gameDex) {
+    return games.any((game) => game.name == gameName && game.dex == gameDex);
+    // // Check games in nested forms recursively
+    // return forms.any((form) => form.hasGame(gameName));
   }
 }
 
