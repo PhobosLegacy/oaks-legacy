@@ -42,8 +42,7 @@ Tracker createTracker(
         gameName: gameName,
         dexName: dexName,
         entryOrigin: tracker.ref,
-        isShinyTracker: isShinyTracker,
-        isLivingDexTracker: isLivingDexTracker);
+        isShinyTracker: isShinyTracker);
     if (item != null) {
       if (isLivingDexTracker) {
         if (item.hasGenderDiff()) {
@@ -53,7 +52,6 @@ Tracker createTracker(
           Item female = Item.copy(item);
           female.gender = PokemonGender.female;
           female.displayName = "${female.name} ♀";
-
           female.displayImage = item.image.firstWhere(
               (img) => img.contains("-f.") && img.contains(variant));
 
@@ -69,11 +67,12 @@ Tracker createTracker(
       }
       //(dexPokemon.formName == "") ? dexPokemon.name : dexPokemon.formName,
       item.displayName = item.name;
-      pokemons.add(item);
+      tracker.pokemons.add(item);
     }
   }
+
+  tracker = applyTrackerChanges(tracker, isLivingDexTracker);
   tracker.pokemons.sortBy((pokemon) => pokemon.number);
-  tracker = applyTrackerChanges(tracker);
 
   saveTracker(tracker);
 
@@ -81,22 +80,36 @@ Tracker createTracker(
 }
 
 //Some tracker requires specific changes or additions to the Pokemon
-Tracker applyTrackerChanges(Tracker tracker) {
+Tracker applyTrackerChanges(Tracker tracker, bool isLivingDexTracker) {
   if (tracker.dex == "Vivillons") {
     tracker.pokemons.addAll(tracker.pokemons.first.forms);
     tracker.pokemons.removeAt(0);
   }
+
+  if (tracker.dex == "Mightiest Mark") {
+    List<Item> flatList = [];
+    for (var pokemon in tracker.pokemons) {
+      (pokemon.forms.isEmpty)
+          ? flatList.add(pokemon)
+          : flatList.addAll(pokemon.forms);
+    }
+    tracker.pokemons = flatList;
+  }
+
+  if (!isLivingDexTracker) {
+    for (var pokemon in tracker.pokemons) {
+      pokemon.forms.clear();
+    }
+  }
+
   return tracker;
 }
 
-Item? checkPokemon(
-  Pokemon pokemon, {
-  required String gameName,
-  required String dexName,
-  required String entryOrigin,
-  required bool isShinyTracker,
-  required bool isLivingDexTracker,
-}) {
+Item? checkPokemon(Pokemon pokemon,
+    {required String gameName,
+    required String dexName,
+    required String entryOrigin,
+    required bool isShinyTracker}) {
   Item? item;
 
   if (pokemon.forms.isEmpty && pokemon.hasGameAndDex(gameName, dexName)) {
@@ -111,8 +124,7 @@ Item? checkPokemon(
           gameName: gameName,
           dexName: dexName,
           entryOrigin: entryOrigin,
-          isShinyTracker: isShinyTracker,
-          isLivingDexTracker: isLivingDexTracker);
+          isShinyTracker: isShinyTracker);
 
       if (itemFromForm != null) {
         forms.add(itemFromForm);
@@ -132,10 +144,6 @@ Item? checkPokemon(
       item = forms[0];
       forms.removeAt(0);
       item.forms.addAll(forms);
-    }
-
-    if (!isLivingDexTracker && item != null) {
-      item.forms.clear();
     }
   }
 
