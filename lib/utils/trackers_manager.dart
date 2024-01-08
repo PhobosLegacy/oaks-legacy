@@ -147,6 +147,22 @@ Item? checkPokemon(Pokemon pokemon,
     }
   }
 
+  //To avoid a exclusive pokemon with form to be the main parent
+  if (item != null && item.forms.isNotEmpty) {
+    //if notes is not empty means it is an exclusive form
+    if (item.game.notes != "" &&
+        item.forms.any((element) => element.game.notes == "")) {
+      // List<Item> prevForms = item.forms;
+      // item = item.forms.firstWhere((element) => element.game.notes == "");
+      // item.forms.addAll(prevForms);
+
+      Item newParent =
+          item.forms.firstWhere((element) => element.game.notes == "");
+      newParent.forms.addAll(item.forms);
+      return newParent;
+    }
+  }
+
   return item;
 }
 

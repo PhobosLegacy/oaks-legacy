@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:oaks_legacy/components/base_background.dart';
 import 'package:oaks_legacy/models/preferences.dart';
 import 'package:oaks_legacy/models/version.dart';
@@ -46,54 +47,30 @@ class _LoadingScreenState extends State<LoadingScreen> {
 
   void loadFiles() async {
     await FileManager.loadPreferences();
-    // FileManager.removeAllKeys();
-    Data serverData =
-        Data.fromJson(jsonDecode(await fetchData(kServerVersionLocation)));
-
-    bool checkVersioning = true;
 
     //********* Resolve Versions file *********\\
-    Data localData = (FileManager.exists(kVersionsKey))
-        ? Data.fromJson(jsonDecode(FileManager.get(kVersionsKey)))
-        : serverData;
+    Data localData = Data.fromJson(jsonDecode(FileManager.get(kVersionsKey)));
 
     FileManager.save(kVersionsKey, jsonEncode(localData));
     //***************************************\\
 
     //********* Resolve Preferences file *********\\
-    kPreferences = (FileManager.exists(kPreferencesKey))
-        ? Preferences.fromJson(jsonDecode(FileManager.get(kPreferencesKey)))
-        : Preferences.fromJson(jsonDecode(await fetchData(kServerPreferences)));
+    kPreferences =
+        Preferences.fromJson(jsonDecode(FileManager.get(kPreferencesKey)));
 
     FileManager.save(kPreferencesKey, jsonEncode(kPreferences));
     //***************************************\\
 
     //********* Resolve Pokedex file *********\\
-    String pokedex = (FileManager.exists(kPokedexKey))
-        ? FileManager.get(kPokedexKey)
-        : await fetchData(kServerPokedexLocation);
+    String pokedex = FileManager.get(kPokedexKey);
 
     FileManager.save(kPokedexKey, pokedex);
     //***************************************\\
 
-    if (serverData.app > localData.app) {
-      displayUpdateAlert();
-      checkVersioning = false;
-    }
-
-    if (checkVersioning) {
-      if (serverData.dex > localData.dex) {
-        pokedex = await fetchData(kServerPokedexLocation);
-
-        localData.dex = serverData.dex;
-        FileManager.save(kVersionsKey, jsonEncode(localData));
-      }
-    }
-
     //For debugging:
-    // var file = await rootBundle.loadString(kPokedexFileLocation);
-    // kPokedex = await Pokemon.createPokedex(file);
-    kPokedex = await Pokemon.createPokedex(pokedex);
+    var file = await rootBundle.loadString(kPokedexFileLocation);
+    kPokedex = await Pokemon.createPokedex(file);
+    // kPokedex = await Pokemon.createPokedex(pokedex);
 
     // await Future.delayed(const Duration(seconds: 2));
     // openStartScreen(const MaintainanceScreen());
@@ -103,6 +80,66 @@ class _LoadingScreenState extends State<LoadingScreen> {
     //   indexes: const [0],
     // ));
   }
+
+  // void loadFiles() async {
+  //   await FileManager.loadPreferences();
+  //   // FileManager.removeAllKeys();
+  //   Data serverData =
+  //       Data.fromJson(jsonDecode(await fetchData(kServerVersionLocation)));
+
+  //   bool checkVersioning = true;
+
+  //   //********* Resolve Versions file *********\\
+  //   Data localData = (FileManager.exists(kVersionsKey))
+  //       ? Data.fromJson(jsonDecode(FileManager.get(kVersionsKey)))
+  //       : serverData;
+
+  //   FileManager.save(kVersionsKey, jsonEncode(localData));
+  //   //***************************************\\
+
+  //   //********* Resolve Preferences file *********\\
+  //   kPreferences = (FileManager.exists(kPreferencesKey))
+  //       ? Preferences.fromJson(jsonDecode(FileManager.get(kPreferencesKey)))
+  //       : Preferences.fromJson(jsonDecode(await fetchData(kServerPreferences)));
+
+  //   FileManager.save(kPreferencesKey, jsonEncode(kPreferences));
+  //   //***************************************\\
+
+  //   //********* Resolve Pokedex file *********\\
+  //   String pokedex = (FileManager.exists(kPokedexKey))
+  //       ? FileManager.get(kPokedexKey)
+  //       : await fetchData(kServerPokedexLocation);
+
+  //   FileManager.save(kPokedexKey, pokedex);
+  //   //***************************************\\
+
+  //   if (serverData.app > localData.app) {
+  //     displayUpdateAlert();
+  //     checkVersioning = false;
+  //   }
+
+  //   if (checkVersioning) {
+  //     if (serverData.dex > localData.dex) {
+  //       pokedex = await fetchData(kServerPokedexLocation);
+
+  //       localData.dex = serverData.dex;
+  //       FileManager.save(kVersionsKey, jsonEncode(localData));
+  //     }
+  //   }
+
+  //   //For debugging:
+  //   var file = await rootBundle.loadString(kPokedexFileLocation);
+  //   kPokedex = await Pokemon.createPokedex(file);
+  //   // kPokedex = await Pokemon.createPokedex(pokedex);
+
+  //   // await Future.delayed(const Duration(seconds: 2));
+  //   // openStartScreen(const MaintainanceScreen());
+  //   openStartScreen(const StartScreen());
+  //   // openStartScreen(PokedexDetailsPage(
+  //   //   pokemons: kPokedex,
+  //   //   indexes: const [0],
+  //   // ));
+  // }
 
   Future<String> fetchData(String url) async {
     final response = await http.get(Uri.parse(url));

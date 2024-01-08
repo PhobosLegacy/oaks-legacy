@@ -137,8 +137,8 @@ class Dex {
     return [
       "Pokemon Scarlet",
       "Pokemon Violet",
-      // "Pokemon Sword",
-      // "Pokemon Shield",
+      "Pokemon Sword",
+      "Pokemon Shield",
       "Let's Go Pikachu",
       "Let's Go Eevee",
       // "Pokemon X",
