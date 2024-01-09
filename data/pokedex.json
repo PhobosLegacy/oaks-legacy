@@ -32184,7 +32184,7 @@
   },
   {
     "name": "Darmanitan",
-    "formName": "",
+    "formName": "Standard Mode",
     "species": "Blazing Pokémon",
     "height": "1.3m",
     "weight": "92.9kg",
@@ -32205,8 +32205,8 @@
     "games": [],
     "forms": [
       {
-        "name": "Zen Mode",
-        "formName": "",
+        "name": "Darmanitan",
+        "formName": "Zen Mode",
         "species": "Blazing Pokémon",
         "height": "1.3m",
         "weight": "92.9kg",
@@ -32293,7 +32293,22 @@
             "weaknessdouble": ["water", "fighting", "ground"],
             "weaknessquadruple": ["rock"],
             "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-            "games": []
+            "games": [
+              {
+                "name": "Pokemon Sword",
+                "dex": "Regional",
+                "number": "368",
+                "shinyLocked": "UNLOCKED",
+                "notes": ""
+              },
+              {
+                "name": "Pokemon Shield",
+                "dex": "Regional",
+                "number": "368",
+                "shinyLocked": "UNLOCKED",
+                "notes": "Sword Exclusive"
+              }
+            ]
           }
         ],
         "games": []
