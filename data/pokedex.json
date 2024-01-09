@@ -2203,6 +2203,20 @@
         "number": "029",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "065",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "065",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -2239,6 +2253,20 @@
         "name": "Let's Go Eevee",
         "dex": "Regional",
         "number": "030",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "066",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "066",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -2279,6 +2307,20 @@
         "number": "031",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "067",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "067",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -2315,6 +2357,20 @@
         "name": "Let's Go Eevee",
         "dex": "Regional",
         "number": "032",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "068",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "068",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -2355,6 +2411,20 @@
         "number": "033",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "069",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "069",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -2391,6 +2461,20 @@
         "name": "Let's Go Eevee",
         "dex": "Regional",
         "number": "034",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "070",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "070",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -2459,6 +2543,20 @@
         "number": "255",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "044",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "044",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -2523,6 +2621,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "256",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "045",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "045",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -2964,6 +3076,20 @@
         "number": "041",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "144",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "144",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -3005,6 +3131,20 @@
         "name": "Let's Go Eevee",
         "dex": "Regional",
         "number": "042",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "145",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "145",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -5769,6 +5909,20 @@
             "number": "333",
             "shinyLocked": "UNLOCKED",
             "notes": ""
+          },
+          {
+            "name": "Pokemon Sword",
+            "dex": "Crown Tundra",
+            "number": "105",
+            "shinyLocked": "UNLOCKED",
+            "notes": "Shield Exclusive"
+          },
+          {
+            "name": "Pokemon Shield",
+            "dex": "Crown Tundra",
+            "number": "105",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
           }
         ]
       }
@@ -5843,6 +5997,20 @@
             "name": "Pokemon Shield",
             "dex": "Regional",
             "number": "334",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Sword",
+            "dex": "Crown Tundra",
+            "number": "106",
+            "shinyLocked": "UNLOCKED",
+            "notes": "Shield Exclusive"
+          },
+          {
+            "name": "Pokemon Shield",
+            "dex": "Crown Tundra",
+            "number": "106",
             "shinyLocked": "UNLOCKED",
             "notes": ""
           }
@@ -9203,6 +9371,20 @@
             "number": "365",
             "shinyLocked": "UNLOCKED",
             "notes": ""
+          },
+          {
+            "name": "Pokemon Sword",
+            "dex": "Crown Tundra",
+            "number": "011",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Shield",
+            "dex": "Crown Tundra",
+            "number": "011",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
           }
         ]
       }
@@ -9327,6 +9509,20 @@
         "number": "124",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "014",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "014",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -9379,6 +9575,20 @@
         "number": "011",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "016",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "016",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -9429,6 +9639,20 @@
         "name": "Pokemon Violet",
         "dex": "Blueberry",
         "number": "014",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "019",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "019",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -9808,6 +10032,20 @@
         "number": "042",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "062",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "062",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -9905,6 +10143,20 @@
         "name": "Pokemon Shield",
         "dex": "Isle of Armor",
         "number": "043",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "063",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "063",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -10009,6 +10261,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "361",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "190",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "190",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -10214,6 +10480,20 @@
         "number": "196",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "074",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "074",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -10318,6 +10598,20 @@
         "number": "197",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "075",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "075",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -10384,6 +10678,20 @@
         "number": "198",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "076",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "076",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -10448,6 +10756,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "199",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "077",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "077",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -10554,6 +10876,20 @@
         "number": "138",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "123",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "123",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Sword Exclusive"
       }
     ],
     "forms": []
@@ -10592,6 +10928,20 @@
         "number": "139",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "124",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "124",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Sword Exclusive"
       }
     ],
     "forms": []
@@ -10628,6 +10978,20 @@
         "name": "Let's Go Eevee",
         "dex": "Regional",
         "number": "140",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "125",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Shield Exclusive"
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "125",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -10668,6 +11032,20 @@
         "number": "141",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "126",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Shield Exclusive"
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "126",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -10704,6 +11082,20 @@
         "name": "Let's Go Eevee",
         "dex": "Regional",
         "number": "142",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "127",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "127",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -10793,6 +11185,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "261",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "173",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "173",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -10894,7 +11300,22 @@
         "weaknessdouble": ["electric", "ice", "rock", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Sword",
+            "dex": "Crown Tundra",
+            "number": "202",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Shield",
+            "dex": "Crown Tundra",
+            "number": "202",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       }
     ]
   },
@@ -10955,7 +11376,22 @@
         "weaknessdouble": ["electric", "ice", "flying", "psychic", "fairy"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Sword",
+            "dex": "Crown Tundra",
+            "number": "203",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Shield",
+            "dex": "Crown Tundra",
+            "number": "203",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       }
     ]
   },
@@ -11016,7 +11452,22 @@
         "weaknessdouble": ["electric", "ice", "rock", "fairy"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Sword",
+            "dex": "Crown Tundra",
+            "number": "204",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Shield",
+            "dex": "Crown Tundra",
+            "number": "204",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       }
     ]
   },
@@ -11066,6 +11517,20 @@
         "name": "Let's Go Eevee",
         "dex": "Regional",
         "number": "147",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "194",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "194",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -11120,6 +11585,20 @@
         "number": "148",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "195",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "195",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -11170,6 +11649,20 @@
         "name": "Let's Go Eevee",
         "dex": "Regional",
         "number": "149",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "196",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "196",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -12056,7 +12549,22 @@
     "weaknessdouble": ["electric", "ice", "psychic", "rock"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "146",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "146",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -12317,6 +12825,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "254",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "043",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "043",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -13466,6 +13988,20 @@
         "number": "200",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "079",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "079",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -13516,6 +14052,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "201",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "078",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "078",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -15034,6 +15584,20 @@
         "number": "227",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "170",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "170",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -15197,6 +15761,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "292",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "028",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "028",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -15436,6 +16014,20 @@
         "number": "075",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "007",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "007",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -15491,6 +16083,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "076",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "008",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "008",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -15713,6 +16319,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "078",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "120",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "120",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -16354,7 +16974,22 @@
     "weaknessdouble": ["fire", "bug", "rock", "ghost", "dark", "steel"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "013",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "013",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -16389,6 +17024,20 @@
         "name": "Pokemon Violet",
         "dex": "Blueberry",
         "number": "010",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "015",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "015",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -16427,6 +17076,20 @@
         "name": "Pokemon Violet",
         "dex": "Blueberry",
         "number": "013",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "018",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "018",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -16654,6 +17317,20 @@
         "number": "383",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "139",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "139",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -16706,6 +17383,20 @@
         "number": "384",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "140",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "140",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -16756,6 +17447,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "385",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "141",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "141",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -17412,6 +18117,20 @@
         "number": "031",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "071",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "071",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -17486,6 +18205,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "032",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "072",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "072",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -19276,6 +20009,20 @@
         "number": "294",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "174",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "174",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -19361,6 +20108,20 @@
         "number": "295",
         "shinyLocked": "UNLOCKED",
         "notes": "Sword Exclusive"
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "175",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "175",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -19432,7 +20193,22 @@
     "weaknessdouble": ["water"],
     "weaknessquadruple": ["fighting", "ground"],
     "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "191",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "191",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -19455,7 +20231,22 @@
     "weaknessdouble": ["water"],
     "weaknessquadruple": ["fighting", "ground"],
     "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "192",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "192",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -19478,7 +20269,22 @@
     "weaknessdouble": ["water"],
     "weaknessquadruple": ["fighting", "ground"],
     "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "193",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "193",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": [
       {
         "name": "Mega Aggron",
@@ -20851,6 +21657,20 @@
         "number": "114",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "035",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "035",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -20901,6 +21721,20 @@
         "name": "Pokemon Violet",
         "dex": "Blueberry",
         "number": "115",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "036",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "036",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -21194,6 +22028,20 @@
         "number": "137",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "060",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "060",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -21272,6 +22120,20 @@
         "name": "Pokemon Shield",
         "dex": "Isle of Armor",
         "number": "138",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "061",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "061",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -21444,6 +22306,20 @@
         "number": "082",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "151",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "151",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -21482,6 +22358,20 @@
         "number": "083",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "152",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "152",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -21506,7 +22396,22 @@
     "weaknessdouble": ["ice", "fighting", "bug", "steel"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "87.5", "female": "12.5", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "183",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "183",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -21529,7 +22434,22 @@
     "weaknessdouble": ["ice", "fighting", "bug", "steel"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "87.5", "female": "12.5", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "184",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "184",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -21552,7 +22472,22 @@
     "weaknessdouble": ["water", "rock", "steel"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "87.5", "female": "12.5", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "185",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "185",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -21575,7 +22510,22 @@
     "weaknessdouble": ["water", "rock", "steel"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "87.5", "female": "12.5", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "186",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "186",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -21624,6 +22574,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "152",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "188",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "188",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -21681,6 +22645,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "153",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "189",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "189",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -22099,7 +23077,22 @@
     "weaknessdouble": ["fighting", "bug", "fairy"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "107",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "107",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": [
       {
         "name": "Mega Absol",
@@ -22225,6 +23218,20 @@
         "number": "079",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "025",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "025",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -22291,6 +23298,20 @@
         "number": "080",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "026",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "026",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -22353,7 +23374,22 @@
     "weaknessdouble": ["electric", "grass", "fighting", "rock"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "159",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "159",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -22376,7 +23412,22 @@
     "weaknessdouble": ["electric", "grass", "fighting", "rock"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "160",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "160",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -22399,7 +23450,22 @@
     "weaknessdouble": ["electric", "grass", "fighting", "rock"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "161",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "161",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -22496,7 +23562,22 @@
     "weaknessdouble": ["electric", "fighting", "ground"],
     "weaknessquadruple": ["grass"],
     "genderRatio": { "male": "87.5", "female": "12.5", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "187",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "187",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -22585,6 +23666,20 @@
         "number": "276",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "113",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "113",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Sword Exclusive"
       }
     ],
     "forms": []
@@ -22623,6 +23718,20 @@
         "number": "277",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "114",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "114",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Sword Exclusive"
       }
     ],
     "forms": []
@@ -22661,6 +23770,20 @@
         "number": "278",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "115",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "115",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Sword Exclusive"
       }
     ],
     "forms": [
@@ -22731,6 +23854,20 @@
         "number": "137",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "129",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "129",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -22778,6 +23915,20 @@
         "number": "138",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "130",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "130",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -22823,6 +23974,20 @@
         "name": "Pokemon Violet",
         "dex": "Blueberry",
         "number": "139",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "131",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "131",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -22881,7 +24046,22 @@
     "weaknessdouble": ["water", "grass", "fighting", "ground", "steel"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "197",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "197",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -22904,7 +24084,22 @@
     "weaknessdouble": ["fire", "fighting", "rock", "steel"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "198",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "198",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -22938,7 +24133,22 @@
     "weaknessdouble": ["fire", "fighting", "ground"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "199",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "199",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -25799,6 +27009,20 @@
         "number": "118",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "087",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "087",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -25872,6 +27096,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "119",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "088",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "088",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -25976,6 +27214,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "364",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "010",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "010",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -26105,6 +27357,20 @@
         "number": "302",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "047",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "047",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -26160,6 +27426,20 @@
         "name": "Pokemon Violet",
         "dex": "Kitakami",
         "number": "164",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "116",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Shield Exclusive"
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "116",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -26219,6 +27499,20 @@
         "number": "165",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "117",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Shield Exclusive"
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "117",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -26274,6 +27568,20 @@
         "name": "Pokemon Violet",
         "dex": "Kitakami",
         "number": "166",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "118",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Shield Exclusive"
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "118",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -26351,6 +27659,20 @@
         "number": "260",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "172",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "172",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -26417,6 +27739,20 @@
         "number": "298",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "134",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "134",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -26481,6 +27817,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "299",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "135",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "135",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -27126,6 +28476,20 @@
         "number": "096",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "031",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "031",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -27195,6 +28559,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "097",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "032",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "032",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -27311,6 +28689,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "293",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "029",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "029",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -27579,6 +28971,20 @@
         "number": "012",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "017",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "017",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -27615,6 +29021,20 @@
         "name": "Pokemon Violet",
         "dex": "Blueberry",
         "number": "015",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "020",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "020",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -27745,6 +29165,20 @@
         "number": "202",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "081",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "081",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -27795,6 +29229,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "203",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "080",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "080",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -27890,6 +29338,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "077",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "009",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "009",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -28216,6 +29678,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "081",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "027",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "027",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -30902,7 +32378,22 @@
     "weaknessdouble": ["fighting"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "021",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "021",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": [
       {
         "name": "Mega Audino",
@@ -30976,6 +32467,20 @@
         "number": "171",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "057",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "057",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -31028,6 +32533,20 @@
         "number": "172",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "058",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "058",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -31078,6 +32597,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "173",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "059",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "059",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -31557,6 +33090,20 @@
         "number": "262",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "168",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "168",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -31614,6 +33161,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "263",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "169",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "169",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -31830,6 +33391,20 @@
         "number": "154",
         "shinyLocked": "UNLOCKED",
         "notes": "Sword Exclusive"
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "064",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "064",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -31881,6 +33456,20 @@
             "number": "154",
             "shinyLocked": "UNLOCKED",
             "notes": ""
+          },
+          {
+            "name": "Pokemon Sword",
+            "dex": "Crown Tundra",
+            "number": "064",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Shield",
+            "dex": "Crown Tundra",
+            "number": "064",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
           }
         ]
       },
@@ -31916,6 +33505,20 @@
             "name": "Pokemon Violet",
             "dex": "Kitakami",
             "number": "194",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Sword",
+            "dex": "Crown Tundra",
+            "number": "064",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Shield",
+            "dex": "Crown Tundra",
+            "number": "064",
             "shinyLocked": "UNLOCKED",
             "notes": ""
           }
@@ -32177,6 +33780,20 @@
             "number": "367",
             "shinyLocked": "UNLOCKED",
             "notes": "Sword Exclusive"
+          },
+          {
+            "name": "Pokemon Sword",
+            "dex": "Crown Tundra",
+            "number": "103",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Shield",
+            "dex": "Crown Tundra",
+            "number": "103",
+            "shinyLocked": "UNLOCKED",
+            "notes": "Sword Exclusive"
           }
         ]
       }
@@ -32292,6 +33909,20 @@
                 "number": "368",
                 "shinyLocked": "UNLOCKED",
                 "notes": "Sword Exclusive"
+              },
+              {
+                "name": "Pokemon Sword",
+                "dex": "Crown Tundra",
+                "number": "104",
+                "shinyLocked": "UNLOCKED",
+                "notes": ""
+              },
+              {
+                "name": "Pokemon Shield",
+                "dex": "Crown Tundra",
+                "number": "104",
+                "shinyLocked": "UNLOCKED",
+                "notes": "Sword Exclusive"
               }
             ]
           }
@@ -32310,10 +33941,23 @@
             "number": "368",
             "shinyLocked": "UNLOCKED",
             "notes": "Sword Exclusive"
+          },
+          {
+            "name": "Pokemon Sword",
+            "dex": "Crown Tundra",
+            "number": "104",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Shield",
+            "dex": "Crown Tundra",
+            "number": "104",
+            "shinyLocked": "UNLOCKED",
+            "notes": "Sword Exclusive"
           }
         ]
       }
-      
     ]
   },
   {
@@ -32747,7 +34391,22 @@
     "weaknessdouble": [],
     "weaknessquadruple": [],
     "genderRatio": { "male": "87.5", "female": "12.5", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "147",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "147",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -32770,7 +34429,22 @@
     "weaknessdouble": [],
     "weaknessquadruple": [],
     "genderRatio": { "male": "87.5", "female": "12.5", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "148",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "148",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -32793,7 +34467,22 @@
     "weaknessdouble": ["water", "electric", "ice", "rock", "steel"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "87.5", "female": "12.5", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "149",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "149",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -32816,7 +34505,22 @@
     "weaknessdouble": ["water", "electric", "ice", "rock", "steel"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "87.5", "female": "12.5", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "150",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "150",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -33249,6 +34953,20 @@
         "number": "267",
         "shinyLocked": "UNLOCKED",
         "notes": "Sword Exclusive"
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "051",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "051",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -33315,6 +35033,20 @@
         "number": "268",
         "shinyLocked": "UNLOCKED",
         "notes": "Sword Exclusive"
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "052",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "052",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -33381,6 +35113,20 @@
         "number": "269",
         "shinyLocked": "UNLOCKED",
         "notes": "Sword Exclusive"
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "053",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "053",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -33431,6 +35177,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "270",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "054",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "054",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -33485,6 +35245,20 @@
         "number": "271",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "055",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "055",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -33535,6 +35309,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "272",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "056",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "056",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -33651,6 +35439,20 @@
         "number": "072",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "022",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "022",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -33689,6 +35491,20 @@
         "number": "073",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "023",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "023",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -33725,6 +35541,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "074",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "024",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "024",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -34277,6 +36107,20 @@
         "number": "066",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "095",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "095",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -34335,6 +36179,20 @@
         "name": "Pokemon Shield",
         "dex": "Isle of Armor",
         "number": "067",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "096",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "096",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -34659,6 +36517,20 @@
         "number": "064",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "093",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "093",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -34711,6 +36583,20 @@
         "number": "065",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "094",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "094",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -34758,6 +36644,20 @@
         "number": "189",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "179",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "179",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -34803,6 +36703,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "190",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "180",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "180",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -35278,6 +37192,20 @@
         "number": "287",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "048",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "048",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -35330,6 +37258,20 @@
         "number": "288",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "049",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "049",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -35380,6 +37322,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "289",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "050",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "050",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -35646,6 +37602,20 @@
         "number": "279",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "121",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "121",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -35712,6 +37682,20 @@
         "number": "280",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "122",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "122",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -35748,6 +37732,20 @@
         "name": "Pokemon Violet",
         "dex": "Regional",
         "number": "360",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "030",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "030",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -35802,6 +37800,20 @@
         "number": "064",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "097",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "097",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -35852,6 +37864,20 @@
         "name": "Pokemon Shield",
         "dex": "Isle of Armor",
         "number": "065",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "098",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "098",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -36065,6 +38091,20 @@
         "number": "063",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "119",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "119",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -36117,6 +38157,20 @@
         "number": "088",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "153",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "153",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -36167,6 +38221,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "089",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "154",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "154",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -36768,6 +38836,20 @@
         "number": "317",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "102",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "102",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -36812,6 +38894,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "316",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "101",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "101",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -36866,6 +38962,20 @@
         "number": "386",
         "shinyLocked": "UNLOCKED",
         "notes": "Sword Exclusive"
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "136",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "136",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -36918,6 +39028,20 @@
         "number": "387",
         "shinyLocked": "UNLOCKED",
         "notes": "Sword Exclusive"
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "137",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "137",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -36970,6 +39094,20 @@
         "number": "388",
         "shinyLocked": "UNLOCKED",
         "notes": "Sword Exclusive"
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "138",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "138",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -37098,7 +39236,22 @@
     "weaknessdouble": ["fire", "fighting", "ground"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "205",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "205",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -37129,7 +39282,22 @@
     ],
     "weaknessquadruple": [],
     "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "206",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "206",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -37152,7 +39320,22 @@
     "weaknessdouble": ["fire", "ice", "poison", "psychic", "fairy"],
     "weaknessquadruple": ["flying"],
     "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "207",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "207",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -41114,7 +43297,22 @@
     "weaknessdouble": ["ice", "fighting", "ground", "dragon", "steel", "fairy"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "87.5", "female": "12.5", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "083",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "083",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -41137,7 +43335,22 @@
     "weaknessdouble": ["ice", "fighting", "ground", "dragon", "steel", "fairy"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "87.5", "female": "12.5", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "084",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "084",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -41160,7 +43373,22 @@
     "weaknessdouble": ["water", "grass", "ground", "rock"],
     "weaknessquadruple": ["fighting", "steel"],
     "genderRatio": { "male": "87.5", "female": "12.5", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "085",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "085",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -41183,7 +43411,22 @@
     "weaknessdouble": ["water", "grass", "ground", "rock"],
     "weaknessquadruple": ["fighting", "steel"],
     "genderRatio": { "male": "87.5", "female": "12.5", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "086",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "086",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -41232,6 +43475,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "204",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "082",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "082",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -41374,6 +43631,20 @@
         "name": "Pokemon Violet",
         "dex": "Kitakami",
         "number": "167",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "128",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "128",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -41775,6 +44046,20 @@
         "number": "338",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "033",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "033",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -41825,6 +44110,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "339",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "034",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "034",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -42179,6 +44478,20 @@
         "number": "358",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "142",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "142",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -42229,6 +44542,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "359",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "143",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "143",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -42320,6 +44647,20 @@
         "number": "176",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "181",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "181",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -42384,6 +44725,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "177",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "182",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "182",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -44540,6 +46895,20 @@
         "number": "214",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "091",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "091",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -44590,6 +46959,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "215",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "092",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "092",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -46753,6 +49136,20 @@
         "number": "301",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "046",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "046",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -46879,6 +49276,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "360",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "162",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "162",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -48592,6 +51003,20 @@
         "number": "009",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "005",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "005",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -48672,6 +51097,20 @@
         "number": "010",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "006",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "006",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -48722,6 +51161,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "021",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "163",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "163",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -48776,6 +51229,20 @@
         "number": "022",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "164",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "164",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -48826,6 +51293,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "023",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "165",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "165",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -49181,6 +51662,20 @@
         "number": "126",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "166",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "166",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -49217,6 +51712,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "127",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "167",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "167",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -49257,6 +51766,20 @@
         "number": "034",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "003",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "003",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -49293,6 +51816,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "035",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "004",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "004",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -49531,6 +52068,20 @@
         "number": "046",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "155",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "155",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -49567,6 +52118,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "047",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "156",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "156",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -49621,6 +52186,20 @@
         "number": "161",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "176",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "176",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -49673,6 +52252,20 @@
         "number": "162",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "177",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "177",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -49723,6 +52316,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "163",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "178",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "178",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -50742,6 +53349,20 @@
         "number": "159",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "099",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "099",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -50778,6 +53399,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "160",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "100",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "100",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -51002,6 +53637,20 @@
         "number": "335",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "132",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "132",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -51065,6 +53714,20 @@
             "name": "Pokemon Shield",
             "dex": "Regional",
             "number": "335",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Sword",
+            "dex": "Crown Tundra",
+            "number": "132",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Shield",
+            "dex": "Crown Tundra",
+            "number": "132",
             "shinyLocked": "UNLOCKED",
             "notes": ""
           }
@@ -51134,6 +53797,20 @@
         "number": "336",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "133",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "133",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -51197,6 +53874,20 @@
             "name": "Pokemon Shield",
             "dex": "Regional",
             "number": "336",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Sword",
+            "dex": "Crown Tundra",
+            "number": "133",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Shield",
+            "dex": "Crown Tundra",
+            "number": "133",
             "shinyLocked": "UNLOCKED",
             "notes": ""
           }
@@ -51266,6 +53957,20 @@
         "number": "241",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "040",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "040",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -51332,6 +54037,20 @@
         "number": "242",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "041",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "041",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -51396,6 +54115,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "243",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "042",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "042",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -51502,6 +54235,20 @@
         "number": "238",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "037",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "037",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -51568,6 +54315,20 @@
         "number": "239",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "038",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "038",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -51632,6 +54393,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "240",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "039",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "039",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -51708,6 +54483,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "033",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "073",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "073",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -51871,6 +54660,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "366",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "012",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "012",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -54614,6 +57417,20 @@
         "number": "126",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "158",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "158",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -54664,6 +57481,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "349",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "001",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "001",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -54718,6 +57549,20 @@
         "number": "350",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "002",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "002",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -54770,6 +57615,20 @@
         "number": "369",
         "shinyLocked": "UNLOCKED",
         "notes": "Sword Exclusive"
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "089",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "089",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -54822,6 +57681,20 @@
         "number": "370",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "090",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "090",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -54871,6 +57744,20 @@
             "name": "Pokemon Shield",
             "dex": "Regional",
             "number": "370",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Sword",
+            "dex": "Crown Tundra",
+            "number": "090",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Shield",
+            "dex": "Crown Tundra",
+            "number": "090",
             "shinyLocked": "UNLOCKED",
             "notes": ""
           }
@@ -54940,6 +57827,20 @@
         "number": "337",
         "shinyLocked": "UNLOCKED",
         "notes": "Sword Exclusive"
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "171",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "171",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -55003,6 +57904,20 @@
             "name": "Pokemon Shield",
             "dex": "Regional",
             "number": "337",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Sword",
+            "dex": "Crown Tundra",
+            "number": "171",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Shield",
+            "dex": "Crown Tundra",
+            "number": "171",
             "shinyLocked": "UNLOCKED",
             "notes": ""
           }
@@ -55072,6 +57987,20 @@
         "number": "104",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "157",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "157",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -55135,6 +58064,20 @@
             "name": "Pokemon Shield",
             "dex": "Isle of Armor",
             "number": "104",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Sword",
+            "dex": "Crown Tundra",
+            "number": "157",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Shield",
+            "dex": "Crown Tundra",
+            "number": "157",
             "shinyLocked": "UNLOCKED",
             "notes": ""
           }
@@ -55201,6 +58144,20 @@
         "number": "302",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "108",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "108",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -55262,6 +58219,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "303",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "109",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "109",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -55625,6 +58596,20 @@
         "number": "395",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "110",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "110",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -55677,6 +58662,20 @@
         "number": "396",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "111",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "111",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -55727,6 +58726,20 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "397",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "112",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "112",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -56331,7 +59344,22 @@
     "weaknessdouble": ["ground"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "200",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "200",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -56354,7 +59382,22 @@
     "weaknessdouble": ["ice", "dragon", "fairy"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "201",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "201",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -56377,7 +59420,22 @@
     "weaknessdouble": ["fire", "fighting", "rock", "steel"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "208",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "208",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -56400,7 +59458,22 @@
     "weaknessdouble": ["ghost", "dark"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "209",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "209",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -56430,7 +59503,22 @@
     "weaknessdouble": ["fire", "ice", "poison", "flying", "ghost", "dark"],
     "weaknessquadruple": ["bug"],
     "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Crown Tundra",
+        "number": "210",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Crown Tundra",
+        "number": "210",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      }
+    ],
     "forms": [
       {
         "name": "Calyrex",
@@ -56452,7 +59540,22 @@
         "weaknessdouble": ["fire", "bug", "rock", "ghost", "dark", "steel"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Sword",
+            "dex": "Crown Tundra",
+            "number": "210",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Shield",
+            "dex": "Crown Tundra",
+            "number": "210",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Calyrex",
@@ -56474,7 +59577,22 @@
         "weaknessdouble": [],
         "weaknessquadruple": ["ghost", "dark"],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Sword",
+            "dex": "Crown Tundra",
+            "number": "210",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Shield",
+            "dex": "Crown Tundra",
+            "number": "210",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       }
     ]
   },
