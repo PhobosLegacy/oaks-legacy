@@ -32232,22 +32232,7 @@
         "weaknessdouble": ["water", "ground", "rock", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-        "games": [
-          {
-            "name": "Pokemon Sword",
-            "dex": "Regional",
-            "number": "368",
-            "shinyLocked": "UNLOCKED",
-            "notes": ""
-          },
-          {
-            "name": "Pokemon Shield",
-            "dex": "Regional",
-            "number": "368",
-            "shinyLocked": "UNLOCKED",
-            "notes": "Sword Exclusive"
-          }
-        ]
+        "games": []
       },
       {
         "name": "Galarian Darmanitan",
@@ -32311,7 +32296,22 @@
             ]
           }
         ],
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Sword",
+            "dex": "Regional",
+            "number": "368",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Shield",
+            "dex": "Regional",
+            "number": "368",
+            "shinyLocked": "UNLOCKED",
+            "notes": "Sword Exclusive"
+          }
+        ]
       }
       
     ]
