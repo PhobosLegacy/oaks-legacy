@@ -32250,8 +32250,8 @@
         ]
       },
       {
-        "name": "Galarian Standard Mode",
-        "formName": "",
+        "name": "Galarian Darmanitan",
+        "formName": "Standard Mode",
         "species": "Zen Charm Pokémon",
         "height": "1.7m",
         "weight": "120.0kg",
@@ -32269,30 +32269,36 @@
         "weaknessdouble": ["fire", "fighting", "rock", "steel"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-        "games": []
-      },
-      {
-        "name": "Galarian Zen Mode",
-        "formName": "",
-        "species": "Zen Charm Pokémon",
-        "height": "1.7m",
-        "weight": "120.0kg",
-        "breeding": { "groups": ["Field"], "cycles": "20" },
-        "number": "0555",
-        "ref": "555.3",
-        "type1": "ice",
-        "type2": "fire",
-        "image": ["555-002-galar-normal-mf.png", "555-002-galar-shiny-mf.png"],
-        "abilities": ["Gorilla Tactics"],
-        "hiddenAbility": "Zen Mode",
-        "weaknessquarter": ["ice"],
-        "weaknesshalf": ["grass", "bug", "fairy"],
-        "weaknessnone": [],
-        "weaknessdouble": ["water", "fighting", "ground"],
-        "weaknessquadruple": ["rock"],
-        "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
+        "forms": [
+          {
+            "name": "Galarian Darmanitan",
+            "formName": "Zen Mode",
+            "species": "Zen Charm Pokémon",
+            "height": "1.7m",
+            "weight": "120.0kg",
+            "breeding": { "groups": ["Field"], "cycles": "20" },
+            "number": "0555",
+            "ref": "555.3",
+            "type1": "ice",
+            "type2": "fire",
+            "image": [
+              "555-002-galar-normal-mf.png",
+              "555-002-galar-shiny-mf.png"
+            ],
+            "abilities": ["Gorilla Tactics"],
+            "hiddenAbility": "Zen Mode",
+            "weaknessquarter": ["ice"],
+            "weaknesshalf": ["grass", "bug", "fairy"],
+            "weaknessnone": [],
+            "weaknessdouble": ["water", "fighting", "ground"],
+            "weaknessquadruple": ["rock"],
+            "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
+            "games": []
+          }
+        ],
         "games": []
       }
+      
     ]
   },
   {

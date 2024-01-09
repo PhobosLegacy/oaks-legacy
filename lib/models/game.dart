@@ -184,7 +184,7 @@ class Dex {
       case "Pokemon Shield":
         dex.addAll([
           "Isle of Armor",
-          "Crown Trunda",
+          "Crown Tundra",
           "Dynamax Adventure Bosses",
           "Gigantamax Forms"
         ]);
