@@ -182,7 +182,12 @@ class Dex {
         break;
       case "Pokemon Sword":
       case "Pokemon Shield":
-        dex.addAll(["Isle of Armor", "Crown Trunda"]);
+        dex.addAll([
+          "Isle of Armor",
+          "Crown Trunda",
+          "Dynamax Adventure Bosses",
+          "Gigantamax Forms"
+        ]);
         break;
       default:
     }
@@ -193,14 +198,11 @@ class Dex {
   static availableTrackerType(String dexName) {
     switch (dexName) {
       case "Alolan":
+      case "Gigantamax Forms":
+      case "Vivillons":
         return [
           "Basic",
           "Shiny Basic",
-        ];
-      case "Vivillons":
-        return [
-          "Living Dex",
-          "Shiny Living Dex",
         ];
       case "Mightiest Mark":
         return [

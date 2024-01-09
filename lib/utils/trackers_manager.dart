@@ -81,17 +81,21 @@ Tracker createTracker(
 
 //Some tracker requires specific changes or additions to the Pokemon
 Tracker applyTrackerChanges(Tracker tracker, bool isLivingDexTracker) {
-  if (tracker.dex == "Vivillons") {
-    tracker.pokemons.addAll(tracker.pokemons.first.forms);
-    tracker.pokemons.removeAt(0);
-  }
-
-  if (tracker.dex == "Mightiest Mark") {
+  if (["Gigantamax Forms"].contains(tracker.dex)) {
     List<Item> flatList = [];
     for (var pokemon in tracker.pokemons) {
-      (pokemon.forms.isEmpty)
-          ? flatList.add(pokemon)
-          : flatList.addAll(pokemon.forms);
+      flatList.addAll(flatIt(pokemon, includeParent: true));
+    }
+    for (var element in flatList) {
+      element.displayName = element.name.replaceAll("Gigantamax", "G. ");
+    }
+    tracker.pokemons = flatList;
+  }
+
+  if (["Vivillons", "Mightiest Mark"].contains(tracker.dex)) {
+    List<Item> flatList = [];
+    for (var pokemon in tracker.pokemons) {
+      flatList.addAll(flatIt(pokemon));
     }
     tracker.pokemons = flatList;
   }
@@ -103,6 +107,20 @@ Tracker applyTrackerChanges(Tracker tracker, bool isLivingDexTracker) {
   }
 
   return tracker;
+}
+
+List<Item> flatIt(Item pokemon, {bool includeParent = false}) {
+  List<Item> flat = [];
+  if (pokemon.forms.isEmpty) return [pokemon];
+  for (var form in pokemon.forms) {
+    if (form.forms.isEmpty) {
+      if (includeParent) flat.add(pokemon);
+      flat.add(form);
+    } else {
+      flat.addAll(flatIt(form));
+    }
+  }
+  return flat;
 }
 
 Item? checkPokemon(Pokemon pokemon,
@@ -152,14 +170,17 @@ Item? checkPokemon(Pokemon pokemon,
     //if notes is not empty means it is an exclusive form
     if (item.game.notes != "" &&
         item.forms.any((element) => element.game.notes == "")) {
-      // List<Item> prevForms = item.forms;
-      // item = item.forms.firstWhere((element) => element.game.notes == "");
-      // item.forms.addAll(prevForms);
-
-      Item newParent =
+      Item parent =
           item.forms.firstWhere((element) => element.game.notes == "");
-      newParent.forms.addAll(item.forms);
-      return newParent;
+      parent.forms.clear();
+      for (var form in item.forms) {
+        if (form.ref == parent.ref) {
+          parent.forms.insert(0, Item.copy(form));
+        } else {
+          parent.forms.add(Item.copy(form));
+        }
+      }
+      return parent;
     }
   }
 
@@ -173,11 +194,6 @@ Item createNewItem(Pokemon pokemon, Game game, entryOrigin, isShinyTracker) {
   if (isShinyTracker) {
     item.displayImage = item.image.firstWhere((img) => img.contains("-shiny-"));
     item.attributes.add(PokemonAttributes.isShiny);
-    // for (var form in item.forms) {
-    //   form.displayImage =
-    //       form.image.firstWhere((img) => img.contains("-shiny-"));
-    //   form.attributes.add(PokemonAttributes.isShiny);
-    // }
   }
   if (pokemon.genderRatio.genderless == "100") {
     item.gender = PokemonGender.genderless;

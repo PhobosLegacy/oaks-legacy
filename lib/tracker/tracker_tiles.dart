@@ -194,6 +194,10 @@ class _TrackerTile extends State<TrackerTile> {
         return Game.gameColor("Pokemon Violet");
       case "Scarlet Exclusive":
         return Game.gameColor("Pokemon Scarlet");
+      case "Sword Exclusive":
+        return Game.gameColor("Pokemon Sword");
+      case "Shield Exclusive":
+        return Game.gameColor("Pokemon Shield");
       case "Pikachu Exclusive":
         return Game.gameColor("Let's Go Pikachu");
       case "Eevee Exclusive":
