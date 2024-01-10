@@ -200,9 +200,10 @@ class Dex {
       case "Alolan":
       case "Gigantamax Forms":
       case "Vivillons":
+      case "Dynamax Adventure Bosses":
         return [
           "Basic",
-          "Shiny Basic",
+          "Shiny",
         ];
       case "Mightiest Mark":
         return [
@@ -217,7 +218,7 @@ class Dex {
       default:
         return [
           "Basic",
-          "Shiny Basic",
+          "Shiny",
           "Living Dex",
           "Shiny Living Dex",
         ];
