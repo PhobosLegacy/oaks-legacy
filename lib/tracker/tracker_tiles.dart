@@ -69,123 +69,126 @@ class _TrackerTile extends State<TrackerTile> {
   Widget build(BuildContext context) {
     Item pokemon = widget.pokemons.current(widget.indexes);
 
-    Card card = Card(
-      child: ListTile(
-        tileColor: widget.tileColor,
-        textColor: Colors.black,
-        onTap: () => {
-          if (pokemon.captured)
-            {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) {
-                    return TrackerDetailsPage(
-                      pokemons: widget.pokemons,
-                      indexes: widget.indexes,
-                      onStateChange: widget.onStateChange,
-                    );
-                  },
-                ),
-              ),
-            }
-          else
-            {
-              setState(
-                () {
-                  confettiController.play();
-                  pokemon.captured = true;
-                  pokemon.catchDate = DateTime.now().toString();
-                  widget.onStateChange!();
+    Widget tile = ListTile(
+      tileColor: widget.tileColor,
+      textColor: Colors.black,
+      onTap: () => {
+        if (pokemon.captured)
+          {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) {
+                  return TrackerDetailsPage(
+                    pokemons: widget.pokemons,
+                    indexes: widget.indexes,
+                    onStateChange: widget.onStateChange,
+                  );
                 },
-              )
-            }
-        },
-        onLongPress: () {
+              ),
+            ),
+          }
+        else
+          {
+            setState(
+              () {
+                confettiController.play();
+                pokemon.captured = true;
+                pokemon.catchDate = DateTime.now().toString();
+                widget.onStateChange!();
+              },
+            )
+          }
+      },
+      onLongPress: () {
+        setState(
+          () {
+            pokemon.captured = false;
+            pokemon.catchDate = "";
+            widget.onStateChange!();
+          },
+        );
+      },
+      leading: Stack(
+        children: [
+          ListImage(
+              image: "mons/${pokemon.displayImage}",
+              shadowOnly:
+                  kPreferences.revealUncaught == false && !pokemon.captured),
+          SizedBox(
+            height: 20,
+            width: 20,
+            child: Align(
+              alignment: Alignment.bottomRight,
+              child: ConfettiWidget(
+                confettiController: confettiController,
+                blastDirectionality: BlastDirectionality
+                    .explosive, // don't specify a direction, blast randomly
+                shouldLoop:
+                    false, // start again as soon as the animation is finished
+                maximumSize: const Size(15, 15),
+                minimumSize: const Size(15, 15),
+                minBlastForce: 2,
+                maxBlastForce: 5,
+                colors: const [
+                  Colors.green,
+                  Colors.blue,
+                  Colors.pink,
+                  Colors.orange,
+                  Colors.purple
+                  // Colors.red,
+                  // Colors.redAccent,
+                  // Colors.black,
+                  // Colors.white,
+                  // Colors.white70
+                ], // manually specify the colors to be used
+                createParticlePath: drawStar, // define a custom shape/path.
+              ),
+            ),
+          ),
+        ],
+      ),
+      title: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          Text(
+            pokemon.displayName,
+            style: const TextStyle(fontWeight: FontWeight.bold),
+          ),
+          if (pokemon.number != "") Text("#${pokemon.number}")
+        ],
+      ),
+      trailing: Checkbox(
+        value: pokemon.captured,
+        onChanged: (value) {
           setState(
             () {
-              pokemon.captured = false;
-              pokemon.catchDate = "";
+              pokemon.captured = value!;
+              pokemon.catchDate = (value) ? DateTime.now().toString() : "";
               widget.onStateChange!();
             },
           );
         },
-        leading: Stack(
-          children: [
-            ListImage(
-                image: "mons/${pokemon.displayImage}",
-                shadowOnly:
-                    kPreferences.revealUncaught == false && !pokemon.captured),
-            SizedBox(
-              height: 20,
-              width: 20,
-              child: Align(
-                alignment: Alignment.bottomRight,
-                child: ConfettiWidget(
-                  confettiController: confettiController,
-                  blastDirectionality: BlastDirectionality
-                      .explosive, // don't specify a direction, blast randomly
-                  shouldLoop:
-                      false, // start again as soon as the animation is finished
-                  maximumSize: const Size(15, 15),
-                  minimumSize: const Size(15, 15),
-                  minBlastForce: 2,
-                  maxBlastForce: 5,
-                  colors: const [
-                    Colors.green,
-                    Colors.blue,
-                    Colors.pink,
-                    Colors.orange,
-                    Colors.purple
-                    // Colors.red,
-                    // Colors.redAccent,
-                    // Colors.black,
-                    // Colors.white,
-                    // Colors.white70
-                  ], // manually specify the colors to be used
-                  createParticlePath: drawStar, // define a custom shape/path.
-                ),
-              ),
-            ),
-          ],
-        ),
-        title: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            Text(
-              pokemon.displayName,
-              style: const TextStyle(fontWeight: FontWeight.bold),
-            ),
-            if (pokemon.number != "") Text("#${pokemon.number}")
-          ],
-        ),
-        trailing: Checkbox(
-          value: pokemon.captured,
-          onChanged: (value) {
-            setState(
-              () {
-                pokemon.captured = value!;
-                pokemon.catchDate = (value) ? DateTime.now().toString() : "";
-                widget.onStateChange!();
-              },
-            );
-          },
-        ),
       ),
     );
 
-    if (pokemon.game.notes != "") {
-      return ClipRect(
+    if (pokemon.game.notes.isNotEmpty) {
+      tile = ClipRect(
         child: Banner(
-          message: "Trade Only",
+          message: pokemon.game.notes,
           location: BannerLocation.topEnd,
           color: getBannerColor(pokemon.game.notes),
-          child: card,
+          textStyle: const TextStyle(
+            color: Colors.white,
+            fontSize: 9,
+            fontWeight: FontWeight.bold,
+          ),
+          child: tile,
         ),
       );
     }
 
-    return card;
+    return Card(child: tile);
   }
 
   getBannerColor(gameNotes) {
