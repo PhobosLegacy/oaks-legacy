@@ -1738,6 +1738,13 @@
         "number": "085",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "056",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -1873,6 +1880,13 @@
         "name": "Pokemon Shield",
         "dex": "Isle of Armor",
         "number": "086",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "057",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -2557,6 +2571,13 @@
         "number": "044",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "200",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -2637,6 +2658,13 @@
         "number": "045",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "201",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -2701,6 +2729,13 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "068",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "168",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -2833,6 +2868,13 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "069",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "169",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -3090,6 +3132,13 @@
         "number": "144",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "034",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -3145,6 +3194,13 @@
         "name": "Pokemon Shield",
         "dex": "Crown Tundra",
         "number": "145",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "035",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -3393,6 +3449,13 @@
         "number": "046",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "053",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -3429,6 +3492,13 @@
         "name": "Let's Go Eevee",
         "dex": "Regional",
         "number": "047",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "054",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -4201,6 +4271,13 @@
         "number": "146",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "068",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -4265,6 +4342,13 @@
         "name": "Pokemon Shield",
         "dex": "Isle of Armor",
         "number": "147",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "069",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -4516,6 +4600,13 @@
             "number": "070",
             "shinyLocked": "UNLOCKED",
             "notes": ""
+          },
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "150",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
           }
         ]
       }
@@ -4632,6 +4723,13 @@
             "name": "Pokemon Shield",
             "dex": "Regional",
             "number": "071",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "151",
             "shinyLocked": "UNLOCKED",
             "notes": ""
           }
@@ -4885,6 +4983,13 @@
         "number": "031",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "058",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -4942,6 +5047,13 @@
         "number": "032",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "059",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -4997,6 +5109,13 @@
         "name": "Pokemon Shield",
         "dex": "Isle of Armor",
         "number": "033",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "060",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -5074,6 +5193,13 @@
         "number": "138",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "154",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -5126,6 +5252,13 @@
         "number": "139",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "155",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -5176,6 +5309,13 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "140",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "156",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -5447,6 +5587,13 @@
         "number": "040",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "170",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -5522,6 +5669,13 @@
         "number": "041",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "171",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -5572,6 +5726,13 @@
         "name": "Pokemon Violet",
         "dex": "Kitakami",
         "number": "080",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "046",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -5678,6 +5839,13 @@
         "number": "081",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "047",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -5782,6 +5950,13 @@
         "number": "082",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "048",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -5872,6 +6047,13 @@
         "number": "077",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "023",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -5960,6 +6142,13 @@
         "name": "Let's Go Eevee",
         "dex": "Regional",
         "number": "078",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "024",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -6342,6 +6531,13 @@
         "number": "105",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "177",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -6430,6 +6626,13 @@
         "name": "Pokemon Shield",
         "dex": "Isle of Armor",
         "number": "106",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "178",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -7174,6 +7377,13 @@
         "number": "141",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "136",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -7254,6 +7464,13 @@
         "number": "142",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "137",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -7332,6 +7549,13 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "143",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "138",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -7444,6 +7668,13 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "178",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "118",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -7800,7 +8031,15 @@
         "weaknessdouble": ["fire", "ice", "poison", "bug"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "192",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       }
     ]
   },
@@ -7875,7 +8114,15 @@
         "weaknessdouble": ["fire", "ice", "poison", "bug"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "193",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       }
     ]
   },
@@ -8385,6 +8632,13 @@
         "number": "054",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "125",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -8626,6 +8880,13 @@
         "number": "183",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "120",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -8711,6 +8972,13 @@
         "number": "184",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "121",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -8791,6 +9059,13 @@
         "number": "007",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "087",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -8841,6 +9116,13 @@
         "name": "Pokemon Shield",
         "dex": "Isle of Armor",
         "number": "080",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "095",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -9334,6 +9616,13 @@
         "number": "122",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "077",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -9471,6 +9760,13 @@
         "number": "118",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "072",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -9589,6 +9885,13 @@
         "number": "016",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "183",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -9653,6 +9956,13 @@
         "name": "Pokemon Shield",
         "dex": "Crown Tundra",
         "number": "019",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "175",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -10046,6 +10356,13 @@
         "number": "062",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "080",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -10157,6 +10474,13 @@
         "name": "Pokemon Shield",
         "dex": "Crown Tundra",
         "number": "063",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "081",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -10494,6 +10818,13 @@
         "number": "074",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "025",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -10612,6 +10943,13 @@
         "number": "075",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "026",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -10690,6 +11028,13 @@
         "name": "Pokemon Shield",
         "dex": "Crown Tundra",
         "number": "076",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "027",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -10772,6 +11117,13 @@
         "number": "077",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "028",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -10836,6 +11188,13 @@
         "name": "Pokemon Shield",
         "dex": "Isle of Armor",
         "number": "208",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "133",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -11199,6 +11558,13 @@
         "name": "Pokemon Shield",
         "dex": "Crown Tundra",
         "number": "173",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "052",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -12027,6 +12393,13 @@
         "number": "176",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "004",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -12063,6 +12436,13 @@
         "name": "Pokemon Violet",
         "dex": "Blueberry",
         "number": "177",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "005",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -12153,6 +12533,13 @@
             "dex": "Mightiest Mark",
             "number": "",
             "shinyLocked": "LOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "006",
+            "shinyLocked": "UNLOCKED",
             "notes": ""
           }
         ]
@@ -12619,6 +13006,13 @@
         "number": "146",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "036",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -12831,6 +13225,13 @@
         "number": "084",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "055",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -12895,6 +13296,13 @@
         "name": "Pokemon Shield",
         "dex": "Crown Tundra",
         "number": "043",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "199",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -12987,6 +13395,13 @@
         "number": "257",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "127",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -13023,6 +13438,13 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "258",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "128",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -13470,6 +13892,13 @@
         "number": "253",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "124",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -13684,6 +14113,13 @@
         "number": "047",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "078",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -13796,6 +14232,13 @@
         "name": "Pokemon Violet",
         "dex": "Kitakami",
         "number": "003",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "105",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -14058,6 +14501,13 @@
         "number": "079",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "029",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -14124,6 +14574,13 @@
         "number": "078",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "030",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -14165,6 +14622,13 @@
         "name": "Pokemon Violet",
         "dex": "Regional",
         "number": "232",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "140",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -14295,6 +14759,13 @@
         "number": "114",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "197",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -14319,7 +14790,15 @@
     "weaknessdouble": ["bug", "ghost", "dark"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "142",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": [
       {
         "name": "Unown",
@@ -14341,7 +14820,15 @@
         "weaknessdouble": ["bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "142",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Unown",
@@ -14363,7 +14850,15 @@
         "weaknessdouble": ["bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "142",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Unown",
@@ -14385,7 +14880,15 @@
         "weaknessdouble": ["bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "142",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Unown",
@@ -14407,7 +14910,15 @@
         "weaknessdouble": ["bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "142",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Unown",
@@ -14429,7 +14940,15 @@
         "weaknessdouble": ["bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "142",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Unown",
@@ -14451,7 +14970,15 @@
         "weaknessdouble": ["bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "142",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Unown",
@@ -14473,7 +15000,15 @@
         "weaknessdouble": ["bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "142",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Unown",
@@ -14495,7 +15030,15 @@
         "weaknessdouble": ["bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "142",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Unown",
@@ -14517,7 +15060,15 @@
         "weaknessdouble": ["bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "142",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Unown",
@@ -14539,7 +15090,15 @@
         "weaknessdouble": ["bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "142",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Unown",
@@ -14561,7 +15120,15 @@
         "weaknessdouble": ["bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "142",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Unown",
@@ -14583,7 +15150,15 @@
         "weaknessdouble": ["bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "142",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Unown",
@@ -14605,7 +15180,15 @@
         "weaknessdouble": ["bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "142",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Unown",
@@ -14627,7 +15210,15 @@
         "weaknessdouble": ["bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "142",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Unown",
@@ -14649,7 +15240,15 @@
         "weaknessdouble": ["bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "142",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Unown",
@@ -14671,7 +15270,15 @@
         "weaknessdouble": ["bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "142",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Unown",
@@ -14693,7 +15300,15 @@
         "weaknessdouble": ["bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "142",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Unown",
@@ -14715,7 +15330,15 @@
         "weaknessdouble": ["bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "142",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Unown",
@@ -14737,7 +15360,15 @@
         "weaknessdouble": ["bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "142",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Unown",
@@ -14759,7 +15390,15 @@
         "weaknessdouble": ["bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "142",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Unown",
@@ -14781,7 +15420,15 @@
         "weaknessdouble": ["bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "142",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Unown",
@@ -14803,7 +15450,15 @@
         "weaknessdouble": ["bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "142",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Unown",
@@ -14825,7 +15480,15 @@
         "weaknessdouble": ["bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "142",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Unown",
@@ -14847,7 +15510,15 @@
         "weaknessdouble": ["bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "142",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Unown",
@@ -14869,7 +15540,15 @@
         "weaknessdouble": ["bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "142",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Unown",
@@ -14891,7 +15570,15 @@
         "weaknessdouble": ["bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "142",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Unown",
@@ -14913,7 +15600,15 @@
         "weaknessdouble": ["bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "142",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       }
     ]
   },
@@ -15206,6 +15901,13 @@
         "number": "121",
         "shinyLocked": "UNLOCKED",
         "notes": "Scarlet Exclusive"
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "185",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -15255,6 +15957,13 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "179",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "119",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -15454,6 +16163,13 @@
         "number": "304",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "084",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -15569,6 +16285,13 @@
         "name": "Pokemon Shield",
         "dex": "Isle of Armor",
         "number": "119",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "074",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -15725,6 +16448,13 @@
         "number": "121",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "075",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -15861,7 +16591,15 @@
         "weaknessdouble": ["ground", "flying"],
         "weaknessquadruple": ["psychic"],
         "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "202",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       }
     ]
   },
@@ -15897,6 +16635,13 @@
         "name": "Pokemon Violet",
         "dex": "Regional",
         "number": "215",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "112",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -15940,6 +16685,13 @@
         "name": "Pokemon Violet",
         "dex": "Regional",
         "number": "216",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "113",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -16084,6 +16836,13 @@
         "number": "007",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "212",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -16153,6 +16912,13 @@
         "name": "Pokemon Shield",
         "dex": "Crown Tundra",
         "number": "008",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "213",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -16268,6 +17034,13 @@
         "number": "044",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "146",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -16323,6 +17096,13 @@
         "name": "Pokemon Shield",
         "dex": "Isle of Armor",
         "number": "045",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "147",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -16441,6 +17221,13 @@
         "name": "Pokemon Shield",
         "dex": "Isle of Armor",
         "number": "047",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "165",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -16812,6 +17599,13 @@
         "number": "209",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "134",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -16862,6 +17656,13 @@
         "name": "Pokemon Violet",
         "dex": "Kitakami",
         "number": "053",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "049",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -17096,6 +17897,13 @@
         "number": "015",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "182",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -17146,6 +17954,13 @@
         "name": "Pokemon Shield",
         "dex": "Crown Tundra",
         "number": "018",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "174",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -17250,6 +18065,13 @@
         "name": "Pokemon Shield",
         "dex": "Isle of Armor",
         "number": "008",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "088",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -18414,7 +19236,15 @@
     "weaknessdouble": ["fire", "flying", "rock"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "018",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -18437,7 +19267,15 @@
     "weaknessdouble": ["fire", "flying", "rock"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "019",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -18465,7 +19303,15 @@
     "weaknessdouble": ["fire", "electric", "ice", "flying"],
     "weaknessquadruple": ["rock"],
     "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "020",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -18488,7 +19334,15 @@
     "weaknessdouble": ["fire", "flying", "rock"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "021",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -18516,7 +19370,15 @@
     "weaknessdouble": ["fire", "flying", "psychic", "rock"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "022",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -19100,6 +19962,13 @@
         "number": "034",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "101",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -19180,6 +20049,13 @@
         "number": "035",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "102",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -19258,6 +20134,13 @@
         "name": "Pokemon Shield",
         "dex": "Isle of Armor",
         "number": "036",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "103",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -20040,6 +20923,13 @@
         "name": "Pokemon Violet",
         "dex": "Kitakami",
         "number": "107",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "190",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -20864,6 +21754,13 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "060",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "090",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -22173,6 +23070,13 @@
         "number": "060",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "097",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -22265,6 +23169,13 @@
         "name": "Pokemon Shield",
         "dex": "Crown Tundra",
         "number": "061",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "098",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -23056,6 +23967,13 @@
         "number": "135",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "158",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -23106,6 +24024,13 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "136",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "159",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -23182,6 +24107,13 @@
         "name": "Pokemon Violet",
         "dex": "Kitakami",
         "number": "143",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "196",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -23363,6 +24295,13 @@
         "number": "025",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "205",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -23443,6 +24382,13 @@
         "number": "026",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "206",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -23519,6 +24465,13 @@
         "number": "159",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "143",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -23557,6 +24510,13 @@
         "number": "160",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "144",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -23593,6 +24553,13 @@
         "name": "Pokemon Shield",
         "dex": "Crown Tundra",
         "number": "161",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "145",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -24771,6 +25738,13 @@
         "number": "191",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "130",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -24807,6 +25781,13 @@
         "name": "Pokemon Violet",
         "dex": "Blueberry",
         "number": "192",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "131",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -24847,6 +25828,13 @@
         "number": "193",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "132",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -24883,6 +25871,13 @@
         "name": "Pokemon Violet",
         "dex": "Blueberry",
         "number": "194",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "061",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -24923,6 +25918,13 @@
         "number": "195",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "062",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -24959,6 +25961,13 @@
         "name": "Pokemon Violet",
         "dex": "Blueberry",
         "number": "196",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "063",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -24999,6 +26008,13 @@
         "number": "197",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "161",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -25035,6 +26051,13 @@
         "name": "Pokemon Violet",
         "dex": "Blueberry",
         "number": "198",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "162",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -25082,6 +26105,13 @@
         "name": "Pokemon Violet",
         "dex": "Blueberry",
         "number": "199",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "163",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -25141,6 +26171,13 @@
         "number": "028",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "012",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -25196,6 +26233,13 @@
         "name": "Pokemon Violet",
         "dex": "Kitakami",
         "number": "029",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "013",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -25255,6 +26299,13 @@
         "number": "030",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "014",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -25284,7 +26335,15 @@
     "weaknessdouble": ["fighting"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "010",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -25312,7 +26371,15 @@
     "weaknessdouble": ["electric", "grass", "fighting"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "011",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -25366,6 +26433,13 @@
         "name": "Pokemon Violet",
         "dex": "Kitakami",
         "number": "061",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "039",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -25423,6 +26497,13 @@
         "name": "Pokemon Violet",
         "dex": "Kitakami",
         "number": "062",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "040",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -25496,6 +26577,13 @@
         "number": "025",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "015",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -25565,6 +26653,13 @@
         "name": "Pokemon Shield",
         "dex": "Isle of Armor",
         "number": "026",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "016",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -25638,6 +26733,13 @@
         "number": "027",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "017",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -25674,6 +26776,13 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "059",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "089",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -25719,6 +26828,13 @@
         "number": "061",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "091",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -25757,6 +26873,13 @@
         "number": "107",
         "shinyLocked": "UNLOCKED",
         "notes": "Scarlet Exclusive"
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "208",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -25795,6 +26918,13 @@
         "number": "108",
         "shinyLocked": "UNLOCKED",
         "notes": "Scarlet Exclusive"
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "209",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -25831,6 +26961,13 @@
         "name": "Pokemon Violet",
         "dex": "Blueberry",
         "number": "109",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "210",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -25871,6 +27008,13 @@
         "number": "110",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "211",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -25895,7 +27039,15 @@
     "weaknessdouble": ["fire", "flying", "rock"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "043",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": [
       {
         "name": "Sandy Cloak",
@@ -25917,7 +27069,15 @@
         "weaknessdouble": ["fire", "flying", "rock"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "043",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Trash Cloak",
@@ -25939,7 +27099,15 @@
         "weaknessdouble": ["fire", "flying", "rock"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "043",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       }
     ]
   },
@@ -25963,7 +27131,15 @@
     "weaknessdouble": ["ice", "poison", "bug", "rock"],
     "weaknessquadruple": ["fire", "flying"],
     "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "044",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": [
       {
         "name": "Sandy Cloak",
@@ -25985,7 +27161,15 @@
         "weaknessdouble": ["fire", "water", "ice", "flying"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "044",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Trash Cloak",
@@ -26015,7 +27199,15 @@
         "weaknessdouble": [],
         "weaknessquadruple": ["fire"],
         "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "044",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       }
     ]
   },
@@ -26039,7 +27231,15 @@
     "weaknessdouble": ["fire", "electric", "ice", "flying"],
     "weaknessquadruple": ["rock"],
     "genderRatio": { "male": "100", "female": "0", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "045",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -26109,6 +27309,13 @@
         "number": "203",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "070",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -26175,6 +27382,13 @@
         "number": "204",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "071",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -26232,6 +27446,13 @@
         "number": "063",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "109",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -26273,6 +27494,13 @@
         "name": "Pokemon Violet",
         "dex": "Regional",
         "number": "051",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "041",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -26318,6 +27546,13 @@
         "number": "052",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "042",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -26356,6 +27591,13 @@
         "number": "128",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "066",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -26392,6 +27634,13 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "129",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "067",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -26446,6 +27695,13 @@
         "number": "230",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "082",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -26495,6 +27751,13 @@
             "name": "Pokemon Shield",
             "dex": "Regional",
             "number": "230",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "082",
             "shinyLocked": "UNLOCKED",
             "notes": ""
           }
@@ -26550,6 +27813,13 @@
         "number": "231",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "083",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -26601,6 +27871,13 @@
             "number": "231",
             "shinyLocked": "UNLOCKED",
             "notes": ""
+          },
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "083",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
           }
         ]
       }
@@ -26643,6 +27920,13 @@
         "name": "Pokemon Violet",
         "dex": "Kitakami",
         "number": "048",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "079",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -26711,6 +27995,13 @@
         "number": "135",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "037",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -26777,6 +28068,13 @@
         "number": "136",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "038",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -26815,6 +28113,13 @@
         "number": "004",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "064",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -26851,6 +28156,13 @@
         "name": "Pokemon Shield",
         "dex": "Isle of Armor",
         "number": "005",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "065",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -26914,6 +28226,13 @@
         "number": "115",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "198",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -26952,6 +28271,13 @@
         "number": "233",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "141",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -26976,7 +28302,15 @@
     "weaknessdouble": ["fighting"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "25", "female": "75", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "152",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -26999,7 +28333,15 @@
     "weaknessdouble": ["fighting"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "25", "female": "75", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "153",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -27034,6 +28376,13 @@
         "name": "Pokemon Violet",
         "dex": "Kitakami",
         "number": "142",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "195",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -27088,6 +28437,13 @@
         "number": "130",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "110",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -27138,6 +28494,13 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "131",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "111",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -27229,6 +28592,13 @@
         "number": "087",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "180",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -27318,6 +28688,13 @@
         "number": "088",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "181",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -27384,6 +28761,13 @@
         "number": "252",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "123",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -27434,6 +28818,13 @@
         "name": "Pokemon Shield",
         "dex": "Crown Tundra",
         "number": "010",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "076",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -27502,6 +28893,13 @@
         "number": "006",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "086",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -27526,7 +28924,15 @@
     "weaknessdouble": ["electric", "ice", "rock"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "157",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -27575,6 +28981,13 @@
         "name": "Pokemon Shield",
         "dex": "Crown Tundra",
         "number": "047",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "139",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -27648,6 +29061,13 @@
         "number": "116",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "187",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -27719,6 +29139,13 @@
         "number": "117",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "188",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -27788,6 +29215,13 @@
         "name": "Pokemon Shield",
         "dex": "Crown Tundra",
         "number": "118",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "189",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -27879,6 +29313,13 @@
         "number": "172",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "051",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -27957,6 +29398,13 @@
         "name": "Pokemon Shield",
         "dex": "Crown Tundra",
         "number": "134",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "223",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -28039,6 +29487,13 @@
         "number": "135",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "224",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -28119,6 +29574,13 @@
         "number": "314",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "107",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -28176,6 +29638,13 @@
         "number": "315",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "108",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -28228,6 +29697,13 @@
         "number": "050",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "148",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -28278,6 +29754,13 @@
         "name": "Pokemon Shield",
         "dex": "Isle of Armor",
         "number": "051",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "149",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -28351,6 +29834,13 @@
         "number": "082",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "099",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -28422,6 +29912,13 @@
         "number": "083",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "100",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -28446,7 +29943,15 @@
     "weaknessdouble": ["fire", "ice", "poison", "flying", "bug"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "092",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -28500,6 +30005,13 @@
         "name": "Pokemon Violet",
         "dex": "Blueberry",
         "number": "083",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "172",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -28559,6 +30071,13 @@
         "number": "084",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "173",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -28609,6 +30128,13 @@
         "name": "Pokemon Shield",
         "dex": "Isle of Armor",
         "number": "046",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "164",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -28696,6 +30222,13 @@
         "number": "031",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "217",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -28779,6 +30312,13 @@
         "name": "Pokemon Shield",
         "dex": "Crown Tundra",
         "number": "032",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "218",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -28911,6 +30451,13 @@
         "number": "029",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "204",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -28987,6 +30534,13 @@
         "number": "107",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "179",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -29023,6 +30577,13 @@
         "name": "Pokemon Shield",
         "dex": "Isle of Armor",
         "number": "055",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "126",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -29096,6 +30657,13 @@
         "number": "185",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "122",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -29137,6 +30705,13 @@
         "name": "Pokemon Shield",
         "dex": "Isle of Armor",
         "number": "081",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "096",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -29191,6 +30766,13 @@
         "number": "017",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "184",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -29243,6 +30825,13 @@
         "number": "020",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "176",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -29281,6 +30870,13 @@
         "number": "259",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "129",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -29317,6 +30913,13 @@
         "name": "Pokemon Violet",
         "dex": "Kitakami",
         "number": "004",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "106",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -29385,6 +30988,13 @@
         "number": "081",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "031",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -29451,6 +31061,13 @@
         "number": "080",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "032",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -29489,6 +31106,13 @@
         "number": "122",
         "shinyLocked": "UNLOCKED",
         "notes": "Scarlet Exclusive"
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "186",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -29560,6 +31184,13 @@
         "number": "009",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "214",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -29610,6 +31241,13 @@
         "name": "Pokemon Shield",
         "dex": "Isle of Armor",
         "number": "210",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "135",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -29692,6 +31330,13 @@
         "number": "037",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "104",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -29768,6 +31413,13 @@
         "number": "108",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "191",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -29818,6 +31470,13 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "137",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "160",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -29900,6 +31559,13 @@
         "number": "027",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "207",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -29964,6 +31630,13 @@
         "name": "Pokemon Shield",
         "dex": "Regional",
         "number": "372",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "194",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -30039,6 +31712,13 @@
             "number": "372",
             "shinyLocked": "UNLOCKED",
             "notes": ""
+          },
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "194",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
           }
         ]
       },
@@ -30102,6 +31782,13 @@
             "name": "Pokemon Shield",
             "dex": "Regional",
             "number": "372",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "194",
             "shinyLocked": "UNLOCKED",
             "notes": ""
           }
@@ -30169,6 +31856,13 @@
             "number": "372",
             "shinyLocked": "UNLOCKED",
             "notes": ""
+          },
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "194",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
           }
         ]
       },
@@ -30232,6 +31926,13 @@
             "name": "Pokemon Shield",
             "dex": "Regional",
             "number": "372",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "194",
             "shinyLocked": "UNLOCKED",
             "notes": ""
           }
@@ -30299,6 +32000,13 @@
             "number": "372",
             "shinyLocked": "UNLOCKED",
             "notes": ""
+          },
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "194",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
           }
         ]
       }
@@ -30338,6 +32046,13 @@
         "number": "",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "225",
+        "shinyLocked": "LOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -30376,6 +32091,13 @@
         "number": "",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "226",
+        "shinyLocked": "LOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -30413,6 +32135,13 @@
         "dex": "Dynamax Adventure Bosses",
         "number": "",
         "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "227",
+        "shinyLocked": "LOCKED",
         "notes": ""
       }
     ],
@@ -30461,6 +32190,13 @@
         "number": "",
         "shinyLocked": "UNLOCKED",
         "notes": "Sword Exclusive"
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "235",
+        "shinyLocked": "LOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -30493,7 +32229,15 @@
         "weaknessdouble": ["fighting", "ground"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "235",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       }
     ]
   },
@@ -30531,6 +32275,13 @@
         "number": "",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "236",
+        "shinyLocked": "LOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -30554,7 +32305,15 @@
         "weaknessdouble": ["dragon", "fairy"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "236",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       }
     ]
   },
@@ -30592,6 +32351,13 @@
         "number": "",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "228",
+        "shinyLocked": "LOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -30616,7 +32382,15 @@
     "weaknessdouble": ["fighting"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "229",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -30653,6 +32427,13 @@
         "number": "",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "237",
+        "shinyLocked": "LOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -30676,7 +32457,15 @@
         "weaknessdouble": ["ice", "ghost", "dragon", "dark", "fairy"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "237",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       }
     ]
   },
@@ -30714,6 +32503,13 @@
         "number": "",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "230",
+        "shinyLocked": "LOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -30738,7 +32534,15 @@
     "weaknessdouble": ["electric", "grass"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "239",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -30761,7 +32565,15 @@
     "weaknessdouble": ["electric", "grass"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "240",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -30784,7 +32596,15 @@
     "weaknessdouble": ["fighting", "bug", "fairy"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "242",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -30807,7 +32627,15 @@
     "weaknessdouble": ["fire", "ice", "poison", "flying", "bug"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "241",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      }
+    ],
     "forms": [
       {
         "name": "Shaymin",
@@ -30829,7 +32657,15 @@
         "weaknessdouble": ["fire", "poison", "flying", "rock"],
         "weaknessquadruple": ["ice"],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "241",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       }
     ]
   },
@@ -30853,7 +32689,15 @@
     "weaknessdouble": ["fighting"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "238",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      }
+    ],
     "forms": [
       {
         "name": "Arceus",
@@ -30875,7 +32719,15 @@
         "weaknessdouble": ["flying", "psychic", "fairy"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "238",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Arceus",
@@ -30897,7 +32749,15 @@
         "weaknessdouble": ["electric", "ice", "rock"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "238",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Arceus",
@@ -30919,7 +32779,15 @@
         "weaknessdouble": ["ground", "psychic"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "238",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Arceus",
@@ -30941,7 +32809,15 @@
         "weaknessdouble": ["water", "grass", "ice"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "238",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Arceus",
@@ -30963,7 +32839,15 @@
         "weaknessdouble": ["water", "grass", "fighting", "ground", "steel"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "238",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Arceus",
@@ -30985,7 +32869,15 @@
         "weaknessdouble": ["fire", "flying", "rock"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "238",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Arceus",
@@ -31007,7 +32899,15 @@
         "weaknessdouble": ["psychic", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "238",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Arceus",
@@ -31040,7 +32940,15 @@
         "weaknessdouble": [],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "238",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Arceus",
@@ -31062,7 +32970,15 @@
         "weaknessdouble": ["water", "ground", "rock"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "238",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Arceus",
@@ -31084,7 +33000,15 @@
         "weaknessdouble": ["electric", "grass"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "238",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Arceus",
@@ -31106,7 +33030,15 @@
         "weaknessdouble": ["fire", "ice", "poison", "flying", "bug"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "238",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Arceus",
@@ -31128,7 +33060,15 @@
         "weaknessdouble": ["ground"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "238",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Arceus",
@@ -31150,7 +33090,15 @@
         "weaknessdouble": ["bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "238",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Arceus",
@@ -31172,7 +33120,15 @@
         "weaknessdouble": ["water", "ground", "rock"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "238",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Arceus",
@@ -31194,7 +33150,15 @@
         "weaknessdouble": ["ice", "dragon", "fairy"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "238",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Arceus",
@@ -31216,7 +33180,15 @@
         "weaknessdouble": ["fighting", "bug", "fairy"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "238",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       },
       {
         "name": "Arceus",
@@ -31238,7 +33210,15 @@
         "weaknessdouble": ["poison", "steel"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "238",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       }
     ]
   },
@@ -31535,6 +33515,13 @@
         "number": "206",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "007",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -31571,6 +33558,13 @@
         "name": "Pokemon Violet",
         "dex": "Blueberry",
         "number": "207",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "008",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -31661,6 +33655,13 @@
             "dex": "Mightiest Mark",
             "number": "",
             "shinyLocked": "LOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "009",
+            "shinyLocked": "UNLOCKED",
             "notes": ""
           }
         ]
@@ -33569,6 +35570,13 @@
         "number": "201",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "093",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -33633,6 +35641,13 @@
         "name": "Pokemon Shield",
         "dex": "Isle of Armor",
         "number": "202",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "094",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -33845,6 +35860,13 @@
             "name": "Pokemon Shield",
             "dex": "Crown Tundra",
             "number": "064",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "166",
             "shinyLocked": "UNLOCKED",
             "notes": ""
           }
@@ -35034,7 +37056,15 @@
         "weaknessdouble": ["dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "87.5", "female": "12.5", "genderless": "0" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "219",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       }
     ]
   },
@@ -35109,7 +37139,15 @@
         "weaknessdouble": ["dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "87.5", "female": "12.5", "genderless": "0" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "220",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       }
     ]
   },
@@ -38861,6 +40899,13 @@
         "number": "179",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "221",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -38964,7 +41009,15 @@
         "weaknessdouble": ["electric", "ice", "rock", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "100", "female": "0", "genderless": "0" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "222",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       }
     ]
   },
@@ -39698,6 +41751,13 @@
         "number": "",
         "shinyLocked": "UNLOCKED",
         "notes": "Sword Exclusive"
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "231",
+        "shinyLocked": "LOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -39721,7 +41781,15 @@
         "weaknessdouble": ["electric", "ice", "rock"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "100", "female": "0", "genderless": "0" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "231",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       }
     ]
   },
@@ -39759,6 +41827,13 @@
         "number": "",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "232",
+        "shinyLocked": "LOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -39782,7 +41857,15 @@
         "weaknessdouble": ["ice", "rock"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "100", "female": "0", "genderless": "0" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "232",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       }
     ]
   },
@@ -39896,6 +41979,13 @@
         "number": "",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "233",
+        "shinyLocked": "LOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -39919,7 +42009,15 @@
         "weaknessdouble": ["water"],
         "weaknessquadruple": ["ice"],
         "genderRatio": { "male": "100", "female": "0", "genderless": "0" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "233",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       }
     ]
   },
@@ -43907,6 +46005,13 @@
         "number": "082",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "033",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -44143,6 +46248,13 @@
         "number": "060",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "115",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -44246,7 +46358,15 @@
         "weaknessdouble": ["ice", "dragon", "fairy"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "116",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       }
     ]
   },
@@ -44349,7 +46469,15 @@
         "weaknessdouble": ["ice", "dragon", "fairy"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "117",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       }
     ]
   },
@@ -44908,6 +47036,13 @@
         "number": "142",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "215",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -44997,7 +47132,15 @@
         "weaknessdouble": ["water", "grass", "ground", "rock"],
         "weaknessquadruple": ["fighting", "steel"],
         "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "216",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
       }
     ]
   },
@@ -45469,6 +47612,13 @@
         "number": "218",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "001",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -45505,6 +47655,13 @@
         "name": "Pokemon Violet",
         "dex": "Blueberry",
         "number": "219",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "002",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -45602,6 +47759,13 @@
             "dex": "Mightiest Mark",
             "number": "",
             "shinyLocked": "LOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "003",
+            "shinyLocked": "UNLOCKED",
             "notes": ""
           }
         ]
@@ -60317,7 +62481,15 @@
     "weaknessdouble": ["bug", "dark"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "050",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -60354,6 +62526,13 @@
         "number": "021",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "073",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -60378,7 +62557,15 @@
     "weaknessdouble": ["water", "grass", "ice", "fighting"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "114",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": [
       {
         "name": "Ursaluna",
@@ -60458,6 +62645,13 @@
         "number": "195",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "167",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -60482,7 +62676,15 @@
     "weaknessdouble": ["ground", "flying"],
     "weaknessquadruple": ["psychic"],
     "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "203",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
     "forms": []
   },
   {
@@ -60519,6 +62721,13 @@
         "number": "147",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "085",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": []
@@ -60543,7 +62752,15 @@
     "weaknessdouble": ["electric", "ice", "poison", "rock", "steel"],
     "weaknessquadruple": [],
     "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
-    "games": [],
+    "games": [
+      {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "234",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      }
+    ],
     "forms": [
       {
         "name": "Therian Forme",
@@ -60565,7 +62782,15 @@
         "weaknessdouble": ["electric", "ice", "poison", "rock", "steel"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
-        "games": []
+        "games": [
+          {
+            "name": "Pokemon Legends: Arceus",
+            "dex": "Regional",
+            "number": "234",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ]
       }
     ]
   },
