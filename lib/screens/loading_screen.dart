@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:oaks_legacy/components/base_background.dart';
 import 'package:oaks_legacy/models/preferences.dart';
 import 'package:oaks_legacy/models/version.dart';
@@ -43,6 +44,42 @@ class _LoadingScreenState extends State<LoadingScreen> {
       ),
     );
   }
+
+  // void loadFiles() async {
+  //   await FileManager.loadPreferences();
+
+  //   //********* Resolve Versions file *********\\
+  //   Data localData = Data.fromJson(jsonDecode(FileManager.get(kVersionsKey)));
+
+  //   FileManager.save(kVersionsKey, jsonEncode(localData));
+  //   //***************************************\\
+
+  //   //********* Resolve Preferences file *********\\
+  //   kPreferences =
+  //       Preferences.fromJson(jsonDecode(FileManager.get(kPreferencesKey)));
+
+  //   FileManager.save(kPreferencesKey, jsonEncode(kPreferences));
+  //   //***************************************\\
+
+  //   //********* Resolve Pokedex file *********\\
+  //   String pokedex = FileManager.get(kPokedexKey);
+
+  //   FileManager.save(kPokedexKey, pokedex);
+  //   //***************************************\\
+
+  //   //For debugging:
+  //   var file = await rootBundle.loadString(kPokedexFileLocation);
+  //   kPokedex = await Pokemon.createPokedex(file);
+  //   // kPokedex = await Pokemon.createPokedex(pokedex);
+
+  //   // await Future.delayed(const Duration(seconds: 2));
+  //   // openStartScreen(const MaintainanceScreen());
+  //   openStartScreen(const StartScreen());
+  //   // openStartScreen(PokedexDetailsPage(
+  //   //   pokemons: kPokedex,
+  //   //   indexes: const [0],
+  //   // ));
+  // }
 
   void loadFiles() async {
     await FileManager.loadPreferences();

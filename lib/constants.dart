@@ -2,7 +2,7 @@ import 'package:oaks_legacy/models/preferences.dart';
 
 import 'models/pokemon.dart';
 
-const String kPokedexFileLocation = 'data/pokedexnewProp.json';
+const String kPokedexFileLocation = 'data/pokedex.json';
 
 const String kImagesRoot = 'images/';
 const String kImageLocalPrefix =

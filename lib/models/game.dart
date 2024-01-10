@@ -137,10 +137,11 @@ class Dex {
     return [
       "Pokemon Scarlet",
       "Pokemon Violet",
-      // "Pokemon Sword",
-      // "Pokemon Shield",
+      "Pokemon Sword",
+      "Pokemon Shield",
       "Let's Go Pikachu",
       "Let's Go Eevee",
+      "Pokemon Legends: Arceus"
       // "Pokemon X",
       // "Pokemon Y",
       // "Pokemon Sun",
@@ -158,6 +159,7 @@ class Dex {
       "Pokemon Shield",
       "Let's Go Pikachu",
       "Let's Go Eevee",
+      "Pokemon Legends: Arceus",
       "Pokemon X",
       "Pokemon Y",
       "Pokemon Sun",
@@ -182,7 +184,12 @@ class Dex {
         break;
       case "Pokemon Sword":
       case "Pokemon Shield":
-        dex.addAll(["Isle of Armor", "Crown Trunda"]);
+        dex.addAll([
+          "Isle of Armor",
+          "Crown Tundra",
+          "Dynamax Adventure Bosses",
+          "Gigantamax Forms"
+        ]);
         break;
       default:
     }
@@ -193,14 +200,12 @@ class Dex {
   static availableTrackerType(String dexName) {
     switch (dexName) {
       case "Alolan":
+      case "Gigantamax Forms":
+      case "Vivillons":
+      case "Dynamax Adventure Bosses":
         return [
           "Basic",
-          "Shiny Basic",
-        ];
-      case "Vivillons":
-        return [
-          "Living Dex",
-          "Shiny Living Dex",
+          "Shiny",
         ];
       case "Mightiest Mark":
         return [
@@ -215,7 +220,7 @@ class Dex {
       default:
         return [
           "Basic",
-          "Shiny Basic",
+          "Shiny",
           "Living Dex",
           "Shiny Living Dex",
         ];
