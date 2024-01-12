@@ -1,0 +1,32 @@
+{
+  "name": "Rowlet",
+  "formName": "",
+  "number": "001",
+  "natDexNumber": "0722",
+  "ref": "722.0_7c648346-0e28-4d96-8ae6-a4f50b5d66e6",
+  "displayName": "Rowlet",
+  "displayImage": "722-normal-mf.png",
+  "image": ["722-normal-mf.png", "722-shiny-mf.png"],
+  "type1": "grass",
+  "type2": "flying",
+  "forms": [],
+  "gender": "undefinied",
+  "ball": "undefined",
+  "captured": false,
+  "catchDate": "",
+  "origin": "t_78116a0f-e5f7-442e-87f8-e4220d10080a",
+  "currentLocation": "Pokemon Legends: Arceus",
+  "originalLocation": "Pokemon Legends: Arceus",
+  "ability": "?",
+  "level": "?",
+  "game": {
+    "name": "Pokemon Legends: Arceus",
+    "dex": "Regional",
+    "number": "001",
+    "shinyLocked": "UNLOCKED",
+    "notes": ""
+  },
+  "trainerName": "",
+  "capturedMethod": "unknown",
+  "attributes": []
+}

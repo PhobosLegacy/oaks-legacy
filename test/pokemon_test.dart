@@ -4,8 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/models/pokemon.dart';
-
-import 'test_data.dart';
+import 'test_scenarios.dart';
 
 void main() {
   setUpAll(() {
@@ -27,7 +26,7 @@ void main() {
     });
 
     for (final pokemon in createPokemonPkmSample) {
-      test('.fromJson .toJson - $pokemon', () async {
+      test('Create Pokemon - .fromJson .toJson - $pokemon', () async {
         // Arrange
         var file = await rootBundle.loadString(kPokedexFileLocation);
         List<Pokemon> kPokedex = await Pokemon.createPokedex(file);
@@ -47,7 +46,7 @@ void main() {
     }
 
     for (final keepForm in keepForms) {
-      test('Copy Pokemon Keep Form: $keepForm', () async {
+      test('Copy Pokemon - Keep Form: $keepForm', () async {
         // Arrange
         var pkmFile = await rootBundle
             .loadString("test/data/create_pokedex_venusaur.json");

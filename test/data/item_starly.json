@@ -1,0 +1,112 @@
+{
+  "name": "Starly",
+  "formName": "",
+  "number": "012",
+  "natDexNumber": "0396",
+  "ref": "396.0_80f82258-50b7-4bfe-bcce-95d8c58385c5",
+  "displayName": "Starly",
+  "displayImage": "396-normal-m.png",
+  "image": [
+    "396-normal-m.png",
+    "396-normal-f.png",
+    "396-shiny-f.png",
+    "396-shiny-m.png"
+  ],
+  "type1": "normal",
+  "type2": "flying",
+  "forms": [
+    {
+      "name": "Starly",
+      "formName": "",
+      "number": "012",
+      "natDexNumber": "0396",
+      "ref": "396.0_80f82258-50b7-4bfe-bcce-95d8c58385c5",
+      "displayName": "Starly ♂",
+      "displayImage": "396-normal-m.png",
+      "image": [
+        "396-normal-m.png",
+        "396-normal-f.png",
+        "396-shiny-f.png",
+        "396-shiny-m.png"
+      ],
+      "type1": "normal",
+      "type2": "flying",
+      "forms": [],
+      "gender": "male",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_ebfed0a7-fe71-46d9-964b-48d53e76f313",
+      "currentLocation": "Pokemon Legends: Arceus",
+      "originalLocation": "Pokemon Legends: Arceus",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "012",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": []
+    },
+    {
+      "name": "Starly",
+      "formName": "",
+      "number": "012",
+      "natDexNumber": "0396",
+      "ref": "396.0_80f82258-50b7-4bfe-bcce-95d8c58385c5",
+      "displayName": "Starly ♀",
+      "displayImage": "396-normal-f.png",
+      "image": [
+        "396-normal-m.png",
+        "396-normal-f.png",
+        "396-shiny-f.png",
+        "396-shiny-m.png"
+      ],
+      "type1": "normal",
+      "type2": "flying",
+      "forms": [],
+      "gender": "female",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_ebfed0a7-fe71-46d9-964b-48d53e76f313",
+      "currentLocation": "Pokemon Legends: Arceus",
+      "originalLocation": "Pokemon Legends: Arceus",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Legends: Arceus",
+        "dex": "Regional",
+        "number": "012",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": []
+    }
+  ],
+  "gender": "undefinied",
+  "ball": "undefined",
+  "captured": false,
+  "catchDate": "",
+  "origin": "t_ebfed0a7-fe71-46d9-964b-48d53e76f313",
+  "currentLocation": "Pokemon Legends: Arceus",
+  "originalLocation": "Pokemon Legends: Arceus",
+  "ability": "?",
+  "level": "?",
+  "game": {
+    "name": "Pokemon Legends: Arceus",
+    "dex": "Regional",
+    "number": "012",
+    "shinyLocked": "UNLOCKED",
+    "notes": ""
+  },
+  "trainerName": "",
+  "capturedMethod": "unknown",
+  "attributes": []
+}
