@@ -1,11 +1,11 @@
 import 'dart:convert';
-import 'package:flutter/foundation.dart';
+// import 'package:flutter/foundation.dart'; for debugPrint(jsonEncode(pkmFromDex));
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/models/pokemon.dart';
 
-import 'test_helper.dart';
+import 'test_data.dart';
 
 void main() {
   setUpAll(() {
@@ -42,7 +42,6 @@ void main() {
         Pokemon pkmFromTestFile = Pokemon.fromJson(jsonDecode(pkmTestFile));
 
         // Assert
-        // debugPrint(jsonEncode(pkmFromDex));
         expect(jsonEncode(pkmFromDex), equals(jsonEncode(pkmFromTestFile)));
       });
     }
@@ -59,7 +58,6 @@ void main() {
         Pokemon copiedPkm = Pokemon.copy(pkm, keepForm['value']);
 
         // Assert
-        // debugPrint(jsonEncode(pkmFromDex));
         expect(copiedPkm.forms, (keepForm['value']) ? isNotEmpty : isEmpty);
       });
     }
