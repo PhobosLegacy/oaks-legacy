@@ -1,0 +1,203 @@
+
+{
+    "name": "Venusaur",
+    "formName": "",
+    "species": "Seed Pokémon",
+    "height": "2.0m",
+    "weight": "100.0kg",
+    "breeding": { "groups": ["Grass", "Monster"], "cycles": "20" },
+    "number": "0003",
+    "ref": "003.0",
+    "type1": "grass",
+    "type2": "poison",
+    "image": [
+      "003-normal-m.png",
+      "003-normal-f.png",
+      "003-shiny-f.png",
+      "003-shiny-m.png"
+    ],
+    "abilities": ["Overgrow"],
+    "hiddenAbility": "Chlorophyll",
+    "weaknessquarter": ["grass"],
+    "weaknesshalf": ["water", "electric", "fighting", "fairy"],
+    "weaknessnone": [],
+    "weaknessdouble": ["fire", "ice", "flying", "psychic"],
+    "weaknessquadruple": [],
+    "genderRatio": { "male": "87.5", "female": "12.5", "genderless": "0" },
+    "games": [
+      {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "003",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "003",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Scarlet",
+        "dex": "Blueberry",
+        "number": "166",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Violet",
+        "dex": "Blueberry",
+        "number": "166",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Isle of Armor",
+        "number": "070",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Isle of Armor",
+        "number": "070",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
+    "forms": [
+      {
+        "name": "Venusaur",
+        "formName": "",
+        "species": "Seed Pokémon",
+        "height": "2.0m",
+        "weight": "100.0kg",
+        "breeding": { "groups": ["Grass", "Monster"], "cycles": "20" },
+        "number": "0003",
+        "ref": "003.0",
+        "type1": "grass",
+        "type2": "poison",
+        "image": [
+          "003-normal-m.png",
+          "003-normal-f.png",
+          "003-shiny-f.png",
+          "003-shiny-m.png"
+        ],
+        "abilities": ["Overgrow"],
+        "hiddenAbility": "Chlorophyll",
+        "weaknessquarter": ["grass"],
+        "weaknesshalf": ["water", "electric", "fighting", "fairy"],
+        "weaknessnone": [],
+        "weaknessdouble": ["fire", "ice", "flying", "psychic"],
+        "weaknessquadruple": [],
+        "genderRatio": { "male": "87.5", "female": "12.5", "genderless": "0" },
+        "games": [
+          {
+            "name": "Let's Go Pikachu",
+            "dex": "Regional",
+            "number": "003",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Let's Go Eevee",
+            "dex": "Regional",
+            "number": "003",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Scarlet",
+            "dex": "Blueberry",
+            "number": "166",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Violet",
+            "dex": "Blueberry",
+            "number": "166",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Sword",
+            "dex": "Isle of Armor",
+            "number": "070",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Shield",
+            "dex": "Isle of Armor",
+            "number": "070",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ],
+        "forms": []
+      },
+      {
+        "name": "Mega Venusaur",
+        "formName": "",
+        "species": "Seed Pokémon",
+        "height": "2.4m",
+        "weight": "155.5kg",
+        "breeding": { "groups": ["Grass", "Monster"], "cycles": "20" },
+        "number": "0003",
+        "ref": "003.1",
+        "type1": "grass",
+        "type2": "poison",
+        "image": ["003-mega-normal-mf.png", "003-mega-shiny-mf.png"],
+        "abilities": ["Thick Fat"],
+        "hiddenAbility": "",
+        "weaknessquarter": ["grass"],
+        "weaknesshalf": ["water", "electric", "fighting", "fairy"],
+        "weaknessnone": [],
+        "weaknessdouble": ["flying", "psychic"],
+        "weaknessquadruple": [],
+        "genderRatio": { "male": "87.5", "female": "12.5", "genderless": "0" },
+        "games": []
+      },
+      {
+        "name": "Gigantamax Venusaur",
+        "formName": "",
+        "species": "Seed Pokémon",
+        "height": "24.0+ m",
+        "weight": "???? kg",
+        "breeding": { "groups": ["Grass", "Monster"], "cycles": "20" },
+        "number": "0003",
+        "ref": "003.2",
+        "type1": "grass",
+        "type2": "poison",
+        "image": ["003-giga-normal-mf.png", "003-giga-shiny-mf.png"],
+        "abilities": ["Overgrow"],
+        "hiddenAbility": "Chlorophyll",
+        "weaknessquarter": ["grass"],
+        "weaknesshalf": ["water", "electric", "fighting", "fairy"],
+        "weaknessnone": [],
+        "weaknessdouble": ["fire", "ice", "flying", "psychic"],
+        "weaknessquadruple": [],
+        "genderRatio": { "male": "87.5", "female": "12.5", "genderless": "0" },
+        "games": [
+          {
+            "name": "Pokemon Sword",
+            "dex": "Gigantamax Forms",
+            "number": "003",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Shield",
+            "dex": "Gigantamax Forms",
+            "number": "003",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ]
+      }
+    ]
+  }

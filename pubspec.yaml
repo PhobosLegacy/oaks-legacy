@@ -78,6 +78,7 @@ flutter:
     - data/
     - images/
     - images/background/
+    - test/data/
     # - images/balls/
     # - images/icons/
     # - images/games/

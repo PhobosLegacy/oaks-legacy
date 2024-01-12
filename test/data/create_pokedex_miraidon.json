@@ -1,0 +1,38 @@
+{
+  "name": "Miraidon",
+  "formName": "",
+  "species": "Paradox Pokémon",
+  "height": "3.5m",
+  "weight": "240.0kg",
+  "breeding": { "groups": ["Undiscovered"], "cycles": "50" },
+  "number": "1008",
+  "ref": "1008.0",
+  "type1": "electric",
+  "type2": "dragon",
+  "image": ["1008-normal-g.png", "1008-shiny-g.png"],
+  "abilities": ["Hadron Engine"],
+  "hiddenAbility": "",
+  "weaknessquarter": ["electric"],
+  "weaknesshalf": ["fire", "water", "grass", "flying", "steel"],
+  "weaknessnone": [],
+  "weaknessdouble": ["ice", "ground", "dragon", "fairy"],
+  "weaknessquadruple": [],
+  "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
+  "games": [
+    {
+      "name": "Pokemon Scarlet",
+      "dex": "Regional",
+      "number": "400",
+      "shinyLocked": "LOCKED",
+      "notes": "Violet Exclusive"
+    },
+    {
+      "name": "Pokemon Violet",
+      "dex": "Regional",
+      "number": "400",
+      "shinyLocked": "LOCKED",
+      "notes": ""
+    }
+  ],
+  "forms": []
+}

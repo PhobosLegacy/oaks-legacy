@@ -1,0 +1,66 @@
+{
+  "name": "Bulbasaur",
+  "formName": "",
+  "species": "Seed Pokémon",
+  "height": "0.7m",
+  "weight": "6.9kg",
+  "breeding": { "groups": ["Grass", "Monster"], "cycles": "20" },
+  "number": "0001",
+  "ref": "001.0",
+  "type1": "grass",
+  "type2": "poison",
+  "image": ["001-normal-mf.png", "001-shiny-mf.png"],
+  "abilities": ["Overgrow"],
+  "hiddenAbility": "Chlorophyll",
+  "weaknessquarter": ["grass"],
+  "weaknesshalf": ["water", "electric", "fighting", "fairy"],
+  "weaknessnone": [],
+  "weaknessdouble": ["fire", "ice", "flying", "psychic"],
+  "weaknessquadruple": [],
+  "genderRatio": { "male": "87.5", "female": "12.5", "genderless": "0" },
+  "games": [
+    {
+      "name": "Let's Go Pikachu",
+      "dex": "Regional",
+      "number": "001",
+      "shinyLocked": "UNLOCKED",
+      "notes": ""
+    },
+    {
+      "name": "Let's Go Eevee",
+      "dex": "Regional",
+      "number": "001",
+      "shinyLocked": "UNLOCKED",
+      "notes": ""
+    },
+    {
+      "name": "Pokemon Scarlet",
+      "dex": "Blueberry",
+      "number": "164",
+      "shinyLocked": "UNLOCKED",
+      "notes": ""
+    },
+    {
+      "name": "Pokemon Violet",
+      "dex": "Blueberry",
+      "number": "164",
+      "shinyLocked": "UNLOCKED",
+      "notes": ""
+    },
+    {
+      "name": "Pokemon Sword",
+      "dex": "Isle of Armor",
+      "number": "068",
+      "shinyLocked": "UNLOCKED",
+      "notes": ""
+    },
+    {
+      "name": "Pokemon Shield",
+      "dex": "Isle of Armor",
+      "number": "068",
+      "shinyLocked": "UNLOCKED",
+      "notes": ""
+    }
+  ],
+  "forms": []
+}
