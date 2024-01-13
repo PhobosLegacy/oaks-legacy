@@ -28,7 +28,8 @@ saveTracker(Tracker tracker) =>
 deleteTracker(String name) => FileManager.delete(name);
 
 Tracker createTracker(
-    String trackerName, String gameName, String dexName, String trackerType) {
+    String trackerName, String gameName, String dexName, String trackerType,
+    {bool save = true}) {
   List<Item> pokemons = [];
   bool isShinyTracker = trackerType.contains("Shiny");
   bool isLivingDexTracker = trackerType.contains("Living");
@@ -72,9 +73,13 @@ Tracker createTracker(
   }
 
   tracker = applyTrackerChanges(tracker, isLivingDexTracker);
-  tracker.pokemons.sortBy((pokemon) => pokemon.number);
+  tracker.pokemons.sortBy((pokemon) =>
+      (tracker.pokemons.any((element) => element.number == ""))
+          ? pokemon.natDexNumber
+          : pokemon.number);
+  // tracker.pokemons.sortBy((pokemon) => pokemon.number);
 
-  saveTracker(tracker);
+  if (save) saveTracker(tracker);
 
   return tracker;
 }
