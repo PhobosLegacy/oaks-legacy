@@ -1,0 +1,5605 @@
+{
+  "name": "Let'sGoPikachu-Regional-Shiny",
+  "ref": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+  "game": "Let's Go Pikachu",
+  "dex": "Regional",
+  "type": "Shiny",
+  "pokemons": [
+    {
+      "name": "Bulbasaur",
+      "formName": "",
+      "number": "001",
+      "natDexNumber": "0001",
+      "ref": "001.0_46a435b9-91a4-4dc7-a7e4-8efb02cd3505",
+      "displayName": "Bulbasaur",
+      "displayImage": "001-shiny-mf.png",
+      "image": [
+        "001-normal-mf.png",
+        "001-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "001",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Ivysaur",
+      "formName": "",
+      "number": "002",
+      "natDexNumber": "0002",
+      "ref": "002.0_4cbcf56c-5ec6-4e19-a8af-44fd5e570b9c",
+      "displayName": "Ivysaur",
+      "displayImage": "002-shiny-mf.png",
+      "image": [
+        "002-normal-mf.png",
+        "002-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "002",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Venusaur",
+      "formName": "",
+      "number": "003",
+      "natDexNumber": "0003",
+      "ref": "003.0_9f0f5595-b610-4586-b3e3-5e56512ac31d",
+      "displayName": "Venusaur",
+      "displayImage": "003-shiny-f.png",
+      "image": [
+        "003-normal-m.png",
+        "003-normal-f.png",
+        "003-shiny-f.png",
+        "003-shiny-m.png"
+      ],
+      "type1": "grass",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "003",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Charmander",
+      "formName": "",
+      "number": "004",
+      "natDexNumber": "0004",
+      "ref": "004.0_3f31f03e-85e3-4c07-8be3-7a7868a29139",
+      "displayName": "Charmander",
+      "displayImage": "004-shiny-mf.png",
+      "image": [
+        "004-normal-mf.png",
+        "004-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "004",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Charmeleon",
+      "formName": "",
+      "number": "005",
+      "natDexNumber": "0005",
+      "ref": "005.0_361728c0-e10c-4a3e-9f93-b4f508f05f89",
+      "displayName": "Charmeleon",
+      "displayImage": "005-shiny-mf.png",
+      "image": [
+        "005-normal-mf.png",
+        "005-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "005",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Charizard",
+      "formName": "",
+      "number": "006",
+      "natDexNumber": "0006",
+      "ref": "006.0_3d171e79-3c9f-4935-a0a6-34daca8bf0b1",
+      "displayName": "Charizard",
+      "displayImage": "006-shiny-mf.png",
+      "image": [
+        "006-normal-mf.png",
+        "006-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "006",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Squirtle",
+      "formName": "",
+      "number": "007",
+      "natDexNumber": "0007",
+      "ref": "007.0_4aa6620d-8db2-43f8-b592-60f10b72cd65",
+      "displayName": "Squirtle",
+      "displayImage": "007-shiny-mf.png",
+      "image": [
+        "007-normal-mf.png",
+        "007-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "007",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Wartortle",
+      "formName": "",
+      "number": "008",
+      "natDexNumber": "0008",
+      "ref": "008.0_7bae4052-ae2c-4fb8-890e-3b283e767610",
+      "displayName": "Wartortle",
+      "displayImage": "008-shiny-mf.png",
+      "image": [
+        "008-normal-mf.png",
+        "008-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "008",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Blastoise",
+      "formName": "",
+      "number": "009",
+      "natDexNumber": "0009",
+      "ref": "009.0_97956dc6-e85f-49b0-8593-c3487752aa2a",
+      "displayName": "Blastoise",
+      "displayImage": "009-shiny-mf.png",
+      "image": [
+        "009-normal-mf.png",
+        "009-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "009",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Caterpie",
+      "formName": "",
+      "number": "010",
+      "natDexNumber": "0010",
+      "ref": "010.0_223218ec-d547-4592-a4f4-3da06d070c39",
+      "displayName": "Caterpie",
+      "displayImage": "010-shiny-mf.png",
+      "image": [
+        "010-normal-mf.png",
+        "010-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "010",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Metapod",
+      "formName": "",
+      "number": "011",
+      "natDexNumber": "0011",
+      "ref": "011.0_6ec7ab0b-b013-4960-a909-7b84ac76eeaf",
+      "displayName": "Metapod",
+      "displayImage": "011-shiny-mf.png",
+      "image": [
+        "011-normal-mf.png",
+        "011-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "011",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Butterfree",
+      "formName": "",
+      "number": "012",
+      "natDexNumber": "0012",
+      "ref": "012.0_3143a9f0-55e4-41a6-b364-580ba00fb4ce",
+      "displayName": "Butterfree",
+      "displayImage": "012-shiny-f.png",
+      "image": [
+        "012-normal-m.png",
+        "012-normal-f.png",
+        "012-shiny-f.png",
+        "012-shiny-m.png"
+      ],
+      "type1": "bug",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "012",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Weedle",
+      "formName": "",
+      "number": "013",
+      "natDexNumber": "0013",
+      "ref": "013.0_21f40fff-0202-43d2-bb93-1b582d36903e",
+      "displayName": "Weedle",
+      "displayImage": "013-shiny-mf.png",
+      "image": [
+        "013-normal-mf.png",
+        "013-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "013",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Kakuna",
+      "formName": "",
+      "number": "014",
+      "natDexNumber": "0014",
+      "ref": "014.0_a5e78ace-5f53-40ec-81af-078643b87067",
+      "displayName": "Kakuna",
+      "displayImage": "014-shiny-mf.png",
+      "image": [
+        "014-normal-mf.png",
+        "014-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "014",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Beedrill",
+      "formName": "",
+      "number": "015",
+      "natDexNumber": "0015",
+      "ref": "015.0_26c3fe1b-1c70-47b0-97ab-95b0d24ba71d",
+      "displayName": "Beedrill",
+      "displayImage": "015-shiny-mf.png",
+      "image": [
+        "015-normal-mf.png",
+        "015-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "015",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Pidgey",
+      "formName": "",
+      "number": "016",
+      "natDexNumber": "0016",
+      "ref": "016.0_4f3c71ee-91a6-47cd-8b69-b7ecc9ad88fe",
+      "displayName": "Pidgey",
+      "displayImage": "016-shiny-mf.png",
+      "image": [
+        "016-normal-mf.png",
+        "016-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "016",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Pidgeotto",
+      "formName": "",
+      "number": "017",
+      "natDexNumber": "0017",
+      "ref": "017.0_1ec463c0-0ee3-4d4d-8aef-28fda73b914c",
+      "displayName": "Pidgeotto",
+      "displayImage": "017-shiny-mf.png",
+      "image": [
+        "017-normal-mf.png",
+        "017-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "017",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Pidgeot",
+      "formName": "",
+      "number": "018",
+      "natDexNumber": "0018",
+      "ref": "018.0_21bbe068-79d8-41fd-9b18-cc1927316c0c",
+      "displayName": "Pidgeot",
+      "displayImage": "018-shiny-mf.png",
+      "image": [
+        "018-normal-mf.png",
+        "018-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "018",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Rattata",
+      "formName": "",
+      "number": "019",
+      "natDexNumber": "0019",
+      "ref": "019.0_52a744ca-25a4-4a0d-b7a4-bc26de46b474",
+      "displayName": "Rattata",
+      "displayImage": "019-shiny-f.png",
+      "image": [
+        "019-normal-m.png",
+        "019-normal-f.png",
+        "019-shiny-f.png",
+        "019-shiny-m.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "019",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Raticate",
+      "formName": "",
+      "number": "020",
+      "natDexNumber": "0020",
+      "ref": "020.0_455dfc7b-92ee-4af1-86b8-e9e5e6dccec3",
+      "displayName": "Raticate",
+      "displayImage": "020-shiny-f.png",
+      "image": [
+        "020-normal-m.png",
+        "020-normal-f.png",
+        "020-shiny-f.png",
+        "020-shiny-m.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "020",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Spearow",
+      "formName": "",
+      "number": "021",
+      "natDexNumber": "0021",
+      "ref": "021.0_59591a15-1da2-4ab0-95d1-9250f8c63de3",
+      "displayName": "Spearow",
+      "displayImage": "021-shiny-mf.png",
+      "image": [
+        "021-normal-mf.png",
+        "021-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "021",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Fearow",
+      "formName": "",
+      "number": "022",
+      "natDexNumber": "0022",
+      "ref": "022.0_4278d9a9-4b9b-46c2-a078-56ccc7ee42c4",
+      "displayName": "Fearow",
+      "displayImage": "022-shiny-mf.png",
+      "image": [
+        "022-normal-mf.png",
+        "022-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "022",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Ekans",
+      "formName": "",
+      "number": "023",
+      "natDexNumber": "0023",
+      "ref": "023.0_72182a96-62e3-4ffa-8cf6-0bb7990dff32",
+      "displayName": "Ekans",
+      "displayImage": "023-shiny-mf.png",
+      "image": [
+        "023-normal-mf.png",
+        "023-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "023",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Eevee Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Arbok",
+      "formName": "",
+      "number": "024",
+      "natDexNumber": "0024",
+      "ref": "024.0_b8a55ecf-be08-44d8-85bf-8908ee06295f",
+      "displayName": "Arbok",
+      "displayImage": "024-shiny-mf.png",
+      "image": [
+        "024-normal-mf.png",
+        "024-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "024",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Eevee Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Pikachu",
+      "formName": "",
+      "number": "025",
+      "natDexNumber": "0025",
+      "ref": "025.0_12ce9625-47a1-4774-8ea3-0f0bc0b61d90",
+      "displayName": "Pikachu",
+      "displayImage": "025-shiny-f.png",
+      "image": [
+        "025-normal-m.png",
+        "025-normal-f.png",
+        "025-shiny-f.png",
+        "025-shiny-m.png"
+      ],
+      "type1": "electric",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "025",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Raichu",
+      "formName": "",
+      "number": "026",
+      "natDexNumber": "0026",
+      "ref": "026.0_2178b283-e21d-4da8-b365-39dcd9e80476",
+      "displayName": "Raichu",
+      "displayImage": "026-shiny-f.png",
+      "image": [
+        "026-normal-m.png",
+        "026-normal-f.png",
+        "026-shiny-f.png",
+        "026-shiny-m.png"
+      ],
+      "type1": "electric",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "026",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Sandshrew",
+      "formName": "",
+      "number": "027",
+      "natDexNumber": "0027",
+      "ref": "027.0_af9bc3f3-91e5-4b64-8267-b585aa6189c6",
+      "displayName": "Sandshrew",
+      "displayImage": "027-shiny-mf.png",
+      "image": [
+        "027-normal-mf.png",
+        "027-shiny-mf.png"
+      ],
+      "type1": "ground",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "027",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Pikachu Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Sandslash",
+      "formName": "",
+      "number": "028",
+      "natDexNumber": "0028",
+      "ref": "028.0_80a52893-3265-424c-b2cb-b484d6aef7fd",
+      "displayName": "Sandslash",
+      "displayImage": "028-shiny-mf.png",
+      "image": [
+        "028-normal-mf.png",
+        "028-shiny-mf.png"
+      ],
+      "type1": "ground",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "028",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Pikachu Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Nidoran ♀",
+      "formName": "",
+      "number": "029",
+      "natDexNumber": "0029",
+      "ref": "029.0_08dc57c9-d7a4-47ac-abad-2f1e6281c57f",
+      "displayName": "Nidoran ♀",
+      "displayImage": "029-shiny-mf.png",
+      "image": [
+        "029-normal-mf.png",
+        "029-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": null,
+      "forms": [],
+      "gender": "female",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "029",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Nidorina",
+      "formName": "",
+      "number": "030",
+      "natDexNumber": "0030",
+      "ref": "030.0_738bf998-f099-4a95-b3ac-3c322db3280d",
+      "displayName": "Nidorina",
+      "displayImage": "030-shiny-mf.png",
+      "image": [
+        "030-normal-mf.png",
+        "030-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": null,
+      "forms": [],
+      "gender": "female",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "030",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Nidoqueen",
+      "formName": "",
+      "number": "031",
+      "natDexNumber": "0031",
+      "ref": "031.0_447219ac-e9a3-4348-a3be-a4d7bcd7caa9",
+      "displayName": "Nidoqueen",
+      "displayImage": "031-shiny-mf.png",
+      "image": [
+        "031-normal-mf.png",
+        "031-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": "ground",
+      "forms": [],
+      "gender": "female",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "031",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Nidoran ♂",
+      "formName": "",
+      "number": "032",
+      "natDexNumber": "0032",
+      "ref": "032.0_2c329c29-f455-4078-a94b-53f18dc2db66",
+      "displayName": "Nidoran ♂",
+      "displayImage": "032-shiny-mf.png",
+      "image": [
+        "032-normal-mf.png",
+        "032-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": null,
+      "forms": [],
+      "gender": "male",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "032",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Nidorino",
+      "formName": "",
+      "number": "033",
+      "natDexNumber": "0033",
+      "ref": "033.0_f2c38701-2983-4226-8189-35862538247d",
+      "displayName": "Nidorino",
+      "displayImage": "033-shiny-mf.png",
+      "image": [
+        "033-normal-mf.png",
+        "033-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": null,
+      "forms": [],
+      "gender": "male",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "033",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Nidoking",
+      "formName": "",
+      "number": "034",
+      "natDexNumber": "0034",
+      "ref": "034.0_a1eab188-1325-4483-8bd7-220b6501b473",
+      "displayName": "Nidoking",
+      "displayImage": "034-shiny-mf.png",
+      "image": [
+        "034-normal-mf.png",
+        "034-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": "ground",
+      "forms": [],
+      "gender": "male",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "034",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Clefairy",
+      "formName": "",
+      "number": "035",
+      "natDexNumber": "0035",
+      "ref": "035.0_de7297d1-70f1-4e9b-b14f-6826a4066de6",
+      "displayName": "Clefairy",
+      "displayImage": "035-shiny-mf.png",
+      "image": [
+        "035-normal-mf.png",
+        "035-shiny-mf.png"
+      ],
+      "type1": "fairy",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "035",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Clefable",
+      "formName": "",
+      "number": "036",
+      "natDexNumber": "0036",
+      "ref": "036.0_2417aea6-341d-4579-91be-ba99d0f9643c",
+      "displayName": "Clefable",
+      "displayImage": "036-shiny-mf.png",
+      "image": [
+        "036-normal-mf.png",
+        "036-shiny-mf.png"
+      ],
+      "type1": "fairy",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "036",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Vulpix",
+      "formName": "",
+      "number": "037",
+      "natDexNumber": "0037",
+      "ref": "037.0_d51b56d6-cfc2-4c56-9dbb-b970922745db",
+      "displayName": "Vulpix",
+      "displayImage": "037-shiny-mf.png",
+      "image": [
+        "037-normal-mf.png",
+        "037-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "037",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Eevee Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Ninetales",
+      "formName": "",
+      "number": "038",
+      "natDexNumber": "0038",
+      "ref": "038.0_516d41da-a26d-48a9-a40b-2174db35c3bf",
+      "displayName": "Ninetales",
+      "displayImage": "038-shiny-mf.png",
+      "image": [
+        "038-normal-mf.png",
+        "038-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "038",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Eevee Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Jigglypuff",
+      "formName": "",
+      "number": "039",
+      "natDexNumber": "0039",
+      "ref": "039.0_732725fa-b0c9-415e-9099-458dae18d3e5",
+      "displayName": "Jigglypuff",
+      "displayImage": "039-shiny-mf.png",
+      "image": [
+        "039-normal-mf.png",
+        "039-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": "fairy",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "039",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Wigglytuff",
+      "formName": "",
+      "number": "040",
+      "natDexNumber": "0040",
+      "ref": "040.0_a19d7ffd-2195-4ac3-9d5e-650a07da39d6",
+      "displayName": "Wigglytuff",
+      "displayImage": "040-shiny-mf.png",
+      "image": [
+        "040-normal-mf.png",
+        "040-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": "fairy",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "040",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Zubat",
+      "formName": "",
+      "number": "041",
+      "natDexNumber": "0041",
+      "ref": "041.0_ede562d7-556b-429c-aef3-b10a80109409",
+      "displayName": "Zubat",
+      "displayImage": "041-shiny-f.png",
+      "image": [
+        "041-normal-m.png",
+        "041-normal-f.png",
+        "041-shiny-f.png",
+        "041-shiny-m.png"
+      ],
+      "type1": "poison",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "041",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Golbat",
+      "formName": "",
+      "number": "042",
+      "natDexNumber": "0042",
+      "ref": "042.0_3cc9e323-b431-4b69-be05-78e941541c6f",
+      "displayName": "Golbat",
+      "displayImage": "042-shiny-f.png",
+      "image": [
+        "042-normal-m.png",
+        "042-normal-f.png",
+        "042-shiny-f.png",
+        "042-shiny-m.png"
+      ],
+      "type1": "poison",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "042",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Oddish",
+      "formName": "",
+      "number": "043",
+      "natDexNumber": "0043",
+      "ref": "043.0_09be902e-e67e-4c0a-b853-d0c9bb825f30",
+      "displayName": "Oddish",
+      "displayImage": "043-shiny-mf.png",
+      "image": [
+        "043-normal-mf.png",
+        "043-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "043",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Pikachu Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gloom",
+      "formName": "",
+      "number": "044",
+      "natDexNumber": "0044",
+      "ref": "044.0_e9066161-b368-4d71-ad7e-33c07af8384d",
+      "displayName": "Gloom",
+      "displayImage": "044-shiny-f.png",
+      "image": [
+        "044-normal-m.png",
+        "044-normal-f.png",
+        "044-shiny-f.png",
+        "044-shiny-m.png"
+      ],
+      "type1": "grass",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "044",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Pikachu Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Vileplume",
+      "formName": "",
+      "number": "045",
+      "natDexNumber": "0045",
+      "ref": "045.0_068148d1-f087-4098-9d00-19f452dee450",
+      "displayName": "Vileplume",
+      "displayImage": "045-shiny-f.png",
+      "image": [
+        "045-normal-m.png",
+        "045-normal-f.png",
+        "045-shiny-f.png",
+        "045-shiny-m.png"
+      ],
+      "type1": "grass",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "045",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Pikachu Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Paras",
+      "formName": "",
+      "number": "046",
+      "natDexNumber": "0046",
+      "ref": "046.0_0704196a-2002-472e-8bcd-37e8fb184133",
+      "displayName": "Paras",
+      "displayImage": "046-shiny-mf.png",
+      "image": [
+        "046-normal-mf.png",
+        "046-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "grass",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "046",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Parasect",
+      "formName": "",
+      "number": "047",
+      "natDexNumber": "0047",
+      "ref": "047.0_6e280375-595e-4c71-9712-61df700008ee",
+      "displayName": "Parasect",
+      "displayImage": "047-shiny-mf.png",
+      "image": [
+        "047-normal-mf.png",
+        "047-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "grass",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "047",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Venonat",
+      "formName": "",
+      "number": "048",
+      "natDexNumber": "0048",
+      "ref": "048.0_8f7559b8-555b-4888-b55e-f27efbddaa3b",
+      "displayName": "Venonat",
+      "displayImage": "048-shiny-mf.png",
+      "image": [
+        "048-normal-mf.png",
+        "048-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "048",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Venomoth",
+      "formName": "",
+      "number": "049",
+      "natDexNumber": "0049",
+      "ref": "049.0_ba1ec98d-2a7b-417a-bcee-ebdc9204c9e3",
+      "displayName": "Venomoth",
+      "displayImage": "049-shiny-mf.png",
+      "image": [
+        "049-normal-mf.png",
+        "049-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "049",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Diglett",
+      "formName": "",
+      "number": "050",
+      "natDexNumber": "0050",
+      "ref": "050.0_d921d875-9f09-42c9-9ecf-2ca8022be13f",
+      "displayName": "Diglett",
+      "displayImage": "050-shiny-mf.png",
+      "image": [
+        "050-normal-mf.png",
+        "050-shiny-mf.png"
+      ],
+      "type1": "ground",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "050",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Dugtrio",
+      "formName": "",
+      "number": "051",
+      "natDexNumber": "0051",
+      "ref": "051.0_077c2376-b610-4924-9274-d454c1af7719",
+      "displayName": "Dugtrio",
+      "displayImage": "051-shiny-mf.png",
+      "image": [
+        "051-normal-mf.png",
+        "051-shiny-mf.png"
+      ],
+      "type1": "ground",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "051",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Meowth",
+      "formName": "",
+      "number": "052",
+      "natDexNumber": "0052",
+      "ref": "052.0_7a7ac15d-cec1-4bc7-a582-201360b8f11a",
+      "displayName": "Meowth",
+      "displayImage": "052-shiny-mf.png",
+      "image": [
+        "052-normal-mf.png",
+        "052-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "052",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Eevee Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Persian",
+      "formName": "",
+      "number": "053",
+      "natDexNumber": "0053",
+      "ref": "053.0_598fe104-974c-40fe-94f4-ce101cf77b6e",
+      "displayName": "Persian",
+      "displayImage": "053-shiny-mf.png",
+      "image": [
+        "053-normal-mf.png",
+        "053-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "053",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Eevee Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Psyduck",
+      "formName": "",
+      "number": "054",
+      "natDexNumber": "0054",
+      "ref": "054.0_602befc9-6886-4bad-8e31-0de5cc40230a",
+      "displayName": "Psyduck",
+      "displayImage": "054-shiny-mf.png",
+      "image": [
+        "054-normal-mf.png",
+        "054-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "054",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Golduck",
+      "formName": "",
+      "number": "055",
+      "natDexNumber": "0055",
+      "ref": "055.0_cb768a87-4066-496e-877a-14f9c3fba9f2",
+      "displayName": "Golduck",
+      "displayImage": "055-shiny-mf.png",
+      "image": [
+        "055-normal-mf.png",
+        "055-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "055",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Mankey",
+      "formName": "",
+      "number": "056",
+      "natDexNumber": "0056",
+      "ref": "056.0_6fd927d2-f47e-4c3c-893b-b9e2b258765e",
+      "displayName": "Mankey",
+      "displayImage": "056-shiny-mf.png",
+      "image": [
+        "056-normal-mf.png",
+        "056-shiny-mf.png"
+      ],
+      "type1": "fighting",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "056",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Pikachu Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Primeape",
+      "formName": "",
+      "number": "057",
+      "natDexNumber": "0057",
+      "ref": "057.0_edda0300-9468-4b58-ad17-3583da554ad2",
+      "displayName": "Primeape",
+      "displayImage": "057-shiny-mf.png",
+      "image": [
+        "057-normal-mf.png",
+        "057-shiny-mf.png"
+      ],
+      "type1": "fighting",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "057",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Pikachu Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Growlithe",
+      "formName": "",
+      "number": "058",
+      "natDexNumber": "0058",
+      "ref": "058.0_c50c158e-1219-4c74-9552-0a68ae1fafa0",
+      "displayName": "Growlithe",
+      "displayImage": "058-shiny-mf.png",
+      "image": [
+        "058-normal-mf.png",
+        "058-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "058",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Pikachu Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Arcanine",
+      "formName": "",
+      "number": "059",
+      "natDexNumber": "0059",
+      "ref": "059.0_398778bb-3899-416f-b4a0-a91ed02f7525",
+      "displayName": "Arcanine",
+      "displayImage": "059-shiny-mf.png",
+      "image": [
+        "059-normal-mf.png",
+        "059-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "059",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Pikachu Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Poliwag",
+      "formName": "",
+      "number": "060",
+      "natDexNumber": "0060",
+      "ref": "060.0_cbd0d2d9-1e8f-435d-99df-540963c357c1",
+      "displayName": "Poliwag",
+      "displayImage": "060-shiny-mf.png",
+      "image": [
+        "060-normal-mf.png",
+        "060-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "060",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Poliwhirl",
+      "formName": "",
+      "number": "061",
+      "natDexNumber": "0061",
+      "ref": "061.0_a5afb5c4-8340-428f-a3f0-dd8b112bdd22",
+      "displayName": "Poliwhirl",
+      "displayImage": "061-shiny-mf.png",
+      "image": [
+        "061-normal-mf.png",
+        "061-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "061",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Poliwrath",
+      "formName": "",
+      "number": "062",
+      "natDexNumber": "0062",
+      "ref": "062.0_1b86172a-128f-4088-9555-90e5f49c6865",
+      "displayName": "Poliwrath",
+      "displayImage": "062-shiny-mf.png",
+      "image": [
+        "062-normal-mf.png",
+        "062-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": "fighting",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "062",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Abra",
+      "formName": "",
+      "number": "063",
+      "natDexNumber": "0063",
+      "ref": "063.0_f9689e49-ddcc-4935-8ab7-aa1fce83cb8e",
+      "displayName": "Abra",
+      "displayImage": "063-shiny-mf.png",
+      "image": [
+        "063-normal-mf.png",
+        "063-shiny-mf.png"
+      ],
+      "type1": "psychic",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "063",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Kadabra",
+      "formName": "",
+      "number": "064",
+      "natDexNumber": "0064",
+      "ref": "064.0_75587d8d-1caa-4a26-8114-3ffb9da69f21",
+      "displayName": "Kadabra",
+      "displayImage": "064-shiny-f.png",
+      "image": [
+        "064-normal-m.png",
+        "064-normal-f.png",
+        "064-shiny-f.png",
+        "064-shiny-m.png"
+      ],
+      "type1": "psychic",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "064",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alakazam",
+      "formName": "",
+      "number": "065",
+      "natDexNumber": "0065",
+      "ref": "065.0_d0487217-3ea7-4ba7-9123-7f4b656d5626",
+      "displayName": "Alakazam",
+      "displayImage": "065-shiny-f.png",
+      "image": [
+        "065-normal-m.png",
+        "065-normal-f.png",
+        "065-shiny-f.png",
+        "065-shiny-m.png"
+      ],
+      "type1": "psychic",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "065",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Machop",
+      "formName": "",
+      "number": "066",
+      "natDexNumber": "0066",
+      "ref": "066.0_8a6d11c1-068e-423c-b206-85b4f58954f8",
+      "displayName": "Machop",
+      "displayImage": "066-shiny-mf.png",
+      "image": [
+        "066-normal-mf.png",
+        "066-shiny-mf.png"
+      ],
+      "type1": "fighting",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "066",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Machoke",
+      "formName": "",
+      "number": "067",
+      "natDexNumber": "0067",
+      "ref": "067.0_affcb5bd-6990-47ca-bd66-216993d4ad9c",
+      "displayName": "Machoke",
+      "displayImage": "067-shiny-mf.png",
+      "image": [
+        "067-normal-mf.png",
+        "067-shiny-mf.png"
+      ],
+      "type1": "fighting",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "067",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Machamp",
+      "formName": "",
+      "number": "068",
+      "natDexNumber": "0068",
+      "ref": "068.0_f01c1d67-ec2a-47ba-92c4-c25fc0b3b2a8",
+      "displayName": "Machamp",
+      "displayImage": "068-shiny-mf.png",
+      "image": [
+        "068-normal-mf.png",
+        "068-shiny-mf.png"
+      ],
+      "type1": "fighting",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "068",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Bellsprout",
+      "formName": "",
+      "number": "069",
+      "natDexNumber": "0069",
+      "ref": "069.0_814dde01-9096-4be9-8f6f-2bdfc4a4b9e1",
+      "displayName": "Bellsprout",
+      "displayImage": "069-shiny-mf.png",
+      "image": [
+        "069-normal-mf.png",
+        "069-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "069",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Eevee Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Weepinbell",
+      "formName": "",
+      "number": "070",
+      "natDexNumber": "0070",
+      "ref": "070.0_8e42881b-313d-40bf-b15f-93eedc9df6b3",
+      "displayName": "Weepinbell",
+      "displayImage": "070-shiny-mf.png",
+      "image": [
+        "070-normal-mf.png",
+        "070-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "070",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Eevee Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Victreebel",
+      "formName": "",
+      "number": "071",
+      "natDexNumber": "0071",
+      "ref": "071.0_eaef67b3-e657-4fb2-b41f-5cca5f436955",
+      "displayName": "Victreebel",
+      "displayImage": "071-shiny-mf.png",
+      "image": [
+        "071-normal-mf.png",
+        "071-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "071",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Eevee Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Tentacool",
+      "formName": "",
+      "number": "072",
+      "natDexNumber": "0072",
+      "ref": "072.0_027b2b13-520a-4650-aed7-d96417380376",
+      "displayName": "Tentacool",
+      "displayImage": "072-shiny-mf.png",
+      "image": [
+        "072-normal-mf.png",
+        "072-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "072",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Tentacruel",
+      "formName": "",
+      "number": "073",
+      "natDexNumber": "0073",
+      "ref": "073.0_7c1208c4-6ff8-4e5c-8f6c-56efbda10e23",
+      "displayName": "Tentacruel",
+      "displayImage": "073-shiny-mf.png",
+      "image": [
+        "073-normal-mf.png",
+        "073-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "073",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Geodude",
+      "formName": "",
+      "number": "074",
+      "natDexNumber": "0074",
+      "ref": "074.0_7d2432ea-1506-4c13-8e84-3248d58cb598",
+      "displayName": "Geodude",
+      "displayImage": "074-shiny-mf.png",
+      "image": [
+        "074-normal-mf.png",
+        "074-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "ground",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "074",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Graveler",
+      "formName": "",
+      "number": "075",
+      "natDexNumber": "0075",
+      "ref": "075.0_2ecff9e0-78a8-4a89-9c33-cd46e94c629c",
+      "displayName": "Graveler",
+      "displayImage": "075-shiny-mf.png",
+      "image": [
+        "075-normal-mf.png",
+        "075-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "ground",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "075",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Golem",
+      "formName": "",
+      "number": "076",
+      "natDexNumber": "0076",
+      "ref": "076.0_6b48b547-672c-42b7-ae56-5b2174045804",
+      "displayName": "Golem",
+      "displayImage": "076-shiny-mf.png",
+      "image": [
+        "076-normal-mf.png",
+        "076-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "ground",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "076",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Ponyta",
+      "formName": "",
+      "number": "077",
+      "natDexNumber": "0077",
+      "ref": "077.0_8e19fe88-898f-4af4-b4f8-571300e54070",
+      "displayName": "Ponyta",
+      "displayImage": "077-shiny-mf.png",
+      "image": [
+        "077-normal-mf.png",
+        "077-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "077",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Rapidash",
+      "formName": "",
+      "number": "078",
+      "natDexNumber": "0078",
+      "ref": "078.0_15a0caf5-dfdb-4290-af63-3b897799c5dd",
+      "displayName": "Rapidash",
+      "displayImage": "078-shiny-mf.png",
+      "image": [
+        "078-normal-mf.png",
+        "078-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "078",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Slowpoke",
+      "formName": "",
+      "number": "079",
+      "natDexNumber": "0079",
+      "ref": "079.0_0e2a5b63-5692-4a39-8ed0-1e5278d5c653",
+      "displayName": "Slowpoke",
+      "displayImage": "079-shiny-mf.png",
+      "image": [
+        "079-normal-mf.png",
+        "079-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": "psychic",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "079",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Slowbro",
+      "formName": "",
+      "number": "080",
+      "natDexNumber": "0080",
+      "ref": "080.0_d844830d-a4c5-450a-8a09-3eb5392ef077",
+      "displayName": "Slowbro",
+      "displayImage": "080-shiny-mf.png",
+      "image": [
+        "080-normal-mf.png",
+        "080-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": "psychic",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "080",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Magnemite",
+      "formName": "",
+      "number": "081",
+      "natDexNumber": "0081",
+      "ref": "081.0_fee2bb69-bd0b-4a57-a014-6a907e7d9f99",
+      "displayName": "Magnemite",
+      "displayImage": "081-shiny-g.png",
+      "image": [
+        "081-normal-g.png",
+        "081-shiny-g.png"
+      ],
+      "type1": "electric",
+      "type2": "steel",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "081",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Magneton",
+      "formName": "",
+      "number": "082",
+      "natDexNumber": "0082",
+      "ref": "082.0_aeac25cd-9a42-49f0-b64b-5b12dc0759b4",
+      "displayName": "Magneton",
+      "displayImage": "082-shiny-g.png",
+      "image": [
+        "082-normal-g.png",
+        "082-shiny-g.png"
+      ],
+      "type1": "electric",
+      "type2": "steel",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "082",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Farfetch'd",
+      "formName": "",
+      "number": "083",
+      "natDexNumber": "0083",
+      "ref": "083.0_7345720e-e4a4-4d20-a356-e97d34e91ef6",
+      "displayName": "Farfetch'd",
+      "displayImage": "083-shiny-mf.png",
+      "image": [
+        "083-normal-mf.png",
+        "083-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "083",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Doduo",
+      "formName": "",
+      "number": "084",
+      "natDexNumber": "0084",
+      "ref": "084.0_fdaaa5a1-3f21-442b-b9c1-c7ebeee59c42",
+      "displayName": "Doduo",
+      "displayImage": "084-shiny-f.png",
+      "image": [
+        "084-normal-m.png",
+        "084-normal-f.png",
+        "084-shiny-f.png",
+        "084-shiny-m.png"
+      ],
+      "type1": "normal",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "084",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Dodrio",
+      "formName": "",
+      "number": "085",
+      "natDexNumber": "0085",
+      "ref": "085.0_5042188e-da57-41e3-b69d-387f2808f924",
+      "displayName": "Dodrio",
+      "displayImage": "085-shiny-f.png",
+      "image": [
+        "085-normal-m.png",
+        "085-normal-f.png",
+        "085-shiny-f.png",
+        "085-shiny-m.png"
+      ],
+      "type1": "normal",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "085",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Seel",
+      "formName": "",
+      "number": "086",
+      "natDexNumber": "0086",
+      "ref": "086.0_d7236bf3-a994-40eb-bd6b-babe3aa18d15",
+      "displayName": "Seel",
+      "displayImage": "086-shiny-mf.png",
+      "image": [
+        "086-normal-mf.png",
+        "086-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "086",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Dewgong",
+      "formName": "",
+      "number": "087",
+      "natDexNumber": "0087",
+      "ref": "087.0_87c2881c-c227-4701-8b05-9bbf68c2d74a",
+      "displayName": "Dewgong",
+      "displayImage": "087-shiny-mf.png",
+      "image": [
+        "087-normal-mf.png",
+        "087-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": "ice",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "087",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Grimer",
+      "formName": "",
+      "number": "088",
+      "natDexNumber": "0088",
+      "ref": "088.0_43270a3c-6bb5-44d7-a720-b303ff127502",
+      "displayName": "Grimer",
+      "displayImage": "088-shiny-mf.png",
+      "image": [
+        "088-normal-mf.png",
+        "088-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "088",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Pikachu Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Muk",
+      "formName": "",
+      "number": "089",
+      "natDexNumber": "0089",
+      "ref": "089.0_b61aefad-61cd-4e67-8396-7da603695e72",
+      "displayName": "Muk",
+      "displayImage": "089-shiny-mf.png",
+      "image": [
+        "089-normal-mf.png",
+        "089-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "089",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Pikachu Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Shellder",
+      "formName": "",
+      "number": "090",
+      "natDexNumber": "0090",
+      "ref": "090.0_2f49ef51-a4c6-4b51-9a76-c2a004b2c2fb",
+      "displayName": "Shellder",
+      "displayImage": "090-shiny-mf.png",
+      "image": [
+        "090-normal-mf.png",
+        "090-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "090",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Cloyster",
+      "formName": "",
+      "number": "091",
+      "natDexNumber": "0091",
+      "ref": "091.0_67fd641b-5713-41d8-bbc2-b84f9e73b7eb",
+      "displayName": "Cloyster",
+      "displayImage": "091-shiny-mf.png",
+      "image": [
+        "091-normal-mf.png",
+        "091-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": "ice",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "091",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gastly",
+      "formName": "",
+      "number": "092",
+      "natDexNumber": "0092",
+      "ref": "092.0_0076c681-d9cc-42cb-b815-e6ef966748d9",
+      "displayName": "Gastly",
+      "displayImage": "092-shiny-mf.png",
+      "image": [
+        "092-normal-mf.png",
+        "092-shiny-mf.png"
+      ],
+      "type1": "ghost",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "092",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Haunter",
+      "formName": "",
+      "number": "093",
+      "natDexNumber": "0093",
+      "ref": "093.0_cdef0ef8-2af4-4d02-8c3d-fec40ce7a422",
+      "displayName": "Haunter",
+      "displayImage": "093-shiny-mf.png",
+      "image": [
+        "093-normal-mf.png",
+        "093-shiny-mf.png"
+      ],
+      "type1": "ghost",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "093",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gengar",
+      "formName": "",
+      "number": "094",
+      "natDexNumber": "0094",
+      "ref": "094.0_6beb5174-1a11-484e-9b93-fafc088e56c4",
+      "displayName": "Gengar",
+      "displayImage": "094-shiny-mf.png",
+      "image": [
+        "094-normal-mf.png",
+        "094-shiny-mf.png"
+      ],
+      "type1": "ghost",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "094",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Onix",
+      "formName": "",
+      "number": "095",
+      "natDexNumber": "0095",
+      "ref": "095.0_3b46bcce-fb94-49bc-aa45-7bd4646b066f",
+      "displayName": "Onix",
+      "displayImage": "095-shiny-mf.png",
+      "image": [
+        "095-normal-mf.png",
+        "095-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "ground",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "095",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Drowzee",
+      "formName": "",
+      "number": "096",
+      "natDexNumber": "0096",
+      "ref": "096.0_240490b5-1512-41f3-9658-233bdb966a88",
+      "displayName": "Drowzee",
+      "displayImage": "096-shiny-mf.png",
+      "image": [
+        "096-normal-mf.png",
+        "096-shiny-mf.png"
+      ],
+      "type1": "psychic",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "096",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Hypno",
+      "formName": "",
+      "number": "097",
+      "natDexNumber": "0097",
+      "ref": "097.0_869e828d-0d29-4528-8aea-9147d47fd8d8",
+      "displayName": "Hypno",
+      "displayImage": "097-shiny-f.png",
+      "image": [
+        "097-normal-m.png",
+        "097-normal-f.png",
+        "097-shiny-f.png",
+        "097-shiny-m.png"
+      ],
+      "type1": "psychic",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "097",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Krabby",
+      "formName": "",
+      "number": "098",
+      "natDexNumber": "0098",
+      "ref": "098.0_e2a25a55-2a5c-40f3-a58e-349a99dc73bc",
+      "displayName": "Krabby",
+      "displayImage": "098-shiny-mf.png",
+      "image": [
+        "098-normal-mf.png",
+        "098-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "098",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Kingler",
+      "formName": "",
+      "number": "099",
+      "natDexNumber": "0099",
+      "ref": "099.0_6234d0d5-b365-4e93-b0d5-016827b1b045",
+      "displayName": "Kingler",
+      "displayImage": "099-shiny-mf.png",
+      "image": [
+        "099-normal-mf.png",
+        "099-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "099",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Voltorb",
+      "formName": "",
+      "number": "100",
+      "natDexNumber": "0100",
+      "ref": "100.0_4cf3aa44-25d0-4c57-ae95-0400f7b01f25",
+      "displayName": "Voltorb",
+      "displayImage": "100-shiny-g.png",
+      "image": [
+        "100-normal-g.png",
+        "100-shiny-g.png"
+      ],
+      "type1": "electric",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "100",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Electrode",
+      "formName": "",
+      "number": "101",
+      "natDexNumber": "0101",
+      "ref": "101.0_0bca97c6-5ba4-41ed-8772-aac53c7e5870",
+      "displayName": "Electrode",
+      "displayImage": "101-shiny-g.png",
+      "image": [
+        "101-normal-g.png",
+        "101-shiny-g.png"
+      ],
+      "type1": "electric",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "101",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Exeggcute",
+      "formName": "",
+      "number": "102",
+      "natDexNumber": "0102",
+      "ref": "102.0_3361ef05-4a93-43f3-9184-e7e92617800a",
+      "displayName": "Exeggcute",
+      "displayImage": "102-shiny-mf.png",
+      "image": [
+        "102-normal-mf.png",
+        "102-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": "psychic",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "102",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Exeggutor",
+      "formName": "",
+      "number": "103",
+      "natDexNumber": "0103",
+      "ref": "103.0_1cbd854c-b4a5-48d3-a2e1-c23592d74985",
+      "displayName": "Exeggutor",
+      "displayImage": "103-shiny-mf.png",
+      "image": [
+        "103-normal-mf.png",
+        "103-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": "psychic",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "103",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Cubone",
+      "formName": "",
+      "number": "104",
+      "natDexNumber": "0104",
+      "ref": "104.0_bd98d66a-3f33-4d13-ac91-5b43c5c15724",
+      "displayName": "Cubone",
+      "displayImage": "104-shiny-mf.png",
+      "image": [
+        "104-normal-mf.png",
+        "104-shiny-mf.png"
+      ],
+      "type1": "ground",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "104",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Marowak",
+      "formName": "",
+      "number": "105",
+      "natDexNumber": "0105",
+      "ref": "105.0_d1b5c6c2-9742-422d-9300-69a0f7292f63",
+      "displayName": "Marowak",
+      "displayImage": "105-shiny-mf.png",
+      "image": [
+        "105-normal-mf.png",
+        "105-shiny-mf.png"
+      ],
+      "type1": "ground",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "105",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Hitmonlee",
+      "formName": "",
+      "number": "106",
+      "natDexNumber": "0106",
+      "ref": "106.0_7398a32b-ebdb-4b46-9239-b1481b59917f",
+      "displayName": "Hitmonlee",
+      "displayImage": "106-shiny-mf.png",
+      "image": [
+        "106-normal-mf.png",
+        "106-shiny-mf.png"
+      ],
+      "type1": "fighting",
+      "type2": null,
+      "forms": [],
+      "gender": "male",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "106",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Hitmonchan",
+      "formName": "",
+      "number": "107",
+      "natDexNumber": "0107",
+      "ref": "107.0_926885a6-309d-4789-af43-1938af80dd98",
+      "displayName": "Hitmonchan",
+      "displayImage": "107-shiny-mf.png",
+      "image": [
+        "107-normal-mf.png",
+        "107-shiny-mf.png"
+      ],
+      "type1": "fighting",
+      "type2": null,
+      "forms": [],
+      "gender": "male",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "107",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Lickitung",
+      "formName": "",
+      "number": "108",
+      "natDexNumber": "0108",
+      "ref": "108.0_0d7d24aa-0dc3-4050-af5e-c694c601b112",
+      "displayName": "Lickitung",
+      "displayImage": "108-shiny-mf.png",
+      "image": [
+        "108-normal-mf.png",
+        "108-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "108",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Koffing",
+      "formName": "",
+      "number": "109",
+      "natDexNumber": "0109",
+      "ref": "109.0_ba98cf81-f86b-4ef3-a20c-13bf2d1de3ee",
+      "displayName": "Koffing",
+      "displayImage": "109-shiny-mf.png",
+      "image": [
+        "109-normal-mf.png",
+        "109-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "109",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Eevee Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Weezing",
+      "formName": "",
+      "number": "110",
+      "natDexNumber": "0110",
+      "ref": "110.0_a474dea0-12c9-4d05-a3c7-c162c19c67bc",
+      "displayName": "Weezing",
+      "displayImage": "110-shiny-mf.png",
+      "image": [
+        "110-normal-mf.png",
+        "110-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "110",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Eevee Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Rhyhorn",
+      "formName": "",
+      "number": "111",
+      "natDexNumber": "0111",
+      "ref": "111.0_d9879b97-4d79-4c12-9c8b-c987c282abb0",
+      "displayName": "Rhyhorn",
+      "displayImage": "111-shiny-f.png",
+      "image": [
+        "111-normal-m.png",
+        "111-normal-f.png",
+        "111-shiny-f.png",
+        "111-shiny-m.png"
+      ],
+      "type1": "ground",
+      "type2": "rock",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "111",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Rhydon",
+      "formName": "",
+      "number": "112",
+      "natDexNumber": "0112",
+      "ref": "112.0_10b84cec-d1b1-4cfd-bf93-bae0248072e3",
+      "displayName": "Rhydon",
+      "displayImage": "112-shiny-f.png",
+      "image": [
+        "112-normal-m.png",
+        "112-normal-f.png",
+        "112-shiny-f.png",
+        "112-shiny-m.png"
+      ],
+      "type1": "ground",
+      "type2": "rock",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "112",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Chansey",
+      "formName": "",
+      "number": "113",
+      "natDexNumber": "0113",
+      "ref": "113.0_414f8d85-875f-43cc-9b0f-eeb94193badd",
+      "displayName": "Chansey",
+      "displayImage": "113-shiny-mf.png",
+      "image": [
+        "113-normal-mf.png",
+        "113-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "female",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "113",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Tangela",
+      "formName": "",
+      "number": "114",
+      "natDexNumber": "0114",
+      "ref": "114.0_65ed17c9-67fc-493d-99c1-e3ea88a60591",
+      "displayName": "Tangela",
+      "displayImage": "114-shiny-mf.png",
+      "image": [
+        "114-normal-mf.png",
+        "114-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "114",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Kangaskhan",
+      "formName": "",
+      "number": "115",
+      "natDexNumber": "0115",
+      "ref": "115.0_2e40ca3c-de52-4860-beb0-d5ed0277ee48",
+      "displayName": "Kangaskhan",
+      "displayImage": "115-shiny-mf.png",
+      "image": [
+        "115-normal-mf.png",
+        "115-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "female",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "115",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Horsea",
+      "formName": "",
+      "number": "116",
+      "natDexNumber": "0116",
+      "ref": "116.0_d8d337e5-36e7-4f4e-9247-71c76c441a42",
+      "displayName": "Horsea",
+      "displayImage": "116-shiny-mf.png",
+      "image": [
+        "116-normal-mf.png",
+        "116-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "116",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Seadra",
+      "formName": "",
+      "number": "117",
+      "natDexNumber": "0117",
+      "ref": "117.0_9bc1bbfa-03be-4fd2-afe9-61523ef40761",
+      "displayName": "Seadra",
+      "displayImage": "117-shiny-mf.png",
+      "image": [
+        "117-normal-mf.png",
+        "117-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "117",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Goldeen",
+      "formName": "",
+      "number": "118",
+      "natDexNumber": "0118",
+      "ref": "118.0_1b44ae58-f01a-4677-b375-0c397c1e1f98",
+      "displayName": "Goldeen",
+      "displayImage": "118-shiny-f.png",
+      "image": [
+        "118-normal-m.png",
+        "118-normal-f.png",
+        "118-shiny-f.png",
+        "118-shiny-m.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "118",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Seaking",
+      "formName": "",
+      "number": "119",
+      "natDexNumber": "0119",
+      "ref": "119.0_647441af-81ef-43e0-ad60-555cf8372a80",
+      "displayName": "Seaking",
+      "displayImage": "119-shiny-f.png",
+      "image": [
+        "119-normal-m.png",
+        "119-normal-f.png",
+        "119-shiny-f.png",
+        "119-shiny-m.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "119",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Staryu",
+      "formName": "",
+      "number": "120",
+      "natDexNumber": "0120",
+      "ref": "120.0_dde377fa-9ba7-4b67-9052-1aa15958b24b",
+      "displayName": "Staryu",
+      "displayImage": "120-shiny-g.png",
+      "image": [
+        "120-normal-g.png",
+        "120-shiny-g.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "120",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Starmie",
+      "formName": "",
+      "number": "121",
+      "natDexNumber": "0121",
+      "ref": "121.0_6d072e42-3810-4daa-83ad-07de9a278cb7",
+      "displayName": "Starmie",
+      "displayImage": "121-shiny-g.png",
+      "image": [
+        "121-normal-g.png",
+        "121-shiny-g.png"
+      ],
+      "type1": "water",
+      "type2": "psychic",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "121",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Mr. Mime",
+      "formName": "",
+      "number": "122",
+      "natDexNumber": "0122",
+      "ref": "122.0_5eff4e6f-f4cb-4d5d-a06a-2245005ad50d",
+      "displayName": "Mr. Mime",
+      "displayImage": "122-shiny-mf.png",
+      "image": [
+        "122-normal-mf.png",
+        "122-shiny-mf.png"
+      ],
+      "type1": "psychic",
+      "type2": "fairy",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "122",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Scyther",
+      "formName": "",
+      "number": "123",
+      "natDexNumber": "0123",
+      "ref": "123.0_150635f8-48a8-4a2a-89db-2b5649755c60",
+      "displayName": "Scyther",
+      "displayImage": "123-shiny-f.png",
+      "image": [
+        "123-normal-m.png",
+        "123-normal-f.png",
+        "123-shiny-f.png",
+        "123-shiny-m.png"
+      ],
+      "type1": "bug",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "123",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Pikachu Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Jynx",
+      "formName": "",
+      "number": "124",
+      "natDexNumber": "0124",
+      "ref": "124.0_115f1d03-db86-4e51-86be-804c30dbadfc",
+      "displayName": "Jynx",
+      "displayImage": "124-shiny-mf.png",
+      "image": [
+        "124-normal-mf.png",
+        "124-shiny-mf.png"
+      ],
+      "type1": "ice",
+      "type2": "psychic",
+      "forms": [],
+      "gender": "female",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "124",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Electabuzz",
+      "formName": "",
+      "number": "125",
+      "natDexNumber": "0125",
+      "ref": "125.0_3550f8b4-0a85-4533-b6c8-ffd283426596",
+      "displayName": "Electabuzz",
+      "displayImage": "125-shiny-mf.png",
+      "image": [
+        "125-normal-mf.png",
+        "125-shiny-mf.png"
+      ],
+      "type1": "electric",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "125",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Magmar",
+      "formName": "",
+      "number": "126",
+      "natDexNumber": "0126",
+      "ref": "126.0_f330fedd-78c3-4cdd-8725-caff6f04c3e6",
+      "displayName": "Magmar",
+      "displayImage": "126-shiny-mf.png",
+      "image": [
+        "126-normal-mf.png",
+        "126-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "126",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Pinsir",
+      "formName": "",
+      "number": "127",
+      "natDexNumber": "0127",
+      "ref": "127.0_a68d6bb9-3eb3-452e-b35a-5cb975fea1eb",
+      "displayName": "Pinsir",
+      "displayImage": "127-shiny-mf.png",
+      "image": [
+        "127-normal-mf.png",
+        "127-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "127",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Eevee Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Tauros",
+      "formName": "",
+      "number": "128",
+      "natDexNumber": "0128",
+      "ref": "128.0_5889e865-fcb5-4047-b313-cbcd935d0f59",
+      "displayName": "Tauros",
+      "displayImage": "128-shiny-mf.png",
+      "image": [
+        "128-normal-mf.png",
+        "128-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "male",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "128",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Magikarp",
+      "formName": "",
+      "number": "129",
+      "natDexNumber": "0129",
+      "ref": "129.0_ddf11882-80a5-40c2-b3f5-8e7d4ab2fcd5",
+      "displayName": "Magikarp",
+      "displayImage": "129-shiny-f.png",
+      "image": [
+        "129-normal-m.png",
+        "129-normal-f.png",
+        "129-shiny-f.png",
+        "129-shiny-m.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "129",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gyarados",
+      "formName": "",
+      "number": "130",
+      "natDexNumber": "0130",
+      "ref": "130.0_d0a6c22a-9ba5-4467-9a32-fd94e8caf894",
+      "displayName": "Gyarados",
+      "displayImage": "130-shiny-f.png",
+      "image": [
+        "130-normal-m.png",
+        "130-normal-f.png",
+        "130-shiny-f.png",
+        "130-shiny-m.png"
+      ],
+      "type1": "water",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "130",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Lapras",
+      "formName": "",
+      "number": "131",
+      "natDexNumber": "0131",
+      "ref": "131.0_43f87369-7d01-44e7-b347-d40fe378a8a0",
+      "displayName": "Lapras",
+      "displayImage": "131-shiny-mf.png",
+      "image": [
+        "131-normal-mf.png",
+        "131-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": "ice",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "131",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Ditto",
+      "formName": "",
+      "number": "132",
+      "natDexNumber": "0132",
+      "ref": "132.0_186682da-7603-45f0-bebf-5251a4a2fce4",
+      "displayName": "Ditto",
+      "displayImage": "132-shiny-g.png",
+      "image": [
+        "132-normal-g.png",
+        "132-shiny-g.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "132",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Eevee",
+      "formName": "",
+      "number": "133",
+      "natDexNumber": "0133",
+      "ref": "133.0_140b47ad-6184-402c-9357-f36d7b24efef",
+      "displayName": "Eevee",
+      "displayImage": "133-shiny-f.png",
+      "image": [
+        "133-normal-m.png",
+        "133-normal-f.png",
+        "133-shiny-f.png",
+        "133-shiny-m.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "133",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Vaporeon",
+      "formName": "",
+      "number": "134",
+      "natDexNumber": "0134",
+      "ref": "134.0_2c6112c6-b445-4022-a312-08034ea4f2c1",
+      "displayName": "Vaporeon",
+      "displayImage": "134-shiny-mf.png",
+      "image": [
+        "134-normal-mf.png",
+        "134-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "134",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Jolteon",
+      "formName": "",
+      "number": "135",
+      "natDexNumber": "0135",
+      "ref": "135.0_8b65673f-ba6d-49de-ab24-d8f73f011640",
+      "displayName": "Jolteon",
+      "displayImage": "135-shiny-mf.png",
+      "image": [
+        "135-normal-mf.png",
+        "135-shiny-mf.png"
+      ],
+      "type1": "electric",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "135",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Flareon",
+      "formName": "",
+      "number": "136",
+      "natDexNumber": "0136",
+      "ref": "136.0_7735f0c5-4283-4d20-8627-972697b6e0d7",
+      "displayName": "Flareon",
+      "displayImage": "136-shiny-mf.png",
+      "image": [
+        "136-normal-mf.png",
+        "136-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "136",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Porygon",
+      "formName": "",
+      "number": "137",
+      "natDexNumber": "0137",
+      "ref": "137.0_de6f74db-6884-4725-9b70-9b6fb1628cd6",
+      "displayName": "Porygon",
+      "displayImage": "137-shiny-g.png",
+      "image": [
+        "137-normal-g.png",
+        "137-shiny-g.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "137",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Omanyte",
+      "formName": "",
+      "number": "138",
+      "natDexNumber": "0138",
+      "ref": "138.0_cb173296-c485-4f78-9052-2352f6f27807",
+      "displayName": "Omanyte",
+      "displayImage": "138-shiny-mf.png",
+      "image": [
+        "138-normal-mf.png",
+        "138-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "water",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "138",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Omastar",
+      "formName": "",
+      "number": "139",
+      "natDexNumber": "0139",
+      "ref": "139.0_69c58736-b273-4d5a-9660-3316594ade4f",
+      "displayName": "Omastar",
+      "displayImage": "139-shiny-mf.png",
+      "image": [
+        "139-normal-mf.png",
+        "139-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "water",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "139",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Kabuto",
+      "formName": "",
+      "number": "140",
+      "natDexNumber": "0140",
+      "ref": "140.0_4016d6c6-3fcd-4fe6-8847-1befdb1f2b28",
+      "displayName": "Kabuto",
+      "displayImage": "140-shiny-mf.png",
+      "image": [
+        "140-normal-mf.png",
+        "140-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "water",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "140",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Kabutops",
+      "formName": "",
+      "number": "141",
+      "natDexNumber": "0141",
+      "ref": "141.0_e4a88118-4f2b-471f-9622-a061f97a2f1b",
+      "displayName": "Kabutops",
+      "displayImage": "141-shiny-mf.png",
+      "image": [
+        "141-normal-mf.png",
+        "141-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "water",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "141",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Aerodactyl",
+      "formName": "",
+      "number": "142",
+      "natDexNumber": "0142",
+      "ref": "142.0_e026120d-afce-4dc6-aece-53e17f1d4010",
+      "displayName": "Aerodactyl",
+      "displayImage": "142-shiny-mf.png",
+      "image": [
+        "142-normal-mf.png",
+        "142-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "142",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Snorlax",
+      "formName": "",
+      "number": "143",
+      "natDexNumber": "0143",
+      "ref": "143.0_790ea011-f50d-46a4-9fb4-a7578da36952",
+      "displayName": "Snorlax",
+      "displayImage": "143-shiny-mf.png",
+      "image": [
+        "143-normal-mf.png",
+        "143-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "143",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Articuno",
+      "formName": "",
+      "number": "144",
+      "natDexNumber": "0144",
+      "ref": "144.0_2c7ff7e2-700c-4344-9d8e-a60bbedfaabc",
+      "displayName": "Articuno",
+      "displayImage": "144-shiny-g.png",
+      "image": [
+        "144-normal-g.png",
+        "144-shiny-g.png"
+      ],
+      "type1": "ice",
+      "type2": "flying",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "144",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Zapdos",
+      "formName": "",
+      "number": "145",
+      "natDexNumber": "0145",
+      "ref": "145.0_bf4c41f1-658f-4ded-bfd8-94d5d8076bfc",
+      "displayName": "Zapdos",
+      "displayImage": "145-shiny-g.png",
+      "image": [
+        "145-normal-g.png",
+        "145-shiny-g.png"
+      ],
+      "type1": "electric",
+      "type2": "flying",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "145",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Moltres",
+      "formName": "",
+      "number": "146",
+      "natDexNumber": "0146",
+      "ref": "146.0_3ec98b59-722b-4648-8333-4a386a0dd531",
+      "displayName": "Moltres",
+      "displayImage": "146-shiny-g.png",
+      "image": [
+        "146-normal-g.png",
+        "146-shiny-g.png"
+      ],
+      "type1": "fire",
+      "type2": "flying",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "146",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Dratini",
+      "formName": "",
+      "number": "147",
+      "natDexNumber": "0147",
+      "ref": "147.0_1ab612e6-ff3d-4d07-b573-80b4b860cd60",
+      "displayName": "Dratini",
+      "displayImage": "147-shiny-mf.png",
+      "image": [
+        "147-normal-mf.png",
+        "147-shiny-mf.png"
+      ],
+      "type1": "dragon",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "147",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Dragonair",
+      "formName": "",
+      "number": "148",
+      "natDexNumber": "0148",
+      "ref": "148.0_aff81c60-33ef-4713-88ce-3444a5db5dd8",
+      "displayName": "Dragonair",
+      "displayImage": "148-shiny-mf.png",
+      "image": [
+        "148-normal-mf.png",
+        "148-shiny-mf.png"
+      ],
+      "type1": "dragon",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "148",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Dragonite",
+      "formName": "",
+      "number": "149",
+      "natDexNumber": "0149",
+      "ref": "149.0_3ddeffc7-14f1-4b8a-aaa6-9121cd2d744f",
+      "displayName": "Dragonite",
+      "displayImage": "149-shiny-mf.png",
+      "image": [
+        "149-normal-mf.png",
+        "149-shiny-mf.png"
+      ],
+      "type1": "dragon",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "149",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Mewtwo",
+      "formName": "",
+      "number": "150",
+      "natDexNumber": "0150",
+      "ref": "150.0_e734e403-c5fa-43d4-9699-8ede6dc3bf7a",
+      "displayName": "Mewtwo",
+      "displayImage": "150-shiny-g.png",
+      "image": [
+        "150-normal-g.png",
+        "150-shiny-g.png"
+      ],
+      "type1": "psychic",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_54949ec6-dfb9-413b-ae96-d362b2421936",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "150",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    }
+  ]
+}

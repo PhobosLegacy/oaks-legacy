@@ -1,0 +1,114 @@
+{
+  "name": "Let'sGoPikachu-Others-Others",
+  "ref": "t_7ef954f7-f7b8-4a6c-85e3-d284e15b9988",
+  "game": "Let's Go Pikachu",
+  "dex": "Others",
+  "type": "Others",
+  "pokemons": [
+    {
+      "name": "Mew",
+      "formName": "",
+      "number": "151",
+      "natDexNumber": "0151",
+      "ref": "151.0_97596fe8-d630-44a1-988e-50c8ca01dd56",
+      "displayName": "Mew",
+      "displayImage": "151-normal-g.png",
+      "image": [
+        "151-normal-g.png",
+        "151-shiny-g.png"
+      ],
+      "type1": "psychic",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7ef954f7-f7b8-4a6c-85e3-d284e15b9988",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Others",
+        "number": "151",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": []
+    },
+    {
+      "name": "Meltan",
+      "formName": "",
+      "number": "152",
+      "natDexNumber": "0808",
+      "ref": "808.0_524e4bfe-4eb7-48b6-8754-7d3194034c3b",
+      "displayName": "Meltan",
+      "displayImage": "808-normal-g.png",
+      "image": [
+        "808-normal-g.png",
+        "808-shiny-g.png"
+      ],
+      "type1": "steel",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7ef954f7-f7b8-4a6c-85e3-d284e15b9988",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Others",
+        "number": "152",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": []
+    },
+    {
+      "name": "Melmetal",
+      "formName": "",
+      "number": "153",
+      "natDexNumber": "0809",
+      "ref": "809.0_7e46ecef-ded1-4b8f-b24c-5bf8a757c222",
+      "displayName": "Melmetal",
+      "displayImage": "809-normal-g.png",
+      "image": [
+        "809-normal-g.png",
+        "809-shiny-g.png"
+      ],
+      "type1": "steel",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7ef954f7-f7b8-4a6c-85e3-d284e15b9988",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Others",
+        "number": "153",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": []
+    }
+  ]
+}

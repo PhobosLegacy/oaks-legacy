@@ -1,6 +1,5 @@
 import 'dart:convert';
-
-import 'package:flutter/services.dart';
+import 'dart:io';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/models/game.dart';
@@ -8,7 +7,7 @@ import 'package:oaks_legacy/models/item.dart';
 import 'package:oaks_legacy/models/pokemon.dart';
 import 'test_scenarios.dart';
 import 'test_utils.dart';
-import 'package:flutter/foundation.dart'; //for debugPrint(jsonEncode(pkmFromDex));
+// import 'package:flutter/foundation.dart'; //for debugPrint(jsonEncode(pkmFromDex));
 
 void main() {
   setUpAll(() async {
@@ -19,7 +18,7 @@ void main() {
     for (final scenario in itemPokemonPkmSample) {
       test('Create Item .fromDex ${scenario['id']}', () async {
         // Arrange
-        var file = await rootBundle.loadString(kPokedexFileLocation);
+        var file = await File(kPokedexFileLocation).readAsString();
         List<Pokemon> kPokedex = await Pokemon.createPokedex(file);
 
         Pokemon pkm =
@@ -48,7 +47,7 @@ void main() {
       test('Create Item .fromJson}', () async {
         // Arrange
         var file =
-            await rootBundle.loadString("test/data/${scenario['name']}.json");
+            await File("test/data/${scenario['name']}.json").readAsString();
         var toCompare = jsonDecode(file);
 
         // Act
@@ -64,7 +63,7 @@ void main() {
       test('Create Item .toJson}', () async {
         // Arrange
         var file =
-            await rootBundle.loadString("test/data/${scenario['name']}.json");
+            await File("test/data/${scenario['name']}.json").readAsString();
 
         // Act
         Item item = Item.fromJson(jsonDecode(file));
@@ -78,7 +77,7 @@ void main() {
       test('Copy Item', () async {
         // Arrange
         var file =
-            await rootBundle.loadString("test/data/${scenario['name']}.json");
+            await File("test/data/${scenario['name']}.json").readAsString();
 
         Item toCompare = Item.fromJson(jsonDecode(file));
         toCompare.forms.clear();

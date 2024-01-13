@@ -1,0 +1,675 @@
+{
+  "name": "Let'sGoPikachu-Alolan-Shiny",
+  "ref": "t_c7aa94ae-9396-47d0-a6cb-a9180da46b02",
+  "game": "Let's Go Pikachu",
+  "dex": "Alolan",
+  "type": "Shiny",
+  "pokemons": [
+    {
+      "name": "Alolan Rattata",
+      "formName": "",
+      "number": "019",
+      "natDexNumber": "0019",
+      "ref": "019.1_11a9ecc7-2c8f-4145-bdfd-a7a5468eb8a9",
+      "displayName": "Alolan Rattata",
+      "displayImage": "019-alolan-shiny-mf.png",
+      "image": [
+        "019-alolan-normal-mf.png",
+        "019-alolan-shiny-mf.png"
+      ],
+      "type1": "dark",
+      "type2": "normal",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_c7aa94ae-9396-47d0-a6cb-a9180da46b02",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Alolan",
+        "number": "019",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Raticate",
+      "formName": "",
+      "number": "020",
+      "natDexNumber": "0020",
+      "ref": "020.1_a0c9c711-088d-4810-be86-0541d92e9d49",
+      "displayName": "Alolan Raticate",
+      "displayImage": "020-alolan-shiny-mf.png",
+      "image": [
+        "020-alolan-normal-mf.png",
+        "020-alolan-shiny-mf.png"
+      ],
+      "type1": "dark",
+      "type2": "normal",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_c7aa94ae-9396-47d0-a6cb-a9180da46b02",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Alolan",
+        "number": "020",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Raichu",
+      "formName": "",
+      "number": "026",
+      "natDexNumber": "0026",
+      "ref": "026.1_9430a6ba-4b45-419f-ba76-92c4c6855b74",
+      "displayName": "Alolan Raichu",
+      "displayImage": "026-alolan-shiny-mf.png",
+      "image": [
+        "026-alolan-normal-mf.png",
+        "026-alolan-shiny-mf.png"
+      ],
+      "type1": "electric",
+      "type2": "psychic",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_c7aa94ae-9396-47d0-a6cb-a9180da46b02",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Alolan",
+        "number": "026",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Sandshrew",
+      "formName": "",
+      "number": "027",
+      "natDexNumber": "0027",
+      "ref": "027.1_29f92aab-9a11-46c7-8983-c7dcb468936f",
+      "displayName": "Alolan Sandshrew",
+      "displayImage": "027-alolan-shiny-mf.png",
+      "image": [
+        "027-alolan-normal-mf.png",
+        "027-alolan-shiny-mf.png"
+      ],
+      "type1": "ice",
+      "type2": "steel",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_c7aa94ae-9396-47d0-a6cb-a9180da46b02",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Alolan",
+        "number": "027",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Sandslash",
+      "formName": "",
+      "number": "028",
+      "natDexNumber": "0028",
+      "ref": "028.1_617e705c-072e-4a6b-8571-2a84941c04e8",
+      "displayName": "Alolan Sandslash",
+      "displayImage": "028-alolan-shiny-mf.png",
+      "image": [
+        "028-alolan-normal-mf.png",
+        "028-alolan-shiny-mf.png"
+      ],
+      "type1": "ice",
+      "type2": "steel",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_c7aa94ae-9396-47d0-a6cb-a9180da46b02",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Alolan",
+        "number": "028",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Vulpix",
+      "formName": "",
+      "number": "037",
+      "natDexNumber": "0037",
+      "ref": "037.1_aef24236-7fcf-4f38-b489-caa698a8099d",
+      "displayName": "Alolan Vulpix",
+      "displayImage": "037-alolan-shiny-mf.png",
+      "image": [
+        "037-alolan-normal-mf.png",
+        "037-alolan-shiny-mf.png"
+      ],
+      "type1": "ice",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_c7aa94ae-9396-47d0-a6cb-a9180da46b02",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Alolan",
+        "number": "037",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Eevee Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Ninetales",
+      "formName": "",
+      "number": "038",
+      "natDexNumber": "0038",
+      "ref": "038.1_0b1d5910-db93-4c84-a922-bf48920ab5bb",
+      "displayName": "Alolan Ninetales",
+      "displayImage": "038-alolan-shiny-mf.png",
+      "image": [
+        "038-alolan-normal-mf.png",
+        "038-alolan-shiny-mf.png"
+      ],
+      "type1": "ice",
+      "type2": "fairy",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_c7aa94ae-9396-47d0-a6cb-a9180da46b02",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Alolan",
+        "number": "038",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Eevee Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Diglett",
+      "formName": "",
+      "number": "050",
+      "natDexNumber": "0050",
+      "ref": "050.1_31d45189-05fd-45f0-ba83-8b64c005d3fc",
+      "displayName": "Alolan Diglett",
+      "displayImage": "050-alolan-shiny-mf.png",
+      "image": [
+        "050-alolan-normal-mf.png",
+        "050-alolan-shiny-mf.png"
+      ],
+      "type1": "ground",
+      "type2": "steel",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_c7aa94ae-9396-47d0-a6cb-a9180da46b02",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Alolan",
+        "number": "050",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Dugtrio",
+      "formName": "",
+      "number": "051",
+      "natDexNumber": "0051",
+      "ref": "051.1_098c08f8-4f4d-4424-a745-045490ccac0d",
+      "displayName": "Alolan Dugtrio",
+      "displayImage": "051-alolan-shiny-mf.png",
+      "image": [
+        "051-alolan-normal-mf.png",
+        "051-alolan-shiny-mf.png"
+      ],
+      "type1": "ground",
+      "type2": "steel",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_c7aa94ae-9396-47d0-a6cb-a9180da46b02",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Alolan",
+        "number": "051",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Meowth",
+      "formName": "",
+      "number": "052",
+      "natDexNumber": "0052",
+      "ref": "052.1_7837ac51-b33c-443b-bc51-98f5906c1e27",
+      "displayName": "Alolan Meowth",
+      "displayImage": "052-alolan-shiny-mf.png",
+      "image": [
+        "052-alolan-normal-mf.png",
+        "052-alolan-shiny-mf.png"
+      ],
+      "type1": "dark",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_c7aa94ae-9396-47d0-a6cb-a9180da46b02",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Alolan",
+        "number": "052",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Eevee Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Persian",
+      "formName": "",
+      "number": "053",
+      "natDexNumber": "0053",
+      "ref": "053.1_a4edb05e-d2d7-4462-bafe-966fa634e17e",
+      "displayName": "Alolan Persian",
+      "displayImage": "053-alolan-shiny-mf.png",
+      "image": [
+        "053-alolan-normal-mf.png",
+        "053-alolan-shiny-mf.png"
+      ],
+      "type1": "dark",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_c7aa94ae-9396-47d0-a6cb-a9180da46b02",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Alolan",
+        "number": "053",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Eevee Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Geodude",
+      "formName": "",
+      "number": "074",
+      "natDexNumber": "0074",
+      "ref": "074.1_51a4c879-847a-424d-bbc4-661a68846dc7",
+      "displayName": "Alolan Geodude",
+      "displayImage": "074-alolan-shiny-mf.png",
+      "image": [
+        "074-alolan-normal-mf.png",
+        "074-alolan-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "electric",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_c7aa94ae-9396-47d0-a6cb-a9180da46b02",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Alolan",
+        "number": "074",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Graveler",
+      "formName": "",
+      "number": "075",
+      "natDexNumber": "0075",
+      "ref": "075.1_0ca6cbf0-e20a-4b87-a161-3c1772a644bf",
+      "displayName": "Alolan Graveler",
+      "displayImage": "075-alolan-shiny-mf.png",
+      "image": [
+        "075-alolan-normal-mf.png",
+        "075-alolan-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "electric",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_c7aa94ae-9396-47d0-a6cb-a9180da46b02",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Alolan",
+        "number": "075",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Golem",
+      "formName": "",
+      "number": "076",
+      "natDexNumber": "0076",
+      "ref": "076.1_34022a96-0c1f-4f0c-900a-fce738dcb728",
+      "displayName": "Alolan Golem",
+      "displayImage": "076-alolan-shiny-mf.png",
+      "image": [
+        "076-alolan-normal-mf.png",
+        "076-alolan-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "electric",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_c7aa94ae-9396-47d0-a6cb-a9180da46b02",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Alolan",
+        "number": "076",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Grimer",
+      "formName": "",
+      "number": "088",
+      "natDexNumber": "0088",
+      "ref": "088.1_52966b12-eda9-401a-a34a-d0a8db374d79",
+      "displayName": "Alolan Grimer",
+      "displayImage": "088-alolan-shiny-mf.png",
+      "image": [
+        "088-alolan-normal-mf.png",
+        "088-alolan-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": "dark",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_c7aa94ae-9396-47d0-a6cb-a9180da46b02",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Alolan",
+        "number": "088",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Muk",
+      "formName": "",
+      "number": "089",
+      "natDexNumber": "0089",
+      "ref": "089.1_20e1858e-9143-4e57-8643-64680435d946",
+      "displayName": "Alolan Muk",
+      "displayImage": "089-alolan-shiny-mf.png",
+      "image": [
+        "089-alolan-normal-mf.png",
+        "089-alolan-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": "dark",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_c7aa94ae-9396-47d0-a6cb-a9180da46b02",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Alolan",
+        "number": "089",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Exeggutor",
+      "formName": "",
+      "number": "103",
+      "natDexNumber": "0103",
+      "ref": "103.1_88587704-7860-4168-a323-8fdc434ab655",
+      "displayName": "Alolan Exeggutor",
+      "displayImage": "103-alolan-shiny-mf.png",
+      "image": [
+        "103-alolan-normal-mf.png",
+        "103-alolan-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": "dragon",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_c7aa94ae-9396-47d0-a6cb-a9180da46b02",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Alolan",
+        "number": "103",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Marowak",
+      "formName": "",
+      "number": "105",
+      "natDexNumber": "0105",
+      "ref": "105.1_8778a023-b9a2-4285-a143-17805fa4b752",
+      "displayName": "Alolan Marowak",
+      "displayImage": "105-alolan-shiny-mf.png",
+      "image": [
+        "105-alolan-normal-mf.png",
+        "105-alolan-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": "ghost",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_c7aa94ae-9396-47d0-a6cb-a9180da46b02",
+      "currentLocation": "Let's Go Pikachu",
+      "originalLocation": "Let's Go Pikachu",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Pikachu",
+        "dex": "Alolan",
+        "number": "105",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    }
+  ]
+}

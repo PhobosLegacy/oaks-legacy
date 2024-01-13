@@ -89,3 +89,52 @@ validateItemFromJson(Item item, toCompare) {
     }
   }
 }
+
+validateItemFromTracker(Item item, toCompare, trackerRef, index) {
+  // Final Properties
+  expect(item.name, equals(toCompare['name']));
+  expect(item.formName, equals(toCompare['formName']));
+  expect(item.number, equals(toCompare['number']));
+  expect(item.natDexNumber, equals(toCompare['natDexNumber']));
+
+  //ref is the natDexNumber + Guid.
+  String formattedNumber =
+      int.parse(toCompare['natDexNumber']).toString().padLeft(3, '0');
+  expect(item.ref.startsWith(formattedNumber), isTrue,
+      reason: "REF IS ${item.ref} AND COMPARE IS $formattedNumber");
+
+  expect(item.type1.name, equals(toCompare['type1']));
+  expect(item.type2?.name, equals(toCompare['type2']));
+  expect(item.forms.length, equals(toCompare['forms'].length));
+  expect(item.image, equals(toCompare['image']));
+  expect(item.game.toJson(), equals(toCompare['game']));
+
+  //origin is a GUID generated for the tracker.
+  expect(item.origin, equals(trackerRef));
+
+  // Default Properties
+  expect(item.displayName, equals(toCompare['displayName']));
+  expect(item.displayImage, equals(toCompare['displayImage']));
+  expect(item.gender.name, equals(toCompare['gender']));
+  expect(item.ability, equals(toCompare['ability']));
+  expect(item.ball.name, equals(toCompare['ball']));
+  expect(item.level, equals(toCompare['level']));
+  expect(item.captured, toCompare['captured']);
+  expect(item.catchDate, toCompare['catchDate']);
+  expect(item.originalLocation, equals(toCompare['originalLocation']));
+  expect(item.currentLocation, equals(toCompare['currentLocation']));
+  expect(item.trainerName, toCompare['trainerName']);
+  expect(item.capturedMethod.name, equals(toCompare['capturedMethod']));
+  expect(item.attributes.length, equals(toCompare['attributes'].length));
+  expect(
+      item.attributes
+          .every((attr) => toCompare['attributes'].contains(attr.name)),
+      isTrue);
+  // Drill down on forms
+  if (item.forms.isNotEmpty) {
+    for (var i = 0; i < item.forms.length; i++) {
+      validateItemFromTracker(
+          item.forms[i], toCompare['forms'][i], trackerRef, index);
+    }
+  }
+}

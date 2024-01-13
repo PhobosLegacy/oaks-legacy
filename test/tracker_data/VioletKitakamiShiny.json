@@ -1,0 +1,7292 @@
+{
+  "name": "Violet-Kitakami-Shiny",
+  "ref": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+  "game": "Pokemon Violet",
+  "dex": "Kitakami",
+  "type": "Shiny",
+  "pokemons": [
+    {
+      "name": "Spinarak",
+      "formName": "",
+      "number": "001",
+      "natDexNumber": "0167",
+      "ref": "167.0_e4e21d83-439f-4c6e-95bb-0b96a3e97d53",
+      "displayName": "Spinarak",
+      "displayImage": "167-shiny-mf.png",
+      "image": [
+        "167-normal-mf.png",
+        "167-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "001",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Ariados",
+      "formName": "",
+      "number": "002",
+      "natDexNumber": "0168",
+      "ref": "168.0_8f017224-1788-4a1f-a67e-d457cc2cf9c6",
+      "displayName": "Ariados",
+      "displayImage": "168-shiny-mf.png",
+      "image": [
+        "168-normal-mf.png",
+        "168-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "002",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Yanma",
+      "formName": "",
+      "number": "003",
+      "natDexNumber": "0193",
+      "ref": "193.0_e906da96-d068-45d2-a8bd-40466fdc20a6",
+      "displayName": "Yanma",
+      "displayImage": "193-shiny-mf.png",
+      "image": [
+        "193-normal-mf.png",
+        "193-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "003",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Yanmega",
+      "formName": "",
+      "number": "004",
+      "natDexNumber": "0469",
+      "ref": "469.0_66feb551-85b2-4464-a3d5-9850f814910d",
+      "displayName": "Yanmega",
+      "displayImage": "469-shiny-mf.png",
+      "image": [
+        "469-normal-mf.png",
+        "469-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "004",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Wooper",
+      "formName": "",
+      "number": "005",
+      "natDexNumber": "0194",
+      "ref": "194.0_eb3fec65-2d50-4d8b-8857-732b71e2d3fd",
+      "displayName": "Wooper",
+      "displayImage": "194-shiny-f.png",
+      "image": [
+        "194-normal-m.png",
+        "194-normal-f.png",
+        "194-shiny-f.png",
+        "194-shiny-m.png"
+      ],
+      "type1": "water",
+      "type2": "ground",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "005",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Quagsire",
+      "formName": "",
+      "number": "006",
+      "natDexNumber": "0195",
+      "ref": "195.0_0a8b907b-5645-45b8-8998-834ef647c16a",
+      "displayName": "Quagsire",
+      "displayImage": "195-shiny-f.png",
+      "image": [
+        "195-normal-m.png",
+        "195-normal-f.png",
+        "195-shiny-f.png",
+        "195-shiny-m.png"
+      ],
+      "type1": "water",
+      "type2": "ground",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "006",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Poochyena",
+      "formName": "",
+      "number": "007",
+      "natDexNumber": "0261",
+      "ref": "261.0_a2eec1a1-57c0-40c2-9ff5-016c9a91112e",
+      "displayName": "Poochyena",
+      "displayImage": "261-shiny-mf.png",
+      "image": [
+        "261-normal-mf.png",
+        "261-shiny-mf.png"
+      ],
+      "type1": "dark",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "007",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Mightyena",
+      "formName": "",
+      "number": "008",
+      "natDexNumber": "0262",
+      "ref": "262.0_825dae1a-e2c1-443e-872f-922a466641d3",
+      "displayName": "Mightyena",
+      "displayImage": "262-shiny-mf.png",
+      "image": [
+        "262-normal-mf.png",
+        "262-shiny-mf.png"
+      ],
+      "type1": "dark",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "008",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Volbeat",
+      "formName": "",
+      "number": "009",
+      "natDexNumber": "0313",
+      "ref": "313.0_b996909b-dc0d-4dd8-a730-8adfbb116f54",
+      "displayName": "Volbeat",
+      "displayImage": "313-shiny-mf.png",
+      "image": [
+        "313-normal-mf.png",
+        "313-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": null,
+      "forms": [],
+      "gender": "male",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "009",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Illumise",
+      "formName": "",
+      "number": "010",
+      "natDexNumber": "0314",
+      "ref": "314.0_5eadf374-fc23-497a-8b19-eca22fe7372e",
+      "displayName": "Illumise",
+      "displayImage": "314-shiny-mf.png",
+      "image": [
+        "314-normal-mf.png",
+        "314-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": null,
+      "forms": [],
+      "gender": "female",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "010",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Corphish",
+      "formName": "",
+      "number": "011",
+      "natDexNumber": "0341",
+      "ref": "341.0_54c6c6ae-7089-4936-9612-451abeaa3fec",
+      "displayName": "Corphish",
+      "displayImage": "341-shiny-mf.png",
+      "image": [
+        "341-normal-mf.png",
+        "341-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "011",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Crawdaunt",
+      "formName": "",
+      "number": "012",
+      "natDexNumber": "0342",
+      "ref": "342.0_6d164734-37fb-409b-8c72-1dde4bd9034a",
+      "displayName": "Crawdaunt",
+      "displayImage": "342-shiny-mf.png",
+      "image": [
+        "342-normal-mf.png",
+        "342-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": "dark",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "012",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Sewaddle",
+      "formName": "",
+      "number": "013",
+      "natDexNumber": "0540",
+      "ref": "540.0_8aaa8571-d713-4aa9-a2c9-101e2dc90653",
+      "displayName": "Sewaddle",
+      "displayImage": "540-shiny-mf.png",
+      "image": [
+        "540-normal-mf.png",
+        "540-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "grass",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "013",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Swadloon",
+      "formName": "",
+      "number": "014",
+      "natDexNumber": "0541",
+      "ref": "541.0_a95088e4-4ab7-4f5d-b92c-4da4186c6d7d",
+      "displayName": "Swadloon",
+      "displayImage": "541-shiny-mf.png",
+      "image": [
+        "541-normal-mf.png",
+        "541-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "grass",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "014",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Leavanny",
+      "formName": "",
+      "number": "015",
+      "natDexNumber": "0542",
+      "ref": "542.0_d1a36dbc-7e32-4e02-937f-ddd414d00be3",
+      "displayName": "Leavanny",
+      "displayImage": "542-shiny-mf.png",
+      "image": [
+        "542-normal-mf.png",
+        "542-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "grass",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "015",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Cutiefly",
+      "formName": "",
+      "number": "016",
+      "natDexNumber": "0742",
+      "ref": "742.0_361f5f63-ec5e-4071-80ee-ccd3f32ba620",
+      "displayName": "Cutiefly",
+      "displayImage": "742-shiny-mf.png",
+      "image": [
+        "742-normal-mf.png",
+        "742-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "fairy",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "016",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Ribombee",
+      "formName": "",
+      "number": "017",
+      "natDexNumber": "0743",
+      "ref": "743.0_bcc28aa6-eaa0-42b7-9bd5-02ccc85d08ed",
+      "displayName": "Ribombee",
+      "displayImage": "743-shiny-mf.png",
+      "image": [
+        "743-normal-mf.png",
+        "743-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "fairy",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "017",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Ekans",
+      "formName": "",
+      "number": "018",
+      "natDexNumber": "0023",
+      "ref": "023.0_32643f4a-2061-40ab-bb4b-6648b813dbf3",
+      "displayName": "Ekans",
+      "displayImage": "023-shiny-mf.png",
+      "image": [
+        "023-normal-mf.png",
+        "023-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "018",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Arbok",
+      "formName": "",
+      "number": "019",
+      "natDexNumber": "0024",
+      "ref": "024.0_8dac863b-2aa1-4fcf-acaf-e275dc8b204e",
+      "displayName": "Arbok",
+      "displayImage": "024-shiny-mf.png",
+      "image": [
+        "024-normal-mf.png",
+        "024-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "019",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Pichu",
+      "formName": "",
+      "number": "020",
+      "natDexNumber": "0172",
+      "ref": "172.0_b5729a18-8725-4775-84ca-c703e24062eb",
+      "displayName": "Pichu",
+      "displayImage": "172-shiny-mf.png",
+      "image": [
+        "172-normal-mf.png",
+        "172-shiny-mf.png"
+      ],
+      "type1": "electric",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "020",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Pikachu",
+      "formName": "",
+      "number": "021",
+      "natDexNumber": "0025",
+      "ref": "025.0_d9c85508-b6d2-4143-bc10-88e9b6310be7",
+      "displayName": "Pikachu",
+      "displayImage": "025-shiny-f.png",
+      "image": [
+        "025-normal-m.png",
+        "025-normal-f.png",
+        "025-shiny-f.png",
+        "025-shiny-m.png"
+      ],
+      "type1": "electric",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "021",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Raichu",
+      "formName": "",
+      "number": "022",
+      "natDexNumber": "0026",
+      "ref": "026.0_b97ff031-872e-4ae5-988b-d8f6a4ae8de6",
+      "displayName": "Raichu",
+      "displayImage": "026-shiny-f.png",
+      "image": [
+        "026-normal-m.png",
+        "026-normal-f.png",
+        "026-shiny-f.png",
+        "026-shiny-m.png"
+      ],
+      "type1": "electric",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "022",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Bellsprout",
+      "formName": "",
+      "number": "023",
+      "natDexNumber": "0069",
+      "ref": "069.0_58775345-ccf0-4b9f-8bf4-181b87635195",
+      "displayName": "Bellsprout",
+      "displayImage": "069-shiny-mf.png",
+      "image": [
+        "069-normal-mf.png",
+        "069-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "023",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Weepinbell",
+      "formName": "",
+      "number": "024",
+      "natDexNumber": "0070",
+      "ref": "070.0_616977a9-9711-4eb1-b1e2-f59a720b6fe6",
+      "displayName": "Weepinbell",
+      "displayImage": "070-shiny-mf.png",
+      "image": [
+        "070-normal-mf.png",
+        "070-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "024",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Victreebel",
+      "formName": "",
+      "number": "025",
+      "natDexNumber": "0071",
+      "ref": "071.0_125fa72b-eda3-45fb-b8c6-b8c18eedd19f",
+      "displayName": "Victreebel",
+      "displayImage": "071-shiny-mf.png",
+      "image": [
+        "071-normal-mf.png",
+        "071-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "025",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Sentret",
+      "formName": "",
+      "number": "026",
+      "natDexNumber": "0161",
+      "ref": "161.0_66219b19-0c96-49ac-8683-433be0badd35",
+      "displayName": "Sentret",
+      "displayImage": "161-shiny-mf.png",
+      "image": [
+        "161-normal-mf.png",
+        "161-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "026",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Furret",
+      "formName": "",
+      "number": "027",
+      "natDexNumber": "0162",
+      "ref": "162.0_9d079d81-c354-4646-90e7-2b1ebf4b1acc",
+      "displayName": "Furret",
+      "displayImage": "162-shiny-mf.png",
+      "image": [
+        "162-normal-mf.png",
+        "162-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "027",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Starly",
+      "formName": "",
+      "number": "028",
+      "natDexNumber": "0396",
+      "ref": "396.0_e8d9c32b-a4e0-40ae-bbc3-e7f5bdab6573",
+      "displayName": "Starly",
+      "displayImage": "396-shiny-f.png",
+      "image": [
+        "396-normal-m.png",
+        "396-normal-f.png",
+        "396-shiny-f.png",
+        "396-shiny-m.png"
+      ],
+      "type1": "normal",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "028",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Staravia",
+      "formName": "",
+      "number": "029",
+      "natDexNumber": "0397",
+      "ref": "397.0_28e38398-0802-4344-a725-b67f760ca00e",
+      "displayName": "Staravia",
+      "displayImage": "397-shiny-f.png",
+      "image": [
+        "397-normal-m.png",
+        "397-normal-f.png",
+        "397-shiny-f.png",
+        "397-shiny-m.png"
+      ],
+      "type1": "normal",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "029",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Staraptor",
+      "formName": "",
+      "number": "030",
+      "natDexNumber": "0398",
+      "ref": "398.0_5de40cb0-6d77-41c1-a62a-b8ab8ac187a7",
+      "displayName": "Staraptor",
+      "displayImage": "398-shiny-f.png",
+      "image": [
+        "398-normal-m.png",
+        "398-normal-f.png",
+        "398-shiny-f.png",
+        "398-shiny-m.png"
+      ],
+      "type1": "normal",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "030",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Fomantis",
+      "formName": "",
+      "number": "031",
+      "natDexNumber": "0753",
+      "ref": "753.0_1763e06f-5e03-4555-8264-e86dce3fe659",
+      "displayName": "Fomantis",
+      "displayImage": "753-shiny-mf.png",
+      "image": [
+        "753-normal-mf.png",
+        "753-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "031",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Lurantis",
+      "formName": "",
+      "number": "032",
+      "natDexNumber": "0754",
+      "ref": "754.0_09bf23f7-5742-4a6b-8edd-d5247c1467b1",
+      "displayName": "Lurantis",
+      "displayImage": "754-shiny-mf.png",
+      "image": [
+        "754-normal-mf.png",
+        "754-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "032",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Applin",
+      "formName": "",
+      "number": "033",
+      "natDexNumber": "0840",
+      "ref": "840.0_201d60e2-f2b1-4749-b9a3-3afe5dad6d71",
+      "displayName": "Applin",
+      "displayImage": "840-shiny-mf.png",
+      "image": [
+        "840-normal-mf.png",
+        "840-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": "dragon",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "033",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Flapple",
+      "formName": "",
+      "number": "034",
+      "natDexNumber": "0841",
+      "ref": "841.0_c5312cb8-6233-41ef-a4cf-064461e6a942",
+      "displayName": "Flapple",
+      "displayImage": "841-shiny-mf.png",
+      "image": [
+        "841-normal-mf.png",
+        "841-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": "dragon",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "034",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Appletun",
+      "formName": "",
+      "number": "035",
+      "natDexNumber": "0842",
+      "ref": "842.0_36f9b648-e50a-4340-b7d0-0f71bad95993",
+      "displayName": "Appletun",
+      "displayImage": "842-shiny-mf.png",
+      "image": [
+        "842-normal-mf.png",
+        "842-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": "dragon",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "035",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Dipplin",
+      "formName": "",
+      "number": "036",
+      "natDexNumber": "1011",
+      "ref": "1011.0_d704a2ac-9acc-435e-9649-e9d6b7c27b43",
+      "displayName": "Dipplin",
+      "displayImage": "1011-shiny-mf.png",
+      "image": [
+        "1011-normal-mf.png",
+        "1011-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": "dragon",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "036",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Vulpix",
+      "formName": "",
+      "number": "037",
+      "natDexNumber": "0037",
+      "ref": "037.0_394b6e8d-cfdc-46b4-b487-79d681283317",
+      "displayName": "Vulpix",
+      "displayImage": "037-shiny-mf.png",
+      "image": [
+        "037-normal-mf.png",
+        "037-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "037",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Ninetales",
+      "formName": "",
+      "number": "038",
+      "natDexNumber": "0038",
+      "ref": "038.0_7555fb4f-a003-45f4-9c72-043509fef985",
+      "displayName": "Ninetales",
+      "displayImage": "038-shiny-mf.png",
+      "image": [
+        "038-normal-mf.png",
+        "038-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "038",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Poliwag",
+      "formName": "",
+      "number": "039",
+      "natDexNumber": "0060",
+      "ref": "060.0_9c975bad-5587-49e2-9956-459bad7c9bb8",
+      "displayName": "Poliwag",
+      "displayImage": "060-shiny-mf.png",
+      "image": [
+        "060-normal-mf.png",
+        "060-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "039",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Poliwhirl",
+      "formName": "",
+      "number": "040",
+      "natDexNumber": "0061",
+      "ref": "061.0_a2cb59f8-2818-4ae2-904d-8f5a0df665e1",
+      "displayName": "Poliwhirl",
+      "displayImage": "061-shiny-mf.png",
+      "image": [
+        "061-normal-mf.png",
+        "061-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "040",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Poliwrath",
+      "formName": "",
+      "number": "041",
+      "natDexNumber": "0062",
+      "ref": "062.0_3b7d66d6-8be8-497a-b28c-608cb0be6993",
+      "displayName": "Poliwrath",
+      "displayImage": "062-shiny-mf.png",
+      "image": [
+        "062-normal-mf.png",
+        "062-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": "fighting",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "041",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Politoed",
+      "formName": "",
+      "number": "042",
+      "natDexNumber": "0186",
+      "ref": "186.0_9564e2c7-ea5e-4a6b-bad6-480080a9d24a",
+      "displayName": "Politoed",
+      "displayImage": "186-shiny-f.png",
+      "image": [
+        "186-normal-m.png",
+        "186-normal-f.png",
+        "186-shiny-f.png",
+        "186-shiny-m.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "042",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Magikarp",
+      "formName": "",
+      "number": "043",
+      "natDexNumber": "0129",
+      "ref": "129.0_bc2613ea-c8f4-4122-af3a-4a6ff21d665c",
+      "displayName": "Magikarp",
+      "displayImage": "129-shiny-f.png",
+      "image": [
+        "129-normal-m.png",
+        "129-normal-f.png",
+        "129-shiny-f.png",
+        "129-shiny-m.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "043",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gyarados",
+      "formName": "",
+      "number": "044",
+      "natDexNumber": "0130",
+      "ref": "130.0_077f0a03-cce2-462e-9796-9a0b4389e451",
+      "displayName": "Gyarados",
+      "displayImage": "130-shiny-f.png",
+      "image": [
+        "130-normal-m.png",
+        "130-normal-f.png",
+        "130-shiny-f.png",
+        "130-shiny-m.png"
+      ],
+      "type1": "water",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "044",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Hoothoot",
+      "formName": "",
+      "number": "045",
+      "natDexNumber": "0163",
+      "ref": "163.0_24506962-d8b1-4ced-915c-eb18ecbcc674",
+      "displayName": "Hoothoot",
+      "displayImage": "163-shiny-mf.png",
+      "image": [
+        "163-normal-mf.png",
+        "163-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "045",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Noctowl",
+      "formName": "",
+      "number": "046",
+      "natDexNumber": "0164",
+      "ref": "164.0_d34ebef7-501c-4e7f-8871-862552cc5200",
+      "displayName": "Noctowl",
+      "displayImage": "164-shiny-mf.png",
+      "image": [
+        "164-normal-mf.png",
+        "164-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "046",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Aipom",
+      "formName": "",
+      "number": "047",
+      "natDexNumber": "0190",
+      "ref": "190.0_4d4ad82f-535f-49ac-b6b5-9eb701e4f2bb",
+      "displayName": "Aipom",
+      "displayImage": "190-shiny-f.png",
+      "image": [
+        "190-normal-m.png",
+        "190-normal-f.png",
+        "190-shiny-f.png",
+        "190-shiny-m.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "047",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Ambipom",
+      "formName": "",
+      "number": "048",
+      "natDexNumber": "0424",
+      "ref": "424.0_62f5298e-db77-4b4e-8f01-aad73b9b606a",
+      "displayName": "Ambipom",
+      "displayImage": "424-shiny-f.png",
+      "image": [
+        "424-normal-m.png",
+        "424-normal-f.png",
+        "424-shiny-f.png",
+        "424-shiny-m.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "048",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Heracross",
+      "formName": "",
+      "number": "049",
+      "natDexNumber": "0214",
+      "ref": "214.0_db81e78b-02ef-43f3-8cb9-feafb9bc4927",
+      "displayName": "Heracross",
+      "displayImage": "214-shiny-f.png",
+      "image": [
+        "214-normal-m.png",
+        "214-normal-f.png",
+        "214-shiny-f.png",
+        "214-shiny-m.png"
+      ],
+      "type1": "bug",
+      "type2": "fighting",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "049",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Swinub",
+      "formName": "",
+      "number": "050",
+      "natDexNumber": "0220",
+      "ref": "220.0_713e48b7-3eab-4db8-9c38-e0d8b70f5d43",
+      "displayName": "Swinub",
+      "displayImage": "220-shiny-mf.png",
+      "image": [
+        "220-normal-mf.png",
+        "220-shiny-mf.png"
+      ],
+      "type1": "ice",
+      "type2": "ground",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "050",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Piloswine",
+      "formName": "",
+      "number": "051",
+      "natDexNumber": "0221",
+      "ref": "221.0_9d292329-5852-4605-b44e-c685bef126a6",
+      "displayName": "Piloswine",
+      "displayImage": "221-shiny-f.png",
+      "image": [
+        "221-normal-m.png",
+        "221-normal-f.png",
+        "221-shiny-f.png",
+        "221-shiny-m.png"
+      ],
+      "type1": "ice",
+      "type2": "ground",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "051",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Mamoswine",
+      "formName": "",
+      "number": "052",
+      "natDexNumber": "0473",
+      "ref": "473.0_99f18b41-fa1e-4221-b504-fb20ccf160b1",
+      "displayName": "Mamoswine",
+      "displayImage": "473-shiny-f.png",
+      "image": [
+        "473-normal-m.png",
+        "473-normal-f.png",
+        "473-shiny-f.png",
+        "473-shiny-m.png"
+      ],
+      "type1": "ice",
+      "type2": "ground",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "052",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Stantler",
+      "formName": "",
+      "number": "053",
+      "natDexNumber": "0234",
+      "ref": "234.0_ca4585fb-3f8c-4a0f-8b42-d2e8cc6a7ee2",
+      "displayName": "Stantler",
+      "displayImage": "234-shiny-mf.png",
+      "image": [
+        "234-normal-mf.png",
+        "234-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "053",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Seedot",
+      "formName": "",
+      "number": "054",
+      "natDexNumber": "0273",
+      "ref": "273.0_00bcd050-f3bb-4312-9ae8-7255e1eeac9a",
+      "displayName": "Seedot",
+      "displayImage": "273-shiny-mf.png",
+      "image": [
+        "273-normal-mf.png",
+        "273-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "054",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Nuzleaf",
+      "formName": "",
+      "number": "055",
+      "natDexNumber": "0274",
+      "ref": "274.0_46904911-9d20-4ca0-8d96-61bc4a959cb7",
+      "displayName": "Nuzleaf",
+      "displayImage": "274-shiny-f.png",
+      "image": [
+        "274-normal-m.png",
+        "274-normal-f.png",
+        "274-shiny-f.png",
+        "274-shiny-m.png"
+      ],
+      "type1": "grass",
+      "type2": "dark",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "055",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Shiftry",
+      "formName": "",
+      "number": "056",
+      "natDexNumber": "0275",
+      "ref": "275.0_ee5c6be2-5230-4704-a03b-5155f91b6dd6",
+      "displayName": "Shiftry",
+      "displayImage": "275-shiny-f.png",
+      "image": [
+        "275-normal-m.png",
+        "275-normal-f.png",
+        "275-shiny-f.png",
+        "275-shiny-m.png"
+      ],
+      "type1": "grass",
+      "type2": "dark",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "056",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Ralts",
+      "formName": "",
+      "number": "057",
+      "natDexNumber": "0280",
+      "ref": "280.0_254c32cc-7260-4faf-bb61-a275f45bac92",
+      "displayName": "Ralts",
+      "displayImage": "280-shiny-mf.png",
+      "image": [
+        "280-normal-mf.png",
+        "280-shiny-mf.png"
+      ],
+      "type1": "psychic",
+      "type2": "fairy",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "057",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Kirlia",
+      "formName": "",
+      "number": "058",
+      "natDexNumber": "0281",
+      "ref": "281.0_26b987f3-f420-4a71-9c1e-5186e4c741e3",
+      "displayName": "Kirlia",
+      "displayImage": "281-shiny-mf.png",
+      "image": [
+        "281-normal-mf.png",
+        "281-shiny-mf.png"
+      ],
+      "type1": "psychic",
+      "type2": "fairy",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "058",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gardevoir",
+      "formName": "",
+      "number": "059",
+      "natDexNumber": "0282",
+      "ref": "282.0_6ed3f4cf-8700-4318-8828-de351922a771",
+      "displayName": "Gardevoir",
+      "displayImage": "282-shiny-mf.png",
+      "image": [
+        "282-normal-mf.png",
+        "282-shiny-mf.png"
+      ],
+      "type1": "psychic",
+      "type2": "fairy",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "059",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gallade",
+      "formName": "",
+      "number": "060",
+      "natDexNumber": "0475",
+      "ref": "475.0_489fb60e-761f-44f6-8932-6091bfb6050e",
+      "displayName": "Gallade",
+      "displayImage": "475-shiny-mf.png",
+      "image": [
+        "475-normal-mf.png",
+        "475-shiny-mf.png"
+      ],
+      "type1": "psychic",
+      "type2": "fighting",
+      "forms": [],
+      "gender": "male",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "060",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Kricketot",
+      "formName": "",
+      "number": "061",
+      "natDexNumber": "0401",
+      "ref": "401.0_2dfdf5a3-dc09-484e-b756-db7061613939",
+      "displayName": "Kricketot",
+      "displayImage": "401-shiny-f.png",
+      "image": [
+        "401-normal-m.png",
+        "401-normal-f.png",
+        "401-shiny-f.png",
+        "401-shiny-m.png"
+      ],
+      "type1": "bug",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "061",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Kricketune",
+      "formName": "",
+      "number": "062",
+      "natDexNumber": "0402",
+      "ref": "402.0_fb13e26b-46eb-4746-9356-d40fb7cb1930",
+      "displayName": "Kricketune",
+      "displayImage": "402-shiny-f.png",
+      "image": [
+        "402-normal-m.png",
+        "402-normal-f.png",
+        "402-shiny-f.png",
+        "402-shiny-m.png"
+      ],
+      "type1": "bug",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "062",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Pachirisu",
+      "formName": "",
+      "number": "063",
+      "natDexNumber": "0417",
+      "ref": "417.0_5534a489-0e89-422f-8cbe-849ceb006b97",
+      "displayName": "Pachirisu",
+      "displayImage": "417-shiny-f.png",
+      "image": [
+        "417-normal-m.png",
+        "417-normal-f.png",
+        "417-shiny-f.png",
+        "417-shiny-m.png"
+      ],
+      "type1": "electric",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "063",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Riolu",
+      "formName": "",
+      "number": "064",
+      "natDexNumber": "0447",
+      "ref": "447.0_51ded7be-455e-44be-ae8a-3e45c8061f70",
+      "displayName": "Riolu",
+      "displayImage": "447-shiny-mf.png",
+      "image": [
+        "447-normal-mf.png",
+        "447-shiny-mf.png"
+      ],
+      "type1": "fighting",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "064",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Lucario",
+      "formName": "",
+      "number": "065",
+      "natDexNumber": "0448",
+      "ref": "448.0_5847d8e7-e3cf-462e-8ba2-42160c892f4d",
+      "displayName": "Lucario",
+      "displayImage": "448-shiny-mf.png",
+      "image": [
+        "448-normal-mf.png",
+        "448-shiny-mf.png"
+      ],
+      "type1": "fighting",
+      "type2": "steel",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "065",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Petilil",
+      "formName": "",
+      "number": "066",
+      "natDexNumber": "0548",
+      "ref": "548.0_faa729d3-7b17-4ddc-a069-19d90d39a6c7",
+      "displayName": "Petilil",
+      "displayImage": "548-shiny-mf.png",
+      "image": [
+        "548-normal-mf.png",
+        "548-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": null,
+      "forms": [],
+      "gender": "female",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "066",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Lilligant",
+      "formName": "",
+      "number": "067",
+      "natDexNumber": "0549",
+      "ref": "549.0_a452ae4e-8b9d-4d89-9651-e900d763724c",
+      "displayName": "Lilligant",
+      "displayImage": "549-shiny-mf.png",
+      "image": [
+        "549-normal-mf.png",
+        "549-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": null,
+      "forms": [],
+      "gender": "female",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "067",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Phantump",
+      "formName": "",
+      "number": "068",
+      "natDexNumber": "0708",
+      "ref": "708.0_5c792736-1a93-4460-8ea0-9c55ab28f3d4",
+      "displayName": "Phantump",
+      "displayImage": "708-shiny-mf.png",
+      "image": [
+        "708-normal-mf.png",
+        "708-shiny-mf.png"
+      ],
+      "type1": "ghost",
+      "type2": "grass",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "068",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Trevenant",
+      "formName": "",
+      "number": "069",
+      "natDexNumber": "0709",
+      "ref": "709.0_75656d78-e5f3-45bb-a1ff-232b38dee414",
+      "displayName": "Trevenant",
+      "displayImage": "709-shiny-mf.png",
+      "image": [
+        "709-normal-mf.png",
+        "709-shiny-mf.png"
+      ],
+      "type1": "ghost",
+      "type2": "grass",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "069",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Rockruff",
+      "formName": "",
+      "number": "070",
+      "natDexNumber": "0744",
+      "ref": "744.0_07199994-8e38-47e4-8b2f-c316d0c5d7a6",
+      "displayName": "Rockruff",
+      "displayImage": "744-shiny-mf.png",
+      "image": [
+        "744-normal-mf.png",
+        "744-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "070",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Lycanroc",
+      "formName": "Midday Form",
+      "number": "071",
+      "natDexNumber": "0745",
+      "ref": "745.0_0024b1b2-38ae-42db-846c-71429a277488",
+      "displayName": "Lycanroc",
+      "displayImage": "745-001-shiny-mf.png",
+      "image": [
+        "745-001-normal-mf.png",
+        "745-001-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "071",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Skwovet",
+      "formName": "",
+      "number": "072",
+      "natDexNumber": "0819",
+      "ref": "819.0_caa3baf4-36d4-443c-98dd-fbd77d6ef102",
+      "displayName": "Skwovet",
+      "displayImage": "819-shiny-mf.png",
+      "image": [
+        "819-normal-mf.png",
+        "819-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "072",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Greedent",
+      "formName": "",
+      "number": "073",
+      "natDexNumber": "0820",
+      "ref": "820.0_09be63e0-8d35-4e9f-bf56-95ce4459097f",
+      "displayName": "Greedent",
+      "displayImage": "820-shiny-mf.png",
+      "image": [
+        "820-normal-mf.png",
+        "820-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "073",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Toedscool",
+      "formName": "",
+      "number": "074",
+      "natDexNumber": "0948",
+      "ref": "948.0_7d9335cb-9233-4d58-b472-cb87ecb25f8b",
+      "displayName": "Toedscool",
+      "displayImage": "948-shiny-mf.png",
+      "image": [
+        "948-normal-mf.png",
+        "948-shiny-mf.png"
+      ],
+      "type1": "ground",
+      "type2": "grass",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "074",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Toedscruel",
+      "formName": "",
+      "number": "075",
+      "natDexNumber": "0949",
+      "ref": "949.0_eb1cce4f-a88c-4ba2-ab8b-279848f7e5b0",
+      "displayName": "Toedscruel",
+      "displayImage": "949-shiny-mf.png",
+      "image": [
+        "949-normal-mf.png",
+        "949-shiny-mf.png"
+      ],
+      "type1": "ground",
+      "type2": "grass",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "075",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Poltchageist",
+      "formName": "Artesan Form",
+      "number": "076",
+      "natDexNumber": "1012",
+      "ref": "1012.0_df811162-479f-4960-b064-bfc5f97ae0e7",
+      "displayName": "Poltchageist",
+      "displayImage": "1012-001-shiny-g.png",
+      "image": [
+        "1012-001-normal-g.png",
+        "1012-001-shiny-g.png"
+      ],
+      "type1": "grass",
+      "type2": "ghost",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "076",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Sinistcha",
+      "formName": "Masterpiece Form",
+      "number": "077",
+      "natDexNumber": "1013",
+      "ref": "1013.0_c5066e9e-4ed2-441f-95f6-3414e8e35a45",
+      "displayName": "Sinistcha",
+      "displayImage": "1013-001-shiny-g.png",
+      "image": [
+        "1013-001-normal-g.png",
+        "1013-001-shiny-g.png"
+      ],
+      "type1": "grass",
+      "type2": "ghost",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "077",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Growlithe",
+      "formName": "",
+      "number": "078",
+      "natDexNumber": "0058",
+      "ref": "058.0_28d2f2e7-537a-4b1a-a53f-b3120e415ea8",
+      "displayName": "Growlithe",
+      "displayImage": "058-shiny-mf.png",
+      "image": [
+        "058-normal-mf.png",
+        "058-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "078",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Arcanine",
+      "formName": "",
+      "number": "079",
+      "natDexNumber": "0059",
+      "ref": "059.0_a0bd0a5f-3509-4668-83f4-012de57ba1b9",
+      "displayName": "Arcanine",
+      "displayImage": "059-shiny-mf.png",
+      "image": [
+        "059-normal-mf.png",
+        "059-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "079",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Geodude",
+      "formName": "",
+      "number": "080",
+      "natDexNumber": "0074",
+      "ref": "074.0_d66bf131-7c70-49e8-a654-217aeec40481",
+      "displayName": "Geodude",
+      "displayImage": "074-shiny-mf.png",
+      "image": [
+        "074-normal-mf.png",
+        "074-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "ground",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "080",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Graveler",
+      "formName": "",
+      "number": "081",
+      "natDexNumber": "0075",
+      "ref": "075.0_5e8a92d5-5f38-471c-904c-d85734db96b0",
+      "displayName": "Graveler",
+      "displayImage": "075-shiny-mf.png",
+      "image": [
+        "075-normal-mf.png",
+        "075-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "ground",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "081",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Golem",
+      "formName": "",
+      "number": "082",
+      "natDexNumber": "0076",
+      "ref": "076.0_c07cc5e0-cdfa-4789-a5b8-e74179270085",
+      "displayName": "Golem",
+      "displayImage": "076-shiny-mf.png",
+      "image": [
+        "076-normal-mf.png",
+        "076-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "ground",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "082",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Bonsly",
+      "formName": "",
+      "number": "083",
+      "natDexNumber": "0438",
+      "ref": "438.0_7cf563bd-56af-45f4-8ecf-6589fd14991f",
+      "displayName": "Bonsly",
+      "displayImage": "438-shiny-mf.png",
+      "image": [
+        "438-normal-mf.png",
+        "438-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "083",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Sudowoodo",
+      "formName": "",
+      "number": "084",
+      "natDexNumber": "0185",
+      "ref": "185.0_fa3f70dd-fffb-4195-825c-47f089296faf",
+      "displayName": "Sudowoodo",
+      "displayImage": "185-shiny-f.png",
+      "image": [
+        "185-normal-m.png",
+        "185-normal-f.png",
+        "185-shiny-f.png",
+        "185-shiny-m.png"
+      ],
+      "type1": "rock",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "084",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Timburr",
+      "formName": "",
+      "number": "085",
+      "natDexNumber": "0532",
+      "ref": "532.0_8b92a9a0-54e6-4a41-9b8a-f681350e105f",
+      "displayName": "Timburr",
+      "displayImage": "532-shiny-mf.png",
+      "image": [
+        "532-normal-mf.png",
+        "532-shiny-mf.png"
+      ],
+      "type1": "fighting",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "085",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gurdurr",
+      "formName": "",
+      "number": "086",
+      "natDexNumber": "0533",
+      "ref": "533.0_a59e62e7-8328-443b-8184-1618da7dbf31",
+      "displayName": "Gurdurr",
+      "displayImage": "533-shiny-mf.png",
+      "image": [
+        "533-normal-mf.png",
+        "533-shiny-mf.png"
+      ],
+      "type1": "fighting",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "086",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Conkeldurr",
+      "formName": "",
+      "number": "087",
+      "natDexNumber": "0534",
+      "ref": "534.0_b16399d4-be24-4662-ba36-7f1aee8011f9",
+      "displayName": "Conkeldurr",
+      "displayImage": "534-shiny-mf.png",
+      "image": [
+        "534-normal-mf.png",
+        "534-shiny-mf.png"
+      ],
+      "type1": "fighting",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "087",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Noibat",
+      "formName": "",
+      "number": "088",
+      "natDexNumber": "0714",
+      "ref": "714.0_0de05e5a-88be-4638-a5a0-60d560fd8b8a",
+      "displayName": "Noibat",
+      "displayImage": "714-shiny-mf.png",
+      "image": [
+        "714-normal-mf.png",
+        "714-shiny-mf.png"
+      ],
+      "type1": "flying",
+      "type2": "dragon",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "088",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Noivern",
+      "formName": "",
+      "number": "089",
+      "natDexNumber": "0715",
+      "ref": "715.0_2be49db2-c935-49e8-9a94-4da8194c571d",
+      "displayName": "Noivern",
+      "displayImage": "715-shiny-mf.png",
+      "image": [
+        "715-normal-mf.png",
+        "715-shiny-mf.png"
+      ],
+      "type1": "flying",
+      "type2": "dragon",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "089",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Arrokuda",
+      "formName": "",
+      "number": "090",
+      "natDexNumber": "0846",
+      "ref": "846.0_89bfe178-0b1d-4dbb-88d0-15d5571c3a4e",
+      "displayName": "Arrokuda",
+      "displayImage": "846-shiny-mf.png",
+      "image": [
+        "846-normal-mf.png",
+        "846-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "090",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Barraskewda",
+      "formName": "",
+      "number": "091",
+      "natDexNumber": "0847",
+      "ref": "847.0_b7591bad-cd18-4e09-b36a-dd3d3af65cb1",
+      "displayName": "Barraskewda",
+      "displayImage": "847-shiny-mf.png",
+      "image": [
+        "847-normal-mf.png",
+        "847-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "091",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Hatenna",
+      "formName": "",
+      "number": "092",
+      "natDexNumber": "0856",
+      "ref": "856.0_76fe2f48-a37e-4984-82cf-1ff990d30405",
+      "displayName": "Hatenna",
+      "displayImage": "856-shiny-mf.png",
+      "image": [
+        "856-normal-mf.png",
+        "856-shiny-mf.png"
+      ],
+      "type1": "psychic",
+      "type2": null,
+      "forms": [],
+      "gender": "female",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "092",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Hattrem",
+      "formName": "",
+      "number": "093",
+      "natDexNumber": "0857",
+      "ref": "857.0_5aaf74ea-d7eb-4909-8aaa-37251ea1654d",
+      "displayName": "Hattrem",
+      "displayImage": "857-shiny-mf.png",
+      "image": [
+        "857-normal-mf.png",
+        "857-shiny-mf.png"
+      ],
+      "type1": "psychic",
+      "type2": null,
+      "forms": [],
+      "gender": "female",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "093",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Hatterene",
+      "formName": "",
+      "number": "094",
+      "natDexNumber": "0858",
+      "ref": "858.0_bcbfea8a-9691-4887-a4b5-5757af3b079b",
+      "displayName": "Hatterene",
+      "displayImage": "858-shiny-mf.png",
+      "image": [
+        "858-normal-mf.png",
+        "858-shiny-mf.png"
+      ],
+      "type1": "psychic",
+      "type2": "fairy",
+      "forms": [],
+      "gender": "female",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "094",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Morpeko",
+      "formName": "Full Belly Mode",
+      "number": "095",
+      "natDexNumber": "0877",
+      "ref": "877.0_e9878c86-4fb5-4ec2-8972-053f2c46765a",
+      "displayName": "Morpeko",
+      "displayImage": "877-001-shiny-mf.png",
+      "image": [
+        "877-001-normal-mf.png",
+        "877-001-shiny-mf.png"
+      ],
+      "type1": "electric",
+      "type2": "dark",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "095",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Orthworm",
+      "formName": "",
+      "number": "096",
+      "natDexNumber": "0968",
+      "ref": "968.0_a14db8d3-e111-4dcd-9535-43acc3ce5fb9",
+      "displayName": "Orthworm",
+      "displayImage": "968-shiny-mf.png",
+      "image": [
+        "968-normal-mf.png",
+        "968-shiny-mf.png"
+      ],
+      "type1": "steel",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "096",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Tandemaus",
+      "formName": "",
+      "number": "097",
+      "natDexNumber": "0924",
+      "ref": "924.0_b540a169-4130-4ce1-a1a9-df47ffcb41d5",
+      "displayName": "Tandemaus",
+      "displayImage": "924-shiny-g.png",
+      "image": [
+        "924-normal-g.png",
+        "924-shiny-g.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "097",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Maushold",
+      "formName": "Family of Four",
+      "number": "098",
+      "natDexNumber": "0925",
+      "ref": "925.0_f4f6d9ca-8438-4031-94c2-fe8194baebe3",
+      "displayName": "Maushold",
+      "displayImage": "925-001-shiny-g.png",
+      "image": [
+        "925-001-normal-g.png",
+        "925-001-shiny-g.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "098",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Mankey",
+      "formName": "",
+      "number": "099",
+      "natDexNumber": "0056",
+      "ref": "056.0_16c45053-08c7-46ae-bda7-47684e63c9f9",
+      "displayName": "Mankey",
+      "displayImage": "056-shiny-mf.png",
+      "image": [
+        "056-normal-mf.png",
+        "056-shiny-mf.png"
+      ],
+      "type1": "fighting",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "099",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Primeape",
+      "formName": "",
+      "number": "100",
+      "natDexNumber": "0057",
+      "ref": "057.0_51e7729f-3256-42da-9643-558614bcc28f",
+      "displayName": "Primeape",
+      "displayImage": "057-shiny-mf.png",
+      "image": [
+        "057-normal-mf.png",
+        "057-shiny-mf.png"
+      ],
+      "type1": "fighting",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "100",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Annihilape",
+      "formName": "",
+      "number": "101",
+      "natDexNumber": "0979",
+      "ref": "979.0_2f04b893-6f28-4aaf-80f7-4274045904aa",
+      "displayName": "Annihilape",
+      "displayImage": "979-shiny-mf.png",
+      "image": [
+        "979-normal-mf.png",
+        "979-shiny-mf.png"
+      ],
+      "type1": "fighting",
+      "type2": "ghost",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "101",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Munchlax",
+      "formName": "",
+      "number": "102",
+      "natDexNumber": "0446",
+      "ref": "446.0_b7abf035-0276-4528-b000-f2f4bee8a2db",
+      "displayName": "Munchlax",
+      "displayImage": "446-shiny-mf.png",
+      "image": [
+        "446-normal-mf.png",
+        "446-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "102",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Snorlax",
+      "formName": "",
+      "number": "103",
+      "natDexNumber": "0143",
+      "ref": "143.0_1f3b6800-c0ae-4338-9885-7399c3ad5fa3",
+      "displayName": "Snorlax",
+      "displayImage": "143-shiny-mf.png",
+      "image": [
+        "143-normal-mf.png",
+        "143-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "103",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Lotad",
+      "formName": "",
+      "number": "104",
+      "natDexNumber": "0270",
+      "ref": "270.0_4ad7232d-eae9-4f89-84ab-35d16f65a1e6",
+      "displayName": "Lotad",
+      "displayImage": "270-shiny-mf.png",
+      "image": [
+        "270-normal-mf.png",
+        "270-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": "grass",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "104",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Lombre",
+      "formName": "",
+      "number": "105",
+      "natDexNumber": "0271",
+      "ref": "271.0_074c60a5-c1df-42f3-8879-f73baa8838b2",
+      "displayName": "Lombre",
+      "displayImage": "271-shiny-mf.png",
+      "image": [
+        "271-normal-mf.png",
+        "271-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": "grass",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "105",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Ludicolo",
+      "formName": "",
+      "number": "106",
+      "natDexNumber": "0272",
+      "ref": "272.0_f6dad0ab-e57c-40a8-9d7c-dc500fdeefee",
+      "displayName": "Ludicolo",
+      "displayImage": "272-shiny-f.png",
+      "image": [
+        "272-normal-m.png",
+        "272-normal-f.png",
+        "272-shiny-f.png",
+        "272-shiny-m.png"
+      ],
+      "type1": "water",
+      "type2": "grass",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "106",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Nosepass",
+      "formName": "",
+      "number": "107",
+      "natDexNumber": "0299",
+      "ref": "299.0_4e71d444-3a23-40fa-b082-078d86dba3d5",
+      "displayName": "Nosepass",
+      "displayImage": "299-shiny-mf.png",
+      "image": [
+        "299-normal-mf.png",
+        "299-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "107",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Probopass",
+      "formName": "",
+      "number": "108",
+      "natDexNumber": "0476",
+      "ref": "476.0_10209a15-6a28-4456-a030-11f008e1c0d3",
+      "displayName": "Probopass",
+      "displayImage": "476-shiny-mf.png",
+      "image": [
+        "476-normal-mf.png",
+        "476-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "steel",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "108",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Shinx",
+      "formName": "",
+      "number": "109",
+      "natDexNumber": "0403",
+      "ref": "403.0_511750bf-0455-43e5-a3c9-28c918ad984b",
+      "displayName": "Shinx",
+      "displayImage": "403-shiny-f.png",
+      "image": [
+        "403-normal-m.png",
+        "403-normal-f.png",
+        "403-shiny-f.png",
+        "403-shiny-m.png"
+      ],
+      "type1": "electric",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "109",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Luxio",
+      "formName": "",
+      "number": "110",
+      "natDexNumber": "0404",
+      "ref": "404.0_8e481ccb-de7e-4058-ae78-eb706637ef51",
+      "displayName": "Luxio",
+      "displayImage": "404-shiny-f.png",
+      "image": [
+        "404-normal-m.png",
+        "404-normal-f.png",
+        "404-shiny-f.png",
+        "404-shiny-m.png"
+      ],
+      "type1": "electric",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "110",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Luxray",
+      "formName": "",
+      "number": "111",
+      "natDexNumber": "0405",
+      "ref": "405.0_de97024a-6b8c-49fb-b568-a5a0551a9616",
+      "displayName": "Luxray",
+      "displayImage": "405-shiny-f.png",
+      "image": [
+        "405-normal-m.png",
+        "405-normal-f.png",
+        "405-shiny-f.png",
+        "405-shiny-m.png"
+      ],
+      "type1": "electric",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "111",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Grubbin",
+      "formName": "",
+      "number": "112",
+      "natDexNumber": "0736",
+      "ref": "736.0_0e89b0b7-43b9-4807-b7c9-d3f5ffd8525a",
+      "displayName": "Grubbin",
+      "displayImage": "736-shiny-mf.png",
+      "image": [
+        "736-normal-mf.png",
+        "736-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "112",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Charjabug",
+      "formName": "",
+      "number": "113",
+      "natDexNumber": "0737",
+      "ref": "737.0_146683b2-015b-47fb-b7c4-41ee402a957f",
+      "displayName": "Charjabug",
+      "displayImage": "737-shiny-mf.png",
+      "image": [
+        "737-normal-mf.png",
+        "737-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "electric",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "113",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Vikavolt",
+      "formName": "",
+      "number": "114",
+      "natDexNumber": "0738",
+      "ref": "738.0_c051d79e-fd2e-4a5e-ba03-6f2709c44f6f",
+      "displayName": "Vikavolt",
+      "displayImage": "738-shiny-mf.png",
+      "image": [
+        "738-normal-mf.png",
+        "738-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "electric",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "114",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Oricorio",
+      "formName": "Baile Style",
+      "number": "115",
+      "natDexNumber": "0741",
+      "ref": "741.0_54ceaaf1-3481-4070-9781-bd5a0364bdeb",
+      "displayName": "Oricorio",
+      "displayImage": "741-001-shiny-mf.png",
+      "image": [
+        "741-001-normal-mf.png",
+        "741-001-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "115",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Sandshrew",
+      "formName": "",
+      "number": "116",
+      "natDexNumber": "0027",
+      "ref": "027.0_dab965c9-f13b-49dc-a9c0-151b928c197a",
+      "displayName": "Sandshrew",
+      "displayImage": "027-shiny-mf.png",
+      "image": [
+        "027-normal-mf.png",
+        "027-shiny-mf.png"
+      ],
+      "type1": "ground",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "116",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Sandslash",
+      "formName": "",
+      "number": "117",
+      "natDexNumber": "0028",
+      "ref": "028.0_ecdc4554-0f1f-48b8-856f-fa211a787850",
+      "displayName": "Sandslash",
+      "displayImage": "028-shiny-mf.png",
+      "image": [
+        "028-normal-mf.png",
+        "028-shiny-mf.png"
+      ],
+      "type1": "ground",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "117",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gastly",
+      "formName": "",
+      "number": "118",
+      "natDexNumber": "0092",
+      "ref": "092.0_15b25265-aca6-478b-b0db-a003801ad564",
+      "displayName": "Gastly",
+      "displayImage": "092-shiny-mf.png",
+      "image": [
+        "092-normal-mf.png",
+        "092-shiny-mf.png"
+      ],
+      "type1": "ghost",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "118",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Haunter",
+      "formName": "",
+      "number": "119",
+      "natDexNumber": "0093",
+      "ref": "093.0_7d9c4eaa-ba21-4eeb-b7dd-20c72fd76ef5",
+      "displayName": "Haunter",
+      "displayImage": "093-shiny-mf.png",
+      "image": [
+        "093-normal-mf.png",
+        "093-shiny-mf.png"
+      ],
+      "type1": "ghost",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "119",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gengar",
+      "formName": "",
+      "number": "120",
+      "natDexNumber": "0094",
+      "ref": "094.0_559e8889-3cda-4c90-8b62-f1477f55ccf2",
+      "displayName": "Gengar",
+      "displayImage": "094-shiny-mf.png",
+      "image": [
+        "094-normal-mf.png",
+        "094-shiny-mf.png"
+      ],
+      "type1": "ghost",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "120",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gligar",
+      "formName": "",
+      "number": "121",
+      "natDexNumber": "0207",
+      "ref": "207.0_8c4e4946-a0b2-418c-8be5-0435dba821ef",
+      "displayName": "Gligar",
+      "displayImage": "207-shiny-f.png",
+      "image": [
+        "207-normal-m.png",
+        "207-normal-f.png",
+        "207-shiny-f.png",
+        "207-shiny-m.png"
+      ],
+      "type1": "ground",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "121",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Scarlet Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gliscor",
+      "formName": "",
+      "number": "122",
+      "natDexNumber": "0472",
+      "ref": "472.0_d4f6b4f3-0bd1-415f-a062-cdae3215aa3d",
+      "displayName": "Gliscor",
+      "displayImage": "472-shiny-mf.png",
+      "image": [
+        "472-normal-mf.png",
+        "472-shiny-mf.png"
+      ],
+      "type1": "ground",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "122",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Scarlet Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Houndour",
+      "formName": "",
+      "number": "123",
+      "natDexNumber": "0228",
+      "ref": "228.0_008a52b5-a401-4165-bf81-a714677ac86f",
+      "displayName": "Houndour",
+      "displayImage": "228-shiny-mf.png",
+      "image": [
+        "228-normal-mf.png",
+        "228-shiny-mf.png"
+      ],
+      "type1": "dark",
+      "type2": "fire",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "123",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Houndoom",
+      "formName": "",
+      "number": "124",
+      "natDexNumber": "0229",
+      "ref": "229.0_5caad3dc-665c-4f51-aae4-f5d8794974e9",
+      "displayName": "Houndoom",
+      "displayImage": "229-shiny-f.png",
+      "image": [
+        "229-normal-m.png",
+        "229-normal-f.png",
+        "229-shiny-f.png",
+        "229-shiny-m.png"
+      ],
+      "type1": "dark",
+      "type2": "fire",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "124",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Spoink",
+      "formName": "",
+      "number": "125",
+      "natDexNumber": "0325",
+      "ref": "325.0_454f3ed0-4757-46f5-a7dd-556280755542",
+      "displayName": "Spoink",
+      "displayImage": "325-shiny-mf.png",
+      "image": [
+        "325-normal-mf.png",
+        "325-shiny-mf.png"
+      ],
+      "type1": "psychic",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "125",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Grumpig",
+      "formName": "",
+      "number": "126",
+      "natDexNumber": "0326",
+      "ref": "326.0_31a248c2-d046-45ad-a10e-661cb14c434e",
+      "displayName": "Grumpig",
+      "displayImage": "326-shiny-mf.png",
+      "image": [
+        "326-normal-mf.png",
+        "326-shiny-mf.png"
+      ],
+      "type1": "psychic",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "126",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Vullaby",
+      "formName": "",
+      "number": "127",
+      "natDexNumber": "0629",
+      "ref": "629.0_c2c0536e-02be-42ad-8312-200c192e5403",
+      "displayName": "Vullaby",
+      "displayImage": "629-shiny-mf.png",
+      "image": [
+        "629-normal-mf.png",
+        "629-shiny-mf.png"
+      ],
+      "type1": "dark",
+      "type2": "flying",
+      "forms": [],
+      "gender": "female",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "127",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Mandibuzz",
+      "formName": "",
+      "number": "128",
+      "natDexNumber": "0630",
+      "ref": "630.0_cb39b0e6-7368-46d1-bc68-018f6f4a3099",
+      "displayName": "Mandibuzz",
+      "displayImage": "630-shiny-mf.png",
+      "image": [
+        "630-normal-mf.png",
+        "630-shiny-mf.png"
+      ],
+      "type1": "dark",
+      "type2": "flying",
+      "forms": [],
+      "gender": "female",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "128",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Mudbray",
+      "formName": "",
+      "number": "129",
+      "natDexNumber": "0749",
+      "ref": "749.0_74e09bb0-2d65-42fe-a541-222fd28ed458",
+      "displayName": "Mudbray",
+      "displayImage": "749-shiny-mf.png",
+      "image": [
+        "749-normal-mf.png",
+        "749-shiny-mf.png"
+      ],
+      "type1": "ground",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "129",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Mudsdale",
+      "formName": "",
+      "number": "130",
+      "natDexNumber": "0750",
+      "ref": "750.0_b0058ce8-9e07-41ab-8bca-4b96d3064588",
+      "displayName": "Mudsdale",
+      "displayImage": "750-shiny-mf.png",
+      "image": [
+        "750-normal-mf.png",
+        "750-shiny-mf.png"
+      ],
+      "type1": "ground",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "130",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Jangmo-o",
+      "formName": "",
+      "number": "131",
+      "natDexNumber": "0782",
+      "ref": "782.0_271000b9-88de-4586-bafd-80bca608bc53",
+      "displayName": "Jangmo-o",
+      "displayImage": "782-shiny-mf.png",
+      "image": [
+        "782-normal-mf.png",
+        "782-shiny-mf.png"
+      ],
+      "type1": "dragon",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "131",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Hakamo-o",
+      "formName": "",
+      "number": "132",
+      "natDexNumber": "0783",
+      "ref": "783.0_89f5bf7f-38e0-471a-be27-a66de5d96cd1",
+      "displayName": "Hakamo-o",
+      "displayImage": "783-shiny-mf.png",
+      "image": [
+        "783-normal-mf.png",
+        "783-shiny-mf.png"
+      ],
+      "type1": "dragon",
+      "type2": "fighting",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "132",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Kommo-o",
+      "formName": "",
+      "number": "133",
+      "natDexNumber": "0784",
+      "ref": "784.0_22990706-a75f-4827-be5b-f74da7566808",
+      "displayName": "Kommo-o",
+      "displayImage": "784-shiny-mf.png",
+      "image": [
+        "784-normal-mf.png",
+        "784-shiny-mf.png"
+      ],
+      "type1": "dragon",
+      "type2": "fighting",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "133",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Bombirdier",
+      "formName": "",
+      "number": "134",
+      "natDexNumber": "0962",
+      "ref": "962.0_b574566a-e4ec-4e9e-9e3c-063692ff0651",
+      "displayName": "Bombirdier",
+      "displayImage": "962-shiny-mf.png",
+      "image": [
+        "962-normal-mf.png",
+        "962-shiny-mf.png"
+      ],
+      "type1": "flying",
+      "type2": "dark",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "134",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Koffing",
+      "formName": "",
+      "number": "135",
+      "natDexNumber": "0109",
+      "ref": "109.0_800f185b-5aca-4a07-9165-f1be62342343",
+      "displayName": "Koffing",
+      "displayImage": "109-shiny-mf.png",
+      "image": [
+        "109-normal-mf.png",
+        "109-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "135",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Weezing",
+      "formName": "",
+      "number": "136",
+      "natDexNumber": "0110",
+      "ref": "110.0_eedfd449-4049-4413-9fee-fa1375334b73",
+      "displayName": "Weezing",
+      "displayImage": "110-shiny-mf.png",
+      "image": [
+        "110-normal-mf.png",
+        "110-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "136",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Mienfoo",
+      "formName": "",
+      "number": "137",
+      "natDexNumber": "0619",
+      "ref": "619.0_a1f06ef6-1bf2-4f7e-a5b0-81249645fa29",
+      "displayName": "Mienfoo",
+      "displayImage": "619-shiny-mf.png",
+      "image": [
+        "619-normal-mf.png",
+        "619-shiny-mf.png"
+      ],
+      "type1": "fighting",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "137",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Mienshao",
+      "formName": "",
+      "number": "138",
+      "natDexNumber": "0620",
+      "ref": "620.0_662062e2-2cfe-4c7a-ace6-8d5b6b9ce646",
+      "displayName": "Mienshao",
+      "displayImage": "620-shiny-mf.png",
+      "image": [
+        "620-normal-mf.png",
+        "620-shiny-mf.png"
+      ],
+      "type1": "fighting",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "138",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Duskull",
+      "formName": "",
+      "number": "139",
+      "natDexNumber": "0355",
+      "ref": "355.0_08247985-9597-4652-acd2-e2131e18b904",
+      "displayName": "Duskull",
+      "displayImage": "355-shiny-mf.png",
+      "image": [
+        "355-normal-mf.png",
+        "355-shiny-mf.png"
+      ],
+      "type1": "ghost",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "139",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Dusclops",
+      "formName": "",
+      "number": "140",
+      "natDexNumber": "0356",
+      "ref": "356.0_43d5fe26-d45c-4067-93a7-c827b6380478",
+      "displayName": "Dusclops",
+      "displayImage": "356-shiny-mf.png",
+      "image": [
+        "356-normal-mf.png",
+        "356-shiny-mf.png"
+      ],
+      "type1": "ghost",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "140",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Dusknoir",
+      "formName": "",
+      "number": "141",
+      "natDexNumber": "0477",
+      "ref": "477.0_0fbc508e-0785-42c0-96b7-7bed47363e4d",
+      "displayName": "Dusknoir",
+      "displayImage": "477-shiny-mf.png",
+      "image": [
+        "477-normal-mf.png",
+        "477-shiny-mf.png"
+      ],
+      "type1": "ghost",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "141",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Chingling",
+      "formName": "",
+      "number": "142",
+      "natDexNumber": "0433",
+      "ref": "433.0_33cd0124-1832-4150-938c-288480b021de",
+      "displayName": "Chingling",
+      "displayImage": "433-shiny-mf.png",
+      "image": [
+        "433-normal-mf.png",
+        "433-shiny-mf.png"
+      ],
+      "type1": "psychic",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "142",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Chimecho",
+      "formName": "",
+      "number": "143",
+      "natDexNumber": "0358",
+      "ref": "358.0_9eeded99-2dbc-4f18-9e6e-4fd9381799ad",
+      "displayName": "Chimecho",
+      "displayImage": "358-shiny-mf.png",
+      "image": [
+        "358-normal-mf.png",
+        "358-shiny-mf.png"
+      ],
+      "type1": "psychic",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "143",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Slugma",
+      "formName": "",
+      "number": "144",
+      "natDexNumber": "0218",
+      "ref": "218.0_a98556c2-8ade-4e22-8fc2-9873155ec6bb",
+      "displayName": "Slugma",
+      "displayImage": "218-shiny-mf.png",
+      "image": [
+        "218-normal-mf.png",
+        "218-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "144",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Magcargo",
+      "formName": "",
+      "number": "145",
+      "natDexNumber": "0219",
+      "ref": "219.0_b06b531d-09bd-4a7b-b692-d23b89dcd019",
+      "displayName": "Magcargo",
+      "displayImage": "219-shiny-mf.png",
+      "image": [
+        "219-normal-mf.png",
+        "219-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": "rock",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "145",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Litwick",
+      "formName": "",
+      "number": "146",
+      "natDexNumber": "0607",
+      "ref": "607.0_af3c5713-6391-433d-a4d8-830099eb5a77",
+      "displayName": "Litwick",
+      "displayImage": "607-shiny-mf.png",
+      "image": [
+        "607-normal-mf.png",
+        "607-shiny-mf.png"
+      ],
+      "type1": "ghost",
+      "type2": "fire",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "146",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Lampent",
+      "formName": "",
+      "number": "147",
+      "natDexNumber": "0608",
+      "ref": "608.0_9f71a748-eb31-4dc6-b2db-1b2c2987ceb6",
+      "displayName": "Lampent",
+      "displayImage": "608-shiny-mf.png",
+      "image": [
+        "608-normal-mf.png",
+        "608-shiny-mf.png"
+      ],
+      "type1": "ghost",
+      "type2": "fire",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "147",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Chandelure",
+      "formName": "",
+      "number": "148",
+      "natDexNumber": "0609",
+      "ref": "609.0_5b767ed4-103b-43e1-929a-f04e314aa49c",
+      "displayName": "Chandelure",
+      "displayImage": "609-shiny-mf.png",
+      "image": [
+        "609-normal-mf.png",
+        "609-shiny-mf.png"
+      ],
+      "type1": "ghost",
+      "type2": "fire",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "148",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Surskit",
+      "formName": "",
+      "number": "149",
+      "natDexNumber": "0283",
+      "ref": "283.0_4466d029-c18e-4832-92cf-7d99d4bb3a9b",
+      "displayName": "Surskit",
+      "displayImage": "283-shiny-mf.png",
+      "image": [
+        "283-normal-mf.png",
+        "283-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "water",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "149",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Masquerain",
+      "formName": "",
+      "number": "150",
+      "natDexNumber": "0284",
+      "ref": "284.0_fa1b52e0-7346-483f-b34d-0bd74e0fa14e",
+      "displayName": "Masquerain",
+      "displayImage": "284-shiny-mf.png",
+      "image": [
+        "284-normal-mf.png",
+        "284-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "150",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Cleffa",
+      "formName": "",
+      "number": "151",
+      "natDexNumber": "0173",
+      "ref": "173.0_d4047399-30d4-4be2-9d26-98ac55421f74",
+      "displayName": "Cleffa",
+      "displayImage": "173-shiny-mf.png",
+      "image": [
+        "173-normal-mf.png",
+        "173-shiny-mf.png"
+      ],
+      "type1": "fairy",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "151",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Clefairy",
+      "formName": "",
+      "number": "152",
+      "natDexNumber": "0035",
+      "ref": "035.0_a34187e5-f434-4c9e-9de5-7fee66d0effa",
+      "displayName": "Clefairy",
+      "displayImage": "035-shiny-mf.png",
+      "image": [
+        "035-normal-mf.png",
+        "035-shiny-mf.png"
+      ],
+      "type1": "fairy",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "152",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Clefable",
+      "formName": "",
+      "number": "153",
+      "natDexNumber": "0036",
+      "ref": "036.0_a450b31e-1122-4a64-a31f-bf8479ddfecd",
+      "displayName": "Clefable",
+      "displayImage": "036-shiny-mf.png",
+      "image": [
+        "036-normal-mf.png",
+        "036-shiny-mf.png"
+      ],
+      "type1": "fairy",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "153",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Bronzor",
+      "formName": "",
+      "number": "154",
+      "natDexNumber": "0436",
+      "ref": "436.0_d8d0f00e-fcf3-4600-ae79-6bf45ac8a983",
+      "displayName": "Bronzor",
+      "displayImage": "436-shiny-g.png",
+      "image": [
+        "436-normal-g.png",
+        "436-shiny-g.png"
+      ],
+      "type1": "steel",
+      "type2": "psychic",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "154",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Bronzong",
+      "formName": "",
+      "number": "155",
+      "natDexNumber": "0437",
+      "ref": "437.0_f68128c0-b952-4d60-91ad-1f31a7e20606",
+      "displayName": "Bronzong",
+      "displayImage": "437-shiny-g.png",
+      "image": [
+        "437-normal-g.png",
+        "437-shiny-g.png"
+      ],
+      "type1": "steel",
+      "type2": "psychic",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "155",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Glimmet",
+      "formName": "",
+      "number": "156",
+      "natDexNumber": "0969",
+      "ref": "969.0_99287c4a-a997-400e-a63e-8d76d61a2461",
+      "displayName": "Glimmet",
+      "displayImage": "969-shiny-mf.png",
+      "image": [
+        "969-normal-mf.png",
+        "969-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "156",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Glimmora",
+      "formName": "",
+      "number": "157",
+      "natDexNumber": "0970",
+      "ref": "970.0_22507c91-c06a-4fb0-9da9-5ec0744d2a0e",
+      "displayName": "Glimmora",
+      "displayImage": "970-shiny-mf.png",
+      "image": [
+        "970-normal-mf.png",
+        "970-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "157",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Feebas",
+      "formName": "",
+      "number": "158",
+      "natDexNumber": "0349",
+      "ref": "349.0_56bd81da-4a77-4a24-9665-30653b5b60f9",
+      "displayName": "Feebas",
+      "displayImage": "349-shiny-mf.png",
+      "image": [
+        "349-normal-mf.png",
+        "349-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "158",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Milotic",
+      "formName": "",
+      "number": "159",
+      "natDexNumber": "0350",
+      "ref": "350.0_dc539191-a2dc-4a98-8aa7-8cb46090264a",
+      "displayName": "Milotic",
+      "displayImage": "350-shiny-f.png",
+      "image": [
+        "350-normal-m.png",
+        "350-normal-f.png",
+        "350-shiny-f.png",
+        "350-shiny-m.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "159",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Dunsparce",
+      "formName": "",
+      "number": "160",
+      "natDexNumber": "0206",
+      "ref": "206.0_c9c68ec3-2848-4133-b110-cb261ccbd7d7",
+      "displayName": "Dunsparce",
+      "displayImage": "206-shiny-mf.png",
+      "image": [
+        "206-normal-mf.png",
+        "206-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "160",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Dudunsparce",
+      "formName": "Two-Segment Form",
+      "number": "161",
+      "natDexNumber": "0982",
+      "ref": "982.0_86f109c6-5bc9-4795-9734-7c55c0a105eb",
+      "displayName": "Dudunsparce",
+      "displayImage": "982-001-shiny-mf.png",
+      "image": [
+        "982-001-normal-mf.png",
+        "982-001-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "161",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Barboach",
+      "formName": "",
+      "number": "162",
+      "natDexNumber": "0339",
+      "ref": "339.0_612cdb8c-4a31-4aca-ba11-734619491119",
+      "displayName": "Barboach",
+      "displayImage": "339-shiny-mf.png",
+      "image": [
+        "339-normal-mf.png",
+        "339-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": "ground",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "162",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Whiscash",
+      "formName": "",
+      "number": "163",
+      "natDexNumber": "0340",
+      "ref": "340.0_31640d78-e5e7-4193-9d44-78ca12b60a62",
+      "displayName": "Whiscash",
+      "displayImage": "340-shiny-mf.png",
+      "image": [
+        "340-normal-mf.png",
+        "340-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": "ground",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "163",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gible",
+      "formName": "",
+      "number": "164",
+      "natDexNumber": "0443",
+      "ref": "443.0_6f6e94cf-7c9c-45c7-9df8-8d8d442398fc",
+      "displayName": "Gible",
+      "displayImage": "443-shiny-f.png",
+      "image": [
+        "443-normal-m.png",
+        "443-normal-f.png",
+        "443-shiny-f.png",
+        "443-shiny-m.png"
+      ],
+      "type1": "dragon",
+      "type2": "ground",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "164",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gabite",
+      "formName": "",
+      "number": "165",
+      "natDexNumber": "0444",
+      "ref": "444.0_640c85cf-1636-4777-be86-54e59a2f905e",
+      "displayName": "Gabite",
+      "displayImage": "444-shiny-f.png",
+      "image": [
+        "444-normal-m.png",
+        "444-normal-f.png",
+        "444-shiny-f.png",
+        "444-shiny-m.png"
+      ],
+      "type1": "dragon",
+      "type2": "ground",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "165",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Garchomp",
+      "formName": "",
+      "number": "166",
+      "natDexNumber": "0445",
+      "ref": "445.0_f0348937-8bb9-43bf-a1c0-3b3670660897",
+      "displayName": "Garchomp",
+      "displayImage": "445-shiny-f.png",
+      "image": [
+        "445-normal-m.png",
+        "445-normal-f.png",
+        "445-shiny-f.png",
+        "445-shiny-m.png"
+      ],
+      "type1": "dragon",
+      "type2": "ground",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "166",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Carbink",
+      "formName": "",
+      "number": "167",
+      "natDexNumber": "0703",
+      "ref": "703.0_ff748792-9538-4761-8771-3360a6846871",
+      "displayName": "Carbink",
+      "displayImage": "703-shiny-g.png",
+      "image": [
+        "703-normal-g.png",
+        "703-shiny-g.png"
+      ],
+      "type1": "rock",
+      "type2": "fairy",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "167",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Salandit",
+      "formName": "",
+      "number": "168",
+      "natDexNumber": "0757",
+      "ref": "757.0_ecbd651b-7dd6-44a7-96b9-7e1643c0cade",
+      "displayName": "Salandit",
+      "displayImage": "757-shiny-mf.png",
+      "image": [
+        "757-normal-mf.png",
+        "757-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": "fire",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "168",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Salazzle",
+      "formName": "",
+      "number": "169",
+      "natDexNumber": "0758",
+      "ref": "758.0_e9b6065b-6693-42cf-9764-ec69e7c8d398",
+      "displayName": "Salazzle",
+      "displayImage": "758-shiny-mf.png",
+      "image": [
+        "758-normal-mf.png",
+        "758-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": "fire",
+      "forms": [],
+      "gender": "female",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "169",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Sneasel",
+      "formName": "",
+      "number": "170",
+      "natDexNumber": "0215",
+      "ref": "215.0_854d21d8-e3f5-419a-91e6-6b539e4a936f",
+      "displayName": "Sneasel",
+      "displayImage": "215-shiny-f.png",
+      "image": [
+        "215-normal-m.png",
+        "215-normal-f.png",
+        "215-shiny-f.png",
+        "215-shiny-m.png"
+      ],
+      "type1": "dark",
+      "type2": "ice",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "170",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Weavile",
+      "formName": "",
+      "number": "171",
+      "natDexNumber": "0461",
+      "ref": "461.0_efbb200b-5201-4a19-b8b7-2294c3d432ff",
+      "displayName": "Weavile",
+      "displayImage": "461-shiny-f.png",
+      "image": [
+        "461-normal-m.png",
+        "461-normal-f.png",
+        "461-shiny-f.png",
+        "461-shiny-m.png"
+      ],
+      "type1": "dark",
+      "type2": "ice",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "171",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Snorunt",
+      "formName": "",
+      "number": "172",
+      "natDexNumber": "0361",
+      "ref": "361.0_39a37794-bb88-4bc3-941c-2fac8925d0dd",
+      "displayName": "Snorunt",
+      "displayImage": "361-shiny-mf.png",
+      "image": [
+        "361-normal-mf.png",
+        "361-shiny-mf.png"
+      ],
+      "type1": "ice",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "172",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Glalie",
+      "formName": "",
+      "number": "173",
+      "natDexNumber": "0362",
+      "ref": "362.0_9a7a064e-ecbd-4e66-9630-1b4eef501d1e",
+      "displayName": "Glalie",
+      "displayImage": "362-shiny-mf.png",
+      "image": [
+        "362-normal-mf.png",
+        "362-shiny-mf.png"
+      ],
+      "type1": "ice",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "173",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Froslass",
+      "formName": "",
+      "number": "174",
+      "natDexNumber": "0478",
+      "ref": "478.0_572aaa3e-037d-45fe-8c49-2f3f2fbf79eb",
+      "displayName": "Froslass",
+      "displayImage": "478-shiny-mf.png",
+      "image": [
+        "478-normal-mf.png",
+        "478-shiny-mf.png"
+      ],
+      "type1": "ice",
+      "type2": "ghost",
+      "forms": [],
+      "gender": "female",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "174",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Tynamo",
+      "formName": "",
+      "number": "175",
+      "natDexNumber": "0602",
+      "ref": "602.0_4b15cf52-48b0-4953-9d6d-6d2d08126511",
+      "displayName": "Tynamo",
+      "displayImage": "602-shiny-mf.png",
+      "image": [
+        "602-normal-mf.png",
+        "602-shiny-mf.png"
+      ],
+      "type1": "electric",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "175",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Eelektrik",
+      "formName": "",
+      "number": "176",
+      "natDexNumber": "0603",
+      "ref": "603.0_c7f99fb1-a8c2-4d77-931f-1e6f031ff91f",
+      "displayName": "Eelektrik",
+      "displayImage": "603-shiny-mf.png",
+      "image": [
+        "603-normal-mf.png",
+        "603-shiny-mf.png"
+      ],
+      "type1": "electric",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "176",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Eelektross",
+      "formName": "",
+      "number": "177",
+      "natDexNumber": "0604",
+      "ref": "604.0_240f1b73-cc12-47a0-b128-a2b8e5b7fcf5",
+      "displayName": "Eelektross",
+      "displayImage": "604-shiny-mf.png",
+      "image": [
+        "604-normal-mf.png",
+        "604-shiny-mf.png"
+      ],
+      "type1": "electric",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "177",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Goomy",
+      "formName": "",
+      "number": "178",
+      "natDexNumber": "0704",
+      "ref": "704.0_2aae5824-fdef-4a65-bec6-95e8c88a9037",
+      "displayName": "Goomy",
+      "displayImage": "704-shiny-mf.png",
+      "image": [
+        "704-normal-mf.png",
+        "704-shiny-mf.png"
+      ],
+      "type1": "dragon",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "178",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Sliggoo",
+      "formName": "",
+      "number": "179",
+      "natDexNumber": "0705",
+      "ref": "705.0_fe98dd8c-4860-48b0-9973-507f283dc868",
+      "displayName": "Sliggoo",
+      "displayImage": "705-shiny-mf.png",
+      "image": [
+        "705-normal-mf.png",
+        "705-shiny-mf.png"
+      ],
+      "type1": "dragon",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "179",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Goodra",
+      "formName": "",
+      "number": "180",
+      "natDexNumber": "0706",
+      "ref": "706.0_900e7e5f-4412-420c-b2d9-956c36bfd3fb",
+      "displayName": "Goodra",
+      "displayImage": "706-shiny-mf.png",
+      "image": [
+        "706-normal-mf.png",
+        "706-shiny-mf.png"
+      ],
+      "type1": "dragon",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "180",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Ducklett",
+      "formName": "",
+      "number": "181",
+      "natDexNumber": "0580",
+      "ref": "580.0_367b2d80-07d6-49d4-bb97-8c5864e237f4",
+      "displayName": "Ducklett",
+      "displayImage": "580-shiny-mf.png",
+      "image": [
+        "580-normal-mf.png",
+        "580-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "181",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Swanna",
+      "formName": "",
+      "number": "182",
+      "natDexNumber": "0581",
+      "ref": "581.0_0a4ad5a2-43cc-4740-bcdf-42628161302b",
+      "displayName": "Swanna",
+      "displayImage": "581-shiny-mf.png",
+      "image": [
+        "581-normal-mf.png",
+        "581-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "182",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Chewtle",
+      "formName": "",
+      "number": "183",
+      "natDexNumber": "0833",
+      "ref": "833.0_e4676726-f394-40fb-a0be-f2bd1e4175ac",
+      "displayName": "Chewtle",
+      "displayImage": "833-shiny-mf.png",
+      "image": [
+        "833-normal-mf.png",
+        "833-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "183",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Drednaw",
+      "formName": "",
+      "number": "184",
+      "natDexNumber": "0834",
+      "ref": "834.0_cfbc630d-976d-4eda-9ff5-bc1354659497",
+      "displayName": "Drednaw",
+      "displayImage": "834-shiny-mf.png",
+      "image": [
+        "834-normal-mf.png",
+        "834-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": "rock",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "184",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Cramorant",
+      "formName": "",
+      "number": "185",
+      "natDexNumber": "0845",
+      "ref": "845.0_4a0b3f2d-2abc-4154-86c1-1393a3177dfd",
+      "displayName": "Cramorant",
+      "displayImage": "845-shiny-mf.png",
+      "image": [
+        "845-normal-mf.png",
+        "845-shiny-mf.png"
+      ],
+      "type1": "flying",
+      "type2": "water",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "185",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Scarlet Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Pawniard",
+      "formName": "",
+      "number": "186",
+      "natDexNumber": "0624",
+      "ref": "624.0_0ace89c9-956b-49aa-bfa0-b1e5d3692578",
+      "displayName": "Pawniard",
+      "displayImage": "624-shiny-mf.png",
+      "image": [
+        "624-normal-mf.png",
+        "624-shiny-mf.png"
+      ],
+      "type1": "dark",
+      "type2": "steel",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "186",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Bisharp",
+      "formName": "",
+      "number": "187",
+      "natDexNumber": "0625",
+      "ref": "625.0_54b9ab15-5629-43a0-b905-1190a76e3340",
+      "displayName": "Bisharp",
+      "displayImage": "625-shiny-mf.png",
+      "image": [
+        "625-normal-mf.png",
+        "625-shiny-mf.png"
+      ],
+      "type1": "dark",
+      "type2": "steel",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "187",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Kingambit",
+      "formName": "",
+      "number": "188",
+      "natDexNumber": "0983",
+      "ref": "983.0_9c0b76b9-a529-4155-b22b-27a17d5b730c",
+      "displayName": "Kingambit",
+      "displayImage": "983-shiny-mf.png",
+      "image": [
+        "983-normal-mf.png",
+        "983-shiny-mf.png"
+      ],
+      "type1": "dark",
+      "type2": "steel",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "188",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Mimikyu",
+      "formName": "",
+      "number": "189",
+      "natDexNumber": "0778",
+      "ref": "778.0_19dd500a-72e8-49f3-9625-848046fcee1a",
+      "displayName": "Mimikyu",
+      "displayImage": "778-shiny-mf.png",
+      "image": [
+        "778-normal-mf.png",
+        "778-shiny-mf.png"
+      ],
+      "type1": "ghost",
+      "type2": "fairy",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "189",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Impidimp",
+      "formName": "",
+      "number": "190",
+      "natDexNumber": "0859",
+      "ref": "859.0_66f79118-8536-47f0-bb1f-25e24d5ddc95",
+      "displayName": "Impidimp",
+      "displayImage": "859-shiny-mf.png",
+      "image": [
+        "859-normal-mf.png",
+        "859-shiny-mf.png"
+      ],
+      "type1": "dark",
+      "type2": "fairy",
+      "forms": [],
+      "gender": "male",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "190",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Morgrem",
+      "formName": "",
+      "number": "191",
+      "natDexNumber": "0860",
+      "ref": "860.0_adfcbda5-b43c-46b1-9bb5-cdb7caa3ae40",
+      "displayName": "Morgrem",
+      "displayImage": "860-shiny-mf.png",
+      "image": [
+        "860-normal-mf.png",
+        "860-shiny-mf.png"
+      ],
+      "type1": "dark",
+      "type2": "fairy",
+      "forms": [],
+      "gender": "male",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "191",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Grimmsnarl",
+      "formName": "",
+      "number": "192",
+      "natDexNumber": "0861",
+      "ref": "861.0_e4c4e68f-33ac-4f07-b802-8f734c2d29a0",
+      "displayName": "Grimmsnarl",
+      "displayImage": "861-shiny-mf.png",
+      "image": [
+        "861-normal-mf.png",
+        "861-shiny-mf.png"
+      ],
+      "type1": "dark",
+      "type2": "fairy",
+      "forms": [],
+      "gender": "male",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "192",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Indeedee",
+      "formName": "Indeedee ♂",
+      "number": "193",
+      "natDexNumber": "0876",
+      "ref": "876.0_6eaab6a8-9e8e-4d5a-b1af-dfd29150a1f6",
+      "displayName": "Indeedee",
+      "displayImage": "876-shiny-m.png",
+      "image": [
+        "876-normal-m.png",
+        "876-shiny-m.png"
+      ],
+      "type1": "psychic",
+      "type2": "normal",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "193",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Basculin",
+      "formName": "White-Striped Form",
+      "number": "194",
+      "natDexNumber": "0550",
+      "ref": "550.2_55160c08-d9e1-4964-a9ba-8ae2c0c6f882",
+      "displayName": "Basculin",
+      "displayImage": "550-003-shiny-mf.png",
+      "image": [
+        "550-003-normal-mf.png",
+        "550-003-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "194",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Basculegion",
+      "formName": "",
+      "number": "195",
+      "natDexNumber": "0902",
+      "ref": "902.0_a4956122-1f3c-47b5-804b-271dd07601c2",
+      "displayName": "Basculegion",
+      "displayImage": "902-shiny-f.png",
+      "image": [
+        "902-normal-m.png",
+        "902-normal-f.png",
+        "902-shiny-f.png",
+        "902-shiny-m.png"
+      ],
+      "type1": "water",
+      "type2": "ghost",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_7a57d070-0275-4095-90b4-9b1f3d446f79",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Kitakami",
+        "number": "195",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    }
+  ]
+}

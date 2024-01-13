@@ -1,6 +1,6 @@
 import 'dart:convert';
+import 'dart:io';
 // import 'package:flutter/foundation.dart'; for debugPrint(jsonEncode(pkmFromDex));
-import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/models/pokemon.dart';
@@ -14,7 +14,7 @@ void main() {
   group('Pokemon.dart', () {
     test('Create Pokedex', () async {
       // Arrange
-      var file = await rootBundle.loadString(kPokedexFileLocation);
+      var file = await File(kPokedexFileLocation).readAsString();
 
       // Act
       List<Pokemon> kPokedex = await Pokemon.createPokedex(file);
@@ -28,11 +28,11 @@ void main() {
     for (final pokemon in createPokemonPkmSample) {
       test('Create Pokemon - .fromJson .toJson - $pokemon', () async {
         // Arrange
-        var file = await rootBundle.loadString(kPokedexFileLocation);
+        var file = await File(kPokedexFileLocation).readAsString();
         List<Pokemon> kPokedex = await Pokemon.createPokedex(file);
 
         var pkmTestFile =
-            await rootBundle.loadString("test/data/${pokemon['name']}.json");
+            await File("test/data/${pokemon['name']}.json").readAsString();
 
         // Act
         Pokemon pkmFromDex =
@@ -48,8 +48,8 @@ void main() {
     for (final keepForm in keepForms) {
       test('Copy Pokemon - Keep Form: $keepForm', () async {
         // Arrange
-        var pkmFile = await rootBundle
-            .loadString("test/data/create_pokedex_venusaur.json");
+        var pkmFile =
+            await File("test/data/create_pokedex_venusaur.json").readAsString();
 
         Pokemon pkm = Pokemon.fromJson(jsonDecode(pkmFile));
 

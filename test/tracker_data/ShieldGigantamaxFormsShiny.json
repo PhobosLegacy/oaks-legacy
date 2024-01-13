@@ -1,0 +1,1156 @@
+{
+  "name": "Shield-GigantamaxForms-Shiny",
+  "ref": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+  "game": "Pokemon Shield",
+  "dex": "Gigantamax Forms",
+  "type": "Shiny",
+  "pokemons": [
+    {
+      "name": "Gigantamax Venusaur",
+      "formName": "",
+      "number": "003",
+      "natDexNumber": "0003",
+      "ref": "003.2_95a5775d-dbda-4094-9ca5-474210c6d197",
+      "displayName": "G.  Venusaur",
+      "displayImage": "003-giga-shiny-mf.png",
+      "image": [
+        "003-giga-normal-mf.png",
+        "003-giga-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "003",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Charizard",
+      "formName": "",
+      "number": "006",
+      "natDexNumber": "0006",
+      "ref": "006.3_457c6e89-c46c-4d71-991c-299f830572ac",
+      "displayName": "G.  Charizard",
+      "displayImage": "006-giga-shiny-mf.png",
+      "image": [
+        "006-giga-normal-mf.png",
+        "006-giga-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "006",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Blastoise",
+      "formName": "",
+      "number": "009",
+      "natDexNumber": "0009",
+      "ref": "009.2_79be6154-748c-499f-b206-260a9f4f3e0a",
+      "displayName": "G.  Blastoise",
+      "displayImage": "009-giga-shiny-mf.png",
+      "image": [
+        "009-giga-normal-mf.png",
+        "009-giga-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "009",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Butterfree",
+      "formName": "",
+      "number": "012",
+      "natDexNumber": "0012",
+      "ref": "012.1_e0fe6cd4-6394-43b9-bd68-1139b29e68b3",
+      "displayName": "G.  Butterfree",
+      "displayImage": "012-giga-shiny-mf.png",
+      "image": [
+        "012-giga-normal-mf.png",
+        "012-giga-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "012",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Pikachu",
+      "formName": "",
+      "number": "025",
+      "natDexNumber": "0025",
+      "ref": "025.1_b494cee5-d5a7-4ab5-a419-4e1f8594330d",
+      "displayName": "G.  Pikachu",
+      "displayImage": "025-giga-shiny-mf.png",
+      "image": [
+        "025-giga-normal-mf.png",
+        "025-giga-shiny-mf.png"
+      ],
+      "type1": "electric",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "025",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Meowth",
+      "formName": "",
+      "number": "052",
+      "natDexNumber": "0052",
+      "ref": "052.3_6988a483-d89e-4b22-a9a8-70bc7f7cd2c4",
+      "displayName": "G.  Meowth",
+      "displayImage": "052-giga-shiny-mf.png",
+      "image": [
+        "052-giga-normal-mf.png",
+        "052-giga-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "052",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Machamp",
+      "formName": "",
+      "number": "068",
+      "natDexNumber": "0068",
+      "ref": "068.1_fbfdded0-ded1-4bcd-a8f3-ba49332c30e2",
+      "displayName": "G.  Machamp",
+      "displayImage": "068-giga-shiny-mf.png",
+      "image": [
+        "068-giga-normal-mf.png",
+        "068-giga-shiny-mf.png"
+      ],
+      "type1": "fighting",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "068",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Gengar",
+      "formName": "",
+      "number": "094",
+      "natDexNumber": "0094",
+      "ref": "094.2_37c4c58d-0f63-42ad-9453-dab31822d031",
+      "displayName": "G.  Gengar",
+      "displayImage": "094-giga-shiny-mf.png",
+      "image": [
+        "094-giga-normal-mf.png",
+        "094-giga-shiny-mf.png"
+      ],
+      "type1": "ghost",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "094",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Kingler",
+      "formName": "",
+      "number": "099",
+      "natDexNumber": "0099",
+      "ref": "099.1_c7295c27-0f29-4a04-bb62-5f21038462e9",
+      "displayName": "G.  Kingler",
+      "displayImage": "099-giga-shiny-mf.png",
+      "image": [
+        "099-giga-normal-mf.png",
+        "099-giga-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "099",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Lapras",
+      "formName": "",
+      "number": "131",
+      "natDexNumber": "0131",
+      "ref": "131.1_2257a71a-7cfb-4fe7-b612-4d8dd4644dcf",
+      "displayName": "G.  Lapras",
+      "displayImage": "131-giga-shiny-mf.png",
+      "image": [
+        "131-giga-normal-mf.png",
+        "131-giga-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": "ice",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "131",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Eevee",
+      "formName": "",
+      "number": "133",
+      "natDexNumber": "0133",
+      "ref": "133.1_a55b681f-565f-496d-abdd-9aace503df66",
+      "displayName": "G.  Eevee",
+      "displayImage": "133-giga-shiny-mf.png",
+      "image": [
+        "133-giga-normal-mf.png",
+        "133-giga-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "133",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Snorlax",
+      "formName": "",
+      "number": "143",
+      "natDexNumber": "0143",
+      "ref": "143.1_539684c7-b5c0-4200-a7b2-89a658dd597f",
+      "displayName": "G.  Snorlax",
+      "displayImage": "143-giga-shiny-mf.png",
+      "image": [
+        "143-giga-normal-mf.png",
+        "143-giga-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "143",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Garbodor",
+      "formName": "",
+      "number": "569",
+      "natDexNumber": "0569",
+      "ref": "569.1_0cbf6bc0-89ca-4916-ae28-41bff8acd666",
+      "displayName": "G.  Garbodor",
+      "displayImage": "569-giga-shiny-mf.png",
+      "image": [
+        "569-giga-normal-mf.png",
+        "569-giga-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "569",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Melmetal",
+      "formName": "",
+      "number": "809",
+      "natDexNumber": "0809",
+      "ref": "809.1_9593a098-390a-42b9-ab6a-fd892d4e1dfb",
+      "displayName": "G.  Melmetal",
+      "displayImage": "809-giga-shiny-g.png",
+      "image": [
+        "809-giga-normal-g.png",
+        "809-giga-shiny-g.png"
+      ],
+      "type1": "steel",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "809",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Rillaboom",
+      "formName": "",
+      "number": "812",
+      "natDexNumber": "0812",
+      "ref": "812.1_697b7932-afb5-4f79-b216-b4f57475b46e",
+      "displayName": "G.  Rillaboom",
+      "displayImage": "812-giga-shiny-mf.png",
+      "image": [
+        "812-giga-normal-mf.png",
+        "812-giga-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "812",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Cinderace",
+      "formName": "",
+      "number": "815",
+      "natDexNumber": "0815",
+      "ref": "815.1_b1bfea58-d613-4a8b-adf2-712fa016f640",
+      "displayName": "G.  Cinderace",
+      "displayImage": "815-giga-shiny-mf.png",
+      "image": [
+        "815-giga-normal-mf.png",
+        "815-giga-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "815",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Inteleon",
+      "formName": "",
+      "number": "818",
+      "natDexNumber": "0818",
+      "ref": "818.1_a8e3106e-0fed-4e07-b9a4-5aaf97799a55",
+      "displayName": "G.  Inteleon",
+      "displayImage": "818-giga-shiny-mf.png",
+      "image": [
+        "818-giga-normal-mf.png",
+        "818-giga-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "818",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Corviknight",
+      "formName": "",
+      "number": "823",
+      "natDexNumber": "0823",
+      "ref": "823.1_1a20ac17-f0f6-43b9-867a-f7d4494fc689",
+      "displayName": "G.  Corviknight",
+      "displayImage": "823-giga-shiny-mf.png",
+      "image": [
+        "823-giga-normal-mf.png",
+        "823-giga-shiny-mf.png"
+      ],
+      "type1": "flying",
+      "type2": "steel",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "823",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Orbeetle",
+      "formName": "",
+      "number": "826",
+      "natDexNumber": "0826",
+      "ref": "826.1_1b5e5117-3353-41dc-a933-2cbc09dfc5a6",
+      "displayName": "G.  Orbeetle",
+      "displayImage": "826-giga-shiny-mf.png",
+      "image": [
+        "826-giga-normal-mf.png",
+        "826-giga-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "psychic",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "826",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Drednaw",
+      "formName": "",
+      "number": "834",
+      "natDexNumber": "0834",
+      "ref": "834.1_ad63ac31-bd6f-49ea-93f6-de12bf8e4f42",
+      "displayName": "G.  Drednaw",
+      "displayImage": "834-giga-shiny-mf.png",
+      "image": [
+        "834-giga-normal-mf.png",
+        "834-giga-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": "rock",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "834",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Coalossal",
+      "formName": "",
+      "number": "839",
+      "natDexNumber": "0839",
+      "ref": "839.1_14b04f73-e440-4fd5-bf5d-c0e2533a0715",
+      "displayName": "G.  Coalossal",
+      "displayImage": "839-giga-shiny-mf.png",
+      "image": [
+        "839-giga-normal-mf.png",
+        "839-giga-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "fire",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "839",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Flapple",
+      "formName": "",
+      "number": "841",
+      "natDexNumber": "0841",
+      "ref": "841.1_f5439e8d-5e20-40aa-bc1b-affef229fac8",
+      "displayName": "G.  Flapple",
+      "displayImage": "841-giga-shiny-mf.png",
+      "image": [
+        "841-giga-normal-mf.png",
+        "841-giga-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": "dragon",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "841",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Appletun",
+      "formName": "",
+      "number": "842",
+      "natDexNumber": "0842",
+      "ref": "842.1_78a70186-2b45-49b1-bd81-910d2a082fe9",
+      "displayName": "G.  Appletun",
+      "displayImage": "842-giga-shiny-mf.png",
+      "image": [
+        "842-giga-normal-mf.png",
+        "842-giga-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": "dragon",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "842",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Sandaconda",
+      "formName": "",
+      "number": "844",
+      "natDexNumber": "0844",
+      "ref": "844.1_6292b2f1-7ded-4286-9018-6b681fbbd0fb",
+      "displayName": "G.  Sandaconda",
+      "displayImage": "844-giga-shiny-mf.png",
+      "image": [
+        "844-giga-normal-mf.png",
+        "844-giga-shiny-mf.png"
+      ],
+      "type1": "ground",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "844",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Toxtricity",
+      "formName": "",
+      "number": "849",
+      "natDexNumber": "0849",
+      "ref": "849.2_73389548-ee7e-488f-96a1-96e245b5bb52",
+      "displayName": "G.  Toxtricity",
+      "displayImage": "849-giga-shiny-mf.png",
+      "image": [
+        "849-giga-normal-mf.png",
+        "849-giga-shiny-mf.png"
+      ],
+      "type1": "electric",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "849",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Centiskorch",
+      "formName": "",
+      "number": "851",
+      "natDexNumber": "0851",
+      "ref": "851.1_8c950e27-157c-45b0-b03b-3e2fd64a5dfe",
+      "displayName": "G.  Centiskorch",
+      "displayImage": "851-giga-shiny-mf.png",
+      "image": [
+        "851-giga-normal-mf.png",
+        "851-giga-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": "bug",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "851",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Hatterene",
+      "formName": "",
+      "number": "858",
+      "natDexNumber": "0858",
+      "ref": "858.1_5ca97b05-58d1-4ec4-bcc3-791d85cfd820",
+      "displayName": "G.  Hatterene",
+      "displayImage": "858-giga-shiny-mf.png",
+      "image": [
+        "858-giga-normal-mf.png",
+        "858-giga-shiny-mf.png"
+      ],
+      "type1": "psychic",
+      "type2": "fairy",
+      "forms": [],
+      "gender": "female",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "858",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Grimmsnarl",
+      "formName": "",
+      "number": "861",
+      "natDexNumber": "0861",
+      "ref": "861.1_f9425449-8308-4460-b7d0-08622e7e0794",
+      "displayName": "G.  Grimmsnarl",
+      "displayImage": "861-giga-shiny-mf.png",
+      "image": [
+        "861-giga-normal-mf.png",
+        "861-giga-shiny-mf.png"
+      ],
+      "type1": "dark",
+      "type2": "fairy",
+      "forms": [],
+      "gender": "male",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "861",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Alcremie",
+      "formName": "",
+      "number": "869",
+      "natDexNumber": "0869",
+      "ref": "869.63_367f9455-3bf1-4acd-9e69-ebde05380f29",
+      "displayName": "G.  Alcremie",
+      "displayImage": "869-giga-shiny-mf.png",
+      "image": [
+        "869-giga-normal-mf.png",
+        "869-giga-shiny-mf.png"
+      ],
+      "type1": "fairy",
+      "type2": null,
+      "forms": [],
+      "gender": "female",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "869",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Copperajah",
+      "formName": "",
+      "number": "879",
+      "natDexNumber": "0879",
+      "ref": "879.1_9d3c958a-9127-4ca8-966c-2e4e0a3c13bc",
+      "displayName": "G.  Copperajah",
+      "displayImage": "879-giga-shiny-mf.png",
+      "image": [
+        "879-giga-normal-mf.png",
+        "879-giga-shiny-mf.png"
+      ],
+      "type1": "steel",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "879",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gigantamax Duraludon",
+      "formName": "",
+      "number": "884",
+      "natDexNumber": "0884",
+      "ref": "884.1_97952fd7-8a15-4c8f-856a-3fe46e65fa12",
+      "displayName": "G.  Duraludon",
+      "displayImage": "884-giga-shiny-mf.png",
+      "image": [
+        "884-giga-normal-mf.png",
+        "884-giga-shiny-mf.png"
+      ],
+      "type1": "steel",
+      "type2": "dragon",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_9de47e97-139e-45b9-aa27-4327304677e8",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Gigantamax Forms",
+        "number": "884",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    }
+  ]
+}
