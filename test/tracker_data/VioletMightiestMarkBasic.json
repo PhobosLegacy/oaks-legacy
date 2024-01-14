@@ -13,10 +13,7 @@
       "ref": "006.0_ea4c46a4-c4f8-49ce-b09a-5e25f87f9830",
       "displayName": "Charizard",
       "displayImage": "006-normal-mf.png",
-      "image": [
-        "006-normal-mf.png",
-        "006-shiny-mf.png"
-      ],
+      "image": ["006-normal-mf.png", "006-shiny-mf.png"],
       "type1": "fire",
       "type2": "flying",
       "forms": [],
@@ -122,10 +119,7 @@
       "ref": "150.0_122bb539-5fe9-47c7-b70e-5ce481277a1b",
       "displayName": "Mewtwo",
       "displayImage": "150-normal-g.png",
-      "image": [
-        "150-normal-g.png",
-        "150-shiny-g.png"
-      ],
+      "image": ["150-normal-g.png", "150-shiny-g.png"],
       "type1": "psychic",
       "type2": null,
       "forms": [],
@@ -157,10 +151,7 @@
       "ref": "151.0_d228486b-6a41-4ffb-8031-75bef4bf6607",
       "displayName": "Mew",
       "displayImage": "151-normal-g.png",
-      "image": [
-        "151-normal-g.png",
-        "151-shiny-g.png"
-      ],
+      "image": ["151-normal-g.png", "151-shiny-g.png"],
       "type1": "psychic",
       "type2": null,
       "forms": [],
@@ -192,10 +183,7 @@
       "ref": "157.0_56903830-1e9f-4631-a5f0-3295b69151f8",
       "displayName": "Typhlosion",
       "displayImage": "157-normal-mf.png",
-      "image": [
-        "157-normal-mf.png",
-        "157-shiny-mf.png"
-      ],
+      "image": ["157-normal-mf.png", "157-shiny-mf.png"],
       "type1": "fire",
       "type2": null,
       "forms": [],
@@ -227,12 +215,46 @@
       "ref": "157.1_d7590907-227d-4f5e-ba0a-ddd76d7767d2",
       "displayName": "Hisuian Typhlosion",
       "displayImage": "157-hisuian-normal-mf.png",
-      "image": [
-        "157-hisuian-normal-mf.png",
-        "157-hisuian-shiny-mf.png"
-      ],
+      "image": ["157-hisuian-normal-mf.png", "157-hisuian-shiny-mf.png"],
       "type1": "fire",
       "type2": "ghost",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_29e507d5-e92a-45f5-8f90-fcc1cf70ab12",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Mightiest Mark",
+        "number": "",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": []
+    },
+    {
+      "name": "Blaziken",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0257",
+      "ref": "257.0_7a8ff7d6-6455-4cdc-bea6-8cc92f8fa68a",
+      "displayName": "Blaziken",
+      "displayImage": "257-normal-m.png",
+      "image": [
+        "257-normal-m.png",
+        "257-normal-f.png",
+        "257-shiny-f.png",
+        "257-shiny-m.png"
+      ],
+      "type1": "fire",
+      "type2": "fighting",
       "forms": [],
       "gender": "undefinied",
       "ball": "undefined",
@@ -262,10 +284,7 @@
       "ref": "503.0_bbe38863-d8df-4ebc-a40e-eddd381ab2e6",
       "displayName": "Samurott",
       "displayImage": "503-normal-mf.png",
-      "image": [
-        "503-normal-mf.png",
-        "503-shiny-mf.png"
-      ],
+      "image": ["503-normal-mf.png", "503-shiny-mf.png"],
       "type1": "water",
       "type2": null,
       "forms": [],
@@ -297,10 +316,7 @@
       "ref": "503.1_bb8a2e2b-13bb-4ddc-ab20-4277effac7e7",
       "displayName": "Hisuian Samurott",
       "displayImage": "503-hisuian-normal-mf.png",
-      "image": [
-        "503-hisuian-normal-mf.png",
-        "503-hisuian-shiny-mf.png"
-      ],
+      "image": ["503-hisuian-normal-mf.png", "503-hisuian-shiny-mf.png"],
       "type1": "water",
       "type2": "dark",
       "forms": [],
@@ -332,10 +348,7 @@
       "ref": "652.0_44d58e06-ce9e-4bc1-82a8-0a8b841e85f9",
       "displayName": "Chesnaught",
       "displayImage": "652-normal-mf.png",
-      "image": [
-        "652-normal-mf.png",
-        "652-shiny-mf.png"
-      ],
+      "image": ["652-normal-mf.png", "652-shiny-mf.png"],
       "type1": "grass",
       "type2": "fighting",
       "forms": [],
@@ -367,10 +380,7 @@
       "ref": "655.0_5e48d284-7b31-455a-ad5c-07bc4307b8c5",
       "displayName": "Delphox",
       "displayImage": "655-normal-mf.png",
-      "image": [
-        "655-normal-mf.png",
-        "655-shiny-mf.png"
-      ],
+      "image": ["655-normal-mf.png", "655-shiny-mf.png"],
       "type1": "fire",
       "type2": "psychic",
       "forms": [],
@@ -402,10 +412,7 @@
       "ref": "658.0_15eafbb8-5a64-4936-a23d-3e207038bae5",
       "displayName": "Greninja",
       "displayImage": "658-001-normal-mf.png",
-      "image": [
-        "658-001-normal-mf.png",
-        "658-001-shiny-mf.png"
-      ],
+      "image": ["658-001-normal-mf.png", "658-001-shiny-mf.png"],
       "type1": "water",
       "type2": "dark",
       "forms": [],
@@ -437,10 +444,7 @@
       "ref": "724.0_53551e68-556b-4355-8924-cecfaf4169d3",
       "displayName": "Decidueye",
       "displayImage": "724-normal-mf.png",
-      "image": [
-        "724-normal-mf.png",
-        "724-shiny-mf.png"
-      ],
+      "image": ["724-normal-mf.png", "724-shiny-mf.png"],
       "type1": "grass",
       "type2": "ghost",
       "forms": [],
@@ -472,10 +476,7 @@
       "ref": "724.1_cc599614-0942-44d2-bdd5-14f250e07ed1",
       "displayName": "Hisuian Decidueye",
       "displayImage": "724-hisuian-normal-mf.png",
-      "image": [
-        "724-hisuian-normal-mf.png",
-        "724-hisuian-shiny-mf.png"
-      ],
+      "image": ["724-hisuian-normal-mf.png", "724-hisuian-shiny-mf.png"],
       "type1": "grass",
       "type2": "fighting",
       "forms": [],
@@ -507,10 +508,7 @@
       "ref": "812.0_4af58aaa-c153-425d-9658-74c1183857e4",
       "displayName": "Rillaboom",
       "displayImage": "812-normal-mf.png",
-      "image": [
-        "812-normal-mf.png",
-        "812-shiny-mf.png"
-      ],
+      "image": ["812-normal-mf.png", "812-shiny-mf.png"],
       "type1": "grass",
       "type2": null,
       "forms": [],
@@ -542,10 +540,7 @@
       "ref": "815.0_1879a810-0dd3-4eb5-9ab5-6c5551be72cb",
       "displayName": "Cinderace",
       "displayImage": "815-normal-mf.png",
-      "image": [
-        "815-normal-mf.png",
-        "815-shiny-mf.png"
-      ],
+      "image": ["815-normal-mf.png", "815-shiny-mf.png"],
       "type1": "fire",
       "type2": null,
       "forms": [],
@@ -577,10 +572,7 @@
       "ref": "818.0_b0063db9-496d-4283-9d95-714ea0598c71",
       "displayName": "Inteleon",
       "displayImage": "818-normal-mf.png",
-      "image": [
-        "818-normal-mf.png",
-        "818-shiny-mf.png"
-      ],
+      "image": ["818-normal-mf.png", "818-shiny-mf.png"],
       "type1": "water",
       "type2": null,
       "forms": [],

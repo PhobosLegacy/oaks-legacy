@@ -422,20 +422,20 @@ List<Map<String, dynamic>> trackers = [
     "lenght": 19
   },
   {
-    "testFileName": "VioletMightiest MarksBasic",
-    "trackerName": "Violet-Mightiest Marks-Basic",
+    "testFileName": "VioletMightiestMarkBasic",
+    "trackerName": "Violet-MightiestMark-Basic",
     "gameName": "Pokemon Violet",
     "dexName": "Mightiest Mark",
     "trackerType": "Basic",
-    "lenght": 17
+    "lenght": 18
   },
   {
-    "testFileName": "ScarletMightiest MarksBasic",
-    "trackerName": "Scarlet-Mightiest Marks-Basic",
+    "testFileName": "ScarletMightiestMarkBasic",
+    "trackerName": "Scarlet-MightiestMark-Basic",
     "gameName": "Pokemon Scarlet",
     "dexName": "Mightiest Mark",
     "trackerType": "Basic",
-    "lenght": 17
+    "lenght": 18
   },
   {
     "testFileName": "SwordRegionalBasic",

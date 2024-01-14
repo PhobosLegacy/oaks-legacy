@@ -6,7 +6,6 @@ import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/models/pokemon.dart';
 import 'package:oaks_legacy/models/tracker.dart';
 import 'package:oaks_legacy/utils/trackers_manager.dart';
-
 import 'test_scenarios.dart';
 import 'test_utils.dart';
 
@@ -48,13 +47,11 @@ void main() {
     // for (final trackerData in createTrackers) {
     //   test('Create Tracker JSON - TEMP', () async {
     //     // Act
-
     //     String gameName = trackerData['gameName'];
     //     String dexName = trackerData['dexName'];
     //     String trackerType = trackerData['trackerType'];
     //     String trackerName =
     //         '${gameName.replaceAll('Pokemon', '').replaceAll(' ', '')}-${dexName.replaceAll(' ', '')}-${trackerType.replaceAll(' ', '')}';
-
     //     // String gameName = 'Pokemon Legends: Arceus';
     //     // String dexName = 'Regional';
     //     // String trackerType = 'Shiny Living Dex';
@@ -88,6 +85,29 @@ void main() {
     //     // debugPrint('--------- ENDING HERE ---------');
     //   });
     // }
+    // test('Create Item .fromDex', () async {
+    //   // Arrange
+    //   var file = await File(kPokedexFileLocation).readAsString();
+    //   List<Pokemon> kPokedex = await Pokemon.createPokedex(file);
+
+    //   Pokemon pkm = kPokedex.firstWhere((element) => element.number == "0257");
+
+    //   Game game = Game(
+    //       name: "Pokemon Violet",
+    //       dex: "Mightiest Mark",
+    //       number: "",
+    //       notes: "",
+    //       shinyLocked: "LOCKED");
+
+    //   String origin = "origin";
+
+    //   // Act
+    //   Item item = Item.fromDex(pkm, game, origin, useGameDexNumber: true);
+
+    //   // Assert
+    //   expect(item, isNotNull);
+    //   debugPrint(jsonEncode(item));
+    // });
   });
 }
 

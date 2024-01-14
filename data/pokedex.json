@@ -18785,6 +18785,20 @@
     "games": [
       {
         "name": "Pokemon Scarlet",
+        "dex": "Mightiest Mark",
+        "number": "",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Violet",
+        "dex": "Mightiest Mark",
+        "number": "",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Scarlet",
         "dex": "Blueberry",
         "number": "187",
         "shinyLocked": "UNLOCKED",
