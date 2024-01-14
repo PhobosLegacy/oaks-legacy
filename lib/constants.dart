@@ -6,14 +6,14 @@ const String kPokedexFileLocation = 'data/pokedex.json';
 
 const String kImagesRoot = 'images/';
 const String kImageLocalPrefix =
-    "https://raw.githubusercontent.com/Icaroto/FlutterTraining/main/ProtoDex/Art/";
+    "https://raw.githubusercontent.com/Icaroto/FlutterTraining/main/Art/";
 const String kServerVersionLocation =
-    'https://raw.githubusercontent.com/Icaroto/FlutterTraining/main/ProtoDex/ServerVersions/versions.json';
+    'https://raw.githubusercontent.com/Icaroto/FlutterTraining/main/ServerVersions/versions.json';
 const String kServerPokedexLocation =
-    'https://raw.githubusercontent.com/Icaroto/FlutterTraining/main/ProtoDex/ServerVersions/pokedex.json';
+    'https://raw.githubusercontent.com/Icaroto/FlutterTraining/main/ServerVersions/pokedex.json';
 
 const String kServerPreferences =
-    'https://raw.githubusercontent.com/Icaroto/FlutterTraining/main/ProtoDex/ServerVersions/preferences.json';
+    'https://raw.githubusercontent.com/Icaroto/FlutterTraining/main/ServerVersions/preferences.json';
 const String kTrackerPrefix = 't_';
 // const String kCollectionBaseName = 'c_myCollection.json';
 // const String kLookingForBaseName = 'c_lookingFor.json';
