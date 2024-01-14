@@ -1,0 +1,313 @@
+{
+    "name": "Urshifu",
+    "formName": "",
+    "species": "Wushu Pokémon",
+    "height": "1.9m",
+    "weight": "105.0kg",
+    "breeding": { "groups": ["Undiscovered"], "cycles": "120" },
+    "number": "0892",
+    "ref": "892.0",
+    "type1": "fighting",
+    "type2": "dark",
+    "image": ["892-001-normal-mf.png", "892-001-shiny-mf.png"],
+    "abilities": ["Unseen Fist"],
+    "hiddenAbility": "",
+    "weaknessquarter": ["dark"],
+    "weaknesshalf": ["rock", "ghost"],
+    "weaknessnone": ["psychic"],
+    "weaknessdouble": ["fighting", "flying"],
+    "weaknessquadruple": ["fairy"],
+    "genderRatio": { "male": "87.5", "female": "12.5", "genderless": "0" },
+    "games": [
+      {
+        "name": "Pokemon Sword",
+        "dex": "Isle of Armor",
+        "number": "101",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Isle of Armor",
+        "number": "101",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
+    "forms": [
+      {
+        "name": "Urshifu (SSS)",
+        "formName": "Single Strike Style",
+        "species": "Wushu Pokémon",
+        "height": "1.9m",
+        "weight": "105.0kg",
+        "breeding": { "groups": ["Undiscovered"], "cycles": "120" },
+        "number": "0892",
+        "ref": "892.0",
+        "type1": "fighting",
+        "type2": "dark",
+        "image": ["892-001-normal-mf.png", "892-001-shiny-mf.png"],
+        "abilities": ["Unseen Fist"],
+        "hiddenAbility": "",
+        "weaknessquarter": ["dark"],
+        "weaknesshalf": ["rock", "ghost"],
+        "weaknessnone": ["psychic"],
+        "weaknessdouble": ["fighting", "flying"],
+        "weaknessquadruple": ["fairy"],
+        "genderRatio": { "male": "87.5", "female": "12.5", "genderless": "0" },
+        "games": [
+          {
+            "name": "Pokemon Sword",
+            "dex": "Isle of Armor",
+            "number": "101",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Shield",
+            "dex": "Isle of Armor",
+            "number": "101",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ],
+        "forms": [
+          {
+            "name": "Urshifu (SSS)",
+            "formName": "Single Strike Style",
+            "species": "Wushu Pokémon",
+            "height": "1.9m",
+            "weight": "105.0kg",
+            "breeding": { "groups": ["Undiscovered"], "cycles": "120" },
+            "number": "0892",
+            "ref": "892.0",
+            "type1": "fighting",
+            "type2": "dark",
+            "image": ["892-001-normal-mf.png", "892-001-shiny-mf.png"],
+            "abilities": ["Unseen Fist"],
+            "hiddenAbility": "",
+            "weaknessquarter": ["dark"],
+            "weaknesshalf": ["rock", "ghost"],
+            "weaknessnone": ["psychic"],
+            "weaknessdouble": ["fighting", "flying"],
+            "weaknessquadruple": ["fairy"],
+            "genderRatio": { "male": "87.5", "female": "12.5", "genderless": "0" },
+            "games": [
+              {
+                "name": "Pokemon Sword",
+                "dex": "Isle of Armor",
+                "number": "101",
+                "shinyLocked": "UNLOCKED",
+                "notes": ""
+              },
+              {
+                "name": "Pokemon Shield",
+                "dex": "Isle of Armor",
+                "number": "101",
+                "shinyLocked": "UNLOCKED",
+                "notes": ""
+              }
+            ]
+          },
+          {
+            "name": "Gigantamax Urshifu (SSS)",
+            "formName": "Gigantamax",
+            "species": "Wushu Pokémon",
+            "height": "29.0+ m",
+            "weight": "???? kg",
+            "breeding": { "groups": ["Undiscovered"], "cycles": "120" },
+            "number": "0892",
+            "ref": "892.1",
+            "type1": "fighting",
+            "type2": "dark",
+            "image": ["892-001-giga-normal-g.png", "892-001-giga-shiny-g.png"],
+            "abilities": ["Unseen Fist"],
+            "hiddenAbility": "",
+            "weaknessquarter": ["dark"],
+            "weaknesshalf": ["rock", "ghost"],
+            "weaknessnone": ["psychic"],
+            "weaknessdouble": ["fighting", "flying"],
+            "weaknessquadruple": ["fairy"],
+            "genderRatio": {
+              "male": "87.5",
+              "female": "12.5",
+              "genderless": "0"
+            },
+            "games": [
+              {
+                "name": "Pokemon Sword",
+                "dex": "Gigantamax Forms",
+                "number": "892",
+                "shinyLocked": "LOCKED",
+                "notes": ""
+              },
+              {
+                "name": "Pokemon Shield",
+                "dex": "Gigantamax Forms",
+                "number": "892",
+                "shinyLocked": "LOCKED",
+                "notes": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Urshifu (RSS)",
+        "formName": "Rapid Strike Style",
+        "species": "Wushu Pokémon",
+        "height": "1.9m",
+        "weight": "105.0kg",
+        "breeding": { "groups": ["Undiscovered"], "cycles": "120" },
+        "number": "0892",
+        "ref": "892.2",
+        "type1": "fighting",
+        "type2": "water",
+        "image": ["892-002-normal-mf.png", "892-002-shiny-mf.png"],
+        "abilities": ["Unseen Fist"],
+        "hiddenAbility": "",
+        "weaknessquarter": [],
+        "weaknesshalf": [
+          "fire",
+          "water",
+          "ice",
+          "bug",
+          "rock",
+          "dark",
+          "steel"
+        ],
+        "weaknessnone": [],
+        "weaknessdouble": ["electric", "grass", "flying", "psychic", "fairy"],
+        "weaknessquadruple": [],
+        "genderRatio": { "male": "87.5", "female": "12.5", "genderless": "0" },
+        "games": [
+          {
+            "name": "Pokemon Sword",
+            "dex": "Isle of Armor",
+            "number": "101",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Shield",
+            "dex": "Isle of Armor",
+            "number": "101",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ],
+        "forms": [
+          {
+            "name": "Urshifu (RSS)",
+            "formName": "Rapid Strike Style",
+            "species": "Wushu Pokémon",
+            "height": "1.9m",
+            "weight": "105.0kg",
+            "breeding": { "groups": ["Undiscovered"], "cycles": "120" },
+            "number": "0892",
+            "ref": "892.2",
+            "type1": "fighting",
+            "type2": "water",
+            "image": ["892-002-normal-mf.png", "892-002-shiny-mf.png"],
+            "abilities": ["Unseen Fist"],
+            "hiddenAbility": "",
+            "weaknessquarter": [],
+            "weaknesshalf": [
+              "fire",
+              "water",
+              "ice",
+              "bug",
+              "rock",
+              "dark",
+              "steel"
+            ],
+            "weaknessnone": [],
+            "weaknessdouble": [
+              "electric",
+              "grass",
+              "flying",
+              "psychic",
+              "fairy"
+            ],
+            "weaknessquadruple": [],
+            "genderRatio": {
+              "male": "87.5",
+              "female": "12.5",
+              "genderless": "0"
+            },
+            "games": [
+              {
+                "name": "Pokemon Sword",
+                "dex": "Isle of Armor",
+                "number": "101",
+                "shinyLocked": "UNLOCKED",
+                "notes": ""
+              },
+              {
+                "name": "Pokemon Shield",
+                "dex": "Isle of Armor",
+                "number": "101",
+                "shinyLocked": "UNLOCKED",
+                "notes": ""
+              }
+            ]
+          },
+          {
+            "name": "Gigantamax Urshifu (RSS)",
+            "formName": "Gigantamax",
+            "species": "Wushu Pokémon",
+            "height": "26.0+ m",
+            "weight": "???? kg",
+            "breeding": { "groups": ["Undiscovered"], "cycles": "120" },
+            "number": "0892",
+            "ref": "892.3",
+            "type1": "fighting",
+            "type2": "water",
+            "image": ["892-002-giga-normal-g.png", "892-002-giga-shiny-g.png"],
+            "abilities": ["Unseen Fist"],
+            "hiddenAbility": "",
+            "weaknessquarter": [],
+            "weaknesshalf": [
+              "fire",
+              "water",
+              "ice",
+              "bug",
+              "rock",
+              "dark",
+              "steel"
+            ],
+            "weaknessnone": [],
+            "weaknessdouble": [
+              "electric",
+              "grass",
+              "flying",
+              "psychic",
+              "fairy"
+            ],
+            "weaknessquadruple": [],
+            "genderRatio": {
+              "male": "87.5",
+              "female": "12.5",
+              "genderless": "0"
+            },
+            "games": [
+              {
+                "name": "Pokemon Sword",
+                "dex": "Gigantamax Forms",
+                "number": "892",
+                "shinyLocked": "LOCKED",
+                "notes": ""
+              },
+              {
+                "name": "Pokemon Shield",
+                "dex": "Gigantamax Forms",
+                "number": "892",
+                "shinyLocked": "LOCKED",
+                "notes": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,1748 @@
+{
+  "name": "Shield-DynamaxAdventureBosses-Shiny",
+  "ref": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+  "game": "Pokemon Shield",
+  "dex": "Dynamax Adventure Bosses",
+  "type": "Shiny",
+  "pokemons": [
+    {
+      "name": "Articuno",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0144",
+      "ref": "144.0_409191bf-93d0-4126-82f3-a59128379d90",
+      "displayName": "Articuno",
+      "displayImage": "144-shiny-g.png",
+      "image": [
+        "144-normal-g.png",
+        "144-shiny-g.png"
+      ],
+      "type1": "ice",
+      "type2": "flying",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Zapdos",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0145",
+      "ref": "145.0_3bf62d74-691c-4d50-9e65-503043fc2a8b",
+      "displayName": "Zapdos",
+      "displayImage": "145-shiny-g.png",
+      "image": [
+        "145-normal-g.png",
+        "145-shiny-g.png"
+      ],
+      "type1": "electric",
+      "type2": "flying",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Moltres",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0146",
+      "ref": "146.0_d1441f95-f1b5-4d9f-8674-501f52ab72b2",
+      "displayName": "Moltres",
+      "displayImage": "146-shiny-g.png",
+      "image": [
+        "146-normal-g.png",
+        "146-shiny-g.png"
+      ],
+      "type1": "fire",
+      "type2": "flying",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Mewtwo",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0150",
+      "ref": "150.0_80d74940-281b-47e6-9459-3b6017f4834d",
+      "displayName": "Mewtwo",
+      "displayImage": "150-shiny-g.png",
+      "image": [
+        "150-normal-g.png",
+        "150-shiny-g.png"
+      ],
+      "type1": "psychic",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Raikou",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0243",
+      "ref": "243.0_25240df3-36b8-4b01-95da-af1b2e7fe881",
+      "displayName": "Raikou",
+      "displayImage": "243-shiny-g.png",
+      "image": [
+        "243-normal-g.png",
+        "243-shiny-g.png"
+      ],
+      "type1": "electric",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Entei",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0244",
+      "ref": "244.0_f3234c30-f5e8-43b2-a25d-42499662388f",
+      "displayName": "Entei",
+      "displayImage": "244-shiny-g.png",
+      "image": [
+        "244-normal-g.png",
+        "244-shiny-g.png"
+      ],
+      "type1": "fire",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Suicune",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0245",
+      "ref": "245.0_a96faa3f-f054-40f5-85c6-7f3213108b97",
+      "displayName": "Suicune",
+      "displayImage": "245-shiny-g.png",
+      "image": [
+        "245-normal-g.png",
+        "245-shiny-g.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Lugia",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0249",
+      "ref": "249.0_2d499a08-1ae3-4561-8fd9-8fe938ec52ec",
+      "displayName": "Lugia",
+      "displayImage": "249-shiny-g.png",
+      "image": [
+        "249-normal-g.png",
+        "249-shiny-g.png"
+      ],
+      "type1": "psychic",
+      "type2": "flying",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Ho-oh",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0250",
+      "ref": "250.0_1a74c221-8730-41d9-8d35-0f9ccbbe1eb4",
+      "displayName": "Ho-oh",
+      "displayImage": "250-shiny-g.png",
+      "image": [
+        "250-normal-g.png",
+        "250-shiny-g.png"
+      ],
+      "type1": "fire",
+      "type2": "flying",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Sword Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Latias",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0380",
+      "ref": "380.0_e8cdd28c-b678-452e-8bfb-5a88cdf2868c",
+      "displayName": "Latias",
+      "displayImage": "380-shiny-mf.png",
+      "image": [
+        "380-normal-mf.png",
+        "380-shiny-mf.png"
+      ],
+      "type1": "dragon",
+      "type2": "psychic",
+      "forms": [],
+      "gender": "female",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Latios",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0381",
+      "ref": "381.0_5f66ff1a-e37f-41c3-bb33-a8a5a1ca4fb3",
+      "displayName": "Latios",
+      "displayImage": "381-shiny-mf.png",
+      "image": [
+        "381-normal-mf.png",
+        "381-shiny-mf.png"
+      ],
+      "type1": "dragon",
+      "type2": "psychic",
+      "forms": [],
+      "gender": "male",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Sword Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Kyogre",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0382",
+      "ref": "382.0_6032f92c-a129-4bd4-bab7-9918dd57ab21",
+      "displayName": "Kyogre",
+      "displayImage": "382-shiny-g.png",
+      "image": [
+        "382-normal-g.png",
+        "382-shiny-g.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Groudon",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0383",
+      "ref": "383.0_ff06767c-437f-44f4-86b7-9cf1fee68388",
+      "displayName": "Groudon",
+      "displayImage": "383-shiny-g.png",
+      "image": [
+        "383-normal-g.png",
+        "383-shiny-g.png"
+      ],
+      "type1": "ground",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Sword Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Rayquaza",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0384",
+      "ref": "384.0_57175aa6-1eda-4e08-9c73-5245f0ccc494",
+      "displayName": "Rayquaza",
+      "displayImage": "384-shiny-g.png",
+      "image": [
+        "384-normal-g.png",
+        "384-shiny-g.png"
+      ],
+      "type1": "dragon",
+      "type2": "flying",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Uxie",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0480",
+      "ref": "480.0_d2e05df4-559c-4cbd-8a83-652524ca3946",
+      "displayName": "Uxie",
+      "displayImage": "480-shiny-g.png",
+      "image": [
+        "480-normal-g.png",
+        "480-shiny-g.png"
+      ],
+      "type1": "psychic",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Mesprit",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0481",
+      "ref": "481.0_95ae2b7c-1a66-4f24-ab59-00eed38c1017",
+      "displayName": "Mesprit",
+      "displayImage": "481-shiny-g.png",
+      "image": [
+        "481-normal-g.png",
+        "481-shiny-g.png"
+      ],
+      "type1": "psychic",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Azelf",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0482",
+      "ref": "482.0_be8ac0b3-ac74-4cca-8f9a-b7faffbe3f95",
+      "displayName": "Azelf",
+      "displayImage": "482-shiny-g.png",
+      "image": [
+        "482-normal-g.png",
+        "482-shiny-g.png"
+      ],
+      "type1": "psychic",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Dialga",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0483",
+      "ref": "483.0_3538176c-5a38-4c21-9d9e-292a548ae105",
+      "displayName": "Dialga",
+      "displayImage": "483-shiny-g.png",
+      "image": [
+        "483-normal-g.png",
+        "483-shiny-g.png"
+      ],
+      "type1": "steel",
+      "type2": "dragon",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Sword Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Palkia",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0484",
+      "ref": "484.0_9cf8046d-0c0c-4fcb-b1e5-c4435af70dd5",
+      "displayName": "Palkia",
+      "displayImage": "484-shiny-g.png",
+      "image": [
+        "484-normal-g.png",
+        "484-shiny-g.png"
+      ],
+      "type1": "water",
+      "type2": "dragon",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Heatran",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0485",
+      "ref": "485.0_ddacdd58-0d9e-438c-828f-9354ad99f51e",
+      "displayName": "Heatran",
+      "displayImage": "485-shiny-mf.png",
+      "image": [
+        "485-normal-mf.png",
+        "485-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": "steel",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Giratina",
+      "formName": "Altered Forme",
+      "number": "",
+      "natDexNumber": "0487",
+      "ref": "487.0_f0592d00-4541-4ee4-be07-a664f26e514a",
+      "displayName": "Giratina",
+      "displayImage": "487-shiny-g.png",
+      "image": [
+        "487-normal-g.png",
+        "487-shiny-g.png"
+      ],
+      "type1": "ghost",
+      "type2": "dragon",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Cresselia",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0488",
+      "ref": "488.0_157c205e-71ea-4966-bf87-6206bd932ae5",
+      "displayName": "Cresselia",
+      "displayImage": "488-shiny-mf.png",
+      "image": [
+        "488-normal-mf.png",
+        "488-shiny-mf.png"
+      ],
+      "type1": "psychic",
+      "type2": null,
+      "forms": [],
+      "gender": "female",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Tornadus",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0641",
+      "ref": "641.0_23ff2b98-87c8-45dd-a76a-b4ef7d34d277",
+      "displayName": "Tornadus",
+      "displayImage": "641-001-shiny-mf.png",
+      "image": [
+        "641-001-normal-mf.png",
+        "641-001-shiny-mf.png"
+      ],
+      "type1": "flying",
+      "type2": null,
+      "forms": [],
+      "gender": "male",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Sword Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Thundurus",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0642",
+      "ref": "642.0_a8a58bfd-763b-408f-87ce-05b9219033e5",
+      "displayName": "Thundurus",
+      "displayImage": "642-001-shiny-mf.png",
+      "image": [
+        "642-001-normal-mf.png",
+        "642-001-shiny-mf.png"
+      ],
+      "type1": "electric",
+      "type2": "flying",
+      "forms": [],
+      "gender": "male",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Reshiram",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0643",
+      "ref": "643.0_2ba86972-21fd-4882-9885-b61d44015db5",
+      "displayName": "Reshiram",
+      "displayImage": "643-shiny-g.png",
+      "image": [
+        "643-normal-g.png",
+        "643-shiny-g.png"
+      ],
+      "type1": "dragon",
+      "type2": "fire",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Sword Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Zekrom",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0644",
+      "ref": "644.0_7a67e6aa-8da5-4577-956d-df1b3554daf6",
+      "displayName": "Zekrom",
+      "displayImage": "644-shiny-g.png",
+      "image": [
+        "644-normal-g.png",
+        "644-shiny-g.png"
+      ],
+      "type1": "dragon",
+      "type2": "electric",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Landorus",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0645",
+      "ref": "645.0_ad034e35-284c-40f8-923f-b4b55c042364",
+      "displayName": "Landorus",
+      "displayImage": "645-001-shiny-mf.png",
+      "image": [
+        "645-001-normal-mf.png",
+        "645-001-shiny-mf.png"
+      ],
+      "type1": "ground",
+      "type2": "flying",
+      "forms": [],
+      "gender": "male",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Kyurem",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0646",
+      "ref": "646.0_a0bd2525-ec83-4508-8efb-6b9ec78eff2d",
+      "displayName": "Kyurem",
+      "displayImage": "646-001-shiny-g.png",
+      "image": [
+        "646-001-normal-g.png",
+        "646-001-shiny-g.png"
+      ],
+      "type1": "dragon",
+      "type2": "ice",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Xerneas",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0716",
+      "ref": "716.0_f4fed790-3145-4078-aaa1-20b2437eead6",
+      "displayName": "Xerneas",
+      "displayImage": "716-001-shiny-g.png",
+      "image": [
+        "716-001-normal-g.png",
+        "716-001-shiny-g.png"
+      ],
+      "type1": "fairy",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Sword Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Yveltal",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0717",
+      "ref": "717.0_95a79736-15ad-4f40-8063-60af99bbbca1",
+      "displayName": "Yveltal",
+      "displayImage": "717-shiny-g.png",
+      "image": [
+        "717-normal-g.png",
+        "717-shiny-g.png"
+      ],
+      "type1": "dark",
+      "type2": "flying",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Zygarde",
+      "formName": "Complete Forme",
+      "number": "",
+      "natDexNumber": "0718",
+      "ref": "718.2_97568af3-8c7b-4b4a-9b1c-fb2977ee2a18",
+      "displayName": "Zygarde",
+      "displayImage": "718-003-shiny-g.png",
+      "image": [
+        "718-003-normal-g.png",
+        "718-003-shiny-g.png"
+      ],
+      "type1": "dragon",
+      "type2": "ground",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Tapu Koko",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0785",
+      "ref": "785.0_0bb891f2-8dd5-46e4-860d-b713621e2c0d",
+      "displayName": "Tapu Koko",
+      "displayImage": "785-shiny-g.png",
+      "image": [
+        "785-normal-g.png",
+        "785-shiny-g.png"
+      ],
+      "type1": "electric",
+      "type2": "fairy",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Tapu Lele",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0786",
+      "ref": "786.0_ba188150-d388-4fc3-90eb-82cb08c4748f",
+      "displayName": "Tapu Lele",
+      "displayImage": "786-shiny-g.png",
+      "image": [
+        "786-normal-g.png",
+        "786-shiny-g.png"
+      ],
+      "type1": "psychic",
+      "type2": "fairy",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Tapu Bulu",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0787",
+      "ref": "787.0_4aa90de1-4bf5-4144-9815-836b3e03f868",
+      "displayName": "Tapu Bulu",
+      "displayImage": "787-shiny-g.png",
+      "image": [
+        "787-normal-g.png",
+        "787-shiny-g.png"
+      ],
+      "type1": "grass",
+      "type2": "fairy",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Tapu Fini",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0788",
+      "ref": "788.0_9b2f4756-9a8d-4e8e-a208-a23e0467a731",
+      "displayName": "Tapu Fini",
+      "displayImage": "788-shiny-g.png",
+      "image": [
+        "788-normal-g.png",
+        "788-shiny-g.png"
+      ],
+      "type1": "water",
+      "type2": "fairy",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Solgaleo",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0791",
+      "ref": "791.0_c4fc5e51-22ef-42d7-ba4e-15d516a5b540",
+      "displayName": "Solgaleo",
+      "displayImage": "791-shiny-g.png",
+      "image": [
+        "791-normal-g.png",
+        "791-shiny-g.png"
+      ],
+      "type1": "psychic",
+      "type2": "steel",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Sword Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Lunala",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0792",
+      "ref": "792.0_da2132b4-b0a3-4953-b4ab-41dec8bedda8",
+      "displayName": "Lunala",
+      "displayImage": "792-shiny-g.png",
+      "image": [
+        "792-normal-g.png",
+        "792-shiny-g.png"
+      ],
+      "type1": "psychic",
+      "type2": "ghost",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Nihilego",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0793",
+      "ref": "793.0_624893fe-cb52-456f-94de-fbab317f78c7",
+      "displayName": "Nihilego",
+      "displayImage": "793-shiny-g.png",
+      "image": [
+        "793-normal-g.png",
+        "793-shiny-g.png"
+      ],
+      "type1": "rock",
+      "type2": "poison",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Buzzwole",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0794",
+      "ref": "794.0_13f5bcd6-1936-4c5e-8b5e-d683ae6de1c3",
+      "displayName": "Buzzwole",
+      "displayImage": "794-shiny-g.png",
+      "image": [
+        "794-normal-g.png",
+        "794-shiny-g.png"
+      ],
+      "type1": "bug",
+      "type2": "fighting",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Pheromosa",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0795",
+      "ref": "795.0_e49d88ca-4c86-4998-ac93-13b7a39ebf54",
+      "displayName": "Pheromosa",
+      "displayImage": "795-shiny-g.png",
+      "image": [
+        "795-normal-g.png",
+        "795-shiny-g.png"
+      ],
+      "type1": "bug",
+      "type2": "fighting",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Xurkitree",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0796",
+      "ref": "796.0_3391414f-6d93-4bf8-a5ca-1bc03c0e67b3",
+      "displayName": "Xurkitree",
+      "displayImage": "796-shiny-g.png",
+      "image": [
+        "796-normal-g.png",
+        "796-shiny-g.png"
+      ],
+      "type1": "electric",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Celesteela",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0797",
+      "ref": "797.0_eb768548-c04b-429d-b4a9-181925e85e56",
+      "displayName": "Celesteela",
+      "displayImage": "797-shiny-g.png",
+      "image": [
+        "797-normal-g.png",
+        "797-shiny-g.png"
+      ],
+      "type1": "steel",
+      "type2": "flying",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Kartana",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0798",
+      "ref": "798.0_185d3720-d10e-4ddf-b9f7-59a27e48600b",
+      "displayName": "Kartana",
+      "displayImage": "798-shiny-g.png",
+      "image": [
+        "798-normal-g.png",
+        "798-shiny-g.png"
+      ],
+      "type1": "grass",
+      "type2": "steel",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Guzzlord",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0799",
+      "ref": "799.0_d0bb4280-3f1b-4890-91bd-9af281c7ea1a",
+      "displayName": "Guzzlord",
+      "displayImage": "799-shiny-g.png",
+      "image": [
+        "799-normal-g.png",
+        "799-shiny-g.png"
+      ],
+      "type1": "dark",
+      "type2": "dragon",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Necrozma",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0800",
+      "ref": "800.0_ca6275cf-f072-4455-a8f5-8f00d2c8ddf7",
+      "displayName": "Necrozma",
+      "displayImage": "800-001-shiny-g.png",
+      "image": [
+        "800-001-normal-g.png",
+        "800-001-shiny-g.png"
+      ],
+      "type1": "psychic",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Stakataka",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0805",
+      "ref": "805.0_f4da7321-9253-45e4-bf42-1880c056f46c",
+      "displayName": "Stakataka",
+      "displayImage": "805-shiny-g.png",
+      "image": [
+        "805-normal-g.png",
+        "805-shiny-g.png"
+      ],
+      "type1": "rock",
+      "type2": "steel",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Blacephalon",
+      "formName": "",
+      "number": "",
+      "natDexNumber": "0806",
+      "ref": "806.0_df17a826-5220-4dc1-bda3-784775fede68",
+      "displayName": "Blacephalon",
+      "displayImage": "806-shiny-g.png",
+      "image": [
+        "806-normal-g.png",
+        "806-shiny-g.png"
+      ],
+      "type1": "fire",
+      "type2": "ghost",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8ecee4d8-caa8-46c5-8d27-23e3ef24b2dd",
+      "currentLocation": "Pokemon Shield",
+      "originalLocation": "Pokemon Shield",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Shield",
+        "dex": "Dynamax Adventure Bosses",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    }
+  ]
+}

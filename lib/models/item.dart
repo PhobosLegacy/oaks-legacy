@@ -151,7 +151,7 @@ class Item {
       'originalLocation': originalLocation,
       'ability': ability,
       'level': level,
-      'game': game,
+      'game': game.toJson(),
       'trainerName': trainerName,
       'capturedMethod': capturedMethod.name,
       'attributes': attributes.map((e) => e.name).toList()

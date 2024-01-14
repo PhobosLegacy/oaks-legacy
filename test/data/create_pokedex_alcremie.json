@@ -1,0 +1,2890 @@
+{
+  "name": "Alcremie",
+  "formName": "",
+  "species": "Cream Pokémon",
+  "height": "0.3m",
+  "weight": "0.5kg",
+  "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+  "number": "0869",
+  "ref": "869.0",
+  "type1": "fairy",
+  "type2": null,
+  "image": ["869-001-normal-mf.png", "869-001-shiny-mf.png"],
+  "abilities": ["Sweet Veil"],
+  "hiddenAbility": "Aroma Veil",
+  "weaknessquarter": [],
+  "weaknesshalf": ["fighting", "bug", "dark"],
+  "weaknessnone": ["dragon"],
+  "weaknessdouble": ["poison", "steel"],
+  "weaknessquadruple": [],
+  "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+  "games": [
+    {
+      "name": "Pokemon Scarlet",
+      "dex": "Blueberry",
+      "number": "043",
+      "shinyLocked": "UNLOCKED",
+      "notes": ""
+    },
+    {
+      "name": "Pokemon Violet",
+      "dex": "Blueberry",
+      "number": "043",
+      "shinyLocked": "UNLOCKED",
+      "notes": ""
+    },
+    {
+      "name": "Pokemon Sword",
+      "dex": "Regional",
+      "number": "186",
+      "shinyLocked": "UNLOCKED",
+      "notes": ""
+    },
+    {
+      "name": "Pokemon Shield",
+      "dex": "Regional",
+      "number": "186",
+      "shinyLocked": "UNLOCKED",
+      "notes": ""
+    }
+  ],
+  "forms": [
+    {
+      "name": "Strawberry Sweet",
+      "formName": "Vanilla Cream",
+      "species": "Cream Pokémon",
+      "height": "0.3m",
+      "weight": "0.5kg",
+      "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+      "number": "0869",
+      "ref": "869.0",
+      "type1": "fairy",
+      "type2": null,
+      "image": ["869-001-normal-mf.png", "869-001-shiny-mf.png"],
+      "abilities": ["Sweet Veil"],
+      "hiddenAbility": "Aroma Veil",
+      "weaknessquarter": [],
+      "weaknesshalf": ["fighting", "bug", "dark"],
+      "weaknessnone": ["dragon"],
+      "weaknessdouble": ["poison", "steel"],
+      "weaknessquadruple": [],
+      "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+      "games": [
+        {
+          "name": "Pokemon Scarlet",
+          "dex": "Blueberry",
+          "number": "043",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        },
+        {
+          "name": "Pokemon Violet",
+          "dex": "Blueberry",
+          "number": "043",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        },
+        {
+          "name": "Pokemon Sword",
+          "dex": "Regional",
+          "number": "186",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        },
+        {
+          "name": "Pokemon Shield",
+          "dex": "Regional",
+          "number": "186",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        }
+      ],
+      "forms": [
+        {
+          "name": "Strawberry Sweet",
+          "formName": "Vanilla Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.0",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-001-normal-mf.png", "869-001-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Sword",
+              "dex": "Regional",
+              "number": "186",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Shield",
+              "dex": "Regional",
+              "number": "186",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Strawberry Sweet",
+          "formName": "Ruby Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.1",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-008-normal-mf.png", "869-001-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Strawberry Sweet",
+          "formName": "Matcha Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.2",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-015-normal-mf.png", "869-001-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Strawberry Sweet",
+          "formName": "Mint Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.3",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-022-normal-mf.png", "869-001-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Strawberry Sweet",
+          "formName": "Lemon Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.4",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-029-normal-mf.png", "869-001-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Strawberry Sweet",
+          "formName": "Salted Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.5",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-036-normal-mf.png", "869-001-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Strawberry Sweet",
+          "formName": "Ruby Swirl",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.6",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-043-normal-mf.png", "869-001-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Strawberry Sweet",
+          "formName": "Caramel Swirl",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.7",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-050-normal-mf.png", "869-001-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Strawberry Sweet",
+          "formName": "Rainbow Swirl",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.8",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-057-normal-mf.png", "869-001-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Berry Sweet",
+      "formName": "Vanilla Cream",
+      "species": "Cream Pokémon",
+      "height": "0.3m",
+      "weight": "0.5kg",
+      "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+      "number": "0869",
+      "ref": "869.9",
+      "type1": "fairy",
+      "type2": null,
+      "image": ["869-002-normal-mf.png", "869-002-shiny-mf.png"],
+      "abilities": ["Sweet Veil"],
+      "hiddenAbility": "Aroma Veil",
+      "weaknessquarter": [],
+      "weaknesshalf": ["fighting", "bug", "dark"],
+      "weaknessnone": ["dragon"],
+      "weaknessdouble": ["poison", "steel"],
+      "weaknessquadruple": [],
+      "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+      "games": [
+        {
+          "name": "Pokemon Scarlet",
+          "dex": "Blueberry",
+          "number": "043",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        },
+        {
+          "name": "Pokemon Violet",
+          "dex": "Blueberry",
+          "number": "043",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        },
+        {
+          "name": "Pokemon Sword",
+          "dex": "Regional",
+          "number": "186",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        },
+        {
+          "name": "Pokemon Shield",
+          "dex": "Regional",
+          "number": "186",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        }
+      ],
+      "forms": [
+        {
+          "name": "Berry Sweet",
+          "formName": "Vanilla Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.9",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-002-normal-mf.png", "869-002-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Sword",
+              "dex": "Regional",
+              "number": "186",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Shield",
+              "dex": "Regional",
+              "number": "186",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Berry Sweet",
+          "formName": "Ruby Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.10",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-009-normal-mf.png", "869-002-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Berry Sweet",
+          "formName": "Matcha Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.11",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-016-normal-mf.png", "869-002-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Berry Sweet",
+          "formName": "Mint Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.12",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-023-normal-mf.png", "869-002-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Berry Sweet",
+          "formName": "Lemon Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.13",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-030-normal-mf.png", "869-002-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Berry Sweet",
+          "formName": "Salted Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.14",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-037-normal-mf.png", "869-002-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Berry Sweet",
+          "formName": "Ruby Swirl",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.15",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-044-normal-mf.png", "869-002-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Berry Sweet",
+          "formName": "Caramel Swirl",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.16",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-051-normal-mf.png", "869-002-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Berry Sweet",
+          "formName": "Rainbow Swirl",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.17",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-058-normal-mf.png", "869-002-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Love Sweet",
+      "formName": "Vanilla Cream",
+      "species": "Cream Pokémon",
+      "height": "0.3m",
+      "weight": "0.5kg",
+      "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+      "number": "0869",
+      "ref": "869.18",
+      "type1": "fairy",
+      "type2": null,
+      "image": ["869-003-normal-mf.png", "869-003-shiny-mf.png"],
+      "abilities": ["Sweet Veil"],
+      "hiddenAbility": "Aroma Veil",
+      "weaknessquarter": [],
+      "weaknesshalf": ["fighting", "bug", "dark"],
+      "weaknessnone": ["dragon"],
+      "weaknessdouble": ["poison", "steel"],
+      "weaknessquadruple": [],
+      "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+      "games": [
+        {
+          "name": "Pokemon Scarlet",
+          "dex": "Blueberry",
+          "number": "043",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        },
+        {
+          "name": "Pokemon Violet",
+          "dex": "Blueberry",
+          "number": "043",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        },
+        {
+          "name": "Pokemon Sword",
+          "dex": "Regional",
+          "number": "186",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        },
+        {
+          "name": "Pokemon Shield",
+          "dex": "Regional",
+          "number": "186",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        }
+      ],
+      "forms": [
+        {
+          "name": "Love Sweet",
+          "formName": "Vanilla Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.18",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-003-normal-mf.png", "869-003-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Sword",
+              "dex": "Regional",
+              "number": "186",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Shield",
+              "dex": "Regional",
+              "number": "186",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Love Sweet",
+          "formName": "Ruby Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.19",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-010-normal-mf.png", "869-003-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Love Sweet",
+          "formName": "Matcha Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.20",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-017-normal-mf.png", "869-003-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Love Sweet",
+          "formName": "Mint Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.21",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-024-normal-mf.png", "869-003-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Love Sweet",
+          "formName": "Lemon Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.22",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-031-normal-mf.png", "869-003-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Love Sweet",
+          "formName": "Salted Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.23",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-038-normal-mf.png", "869-003-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Love Sweet",
+          "formName": "Ruby Swirl",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.24",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-045-normal-mf.png", "869-003-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Love Sweet",
+          "formName": "Caramel Swirl",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.25",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-052-normal-mf.png", "869-003-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Love Sweet",
+          "formName": "Rainbow Swirl",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.26",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-059-normal-mf.png", "869-003-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Star Sweet",
+      "formName": "Vanilla Cream",
+      "species": "Cream Pokémon",
+      "height": "0.3m",
+      "weight": "0.5kg",
+      "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+      "number": "0869",
+      "ref": "869.27",
+      "type1": "fairy",
+      "type2": null,
+      "image": ["869-004-normal-mf.png", "869-004-shiny-mf.png"],
+      "abilities": ["Sweet Veil"],
+      "hiddenAbility": "Aroma Veil",
+      "weaknessquarter": [],
+      "weaknesshalf": ["fighting", "bug", "dark"],
+      "weaknessnone": ["dragon"],
+      "weaknessdouble": ["poison", "steel"],
+      "weaknessquadruple": [],
+      "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+      "games": [
+        {
+          "name": "Pokemon Scarlet",
+          "dex": "Blueberry",
+          "number": "043",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        },
+        {
+          "name": "Pokemon Violet",
+          "dex": "Blueberry",
+          "number": "043",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        },
+        {
+          "name": "Pokemon Sword",
+          "dex": "Regional",
+          "number": "186",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        },
+        {
+          "name": "Pokemon Shield",
+          "dex": "Regional",
+          "number": "186",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        }
+      ],
+      "forms": [
+        {
+          "name": "Star Sweet",
+          "formName": "Vanilla Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.27",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-004-normal-mf.png", "869-004-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Sword",
+              "dex": "Regional",
+              "number": "186",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Shield",
+              "dex": "Regional",
+              "number": "186",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Star Berry",
+          "formName": "Ruby Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.28",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-011-normal-mf.png", "869-004-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Star Berry",
+          "formName": "Matcha Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.29",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-018-normal-mf.png", "869-004-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Star Berry",
+          "formName": "Mint Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.30",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-025-normal-mf.png", "869-004-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Star Berry",
+          "formName": "Lemon Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.31",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-032-normal-mf.png", "869-004-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Star Berry",
+          "formName": "Salted Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.32",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-039-normal-mf.png", "869-004-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Star Berry",
+          "formName": "Ruby Swirl",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.33",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-046-normal-mf.png", "869-004-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Star Berry",
+          "formName": "Caramel Swirl",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.34",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-053-normal-mf.png", "869-004-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Star Berry",
+          "formName": "Rainbow Swirl",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.35",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-060-normal-mf.png", "869-004-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Clover Sweet",
+      "formName": "Vanilla Cream",
+      "species": "Cream Pokémon",
+      "height": "0.3m",
+      "weight": "0.5kg",
+      "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+      "number": "0869",
+      "ref": "869.36",
+      "type1": "fairy",
+      "type2": null,
+      "image": ["869-005-normal-mf.png", "869-005-shiny-mf.png"],
+      "abilities": ["Sweet Veil"],
+      "hiddenAbility": "Aroma Veil",
+      "weaknessquarter": [],
+      "weaknesshalf": ["fighting", "bug", "dark"],
+      "weaknessnone": ["dragon"],
+      "weaknessdouble": ["poison", "steel"],
+      "weaknessquadruple": [],
+      "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+      "games": [
+        {
+          "name": "Pokemon Scarlet",
+          "dex": "Blueberry",
+          "number": "043",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        },
+        {
+          "name": "Pokemon Violet",
+          "dex": "Blueberry",
+          "number": "043",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        },
+        {
+          "name": "Pokemon Sword",
+          "dex": "Regional",
+          "number": "186",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        },
+        {
+          "name": "Pokemon Shield",
+          "dex": "Regional",
+          "number": "186",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        }
+      ],
+      "forms": [
+        {
+          "name": "Clover Sweet",
+          "formName": "Vanilla Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.36",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-005-normal-mf.png", "869-005-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Sword",
+              "dex": "Regional",
+              "number": "186",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Shield",
+              "dex": "Regional",
+              "number": "186",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Clover Sweet",
+          "formName": "Ruby Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.37",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-012-normal-mf.png", "869-005-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Clover Sweet",
+          "formName": "Matcha Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.38",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-019-normal-mf.png", "869-005-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Clover Sweet",
+          "formName": "Mint Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.39",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-026-normal-mf.png", "869-005-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Clover Sweet",
+          "formName": "Lemon Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.40",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-033-normal-mf.png", "869-005-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Clover Sweet",
+          "formName": "Salted Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.41",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-040-normal-mf.png", "869-005-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Clover Sweet",
+          "formName": "Ruby Swirl",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.42",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-047-normal-mf.png", "869-005-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Clover Sweet",
+          "formName": "Caramel Swirl",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.43",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-054-normal-mf.png", "869-005-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Clover Sweet",
+          "formName": "Rainbow Swirl",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.44",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-061-normal-mf.png", "869-005-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flower Sweet",
+      "formName": "Vanilla Cream",
+      "species": "Cream Pokémon",
+      "height": "0.3m",
+      "weight": "0.5kg",
+      "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+      "number": "0869",
+      "ref": "869.45",
+      "type1": "fairy",
+      "type2": null,
+      "image": ["869-006-normal-mf.png", "869-006-shiny-mf.png"],
+      "abilities": ["Sweet Veil"],
+      "hiddenAbility": "Aroma Veil",
+      "weaknessquarter": [],
+      "weaknesshalf": ["fighting", "bug", "dark"],
+      "weaknessnone": ["dragon"],
+      "weaknessdouble": ["poison", "steel"],
+      "weaknessquadruple": [],
+      "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+      "games": [
+        {
+          "name": "Pokemon Scarlet",
+          "dex": "Blueberry",
+          "number": "043",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        },
+        {
+          "name": "Pokemon Violet",
+          "dex": "Blueberry",
+          "number": "043",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        },
+        {
+          "name": "Pokemon Sword",
+          "dex": "Regional",
+          "number": "186",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        },
+        {
+          "name": "Pokemon Shield",
+          "dex": "Regional",
+          "number": "186",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        }
+      ],
+      "forms": [
+        {
+          "name": "Flower Sweet",
+          "formName": "Vanilla Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.45",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-006-normal-mf.png", "869-006-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Sword",
+              "dex": "Regional",
+              "number": "186",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Shield",
+              "dex": "Regional",
+              "number": "186",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Flower Sweet",
+          "formName": "Ruby Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.46",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-013-normal-mf.png", "869-006-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Flower Sweet",
+          "formName": "Matcha Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.47",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-020-normal-mf.png", "869-006-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Flower Sweet",
+          "formName": "Mint Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.48",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-027-normal-mf.png", "869-006-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Flower Sweet",
+          "formName": "Lemon Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.49",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-034-normal-mf.png", "869-006-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Flower Sweet",
+          "formName": "Salted Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.50",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-041-normal-mf.png", "869-006-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Flower Sweet",
+          "formName": "Ruby Swirl",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.51",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-048-normal-mf.png", "869-006-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Flower Sweet",
+          "formName": "Caramel Swirl",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.52",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-055-normal-mf.png", "869-006-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Flower Sweet",
+          "formName": "Rainbow Swirl",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.53",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-062-normal-mf.png", "869-006-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ribbon Sweet",
+      "formName": "Vanilla Cream",
+      "species": "Cream Pokémon",
+      "height": "0.3m",
+      "weight": "0.5kg",
+      "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+      "number": "0869",
+      "ref": "869.54",
+      "type1": "fairy",
+      "type2": null,
+      "image": ["869-007-normal-mf.png", "869-007-shiny-mf.png"],
+      "abilities": ["Sweet Veil"],
+      "hiddenAbility": "Aroma Veil",
+      "weaknessquarter": [],
+      "weaknesshalf": ["fighting", "bug", "dark"],
+      "weaknessnone": ["dragon"],
+      "weaknessdouble": ["poison", "steel"],
+      "weaknessquadruple": [],
+      "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+      "games": [
+        {
+          "name": "Pokemon Scarlet",
+          "dex": "Blueberry",
+          "number": "043",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        },
+        {
+          "name": "Pokemon Violet",
+          "dex": "Blueberry",
+          "number": "043",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        },
+        {
+          "name": "Pokemon Sword",
+          "dex": "Regional",
+          "number": "186",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        },
+        {
+          "name": "Pokemon Shield",
+          "dex": "Regional",
+          "number": "186",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        }
+      ],
+      "forms": [
+        {
+          "name": "Ribbon Sweet",
+          "formName": "Vanilla Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.54",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-007-normal-mf.png", "869-007-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Sword",
+              "dex": "Regional",
+              "number": "186",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Shield",
+              "dex": "Regional",
+              "number": "186",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Ribbon Sweet",
+          "formName": "Ruby Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.55",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-014-normal-mf.png", "869-007-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Ribbon Sweet",
+          "formName": "Matcha Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.56",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-021-normal-mf.png", "869-007-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Ribbon Sweet",
+          "formName": "Mint Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.57",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-028-normal-mf.png", "869-007-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Ribbon Sweet",
+          "formName": "Lemon Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.58",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-035-normal-mf.png", "869-007-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Ribbon Sweet",
+          "formName": "Salted Cream",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.59",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-042-normal-mf.png", "869-007-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Ribbon Sweet",
+          "formName": "Ruby Swirl",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.60",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-049-normal-mf.png", "869-007-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Ribbon Sweet",
+          "formName": "Caramel Swirl",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.61",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-056-normal-mf.png", "869-007-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Ribbon Sweet",
+          "formName": "Rainbow Swirl",
+          "species": "Cream Pokémon",
+          "height": "0.3m",
+          "weight": "0.5kg",
+          "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+          "number": "0869",
+          "ref": "869.62",
+          "type1": "fairy",
+          "type2": null,
+          "image": ["869-063-normal-mf.png", "869-007-shiny-mf.png"],
+          "abilities": ["Sweet Veil"],
+          "hiddenAbility": "Aroma Veil",
+          "weaknessquarter": [],
+          "weaknesshalf": ["fighting", "bug", "dark"],
+          "weaknessnone": ["dragon"],
+          "weaknessdouble": ["poison", "steel"],
+          "weaknessquadruple": [],
+          "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+          "games": [
+            {
+              "name": "Pokemon Scarlet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            },
+            {
+              "name": "Pokemon Violet",
+              "dex": "Blueberry",
+              "number": "043",
+              "shinyLocked": "UNLOCKED",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gigantamax Alcremie",
+      "formName": "",
+      "species": "Cream Pokémon",
+      "height": "30.0+ m",
+      "weight": "???? kg",
+      "breeding": { "groups": ["Amorphous", "Fairy"], "cycles": "20" },
+      "number": "0869",
+      "ref": "869.63",
+      "type1": "fairy",
+      "type2": null,
+      "image": ["869-giga-normal-mf.png", "869-giga-shiny-mf.png"],
+      "abilities": ["Sweet Veil"],
+      "hiddenAbility": "Aroma Veil",
+      "weaknessquarter": [],
+      "weaknesshalf": ["fighting", "bug", "dark"],
+      "weaknessnone": ["dragon"],
+      "weaknessdouble": ["poison", "steel"],
+      "weaknessquadruple": [],
+      "genderRatio": { "male": "0", "female": "100", "genderless": "0" },
+      "games": [
+        {
+          "name": "Pokemon Sword",
+          "dex": "Gigantamax Forms",
+          "number": "869",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        },
+        {
+          "name": "Pokemon Shield",
+          "dex": "Gigantamax Forms",
+          "number": "869",
+          "shinyLocked": "UNLOCKED",
+          "notes": ""
+        }
+      ]
+    }
+  ]
+}

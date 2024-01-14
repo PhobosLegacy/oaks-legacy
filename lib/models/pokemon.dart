@@ -61,6 +61,32 @@ class Pokemon {
         breeding = Breeding.fromJson(json['breeding']),
         genderRatio = GenderRatio.fromJson(json['genderRatio']);
 
+  Map<String, dynamic> toJson() {
+    return {
+      'name': name,
+      'formName': formName,
+      'species': species,
+      'height': height,
+      'weight': weight,
+      'image': image,
+      'number': number,
+      'ref': ref,
+      'type1': type1.name,
+      'type2': type2?.name,
+      'forms': forms.map((i) => i.toJson()).toList(),
+      'games': games.map((i) => i.toJson()).toList(),
+      'weaknessquarter': weakness.quarter,
+      'weaknesshalf': weakness.half,
+      'weaknessnone': weakness.none,
+      'weaknessdouble': weakness.double,
+      'weaknessquadruple': weakness.quadruple,
+      'abilities': abilities,
+      'hiddenAbility': hiddenAbility,
+      'breeding': breeding.toJson(),
+      'genderRatio': genderRatio.toJson(),
+    };
+  }
+
   Pokemon.copy(Pokemon pokemon, bool keepForms)
       : name = pokemon.name,
         formName = pokemon.formName,
@@ -99,32 +125,6 @@ class Pokemon {
         }
       }
     }
-
-    // var test = pokemons
-    //     .where((element) =>
-    //         // element.forms.isNotEmpty &&
-    //         (element.name == "Tauros" || //form in form
-    //             element.name == "Bulbasaur" || //forms ,
-    //             element.name == "Buizel" || //forms ,
-    //             element.name == "Squawkabilly" || //forms ,
-    //             element.name == "Chien-Pao" || //forms
-    //             element.name == "Roaring Moon" || //exclusive
-    //             element.name == "Iron Valiant" || //exclusive
-    //             element.name == "Oricorio" || //forms
-    //             element.name == "Miraidon")) //no shiny available
-    //     .toList();
-    // return test;
-    // return pokemons
-    //     .skip(200)
-    //     .where((element) => element.forms.isNotEmpty)
-    //     .toList();
-    // return pokemons.skip(980).toList();
-    // return pokemons
-    //     .where((element) =>
-    //         element.number == "001" ||
-    //         element.number == "003" ||
-    //         element.name == "Tauros")
-    //     .toList();
     return pokemons;
   }
 
@@ -349,14 +349,6 @@ class Pokemon {
 
   bool hasGameAndDex(String gameName, String gameDex) {
     return games.any((game) => game.name == gameName && game.dex == gameDex);
-    // // Check games in nested forms recursively
-    // return forms.any((form) => form.hasGame(gameName));
-  }
-}
-
-extension PokemonExtensions on Pokemon {
-  containsName(value) {
-    return name.toLowerCase().contains(value.toLowerCase());
   }
 }
 

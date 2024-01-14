@@ -1,0 +1,5605 @@
+{
+  "name": "Let'sGoEevee-Regional-Shiny",
+  "ref": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+  "game": "Let's Go Eevee",
+  "dex": "Regional",
+  "type": "Shiny",
+  "pokemons": [
+    {
+      "name": "Bulbasaur",
+      "formName": "",
+      "number": "001",
+      "natDexNumber": "0001",
+      "ref": "001.0_46abd88f-a82c-40f7-92ca-bdae9b94992a",
+      "displayName": "Bulbasaur",
+      "displayImage": "001-shiny-mf.png",
+      "image": [
+        "001-normal-mf.png",
+        "001-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "001",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Ivysaur",
+      "formName": "",
+      "number": "002",
+      "natDexNumber": "0002",
+      "ref": "002.0_5702949d-58cd-41ff-ae3f-7c2e2d77ea5c",
+      "displayName": "Ivysaur",
+      "displayImage": "002-shiny-mf.png",
+      "image": [
+        "002-normal-mf.png",
+        "002-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "002",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Venusaur",
+      "formName": "",
+      "number": "003",
+      "natDexNumber": "0003",
+      "ref": "003.0_99fd8656-dc7f-4dfc-97d5-7f84627b1910",
+      "displayName": "Venusaur",
+      "displayImage": "003-shiny-f.png",
+      "image": [
+        "003-normal-m.png",
+        "003-normal-f.png",
+        "003-shiny-f.png",
+        "003-shiny-m.png"
+      ],
+      "type1": "grass",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "003",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Charmander",
+      "formName": "",
+      "number": "004",
+      "natDexNumber": "0004",
+      "ref": "004.0_5635c90d-cd5a-4149-9857-37409cea0381",
+      "displayName": "Charmander",
+      "displayImage": "004-shiny-mf.png",
+      "image": [
+        "004-normal-mf.png",
+        "004-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "004",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Charmeleon",
+      "formName": "",
+      "number": "005",
+      "natDexNumber": "0005",
+      "ref": "005.0_f2fbf52b-dac2-40b3-8602-540ac90b3285",
+      "displayName": "Charmeleon",
+      "displayImage": "005-shiny-mf.png",
+      "image": [
+        "005-normal-mf.png",
+        "005-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "005",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Charizard",
+      "formName": "",
+      "number": "006",
+      "natDexNumber": "0006",
+      "ref": "006.0_0fe341e0-57a6-42de-95aa-49eb748c1a5c",
+      "displayName": "Charizard",
+      "displayImage": "006-shiny-mf.png",
+      "image": [
+        "006-normal-mf.png",
+        "006-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "006",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Squirtle",
+      "formName": "",
+      "number": "007",
+      "natDexNumber": "0007",
+      "ref": "007.0_23a57e58-c4b4-4a2a-bab5-d62ea3052540",
+      "displayName": "Squirtle",
+      "displayImage": "007-shiny-mf.png",
+      "image": [
+        "007-normal-mf.png",
+        "007-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "007",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Wartortle",
+      "formName": "",
+      "number": "008",
+      "natDexNumber": "0008",
+      "ref": "008.0_ed52d805-924d-4f69-a391-96733ee46448",
+      "displayName": "Wartortle",
+      "displayImage": "008-shiny-mf.png",
+      "image": [
+        "008-normal-mf.png",
+        "008-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "008",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Blastoise",
+      "formName": "",
+      "number": "009",
+      "natDexNumber": "0009",
+      "ref": "009.0_112df6cf-b0f4-4981-8c5e-30d98e4b2e6f",
+      "displayName": "Blastoise",
+      "displayImage": "009-shiny-mf.png",
+      "image": [
+        "009-normal-mf.png",
+        "009-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "009",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Caterpie",
+      "formName": "",
+      "number": "010",
+      "natDexNumber": "0010",
+      "ref": "010.0_d2619ecc-60ca-4916-bbf8-7fb62b9e6df4",
+      "displayName": "Caterpie",
+      "displayImage": "010-shiny-mf.png",
+      "image": [
+        "010-normal-mf.png",
+        "010-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "010",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Metapod",
+      "formName": "",
+      "number": "011",
+      "natDexNumber": "0011",
+      "ref": "011.0_a628b8eb-d9c0-4c6d-9b01-4bf0e1f13ead",
+      "displayName": "Metapod",
+      "displayImage": "011-shiny-mf.png",
+      "image": [
+        "011-normal-mf.png",
+        "011-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "011",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Butterfree",
+      "formName": "",
+      "number": "012",
+      "natDexNumber": "0012",
+      "ref": "012.0_2967a0e5-0c55-4426-b3c4-c0148f35f668",
+      "displayName": "Butterfree",
+      "displayImage": "012-shiny-f.png",
+      "image": [
+        "012-normal-m.png",
+        "012-normal-f.png",
+        "012-shiny-f.png",
+        "012-shiny-m.png"
+      ],
+      "type1": "bug",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "012",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Weedle",
+      "formName": "",
+      "number": "013",
+      "natDexNumber": "0013",
+      "ref": "013.0_76f5efca-79b9-490b-a29d-ca17738211a8",
+      "displayName": "Weedle",
+      "displayImage": "013-shiny-mf.png",
+      "image": [
+        "013-normal-mf.png",
+        "013-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "013",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Kakuna",
+      "formName": "",
+      "number": "014",
+      "natDexNumber": "0014",
+      "ref": "014.0_dc54a14f-eb2f-4a5e-bbaa-904a9f6c0a75",
+      "displayName": "Kakuna",
+      "displayImage": "014-shiny-mf.png",
+      "image": [
+        "014-normal-mf.png",
+        "014-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "014",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Beedrill",
+      "formName": "",
+      "number": "015",
+      "natDexNumber": "0015",
+      "ref": "015.0_0d1df861-f550-4096-9135-31486cc3c841",
+      "displayName": "Beedrill",
+      "displayImage": "015-shiny-mf.png",
+      "image": [
+        "015-normal-mf.png",
+        "015-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "015",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Pidgey",
+      "formName": "",
+      "number": "016",
+      "natDexNumber": "0016",
+      "ref": "016.0_8ac3430c-a301-4528-a229-a3bc60afe60b",
+      "displayName": "Pidgey",
+      "displayImage": "016-shiny-mf.png",
+      "image": [
+        "016-normal-mf.png",
+        "016-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "016",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Pidgeotto",
+      "formName": "",
+      "number": "017",
+      "natDexNumber": "0017",
+      "ref": "017.0_8fa4f6e8-7abb-4ba1-b1fd-befc35a4547f",
+      "displayName": "Pidgeotto",
+      "displayImage": "017-shiny-mf.png",
+      "image": [
+        "017-normal-mf.png",
+        "017-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "017",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Pidgeot",
+      "formName": "",
+      "number": "018",
+      "natDexNumber": "0018",
+      "ref": "018.0_b15951d6-2b17-43e1-a79a-f341e8e1917a",
+      "displayName": "Pidgeot",
+      "displayImage": "018-shiny-mf.png",
+      "image": [
+        "018-normal-mf.png",
+        "018-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "018",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Rattata",
+      "formName": "",
+      "number": "019",
+      "natDexNumber": "0019",
+      "ref": "019.0_2465064f-3c65-4e16-bee0-7c04e9f19e75",
+      "displayName": "Rattata",
+      "displayImage": "019-shiny-f.png",
+      "image": [
+        "019-normal-m.png",
+        "019-normal-f.png",
+        "019-shiny-f.png",
+        "019-shiny-m.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "019",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Raticate",
+      "formName": "",
+      "number": "020",
+      "natDexNumber": "0020",
+      "ref": "020.0_2cc26c60-66ac-4401-9507-cd971fb33715",
+      "displayName": "Raticate",
+      "displayImage": "020-shiny-f.png",
+      "image": [
+        "020-normal-m.png",
+        "020-normal-f.png",
+        "020-shiny-f.png",
+        "020-shiny-m.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "020",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Spearow",
+      "formName": "",
+      "number": "021",
+      "natDexNumber": "0021",
+      "ref": "021.0_9ca577d9-60d7-4485-8210-18e41826474c",
+      "displayName": "Spearow",
+      "displayImage": "021-shiny-mf.png",
+      "image": [
+        "021-normal-mf.png",
+        "021-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "021",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Fearow",
+      "formName": "",
+      "number": "022",
+      "natDexNumber": "0022",
+      "ref": "022.0_ac62b7ae-968a-41b5-8c5f-483cc6ab8525",
+      "displayName": "Fearow",
+      "displayImage": "022-shiny-mf.png",
+      "image": [
+        "022-normal-mf.png",
+        "022-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "022",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Ekans",
+      "formName": "",
+      "number": "023",
+      "natDexNumber": "0023",
+      "ref": "023.0_2725f6c0-ae8c-4404-98a3-ba92d381ee4c",
+      "displayName": "Ekans",
+      "displayImage": "023-shiny-mf.png",
+      "image": [
+        "023-normal-mf.png",
+        "023-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "023",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Eevee Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Arbok",
+      "formName": "",
+      "number": "024",
+      "natDexNumber": "0024",
+      "ref": "024.0_0c83b2d4-612b-4193-84de-a74400e69778",
+      "displayName": "Arbok",
+      "displayImage": "024-shiny-mf.png",
+      "image": [
+        "024-normal-mf.png",
+        "024-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "024",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Eevee Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Pikachu",
+      "formName": "",
+      "number": "025",
+      "natDexNumber": "0025",
+      "ref": "025.0_045c0fdb-3ae6-4d0b-bd48-329aab2894a8",
+      "displayName": "Pikachu",
+      "displayImage": "025-shiny-f.png",
+      "image": [
+        "025-normal-m.png",
+        "025-normal-f.png",
+        "025-shiny-f.png",
+        "025-shiny-m.png"
+      ],
+      "type1": "electric",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "025",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Raichu",
+      "formName": "",
+      "number": "026",
+      "natDexNumber": "0026",
+      "ref": "026.0_6001b56b-b7d2-4b52-be1b-2ac66fb96386",
+      "displayName": "Raichu",
+      "displayImage": "026-shiny-f.png",
+      "image": [
+        "026-normal-m.png",
+        "026-normal-f.png",
+        "026-shiny-f.png",
+        "026-shiny-m.png"
+      ],
+      "type1": "electric",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "026",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Sandshrew",
+      "formName": "",
+      "number": "027",
+      "natDexNumber": "0027",
+      "ref": "027.0_963a457d-005d-472c-a429-f2c6deba6e15",
+      "displayName": "Sandshrew",
+      "displayImage": "027-shiny-mf.png",
+      "image": [
+        "027-normal-mf.png",
+        "027-shiny-mf.png"
+      ],
+      "type1": "ground",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "027",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Pikachu Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Sandslash",
+      "formName": "",
+      "number": "028",
+      "natDexNumber": "0028",
+      "ref": "028.0_250f77f7-0da0-4eb7-b671-93fbb59b2e2c",
+      "displayName": "Sandslash",
+      "displayImage": "028-shiny-mf.png",
+      "image": [
+        "028-normal-mf.png",
+        "028-shiny-mf.png"
+      ],
+      "type1": "ground",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "028",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Pikachu Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Nidoran ♀",
+      "formName": "",
+      "number": "029",
+      "natDexNumber": "0029",
+      "ref": "029.0_5fa5b30e-bbf6-4f02-8bfb-372ccdb14402",
+      "displayName": "Nidoran ♀",
+      "displayImage": "029-shiny-mf.png",
+      "image": [
+        "029-normal-mf.png",
+        "029-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": null,
+      "forms": [],
+      "gender": "female",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "029",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Nidorina",
+      "formName": "",
+      "number": "030",
+      "natDexNumber": "0030",
+      "ref": "030.0_9ab1bf6e-e6f4-4358-8b0d-c3db5ffd7be3",
+      "displayName": "Nidorina",
+      "displayImage": "030-shiny-mf.png",
+      "image": [
+        "030-normal-mf.png",
+        "030-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": null,
+      "forms": [],
+      "gender": "female",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "030",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Nidoqueen",
+      "formName": "",
+      "number": "031",
+      "natDexNumber": "0031",
+      "ref": "031.0_d1b84372-712a-454f-b632-4cc636a72877",
+      "displayName": "Nidoqueen",
+      "displayImage": "031-shiny-mf.png",
+      "image": [
+        "031-normal-mf.png",
+        "031-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": "ground",
+      "forms": [],
+      "gender": "female",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "031",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Nidoran ♂",
+      "formName": "",
+      "number": "032",
+      "natDexNumber": "0032",
+      "ref": "032.0_a3afd689-cf9d-410c-8f25-dee7a9d53223",
+      "displayName": "Nidoran ♂",
+      "displayImage": "032-shiny-mf.png",
+      "image": [
+        "032-normal-mf.png",
+        "032-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": null,
+      "forms": [],
+      "gender": "male",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "032",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Nidorino",
+      "formName": "",
+      "number": "033",
+      "natDexNumber": "0033",
+      "ref": "033.0_f782f996-38e3-4c3d-8a18-e876c6eb46a1",
+      "displayName": "Nidorino",
+      "displayImage": "033-shiny-mf.png",
+      "image": [
+        "033-normal-mf.png",
+        "033-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": null,
+      "forms": [],
+      "gender": "male",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "033",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Nidoking",
+      "formName": "",
+      "number": "034",
+      "natDexNumber": "0034",
+      "ref": "034.0_3fd44881-1002-4064-82ea-85c64b9319d5",
+      "displayName": "Nidoking",
+      "displayImage": "034-shiny-mf.png",
+      "image": [
+        "034-normal-mf.png",
+        "034-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": "ground",
+      "forms": [],
+      "gender": "male",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "034",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Clefairy",
+      "formName": "",
+      "number": "035",
+      "natDexNumber": "0035",
+      "ref": "035.0_1719ae88-838a-4be7-8308-6d2ca4fbdca2",
+      "displayName": "Clefairy",
+      "displayImage": "035-shiny-mf.png",
+      "image": [
+        "035-normal-mf.png",
+        "035-shiny-mf.png"
+      ],
+      "type1": "fairy",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "035",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Clefable",
+      "formName": "",
+      "number": "036",
+      "natDexNumber": "0036",
+      "ref": "036.0_4376478f-67cd-4d7f-8930-f74eddd36a6c",
+      "displayName": "Clefable",
+      "displayImage": "036-shiny-mf.png",
+      "image": [
+        "036-normal-mf.png",
+        "036-shiny-mf.png"
+      ],
+      "type1": "fairy",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "036",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Vulpix",
+      "formName": "",
+      "number": "037",
+      "natDexNumber": "0037",
+      "ref": "037.0_d32192ca-2d07-4e68-bc87-876bf947ab76",
+      "displayName": "Vulpix",
+      "displayImage": "037-shiny-mf.png",
+      "image": [
+        "037-normal-mf.png",
+        "037-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "037",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Eevee Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Ninetales",
+      "formName": "",
+      "number": "038",
+      "natDexNumber": "0038",
+      "ref": "038.0_25317baa-11bd-4012-8cf1-978ba61c018e",
+      "displayName": "Ninetales",
+      "displayImage": "038-shiny-mf.png",
+      "image": [
+        "038-normal-mf.png",
+        "038-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "038",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Eevee Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Jigglypuff",
+      "formName": "",
+      "number": "039",
+      "natDexNumber": "0039",
+      "ref": "039.0_87f50724-9149-4376-9786-349f4d6c9acf",
+      "displayName": "Jigglypuff",
+      "displayImage": "039-shiny-mf.png",
+      "image": [
+        "039-normal-mf.png",
+        "039-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": "fairy",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "039",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Wigglytuff",
+      "formName": "",
+      "number": "040",
+      "natDexNumber": "0040",
+      "ref": "040.0_1dce6b26-e4b6-4b25-94fb-3a9403e2363c",
+      "displayName": "Wigglytuff",
+      "displayImage": "040-shiny-mf.png",
+      "image": [
+        "040-normal-mf.png",
+        "040-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": "fairy",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "040",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Zubat",
+      "formName": "",
+      "number": "041",
+      "natDexNumber": "0041",
+      "ref": "041.0_596d7556-2b65-41e4-890e-dd2e28648558",
+      "displayName": "Zubat",
+      "displayImage": "041-shiny-f.png",
+      "image": [
+        "041-normal-m.png",
+        "041-normal-f.png",
+        "041-shiny-f.png",
+        "041-shiny-m.png"
+      ],
+      "type1": "poison",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "041",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Golbat",
+      "formName": "",
+      "number": "042",
+      "natDexNumber": "0042",
+      "ref": "042.0_b5155da4-b0ed-4655-86b5-5fcff11932af",
+      "displayName": "Golbat",
+      "displayImage": "042-shiny-f.png",
+      "image": [
+        "042-normal-m.png",
+        "042-normal-f.png",
+        "042-shiny-f.png",
+        "042-shiny-m.png"
+      ],
+      "type1": "poison",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "042",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Oddish",
+      "formName": "",
+      "number": "043",
+      "natDexNumber": "0043",
+      "ref": "043.0_14531b0c-1969-4bdc-b3ab-ebfc7317adc5",
+      "displayName": "Oddish",
+      "displayImage": "043-shiny-mf.png",
+      "image": [
+        "043-normal-mf.png",
+        "043-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "043",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Pikachu Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gloom",
+      "formName": "",
+      "number": "044",
+      "natDexNumber": "0044",
+      "ref": "044.0_7ee4ba57-3057-43fd-a92f-5ecbac655b0d",
+      "displayName": "Gloom",
+      "displayImage": "044-shiny-f.png",
+      "image": [
+        "044-normal-m.png",
+        "044-normal-f.png",
+        "044-shiny-f.png",
+        "044-shiny-m.png"
+      ],
+      "type1": "grass",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "044",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Pikachu Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Vileplume",
+      "formName": "",
+      "number": "045",
+      "natDexNumber": "0045",
+      "ref": "045.0_a049c9ee-bcd0-4cdf-8d22-86a777f178d8",
+      "displayName": "Vileplume",
+      "displayImage": "045-shiny-f.png",
+      "image": [
+        "045-normal-m.png",
+        "045-normal-f.png",
+        "045-shiny-f.png",
+        "045-shiny-m.png"
+      ],
+      "type1": "grass",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "045",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Pikachu Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Paras",
+      "formName": "",
+      "number": "046",
+      "natDexNumber": "0046",
+      "ref": "046.0_5bb7e2d0-f993-4ccd-9ef0-b196100d9039",
+      "displayName": "Paras",
+      "displayImage": "046-shiny-mf.png",
+      "image": [
+        "046-normal-mf.png",
+        "046-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "grass",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "046",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Parasect",
+      "formName": "",
+      "number": "047",
+      "natDexNumber": "0047",
+      "ref": "047.0_f5e10e03-4e55-43b2-93b2-4b082155b76c",
+      "displayName": "Parasect",
+      "displayImage": "047-shiny-mf.png",
+      "image": [
+        "047-normal-mf.png",
+        "047-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "grass",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "047",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Venonat",
+      "formName": "",
+      "number": "048",
+      "natDexNumber": "0048",
+      "ref": "048.0_502bd95d-b74a-448b-a2a0-ebfde121322b",
+      "displayName": "Venonat",
+      "displayImage": "048-shiny-mf.png",
+      "image": [
+        "048-normal-mf.png",
+        "048-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "048",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Venomoth",
+      "formName": "",
+      "number": "049",
+      "natDexNumber": "0049",
+      "ref": "049.0_6ae5cf84-96f1-435c-89f6-550eaf113c9e",
+      "displayName": "Venomoth",
+      "displayImage": "049-shiny-mf.png",
+      "image": [
+        "049-normal-mf.png",
+        "049-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "049",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Diglett",
+      "formName": "",
+      "number": "050",
+      "natDexNumber": "0050",
+      "ref": "050.0_2a448cdd-619a-4273-872a-559ae8d7eeef",
+      "displayName": "Diglett",
+      "displayImage": "050-shiny-mf.png",
+      "image": [
+        "050-normal-mf.png",
+        "050-shiny-mf.png"
+      ],
+      "type1": "ground",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "050",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Dugtrio",
+      "formName": "",
+      "number": "051",
+      "natDexNumber": "0051",
+      "ref": "051.0_79489970-a33d-489c-aadd-8954a6dad7d2",
+      "displayName": "Dugtrio",
+      "displayImage": "051-shiny-mf.png",
+      "image": [
+        "051-normal-mf.png",
+        "051-shiny-mf.png"
+      ],
+      "type1": "ground",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "051",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Meowth",
+      "formName": "",
+      "number": "052",
+      "natDexNumber": "0052",
+      "ref": "052.0_6906d778-e053-42f2-a0b3-656008fb5f5b",
+      "displayName": "Meowth",
+      "displayImage": "052-shiny-mf.png",
+      "image": [
+        "052-normal-mf.png",
+        "052-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "052",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Eevee Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Persian",
+      "formName": "",
+      "number": "053",
+      "natDexNumber": "0053",
+      "ref": "053.0_ef8a28da-8d74-42b2-88ad-72f621db5541",
+      "displayName": "Persian",
+      "displayImage": "053-shiny-mf.png",
+      "image": [
+        "053-normal-mf.png",
+        "053-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "053",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Eevee Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Psyduck",
+      "formName": "",
+      "number": "054",
+      "natDexNumber": "0054",
+      "ref": "054.0_a2cc469f-7e59-4a6a-b8ca-e36e57a425ed",
+      "displayName": "Psyduck",
+      "displayImage": "054-shiny-mf.png",
+      "image": [
+        "054-normal-mf.png",
+        "054-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "054",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Golduck",
+      "formName": "",
+      "number": "055",
+      "natDexNumber": "0055",
+      "ref": "055.0_67e320fd-c39e-48ce-8518-1630ad605ff3",
+      "displayName": "Golduck",
+      "displayImage": "055-shiny-mf.png",
+      "image": [
+        "055-normal-mf.png",
+        "055-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "055",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Mankey",
+      "formName": "",
+      "number": "056",
+      "natDexNumber": "0056",
+      "ref": "056.0_6aa2b4ce-5a8e-4a22-a69e-04003803d5d8",
+      "displayName": "Mankey",
+      "displayImage": "056-shiny-mf.png",
+      "image": [
+        "056-normal-mf.png",
+        "056-shiny-mf.png"
+      ],
+      "type1": "fighting",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "056",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Pikachu Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Primeape",
+      "formName": "",
+      "number": "057",
+      "natDexNumber": "0057",
+      "ref": "057.0_d1c35605-64e8-4976-9b72-54836d136d42",
+      "displayName": "Primeape",
+      "displayImage": "057-shiny-mf.png",
+      "image": [
+        "057-normal-mf.png",
+        "057-shiny-mf.png"
+      ],
+      "type1": "fighting",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "057",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Pikachu Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Growlithe",
+      "formName": "",
+      "number": "058",
+      "natDexNumber": "0058",
+      "ref": "058.0_261c6001-21e2-46d1-832c-75d43f89ef4b",
+      "displayName": "Growlithe",
+      "displayImage": "058-shiny-mf.png",
+      "image": [
+        "058-normal-mf.png",
+        "058-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "058",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Pikachu Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Arcanine",
+      "formName": "",
+      "number": "059",
+      "natDexNumber": "0059",
+      "ref": "059.0_c0614f55-7c89-4104-b6ad-1f6bde8d31a0",
+      "displayName": "Arcanine",
+      "displayImage": "059-shiny-mf.png",
+      "image": [
+        "059-normal-mf.png",
+        "059-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "059",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Pikachu Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Poliwag",
+      "formName": "",
+      "number": "060",
+      "natDexNumber": "0060",
+      "ref": "060.0_ecd937e0-f666-4747-9214-b00a240ee78a",
+      "displayName": "Poliwag",
+      "displayImage": "060-shiny-mf.png",
+      "image": [
+        "060-normal-mf.png",
+        "060-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "060",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Poliwhirl",
+      "formName": "",
+      "number": "061",
+      "natDexNumber": "0061",
+      "ref": "061.0_f11a4e83-9cf1-4f9e-841e-a0b2c9c39cd6",
+      "displayName": "Poliwhirl",
+      "displayImage": "061-shiny-mf.png",
+      "image": [
+        "061-normal-mf.png",
+        "061-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "061",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Poliwrath",
+      "formName": "",
+      "number": "062",
+      "natDexNumber": "0062",
+      "ref": "062.0_9d19ad86-5361-49d6-8c25-50e4347416c7",
+      "displayName": "Poliwrath",
+      "displayImage": "062-shiny-mf.png",
+      "image": [
+        "062-normal-mf.png",
+        "062-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": "fighting",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "062",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Abra",
+      "formName": "",
+      "number": "063",
+      "natDexNumber": "0063",
+      "ref": "063.0_82a68ff2-e581-4fd2-9a26-027a7bbe3b88",
+      "displayName": "Abra",
+      "displayImage": "063-shiny-mf.png",
+      "image": [
+        "063-normal-mf.png",
+        "063-shiny-mf.png"
+      ],
+      "type1": "psychic",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "063",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Kadabra",
+      "formName": "",
+      "number": "064",
+      "natDexNumber": "0064",
+      "ref": "064.0_4e1dd80d-a084-43ed-9101-71b2dac647ab",
+      "displayName": "Kadabra",
+      "displayImage": "064-shiny-f.png",
+      "image": [
+        "064-normal-m.png",
+        "064-normal-f.png",
+        "064-shiny-f.png",
+        "064-shiny-m.png"
+      ],
+      "type1": "psychic",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "064",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alakazam",
+      "formName": "",
+      "number": "065",
+      "natDexNumber": "0065",
+      "ref": "065.0_bfc8a248-3f4a-4b6c-81d6-112d4f7880bd",
+      "displayName": "Alakazam",
+      "displayImage": "065-shiny-f.png",
+      "image": [
+        "065-normal-m.png",
+        "065-normal-f.png",
+        "065-shiny-f.png",
+        "065-shiny-m.png"
+      ],
+      "type1": "psychic",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "065",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Machop",
+      "formName": "",
+      "number": "066",
+      "natDexNumber": "0066",
+      "ref": "066.0_0bfd59a8-8799-48a6-8b63-08fb5e8f6c57",
+      "displayName": "Machop",
+      "displayImage": "066-shiny-mf.png",
+      "image": [
+        "066-normal-mf.png",
+        "066-shiny-mf.png"
+      ],
+      "type1": "fighting",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "066",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Machoke",
+      "formName": "",
+      "number": "067",
+      "natDexNumber": "0067",
+      "ref": "067.0_70d9b05f-a980-4762-ad77-351152753362",
+      "displayName": "Machoke",
+      "displayImage": "067-shiny-mf.png",
+      "image": [
+        "067-normal-mf.png",
+        "067-shiny-mf.png"
+      ],
+      "type1": "fighting",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "067",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Machamp",
+      "formName": "",
+      "number": "068",
+      "natDexNumber": "0068",
+      "ref": "068.0_d0934781-1d91-4d92-b8ae-34327280c309",
+      "displayName": "Machamp",
+      "displayImage": "068-shiny-mf.png",
+      "image": [
+        "068-normal-mf.png",
+        "068-shiny-mf.png"
+      ],
+      "type1": "fighting",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "068",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Bellsprout",
+      "formName": "",
+      "number": "069",
+      "natDexNumber": "0069",
+      "ref": "069.0_37c9def8-618b-4adb-a02c-1cdda89e323c",
+      "displayName": "Bellsprout",
+      "displayImage": "069-shiny-mf.png",
+      "image": [
+        "069-normal-mf.png",
+        "069-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "069",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Eevee Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Weepinbell",
+      "formName": "",
+      "number": "070",
+      "natDexNumber": "0070",
+      "ref": "070.0_984a5424-303d-44f9-b4d4-1312a6b19dc2",
+      "displayName": "Weepinbell",
+      "displayImage": "070-shiny-mf.png",
+      "image": [
+        "070-normal-mf.png",
+        "070-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "070",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Eevee Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Victreebel",
+      "formName": "",
+      "number": "071",
+      "natDexNumber": "0071",
+      "ref": "071.0_398db3b4-2cb9-4270-a4fa-3839d01fd814",
+      "displayName": "Victreebel",
+      "displayImage": "071-shiny-mf.png",
+      "image": [
+        "071-normal-mf.png",
+        "071-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "071",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Eevee Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Tentacool",
+      "formName": "",
+      "number": "072",
+      "natDexNumber": "0072",
+      "ref": "072.0_6606abf9-eb9b-4d2c-90b6-5a7e847392d9",
+      "displayName": "Tentacool",
+      "displayImage": "072-shiny-mf.png",
+      "image": [
+        "072-normal-mf.png",
+        "072-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "072",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Tentacruel",
+      "formName": "",
+      "number": "073",
+      "natDexNumber": "0073",
+      "ref": "073.0_b895d54e-56a0-4b81-a169-af4b9dcfe8ca",
+      "displayName": "Tentacruel",
+      "displayImage": "073-shiny-mf.png",
+      "image": [
+        "073-normal-mf.png",
+        "073-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "073",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Geodude",
+      "formName": "",
+      "number": "074",
+      "natDexNumber": "0074",
+      "ref": "074.0_ca2baed4-0d68-487f-82ef-ed492a405ade",
+      "displayName": "Geodude",
+      "displayImage": "074-shiny-mf.png",
+      "image": [
+        "074-normal-mf.png",
+        "074-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "ground",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "074",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Graveler",
+      "formName": "",
+      "number": "075",
+      "natDexNumber": "0075",
+      "ref": "075.0_8b74fbd8-db8c-4c3f-8b59-773045ef1e82",
+      "displayName": "Graveler",
+      "displayImage": "075-shiny-mf.png",
+      "image": [
+        "075-normal-mf.png",
+        "075-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "ground",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "075",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Golem",
+      "formName": "",
+      "number": "076",
+      "natDexNumber": "0076",
+      "ref": "076.0_37aa816f-46da-4e6f-8265-c575cd07d7fe",
+      "displayName": "Golem",
+      "displayImage": "076-shiny-mf.png",
+      "image": [
+        "076-normal-mf.png",
+        "076-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "ground",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "076",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Ponyta",
+      "formName": "",
+      "number": "077",
+      "natDexNumber": "0077",
+      "ref": "077.0_7e9f30cf-8e66-40ee-925b-e8e790391fd0",
+      "displayName": "Ponyta",
+      "displayImage": "077-shiny-mf.png",
+      "image": [
+        "077-normal-mf.png",
+        "077-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "077",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Rapidash",
+      "formName": "",
+      "number": "078",
+      "natDexNumber": "0078",
+      "ref": "078.0_2e776d89-999a-4353-8b53-366c87d71e8e",
+      "displayName": "Rapidash",
+      "displayImage": "078-shiny-mf.png",
+      "image": [
+        "078-normal-mf.png",
+        "078-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "078",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Slowpoke",
+      "formName": "",
+      "number": "079",
+      "natDexNumber": "0079",
+      "ref": "079.0_06af8cf1-d125-4d55-ab08-2e56af10a99e",
+      "displayName": "Slowpoke",
+      "displayImage": "079-shiny-mf.png",
+      "image": [
+        "079-normal-mf.png",
+        "079-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": "psychic",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "079",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Slowbro",
+      "formName": "",
+      "number": "080",
+      "natDexNumber": "0080",
+      "ref": "080.0_90476391-9a65-4850-8e87-7df1c48c1fe1",
+      "displayName": "Slowbro",
+      "displayImage": "080-shiny-mf.png",
+      "image": [
+        "080-normal-mf.png",
+        "080-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": "psychic",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "080",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Magnemite",
+      "formName": "",
+      "number": "081",
+      "natDexNumber": "0081",
+      "ref": "081.0_89763574-7791-4a81-b1d1-7465aa58449b",
+      "displayName": "Magnemite",
+      "displayImage": "081-shiny-g.png",
+      "image": [
+        "081-normal-g.png",
+        "081-shiny-g.png"
+      ],
+      "type1": "electric",
+      "type2": "steel",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "081",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Magneton",
+      "formName": "",
+      "number": "082",
+      "natDexNumber": "0082",
+      "ref": "082.0_61fc9447-37a0-4ea3-96a4-03ba2786d3a9",
+      "displayName": "Magneton",
+      "displayImage": "082-shiny-g.png",
+      "image": [
+        "082-normal-g.png",
+        "082-shiny-g.png"
+      ],
+      "type1": "electric",
+      "type2": "steel",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "082",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Farfetch'd",
+      "formName": "",
+      "number": "083",
+      "natDexNumber": "0083",
+      "ref": "083.0_81928268-ef01-48ff-a59f-acc9ead80ab9",
+      "displayName": "Farfetch'd",
+      "displayImage": "083-shiny-mf.png",
+      "image": [
+        "083-normal-mf.png",
+        "083-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "083",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Doduo",
+      "formName": "",
+      "number": "084",
+      "natDexNumber": "0084",
+      "ref": "084.0_25450b16-d37c-4252-b7e8-a0a87088003f",
+      "displayName": "Doduo",
+      "displayImage": "084-shiny-f.png",
+      "image": [
+        "084-normal-m.png",
+        "084-normal-f.png",
+        "084-shiny-f.png",
+        "084-shiny-m.png"
+      ],
+      "type1": "normal",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "084",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Dodrio",
+      "formName": "",
+      "number": "085",
+      "natDexNumber": "0085",
+      "ref": "085.0_d55ab25d-af12-410b-941b-13beb072aea4",
+      "displayName": "Dodrio",
+      "displayImage": "085-shiny-f.png",
+      "image": [
+        "085-normal-m.png",
+        "085-normal-f.png",
+        "085-shiny-f.png",
+        "085-shiny-m.png"
+      ],
+      "type1": "normal",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "085",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Seel",
+      "formName": "",
+      "number": "086",
+      "natDexNumber": "0086",
+      "ref": "086.0_9e52ba1e-737a-4e38-8199-9b4b42a8b740",
+      "displayName": "Seel",
+      "displayImage": "086-shiny-mf.png",
+      "image": [
+        "086-normal-mf.png",
+        "086-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "086",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Dewgong",
+      "formName": "",
+      "number": "087",
+      "natDexNumber": "0087",
+      "ref": "087.0_7a799b6b-5211-4b09-be8c-0bee102801ce",
+      "displayName": "Dewgong",
+      "displayImage": "087-shiny-mf.png",
+      "image": [
+        "087-normal-mf.png",
+        "087-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": "ice",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "087",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Grimer",
+      "formName": "",
+      "number": "088",
+      "natDexNumber": "0088",
+      "ref": "088.0_11b4e183-3721-41d7-873a-e1a37528edf4",
+      "displayName": "Grimer",
+      "displayImage": "088-shiny-mf.png",
+      "image": [
+        "088-normal-mf.png",
+        "088-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "088",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Pikachu Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Muk",
+      "formName": "",
+      "number": "089",
+      "natDexNumber": "0089",
+      "ref": "089.0_f8e6e6a2-5dce-4f60-9177-a193c53ae450",
+      "displayName": "Muk",
+      "displayImage": "089-shiny-mf.png",
+      "image": [
+        "089-normal-mf.png",
+        "089-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "089",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Pikachu Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Shellder",
+      "formName": "",
+      "number": "090",
+      "natDexNumber": "0090",
+      "ref": "090.0_7a900778-1e03-4f58-90bd-bda992f5aefd",
+      "displayName": "Shellder",
+      "displayImage": "090-shiny-mf.png",
+      "image": [
+        "090-normal-mf.png",
+        "090-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "090",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Cloyster",
+      "formName": "",
+      "number": "091",
+      "natDexNumber": "0091",
+      "ref": "091.0_7446d9ff-dc1c-432e-ab51-0f2b10b687a1",
+      "displayName": "Cloyster",
+      "displayImage": "091-shiny-mf.png",
+      "image": [
+        "091-normal-mf.png",
+        "091-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": "ice",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "091",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gastly",
+      "formName": "",
+      "number": "092",
+      "natDexNumber": "0092",
+      "ref": "092.0_236616d9-dab0-4829-9c74-0be923eb0efd",
+      "displayName": "Gastly",
+      "displayImage": "092-shiny-mf.png",
+      "image": [
+        "092-normal-mf.png",
+        "092-shiny-mf.png"
+      ],
+      "type1": "ghost",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "092",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Haunter",
+      "formName": "",
+      "number": "093",
+      "natDexNumber": "0093",
+      "ref": "093.0_2807fc84-825a-4725-b6da-644987219893",
+      "displayName": "Haunter",
+      "displayImage": "093-shiny-mf.png",
+      "image": [
+        "093-normal-mf.png",
+        "093-shiny-mf.png"
+      ],
+      "type1": "ghost",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "093",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gengar",
+      "formName": "",
+      "number": "094",
+      "natDexNumber": "0094",
+      "ref": "094.0_2f23c5fc-937e-4f2a-adbf-92f62b3dee46",
+      "displayName": "Gengar",
+      "displayImage": "094-shiny-mf.png",
+      "image": [
+        "094-normal-mf.png",
+        "094-shiny-mf.png"
+      ],
+      "type1": "ghost",
+      "type2": "poison",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "094",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Onix",
+      "formName": "",
+      "number": "095",
+      "natDexNumber": "0095",
+      "ref": "095.0_def73f8f-c16e-40bc-a9c2-c8bc1653c928",
+      "displayName": "Onix",
+      "displayImage": "095-shiny-mf.png",
+      "image": [
+        "095-normal-mf.png",
+        "095-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "ground",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "095",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Drowzee",
+      "formName": "",
+      "number": "096",
+      "natDexNumber": "0096",
+      "ref": "096.0_50a2d195-fca2-458f-8184-543c85172285",
+      "displayName": "Drowzee",
+      "displayImage": "096-shiny-mf.png",
+      "image": [
+        "096-normal-mf.png",
+        "096-shiny-mf.png"
+      ],
+      "type1": "psychic",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "096",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Hypno",
+      "formName": "",
+      "number": "097",
+      "natDexNumber": "0097",
+      "ref": "097.0_87c62257-6851-4a91-bb11-fc07926a175d",
+      "displayName": "Hypno",
+      "displayImage": "097-shiny-f.png",
+      "image": [
+        "097-normal-m.png",
+        "097-normal-f.png",
+        "097-shiny-f.png",
+        "097-shiny-m.png"
+      ],
+      "type1": "psychic",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "097",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Krabby",
+      "formName": "",
+      "number": "098",
+      "natDexNumber": "0098",
+      "ref": "098.0_fca8746b-cf87-4d5b-94a3-769fb86f55ac",
+      "displayName": "Krabby",
+      "displayImage": "098-shiny-mf.png",
+      "image": [
+        "098-normal-mf.png",
+        "098-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "098",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Kingler",
+      "formName": "",
+      "number": "099",
+      "natDexNumber": "0099",
+      "ref": "099.0_769baf17-ec0a-4c20-be9d-18ce7a14eb1d",
+      "displayName": "Kingler",
+      "displayImage": "099-shiny-mf.png",
+      "image": [
+        "099-normal-mf.png",
+        "099-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "099",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Voltorb",
+      "formName": "",
+      "number": "100",
+      "natDexNumber": "0100",
+      "ref": "100.0_15998643-28e3-4df9-b058-0c7a649af69e",
+      "displayName": "Voltorb",
+      "displayImage": "100-shiny-g.png",
+      "image": [
+        "100-normal-g.png",
+        "100-shiny-g.png"
+      ],
+      "type1": "electric",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "100",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Electrode",
+      "formName": "",
+      "number": "101",
+      "natDexNumber": "0101",
+      "ref": "101.0_37f25e03-a42c-4ff9-8fac-713a66f2915e",
+      "displayName": "Electrode",
+      "displayImage": "101-shiny-g.png",
+      "image": [
+        "101-normal-g.png",
+        "101-shiny-g.png"
+      ],
+      "type1": "electric",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "101",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Exeggcute",
+      "formName": "",
+      "number": "102",
+      "natDexNumber": "0102",
+      "ref": "102.0_5a6ffc87-5a7f-4eb2-a00e-02358d66844d",
+      "displayName": "Exeggcute",
+      "displayImage": "102-shiny-mf.png",
+      "image": [
+        "102-normal-mf.png",
+        "102-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": "psychic",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "102",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Exeggutor",
+      "formName": "",
+      "number": "103",
+      "natDexNumber": "0103",
+      "ref": "103.0_8b70ac95-0fae-4386-af31-7185650852f0",
+      "displayName": "Exeggutor",
+      "displayImage": "103-shiny-mf.png",
+      "image": [
+        "103-normal-mf.png",
+        "103-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": "psychic",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "103",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Cubone",
+      "formName": "",
+      "number": "104",
+      "natDexNumber": "0104",
+      "ref": "104.0_0be5fadd-86e4-4113-bb91-75fd51f0f4b2",
+      "displayName": "Cubone",
+      "displayImage": "104-shiny-mf.png",
+      "image": [
+        "104-normal-mf.png",
+        "104-shiny-mf.png"
+      ],
+      "type1": "ground",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "104",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Marowak",
+      "formName": "",
+      "number": "105",
+      "natDexNumber": "0105",
+      "ref": "105.0_8c1114be-ae56-4f1e-aaed-c88a326aa243",
+      "displayName": "Marowak",
+      "displayImage": "105-shiny-mf.png",
+      "image": [
+        "105-normal-mf.png",
+        "105-shiny-mf.png"
+      ],
+      "type1": "ground",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "105",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Hitmonlee",
+      "formName": "",
+      "number": "106",
+      "natDexNumber": "0106",
+      "ref": "106.0_8b7e84c0-7297-48b2-891d-29ccbbe46def",
+      "displayName": "Hitmonlee",
+      "displayImage": "106-shiny-mf.png",
+      "image": [
+        "106-normal-mf.png",
+        "106-shiny-mf.png"
+      ],
+      "type1": "fighting",
+      "type2": null,
+      "forms": [],
+      "gender": "male",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "106",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Hitmonchan",
+      "formName": "",
+      "number": "107",
+      "natDexNumber": "0107",
+      "ref": "107.0_8598a550-fa0a-415a-a778-a5efdf2b141d",
+      "displayName": "Hitmonchan",
+      "displayImage": "107-shiny-mf.png",
+      "image": [
+        "107-normal-mf.png",
+        "107-shiny-mf.png"
+      ],
+      "type1": "fighting",
+      "type2": null,
+      "forms": [],
+      "gender": "male",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "107",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Lickitung",
+      "formName": "",
+      "number": "108",
+      "natDexNumber": "0108",
+      "ref": "108.0_f88cd603-1bc5-4078-96c5-c6895b92278f",
+      "displayName": "Lickitung",
+      "displayImage": "108-shiny-mf.png",
+      "image": [
+        "108-normal-mf.png",
+        "108-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "108",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Koffing",
+      "formName": "",
+      "number": "109",
+      "natDexNumber": "0109",
+      "ref": "109.0_f7b12a37-9f5f-4368-aa48-8edb60ae319e",
+      "displayName": "Koffing",
+      "displayImage": "109-shiny-mf.png",
+      "image": [
+        "109-normal-mf.png",
+        "109-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "109",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Eevee Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Weezing",
+      "formName": "",
+      "number": "110",
+      "natDexNumber": "0110",
+      "ref": "110.0_3dc3906e-1ade-49b0-8f4c-e34bc9d3975c",
+      "displayName": "Weezing",
+      "displayImage": "110-shiny-mf.png",
+      "image": [
+        "110-normal-mf.png",
+        "110-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "110",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Eevee Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Rhyhorn",
+      "formName": "",
+      "number": "111",
+      "natDexNumber": "0111",
+      "ref": "111.0_13b4c945-04ec-41c7-bffc-d8798f7a6336",
+      "displayName": "Rhyhorn",
+      "displayImage": "111-shiny-f.png",
+      "image": [
+        "111-normal-m.png",
+        "111-normal-f.png",
+        "111-shiny-f.png",
+        "111-shiny-m.png"
+      ],
+      "type1": "ground",
+      "type2": "rock",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "111",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Rhydon",
+      "formName": "",
+      "number": "112",
+      "natDexNumber": "0112",
+      "ref": "112.0_0394eaa0-488a-444f-84b3-543b5b1c8037",
+      "displayName": "Rhydon",
+      "displayImage": "112-shiny-f.png",
+      "image": [
+        "112-normal-m.png",
+        "112-normal-f.png",
+        "112-shiny-f.png",
+        "112-shiny-m.png"
+      ],
+      "type1": "ground",
+      "type2": "rock",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "112",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Chansey",
+      "formName": "",
+      "number": "113",
+      "natDexNumber": "0113",
+      "ref": "113.0_a1d28dcd-826a-4400-be7e-4f0b4afae13d",
+      "displayName": "Chansey",
+      "displayImage": "113-shiny-mf.png",
+      "image": [
+        "113-normal-mf.png",
+        "113-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "female",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "113",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Tangela",
+      "formName": "",
+      "number": "114",
+      "natDexNumber": "0114",
+      "ref": "114.0_6bff7cf3-d2cb-4ac4-a903-d345469c6de3",
+      "displayName": "Tangela",
+      "displayImage": "114-shiny-mf.png",
+      "image": [
+        "114-normal-mf.png",
+        "114-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "114",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Kangaskhan",
+      "formName": "",
+      "number": "115",
+      "natDexNumber": "0115",
+      "ref": "115.0_459e4f56-70da-4243-af6a-0b119a900575",
+      "displayName": "Kangaskhan",
+      "displayImage": "115-shiny-mf.png",
+      "image": [
+        "115-normal-mf.png",
+        "115-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "female",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "115",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Horsea",
+      "formName": "",
+      "number": "116",
+      "natDexNumber": "0116",
+      "ref": "116.0_10989846-921c-433b-a216-7abd0053e467",
+      "displayName": "Horsea",
+      "displayImage": "116-shiny-mf.png",
+      "image": [
+        "116-normal-mf.png",
+        "116-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "116",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Seadra",
+      "formName": "",
+      "number": "117",
+      "natDexNumber": "0117",
+      "ref": "117.0_eae80be0-a89b-40e6-bd03-339dcb390bb8",
+      "displayName": "Seadra",
+      "displayImage": "117-shiny-mf.png",
+      "image": [
+        "117-normal-mf.png",
+        "117-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "117",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Goldeen",
+      "formName": "",
+      "number": "118",
+      "natDexNumber": "0118",
+      "ref": "118.0_851ac0ab-ace3-45ae-a8bf-6af44af0d938",
+      "displayName": "Goldeen",
+      "displayImage": "118-shiny-f.png",
+      "image": [
+        "118-normal-m.png",
+        "118-normal-f.png",
+        "118-shiny-f.png",
+        "118-shiny-m.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "118",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Seaking",
+      "formName": "",
+      "number": "119",
+      "natDexNumber": "0119",
+      "ref": "119.0_55c017b0-f78d-41eb-8d16-9929b0341f74",
+      "displayName": "Seaking",
+      "displayImage": "119-shiny-f.png",
+      "image": [
+        "119-normal-m.png",
+        "119-normal-f.png",
+        "119-shiny-f.png",
+        "119-shiny-m.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "119",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Staryu",
+      "formName": "",
+      "number": "120",
+      "natDexNumber": "0120",
+      "ref": "120.0_9f8a92c1-90ce-4427-9aae-373c9b8857ca",
+      "displayName": "Staryu",
+      "displayImage": "120-shiny-g.png",
+      "image": [
+        "120-normal-g.png",
+        "120-shiny-g.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "120",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Starmie",
+      "formName": "",
+      "number": "121",
+      "natDexNumber": "0121",
+      "ref": "121.0_5ec45b63-8e18-414b-af4e-f80519ce32fb",
+      "displayName": "Starmie",
+      "displayImage": "121-shiny-g.png",
+      "image": [
+        "121-normal-g.png",
+        "121-shiny-g.png"
+      ],
+      "type1": "water",
+      "type2": "psychic",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "121",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Mr. Mime",
+      "formName": "",
+      "number": "122",
+      "natDexNumber": "0122",
+      "ref": "122.0_175adecd-2a7d-4c03-a657-df34922b46c1",
+      "displayName": "Mr. Mime",
+      "displayImage": "122-shiny-mf.png",
+      "image": [
+        "122-normal-mf.png",
+        "122-shiny-mf.png"
+      ],
+      "type1": "psychic",
+      "type2": "fairy",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "122",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Scyther",
+      "formName": "",
+      "number": "123",
+      "natDexNumber": "0123",
+      "ref": "123.0_f83b4a43-804e-411b-a18a-9f9c731b587d",
+      "displayName": "Scyther",
+      "displayImage": "123-shiny-f.png",
+      "image": [
+        "123-normal-m.png",
+        "123-normal-f.png",
+        "123-shiny-f.png",
+        "123-shiny-m.png"
+      ],
+      "type1": "bug",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "123",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Pikachu Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Jynx",
+      "formName": "",
+      "number": "124",
+      "natDexNumber": "0124",
+      "ref": "124.0_55cafb43-34e9-4031-8bfc-d7edd8b33642",
+      "displayName": "Jynx",
+      "displayImage": "124-shiny-mf.png",
+      "image": [
+        "124-normal-mf.png",
+        "124-shiny-mf.png"
+      ],
+      "type1": "ice",
+      "type2": "psychic",
+      "forms": [],
+      "gender": "female",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "124",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Electabuzz",
+      "formName": "",
+      "number": "125",
+      "natDexNumber": "0125",
+      "ref": "125.0_a1330f2f-cc20-4769-8574-6fa13b5385e5",
+      "displayName": "Electabuzz",
+      "displayImage": "125-shiny-mf.png",
+      "image": [
+        "125-normal-mf.png",
+        "125-shiny-mf.png"
+      ],
+      "type1": "electric",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "125",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Magmar",
+      "formName": "",
+      "number": "126",
+      "natDexNumber": "0126",
+      "ref": "126.0_291904f3-d40a-4af4-bd62-abedf7e7dea3",
+      "displayName": "Magmar",
+      "displayImage": "126-shiny-mf.png",
+      "image": [
+        "126-normal-mf.png",
+        "126-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "126",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Pinsir",
+      "formName": "",
+      "number": "127",
+      "natDexNumber": "0127",
+      "ref": "127.0_3ad31124-5a6a-467f-9c0e-9d4e0b04a5e6",
+      "displayName": "Pinsir",
+      "displayImage": "127-shiny-mf.png",
+      "image": [
+        "127-normal-mf.png",
+        "127-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "127",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Eevee Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Tauros",
+      "formName": "",
+      "number": "128",
+      "natDexNumber": "0128",
+      "ref": "128.0_7569331c-125a-4f2d-afbc-bb0553b0cda8",
+      "displayName": "Tauros",
+      "displayImage": "128-shiny-mf.png",
+      "image": [
+        "128-normal-mf.png",
+        "128-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "male",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "128",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Magikarp",
+      "formName": "",
+      "number": "129",
+      "natDexNumber": "0129",
+      "ref": "129.0_7794e4e6-4c69-4ac7-bf9b-6dd02cae66ee",
+      "displayName": "Magikarp",
+      "displayImage": "129-shiny-f.png",
+      "image": [
+        "129-normal-m.png",
+        "129-normal-f.png",
+        "129-shiny-f.png",
+        "129-shiny-m.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "129",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Gyarados",
+      "formName": "",
+      "number": "130",
+      "natDexNumber": "0130",
+      "ref": "130.0_d47e0568-2e11-42b8-8288-42b2292419ec",
+      "displayName": "Gyarados",
+      "displayImage": "130-shiny-f.png",
+      "image": [
+        "130-normal-m.png",
+        "130-normal-f.png",
+        "130-shiny-f.png",
+        "130-shiny-m.png"
+      ],
+      "type1": "water",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "130",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Lapras",
+      "formName": "",
+      "number": "131",
+      "natDexNumber": "0131",
+      "ref": "131.0_ba45b3ff-4c18-4b31-9950-609f95cda518",
+      "displayName": "Lapras",
+      "displayImage": "131-shiny-mf.png",
+      "image": [
+        "131-normal-mf.png",
+        "131-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": "ice",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "131",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Ditto",
+      "formName": "",
+      "number": "132",
+      "natDexNumber": "0132",
+      "ref": "132.0_77ca63aa-c441-4605-a4a7-78495c2b0e4c",
+      "displayName": "Ditto",
+      "displayImage": "132-shiny-g.png",
+      "image": [
+        "132-normal-g.png",
+        "132-shiny-g.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "132",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Eevee",
+      "formName": "",
+      "number": "133",
+      "natDexNumber": "0133",
+      "ref": "133.0_0ffb6e05-c670-4f38-9742-668ebec9da56",
+      "displayName": "Eevee",
+      "displayImage": "133-shiny-f.png",
+      "image": [
+        "133-normal-m.png",
+        "133-normal-f.png",
+        "133-shiny-f.png",
+        "133-shiny-m.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "133",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Vaporeon",
+      "formName": "",
+      "number": "134",
+      "natDexNumber": "0134",
+      "ref": "134.0_9455706c-bf5d-442d-97d8-ee2005d25b83",
+      "displayName": "Vaporeon",
+      "displayImage": "134-shiny-mf.png",
+      "image": [
+        "134-normal-mf.png",
+        "134-shiny-mf.png"
+      ],
+      "type1": "water",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "134",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Jolteon",
+      "formName": "",
+      "number": "135",
+      "natDexNumber": "0135",
+      "ref": "135.0_f97595dd-62f2-4962-85d2-fe6b272dcd88",
+      "displayName": "Jolteon",
+      "displayImage": "135-shiny-mf.png",
+      "image": [
+        "135-normal-mf.png",
+        "135-shiny-mf.png"
+      ],
+      "type1": "electric",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "135",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Flareon",
+      "formName": "",
+      "number": "136",
+      "natDexNumber": "0136",
+      "ref": "136.0_ac89e6b6-9fb8-4fd5-8c98-56a040be777b",
+      "displayName": "Flareon",
+      "displayImage": "136-shiny-mf.png",
+      "image": [
+        "136-normal-mf.png",
+        "136-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "136",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Porygon",
+      "formName": "",
+      "number": "137",
+      "natDexNumber": "0137",
+      "ref": "137.0_88f93d12-3a80-489b-958f-ad6d69997f75",
+      "displayName": "Porygon",
+      "displayImage": "137-shiny-g.png",
+      "image": [
+        "137-normal-g.png",
+        "137-shiny-g.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "137",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Omanyte",
+      "formName": "",
+      "number": "138",
+      "natDexNumber": "0138",
+      "ref": "138.0_8a9a789b-b679-4efa-a6b6-de9aa07a6ac9",
+      "displayName": "Omanyte",
+      "displayImage": "138-shiny-mf.png",
+      "image": [
+        "138-normal-mf.png",
+        "138-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "water",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "138",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Omastar",
+      "formName": "",
+      "number": "139",
+      "natDexNumber": "0139",
+      "ref": "139.0_3aa3e051-c18a-4e56-9f89-b917f24a67df",
+      "displayName": "Omastar",
+      "displayImage": "139-shiny-mf.png",
+      "image": [
+        "139-normal-mf.png",
+        "139-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "water",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "139",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Kabuto",
+      "formName": "",
+      "number": "140",
+      "natDexNumber": "0140",
+      "ref": "140.0_00bf6e0e-9b8e-4556-aa75-dc7ba291eefc",
+      "displayName": "Kabuto",
+      "displayImage": "140-shiny-mf.png",
+      "image": [
+        "140-normal-mf.png",
+        "140-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "water",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "140",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Kabutops",
+      "formName": "",
+      "number": "141",
+      "natDexNumber": "0141",
+      "ref": "141.0_31aa476c-4a0d-484e-8738-b3db18264823",
+      "displayName": "Kabutops",
+      "displayImage": "141-shiny-mf.png",
+      "image": [
+        "141-normal-mf.png",
+        "141-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "water",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "141",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Aerodactyl",
+      "formName": "",
+      "number": "142",
+      "natDexNumber": "0142",
+      "ref": "142.0_f49462aa-6d0e-4485-a4dc-d6ac0d3013c0",
+      "displayName": "Aerodactyl",
+      "displayImage": "142-shiny-mf.png",
+      "image": [
+        "142-normal-mf.png",
+        "142-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "142",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Snorlax",
+      "formName": "",
+      "number": "143",
+      "natDexNumber": "0143",
+      "ref": "143.0_f0f98fd9-cdce-4fc3-b5f1-b7b1f8b69c52",
+      "displayName": "Snorlax",
+      "displayImage": "143-shiny-mf.png",
+      "image": [
+        "143-normal-mf.png",
+        "143-shiny-mf.png"
+      ],
+      "type1": "normal",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "143",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Articuno",
+      "formName": "",
+      "number": "144",
+      "natDexNumber": "0144",
+      "ref": "144.0_dc3aa19f-86e6-42a4-a1d7-a06e26b2ec90",
+      "displayName": "Articuno",
+      "displayImage": "144-shiny-g.png",
+      "image": [
+        "144-normal-g.png",
+        "144-shiny-g.png"
+      ],
+      "type1": "ice",
+      "type2": "flying",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "144",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Zapdos",
+      "formName": "",
+      "number": "145",
+      "natDexNumber": "0145",
+      "ref": "145.0_4b994df7-b14e-45b3-ab52-254db454cdcf",
+      "displayName": "Zapdos",
+      "displayImage": "145-shiny-g.png",
+      "image": [
+        "145-normal-g.png",
+        "145-shiny-g.png"
+      ],
+      "type1": "electric",
+      "type2": "flying",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "145",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Moltres",
+      "formName": "",
+      "number": "146",
+      "natDexNumber": "0146",
+      "ref": "146.0_0d4239fe-6031-42e3-b46e-3bbf5463d314",
+      "displayName": "Moltres",
+      "displayImage": "146-shiny-g.png",
+      "image": [
+        "146-normal-g.png",
+        "146-shiny-g.png"
+      ],
+      "type1": "fire",
+      "type2": "flying",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "146",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Dratini",
+      "formName": "",
+      "number": "147",
+      "natDexNumber": "0147",
+      "ref": "147.0_67991bce-9151-4d7a-aa59-009f0d13f76f",
+      "displayName": "Dratini",
+      "displayImage": "147-shiny-mf.png",
+      "image": [
+        "147-normal-mf.png",
+        "147-shiny-mf.png"
+      ],
+      "type1": "dragon",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "147",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Dragonair",
+      "formName": "",
+      "number": "148",
+      "natDexNumber": "0148",
+      "ref": "148.0_1fadbe53-1e4f-4fd7-9125-458f68330acf",
+      "displayName": "Dragonair",
+      "displayImage": "148-shiny-mf.png",
+      "image": [
+        "148-normal-mf.png",
+        "148-shiny-mf.png"
+      ],
+      "type1": "dragon",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "148",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Dragonite",
+      "formName": "",
+      "number": "149",
+      "natDexNumber": "0149",
+      "ref": "149.0_d0ffbaec-7fd1-4df7-8840-49d4bf837465",
+      "displayName": "Dragonite",
+      "displayImage": "149-shiny-mf.png",
+      "image": [
+        "149-normal-mf.png",
+        "149-shiny-mf.png"
+      ],
+      "type1": "dragon",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "149",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Mewtwo",
+      "formName": "",
+      "number": "150",
+      "natDexNumber": "0150",
+      "ref": "150.0_e081c74e-3f21-472e-8424-dfcc0ef49353",
+      "displayName": "Mewtwo",
+      "displayImage": "150-shiny-g.png",
+      "image": [
+        "150-normal-g.png",
+        "150-shiny-g.png"
+      ],
+      "type1": "psychic",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_6799412b-d14b-45f6-8355-3eb56b9ee21d",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "150",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    }
+  ]
+}

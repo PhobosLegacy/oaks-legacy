@@ -1,0 +1,712 @@
+{
+  "name": "Scarlet-Vivillons-Shiny",
+  "ref": "t_decd9c05-c188-4349-a820-e993180bdf4b",
+  "game": "Pokemon Scarlet",
+  "dex": "Vivillons",
+  "type": "Shiny",
+  "pokemons": [
+    {
+      "name": "Vivillon",
+      "formName": "Icy Snow Pattern",
+      "number": "",
+      "natDexNumber": "0666",
+      "ref": "666.0_bb0c71e6-0e02-44dc-b5a9-ed85b18e4208",
+      "displayName": "Icy Snow Pattern",
+      "displayImage": "666-001-shiny-mf.png",
+      "image": [
+        "666-001-normal-mf.png",
+        "666-001-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_decd9c05-c188-4349-a820-e993180bdf4b",
+      "currentLocation": "Pokemon Scarlet",
+      "originalLocation": "Pokemon Scarlet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Scarlet",
+        "dex": "Vivillons",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Vivillon",
+      "formName": "Polar Pattern",
+      "number": "",
+      "natDexNumber": "0666",
+      "ref": "666.1_19f8c15b-82ab-4891-a50d-706d0d858ce9",
+      "displayName": "Polar Pattern",
+      "displayImage": "666-002-shiny-mf.png",
+      "image": [
+        "666-002-normal-mf.png",
+        "666-002-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_decd9c05-c188-4349-a820-e993180bdf4b",
+      "currentLocation": "Pokemon Scarlet",
+      "originalLocation": "Pokemon Scarlet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Scarlet",
+        "dex": "Vivillons",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Vivillon",
+      "formName": "Tundra Pattern",
+      "number": "",
+      "natDexNumber": "0666",
+      "ref": "666.2_ce945b25-606a-4fe5-9812-9cf8dfa03eff",
+      "displayName": "Tundra Pattern",
+      "displayImage": "666-003-shiny-mf.png",
+      "image": [
+        "666-003-normal-mf.png",
+        "666-003-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_decd9c05-c188-4349-a820-e993180bdf4b",
+      "currentLocation": "Pokemon Scarlet",
+      "originalLocation": "Pokemon Scarlet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Scarlet",
+        "dex": "Vivillons",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Vivillon",
+      "formName": "Continental Pattern",
+      "number": "",
+      "natDexNumber": "0666",
+      "ref": "666.3_97fd7805-6195-421f-bf6c-b9a90610ad3f",
+      "displayName": "Continental Pattern",
+      "displayImage": "666-004-shiny-mf.png",
+      "image": [
+        "666-004-normal-mf.png",
+        "666-004-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_decd9c05-c188-4349-a820-e993180bdf4b",
+      "currentLocation": "Pokemon Scarlet",
+      "originalLocation": "Pokemon Scarlet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Scarlet",
+        "dex": "Vivillons",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Vivillon",
+      "formName": "Garden Pattern",
+      "number": "",
+      "natDexNumber": "0666",
+      "ref": "666.4_8792c241-f62e-497d-b8ee-484989eda6ae",
+      "displayName": "Garden Pattern",
+      "displayImage": "666-005-shiny-mf.png",
+      "image": [
+        "666-005-normal-mf.png",
+        "666-005-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_decd9c05-c188-4349-a820-e993180bdf4b",
+      "currentLocation": "Pokemon Scarlet",
+      "originalLocation": "Pokemon Scarlet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Scarlet",
+        "dex": "Vivillons",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Vivillon",
+      "formName": "Elegant Pattern",
+      "number": "",
+      "natDexNumber": "0666",
+      "ref": "666.5_fa0e7dad-65de-40ee-9783-17fed280c796",
+      "displayName": "Elegant Pattern",
+      "displayImage": "666-006-shiny-mf.png",
+      "image": [
+        "666-006-normal-mf.png",
+        "666-006-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_decd9c05-c188-4349-a820-e993180bdf4b",
+      "currentLocation": "Pokemon Scarlet",
+      "originalLocation": "Pokemon Scarlet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Scarlet",
+        "dex": "Vivillons",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Vivillon",
+      "formName": "Meadow Pattern",
+      "number": "",
+      "natDexNumber": "0666",
+      "ref": "666.6_3e214a46-694e-411c-9fb3-55668097c57c",
+      "displayName": "Meadow Pattern",
+      "displayImage": "666-007-shiny-mf.png",
+      "image": [
+        "666-007-normal-mf.png",
+        "666-007-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_decd9c05-c188-4349-a820-e993180bdf4b",
+      "currentLocation": "Pokemon Scarlet",
+      "originalLocation": "Pokemon Scarlet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Scarlet",
+        "dex": "Vivillons",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Vivillon",
+      "formName": "Modern Pattern",
+      "number": "",
+      "natDexNumber": "0666",
+      "ref": "666.7_7f6f1d45-a0b9-4be5-9e89-b1b52364059b",
+      "displayName": "Modern Pattern",
+      "displayImage": "666-008-shiny-mf.png",
+      "image": [
+        "666-008-normal-mf.png",
+        "666-008-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_decd9c05-c188-4349-a820-e993180bdf4b",
+      "currentLocation": "Pokemon Scarlet",
+      "originalLocation": "Pokemon Scarlet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Scarlet",
+        "dex": "Vivillons",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Vivillon",
+      "formName": "Marine Pattern",
+      "number": "",
+      "natDexNumber": "0666",
+      "ref": "666.8_7cfa35ad-3411-4cf5-8f95-af7751717284",
+      "displayName": "Marine Pattern",
+      "displayImage": "666-009-shiny-mf.png",
+      "image": [
+        "666-009-normal-mf.png",
+        "666-009-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_decd9c05-c188-4349-a820-e993180bdf4b",
+      "currentLocation": "Pokemon Scarlet",
+      "originalLocation": "Pokemon Scarlet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Scarlet",
+        "dex": "Vivillons",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Vivillon",
+      "formName": "Archipelago Pattern",
+      "number": "",
+      "natDexNumber": "0666",
+      "ref": "666.9_1dec660b-dd7a-432e-94c0-8632f7ad2ef7",
+      "displayName": "Archipelago Pattern",
+      "displayImage": "666-010-shiny-mf.png",
+      "image": [
+        "666-010-normal-mf.png",
+        "666-010-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_decd9c05-c188-4349-a820-e993180bdf4b",
+      "currentLocation": "Pokemon Scarlet",
+      "originalLocation": "Pokemon Scarlet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Scarlet",
+        "dex": "Vivillons",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Vivillon",
+      "formName": "High Plains Pattern",
+      "number": "",
+      "natDexNumber": "0666",
+      "ref": "666.10_67198815-bb1f-4876-9492-d3fec85e4d12",
+      "displayName": "High Plains Pattern",
+      "displayImage": "666-011-shiny-mf.png",
+      "image": [
+        "666-011-normal-mf.png",
+        "666-011-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_decd9c05-c188-4349-a820-e993180bdf4b",
+      "currentLocation": "Pokemon Scarlet",
+      "originalLocation": "Pokemon Scarlet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Scarlet",
+        "dex": "Vivillons",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Vivillon",
+      "formName": "Sandstorm Pattern",
+      "number": "",
+      "natDexNumber": "0666",
+      "ref": "666.11_8d5d6281-6fac-4ac9-a1ae-f03b81da7a2f",
+      "displayName": "Sandstorm Pattern",
+      "displayImage": "666-012-shiny-mf.png",
+      "image": [
+        "666-012-normal-mf.png",
+        "666-012-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_decd9c05-c188-4349-a820-e993180bdf4b",
+      "currentLocation": "Pokemon Scarlet",
+      "originalLocation": "Pokemon Scarlet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Scarlet",
+        "dex": "Vivillons",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Vivillon",
+      "formName": "River Pattern",
+      "number": "",
+      "natDexNumber": "0666",
+      "ref": "666.12_099477cb-6ef9-487a-8051-16f432d804a8",
+      "displayName": "River Pattern",
+      "displayImage": "666-013-shiny-mf.png",
+      "image": [
+        "666-013-normal-mf.png",
+        "666-013-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_decd9c05-c188-4349-a820-e993180bdf4b",
+      "currentLocation": "Pokemon Scarlet",
+      "originalLocation": "Pokemon Scarlet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Scarlet",
+        "dex": "Vivillons",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Vivillon",
+      "formName": "Monsoon Pattern",
+      "number": "",
+      "natDexNumber": "0666",
+      "ref": "666.13_bd775d5b-e2ce-4cab-b651-7f403bf3bd83",
+      "displayName": "Monsoon Pattern",
+      "displayImage": "666-014-shiny-mf.png",
+      "image": [
+        "666-014-normal-mf.png",
+        "666-014-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_decd9c05-c188-4349-a820-e993180bdf4b",
+      "currentLocation": "Pokemon Scarlet",
+      "originalLocation": "Pokemon Scarlet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Scarlet",
+        "dex": "Vivillons",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Vivillon",
+      "formName": "Savanna Pattern",
+      "number": "",
+      "natDexNumber": "0666",
+      "ref": "666.14_79c60695-2033-4547-afbf-4bf3352123bb",
+      "displayName": "Savanna Pattern",
+      "displayImage": "666-015-shiny-mf.png",
+      "image": [
+        "666-015-normal-mf.png",
+        "666-015-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_decd9c05-c188-4349-a820-e993180bdf4b",
+      "currentLocation": "Pokemon Scarlet",
+      "originalLocation": "Pokemon Scarlet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Scarlet",
+        "dex": "Vivillons",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Vivillon",
+      "formName": "Sun Pattern",
+      "number": "",
+      "natDexNumber": "0666",
+      "ref": "666.15_e394dad3-20c3-4253-969c-a766ebe62e7c",
+      "displayName": "Sun Pattern",
+      "displayImage": "666-016-shiny-mf.png",
+      "image": [
+        "666-016-normal-mf.png",
+        "666-016-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_decd9c05-c188-4349-a820-e993180bdf4b",
+      "currentLocation": "Pokemon Scarlet",
+      "originalLocation": "Pokemon Scarlet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Scarlet",
+        "dex": "Vivillons",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Vivillon",
+      "formName": "Ocean Pattern",
+      "number": "",
+      "natDexNumber": "0666",
+      "ref": "666.16_fbb14812-e359-44c2-8ad8-819a9cb3d738",
+      "displayName": "Ocean Pattern",
+      "displayImage": "666-017-shiny-mf.png",
+      "image": [
+        "666-017-normal-mf.png",
+        "666-017-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_decd9c05-c188-4349-a820-e993180bdf4b",
+      "currentLocation": "Pokemon Scarlet",
+      "originalLocation": "Pokemon Scarlet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Scarlet",
+        "dex": "Vivillons",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Vivillon",
+      "formName": "Jungle Pattern",
+      "number": "",
+      "natDexNumber": "0666",
+      "ref": "666.17_9c92fd04-0b96-4fe2-8000-01847791aecb",
+      "displayName": "Jungle Pattern",
+      "displayImage": "666-018-shiny-mf.png",
+      "image": [
+        "666-018-normal-mf.png",
+        "666-018-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_decd9c05-c188-4349-a820-e993180bdf4b",
+      "currentLocation": "Pokemon Scarlet",
+      "originalLocation": "Pokemon Scarlet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Scarlet",
+        "dex": "Vivillons",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Vivillon",
+      "formName": "Fancy Pattern",
+      "number": "",
+      "natDexNumber": "0666",
+      "ref": "666.18_c69bc043-cc0b-48e9-b720-c0527115dd64",
+      "displayName": "Fancy Pattern",
+      "displayImage": "666-019-shiny-mf.png",
+      "image": [
+        "666-019-normal-mf.png",
+        "666-019-shiny-mf.png"
+      ],
+      "type1": "bug",
+      "type2": "flying",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_decd9c05-c188-4349-a820-e993180bdf4b",
+      "currentLocation": "Pokemon Scarlet",
+      "originalLocation": "Pokemon Scarlet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Scarlet",
+        "dex": "Vivillons",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    }
+  ]
+}

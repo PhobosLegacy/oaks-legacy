@@ -1,0 +1,114 @@
+{
+  "name": "Let'sGoEevee-Others-Others",
+  "ref": "t_8141037b-c19f-4667-af66-71b27ae5e9cd",
+  "game": "Let's Go Eevee",
+  "dex": "Others",
+  "type": "Others",
+  "pokemons": [
+    {
+      "name": "Mew",
+      "formName": "",
+      "number": "151",
+      "natDexNumber": "0151",
+      "ref": "151.0_213325fd-fd67-477e-9ccf-7bfca95d1c58",
+      "displayName": "Mew",
+      "displayImage": "151-normal-g.png",
+      "image": [
+        "151-normal-g.png",
+        "151-shiny-g.png"
+      ],
+      "type1": "psychic",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8141037b-c19f-4667-af66-71b27ae5e9cd",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Others",
+        "number": "151",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": []
+    },
+    {
+      "name": "Meltan",
+      "formName": "",
+      "number": "152",
+      "natDexNumber": "0808",
+      "ref": "808.0_628d45d8-89c0-49f8-99d0-410f43909c1a",
+      "displayName": "Meltan",
+      "displayImage": "808-normal-g.png",
+      "image": [
+        "808-normal-g.png",
+        "808-shiny-g.png"
+      ],
+      "type1": "steel",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8141037b-c19f-4667-af66-71b27ae5e9cd",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Others",
+        "number": "152",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": []
+    },
+    {
+      "name": "Melmetal",
+      "formName": "",
+      "number": "153",
+      "natDexNumber": "0809",
+      "ref": "809.0_d7d9f37e-7533-48bc-bb30-88ba55612831",
+      "displayName": "Melmetal",
+      "displayImage": "809-normal-g.png",
+      "image": [
+        "809-normal-g.png",
+        "809-shiny-g.png"
+      ],
+      "type1": "steel",
+      "type2": null,
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_8141037b-c19f-4667-af66-71b27ae5e9cd",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Others",
+        "number": "153",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": []
+    }
+  ]
+}

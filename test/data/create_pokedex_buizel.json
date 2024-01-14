@@ -1,0 +1,50 @@
+{
+  "name": "Buizel",
+  "formName": "",
+  "species": "Sea Weasel Pokémon",
+  "height": "0.7m",
+  "weight": "29.5kg",
+  "breeding": { "groups": ["Field", "Water 1"], "cycles": "20" },
+  "number": "0418",
+  "ref": "418.0",
+  "type1": "water",
+  "type2": null,
+  "image": [
+    "418-normal-m.png",
+    "418-normal-f.png",
+    "418-shiny-f.png",
+    "418-shiny-m.png"
+  ],
+  "abilities": ["Swift Swim"],
+  "hiddenAbility": "Water Veil",
+  "weaknessquarter": [],
+  "weaknesshalf": ["fire", "water", "ice", "steel"],
+  "weaknessnone": [],
+  "weaknessdouble": ["electric", "grass"],
+  "weaknessquadruple": [],
+  "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
+  "games": [
+    {
+      "name": "Pokemon Scarlet",
+      "dex": "Regional",
+      "number": "051",
+      "shinyLocked": "UNLOCKED",
+      "notes": ""
+    },
+    {
+      "name": "Pokemon Violet",
+      "dex": "Regional",
+      "number": "051",
+      "shinyLocked": "UNLOCKED",
+      "notes": ""
+    },
+    {
+      "name": "Pokemon Legends: Arceus",
+      "dex": "Regional",
+      "number": "041",
+      "shinyLocked": "UNLOCKED",
+      "notes": ""
+    }
+  ],
+  "forms": []
+}

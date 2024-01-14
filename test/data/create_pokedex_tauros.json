@@ -1,0 +1,310 @@
+{
+    "name": "Tauros",
+    "formName": "",
+    "species": "Wild Bull Pokémon",
+    "height": "1.4m",
+    "weight": "88.4kg",
+    "breeding": { "groups": ["Field"], "cycles": "20" },
+    "number": "0128",
+    "ref": "128.0",
+    "type1": "normal",
+    "type2": null,
+    "image": ["128-normal-mf.png", "128-shiny-mf.png"],
+    "abilities": ["Intimidate", "Anger Point"],
+    "hiddenAbility": "Sheer Force",
+    "weaknessquarter": [],
+    "weaknesshalf": [],
+    "weaknessnone": ["ghost"],
+    "weaknessdouble": ["fighting"],
+    "weaknessquadruple": [],
+    "genderRatio": { "male": "100", "female": "0", "genderless": "0" },
+    "games": [
+      {
+        "name": "Let's Go Pikachu",
+        "dex": "Regional",
+        "number": "128",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Let's Go Eevee",
+        "dex": "Regional",
+        "number": "128",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Scarlet",
+        "dex": "Blueberry",
+        "number": "022",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Violet",
+        "dex": "Blueberry",
+        "number": "022",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Sword",
+        "dex": "Isle of Armor",
+        "number": "116",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Shield",
+        "dex": "Isle of Armor",
+        "number": "116",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      }
+    ],
+    "forms": [
+      {
+        "name": "Tauros",
+        "formName": "",
+        "species": "Wild Bull Pokémon",
+        "height": "1.4m",
+        "weight": "88.4kg",
+        "breeding": { "groups": ["Field"], "cycles": "20" },
+        "number": "0128",
+        "ref": "128.0",
+        "type1": "normal",
+        "type2": null,
+        "image": ["128-normal-mf.png", "128-shiny-mf.png"],
+        "abilities": ["Intimidate", "Anger Point"],
+        "hiddenAbility": "Sheer Force",
+        "weaknessquarter": [],
+        "weaknesshalf": [],
+        "weaknessnone": ["ghost"],
+        "weaknessdouble": ["fighting"],
+        "weaknessquadruple": [],
+        "genderRatio": { "male": "100", "female": "0", "genderless": "0" },
+        "games": [
+          {
+            "name": "Let's Go Pikachu",
+            "dex": "Regional",
+            "number": "128",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Let's Go Eevee",
+            "dex": "Regional",
+            "number": "128",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Scarlet",
+            "dex": "Blueberry",
+            "number": "022",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Violet",
+            "dex": "Blueberry",
+            "number": "022",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Sword",
+            "dex": "Isle of Armor",
+            "number": "116",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Shield",
+            "dex": "Isle of Armor",
+            "number": "116",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ],
+        "forms": []
+      },
+      {
+        "name": "Paldean Tauros",
+        "formName": "Combat Breed",
+        "species": "Wild Bull Pokémon",
+        "height": "1.4m",
+        "weight": "115.0kg",
+        "breeding": { "groups": ["Field"], "cycles": "20" },
+        "number": "0128",
+        "ref": "128.1",
+        "type1": "fighting",
+        "type2": null,
+        "image": [
+          "128-001-paldea-normal-mf.png",
+          "128-001-paldea-shiny-mf.png"
+        ],
+        "abilities": ["Intimidate", "Anger Point"],
+        "hiddenAbility": "Cud Chew",
+        "weaknessquarter": [],
+        "weaknesshalf": ["bug", "rock", "dark"],
+        "weaknessnone": [],
+        "weaknessdouble": ["flying", "psychic", "fairy"],
+        "weaknessquadruple": [],
+        "genderRatio": { "male": "100", "female": "0", "genderless": "0" },
+        "games": [
+          {
+            "name": "Pokemon Scarlet",
+            "dex": "Regional",
+            "number": "223",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          },
+          {
+            "name": "Pokemon Violet",
+            "dex": "Regional",
+            "number": "223",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ],
+        "forms": [
+          {
+            "name": "Paldean Tauros",
+            "formName": "Combat Breed",
+            "species": "Wild Bull Pokémon",
+            "height": "1.4m",
+            "weight": "115.0kg",
+            "breeding": { "groups": ["Field"], "cycles": "20" },
+            "number": "0128",
+            "ref": "128.1",
+            "type1": "fighting",
+            "type2": null,
+            "image": [
+              "128-001-paldea-normal-mf.png",
+              "128-001-paldea-shiny-mf.png"
+            ],
+            "abilities": ["Intimidate", "Anger Point"],
+            "hiddenAbility": "Cud Chew",
+            "weaknessquarter": [],
+            "weaknesshalf": ["bug", "rock", "dark"],
+            "weaknessnone": [],
+            "weaknessdouble": ["flying", "psychic", "fairy"],
+            "weaknessquadruple": [],
+            "genderRatio": { "male": "100", "female": "0", "genderless": "0" },
+            "games": [
+              {
+                "name": "Pokemon Scarlet",
+                "dex": "Regional",
+                "number": "223",
+                "shinyLocked": "UNLOCKED",
+                "notes": ""
+              },
+              {
+                "name": "Pokemon Violet",
+                "dex": "Regional",
+                "number": "223",
+                "shinyLocked": "UNLOCKED",
+                "notes": ""
+              }
+            ],
+            "forms": []
+          },
+          {
+            "name": "Paldean Tauros",
+            "formName": "Blaze Breed",
+            "species": "Wild Bull Pokémon",
+            "height": "1.4m",
+            "weight": "85.0kg",
+            "breeding": { "groups": ["Field"], "cycles": "20" },
+            "number": "0128",
+            "ref": "128.2",
+            "type1": "fighting",
+            "type2": "fire",
+            "image": [
+              "128-002-paldea-normal-mf.png",
+              "128-002-paldea-shiny-mf.png"
+            ],
+            "abilities": ["Intimidate", "Anger Point"],
+            "hiddenAbility": "Cud Chew",
+            "weaknessquarter": ["bug"],
+            "weaknesshalf": ["fire", "grass", "ice", "dark", "steel"],
+            "weaknessnone": [],
+            "weaknessdouble": ["water", "ground", "flying", "psychic"],
+            "weaknessquadruple": [],
+            "genderRatio": { "male": "100", "female": "0", "genderless": "0" },
+            "games": [
+              {
+                "name": "Pokemon Scarlet",
+                "dex": "Regional",
+                "number": "223",
+                "shinyLocked": "UNLOCKED",
+                "notes": ""
+              },
+              {
+                "name": "Pokemon Violet",
+                "dex": "Regional",
+                "number": "223",
+                "shinyLocked": "UNLOCKED",
+                "notes": "Scarlet Exclusive"
+              }
+            ]
+          },
+          {
+            "name": "Paldean Tauros",
+            "formName": "Aqua Breed",
+            "species": "Wild Bull Pokémon",
+            "height": "1.4m",
+            "weight": "110.0kg",
+            "breeding": { "groups": ["Field"], "cycles": "20" },
+            "number": "0128",
+            "ref": "128.3",
+            "type1": "fighting",
+            "type2": "water",
+            "image": [
+              "128-003-paldea-normal-mf.png",
+              "128-003-paldea-shiny-mf.png"
+            ],
+            "abilities": ["Intimidate", "Anger Point"],
+            "hiddenAbility": "Cud Chew",
+            "weaknessquarter": [],
+            "weaknesshalf": [
+              "fire",
+              "water",
+              "ice",
+              "bug",
+              "rock",
+              "dark",
+              "steel"
+            ],
+            "weaknessnone": [],
+            "weaknessdouble": [
+              "electric",
+              "grass",
+              "flying",
+              "psychic",
+              "fairy"
+            ],
+            "weaknessquadruple": [],
+            "genderRatio": { "male": "100", "female": "0", "genderless": "0" },
+            "games": [
+              {
+                "name": "Pokemon Scarlet",
+                "dex": "Regional",
+                "number": "223",
+                "shinyLocked": "UNLOCKED",
+                "notes": "Violet Exclusive"
+              },
+              {
+                "name": "Pokemon Violet",
+                "dex": "Regional",
+                "number": "223",
+                "shinyLocked": "UNLOCKED",
+                "notes": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

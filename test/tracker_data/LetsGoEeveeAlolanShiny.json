@@ -1,0 +1,675 @@
+{
+  "name": "Let'sGoEevee-Alolan-Shiny",
+  "ref": "t_5f0a498e-36ab-4618-bc6e-1b79e53ed173",
+  "game": "Let's Go Eevee",
+  "dex": "Alolan",
+  "type": "Shiny",
+  "pokemons": [
+    {
+      "name": "Alolan Rattata",
+      "formName": "",
+      "number": "019",
+      "natDexNumber": "0019",
+      "ref": "019.1_8343a1c8-2b0c-4c4a-ae3e-9c7aa59a01be",
+      "displayName": "Alolan Rattata",
+      "displayImage": "019-alolan-shiny-mf.png",
+      "image": [
+        "019-alolan-normal-mf.png",
+        "019-alolan-shiny-mf.png"
+      ],
+      "type1": "dark",
+      "type2": "normal",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_5f0a498e-36ab-4618-bc6e-1b79e53ed173",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Alolan",
+        "number": "019",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Raticate",
+      "formName": "",
+      "number": "020",
+      "natDexNumber": "0020",
+      "ref": "020.1_a9de3d27-44b7-4b62-b35b-a39b4bde7a20",
+      "displayName": "Alolan Raticate",
+      "displayImage": "020-alolan-shiny-mf.png",
+      "image": [
+        "020-alolan-normal-mf.png",
+        "020-alolan-shiny-mf.png"
+      ],
+      "type1": "dark",
+      "type2": "normal",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_5f0a498e-36ab-4618-bc6e-1b79e53ed173",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Alolan",
+        "number": "020",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Raichu",
+      "formName": "",
+      "number": "026",
+      "natDexNumber": "0026",
+      "ref": "026.1_570017d5-112a-4bfa-8133-1e7c6adc5fda",
+      "displayName": "Alolan Raichu",
+      "displayImage": "026-alolan-shiny-mf.png",
+      "image": [
+        "026-alolan-normal-mf.png",
+        "026-alolan-shiny-mf.png"
+      ],
+      "type1": "electric",
+      "type2": "psychic",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_5f0a498e-36ab-4618-bc6e-1b79e53ed173",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Alolan",
+        "number": "026",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Sandshrew",
+      "formName": "",
+      "number": "027",
+      "natDexNumber": "0027",
+      "ref": "027.1_2086d147-f001-4d88-9944-22cae5216fb3",
+      "displayName": "Alolan Sandshrew",
+      "displayImage": "027-alolan-shiny-mf.png",
+      "image": [
+        "027-alolan-normal-mf.png",
+        "027-alolan-shiny-mf.png"
+      ],
+      "type1": "ice",
+      "type2": "steel",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_5f0a498e-36ab-4618-bc6e-1b79e53ed173",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Alolan",
+        "number": "027",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Pikachu Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Sandslash",
+      "formName": "",
+      "number": "028",
+      "natDexNumber": "0028",
+      "ref": "028.1_1d567cef-53f9-476a-bb19-5920ecd371bc",
+      "displayName": "Alolan Sandslash",
+      "displayImage": "028-alolan-shiny-mf.png",
+      "image": [
+        "028-alolan-normal-mf.png",
+        "028-alolan-shiny-mf.png"
+      ],
+      "type1": "ice",
+      "type2": "steel",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_5f0a498e-36ab-4618-bc6e-1b79e53ed173",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Alolan",
+        "number": "028",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Pikachu Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Vulpix",
+      "formName": "",
+      "number": "037",
+      "natDexNumber": "0037",
+      "ref": "037.1_b6d5c7c9-6990-44bc-b35b-88628b6f00fb",
+      "displayName": "Alolan Vulpix",
+      "displayImage": "037-alolan-shiny-mf.png",
+      "image": [
+        "037-alolan-normal-mf.png",
+        "037-alolan-shiny-mf.png"
+      ],
+      "type1": "ice",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_5f0a498e-36ab-4618-bc6e-1b79e53ed173",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Alolan",
+        "number": "037",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Ninetales",
+      "formName": "",
+      "number": "038",
+      "natDexNumber": "0038",
+      "ref": "038.1_d17b2b66-9ae6-4278-b5b4-4e52ee16758d",
+      "displayName": "Alolan Ninetales",
+      "displayImage": "038-alolan-shiny-mf.png",
+      "image": [
+        "038-alolan-normal-mf.png",
+        "038-alolan-shiny-mf.png"
+      ],
+      "type1": "ice",
+      "type2": "fairy",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_5f0a498e-36ab-4618-bc6e-1b79e53ed173",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Alolan",
+        "number": "038",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Diglett",
+      "formName": "",
+      "number": "050",
+      "natDexNumber": "0050",
+      "ref": "050.1_32907c84-79c7-48fb-9215-2874f1c23fdb",
+      "displayName": "Alolan Diglett",
+      "displayImage": "050-alolan-shiny-mf.png",
+      "image": [
+        "050-alolan-normal-mf.png",
+        "050-alolan-shiny-mf.png"
+      ],
+      "type1": "ground",
+      "type2": "steel",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_5f0a498e-36ab-4618-bc6e-1b79e53ed173",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Alolan",
+        "number": "050",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Dugtrio",
+      "formName": "",
+      "number": "051",
+      "natDexNumber": "0051",
+      "ref": "051.1_30fc3f7c-698d-4566-9698-09b95238eaf1",
+      "displayName": "Alolan Dugtrio",
+      "displayImage": "051-alolan-shiny-mf.png",
+      "image": [
+        "051-alolan-normal-mf.png",
+        "051-alolan-shiny-mf.png"
+      ],
+      "type1": "ground",
+      "type2": "steel",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_5f0a498e-36ab-4618-bc6e-1b79e53ed173",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Alolan",
+        "number": "051",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Meowth",
+      "formName": "",
+      "number": "052",
+      "natDexNumber": "0052",
+      "ref": "052.1_16f72355-594f-4249-b656-8e6ab88e129f",
+      "displayName": "Alolan Meowth",
+      "displayImage": "052-alolan-shiny-mf.png",
+      "image": [
+        "052-alolan-normal-mf.png",
+        "052-alolan-shiny-mf.png"
+      ],
+      "type1": "dark",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_5f0a498e-36ab-4618-bc6e-1b79e53ed173",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Alolan",
+        "number": "052",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Persian",
+      "formName": "",
+      "number": "053",
+      "natDexNumber": "0053",
+      "ref": "053.1_056374bc-c6f0-4555-9e29-37fbc8724d9f",
+      "displayName": "Alolan Persian",
+      "displayImage": "053-alolan-shiny-mf.png",
+      "image": [
+        "053-alolan-normal-mf.png",
+        "053-alolan-shiny-mf.png"
+      ],
+      "type1": "dark",
+      "type2": null,
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_5f0a498e-36ab-4618-bc6e-1b79e53ed173",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Alolan",
+        "number": "053",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Geodude",
+      "formName": "",
+      "number": "074",
+      "natDexNumber": "0074",
+      "ref": "074.1_0c250bb4-14da-4949-9919-45a48cc97bbb",
+      "displayName": "Alolan Geodude",
+      "displayImage": "074-alolan-shiny-mf.png",
+      "image": [
+        "074-alolan-normal-mf.png",
+        "074-alolan-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "electric",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_5f0a498e-36ab-4618-bc6e-1b79e53ed173",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Alolan",
+        "number": "074",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Graveler",
+      "formName": "",
+      "number": "075",
+      "natDexNumber": "0075",
+      "ref": "075.1_5109607f-b4f4-49b9-9e8a-2a9d41451fe8",
+      "displayName": "Alolan Graveler",
+      "displayImage": "075-alolan-shiny-mf.png",
+      "image": [
+        "075-alolan-normal-mf.png",
+        "075-alolan-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "electric",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_5f0a498e-36ab-4618-bc6e-1b79e53ed173",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Alolan",
+        "number": "075",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Golem",
+      "formName": "",
+      "number": "076",
+      "natDexNumber": "0076",
+      "ref": "076.1_6bac6cb5-bc9c-4176-90bc-e09605c89fb0",
+      "displayName": "Alolan Golem",
+      "displayImage": "076-alolan-shiny-mf.png",
+      "image": [
+        "076-alolan-normal-mf.png",
+        "076-alolan-shiny-mf.png"
+      ],
+      "type1": "rock",
+      "type2": "electric",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_5f0a498e-36ab-4618-bc6e-1b79e53ed173",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Alolan",
+        "number": "076",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Grimer",
+      "formName": "",
+      "number": "088",
+      "natDexNumber": "0088",
+      "ref": "088.1_143080f3-2486-4c98-8d56-7f8cc6391823",
+      "displayName": "Alolan Grimer",
+      "displayImage": "088-alolan-shiny-mf.png",
+      "image": [
+        "088-alolan-normal-mf.png",
+        "088-alolan-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": "dark",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_5f0a498e-36ab-4618-bc6e-1b79e53ed173",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Alolan",
+        "number": "088",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Pikachu Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Muk",
+      "formName": "",
+      "number": "089",
+      "natDexNumber": "0089",
+      "ref": "089.1_4824b3be-4ec8-4b32-b93b-66f196461ff0",
+      "displayName": "Alolan Muk",
+      "displayImage": "089-alolan-shiny-mf.png",
+      "image": [
+        "089-alolan-normal-mf.png",
+        "089-alolan-shiny-mf.png"
+      ],
+      "type1": "poison",
+      "type2": "dark",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_5f0a498e-36ab-4618-bc6e-1b79e53ed173",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Alolan",
+        "number": "089",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Pikachu Exclusive"
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Exeggutor",
+      "formName": "",
+      "number": "103",
+      "natDexNumber": "0103",
+      "ref": "103.1_00da66ee-c83c-4b54-be69-a220b93f8cba",
+      "displayName": "Alolan Exeggutor",
+      "displayImage": "103-alolan-shiny-mf.png",
+      "image": [
+        "103-alolan-normal-mf.png",
+        "103-alolan-shiny-mf.png"
+      ],
+      "type1": "grass",
+      "type2": "dragon",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_5f0a498e-36ab-4618-bc6e-1b79e53ed173",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Alolan",
+        "number": "103",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    },
+    {
+      "name": "Alolan Marowak",
+      "formName": "",
+      "number": "105",
+      "natDexNumber": "0105",
+      "ref": "105.1_949a98b3-bb10-4893-9586-8163e9482e86",
+      "displayName": "Alolan Marowak",
+      "displayImage": "105-alolan-shiny-mf.png",
+      "image": [
+        "105-alolan-normal-mf.png",
+        "105-alolan-shiny-mf.png"
+      ],
+      "type1": "fire",
+      "type2": "ghost",
+      "forms": [],
+      "gender": "undefinied",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_5f0a498e-36ab-4618-bc6e-1b79e53ed173",
+      "currentLocation": "Let's Go Eevee",
+      "originalLocation": "Let's Go Eevee",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Let's Go Eevee",
+        "dex": "Alolan",
+        "number": "105",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": [
+        "isShiny"
+      ]
+    }
+  ]
+}
