@@ -87,7 +87,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
     Data serverData =
         Data.fromJson(jsonDecode(await fetchData(kServerVersionLocation)));
 
-    bool checkVersioning = true;
+    // bool checkVersioning = true;
 
     //********* Resolve Versions file *********\\
     Data localData = (FileManager.exists(kVersionsKey))
@@ -106,26 +106,28 @@ class _LoadingScreenState extends State<LoadingScreen> {
     //***************************************\\
 
     //********* Resolve Pokedex file *********\\
-    String pokedex = (FileManager.exists(kPokedexKey))
-        ? FileManager.get(kPokedexKey)
-        : await fetchData(kServerPokedexLocation);
+    String pokedex = await fetchData(kServerPokedexLocation);
 
-    FileManager.save(kPokedexKey, pokedex);
+    // String pokedex = (FileManager.exists(kPokedexKey))
+    //     ? FileManager.get(kPokedexKey)
+    //     : await fetchData(kServerPokedexLocation);
+
+    // FileManager.save(kPokedexKey, pokedex);
     //***************************************\\
 
-    if (serverData.app > localData.app) {
-      displayUpdateAlert();
-      checkVersioning = false;
-    }
+    // if (serverData.app > localData.app) {
+    //   displayUpdateAlert();
+    //   checkVersioning = false;
+    // }
 
-    if (checkVersioning) {
-      if (serverData.dex > localData.dex) {
-        pokedex = await fetchData(kServerPokedexLocation);
+    // if (checkVersioning) {
+    //   if (serverData.dex > localData.dex) {
+    //     pokedex = await fetchData(kServerPokedexLocation);
 
-        localData.dex = serverData.dex;
-        FileManager.save(kVersionsKey, jsonEncode(localData));
-      }
-    }
+    //     localData.dex = serverData.dex;
+    //     FileManager.save(kVersionsKey, jsonEncode(localData));
+    //   }
+    // }
 
     //For debugging:
     // var file = await rootBundle.loadString(kPokedexFileLocation);
