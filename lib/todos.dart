@@ -19,6 +19,9 @@ TODO: Scroll bar on other screens?
 TODO: Share button?
 TODO: Screenshot on tracker?
 
+TODO: Update flutter details in the README.
+TODO: BPS
+TODO: Update trackers in case dex change (eg Mightiest Mark always add one more)
 TODO: Make the ball spin (animation on loading screen)
 TODO: Complete Games for Sword/Shield, 
 TODO: Later other games
@@ -123,6 +126,26 @@ List<int> findMissingNumbers(List<int> numbersList, int start, int end) {
 
   return missingNumbers;
 }
+
+//Gets the resolution
+/*
+  bp1 (mobile) starts at 375dp
+  bp2 (Tablet) starts at 768dp
+  bp3 (Small "Desktop") start at 1024dp
+  bp4 (Desktop) start at 1440 and up
+*/
+export const evaluateScreenSize = (width) => {
+  switch (true) {
+    case width < 768:
+      return RESOLUTION.BP1;
+    case width >= 768 && width < 1024:
+      return RESOLUTION.BP2;
+    case width >= 1024 && width < 1440:
+      return RESOLUTION.BP3;
+    case width >= 1440:
+      return RESOLUTION.BP4;
+  }
+};
 
  */
   String listBase;

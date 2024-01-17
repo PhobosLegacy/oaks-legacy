@@ -68221,7 +68221,7 @@
     "species": "Tera Pokémon",
     "height": "0.2m",
     "weight": "6.5kg",
-    "breeding": { "groups": ["Undiscovered"], "cycles": "" },
+    "breeding": { "groups": ["Undiscovered"], "cycles": "5" },
     "number": "1024",
     "ref": "1024.0",
     "type1": "normal",
@@ -68258,7 +68258,7 @@
         "species": "Tera Pokémon",
         "height": "0.3m",
         "weight": "16.0kg",
-        "breeding": { "groups": ["Undiscovered"], "cycles": "" },
+        "breeding": { "groups": ["Undiscovered"], "cycles": "5" },
         "number": "1024",
         "ref": "1024.1",
         "type1": "normal",
@@ -68295,7 +68295,7 @@
         "species": "Tera Pokémon",
         "height": "1.7m",
         "weight": "77.0kg",
-        "breeding": { "groups": ["Undiscovered"], "cycles": "" },
+        "breeding": { "groups": ["Undiscovered"], "cycles": "5" },
         "number": "1024",
         "ref": "1024.2",
         "type1": "normal",
@@ -68327,5 +68327,43 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Pecharunt",
+    "formName": "",
+    "species": "Subjugation Pokémon",
+    "height": "0.3m",
+    "weight": "0.3kg",
+    "breeding": { "groups": ["Undiscovered"], "cycles": "20" },
+    "number": "1025",
+    "ref": "1025.0",
+    "type1": "poison",
+    "type2": "ghost",
+    "image": ["1025-normal-g.png", "1025-shiny-g.png"],
+    "abilities": ["Poison Puppeteer"],
+    "hiddenAbility": "",
+    "weaknessquarter": ["poison", "bug"],
+    "weaknesshalf": ["grass", "fairy"],
+    "weaknessnone": ["normal", "fighting"],
+    "weaknessdouble": ["ground", "psychic", "ghost", "dark"],
+    "weaknessquadruple": [],
+    "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
+    "games": [
+      {
+        "name": "Pokemon Scarlet",
+        "dex": "Blueberry",
+        "number": "243",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Violet",
+        "dex": "Blueberry",
+        "number": "243",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      }
+    ],
+    "forms": []
   }
 ]
