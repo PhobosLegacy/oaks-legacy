@@ -22,7 +22,7 @@ void main() {
       // Assert
       expect(kPokedex, isNotNull);
       expect(kPokedex, isNotEmpty);
-      expect(kPokedex.length, equals(1024));
+      expect(kPokedex.length, equals(1025));
     });
 
     for (final pokemon in createPokemonPkmSample) {

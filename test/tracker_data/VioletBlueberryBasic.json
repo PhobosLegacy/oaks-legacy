@@ -8518,6 +8518,38 @@
       "trainerName": "",
       "capturedMethod": "unknown",
       "attributes": []
+    },
+    {
+      "name": "Pecharunt",
+      "formName": "",
+      "number": "243",
+      "natDexNumber": "1025",
+      "ref": "1025.0_755e08cb-a863-4ded-b51b-566e69fe678e",
+      "displayName": "Pecharunt",
+      "displayImage": "1025-normal-g.png",
+      "image": ["1025-normal-g.png", "1025-shiny-g.png"],
+      "type1": "poison",
+      "type2": "ghost",
+      "forms": [],
+      "gender": "genderless",
+      "ball": "undefined",
+      "captured": false,
+      "catchDate": "",
+      "origin": "t_943b930f-420b-4876-a3b5-b5fc94b22ffc",
+      "currentLocation": "Pokemon Violet",
+      "originalLocation": "Pokemon Violet",
+      "ability": "?",
+      "level": "?",
+      "game": {
+        "name": "Pokemon Violet",
+        "dex": "Blueberry",
+        "number": "243",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      },
+      "trainerName": "",
+      "capturedMethod": "unknown",
+      "attributes": []
     }
   ]
 }

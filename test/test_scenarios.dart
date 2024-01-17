@@ -331,7 +331,7 @@ List<Map<String, dynamic>> trackers = [
     "gameName": "Pokemon Violet",
     "dexName": "Blueberry",
     "trackerType": "Basic",
-    "lenght": 242
+    "lenght": 243
   },
   {
     "testFileName": "VioletBlueberryShiny",
@@ -347,7 +347,7 @@ List<Map<String, dynamic>> trackers = [
     "gameName": "Pokemon Violet",
     "dexName": "Blueberry",
     "trackerType": "Living Dex",
-    "lenght": 242
+    "lenght": 243
   },
   {
     "testFileName": "VioletBlueberryShinyLivingDex",
@@ -363,7 +363,7 @@ List<Map<String, dynamic>> trackers = [
     "gameName": "Pokemon Scarlet",
     "dexName": "Blueberry",
     "trackerType": "Basic",
-    "lenght": 242
+    "lenght": 243
   },
   {
     "testFileName": "ScarletBlueberryShiny",
@@ -379,7 +379,7 @@ List<Map<String, dynamic>> trackers = [
     "gameName": "Pokemon Scarlet",
     "dexName": "Blueberry",
     "trackerType": "Living Dex",
-    "lenght": 242
+    "lenght": 243
   },
   {
     "testFileName": "ScarletBlueberryShinyLivingDex",
