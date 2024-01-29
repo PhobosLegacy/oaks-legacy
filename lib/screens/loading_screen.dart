@@ -1,6 +1,5 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:oaks_legacy/components/base_background.dart';
 import 'package:oaks_legacy/models/preferences.dart';
 import 'package:oaks_legacy/models/version.dart';
@@ -10,6 +9,9 @@ import 'package:oaks_legacy/file_manager.dart';
 import 'package:oaks_legacy/models/pokemon.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:http/http.dart' as http;
+import 'package:oaks_legacy/screens/test_screens/main_test_screen.dart';
+import 'package:oaks_legacy/screens/test_screens/test_screen5.dart';
+import 'package:oaks_legacy/screens/test_screens/test_screen6.dart';
 
 class LoadingScreen extends StatefulWidget {
   const LoadingScreen({super.key});
@@ -107,27 +109,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
 
     //********* Resolve Pokedex file *********\\
     String pokedex = await fetchData(kServerPokedexLocation);
-
-    // String pokedex = (FileManager.exists(kPokedexKey))
-    //     ? FileManager.get(kPokedexKey)
-    //     : await fetchData(kServerPokedexLocation);
-
-    // FileManager.save(kPokedexKey, pokedex);
     //***************************************\\
-
-    // if (serverData.app > localData.app) {
-    //   displayUpdateAlert();
-    //   checkVersioning = false;
-    // }
-
-    // if (checkVersioning) {
-    //   if (serverData.dex > localData.dex) {
-    //     pokedex = await fetchData(kServerPokedexLocation);
-
-    //     localData.dex = serverData.dex;
-    //     FileManager.save(kVersionsKey, jsonEncode(localData));
-    //   }
-    // }
 
     //For debugging:
     // var file = await rootBundle.loadString(kPokedexFileLocation);
@@ -135,9 +117,13 @@ class _LoadingScreenState extends State<LoadingScreen> {
     kPokedex = await Pokemon.createPokedex(pokedex);
 
     // await Future.delayed(const Duration(seconds: 2));
-    // openStartScreen(const MaintainanceScreen());
-    openStartScreen(const StartScreen());
-    // openStartScreen(PokedexDetailsPage(
+    // openNextScreen(const MaintainanceScreen());
+    // openNextScreen(const StartScreen());
+
+    //openNextScreen(PokedexListScreen(pokemons: kPokedex));
+    openNextScreen(const MainTestScreen());
+
+    // openNextScreen(PokedexDetailsPage(
     //   pokemons: kPokedex,
     //   indexes: const [0],
     // ));
@@ -170,7 +156,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
     );
   }
 
-  void openStartScreen(screen) {
+  void openNextScreen(screen) {
     Navigator.pop(context);
     Navigator.push(
       context,

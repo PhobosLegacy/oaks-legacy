@@ -4,6 +4,8 @@ class Todos {
 
 TODO: Image enhacement
   Types, Backgrounds on app
+TODO BUG: Clicking calendar and then outside, breaks detail page.
+TODO BUG: Checkbox doesnt trigger fireworks
 TODO BUG iOS: Archibac issue on LF/FT when screen size small
 TODO BUG iOS: Screenshot doesnt work on ios simulator
 TODO BUG iOS: Permission issue with mac desktop

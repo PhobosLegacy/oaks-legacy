@@ -47,24 +47,26 @@ class ListImage extends StatelessWidget {
     super.key,
     required this.image,
     this.shadowOnly,
+    this.height,
   });
 
   final String image;
   final bool? shadowOnly;
+  final double? height;
 
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 50,
-      width: 50,
       child: Stack(
         children: (shadowOnly == true)
             ? [
-                getImage('$kImageLocalPrefix$image', 60, shadow: true),
+                getImage('$kImageLocalPrefix$image', height ?? 60,
+                    shadow: true),
               ]
             : [
-                getImage('$kImageLocalPrefix$image', 60, shadow: true),
-                getImage('$kImageLocalPrefix$image', 55),
+                getImage('$kImageLocalPrefix$image', height ?? 200,
+                    shadow: true),
+                getImage('$kImageLocalPrefix$image', height ?? 185),
               ],
       ),
     );

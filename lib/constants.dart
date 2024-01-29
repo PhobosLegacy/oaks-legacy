@@ -31,3 +31,5 @@ const String kValueNotFound = "?";
 List<Pokemon> kPokedex = [];
 
 late Preferences kPreferences;
+
+List<double> kBreakpoints = [768, 1024, 1440];

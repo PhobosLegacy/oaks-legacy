@@ -16,8 +16,10 @@ class MainScreenButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    double height = MediaQuery.of(context).size.width > 1024 ? 200 : 100;
-    double widght = MediaQuery.of(context).size.width > 1024 ? 500 : 400;
+    double width = getButtonWidth(MediaQuery.of(context).size.width);
+    double height =
+        width * ((MediaQuery.of(context).size.height > 1000) ? 0.35 : 0.25);
+
     return GestureDetector(
       onTap: () {
         Navigator.push(
@@ -42,7 +44,7 @@ class MainScreenButton extends StatelessWidget {
             ),
           ],
         ),
-        width: widght,
+        width: width,
         height: height,
         child: Card(
           shape: RoundedRectangleBorder(
@@ -87,5 +89,17 @@ class MainScreenButton extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  double getButtonWidth(double width) {
+    List<double> widths = [300, 350, 500, 700];
+
+    for (int i = 0; i < kBreakpoints.length; i++) {
+      if (width < kBreakpoints[i]) {
+        return widths[i];
+      }
+    }
+
+    return widths.last;
   }
 }
