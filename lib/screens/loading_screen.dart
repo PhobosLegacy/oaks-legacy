@@ -121,7 +121,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
     // openNextScreen(const StartScreen());
 
     //openNextScreen(PokedexListScreen(pokemons: kPokedex));
-    openNextScreen(const MainTestScreen());
+    openNextScreen(const TestListScreen6());
 
     // openNextScreen(PokedexDetailsPage(
     //   pokemons: kPokedex,

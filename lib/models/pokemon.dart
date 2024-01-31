@@ -219,48 +219,73 @@ class Pokemon {
         image.any((element) => element.contains('-g')));
   }
 
-  static Image typeImage(PokemonType? type) {
+  static Image typeImage(PokemonType? type, {double? height}) {
     // String path = "images/types";
+    String typeUrl = kImageLocalPrefix;
+
     switch (type) {
       case PokemonType.bug:
-        return Image.network('$kImageLocalPrefix/types/bug.png');
+        typeUrl += 'types/bug.png';
+        break;
       case PokemonType.dark:
-        return Image.network('$kImageLocalPrefix/types/dark.png');
+        typeUrl += 'types/dark.png';
+        break;
       case PokemonType.dragon:
-        return Image.network('${kImageLocalPrefix}types/dragon.png');
+        typeUrl += 'types/dragon.png';
+        break;
       case PokemonType.electric:
-        return Image.network('${kImageLocalPrefix}types/electric.png');
+        typeUrl += 'types/electric.png';
+        break;
       case PokemonType.fire:
-        return Image.network('${kImageLocalPrefix}types/fire.png');
+        typeUrl += 'types/fire.png';
+        break;
       case PokemonType.grass:
-        return Image.network('${kImageLocalPrefix}types/grass.png');
+        typeUrl += 'types/grass.png';
+        break;
       case PokemonType.fairy:
-        return Image.network('${kImageLocalPrefix}types/fairy.png');
+        typeUrl += 'types/fairy.png';
+        break;
       case PokemonType.fighting:
-        return Image.network('${kImageLocalPrefix}types/fighting.png');
+        typeUrl += 'types/fighting.png';
+        break;
       case PokemonType.flying:
-        return Image.network('${kImageLocalPrefix}types/flying.png');
+        typeUrl += 'types/flying.png';
+        break;
       case PokemonType.ghost:
-        return Image.network('${kImageLocalPrefix}types/ghost.png');
+        typeUrl += 'types/ghost.png';
+        break;
       case PokemonType.ground:
-        return Image.network('${kImageLocalPrefix}types/ground.png');
+        typeUrl += 'types/ground.png';
+        break;
       case PokemonType.ice:
-        return Image.network('${kImageLocalPrefix}types/ice.png');
+        typeUrl += 'types/ice.png';
+        break;
       case PokemonType.normal:
-        return Image.network('${kImageLocalPrefix}types/normal.png');
+        typeUrl += 'types/normal.png';
+        break;
       case PokemonType.poison:
-        return Image.network('${kImageLocalPrefix}types/poison.png');
+        typeUrl += 'types/poison.png';
+        break;
       case PokemonType.psychic:
-        return Image.network('${kImageLocalPrefix}types/psychic.png');
+        typeUrl += 'types/psychic.png';
+        break;
       case PokemonType.rock:
-        return Image.network('${kImageLocalPrefix}types/rock.png');
+        typeUrl += 'types/rock.png';
+        break;
       case PokemonType.steel:
-        return Image.network('${kImageLocalPrefix}types/steel.png');
+        typeUrl += 'types/steel.png';
+        break;
       case PokemonType.water:
-        return Image.network('${kImageLocalPrefix}types/water.png');
+        typeUrl += 'types/water.png';
+        break;
       default:
         throw ("Pokemon Type do not have a primary color defined");
     }
+
+    return Image.network(
+      typeUrl,
+      height: (height == null) ? 23 : height,
+    );
   }
 
   static Color typeColor(PokemonType type, bool isSecondaryColor) {
