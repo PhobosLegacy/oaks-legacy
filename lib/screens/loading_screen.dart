@@ -3,15 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/base_background.dart';
 import 'package:oaks_legacy/models/preferences.dart';
 import 'package:oaks_legacy/models/version.dart';
-// import 'package:oaks_legacy/screens/maintainance_screen.dart';
 import 'package:oaks_legacy/screens/start_screen.dart';
 import 'package:oaks_legacy/file_manager.dart';
 import 'package:oaks_legacy/models/pokemon.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:http/http.dart' as http;
-import 'package:oaks_legacy/screens/test_screens/main_test_screen.dart';
-import 'package:oaks_legacy/screens/test_screens/test_screen5.dart';
-import 'package:oaks_legacy/screens/test_screens/test_screen6.dart';
 
 class LoadingScreen extends StatefulWidget {
   const LoadingScreen({super.key});
@@ -118,10 +114,10 @@ class _LoadingScreenState extends State<LoadingScreen> {
 
     // await Future.delayed(const Duration(seconds: 2));
     // openNextScreen(const MaintainanceScreen());
-    // openNextScreen(const StartScreen());
+    openNextScreen(const StartScreen());
 
-    //openNextScreen(PokedexListScreen(pokemons: kPokedex));
-    openNextScreen(const TestListScreen6());
+    // openNextScreen(PokedexListScreen(pokemons: kPokedex));
+    // openNextScreen(const TestListScreen6());
 
     // openNextScreen(PokedexDetailsPage(
     //   pokemons: kPokedex,
