@@ -29,44 +29,42 @@ class _PokedexListState extends State<PokedexList> {
 
     return Expanded(
       child: Center(
-        child: Expanded(
-          child: GridView.builder(
-            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisSpacing: 5,
-              mainAxisSpacing: 5,
-              // Adjust the cross axis count as needed
-              crossAxisCount: cardsPerRow,
-              // Adjust the height here
-              childAspectRatio: (cardsPerRow == 1) ? 3 : 2,
-            ),
-            itemCount: widget.pokemons.length,
-            itemBuilder: (context, index) {
-              return PokemonTiles(
-                isLowerTile: false,
-                // pokemons: widget.pokemons.take(data.length).toList(),
-                pokemons: widget.pokemons,
-                indexes: [index],
-                onStateChange: (widget.pageBuilder != null)
-                    ? (indexes) {
-                        setState(() {
-                          List<Item> items = [
-                            createPlaceholderItem(
-                                indexes, widget.detailsKey!, widget.pokemons)
-                          ];
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) {
-                                return widget.pageBuilder!(items, [0]);
-                              },
-                            ),
-                          );
-                        });
-                      }
-                    : null,
-              );
-            },
+        child: GridView.builder(
+          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisSpacing: 5,
+            mainAxisSpacing: 5,
+            // Adjust the cross axis count as needed
+            crossAxisCount: cardsPerRow,
+            // Adjust the height here
+            childAspectRatio: (cardsPerRow == 1) ? 3 : 2,
           ),
+          itemCount: widget.pokemons.length,
+          itemBuilder: (context, index) {
+            return PokemonTiles(
+              isLowerTile: false,
+              // pokemons: widget.pokemons.take(data.length).toList(),
+              pokemons: widget.pokemons,
+              indexes: [index],
+              onStateChange: (widget.pageBuilder != null)
+                  ? (indexes) {
+                      setState(() {
+                        List<Item> items = [
+                          createPlaceholderItem(
+                              indexes, widget.detailsKey!, widget.pokemons)
+                        ];
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) {
+                              return widget.pageBuilder!(items, [0]);
+                            },
+                          ),
+                        );
+                      });
+                    }
+                  : null,
+            );
+          },
         ),
       ),
     );

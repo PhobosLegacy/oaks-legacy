@@ -59,7 +59,7 @@ class _PokemonTiles extends State<PokemonTiles> {
                     isLowerTile: true,
                     pokemons: widget.pokemons,
                     indexes: [...widget.indexes],
-                    onStateChange: null,
+                    onStateChange: widget.onStateChange,
                   );
                 },
               );

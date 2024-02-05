@@ -1,7 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/base_background.dart';
-import 'package:oaks_legacy/item/item_list_screen.dart';
 import 'package:oaks_legacy/models/preferences.dart';
 import 'package:oaks_legacy/models/version.dart';
 import 'package:oaks_legacy/screens/start_screen.dart';
@@ -115,9 +114,9 @@ class _LoadingScreenState extends State<LoadingScreen> {
 
     // await Future.delayed(const Duration(seconds: 2));
     // openNextScreen(const MaintainanceScreen());
-    //openNextScreen(const StartScreen());
+    openNextScreen(const StartScreen());
 
-    openNextScreen(const CollectionScreen());
+    // openNextScreen(PokedexListScreen(pokemons: kPokedex));
     // openNextScreen(const TestListScreen6());
 
     // openNextScreen(PokedexDetailsPage(
