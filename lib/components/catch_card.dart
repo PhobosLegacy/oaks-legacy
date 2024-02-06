@@ -253,7 +253,9 @@ class _CatchInformationCardState extends State<CatchInformationCard> {
                       ),
                     ),
                     onPressed: () async {
-                      DateTime? date = await bottomDatePicker(context);
+                      DateTime current =
+                          DateTime.parse(widget.pokemon.catchDate);
+                      DateTime? date = await bottomDatePicker(context, current);
                       widget.pokemon.catchDate = date.toString();
                       setState(() {});
                     },
@@ -712,7 +714,8 @@ class EditableButton extends StatelessWidget {
   }
 }
 
-Future<DateTime?> bottomDatePicker(BuildContext context) async {
+Future<DateTime?> bottomDatePicker(
+    BuildContext context, DateTime currentTime) async {
   DateTime? date = await showDatePicker(
     context: context,
     initialEntryMode: DatePickerEntryMode.calendarOnly,
@@ -721,7 +724,7 @@ Future<DateTime?> bottomDatePicker(BuildContext context) async {
     firstDate: DateTime(2021),
     lastDate: DateTime(2050),
   );
-  return date;
+  return (date == null) ? currentTime : date;
 }
 
 Future<dynamic> bottomSheetOptions(

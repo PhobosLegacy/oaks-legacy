@@ -463,15 +463,23 @@ extension Filter on List<Pokemon>? {
     return temp;
   }
 
+  checkParent(indexes) {
+    Pokemon parent = current(indexes.take(indexes.length - 1).toList());
+
+    if ((indexes.last + 1) == parent.forms.length) {
+      indexes.removeLast();
+      if (indexes.length == 1) return indexes;
+      checkParent(indexes);
+    }
+
+    return indexes;
+  }
+
   List<int> nextIndex(List<int> indexes) {
     if (indexes.length == 1) {
       indexes.last++;
     } else {
-      Pokemon parent = current(indexes.take(indexes.length - 1).toList());
-
-      if ((indexes.last + 1) == parent.forms.length) {
-        indexes.removeLast();
-      }
+      indexes = checkParent(indexes);
       indexes.last++;
     }
 
@@ -483,13 +491,19 @@ extension Filter on List<Pokemon>? {
     return indexes;
   }
 
+  removeLastIndex(indexes) {
+    if ((indexes.last) == 0) {
+      indexes.removeLast();
+      removeLastIndex(indexes);
+    }
+    return indexes;
+  }
+
   List<int> previousIndex(List<int> indexes) {
     if (indexes.length == 1) {
       indexes.last--;
     } else {
-      if ((indexes.last) == 0) {
-        indexes.removeLast();
-      }
+      indexes = removeLastIndex(indexes);
       indexes.last--;
     }
 
