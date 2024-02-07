@@ -15,33 +15,16 @@ class DetailsAppBar extends StatelessWidget {
       backgroundColor: Colors.transparent,
       elevation: 0,
       centerTitle: true,
-      title: Column(
-        children: [
-          FittedBox(
-            fit: BoxFit.scaleDown,
-            child: Text(
-              name,
-              style: const TextStyle(
-                fontSize: 45,
-                fontFamily: 'SigmarOne',
-                color: Colors.black,
-              ),
-            ),
+      title: FittedBox(
+        fit: BoxFit.scaleDown,
+        child: Text(
+          name,
+          style: const TextStyle(
+            fontSize: 45,
+            fontFamily: 'SigmarOne',
+            color: Colors.black,
           ),
-          // const Divider(
-          //   thickness: 2,
-          //   color: Colors.black,
-          //   height: 0.5,
-          // ),
-          // if (number != "" && number.isNotEmpty)
-          //   Text(
-          //     '#$number',
-          //     style: const TextStyle(
-          //       fontFamily: 'SigmarOne',
-          //       color: Colors.black,
-          //     ),
-          //   ),
-        ],
+        ),
       ),
     );
   }
