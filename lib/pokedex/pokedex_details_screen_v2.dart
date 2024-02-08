@@ -107,195 +107,192 @@ class _PokedexDetailsPageV2 extends State<PokedexDetailsPageV2> {
       body: Stack(
         children: [
           TypeBackground(type1: pokemon.type1, type2: pokemon.type2),
-          Expanded(
-            child: Column(
-              children: [
-                Expanded(
-                  child: Row(
-                    children: [
-                      Expanded(
-                        child: Column(
-                          children: [
-                            DetailsAppBar(
-                              name: pokemon.name,
-                              number: pokemon.number,
-                            ),
-                            Expanded(
-                              child: Align(
-                                alignment: Alignment.center,
-                                child: Image.network(
-                                  '${kImageLocalPrefix}mons/${pokemon.image[imageIndex]}',
-                                ),
+          Column(
+            children: [
+              Expanded(
+                child: Row(
+                  children: [
+                    Expanded(
+                      child: Column(
+                        children: [
+                          DetailsAppBar(
+                            name: pokemon.name,
+                            number: pokemon.number,
+                          ),
+                          Expanded(
+                            child: Align(
+                              alignment: Alignment.center,
+                              child: Image.network(
+                                '${kImageLocalPrefix}mons/${pokemon.image[imageIndex]}',
                               ),
                             ),
-                            Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              children: [
-                                //Go LEFT
-                                ActionButton(
-                                  onPress: (isFirstInList)
-                                      ? null
-                                      : () => {
-                                            setState(() {
-                                              imageIndex = 0;
-                                              pokemon.resetImage();
-                                              currentIndexes = widget.pokemons
-                                                  .previousIndex(
-                                                      currentIndexes);
-                                            }),
-                                          },
-                                  icon: const Icon(
-                                    Icons.arrow_circle_left_outlined,
-                                    color: Colors.white,
-                                  ),
-                                ),
-                                Row(
-                                  children: [
-                                    if (pokemon.imageHasGenderAlter())
-                                      //FEMALE VERSION
-                                      ActionButton(
-                                        onPress: () => {
+                          ),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              //Go LEFT
+                              ActionButton(
+                                onPress: (isFirstInList)
+                                    ? null
+                                    : () => {
                                           setState(() {
-                                            imageIndex =
-                                                pokemon.findImageIndexByGender(
-                                                    PokemonGender.female);
+                                            imageIndex = 0;
+                                            pokemon.resetImage();
+                                            currentIndexes = widget.pokemons
+                                                .previousIndex(currentIndexes);
                                           }),
                                         },
-                                        icon: (pokemon.imageGender() ==
-                                                PokemonGender.female)
-                                            ? const Icon(Icons.female,
-                                                color: Colors.red)
-                                            : const Icon(Icons.female,
-                                                color: Colors.grey),
-                                      ),
-
-                                    //SHINY VARIANT
+                                icon: const Icon(
+                                  Icons.arrow_circle_left_outlined,
+                                  color: Colors.white,
+                                ),
+                              ),
+                              Row(
+                                children: [
+                                  if (pokemon.imageHasGenderAlter())
+                                    //FEMALE VERSION
                                     ActionButton(
                                       onPress: () => {
                                         setState(() {
-                                          (pokemon.imageVariant() ==
-                                                  PokemonVariant.normal)
-                                              ? imageIndex = pokemon
-                                                  .findImageIndexByVariant(
-                                                      PokemonVariant.shiny)
-                                              : imageIndex = pokemon
-                                                  .findImageIndexByVariant(
-                                                      PokemonVariant.normal);
+                                          imageIndex =
+                                              pokemon.findImageIndexByGender(
+                                                  PokemonGender.female);
                                         }),
                                       },
-                                      icon: (pokemon.imageVariant() ==
-                                              PokemonVariant.normal)
-                                          ? Image.network(
-                                              '$kImageLocalPrefix/icons/box_icon_shiny_01.png',
-                                              color: Colors.grey,
-                                              height: 20,
-                                              width: 24,
-                                            )
-                                          : Image.network(
-                                              '$kImageLocalPrefix/icons/box_icon_shiny_01.png',
-                                              color: Colors.amber,
-                                              height: 20,
-                                              width: 24,
-                                            ),
+                                      icon: (pokemon.imageGender() ==
+                                              PokemonGender.female)
+                                          ? const Icon(Icons.female,
+                                              color: Colors.red)
+                                          : const Icon(Icons.female,
+                                              color: Colors.grey),
                                     ),
 
-                                    if (pokemon.imageHasGenderAlter())
-                                      //MALE VERSION
-                                      ActionButton(
-                                        onPress: () => {
+                                  //SHINY VARIANT
+                                  ActionButton(
+                                    onPress: () => {
+                                      setState(() {
+                                        (pokemon.imageVariant() ==
+                                                PokemonVariant.normal)
+                                            ? imageIndex =
+                                                pokemon.findImageIndexByVariant(
+                                                    PokemonVariant.shiny)
+                                            : imageIndex =
+                                                pokemon.findImageIndexByVariant(
+                                                    PokemonVariant.normal);
+                                      }),
+                                    },
+                                    icon: (pokemon.imageVariant() ==
+                                            PokemonVariant.normal)
+                                        ? Image.network(
+                                            '$kImageLocalPrefix/icons/box_icon_shiny_01.png',
+                                            color: Colors.grey,
+                                            height: 20,
+                                            width: 24,
+                                          )
+                                        : Image.network(
+                                            '$kImageLocalPrefix/icons/box_icon_shiny_01.png',
+                                            color: Colors.amber,
+                                            height: 20,
+                                            width: 24,
+                                          ),
+                                  ),
+
+                                  if (pokemon.imageHasGenderAlter())
+                                    //MALE VERSION
+                                    ActionButton(
+                                      onPress: () => {
+                                        setState(() {
+                                          imageIndex =
+                                              pokemon.findImageIndexByGender(
+                                                  PokemonGender.male);
+                                        }),
+                                      },
+                                      icon: (pokemon.imageGender() ==
+                                              PokemonGender.male)
+                                          ? const Icon(Icons.male,
+                                              color: Colors.blue)
+                                          : const Icon(Icons.male,
+                                              color: Colors.grey),
+                                    ),
+                                ],
+                              ),
+
+                              //GO RIGHT
+                              ActionButton(
+                                onPress: (isLastInList)
+                                    ? null
+                                    : () => {
                                           setState(() {
-                                            imageIndex =
-                                                pokemon.findImageIndexByGender(
-                                                    PokemonGender.male);
+                                            imageIndex = 0;
+                                            pokemon.resetImage();
+                                            currentIndexes = widget.pokemons
+                                                .nextIndex(currentIndexes);
                                           }),
                                         },
-                                        icon: (pokemon.imageGender() ==
-                                                PokemonGender.male)
-                                            ? const Icon(Icons.male,
-                                                color: Colors.blue)
-                                            : const Icon(Icons.male,
-                                                color: Colors.grey),
-                                      ),
-                                  ],
+                                icon: const Icon(
+                                  Icons.arrow_circle_right_outlined,
+                                  color: Colors.white,
                                 ),
+                              ),
+                            ],
+                          ),
 
-                                //GO RIGHT
-                                ActionButton(
-                                  onPress: (isLastInList)
-                                      ? null
-                                      : () => {
-                                            setState(() {
-                                              imageIndex = 0;
-                                              pokemon.resetImage();
-                                              currentIndexes = widget.pokemons
-                                                  .nextIndex(currentIndexes);
-                                            }),
-                                          },
-                                  icon: const Icon(
-                                    Icons.arrow_circle_right_outlined,
-                                    color: Colors.white,
-                                  ),
-                                ),
-                              ],
-                            ),
-
-                            // NextPrevButtons(
-                            //   onLeftClick: (isFirstInList)
-                            //       ? null
-                            //       : () => {
-                            //             setState(() {
-                            //               imageIndex = 0;
-                            //               pokemon.resetImage();
-                            //               currentIndexes = widget.pokemons
-                            //                   .previousIndex(currentIndexes);
-                            //             }),
-                            //           },
-                            //   onRightClick: (isLastInList)
-                            //       ? null
-                            //       : () => {
-                            //             setState(() {
-                            //               imageIndex = 0;
-                            //               pokemon.resetImage();
-                            //               currentIndexes = widget.pokemons
-                            //                   .nextIndex(currentIndexes);
-                            //             }),
-                            //           },
-                            // ),
-                          ],
-                        ),
+                          // NextPrevButtons(
+                          //   onLeftClick: (isFirstInList)
+                          //       ? null
+                          //       : () => {
+                          //             setState(() {
+                          //               imageIndex = 0;
+                          //               pokemon.resetImage();
+                          //               currentIndexes = widget.pokemons
+                          //                   .previousIndex(currentIndexes);
+                          //             }),
+                          //           },
+                          //   onRightClick: (isLastInList)
+                          //       ? null
+                          //       : () => {
+                          //             setState(() {
+                          //               imageIndex = 0;
+                          //               pokemon.resetImage();
+                          //               currentIndexes = widget.pokemons
+                          //                   .nextIndex(currentIndexes);
+                          //             }),
+                          //           },
+                          // ),
+                        ],
                       ),
-                      Expanded(
-                        child: Row(
-                          children: [
-                            GeneralInformationCard(
-                              pokemon: pokemon,
-                              onImageChange: (int newIndex) {
-                                setState(() => imageIndex = newIndex);
-                              },
-                            ),
-                          ],
-                        ),
+                    ),
+                    Expanded(
+                      child: Row(
+                        children: [
+                          GeneralInformationCard(
+                            pokemon: pokemon,
+                            onImageChange: (int newIndex) {
+                              setState(() => imageIndex = newIndex);
+                            },
+                          ),
+                        ],
                       ),
-                      BreedingInformationCard(
-                        pokemon: pokemon,
-                        onImageChange: (int newIndex) {
-                          setState(() => imageIndex = newIndex);
-                        },
-                      ),
-                    ],
-                  ),
+                    ),
+                    BreedingInformationCard(
+                      pokemon: pokemon,
+                      onImageChange: (int newIndex) {
+                        setState(() => imageIndex = newIndex);
+                      },
+                    ),
+                  ],
                 ),
-                Expanded(
-                  child: Row(
-                    children: [
-                      GamesInformationCard(pokemon: pokemon),
-                      WeaknessInformationCard(pokemon: pokemon),
-                      tempContainer(Colors.cyan),
-                    ],
-                  ),
+              ),
+              Expanded(
+                child: Row(
+                  children: [
+                    GamesInformationCard(pokemon: pokemon),
+                    WeaknessInformationCard(pokemon: pokemon),
+                    tempContainer(Colors.cyan),
+                  ],
                 ),
-              ],
-            ),
+              ),
+            ],
           ),
         ],
       ),
