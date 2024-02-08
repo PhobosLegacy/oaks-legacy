@@ -115,11 +115,11 @@ class _LoadingScreenState extends State<LoadingScreen> {
 
     // await Future.delayed(const Duration(seconds: 2));
     // openNextScreen(const MaintainanceScreen());
-    openNextScreen(const StartScreen());
-    // openNextScreen(PokedexDetailsPageV2(
-    //   pokemons: kPokedex,
-    //   indexes: [2, 0],
-    // ));
+    // openNextScreen(const StartScreen());
+    openNextScreen(PokedexDetailsPageV2(
+      pokemons: kPokedex,
+      indexes: [2, 0],
+    ));
     // openNextScreen(PokedexListScreen(pokemons: kPokedex));
     // openNextScreen(const TestListScreen6());
 
