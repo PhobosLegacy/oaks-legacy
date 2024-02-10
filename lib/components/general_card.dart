@@ -96,28 +96,6 @@ class GeneralInformationCard extends StatelessWidget {
                   ],
                 ),
               ),
-              // const TextDivider(text: "Variant"),
-              // Row(
-              //   mainAxisAlignment: MainAxisAlignment.center,
-              //   children: [
-              //     ElevatedButton(
-              //       style: ButtonStyle(
-              //         backgroundColor:
-              //             MaterialStateProperty.all<Color>(Colors.blueGrey),
-              //       ),
-              //       onPressed: () => {
-              //         (pokemon.imageVariant() == PokemonVariant.normal)
-              //             ? onImageChange(pokemon
-              //                 .findImageIndexByVariant(PokemonVariant.shiny))
-              //             : onImageChange(pokemon
-              //                 .findImageIndexByVariant(PokemonVariant.normal)),
-              //       },
-              //       child: (pokemon.imageVariant() == PokemonVariant.normal)
-              //           ? const Icon(Icons.star_border)
-              //           : const Icon(Icons.circle_outlined),
-              //     ),
-              //   ],
-              // ),
             ],
           ),
         ),

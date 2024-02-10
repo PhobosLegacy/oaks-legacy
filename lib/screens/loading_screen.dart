@@ -116,9 +116,20 @@ class _LoadingScreenState extends State<LoadingScreen> {
     // await Future.delayed(const Duration(seconds: 2));
     // openNextScreen(const MaintainanceScreen());
     // openNextScreen(const StartScreen());
+    // kPokedex = kPokedex
+    //     .where((element) =>
+    //         element.name == "Bulbasaur" ||
+    //         element.name == "Venusaur" ||
+    //         element.name == "Articuno" ||
+    //         element.name == "Mewtwo" ||
+    //         element.name == "Tauros" ||
+    //         element.name == "Nidorina" ||
+    //         element.name == "Rufflet" ||
+    //         element.name == "Sandslash")
+    //     .toList();
     openNextScreen(PokedexDetailsPageV2(
       pokemons: kPokedex,
-      indexes: [2, 0],
+      indexes: [0],
     ));
     // openNextScreen(PokedexListScreen(pokemons: kPokedex));
     // openNextScreen(const TestListScreen6());

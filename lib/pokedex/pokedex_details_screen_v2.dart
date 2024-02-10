@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/action_button.dart';
+import 'package:oaks_legacy/components/basic.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/models/enums.dart';
+import 'package:oaks_legacy/models/game.dart';
 import '../components/details_next_prev.dart';
 import '../components/app_bar_details.dart';
 import '../models/tab.dart';
@@ -236,49 +238,18 @@ class _PokedexDetailsPageV2 extends State<PokedexDetailsPageV2> {
                               ),
                             ],
                           ),
-
-                          // NextPrevButtons(
-                          //   onLeftClick: (isFirstInList)
-                          //       ? null
-                          //       : () => {
-                          //             setState(() {
-                          //               imageIndex = 0;
-                          //               pokemon.resetImage();
-                          //               currentIndexes = widget.pokemons
-                          //                   .previousIndex(currentIndexes);
-                          //             }),
-                          //           },
-                          //   onRightClick: (isLastInList)
-                          //       ? null
-                          //       : () => {
-                          //             setState(() {
-                          //               imageIndex = 0;
-                          //               pokemon.resetImage();
-                          //               currentIndexes = widget.pokemons
-                          //                   .nextIndex(currentIndexes);
-                          //             }),
-                          //           },
-                          // ),
                         ],
                       ),
                     ),
+                    GamesBlock(pokemon: pokemon),
                     Expanded(
-                      child: Row(
+                      child: Column(
                         children: [
-                          GeneralInformationCard(
-                            pokemon: pokemon,
-                            onImageChange: (int newIndex) {
-                              setState(() => imageIndex = newIndex);
-                            },
-                          ),
+                          DetailsCard(
+                              cardChild: Container(),
+                              blockTitle: "In Progress"),
                         ],
                       ),
-                    ),
-                    BreedingInformationCard(
-                      pokemon: pokemon,
-                      onImageChange: (int newIndex) {
-                        setState(() => imageIndex = newIndex);
-                      },
                     ),
                   ],
                 ),
@@ -286,9 +257,17 @@ class _PokedexDetailsPageV2 extends State<PokedexDetailsPageV2> {
               Expanded(
                 child: Row(
                   children: [
-                    GamesInformationCard(pokemon: pokemon),
-                    WeaknessInformationCard(pokemon: pokemon),
-                    tempContainer(Colors.cyan),
+                    Expanded(
+                      child: Column(
+                        children: [
+                          BaseDetailsBlock(pokemon: pokemon),
+                          BreedingBlock(pokemon: pokemon),
+                        ],
+                      ),
+                    ),
+                    WeaknessBlock(pokemon: pokemon),
+                    DetailsCard(
+                        cardChild: Container(), blockTitle: "In Progress"),
                   ],
                 ),
               ),
@@ -327,12 +306,414 @@ class _PokedexDetailsPageV2 extends State<PokedexDetailsPageV2> {
 
     return tabs;
   }
+}
 
-  tempContainer(Color color) {
+class BaseDetailsBlock extends StatelessWidget {
+  const BaseDetailsBlock({
+    super.key,
+    required this.pokemon,
+  });
+
+  final Pokemon pokemon;
+
+  @override
+  Widget build(BuildContext context) {
+    return DetailsCard(
+        cardChild: Expanded(
+          child: Row(
+            children: [
+              Expanded(
+                child: Card(
+                  color: Colors.black12,
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Text(
+                        "#${pokemon.number}",
+                        style:
+                            const TextStyle(color: Colors.white, fontSize: 30),
+                      ),
+                      Text(
+                        pokemon.species,
+                        style:
+                            const TextStyle(color: Colors.white, fontSize: 30),
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          TypeIconBox(type: pokemon.type1),
+                          if (pokemon.type2 != null)
+                            const Padding(
+                              padding: EdgeInsets.only(bottom: 5),
+                              child: FittedBox(
+                                fit: BoxFit.scaleDown,
+                                child: Text(
+                                  "·",
+                                  style: TextStyle(
+                                      color: Colors.white, fontSize: 50),
+                                ),
+                              ),
+                            ),
+                          if (pokemon.type2 != null)
+                            TypeIconBox(type: pokemon.type2!),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              Expanded(
+                child: Card(
+                  color: Colors.black12,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      SimpleBox(textTitle: "Height", textValue: pokemon.height),
+                      SimpleBox(textTitle: "Weight", textValue: pokemon.weight),
+                    ],
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+        blockTitle: "Base Details");
+  }
+}
+
+class BreedingBlock extends StatelessWidget {
+  const BreedingBlock({
+    super.key,
+    required this.pokemon,
+  });
+
+  final Pokemon pokemon;
+
+  @override
+  Widget build(BuildContext context) {
+    return DetailsCard(
+        cardChild: Expanded(
+          child: Column(
+            children: [
+              Expanded(
+                child: Card(
+                  color: Colors.black12,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      ImageTextBox(
+                        image: const Icon(
+                          Icons.male,
+                          color: Colors.blueAccent,
+                          size: 30,
+                        ),
+                        text: '${pokemon.genderRatio.male}%',
+                      ),
+                      ImageTextBox(
+                        image: const Icon(
+                          Icons.female,
+                          color: Colors.redAccent,
+                          size: 30,
+                        ),
+                        text: '${pokemon.genderRatio.female}%',
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              Expanded(
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Expanded(
+                      child: Card(
+                        color: Colors.black12,
+                        child: SimpleBox2(
+                          textTitle: 'cycles ${pokemon.breeding.getSteps()}',
+                          textValue: pokemon.breeding.cycles,
+                        ),
+                      ),
+                    ),
+                    Expanded(
+                      child: Card(
+                        color: Colors.black12,
+                        child: SimpleBox2(
+                          textTitle: 'Egg Groups',
+                          textValue: pokemon.breeding.groups.toString(),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+        blockTitle: "Breeding");
+  }
+}
+
+class GamesBlock extends StatelessWidget {
+  const GamesBlock({
+    super.key,
+    required this.pokemon,
+  });
+
+  final Pokemon pokemon;
+
+  @override
+  Widget build(BuildContext context) {
+    return DetailsCard(
+      blockTitle: "Games",
+      cardChild: Card(
+        color: Colors.black12,
+        child: ListView.builder(
+          itemBuilder: (context, index2) {
+            return ListTile(
+              // tileColor: Colors.black,
+              leading: ListImage(
+                image: Game.gameIcon(pokemon.games[index2].name),
+              ),
+              title: Text(
+                pokemon.games[index2].name,
+                style: const TextStyle(color: Colors.white, fontSize: 15),
+              ),
+              subtitle: Text(
+                '(${pokemon.games[index2].dex})',
+                style: const TextStyle(
+                  color: Colors.amber,
+                ),
+              ),
+              trailing: Text(
+                '#${pokemon.games[index2].number}',
+                style: const TextStyle(color: Colors.white, fontSize: 15),
+              ),
+            );
+          },
+          itemCount: pokemon.games.length,
+          shrinkWrap: true,
+          padding: const EdgeInsets.all(5),
+          scrollDirection: Axis.vertical,
+        ),
+      ),
+    );
+  }
+}
+
+class WeaknessBlock extends StatelessWidget {
+  const WeaknessBlock({
+    super.key,
+    required this.pokemon,
+  });
+
+  final Pokemon pokemon;
+
+  @override
+  Widget build(BuildContext context) {
+    return DetailsCard(
+      blockTitle: "Weakness",
+      cardChild: Expanded(
+        child: Column(
+          children: [
+            Expanded(
+              child: Row(
+                children: [
+                  Weak(text: "x ¼", list: pokemon.weakness.quarter),
+                  Weak(text: "x ½", list: pokemon.weakness.half),
+                ],
+              ),
+            ),
+            Weak(text: "x 0", list: pokemon.weakness.none),
+            Expanded(
+              child: Row(
+                children: [
+                  Weak(text: "x 2", list: pokemon.weakness.double),
+                  Weak(text: "x 4", list: pokemon.weakness.quadruple),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class Weak extends StatelessWidget {
+  const Weak({
+    super.key,
+    required this.text,
+    required this.list,
+  });
+
+  final String text;
+  final List<dynamic> list;
+
+  @override
+  Widget build(BuildContext context) {
     return Expanded(
-      flex: 2,
-      child: Container(
-        color: color,
+      child: Card(
+        color: Colors.black12,
+        child: Column(
+          children: [
+            SubTextDivider(text: text),
+            Expanded(
+              child: Center(
+                child: Wrap(
+                  direction: Axis.horizontal,
+                  alignment: WrapAlignment.center,
+                  crossAxisAlignment: WrapCrossAlignment.center,
+                  children: list
+                      .map(
+                        (i) => Padding(
+                          padding: const EdgeInsets.all(5),
+                          child: Pokemon.typeImage(
+                            PokemonType.values.byName(i),
+                            height: 60,
+                          ),
+                        ),
+                      )
+                      .toList(),
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class TypeIconBox extends StatelessWidget {
+  const TypeIconBox({
+    super.key,
+    required this.type,
+  });
+
+  final PokemonType type;
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      child: Column(
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(5),
+            child: Pokemon.typeImage(type, height: 50),
+          ),
+          Text(
+            type.name.toUpperCase(),
+            style: TextStyle(
+              color: Colors.white,
+            ),
+          )
+        ],
+      ),
+    );
+  }
+}
+
+class SimpleBox extends StatelessWidget {
+  const SimpleBox({
+    super.key,
+    required this.textTitle,
+    required this.textValue,
+  });
+
+  final String textTitle;
+  final String textValue;
+
+  @override
+  Widget build(BuildContext context) {
+    return Expanded(
+      child: Padding(
+        padding: const EdgeInsets.all(10.0),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              textValue,
+              style: const TextStyle(color: Colors.white, fontSize: 40),
+            ),
+            Text(
+              textTitle,
+              style: const TextStyle(
+                color: Colors.white,
+                fontSize: 20,
+              ),
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class SimpleBox2 extends StatelessWidget {
+  const SimpleBox2({
+    super.key,
+    required this.textTitle,
+    required this.textValue,
+  });
+
+  final String textTitle;
+  final String textValue;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.all(10.0),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Text(
+            textValue,
+            style: const TextStyle(
+              color: Colors.white,
+              fontSize: 25,
+            ),
+          ),
+          Text(
+            textTitle,
+            style: const TextStyle(
+              color: Colors.white,
+              fontSize: 15,
+            ),
+          )
+        ],
+      ),
+    );
+  }
+}
+
+class ImageTextBox extends StatelessWidget {
+  const ImageTextBox({
+    super.key,
+    required this.image,
+    required this.text,
+  });
+
+  final Widget image;
+  final String text;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.all(10.0),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Text(
+            text,
+            style: const TextStyle(
+              color: Colors.white,
+              fontSize: 30,
+            ),
+          ),
+          image,
+        ],
       ),
     );
   }
