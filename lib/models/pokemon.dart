@@ -219,7 +219,7 @@ class Pokemon {
         image.any((element) => element.contains('-g')));
   }
 
-  static Image typeImage(PokemonType? type, {double? height}) {
+  static Image typeImage(PokemonType? type, {double? size}) {
     // String path = "images/types";
     String typeUrl = kImageLocalPrefix;
 
@@ -284,7 +284,7 @@ class Pokemon {
 
     return Image.network(
       typeUrl,
-      height: (height == null) ? 23 : height,
+      width: (size == null) ? 23 : size,
     );
   }
 

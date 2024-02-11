@@ -129,27 +129,10 @@ class _PokedexDetailsPageV2 extends State<PokedexDetailsPageV2> {
                               ),
                             ),
                           ),
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          Column(
                             children: [
-                              //Go LEFT
-                              ActionButton(
-                                onPress: (isFirstInList)
-                                    ? null
-                                    : () => {
-                                          setState(() {
-                                            imageIndex = 0;
-                                            pokemon.resetImage();
-                                            currentIndexes = widget.pokemons
-                                                .previousIndex(currentIndexes);
-                                          }),
-                                        },
-                                icon: const Icon(
-                                  Icons.arrow_circle_left_outlined,
-                                  color: Colors.white,
-                                ),
-                              ),
                               Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   if (pokemon.imageHasGenderAlter())
                                     //FEMALE VERSION
@@ -218,23 +201,47 @@ class _PokedexDetailsPageV2 extends State<PokedexDetailsPageV2> {
                                     ),
                                 ],
                               ),
+                              Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
+                                children: [
+                                  //Go LEFT
+                                  ActionButton(
+                                    onPress: (isFirstInList)
+                                        ? null
+                                        : () => {
+                                              setState(() {
+                                                imageIndex = 0;
+                                                pokemon.resetImage();
+                                                currentIndexes = widget.pokemons
+                                                    .previousIndex(
+                                                        currentIndexes);
+                                              }),
+                                            },
+                                    icon: const Icon(
+                                      Icons.arrow_circle_left_outlined,
+                                      color: Colors.white,
+                                    ),
+                                  ),
 
-                              //GO RIGHT
-                              ActionButton(
-                                onPress: (isLastInList)
-                                    ? null
-                                    : () => {
-                                          setState(() {
-                                            imageIndex = 0;
-                                            pokemon.resetImage();
-                                            currentIndexes = widget.pokemons
-                                                .nextIndex(currentIndexes);
-                                          }),
-                                        },
-                                icon: const Icon(
-                                  Icons.arrow_circle_right_outlined,
-                                  color: Colors.white,
-                                ),
+                                  //GO RIGHT
+                                  ActionButton(
+                                    onPress: (isLastInList)
+                                        ? null
+                                        : () => {
+                                              setState(() {
+                                                imageIndex = 0;
+                                                pokemon.resetImage();
+                                                currentIndexes = widget.pokemons
+                                                    .nextIndex(currentIndexes);
+                                              }),
+                                            },
+                                    icon: const Icon(
+                                      Icons.arrow_circle_right_outlined,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -242,15 +249,20 @@ class _PokedexDetailsPageV2 extends State<PokedexDetailsPageV2> {
                       ),
                     ),
                     GamesBlock(pokemon: pokemon),
-                    Expanded(
-                      child: Column(
-                        children: [
-                          DetailsCard(
-                              cardChild: Container(),
-                              blockTitle: "In Progress"),
-                        ],
-                      ),
-                    ),
+                    const DetailsCard(
+                        cardChild: Expanded(
+                          child: Center(
+                            child: Text(
+                              "[Soon]",
+                              style: TextStyle(
+                                color: Colors.redAccent,
+                                fontSize: 30,
+                                fontStyle: FontStyle.italic,
+                              ),
+                            ),
+                          ),
+                        ),
+                        blockTitle: "Stats"),
                   ],
                 ),
               ),
@@ -266,8 +278,20 @@ class _PokedexDetailsPageV2 extends State<PokedexDetailsPageV2> {
                       ),
                     ),
                     WeaknessBlock(pokemon: pokemon),
-                    DetailsCard(
-                        cardChild: Container(), blockTitle: "In Progress"),
+                    const DetailsCard(
+                        cardChild: Expanded(
+                          child: Center(
+                            child: Text(
+                              "[Soon]",
+                              style: TextStyle(
+                                color: Colors.redAccent,
+                                fontSize: 30,
+                                fontStyle: FontStyle.italic,
+                              ),
+                            ),
+                          ),
+                        ),
+                        blockTitle: "Others"),
                   ],
                 ),
               ),
@@ -334,7 +358,9 @@ class BaseDetailsBlock extends StatelessWidget {
                             const TextStyle(color: Colors.white, fontSize: 30),
                       ),
                       Text(
-                        pokemon.species,
+                        "The ${pokemon.species}",
+                        textAlign: TextAlign.center,
+                        softWrap: true,
                         style:
                             const TextStyle(color: Colors.white, fontSize: 30),
                       ),
@@ -457,9 +483,9 @@ class BreedingBlock extends StatelessWidget {
 
 class GamesBlock extends StatelessWidget {
   const GamesBlock({
-    Key? key,
+    super.key,
     required this.pokemon,
-  }) : super(key: key);
+  });
 
   final Pokemon pokemon;
 
@@ -530,6 +556,7 @@ class WeaknessBlock extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    double iconSize = MediaQuery.of(context).size.width / 30;
     return DetailsCard(
       blockTitle: "Weakness",
       cardChild: Expanded(
@@ -538,17 +565,37 @@ class WeaknessBlock extends StatelessWidget {
             Expanded(
               child: Row(
                 children: [
-                  Weak(text: "x ¼", list: pokemon.weakness.quarter),
-                  Weak(text: "x ½", list: pokemon.weakness.half),
+                  Weak(
+                    text: "x ¼",
+                    list: pokemon.weakness.quarter,
+                    size: iconSize,
+                  ),
+                  Weak(
+                    text: "x ½",
+                    list: pokemon.weakness.half,
+                    size: iconSize,
+                  ),
                 ],
               ),
             ),
-            Weak(text: "x 0", list: pokemon.weakness.none),
+            Weak(
+              text: "x 0",
+              list: pokemon.weakness.none,
+              size: iconSize,
+            ),
             Expanded(
               child: Row(
                 children: [
-                  Weak(text: "x 2", list: pokemon.weakness.double),
-                  Weak(text: "x 4", list: pokemon.weakness.quadruple),
+                  Weak(
+                    text: "x 2",
+                    list: pokemon.weakness.double,
+                    size: iconSize,
+                  ),
+                  Weak(
+                    text: "x 4",
+                    list: pokemon.weakness.quadruple,
+                    size: iconSize,
+                  ),
                 ],
               ),
             ),
@@ -564,10 +611,12 @@ class Weak extends StatelessWidget {
     super.key,
     required this.text,
     required this.list,
+    required this.size,
   });
 
   final String text;
   final List<dynamic> list;
+  final double size;
 
   @override
   Widget build(BuildContext context) {
@@ -589,7 +638,7 @@ class Weak extends StatelessWidget {
                           padding: const EdgeInsets.all(5),
                           child: Pokemon.typeImage(
                             PokemonType.values.byName(i),
-                            height: 60,
+                            size: size,
                           ),
                         ),
                       )
@@ -619,11 +668,11 @@ class TypeIconBox extends StatelessWidget {
         children: [
           Padding(
             padding: const EdgeInsets.all(5),
-            child: Pokemon.typeImage(type, height: 50),
+            child: Pokemon.typeImage(type, size: 50),
           ),
           Text(
             type.name.toUpperCase(),
-            style: TextStyle(
+            style: const TextStyle(
               color: Colors.white,
             ),
           )
@@ -651,15 +700,21 @@ class SimpleBox extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(
-              textValue,
-              style: const TextStyle(color: Colors.white, fontSize: 40),
+            FittedBox(
+              fit: BoxFit.scaleDown,
+              child: Text(
+                textValue,
+                style: const TextStyle(color: Colors.white, fontSize: 40),
+              ),
             ),
-            Text(
-              textTitle,
-              style: const TextStyle(
-                color: Colors.white,
-                fontSize: 20,
+            FittedBox(
+              fit: BoxFit.scaleDown,
+              child: Text(
+                textTitle,
+                style: const TextStyle(
+                  color: Colors.white,
+                  fontSize: 20,
+                ),
               ),
             )
           ],
@@ -695,6 +750,8 @@ class SimpleBox2 extends StatelessWidget {
           ),
           Text(
             textTitle,
+            textAlign: TextAlign.center,
+            softWrap: true,
             style: const TextStyle(
               color: Colors.white,
               fontSize: 15,

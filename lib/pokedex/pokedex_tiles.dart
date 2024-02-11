@@ -239,7 +239,7 @@ class _PokemonTiles extends State<PokemonTiles> {
                     SizedBox(
                       child: Padding(
                           padding: const EdgeInsets.only(bottom: 5),
-                          child: Pokemon.typeImage(pokemon.type1, height: 50)),
+                          child: Pokemon.typeImage(pokemon.type1, size: 50)),
                     ),
                     if (pokemon.type2 != null)
                       const Padding(
@@ -256,7 +256,7 @@ class _PokemonTiles extends State<PokemonTiles> {
                       SizedBox(
                         child: Padding(
                           padding: const EdgeInsets.only(bottom: 5),
-                          child: Pokemon.typeImage(pokemon.type2, height: 50),
+                          child: Pokemon.typeImage(pokemon.type2, size: 50),
                         ),
                       ),
                   ],
