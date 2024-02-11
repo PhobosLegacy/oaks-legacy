@@ -129,7 +129,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
     //     .toList();
     openNextScreen(PokedexDetailsPageV2(
       pokemons: kPokedex,
-      indexes: [0],
+      indexes: [24, 0],
     ));
     // openNextScreen(PokedexListScreen(pokemons: kPokedex));
     // openNextScreen(const TestListScreen6());

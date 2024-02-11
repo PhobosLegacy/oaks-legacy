@@ -457,9 +457,9 @@ class BreedingBlock extends StatelessWidget {
 
 class GamesBlock extends StatelessWidget {
   const GamesBlock({
-    super.key,
+    Key? key,
     required this.pokemon,
-  });
+  }) : super(key: key);
 
   final Pokemon pokemon;
 
@@ -467,38 +467,56 @@ class GamesBlock extends StatelessWidget {
   Widget build(BuildContext context) {
     return DetailsCard(
       blockTitle: "Games",
-      cardChild: Card(
-        color: Colors.black12,
-        child: ListView.builder(
-          itemBuilder: (context, index2) {
-            return ListTile(
-              // tileColor: Colors.black,
-              leading: ListImage(
-                image: Game.gameIcon(pokemon.games[index2].name),
-              ),
-              title: Text(
-                pokemon.games[index2].name,
-                style: const TextStyle(color: Colors.white, fontSize: 15),
-              ),
-              subtitle: Text(
-                '(${pokemon.games[index2].dex})',
-                style: const TextStyle(
-                  color: Colors.amber,
-                ),
-              ),
-              trailing: Text(
-                '#${pokemon.games[index2].number}',
-                style: const TextStyle(color: Colors.white, fontSize: 15),
-              ),
-            );
-          },
-          itemCount: pokemon.games.length,
-          shrinkWrap: true,
-          padding: const EdgeInsets.all(5),
-          scrollDirection: Axis.vertical,
+      cardChild: Expanded(
+        child: Card(
+          color: Colors.black12,
+          child: SingleChildScrollView(
+            child: ListView.builder(
+              shrinkWrap: true,
+              physics: const NeverScrollableScrollPhysics(),
+              itemBuilder: (context, index2) {
+                return ListTile(
+                  // tileColor: Colors.black,
+                  leading: ListImage(
+                    image: Game.gameIcon(pokemon.games[index2].name),
+                  ),
+                  title: Text(
+                    pokemon.games[index2].name,
+                    style: const TextStyle(color: Colors.white, fontSize: 15),
+                  ),
+                  subtitle: Text(
+                    '(${pokemon.games[index2].dex})',
+                    style: const TextStyle(
+                      color: Colors.amber,
+                    ),
+                  ),
+                  trailing: Text(
+                    '#${pokemon.games[index2].number}',
+                    style: const TextStyle(color: Colors.white, fontSize: 15),
+                  ),
+                );
+              },
+              itemCount: pokemon.games.length,
+              padding: const EdgeInsets.all(5),
+              scrollDirection: Axis.vertical,
+            ),
+          ),
         ),
       ),
     );
+    //           DetailsCard(
+    //   blockTitle: "Games",
+    //   cardChild: Card(
+    //     color: Colors.black12,
+    //     child: SingleChildScrollView(
+    //       child: Column(
+    //         children: [
+
+    //         ],
+    //       ),
+    //     ),
+    //   ),
+    // );
   }
 }
 
