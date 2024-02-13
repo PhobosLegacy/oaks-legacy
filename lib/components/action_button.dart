@@ -12,21 +12,29 @@ class ActionButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    double boxSize = (MediaQuery.of(context).size.width < 1024)
+        ? MediaQuery.of(context).size.width / 10
+        : 60;
+
     return Center(
       child: Padding(
         padding: const EdgeInsets.all(8.0),
         child: (onPress == null)
             ? Container()
-            : ElevatedButton(
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.blueGrey,
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(10.0),
-                    side: const BorderSide(color: Colors.amber),
+            : SizedBox(
+                width: boxSize,
+                child: ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    padding: EdgeInsets.zero,
+                    backgroundColor: Colors.blueGrey,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(10.0),
+                      side: const BorderSide(color: Colors.amber),
+                    ),
                   ),
+                  onPressed: onPress,
+                  child: icon,
                 ),
-                onPressed: onPress,
-                child: icon,
               ),
       ),
     );
