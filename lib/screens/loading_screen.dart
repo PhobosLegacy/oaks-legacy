@@ -4,6 +4,7 @@ import 'package:oaks_legacy/components/base_background.dart';
 import 'package:oaks_legacy/models/preferences.dart';
 import 'package:oaks_legacy/models/version.dart';
 import 'package:oaks_legacy/pokedex/pokedex_details_screen_v2.dart';
+import 'package:oaks_legacy/pokedex/pokedex_details_screen_v3.dart';
 import 'package:oaks_legacy/screens/start_screen.dart';
 import 'package:oaks_legacy/file_manager.dart';
 import 'package:oaks_legacy/models/pokemon.dart';
@@ -118,18 +119,11 @@ class _LoadingScreenState extends State<LoadingScreen> {
     // openNextScreen(const StartScreen());
     // kPokedex = kPokedex
     //     .where((element) =>
-    //         element.name == "Bulbasaur" ||
-    //         element.name == "Venusaur" ||
-    //         element.name == "Articuno" ||
-    //         element.name == "Mewtwo" ||
-    //         element.name == "Tauros" ||
-    //         element.name == "Nidorina" ||
-    //         element.name == "Rufflet" ||
-    //         element.name == "Sandslash")
+    //         element.name == "Sandslash" || element.name == "Tauros")
     //     .toList();
     openNextScreen(PokedexDetailsPageV2(
       pokemons: kPokedex,
-      indexes: [24, 0],
+      indexes: [0],
     ));
     // openNextScreen(PokedexListScreen(pokemons: kPokedex));
     // openNextScreen(const TestListScreen6());
