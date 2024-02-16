@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/base_background.dart';
 import 'package:oaks_legacy/models/preferences.dart';
 import 'package:oaks_legacy/models/version.dart';
-import 'package:oaks_legacy/pokedex/pokedex_details_screen_v2.dart';
-import 'package:oaks_legacy/screens/start_screen.dart';
+import 'package:oaks_legacy/pokedex/pokedex_details_screen.dart';
 import 'package:oaks_legacy/file_manager.dart';
 import 'package:oaks_legacy/models/pokemon.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:http/http.dart' as http;
+import 'package:oaks_legacy/screens/start_screen.dart';
 
 class LoadingScreen extends StatefulWidget {
   const LoadingScreen({super.key});
@@ -115,15 +115,15 @@ class _LoadingScreenState extends State<LoadingScreen> {
 
     // await Future.delayed(const Duration(seconds: 2));
     // openNextScreen(const MaintainanceScreen());
-    // openNextScreen(const StartScreen());
+    openNextScreen(const StartScreen());
     // kPokedex = kPokedex
     //     .where((element) =>
     //         element.name == "Sandslash" || element.name == "Tauros")
     //     .toList();
-    openNextScreen(PokedexDetailsPageV2(
-      pokemons: kPokedex,
-      indexes: [24, 0],
-    ));
+    // openNextScreen(PokedexDetailsPage(
+    //   pokemons: kPokedex,
+    //   indexes: const [24, 0],
+    // ));
     // openNextScreen(PokedexListScreen(pokemons: kPokedex));
     // openNextScreen(const TestListScreen6());
 

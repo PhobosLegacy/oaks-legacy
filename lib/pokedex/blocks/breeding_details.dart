@@ -83,7 +83,8 @@ class BreedingBlock extends StatelessWidget {
                         Text(
                           'cycles ${pokemon.breeding.getSteps()}',
                           textAlign: TextAlign.center,
-                          style: TextStyle(color: Colors.white, fontSize: 15),
+                          style: const TextStyle(
+                              color: Colors.white, fontSize: 15),
                         ),
                       ],
                     ),

@@ -1,7 +1,6 @@
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/basic.dart';
-import 'package:oaks_legacy/components/image.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/models/game.dart';
 import 'package:oaks_legacy/models/pokemon.dart';
