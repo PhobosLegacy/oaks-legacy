@@ -4,7 +4,6 @@ import 'package:oaks_legacy/components/base_background.dart';
 import 'package:oaks_legacy/models/preferences.dart';
 import 'package:oaks_legacy/models/version.dart';
 import 'package:oaks_legacy/pokedex/pokedex_details_screen_v2.dart';
-import 'package:oaks_legacy/pokedex/pokedex_details_screen_v3.dart';
 import 'package:oaks_legacy/screens/start_screen.dart';
 import 'package:oaks_legacy/file_manager.dart';
 import 'package:oaks_legacy/models/pokemon.dart';
@@ -123,7 +122,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
     //     .toList();
     openNextScreen(PokedexDetailsPageV2(
       pokemons: kPokedex,
-      indexes: [0],
+      indexes: [24, 0],
     ));
     // openNextScreen(PokedexListScreen(pokemons: kPokedex));
     // openNextScreen(const TestListScreen6());
