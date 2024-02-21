@@ -8,7 +8,9 @@ import 'package:oaks_legacy/file_manager.dart';
 import 'package:oaks_legacy/models/pokemon.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:http/http.dart' as http;
+import 'package:oaks_legacy/screens/select_tracker_screen.dart';
 import 'package:oaks_legacy/screens/start_screen.dart';
+import 'package:oaks_legacy/screens/your_trackers.dart';
 
 class LoadingScreen extends StatefulWidget {
   const LoadingScreen({super.key});
@@ -115,7 +117,9 @@ class _LoadingScreenState extends State<LoadingScreen> {
 
     // await Future.delayed(const Duration(seconds: 2));
     // openNextScreen(const MaintainanceScreen());
-    openNextScreen(const StartScreen());
+    //openNextScreen(const StartScreen());
+
+    openNextScreen(const YourTrackersScreen());
     // kPokedex = kPokedex
     //     .where((element) =>
     //         element.name == "Sandslash" || element.name == "Tauros")

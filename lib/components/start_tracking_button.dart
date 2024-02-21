@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../tracker/tracker_list_screen.dart';
+import 'package:oaks_legacy/models/tracker.dart';
 import '../utils/trackers_manager.dart';
 
 class StartTrackingButton extends StatelessWidget {
@@ -14,7 +14,7 @@ class StartTrackingButton extends StatelessWidget {
   final String gamePicked;
   final String dexPicked;
   final String trackerPicked;
-  final VoidCallback setStateCallback;
+  final Function(Tracker) setStateCallback;
 
   @override
   Widget build(BuildContext context) {
@@ -29,62 +29,55 @@ class StartTrackingButton extends StatelessWidget {
       extentOffset: suggestedName.length,
     );
     return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Expanded(
-          child: Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: TextButton(
-              style: TextButton.styleFrom(
-                backgroundColor: Colors.blueGrey[800],
-                foregroundColor: Colors.white,
-                disabledBackgroundColor: Colors.blueGrey[700],
-                disabledForegroundColor: Colors.blueGrey[900],
-              ),
-              onPressed:
-                  (gamePicked != "" && dexPicked != "" && trackerPicked != "")
-                      ? () => {
-                            showDialog(
-                              context: context,
-                              builder: (_) => AlertDialog(
-                                title: const Text('Give a name'),
-                                content: TextField(
-                                  autofocus: true,
-                                  controller: textController,
-                                ),
-                                actions: [
-                                  TextButton(
-                                    child: const Text("Confirm"),
-                                    onPressed: () {
-                                      Navigator.pop(context);
-                                      setStateCallback();
-                                      Navigator.push(
-                                        context,
-                                        MaterialPageRoute(
-                                          builder: (context) {
-                                            return TrackerListScreen(
-                                                collection: createTracker(
-                                                    textController.text,
-                                                    gamePicked,
-                                                    dexPicked,
-                                                    trackerPicked));
-                                          },
-                                        ),
-                                      );
-                                    },
-                                  ),
-                                  TextButton(
-                                    child: const Text("Cancel"),
-                                    onPressed: () {
-                                      Navigator.pop(context);
-                                    },
-                                  ),
-                                ],
-                              ),
-                            ),
-                          }
-                      : null,
-              child: const Text("START TRACKING!"),
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: TextButton(
+            style: TextButton.styleFrom(
+              backgroundColor: Colors.amber[800],
+              foregroundColor: Colors.white,
+              disabledBackgroundColor: Colors.blueGrey[700],
+              disabledForegroundColor: Colors.blueGrey[700],
             ),
+            onPressed:
+                (gamePicked != "" && dexPicked != "" && trackerPicked != "")
+                    ? () => {
+                          showDialog(
+                            context: context,
+                            builder: (_) => AlertDialog(
+                              title: const Text('Give a name'),
+                              content: TextField(
+                                autofocus: true,
+                                controller: textController,
+                              ),
+                              actions: [
+                                TextButton(
+                                  child: const Text("Confirm"),
+                                  onPressed: () {
+                                    Navigator.pop(context);
+
+                                    var test = createTracker(
+                                        textController.text,
+                                        gamePicked,
+                                        dexPicked,
+                                        trackerPicked);
+
+                                    setStateCallback(test);
+                                  },
+                                ),
+                                TextButton(
+                                  child: const Text("Cancel"),
+                                  onPressed: () {
+                                    Navigator.pop(context);
+                                  },
+                                ),
+                              ],
+                            ),
+                          ),
+                        }
+                    : null,
+            child: const Text("START TRACKING!"),
           ),
         ),
       ],

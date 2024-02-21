@@ -18,9 +18,12 @@ class TrackerListScreen extends StatefulWidget {
   const TrackerListScreen({
     super.key,
     required this.collection,
+    required this.callBackAction,
   });
 
   final Tracker collection;
+  //VoidCallback: To ensure percentage is correct upon returning without having to refresh page
+  final VoidCallback callBackAction;
   @override
   State<TrackerListScreen> createState() => _TrackerListScreenState();
 }
@@ -117,6 +120,7 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
                           setState(() {
                             saveTracker(widget.collection);
                             applyFilters();
+                            widget.callBackAction();
                           });
                         },
                       );
