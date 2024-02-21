@@ -8,7 +8,6 @@ import 'package:oaks_legacy/file_manager.dart';
 import 'package:oaks_legacy/models/pokemon.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:http/http.dart' as http;
-import 'package:oaks_legacy/screens/select_tracker_screen.dart';
 import 'package:oaks_legacy/screens/start_screen.dart';
 import 'package:oaks_legacy/screens/your_trackers.dart';
 
