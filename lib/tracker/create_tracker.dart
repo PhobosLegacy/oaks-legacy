@@ -99,21 +99,43 @@ class _CreateTrackerScreenState extends State<CreateTrackerScreen>
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         const TrackerOptionsTitle(
-          title: "Select a Game",
+          title: "Create a Tracker",
         ),
         Expanded(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Visibility(
-                  visible: true,
-                  // visible: (trackerAnimation.value > 0) ? false : true,
-                  child: gameList(100)),
-              Visibility(
-                  visible: (dexAnimation.value > 0) ? true : false,
-                  child: dexList(dexAnimation.value)),
-              Visibility(
-                  visible: (trackerAnimation.value > 0) ? true : false,
-                  child: trackersList(trackerAnimation.value))
+              Expanded(
+                flex: 3,
+                child: Row(
+                  children: [
+                    Visibility(
+                        visible: true,
+                        // visible: (trackerAnimation.value > 0) ? false : true,
+                        child: gameList(100)),
+                    Visibility(
+                        visible: (dexAnimation.value > 0) ? true : false,
+                        child: dexList(dexAnimation.value)),
+                    Visibility(
+                        visible: (trackerAnimation.value > 0) ? true : false,
+                        child: trackersList(trackerAnimation.value)),
+                  ],
+                ),
+              ),
+              Expanded(
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    StartTrackingButton(
+                      dexPicked: dexPicked,
+                      gamePicked: gamePicked,
+                      trackerPicked: trackerPicked,
+                      setStateCallback: widget.onTrackerCreation,
+                    ),
+                  ],
+                ),
+              ),
             ],
           ),
         ),
@@ -226,12 +248,6 @@ class _CreateTrackerScreenState extends State<CreateTrackerScreen>
                 },
               ),
             ),
-          ),
-          StartTrackingButton(
-            dexPicked: dexPicked,
-            gamePicked: gamePicked,
-            trackerPicked: trackerPicked,
-            setStateCallback: widget.onTrackerCreation,
           ),
         ],
       ),
