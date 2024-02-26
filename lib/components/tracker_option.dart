@@ -114,13 +114,13 @@ class TrackerItem extends StatelessWidget {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
-                      if (imagePath != "")
-                        Padding(
-                          padding: const EdgeInsets.only(right: 5.0),
-                          child: Image.network(
-                            imagePath,
-                          ),
-                        ),
+                      // if (imagePath != "")
+                      //   Padding(
+                      //     padding: const EdgeInsets.only(right: 5.0),
+                      //     child: Image.network(
+                      //       imagePath,
+                      //     ),
+                      //   ),
                       Flexible(
                         child: Center(
                           child: FittedBox(
@@ -129,6 +129,7 @@ class TrackerItem extends StatelessWidget {
                               name,
                               style: TextStyle(
                                   fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.bold,
                                   fontSize: height * 0.18),
                               maxLines: 2,
                             ),
@@ -140,13 +141,16 @@ class TrackerItem extends StatelessWidget {
                 ),
                 Expanded(
                   child: Padding(
-                    padding: const EdgeInsets.all(15.0),
+                    padding: const EdgeInsets.all(2.0),
                     child: LinearPercentIndicator(
                       animation: true,
-                      lineHeight: 20.0,
+                      lineHeight: height * 0.2,
                       animationDuration: 1000,
                       percent: double.parse(percentageCompleted) / 100,
-                      center: Text('$percentageCompleted%'),
+                      center: Text(
+                        '$percentageCompleted%',
+                        style: TextStyle(fontSize: height * 0.18),
+                      ),
                       barRadius: const Radius.circular(16),
                       progressColor: Colors.green,
                     ),
@@ -173,80 +177,80 @@ class TrackerItem extends StatelessWidget {
   }
 }
 
-class PkmButton extends StatelessWidget {
-  const PkmButton({
-    super.key,
-    required this.buttonName,
-    required this.onPressed,
-    required this.textColor,
-    required this.buttonColor,
-    this.imagePath = '',
-    this.onLongPress,
-  });
+// class PkmButton extends StatelessWidget {
+//   const PkmButton({
+//     super.key,
+//     required this.buttonName,
+//     required this.onPressed,
+//     required this.textColor,
+//     required this.buttonColor,
+//     this.imagePath = '',
+//     this.onLongPress,
+//   });
 
-  final String buttonName;
-  final String imagePath;
-  final Color? textColor;
-  final Color? buttonColor;
-  final Function()? onPressed;
-  final Function()? onLongPress;
+//   final String buttonName;
+//   final String imagePath;
+//   final Color? textColor;
+//   final Color? buttonColor;
+//   final Function()? onPressed;
+//   final Function()? onLongPress;
 
-  @override
-  Widget build(BuildContext context) {
-    double width = getButtonWidth(MediaQuery.of(context).size.width) / 2;
-    double height =
-        width * ((MediaQuery.of(context).size.height > 1000) ? 0.35 : 0.18);
+//   @override
+//   Widget build(BuildContext context) {
+//     double width = getButtonWidth(MediaQuery.of(context).size.width) / 2;
+//     double height =
+//         width * ((MediaQuery.of(context).size.height > 1000) ? 0.35 : 0.18);
 
-    return GestureDetector(
-      onTap: onPressed,
-      onLongPress: onLongPress,
-      child: SizedBox(
-        width: width,
-        height: height,
-        child: Card(
-          color: buttonColor,
-          child: Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: [
-                if (imagePath != "")
-                  Padding(
-                    padding: const EdgeInsets.only(right: 5.0),
-                    child: Image.network(
-                      imagePath,
-                    ),
-                  ),
-                Flexible(
-                  child: Center(
-                    child: Text(
-                      buttonName,
-                      style: TextStyle(
-                        fontStyle: FontStyle.italic,
-                        fontSize: height * 0.20,
-                        color: textColor,
-                      ),
-                      maxLines: 2,
-                    ),
-                  ),
-                ),
-              ],
-            ),
-          ),
-        ),
-      ),
-    );
-  }
+//     return GestureDetector(
+//       onTap: onPressed,
+//       onLongPress: onLongPress,
+//       child: SizedBox(
+//         width: width,
+//         height: height,
+//         child: Card(
+//           color: buttonColor,
+//           child: Padding(
+//             padding: const EdgeInsets.all(8.0),
+//             child: Row(
+//               mainAxisAlignment: MainAxisAlignment.start,
+//               children: [
+//                 if (imagePath != "")
+//                   Padding(
+//                     padding: const EdgeInsets.only(right: 5.0),
+//                     child: Image.network(
+//                       imagePath,
+//                     ),
+//                   ),
+//                 Flexible(
+//                   child: Center(
+//                     child: Text(
+//                       buttonName,
+//                       style: TextStyle(
+//                         fontStyle: FontStyle.italic,
+//                         fontSize: height * 0.20,
+//                         color: textColor,
+//                       ),
+//                       maxLines: 2,
+//                     ),
+//                   ),
+//                 ),
+//               ],
+//             ),
+//           ),
+//         ),
+//       ),
+//     );
+//   }
 
-  double getButtonWidth(double width) {
-    List<double> widths = [600, 600, 600, 700];
+//   double getButtonWidth(double width) {
+//     List<double> widths = [600, 600, 600, 700];
 
-    for (int i = 0; i < kBreakpoints.length; i++) {
-      if (width < kBreakpoints[i]) {
-        return widths[i];
-      }
-    }
+//     for (int i = 0; i < kBreakpoints.length; i++) {
+//       if (width < kBreakpoints[i]) {
+//         return widths[i];
+//       }
+//     }
 
-    return widths.last;
-  }
-}
+//     return widths.last;
+//   }
+// }

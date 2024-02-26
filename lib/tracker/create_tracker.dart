@@ -36,7 +36,7 @@ class CreateTrackerButton extends StatelessWidget {
             child: Center(
               child: FittedBox(
                 child: Text(
-                  "CREATE TRACKER",
+                  "NEW TRACKER",
                   style: TextStyle(fontStyle: FontStyle.italic, fontSize: 20),
                   maxLines: 2,
                 ),
