@@ -116,9 +116,9 @@ class _LoadingScreenState extends State<LoadingScreen> {
 
     // await Future.delayed(const Duration(seconds: 2));
     // openNextScreen(const MaintainanceScreen());
-    //openNextScreen(const StartScreen());
+    openNextScreen(const StartScreen());
 
-    openNextScreen(const YourTrackersScreen());
+    //openNextScreen(const YourTrackersScreen());
     // kPokedex = kPokedex
     //     .where((element) =>
     //         element.name == "Sandslash" || element.name == "Tauros")
