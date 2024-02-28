@@ -10,16 +10,15 @@ class TrackerOptionsTitle extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(5.0),
+    return DefaultTextStyle(
+      style: const TextStyle(
+        color: Colors.white,
+        fontWeight: FontWeight.bold,
+        fontSize: 15,
+      ),
       child: Text(
         title,
         textScaler: const TextScaler.linear(1.5),
-        style: const TextStyle(
-          color: Colors.white,
-          fontWeight: FontWeight.bold,
-          fontSize: 15,
-        ),
       ),
     );
   }

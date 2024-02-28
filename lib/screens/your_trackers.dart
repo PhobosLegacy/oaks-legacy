@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/app_bar.dart';
 import 'package:oaks_legacy/components/base_background.dart';
-import 'package:oaks_legacy/components/tracker_option.dart';
+import 'package:oaks_legacy/components/pkm_button.dart';
+import 'package:oaks_legacy/components/progress_bar.dart';
 import 'package:oaks_legacy/tracker/create_tracker.dart';
-import '../models/tracker.dart';
-import '../tracker/tracker_list_screen.dart';
-import '../utils/trackers_manager.dart';
+import 'package:oaks_legacy/models/tracker.dart';
+import 'package:oaks_legacy/tracker/tracker_list_screen.dart';
+import 'package:oaks_legacy/utils/trackers_manager.dart';
 
 class YourTrackersScreen extends StatefulWidget {
   const YourTrackersScreen({super.key});
@@ -67,16 +68,20 @@ class _YourTrackersScreenState extends State<YourTrackersScreen> {
                               children: List.generate(
                                 snapshot.data!.length,
                                 (index) {
-                                  return TrackerItem(
-                                    name: snapshot.data![index].name,
-                                    percentageCompleted:
-                                        snapshot.data![index].percentage(),
-                                    onLongPress: () => showDeleteDialog(
-                                        snapshot.data![index], context),
-                                    onPressed: () =>
-                                        navigateToTrackerListScreen(
-                                            snapshot.data![index], context),
-                                  );
+                                  return PkmButton(
+                                      buttonName: snapshot.data![index].name,
+                                      onLongPress: () => showDeleteDialog(
+                                          snapshot.data![index], context),
+                                      onPressed: () =>
+                                          navigateToTrackerListScreen(
+                                              snapshot.data![index], context),
+                                      auxWidget: ProgressBar(
+                                        percentage: double.parse(
+                                          snapshot.data![index].percentage(),
+                                        ),
+                                      ),
+                                      textColor: Colors.black,
+                                      buttonColor: Colors.grey);
                                 },
                               ),
                             ),
@@ -87,24 +92,41 @@ class _YourTrackersScreenState extends State<YourTrackersScreen> {
                   ),
                 ],
               ),
-              CreateTrackerButton(
-                onTrackerCreation: (tracker) => {
-                  setState(() {
-                    Navigator.pop(context);
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) {
-                          return TrackerListScreen(
-                              callBackAction: () {
-                                setState(() {});
-                              },
-                              collection: tracker);
+              Column(
+                children: [
+                  PkmButton(
+                    buttonName: "NEW TRACKER",
+                    onPressed: () => {
+                      showDialog(
+                        barrierColor: Colors.black87,
+                        context: context,
+                        builder: (BuildContext context) {
+                          return CreateTrackerScreen(
+                            onTrackerCreation: (tracker) => {
+                              setState(() {
+                                Navigator.pop(context);
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) {
+                                      return TrackerListScreen(
+                                          callBackAction: () {
+                                            setState(() {});
+                                          },
+                                          collection: tracker);
+                                    },
+                                  ),
+                                );
+                              }),
+                            },
+                          );
                         },
-                      ),
-                    );
-                  }),
-                },
+                      )
+                    },
+                    textColor: Colors.black,
+                    buttonColor: Colors.grey,
+                  ),
+                ],
               ),
             ],
           ),

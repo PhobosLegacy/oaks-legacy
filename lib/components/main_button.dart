@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:oaks_legacy/utils/functions.dart';
 import '../constants.dart';
 
 class MainScreenButton extends StatelessWidget {
@@ -16,7 +17,8 @@ class MainScreenButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    double width = getButtonWidth(MediaQuery.of(context).size.width);
+    double width =
+        getButtonWidth(MediaQuery.of(context).size.width, [300, 350, 500, 700]);
     double height =
         width * ((MediaQuery.of(context).size.height > 1000) ? 0.35 : 0.25);
 
@@ -89,17 +91,5 @@ class MainScreenButton extends StatelessWidget {
         ),
       ),
     );
-  }
-
-  double getButtonWidth(double width) {
-    List<double> widths = [300, 350, 500, 700];
-
-    for (int i = 0; i < kBreakpoints.length; i++) {
-      if (width < kBreakpoints[i]) {
-        return widths[i];
-      }
-    }
-
-    return widths.last;
   }
 }

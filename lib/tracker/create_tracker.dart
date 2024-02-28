@@ -1,53 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:oaks_legacy/components/pkm_button.dart';
 import 'package:oaks_legacy/components/start_tracking_button.dart';
-import 'package:oaks_legacy/components/tracker_option.dart';
 import 'package:oaks_legacy/components/tracker_options_title.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/models/game.dart';
 import 'package:oaks_legacy/models/tracker.dart';
-
-class CreateTrackerButton extends StatelessWidget {
-  const CreateTrackerButton({
-    super.key,
-    required this.onTrackerCreation,
-  });
-
-  final Function(Tracker) onTrackerCreation;
-
-  @override
-  Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: () => {
-        showDialog(
-          barrierColor: Colors.black87,
-          context: context,
-          builder: (BuildContext context) {
-            return CreateTrackerScreen(
-              onTrackerCreation: onTrackerCreation,
-            );
-          },
-        )
-      },
-      child: const SizedBox(
-        child: Card(
-          color: Colors.grey,
-          child: Padding(
-            padding: EdgeInsets.all(8.0),
-            child: Center(
-              child: FittedBox(
-                child: Text(
-                  "NEW TRACKER",
-                  style: TextStyle(fontStyle: FontStyle.italic, fontSize: 20),
-                  maxLines: 2,
-                ),
-              ),
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-}
 
 class CreateTrackerScreen extends StatefulWidget {
   const CreateTrackerScreen({
@@ -160,7 +117,7 @@ class _CreateTrackerScreenState extends State<CreateTrackerScreen>
                 children: List.generate(
                   gamesAvailable.length,
                   (index) {
-                    return TrackerOption(
+                    return PkmButton(
                         buttonName: gamesAvailable[index],
                         imagePath:
                             '$kImageLocalPrefix${Game.gameIcon(gamesAvailable[index])}',
@@ -174,7 +131,10 @@ class _CreateTrackerScreenState extends State<CreateTrackerScreen>
                                     trackers = Dex.availableTrackerType(''),
                                   }),
                             },
-                        isPicked: (gamePicked == gamesAvailable[index]));
+                        textColor: Colors.black,
+                        buttonColor: (gamePicked == gamesAvailable[index])
+                            ? Colors.blue
+                            : Colors.grey);
                   },
                 ),
               ),
@@ -202,7 +162,7 @@ class _CreateTrackerScreenState extends State<CreateTrackerScreen>
                 children: List.generate(
                   dexAvailable.length,
                   (index) {
-                    return TrackerOption(
+                    return PkmButton(
                         buttonName: dexAvailable[index],
                         onPressed: (() => {
                               trackerAnimationController.forward(),
@@ -211,7 +171,10 @@ class _CreateTrackerScreenState extends State<CreateTrackerScreen>
                               trackerPicked = "",
                               setState(() => {}),
                             }),
-                        isPicked: (dexPicked == dexAvailable[index]));
+                        textColor: Colors.black,
+                        buttonColor: (dexPicked == dexAvailable[index])
+                            ? Colors.blue
+                            : Colors.grey);
                   },
                 ),
               ),
@@ -238,13 +201,16 @@ class _CreateTrackerScreenState extends State<CreateTrackerScreen>
               children: List.generate(
                 trackers.length,
                 (index) {
-                  return TrackerOption(
+                  return PkmButton(
                       buttonName: trackers[index],
                       onPressed: (() => {
                             trackerPicked = trackers[index],
                             setState(() => {}),
                           }),
-                      isPicked: (trackerPicked == trackers[index]));
+                      textColor: Colors.black,
+                      buttonColor: (trackerPicked == trackers[index])
+                          ? Colors.blue
+                          : Colors.grey);
                 },
               ),
             ),
