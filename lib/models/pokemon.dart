@@ -383,7 +383,7 @@ extension Filter on List<Pokemon>? {
 
     for (var pokemon in this!) {
       if (pokemon.forms.isEmpty) {
-        if (pokemon.name.toLowerCase().contains(value.toLowerCase())) {
+        if (pokemon.name.toLowerCase().startsWith(value.toLowerCase())) {
           filtered.add(pokemon);
         }
       } else {
