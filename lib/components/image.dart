@@ -60,13 +60,13 @@ class ListImage extends StatelessWidget {
       child: Stack(
         children: (shadowOnly == true)
             ? [
-                getImage('$kImageLocalPrefix$image', height ?? 60,
+                getImage('$kImageLocalPrefix$image', height ?? 200,
                     shadow: true),
               ]
             : [
                 getImage('$kImageLocalPrefix$image', height ?? 200,
                     shadow: true),
-                getImage('$kImageLocalPrefix$image', height ?? 185),
+                getImage('$kImageLocalPrefix$image', height ?? 195),
               ],
       ),
     );

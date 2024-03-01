@@ -139,10 +139,11 @@ class _PokemonTiles extends State<PokemonTiles> {
                 fit: BoxFit.scaleDown,
                 child: Text(
                   getName(pokemon),
-                  style: TextStyle(
+                  textScaler: const TextScaler.linear(1.3),
+                  style: const TextStyle(
                       fontWeight: FontWeight.bold,
                       color: Colors.white,
-                      fontSize: 20 * MediaQuery.of(context).textScaleFactor),
+                      fontSize: 20),
                 ),
               ),
               Row(
@@ -170,10 +171,11 @@ class _PokemonTiles extends State<PokemonTiles> {
               alignment: Alignment.center,
               child: Text(
                 "#${pokemon.number}",
-                style: TextStyle(
+                textScaler: const TextScaler.linear(1.3),
+                style: const TextStyle(
                     fontWeight: FontWeight.bold,
                     color: Colors.white,
-                    fontSize: 20 * MediaQuery.of(context).textScaleFactor),
+                    fontSize: 20),
               ),
             ),
           ),

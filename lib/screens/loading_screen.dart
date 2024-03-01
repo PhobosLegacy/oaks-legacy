@@ -1,9 +1,10 @@
+// ignore_for_file: unused_import
+
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/base_background.dart';
 import 'package:oaks_legacy/models/preferences.dart';
 import 'package:oaks_legacy/models/version.dart';
-import 'package:oaks_legacy/pokedex/pokedex_details_screen.dart';
 import 'package:oaks_legacy/file_manager.dart';
 import 'package:oaks_legacy/models/pokemon.dart';
 import 'package:oaks_legacy/constants.dart';
@@ -118,7 +119,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
     // openNextScreen(const MaintainanceScreen());
     openNextScreen(const StartScreen());
 
-    //openNextScreen(const YourTrackersScreen());
+    // openNextScreen(const YourTrackersScreen());
     // kPokedex = kPokedex
     //     .where((element) =>
     //         element.name == "Sandslash" || element.name == "Tauros")

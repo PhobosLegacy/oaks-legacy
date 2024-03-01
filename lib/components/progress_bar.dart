@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/utils/functions.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';
 
