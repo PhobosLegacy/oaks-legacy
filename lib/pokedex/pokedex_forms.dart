@@ -44,7 +44,7 @@ class ShowForms extends StatelessWidget {
               children: pokemon.forms.map((form) {
                 final index = pokemon.forms.indexOf(form);
                 return PokemonTiles(
-                  isLowerTile: true,
+                  isLowerTile: isLowerTile,
                   pokemons: pokemons,
                   indexes: [...indexes, index],
                   onStateChange: onStateChange,
@@ -98,7 +98,7 @@ class ShowItemForms extends StatelessWidget {
               children: pokemon.forms.map((form) {
                 final index = pokemon.forms.indexOf(form);
                 return TrackerTile(
-                  isLowerTile: true,
+                  isLowerTile: isLowerTile,
                   pokemons: pokemons,
                   indexes: [...indexes, index],
                   onStateChange: onStateChange,

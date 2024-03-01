@@ -149,6 +149,26 @@ export const evaluateScreenSize = (width) => {
   }
 };
 
+HOW TO PROPER USE BANNER AND CLIP THE RIGHT ELEMENT:
+    // if (pokemon.game.notes.isNotEmpty) {
+    //   content = ClipRRect(
+    //     child: Card(
+    //       color:
+    //           (widget.isLowerTile) ? const Color(0xFF1D1E33) : Colors.black26,
+    //       clipBehavior: Clip.antiAlias,
+    //       child: Banner(
+    //           message: pokemon.game.notes,
+    //           location: BannerLocation.topEnd,
+    //           color: getBannerColor(pokemon.game.notes),
+    //           textStyle: const TextStyle(
+    //             color: Colors.white,
+    //             fontSize: 9,
+    //             fontWeight: FontWeight.bold,
+    //           ),
+    //           child: content),
+    //     ),
+    //   );
+    // }
  */
   String listBase;
 }

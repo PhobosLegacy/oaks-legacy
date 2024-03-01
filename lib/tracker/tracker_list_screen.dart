@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/base_background.dart';
-import 'package:oaks_legacy/components/list_item.dart';
+import 'package:oaks_legacy/tracker/list_item.dart';
 import 'package:oaks_legacy/models/game.dart';
 import '../components/app_bar.dart';
 import '../components/filter_by_type.dart';

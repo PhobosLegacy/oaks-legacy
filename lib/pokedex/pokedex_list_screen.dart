@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/base_background.dart';
 import 'package:oaks_legacy/components/button_filters.dart';
 import 'package:oaks_legacy/components/button_search.dart';
-import 'package:oaks_legacy/components/list_pokedex.dart';
+import 'package:oaks_legacy/pokedex/list_pokedex.dart';
 import '../components/app_bar.dart';
 import '../components/filters_side_screen.dart';
 import '../components/search_bar.dart';

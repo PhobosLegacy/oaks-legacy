@@ -12,7 +12,7 @@ import '../components/button_search.dart';
 import '../components/button_screenshot.dart';
 import '../components/filters_side_screen.dart';
 import '../components/group_list_by.dart';
-import '../components/list_pokedex.dart';
+import '../pokedex/list_pokedex.dart';
 import '../components/search_bar.dart';
 import '../models/enums.dart';
 import '../models/group.dart';
