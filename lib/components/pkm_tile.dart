@@ -6,7 +6,7 @@ class PkmTile extends StatefulWidget {
     required this.desktopContent,
     required this.mobileContent,
     required this.onTap,
-    required this.onLongPress,
+    this.onLongPress,
     this.isLowerTile = false,
   });
 
