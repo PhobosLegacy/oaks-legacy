@@ -8,7 +8,6 @@ import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/models/enums.dart';
 import 'package:oaks_legacy/pokedex/pokedex_forms.dart';
 import 'package:oaks_legacy/tracker/tracker_details_screen.dart';
-import '../../components/image.dart';
 import '../../models/game.dart';
 import '../models/item.dart';
 

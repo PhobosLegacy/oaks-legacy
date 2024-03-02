@@ -3,7 +3,6 @@ import 'package:oaks_legacy/components/base_background.dart';
 import 'package:oaks_legacy/components/disclaimer.dart';
 import 'package:oaks_legacy/components/main_button.dart';
 import 'package:oaks_legacy/constants.dart';
-import 'package:oaks_legacy/item/item_list_screen.dart';
 import 'package:oaks_legacy/pokedex/pokedex_list_screen.dart';
 import 'package:oaks_legacy/screens/your_trackers.dart';
 import 'preferences_screen.dart';
