@@ -200,13 +200,13 @@ Item createNewItem(Pokemon pokemon, Game game, entryOrigin, isShinyTracker) {
     item.displayImage = item.image.firstWhere((img) => img.contains("-shiny-"));
     item.attributes.add(PokemonAttributes.isShiny);
   }
-  if (pokemon.genderRatio.genderless == "100") {
-    item.gender = PokemonGender.genderless;
-  } else if (pokemon.genderRatio.male == "100") {
-    item.gender = PokemonGender.male;
-  } else if (pokemon.genderRatio.female == "100") {
-    item.gender = PokemonGender.female;
-  }
+  // if (pokemon.genderRatio.genderless == "100") {
+  //   item.gender = PokemonGender.genderless;
+  // } else if (pokemon.genderRatio.male == "100") {
+  //   item.gender = PokemonGender.male;
+  // } else if (pokemon.genderRatio.female == "100") {
+  //   item.gender = PokemonGender.female;
+  // }
   item.originalLocation = game.name;
   item.currentLocation = game.name;
   return item;

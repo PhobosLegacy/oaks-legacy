@@ -86,9 +86,9 @@ class Item {
         gender = (dexPokemon.genderRatio.genderless == "100")
             ? PokemonGender.genderless
             : (dexPokemon.genderRatio.female == "100")
-                ? PokemonGender.female
+                ? PokemonGender.femaleOnly
                 : (dexPokemon.genderRatio.male == "100")
-                    ? PokemonGender.male
+                    ? PokemonGender.maleOnly
                     : PokemonGender.undefinied,
         ball = PokeballType.undefined,
         captured = false,

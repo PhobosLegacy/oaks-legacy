@@ -717,12 +717,27 @@ class EditableButton extends StatelessWidget {
 Future<DateTime?> bottomDatePicker(
     BuildContext context, DateTime currentTime) async {
   DateTime? date = await showDatePicker(
+    barrierColor: Colors.black87,
     context: context,
     initialEntryMode: DatePickerEntryMode.calendarOnly,
     initialDate: DateTime.now(),
-    // initialDate: DateTime.now().subtract(const Duration(days: 1)),
     firstDate: DateTime(2021),
     lastDate: DateTime(2050),
+    builder: (BuildContext context, Widget? child) {
+      return Theme(
+        data: ThemeData.light().copyWith(
+          colorScheme: const ColorScheme.light(
+            primary: Colors.grey, // Change the header background color
+            onPrimary: Colors.white, // Change the header text color
+            surface: Color(0xFF1D1E33), // Change the background color
+            onSurface: Colors.white, // Change the text color
+          ),
+          // dialogBackgroundColor:
+          //     Colors.yellow, // Change the dialog background color
+        ),
+        child: child!,
+      );
+    },
   );
   return (date == null) ? currentTime : date;
 }
@@ -791,35 +806,89 @@ extension Extensions2 on PokemonAttributes {
 
 extension Extensions on PokeballType {
   String getImagePath() {
+    return "${kImageLocalPrefix}balls/${name.toLowerCase()}.png";
+  }
+
+  String getBallName() {
     switch (this) {
       case PokeballType.pokeball:
-        return "${kImageLocalPrefix}balls/pokeball.png";
+        return "Pokeball";
       case PokeballType.greatBall:
-        return "${kImageLocalPrefix}balls/greatball.png";
+        return "Great Ball";
       case PokeballType.ultraBall:
-        return "${kImageLocalPrefix}balls/ultraball.png";
+        return "Ultra Ball";
       case PokeballType.masterBall:
-        return "${kImageLocalPrefix}balls/masterball.png";
+        return "Master Ball";
       case PokeballType.premierball:
-        return "${kImageLocalPrefix}balls/premierball.png";
+        return "Premier Ball";
       case PokeballType.duskball:
-        return "${kImageLocalPrefix}balls/duskball.png";
-      case PokeballType.cherishball:
-        return "${kImageLocalPrefix}balls/cherishball.png";
+        return "Dusk Ball";
       case PokeballType.quickball:
-        return "${kImageLocalPrefix}balls/quickball.png";
-      case PokeballType.beastball:
-        return "${kImageLocalPrefix}balls/beastball.png";
+        return "Quick Ball";
       case PokeballType.luxuryball:
-        return "${kImageLocalPrefix}balls/luxuryball.png";
+        return "Luxury Ball";
       case PokeballType.repeatball:
-        return "${kImageLocalPrefix}balls/repeatball.png";
+        return "Repeat Ball";
       case PokeballType.timerball:
-        return "${kImageLocalPrefix}balls/timerball.png";
-      case PokeballType.undefined:
-        return "${kImageLocalPrefix}balls/undefined.png";
+        return "Timer Ball";
+      case PokeballType.netball:
+        return "Net Ball";
+      case PokeballType.nestball:
+        return "Nest Ball";
+      case PokeballType.diveball:
+        return "Dive Ball";
+      case PokeballType.heavyball:
+        return "Heavy Ball";
+      case PokeballType.levelball:
+        return "Level Ball";
+      case PokeballType.loveball:
+        return "Love Ball";
+      case PokeballType.moonball:
+        return "Moon Ball";
+      case PokeballType.lureball:
+        return "Lure Ball";
+      case PokeballType.dreamball:
+        return "Dream Ball";
+      case PokeballType.healball:
+        return "Heal Ball";
+      case PokeballType.friendball:
+        return "Friend Ball";
+      case PokeballType.fastball:
+        return "Fast Ball";
+      case PokeballType.sportball:
+        return "Sport Ball";
+      case PokeballType.safariball:
+        return "Safari Ball";
+      case PokeballType.beastball:
+        return "Beast Ball";
+      case PokeballType.hisuipokeball:
+        return "Hisui Pokeball";
+      case PokeballType.hisuigreatball:
+        return "Hisui Great Ball";
+      case PokeballType.hisuiultraball:
+        return "Hisui Ultra Ball";
+      case PokeballType.hisuifeatherball:
+        return "Hisui Feather Ball";
+      case PokeballType.hisuiwingball:
+        return "Hisui Wing Ball";
+      case PokeballType.hisuijetball:
+        return "Hisui Jet Ball";
+      case PokeballType.hisuiheavyball:
+        return "Hisui Heavy Ball";
+      case PokeballType.hisuileadenball:
+        return "Hisui Leaden Ball";
+      case PokeballType.hisuigigatonball:
+        return "Hisui Gigaton Ball";
+      case PokeballType.originball:
+        return "Origin Ball";
+      case PokeballType.strangeball:
+        return "Strange Ball";
+      case PokeballType.parkball:
+        return "Park Ball";
+      case PokeballType.cherishball:
+        return "Cherish Ball";
       default:
-        throw Exception("-No image found for ball: $name");
+        return "Unknown";
     }
   }
 }
@@ -828,11 +897,13 @@ extension PokemonGenderExtensions on PokemonGender {
   Icon getIcon() {
     switch (this) {
       case PokemonGender.female:
+      case PokemonGender.femaleOnly:
         return const Icon(
           Icons.female,
           color: Colors.redAccent,
         );
       case PokemonGender.male:
+      case PokemonGender.maleOnly:
         return const Icon(
           Icons.male,
           color: Colors.blueAccent,
@@ -869,7 +940,8 @@ extension ItemExtensions on Item {
     List<dynamic> list = [];
     list.addAll(dexMon.abilities);
     if (dexMon.hiddenAbility! != "") list.add(dexMon.hiddenAbility);
-    list.insert(0, kValueNotFound);
+    // list.insert(0, kValueNotFound);
+    list.add(kValueNotFound);
     return list;
   }
 }
