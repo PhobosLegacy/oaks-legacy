@@ -54,7 +54,7 @@ class _TrackerTile extends State<TrackerTile> {
       onTap: () => {
         (pokemon.forms.isEmpty)
             ? (pokemon.captured)
-                ? null //navigateToTrackerDetailsPage()
+                ? navigateToTrackerDetailsPage()
                 : markAsCaptured(pokemon)
             : openFormsDialog()
       },
