@@ -170,7 +170,7 @@ class Dex {
     ];
   }
 
-  static allGames() {
+  static List<String> allGames() {
     return [
       "Pokemon Scarlet",
       "Pokemon Violet",
