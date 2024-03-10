@@ -45,3 +45,141 @@ class _PkmTile extends State<PkmTile> {
         child: stack);
   }
 }
+
+class PkmOption extends StatefulWidget {
+  const PkmOption({
+    super.key,
+    required this.onTap,
+    required this.content,
+  });
+
+  final void Function()? onTap;
+  final Widget content;
+
+  @override
+  State<PkmOption> createState() => _PkmOption();
+}
+
+class _PkmOption extends State<PkmOption> {
+  bool isHovered = false;
+
+  void onEntered(isHovering) {
+    setState(() {
+      isHovered = isHovering;
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    var stack = MouseRegion(
+      onEnter: (event) => onEntered(true),
+      onExit: (event) => onEntered(false),
+      child: GestureDetector(
+        onTap: widget.onTap,
+        child: Transform.translate(
+          offset: isHovered ? const Offset(1, -10) : const Offset(1, 1),
+          child: Container(
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(10),
+              color: const Color(0xFF1D1E33),
+              boxShadow: const [
+                BoxShadow(
+                  color: Colors.white38,
+                  blurRadius: 0.5,
+                  spreadRadius: 0.5,
+                  offset: Offset(2, 3),
+                ),
+              ],
+            ),
+            child: Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(10.0),
+              ),
+              color: const Color(0xFF1D1E33),
+              elevation: 10,
+              clipBehavior: Clip.antiAlias,
+              child: Column(
+                children: [
+                  widget.content,
+                  
+                ],
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+
+    return stack;
+  }
+}
+
+class PkmSpinner extends StatefulWidget {
+  const PkmSpinner({
+    super.key,
+    required this.onTap,
+    required this.content,
+  });
+
+  final void Function()? onTap;
+  final Widget content;
+
+  @override
+  State<PkmSpinner> createState() => _PkmSpinner();
+}
+
+class _PkmSpinner extends State<PkmSpinner> {
+  bool isHovered = false;
+
+  void onEntered(isHovering) {
+    setState(() {
+      isHovered = isHovering;
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    var stack = MouseRegion(
+      onEnter: (event) => onEntered(true),
+      onExit: (event) => onEntered(false),
+      child: GestureDetector(
+        onTap: widget.onTap,
+        child: Transform.translate(
+          offset: isHovered ? const Offset(1, -10) : const Offset(1, 1),
+          child: Container(
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(10),
+              color: const Color(0xFF1D1E33),
+              boxShadow: const [
+                BoxShadow(
+                  color: Colors.white38,
+                  blurRadius: 0.5,
+                  spreadRadius: 0.5,
+                  offset: Offset(2, 3),
+                ),
+              ],
+            ),
+            child: Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(10.0),
+              ),
+              color: const Color(0xFF1D1E33),
+              elevation: 10,
+              clipBehavior: Clip.antiAlias,
+              child: Column(
+                children: [
+                  widget.content,
+                  const SizedBox(
+                    height: 30,
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+
+    return stack;
+  }
+}
