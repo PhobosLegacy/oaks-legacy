@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/base_background.dart';
 import 'package:oaks_legacy/components/button_filters.dart';
 import 'package:oaks_legacy/components/button_search.dart';
-import 'package:oaks_legacy/pokedex/list_pokedex.dart';
+import 'package:oaks_legacy/components/pkm_grid.dart';
+import 'package:oaks_legacy/pokedex/pokedex_tiles.dart';
 import '../components/app_bar.dart';
 import '../components/filters_side_screen.dart';
 import '../components/search_bar.dart';
@@ -86,9 +87,22 @@ class _PokedexListScreenState extends State<PokedexListScreen> {
                     applyFilters();
                   },
                 ),
-                PokedexList(
-                  pokemons: originalPokedex,
+                //POKEMON LIST
+                Expanded(
+                  child: PkmGrid(
+                    itemCount: originalPokedex.length,
+                    itemBuilder: (context, index) {
+                      return PokemonTiles(
+                        isLowerTile: false,
+                        pokemons: originalPokedex,
+                        indexes: [index],
+                      );
+                    },
+                  ),
                 ),
+                // PokedexList(
+                //   pokemons: originalPokedex,
+                // ),
               ],
             ),
           ),

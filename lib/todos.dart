@@ -2,10 +2,23 @@ class Todos {
   Todos(this.listBase);
 /*
 
-TODO: Image enhacement
-  Types, Backgrounds on app
-TODO BUG: Clicking calendar and then outside, breaks detail page.
-TODO BUG: Checkbox doesnt trigger fireworks
+
+
+TODO: BUG: Item List (FT.LT.COL) side buttons mess forms (when openings Venusaur for example)
+TODO: BUG: Tracker if change the gender/attributes, image doesnt update
+
+TODO: ENH: Add a toast message when clicking in the Items List side buttons 
+TODO: ENH: Block gender on Living Dexes
+TODO: ENH: Item List (FT.LT.COL) improve UI for the side buttons
+TODO: ENH: Level Picker to be able to hold button
+TODO: ENH: Block gender change on Living dex tracker
+TODO: ENH: Update picture on tracker and item details when changing gender, not saving.
+TODO: ENH: Make FLAT LIST available in all lists
+TODO: ENH: Add a Custom Tracker
+TODO: ENH: Make sure lists on mobile have smaller items (eg pokeball picker)
+
+
+
 TODO BUG iOS: Archibac issue on LF/FT when screen size small
 TODO BUG iOS: Screenshot doesnt work on ios simulator
 TODO BUG iOS: Permission issue with mac desktop
@@ -13,7 +26,7 @@ TODO BUG iOS: Back button on details screen overlaps with pokemon name
 TODO BUG iOS: List to have a back button on iOS
 TODO BUG iOS: Details page remove static height/width as it breaks on iOS
 TODO BUG iOS: Check why image looks smaller on iOS????
-TODO BUG iOS: iPhone SE Alolan Sandshrew/Sandslash have render issue on Weaknesses  cause overflow
+
 TODO BUG: Charizard Gigantamax on collection with attributes cause overflow
 TODO: Add generation property + generation filter (use to test the auto updates)
 TODO: Tracker is displaying forms that are not really catchable (eg. Mimiko hunger form, Ogerpon masks)
@@ -22,7 +35,6 @@ TODO: Share button?
 TODO: Screenshot on tracker?
 
 TODO: Update flutter details in the README.
-TODO: BPS
 TODO: Update trackers in case dex change (eg Mightiest Mark always add one more)
 TODO: Make the ball spin (animation on loading screen)
 TODO: Complete Games for Sword/Shield, 

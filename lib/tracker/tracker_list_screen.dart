@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/base_background.dart';
-import 'package:oaks_legacy/tracker/list_item.dart';
+import 'package:oaks_legacy/components/pkm_grid.dart';
 import 'package:oaks_legacy/models/game.dart';
+import 'package:oaks_legacy/tracker/tracker_tiles.dart';
 import '../components/app_bar.dart';
 import '../components/filter_by_type.dart';
 import '../components/filters_side_screen.dart';
@@ -110,16 +111,25 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
                     applyFilters();
                   },
                 ),
-                ItemList(
-                  pokemons: filteredList,
-                  callBackAction: () {
-                    setState(() {
-                      saveTracker(widget.collection);
-                      applyFilters();
-                      widget.callBackAction();
-                    });
-                  },
-                )
+                Expanded(
+                  child: PkmGrid(
+                    itemBuilder: (context, index) {
+                      return TrackerTile(
+                        pokemons: filteredList,
+                        indexes: [index],
+                        isLowerTile: false,
+                        onStateChange: () {
+                          setState(() {
+                            saveTracker(widget.collection);
+                            applyFilters();
+                            widget.callBackAction();
+                          });
+                        },
+                      );
+                    },
+                    itemCount: filteredList.length,
+                  ),
+                ),
               ],
             ),
           ),

@@ -4,13 +4,11 @@ import 'package:oaks_legacy/components/app_bar_details.dart';
 import 'package:oaks_legacy/components/basic.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/models/enums.dart';
+import 'package:oaks_legacy/pokedex/blocks/attributes_details.dart';
 import 'package:oaks_legacy/pokedex/blocks/catch_details.dart';
 import '../models/item.dart';
 import '../models/tab.dart';
-import '../components/catch_card.dart';
 import '../components/type_background.dart';
-import '../components/details_header.dart';
-import '../components/image.dart';
 import '../components/details_panel.dart';
 
 class TrackerDetailsPage extends StatefulWidget {
@@ -131,23 +129,17 @@ class _TrackerDetailsPageState extends State<TrackerDetailsPage> {
 
               //SECOND COLUMN
               if (!isMobile)
-                const Expanded(
+                Expanded(
                   child: Column(
                     children: [
                       //Attributes
-                      DetailsCard(
-                          cardChild: Expanded(
-                            child: Center(
-                              child: Icon(
-                                Icons.not_interested_outlined,
-                                size: 150,
-                                color: Colors.blueGrey,
-                              ),
-                            ),
-                          ),
-                          blockTitle: "Attribrutes"),
+                      AttributesDetailsBlock(
+                        isEditMode: isEditable,
+                        pokemon: displayPokemon,
+                        editLocks: createLocks(displayPokemon),
+                      ),
                       //Ribbons
-                      DetailsCard(
+                      const DetailsCard(
                           cardChild: Expanded(
                             child: Center(
                               child: Icon(
@@ -269,6 +261,18 @@ class _TrackerDetailsPageState extends State<TrackerDetailsPage> {
               pokemon: displayPokemon,
               editLocks: createLocks(displayPokemon),
             ),
+          ],
+        ),
+      ),
+      PokeTabv2(
+        tabName: "Attributes",
+        tabContent: Column(
+          children: [
+            AttributesDetailsBlock(
+              isEditMode: isEditable,
+              pokemon: displayPokemon,
+              editLocks: createLocks(displayPokemon),
+            )
           ],
         ),
       ),

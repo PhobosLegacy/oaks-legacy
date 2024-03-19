@@ -11,13 +11,21 @@ class PokemonTiles extends StatefulWidget {
     required this.pokemons,
     required this.indexes,
     required this.isLowerTile,
-    this.onStateChange,
+    this.onTapOverride,
+    this.button1Icon,
+    this.button1OnPressed,
+    this.button2Icon,
+    this.button2OnPressed,
   });
 
   final bool isLowerTile;
   final List<Pokemon> pokemons;
   final List<int> indexes;
-  final Function(List<int>)? onStateChange;
+  final Function(List<int>)? onTapOverride;
+  final Icon? button1Icon;
+  final Function(Pokemon)? button1OnPressed;
+  final Icon? button2Icon;
+  final Function(Pokemon)? button2OnPressed;
 
   @override
   State<PokemonTiles> createState() => _PokemonTiles();
@@ -34,10 +42,10 @@ class _PokemonTiles extends State<PokemonTiles> {
       mobileContent: tileContent(pokemon, true),
       onTap: (pokemon.forms.isEmpty)
           ? () => {
-                if (widget.onStateChange == null)
+                if (widget.onTapOverride == null)
                   navigateToPokedexDetails()
                 else
-                  widget.onStateChange!(widget.indexes),
+                  widget.onTapOverride!(widget.indexes),
               }
           : () {
               openFormsDialog();
@@ -60,6 +68,7 @@ class _PokemonTiles extends State<PokemonTiles> {
           image: 'mons/${pokemon.image[0]}',
         ),
         Expanded(
+          flex: 2,
           child: Column(
             children: [
               //NAME
@@ -79,7 +88,6 @@ class _PokemonTiles extends State<PokemonTiles> {
               ),
 
               //NUMBER
-              //DESKTOP ONLY
               if (!widget.isLowerTile && !isMobileView)
                 pokemonNumber(pokemon, isMobileView),
 
@@ -144,6 +152,27 @@ class _PokemonTiles extends State<PokemonTiles> {
           ),
         ),
 
+        //SIDE PANEL WITH ADDITIONAL OPTIONS
+        if (pokemon.forms.isEmpty)
+          Expanded(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                if (widget.button1Icon != null)
+                  GestureDetector(
+                      onTap: () {
+                        widget.button1OnPressed!(pokemon);
+                      },
+                      child: widget.button1Icon),
+                if (widget.button2Icon != null)
+                  GestureDetector(
+                      onTap: () {
+                        widget.button2OnPressed!(pokemon);
+                      },
+                      child: widget.button2Icon),
+              ],
+            ),
+          ),
         //NUMBER
         //(IN MOBILE VIEW DISPLAYED IN THE RIGHT CORNER INSTEAD)
         if (!widget.isLowerTile && isMobileView)
@@ -189,7 +218,11 @@ class _PokemonTiles extends State<PokemonTiles> {
           isLowerTile: true,
           pokemons: widget.pokemons,
           indexes: [...widget.indexes],
-          onStateChange: widget.onStateChange,
+          onStateChange: widget.onTapOverride,
+          button1Icon: widget.button1Icon,
+          button1OnPressed: widget.button1OnPressed,
+          button2Icon: widget.button2Icon,
+          button2OnPressed: widget.button2OnPressed,
         );
       },
     );

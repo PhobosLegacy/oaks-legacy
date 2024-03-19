@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:oaks_legacy/components/pkm_grid.dart';
 import 'package:oaks_legacy/constants.dart';
-import 'package:oaks_legacy/item/item_details_screen.dart';
 import 'package:oaks_legacy/item/item_tile.dart';
+import 'package:oaks_legacy/models/game.dart';
+import 'package:oaks_legacy/pokedex/pokedex_tiles.dart';
+import 'package:oaks_legacy/tracker/tracker_details_screen.dart';
 import 'package:oaks_legacy/utils/enum_manager.dart';
 import 'package:screenshot/screenshot.dart';
-
 import '../components/app_bar.dart';
 import '../components/base_background.dart';
 import '../components/button_filters.dart';
@@ -12,14 +14,12 @@ import '../components/button_search.dart';
 import '../components/button_screenshot.dart';
 import '../components/filters_side_screen.dart';
 import '../components/group_list_by.dart';
-import '../pokedex/list_pokedex.dart';
 import '../components/search_bar.dart';
 import '../models/enums.dart';
 import '../models/group.dart';
 import '../models/item.dart';
 import '../models/pokemon.dart';
 import '../utils/items_manager.dart';
-import 'item_expansion_tile.dart';
 
 class BaseCollectionScreen extends StatefulWidget {
   final String screenKey;
@@ -62,7 +62,12 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
       appBar: AppBarBase(
         title: Column(
           children: [
-            Text(widget.title),
+            Text(
+              widget.title,
+              style: const TextStyle(
+                color: Colors.white,
+              ),
+            ),
             if (displayType != CollectionDisplayType.flatList)
               Text(
                 displayType.text(),
@@ -112,7 +117,10 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
                     child: Center(
                       child: Text(
                         "You have no items in your collection",
-                        style: TextStyle(color: Colors.yellow, fontSize: 15),
+                        style: TextStyle(
+                          color: Colors.amber,
+                          fontSize: 30,
+                        ),
                       ),
                     ),
                   ),
@@ -150,6 +158,8 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
     );
   }
 
+  bool isExpanded = false;
+
   Widget collectionList() {
     List<Group> groups;
     switch (displayType) {
@@ -165,59 +175,199 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
         break;
     }
 
-    return Expanded(
-      child: SingleChildScrollView(
-        child: Screenshot(
-          controller: controller,
-          child: ListView.builder(
-            physics: const NeverScrollableScrollPhysics(),
-            shrinkWrap: true,
-            itemCount: (CollectionDisplayType.flatList == displayType)
-                ? collection.length
-                : groups.length,
-            itemBuilder: ((context, index) {
-              return (displayType == CollectionDisplayType.flatList)
-                  ? createTile(collection, index)
-                  : createCards(groups[index]);
-            }),
-          ),
-        ),
-      ),
-    );
-  }
+    // // ORIGINAL
+    // // return Expanded(
+    // //   child: SingleChildScrollView(
+    // //     child: Screenshot(
+    // //       controller: controller,
+    // //       child: ListView.builder(
+    // //         physics: const NeverScrollableScrollPhysics(),
+    // //         shrinkWrap: true,
+    // //         itemCount: (CollectionDisplayType.flatList == displayType)
+    // //             ? collection.length
+    // //             : groups.length,
+    // //         itemBuilder: ((context, index) {
+    // //           return (displayType == CollectionDisplayType.flatList)
+    // //               ? createTile(collection, index)
+    // //               : createCards(groups[index]);
+    // //         }),
+    // //       ),
+    // //     ),
+    // //   ),
+    // // );
 
-  Widget createTile(List<Item> items, int index) {
-    // Common tile creation logic for each screen
-    return ItemTile(
-      pokemons: items,
-      indexes: [index],
-      onStateChange: (item) {
-        setState(() {
-          saveToCollection(item);
-        });
-      },
-      onDelete: (item) {
-        setState(() {
-          removeFromColletion(item);
-        });
-      },
-    );
-  }
+    return (CollectionDisplayType.flatList == displayType)
+        // FLAT LIST
+        ? Expanded(
+            child: SingleChildScrollView(
+              child: Screenshot(
+                controller: controller,
+                child: PkmGrid(
+                  itemBuilder: (context, index) {
+                    return ItemTile(
+                      pokemons: collection,
+                      isLowerTile: false,
+                      indexes: [index],
+                      onStateChange: (item) {
+                        setState(() {
+                          saveToCollection(item);
+                        });
+                      },
+                      onDelete: (item) {
+                        setState(() {
+                          removeFromColletion(item);
+                        });
+                      },
+                    );
+                  },
+                  itemCount: collection.length,
+                ),
+              ),
+            ),
+          )
+        //GROUPED
+        : Expanded(
+            child: SingleChildScrollView(
+              child: Screenshot(
+                controller: controller,
+                child: Column(
+                  children: [
+                    ...groups.map((group) {
+                      return SizedBox(
+                        height: (group.items.length /
+                                    PkmGrid.getCardsPerRow(context))
+                                .ceil() *
+                            270,
+                        child: Column(
+                          children: [
+                            SizedBox(
+                              height: 50,
+                              child: Text(
+                                group.name,
+                                style: const TextStyle(
+                                  fontSize: 35,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ),
+                            PkmGrid(
+                              itemBuilder: (context, index) {
+                                return ItemTile(
+                                  pokemons: group.items,
+                                  isLowerTile: false,
+                                  indexes: [index],
+                                  onStateChange: (item) {
+                                    setState(() {
+                                      saveToCollection(item);
+                                    });
+                                  },
+                                  onDelete: (item) {
+                                    setState(() {
+                                      removeFromColletion(item);
+                                    });
+                                  },
+                                );
+                              },
+                              itemCount: group.items.length,
+                            ),
+                          ],
+                        ),
+                      );
+                    }),
+                  ],
+                ),
+              ),
+            ),
+          );
 
-  cards(Group groups) {
-    return createCards(
-      groups,
-      onStateChange: (item) {
-        setState(() {
-          saveToCollection(item);
-        });
-      },
-      onDelete: (item) {
-        setState(() {
-          removeFromColletion(item);
-        });
-      },
-    );
+    // // return Expanded(
+    // //   child: SingleChildScrollView(
+    // //     child: Column(
+    // //       children: [
+    // //         AnimatedContainer(
+    // //           clipBehavior: Clip.antiAlias,
+    // //           duration: const Duration(milliseconds: 200),
+    // //           curve: Curves.easeInOut,
+    // //           width: double.infinity,
+    // //           height: isExpanded ? 1000 : 50,
+    // //           decoration: BoxDecoration(
+    // //             color: Colors.blueAccent,
+    // //             borderRadius: BorderRadius.circular(10),
+    // //           ),
+    // //           child: Column(
+    // //             children: [
+    // //               SizedBox(
+    // //                 height: 50,
+    // //                 child: TextButton(
+    // //                   onPressed: () => setState(() {
+    // //                     isExpanded = !isExpanded;
+    // //                   }),
+    // //                   child: const Text(
+    // //                     "NO GAME SET",
+    // //                     style: TextStyle(
+    // //                       fontSize: 35,
+    // //                     ),
+    // //                   ),
+    // //                 ),
+    // //               ),
+    // //               child,
+    // //             ],
+    // //           ),
+    // //         ),
+
+    // //       ],
+    // //     ),
+    // //   ),
+    // // );
+
+    // // ORIGINAL
+    // // return Expanded(
+    // //   child: SingleChildScrollView(
+    // //     child: Screenshot(
+    // //       controller: controller,
+    // //       child: ListView.builder(
+    // //         physics: const NeverScrollableScrollPhysics(),
+    // //         shrinkWrap: true,
+    // //         itemCount: (CollectionDisplayType.flatList == displayType)
+    // //             ? collection.length
+    // //             : groups.length,
+    // //         itemBuilder: ((context, index) {
+    // //           return (displayType == CollectionDisplayType.flatList)
+    // //               ? createTile(collection, index)
+    // //               : createCards(groups[index]);
+    // //         }),
+    // //       ),
+    // //     ),
+    // //   ),
+    // // );
+
+    // return Expanded(
+    //   child: SingleChildScrollView(
+    //     child: Screenshot(
+    //       controller: controller,
+    //       child: PkmGrid(
+    //         itemBuilder: (context, index) {
+    //           return ItemTile(
+    //             pokemons: collection,
+    //             isLowerTile: false,
+    //             indexes: [index],
+    //             onStateChange: (item) {
+    //               setState(() {
+    //                 saveToCollection(item);
+    //               });
+    //             },
+    //             onDelete: (item) {
+    //               setState(() {
+    //                 removeFromColletion(item);
+    //               });
+    //             },
+    //           );
+    //         },
+    //         itemCount: collection.length,
+    //       ),
+    //     ),
+    //   ),
+    // );
   }
 
   void removeFromColletion(Item item) {
@@ -228,6 +378,7 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
   }
 
   void saveToCollection(Item item) {
+    item.displayImage = item.updateDisplayImage();
     collection = retrieveItems(widget.screenKey);
     final index = collection.indexWhere((element) => element.ref == item.ref);
     if (index == -1) {
@@ -294,17 +445,118 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
 
   // This is the Second Tab Bits
   pokedex() {
-    return PokedexList(
-      pokemons: originalPokedex,
-      detailsKey: widget.screenKey,
-      pageBuilder: (items, indexes) => ItemDetailsPage(
-        pokemons: items,
-        indexes: indexes,
-        onStateChange: (item) {
-          saveToCollection(item);
+    return Expanded(
+      child: PkmGrid(
+        itemCount: originalPokedex.length,
+        itemBuilder: (context, index) {
+          return PokemonTiles(
+            isLowerTile: false,
+            // pokemons: originalPokedex.take(data.length).toList(),
+            pokemons: originalPokedex,
+            indexes: [index],
+            onTapOverride: (indexes) {
+              setState(() {
+                List<Item> items = [
+                  createPlaceholderItem(
+                      indexes, widget.screenKey, originalPokedex)
+                ];
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) {
+                      return TrackerDetailsPage(
+                        pokemons: items,
+                        indexes: const [0],
+                        onStateChange: () {
+                          setState(() {
+                            saveToCollection(items.current([0]));
+                          });
+                        },
+                      );
+                    },
+                  ),
+                );
+              });
+            },
+            button1Icon: const Icon(
+              Icons.add_box_outlined,
+              color: Colors.amber,
+            ),
+            button1OnPressed: (pokemon) => {
+              saveToCollection(
+                createPlaceholderItem([0], widget.screenKey, [pokemon]),
+              ),
+            },
+            // button2Icon: const Icon(Icons.edit_square, color: Colors.amber),
+            // button2OnPressed: (pokemon) => {print(pokemon.number)},
+          );
         },
       ),
     );
+
+    // return PokedexList(
+    //   pokemons: originalPokedex,
+    //   detailsKey: widget.screenKey,
+    //   pageBuilder: (items, indexes) => TrackerDetailsPage(
+    //     pokemons: items,
+    //     indexes: indexes,
+    //     onStateChange: () {
+    //       saveToCollection(items.current(indexes));
+    //     },
+    //   ),
+    //   button1Icon: const Icon(Icons.add_box_outlined, color: Colors.amber),
+    //   button1OnPressed: (p0) => {print(p0.name)},
+    //   button2Icon: const Icon(Icons.edit_square, color: Colors.amber),
+    //   button2OnPressed: (p0) => {print(p0.number)},
+    //   // sideOptions: [
+    //   //   TileButton(
+    //   //     onOptionSelected: (p0) {
+    //   //       print(p0.name);
+    //   //     },
+    //   //     icon: const Icon(Icons.add_box_outlined, color: Colors.amber),
+    //   //   ),
+    //   //   TileButton(
+    //   //     onOptionSelected: (p0) {
+    //   //       print(p0.number);
+    //   //     },
+    //   //     icon: const Icon(Icons.edit_square, color: Colors.amber),
+    //   //   ),
+    //   // ],
+
+    //   // buttonBuilder: (icon, item) => GestureDetector(
+    //   //         onTap: () {
+    //   //           print("Clicked on ADD");
+    //   //           saveToCollection(items.current(indexes));
+    //   //         },
+    //   //         child: const Icon(icon, color: Colors.amber)),
+    //   // sideOptions: Column(
+    //   //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+    //   //   children: [
+    //   //     GestureDetector(
+    //   //         onTap: () {
+    //   //           print("Clicked on ADD");
+    //   //           saveToCollection(items.current(indexes));
+    //   //         },
+    //   //         child: const Icon(Icons.add_box_outlined, color: Colors.amber)),
+    //   //     GestureDetector(
+    //   //         onTap: () {
+    //   //           print("Clicked on ADD WITH DETAILS");
+    //   //         },
+    //   //         child: const Icon(Icons.edit_square, color: Colors.amber)),
+    //   //   ],
+    //   // ),
+    // );
+  }
+
+  Item createPlaceholderItem(
+      List<int> indexes, String origin, List<Pokemon> pokemons) {
+    Pokemon pokemon = pokemons.current(indexes);
+    Game tempGame =
+        Game(name: "Unknown", dex: "", number: "", notes: "", shinyLocked: "");
+    Item item = Item.fromDex(pokemon, tempGame, origin);
+    item.currentLocation = "Unknown";
+    item.catchDate = DateTime.now().toString();
+    return item;
   }
 }
 

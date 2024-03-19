@@ -11,12 +11,20 @@ class ShowForms extends StatelessWidget {
     required this.indexes,
     required this.isLowerTile,
     this.onStateChange,
+    this.button1Icon,
+    this.button1OnPressed,
+    this.button2Icon,
+    this.button2OnPressed,
   });
 
   final bool isLowerTile;
   final List<Pokemon> pokemons;
   final List<int> indexes;
   final Function(List<int>)? onStateChange;
+  final Icon? button1Icon;
+  final Function(Pokemon)? button1OnPressed;
+  final Icon? button2Icon;
+  final Function(Pokemon)? button2OnPressed;
 
   @override
   Widget build(BuildContext context) {
@@ -47,7 +55,11 @@ class ShowForms extends StatelessWidget {
                   isLowerTile: isLowerTile,
                   pokemons: pokemons,
                   indexes: [...indexes, index],
-                  onStateChange: onStateChange,
+                  onTapOverride: onStateChange,
+                  button1Icon: button1Icon,
+                  button1OnPressed: button1OnPressed,
+                  button2Icon: button2Icon,
+                  button2OnPressed: button2OnPressed,
                 );
               }).toList(),
             ),
@@ -124,6 +136,23 @@ class ShowOptions extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    bool isSmallScreen = MediaQuery.of(context).size.width < 400;
+
+    Widget children = Center(
+      child: Wrap(
+        spacing: 50,
+        runSpacing: 20,
+        alignment: WrapAlignment.center,
+        children: items,
+      ),
+    );
+
+    children = (isSmallScreen)
+        ? SingleChildScrollView(
+            child: children,
+          )
+        : children;
+
     return Column(children: [
       Align(
         alignment: Alignment.topRight,
@@ -136,16 +165,7 @@ class ShowOptions extends StatelessWidget {
           },
         ),
       ),
-      Expanded(
-        child: Center(
-          child: Wrap(
-            spacing: 50,
-            runSpacing: 20,
-            alignment: WrapAlignment.center,
-            children: items,
-          ),
-        ),
-      ),
+      Expanded(child: children)
     ]);
   }
 }

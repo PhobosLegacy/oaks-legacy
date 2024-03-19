@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:oaks_legacy/constants.dart';
 
 class PkmLevelPicker extends StatelessWidget {
   const PkmLevelPicker({
@@ -46,7 +47,15 @@ class PkmLevelPicker extends StatelessWidget {
               autofocus: true,
               keyboardType: TextInputType.number,
               inputFormatters: <TextInputFormatter>[
-                FilteringTextInputFormatter.digitsOnly
+                FilteringTextInputFormatter.digitsOnly,
+                LengthLimitingTextInputFormatter(3),
+                TextInputFormatter.withFunction((oldValue, newValue) {
+                  final int value = int.tryParse(newValue.text) ?? 0;
+                  if (value < 1 || value > 100) {
+                    return oldValue;
+                  }
+                  return newValue;
+                }),
               ],
             ),
           ),
@@ -77,7 +86,18 @@ class PkmLevelPicker extends StatelessWidget {
                 },
               ),
               TextButton(
-                child: Icon(Icons.check, color: Colors.green),
+                child: const Icon(
+                  Icons.question_mark,
+                  color: Colors.white,
+                ),
+                onPressed: () {
+                  textController.text = kValueNotFound;
+                  onChange();
+                  Navigator.pop(dialogContext);
+                },
+              ),
+              TextButton(
+                child: const Icon(Icons.check, color: Colors.green),
                 onPressed: () {
                   if (textController.text != "") {
                     onChange();

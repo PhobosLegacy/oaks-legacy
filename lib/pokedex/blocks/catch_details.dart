@@ -34,9 +34,6 @@ class _CatchDetailsBlockState extends State<CatchDetailsBlock> {
   @override
   Widget build(BuildContext context) {
     bool isSmallScreen = (MediaQuery.of(context).size.width < 400);
-
-    widget.pokemon.catchDate = DateTime.now().toString();
-
     Widget mainContent = Expanded(
       child: Card(
         color: Colors.black12,
@@ -506,7 +503,7 @@ class _CatchDetailsBlockState extends State<CatchDetailsBlock> {
 
     return (MediaQuery.of(context).size.width < 1024)
         ? mainContent
-        : DetailsCard(cardChild: mainContent, blockTitle: "Catch Info");
+        : DetailsCard(cardChild: mainContent, blockTitle: "Attributes");
   }
 
   bool checkLocks(DetailsLock lockType) {

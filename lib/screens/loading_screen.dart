@@ -3,6 +3,8 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/base_background.dart';
+import 'package:oaks_legacy/item/item_list_screen.dart';
+import 'package:oaks_legacy/models/game.dart';
 import 'package:oaks_legacy/models/preferences.dart';
 import 'package:oaks_legacy/models/tracker.dart';
 import 'package:oaks_legacy/models/version.dart';
@@ -123,33 +125,34 @@ class _LoadingScreenState extends State<LoadingScreen> {
     // openNextScreen(const MaintainanceScreen());
     openNextScreen(const StartScreen());
 
-    // //******** Open Tracker Details FIRST ********
-    // var trackers = await getAllTrackers();
-    // if (trackers.isEmpty)
-    // // To create a tracker quickly
-    // {
-    //   String gameName = "Pokemon Sword";
-    //   String dexName = "Isle of Armor";
-    //   String trackerType = "Living Dex";
-    //   String trackerName =
-    //       '${gameName.replaceAll('Pokemon', '').replaceAll(' ', '')}-${dexName.replaceAll(' ', '')}-${trackerType.replaceAll(' ', '')}';
-    //   Tracker tracker = createTracker(
-    //       trackerName, gameName, dexName, trackerType,
-    //       save: true);
-    // }
+    // openNextScreen(CollectionScreen());
+    // // //******** Open Tracker Details FIRST ********
+    // // var trackers = await getAllTrackers();
+    // // if (trackers.isEmpty)
+    // // // To create a tracker quickly
+    // // {
+    // //   String gameName = "Pokemon Sword";
+    // //   String dexName = "Regional";
+    // //   String trackerType = "Shiny Living Dex";
+    // //   String trackerName =
+    // //       '${gameName.replaceAll('Pokemon', '').replaceAll(' ', '')}-${dexName.replaceAll(' ', '')}-${trackerType.replaceAll(' ', '')}';
+    // //   Tracker tracker = createTracker(
+    // //       trackerName, gameName, dexName, trackerType,
+    // //       save: true);
+    // // }
 
-    // trackers = await getAllTrackers();
-    // //006 Chansey (Female Only)
-    // //036 Gallade (Male Only)
-    // //210 Zarude (Genderless)
-    // openNextScreen(TrackerDetailsPage(
-    //   pokemons: trackers.first.pokemons,
-    //   indexes: [210],
-    //   onStateChange: () {
-    //     saveTracker(trackers.first);
-    //   },
-    // ));
-    // //******** Open Tracker Details FIRST ********
+    // // trackers = await getAllTrackers();
+    // // //006 Chansey (Female Only)
+    // // //036 Gallade (Male Only)
+    // // //210 Zarude (Genderless)
+    // // openNextScreen(TrackerDetailsPage(
+    // //   pokemons: trackers.first.pokemons,
+    // //   indexes: [5],
+    // //   onStateChange: () {
+    // //     saveTracker(trackers.first);
+    // //   },
+    // // ));
+    // // //******** Open Tracker Details FIRST ********
 
     //openNextScreen(const YourTrackersScreen());
     // kPokedex = kPokedex

@@ -55,7 +55,7 @@ class PkmNamePicker extends StatelessWidget {
                 },
               ),
               TextButton(
-                child: Icon(Icons.check, color: Colors.green),
+                child: const Icon(Icons.check, color: Colors.green),
                 onPressed: () {
                   if (textController.text != "") {
                     onChange();

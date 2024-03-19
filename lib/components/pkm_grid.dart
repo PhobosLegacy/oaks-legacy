@@ -12,29 +12,37 @@ class PkmGrid extends StatefulWidget {
 
   @override
   State<PkmGrid> createState() => _PkmGridState();
+
+  static getCardsPerRow(context) {
+    double currentWidth = MediaQuery.of(context).size.width;
+    int cardsPerRow = currentWidth ~/ 400;
+    if (cardsPerRow == 0) cardsPerRow = 1;
+
+    return cardsPerRow;
+  }
 }
 
 class _PkmGridState extends State<PkmGrid> {
   @override
   build(BuildContext context) {
-    double currentWidth = MediaQuery.of(context).size.width;
-    int cardsPerRow = currentWidth ~/ 400;
-    if (cardsPerRow == 0) cardsPerRow = 1;
+    // double currentWidth = MediaQuery.of(context).size.width;
+    // int cardsPerRow = currentWidth ~/ 400;
+    // if (cardsPerRow == 0) cardsPerRow = 1;
+    int cardsPerRow = PkmGrid.getCardsPerRow(context);
 
-    return Expanded(
-      child: Center(
-        child: GridView.builder(
-          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisSpacing: 5,
-            mainAxisSpacing: 5,
-            // Adjust the cross axis count as needed
-            crossAxisCount: cardsPerRow,
-            // Adjust the height here
-            childAspectRatio: (cardsPerRow == 1) ? 3 : 2,
-          ),
-          itemCount: widget.itemCount,
-          itemBuilder: widget.itemBuilder,
+    return Center(
+      child: GridView.builder(
+        shrinkWrap: true,
+        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+          crossAxisSpacing: 5,
+          mainAxisSpacing: 5,
+          // Adjust the cross axis count as needed
+          crossAxisCount: cardsPerRow,
+          // Adjust the height here
+          childAspectRatio: (cardsPerRow == 1) ? 3 : 2,
         ),
+        itemCount: widget.itemCount,
+        itemBuilder: widget.itemBuilder,
       ),
     );
   }
