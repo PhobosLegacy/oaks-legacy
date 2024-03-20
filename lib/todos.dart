@@ -6,8 +6,8 @@ class Todos {
 
 TODO: BUG: Item List (FT.LT.COL) side buttons mess forms (when openings Venusaur for example)
 TODO: BUG: Tracker if change the gender/attributes, image doesnt update
-
-TODO: ENH: Add a toast message when clicking in the Items List side buttons 
+TODO: BUG: Screenshot.. when list is smaller than the width of the screen (eg 1) screenshot is too large to the sides (prob due to the Expanded);{Perhaps making the Expanded disabled when clicking on the screenshot buttons solves it?}
+TODO: ENH: Add a toast message when clicking in the Items List side buttons   
 TODO: ENH: Block gender on Living Dexes
 TODO: ENH: Item List (FT.LT.COL) improve UI for the side buttons
 TODO: ENH: Level Picker to be able to hold button

@@ -6,7 +6,9 @@ const String kPokedexFileLocation = 'data/pokedex.json';
 
 const String kImagesRoot = 'images/';
 const String kImageLocalPrefix =
-    "https://raw.githubusercontent.com/Icaroto/FlutterTraining/main/Art/";
+    "https://gfoeebribnlwseyepwlx.supabase.co/storage/v1/object/public/";
+// "https://raw.githubusercontent.com/Icaroto/FlutterTraining/main/Art/";
+
 const String kServerVersionLocation =
     'https://raw.githubusercontent.com/Icaroto/FlutterTraining/main/ServerVersions/versions.json';
 const String kServerPokedexLocation =
