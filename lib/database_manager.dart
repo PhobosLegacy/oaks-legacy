@@ -1,5 +1,3 @@
-import 'dart:convert';
-
 import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/models/flag.dart';
 import 'package:oaks_legacy/models/preferences.dart';

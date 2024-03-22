@@ -151,12 +151,12 @@ class _PokedexListScreenState extends State<PokedexListScreen> {
         selectedTypes: typesSelected,
         onTypeSelected: (List<String> list) {
           setState(
-            () => {
-              typesSelected = list,
+            () {
+              typesSelected = list;
               (typesSelected.isEmpty)
                   ? removeFilters([FilterType.byType])
-                  : addFilter(FilterType.byType),
-              applyFilters(),
+                  : addFilter(FilterType.byType);
+              applyFilters();
             },
           );
         },

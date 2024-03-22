@@ -82,17 +82,14 @@ class _TrackerDetailsPageState extends State<TrackerDetailsPage> {
                             //     ? null
                             //     : () => {
                             onPress: () => {
-                              setState(() => {
-                                    if (isEditable)
-                                      {
-                                        isEditable = false,
-                                        widget.onStateChange!(),
-                                      }
-                                    else
-                                      {
-                                        isEditable = true,
-                                      }
-                                  }),
+                              setState(() {
+                                if (isEditable) {
+                                  isEditable = false;
+                                  widget.onStateChange!();
+                                } else {
+                                  isEditable = true;
+                                }
+                              }),
                             },
                             icon: (isEditable)
                                 ? const Icon(

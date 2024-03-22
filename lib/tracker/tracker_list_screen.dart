@@ -244,12 +244,12 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
         selectedTypes: _drawerByTypesSelected,
         onTypeSelected: (List<String> list) {
           setState(
-            () => {
-              _drawerByTypesSelected = list,
+            () {
+              _drawerByTypesSelected = list;
               (_drawerByTypesSelected.isEmpty)
                   ? removeFilters([FilterType.byType])
-                  : addFilter(FilterType.byType),
-              applyFilters(),
+                  : addFilter(FilterType.byType);
+              applyFilters();
             },
           );
         },

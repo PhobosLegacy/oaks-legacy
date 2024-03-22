@@ -122,14 +122,14 @@ class _CreateTrackerScreenState extends State<CreateTrackerScreen>
                         imagePath:
                             '$kImageLocalPrefix${Game.gameIcon(gamesAvailable[index])}',
                         onPressed: () => {
-                              setState(() => {
-                                    dexAnimationController.forward(),
-                                    gamePicked = gamesAvailable[index],
-                                    dexAvailable = Dex.availableDex(gamePicked),
-                                    dexPicked = "",
-                                    trackerPicked = "",
-                                    trackers = Dex.availableTrackerType(''),
-                                  }),
+                              setState(() {
+                                dexAnimationController.forward();
+                                gamePicked = gamesAvailable[index];
+                                dexAvailable = Dex.availableDex(gamePicked);
+                                dexPicked = "";
+                                trackerPicked = "";
+                                trackers = Dex.availableTrackerType('');
+                              }),
                             },
                         textColor: Colors.black,
                         buttonColor: (gamePicked == gamesAvailable[index])
