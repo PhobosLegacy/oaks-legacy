@@ -1,4 +1,6 @@
+import 'package:oaks_legacy/constants.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
 
 class FileManager {
   static late SharedPreferences preferences;
