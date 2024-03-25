@@ -144,11 +144,11 @@ class _YourTrackersScreenState extends State<YourTrackersScreen> {
         actions: [
           TextButton(
             child: const Text("Confirm"),
-            onPressed: () {
-              setState(() {
-                deleteTracker(tracker.ref);
-                Navigator.pop(context);
-              });
+            onPressed: () async {
+              await deleteTracker(tracker.ref);
+              setState(() {});
+              if (!context.mounted) return;
+              Navigator.of(context).pop();
             },
           ),
           TextButton(
@@ -168,7 +168,7 @@ class _YourTrackersScreenState extends State<YourTrackersScreen> {
           callBackAction: () {
             setState(() {});
           },
-          collection: getTracker(tracker.ref),
+          collection: tracker,
         ),
       ),
     );

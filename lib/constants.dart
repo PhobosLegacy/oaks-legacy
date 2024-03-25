@@ -21,13 +21,14 @@ const String kServerPokedexLocation =
 
 const String kFlagsKey = 'flags';
 const String kPreferencesKey = 'userPreferences';
+const String kCollectionKey = 'collections';
+const String kLookingFor = 'lookingFor';
+const String kForTrade = 'forTrade';
+const String kTrackersKey = 'trackers';
 
 const String kTrackerPrefix = 't_';
 const String kVersionsKey = 'versions';
 const String kPokedexKey = 'pokedex';
-const String kCollectionKey = 'collections';
-const String kLookingFor = 'lookingFor';
-const String kForTrade = 'forTrade';
 
 const String kValueNotFound = "?";
 

@@ -1,6 +1,5 @@
-import 'dart:convert';
 import 'package:collection/collection.dart';
-import 'package:oaks_legacy/file_manager.dart';
+import 'package:oaks_legacy/database_manager.dart';
 import '../constants.dart';
 import '../models/tracker.dart';
 import '../models/enums.dart';
@@ -9,23 +8,31 @@ import '../models/item.dart';
 import '../models/pokemon.dart';
 
 Future<List<Tracker>> getAllTrackers() async {
-  List<Tracker> localTrackers = [];
+  List<Tracker> localTrackers = List<Tracker>.empty(growable: true);
 
-  var keys = FileManager.getAllByPrefix(kTrackerPrefix);
-  for (var key in keys) {
-    Tracker tracker = Tracker.fromJson(jsonDecode(FileManager.get(key)));
-    localTrackers.add(tracker);
-  }
-
+  // var keys = FileManager.getAllByPrefix(kTrackerPrefix);
+  // for (var key in keys) {
+  //   Tracker tracker = Tracker.fromDatabase(jsonDecode(FileManager.get(key)));
+  //   localTrackers.add(tracker);
+  // }
+  localTrackers.addAll(await DatabaseManager.getTrackers());
   return localTrackers;
 }
 
-getTracker(String ref) => Tracker.fromJson(jsonDecode(FileManager.get(ref)));
+Future<Tracker> getTracker(String ref) async {
+  return await DatabaseManager.getTracker(ref);
+  // Tracker.fromJson(jsonDecode(FileManager.get(ref)));
+}
 
-saveTracker(Tracker tracker) =>
-    FileManager.save(tracker.ref, jsonEncode(tracker));
+saveTracker(Tracker tracker) async {
+  await DatabaseManager.saveTracker(tracker);
+  // FileManager.save(tracker.ref, jsonEncode(tracker));
+}
 
-deleteTracker(String name) => FileManager.delete(name);
+Future deleteTracker(String name) async {
+  await DatabaseManager.removeTracker(name);
+  // FileManager.delete(name);
+}
 
 Tracker createTracker(
     String trackerName, String gameName, String dexName, String trackerType,
@@ -200,13 +207,6 @@ Item createNewItem(Pokemon pokemon, Game game, entryOrigin, isShinyTracker) {
     item.displayImage = item.image.firstWhere((img) => img.contains("-shiny-"));
     item.attributes.add(PokemonAttributes.isShiny);
   }
-  // if (pokemon.genderRatio.genderless == "100") {
-  //   item.gender = PokemonGender.genderless;
-  // } else if (pokemon.genderRatio.male == "100") {
-  //   item.gender = PokemonGender.male;
-  // } else if (pokemon.genderRatio.female == "100") {
-  //   item.gender = PokemonGender.female;
-  // }
   item.originalLocation = game.name;
   item.currentLocation = game.name;
   return item;

@@ -1,22 +1,27 @@
-import 'dart:convert';
 import 'package:collection/collection.dart';
-import 'package:oaks_legacy/file_manager.dart';
+import 'package:oaks_legacy/database_manager.dart';
 import '../models/game.dart';
 import '../models/group.dart';
 import '../models/item.dart';
 
-retrieveItems(String key) {
-  String content = FileManager.get(key);
-  if (content.isEmpty) return List<Item>.empty(growable: true);
-  return List<Item>.from(
-      (jsonDecode(content)).map((model) => Item.fromJson(model)));
+retrieveItems(String key) async {
+  // String content = FileManager.get(key);
+  // if (content.isEmpty) return List<Item>.empty(growable: true);
+  // return List<Item>.from(
+  //     (jsonDecode(content)).map((model) => Item.fromJson(model)));
+  // await Future.delayed(Duration(seconds: 5));
+  // List<Item> test = await DatabaseManager.getItemCollection(key);
+  // return test
+  return await DatabaseManager.getItemCollection(key);
 }
 
-saveItems(String key, List<Item> collection) =>
-    FileManager.save(key, jsonEncode(collection));
+saveItems(String key, List<Item> collection) async {
+  // FileManager.save(key, jsonEncode(collection));
+  await DatabaseManager.saveCollection(key, collection);
+}
 
-addItems(String key, List<Item> items) {
-  List<Item> collection = retrieveItems(key);
+addItems(String key, List<Item> items) async {
+  List<Item> collection = await retrieveItems(key);
   List<Item> toAddToCollection = [];
   for (var item in items) {
     if (item.forms.isEmpty) {

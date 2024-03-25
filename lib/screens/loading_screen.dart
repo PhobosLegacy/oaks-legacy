@@ -56,7 +56,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
   }
 
   void loadFiles() async {
-    await FileManager.loadPreferences();
+    // await FileManager.loadPreferences();
 
     await DatabaseManager.initSupabase();
     await DatabaseManager.setUser();
@@ -109,7 +109,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
 // For lazy load the Loading Screen
 // await Future.delayed(const Duration(seconds: 2));
 
-//Previous way to handle versioning. 
+//Previous way to handle versioning.
 // FileManager.removeAllKeys();
 // Data serverData =
 //     Data.fromJson(jsonDecode(await fetchData(kServerVersionLocation)));

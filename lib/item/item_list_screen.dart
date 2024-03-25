@@ -46,11 +46,17 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
   List<FilterType> filters = [];
   TextEditingController editingController = TextEditingController();
   GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
+  bool _dataLoaded = false;
 
   @override
   void initState() {
     originalPokedex.addAll(kPokedex);
-    collection = retrieveItems(widget.screenKey);
+    retrieveItems(widget.screenKey).then((data) {
+      setState(() {
+        collection = data;
+        _dataLoaded = true;
+      });
+    });
     super.initState();
   }
 
@@ -112,21 +118,23 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
                     applyFilters();
                   },
                 ),
-                if (_selectedTab == 0 && collection.isEmpty)
-                  const Expanded(
-                    child: Center(
-                      child: Text(
-                        "You have no items in your collection",
-                        style: TextStyle(
-                          color: Colors.amber,
-                          fontSize: 30,
-                        ),
-                      ),
-                    ),
-                  ),
-                if (_selectedTab == 0 && collection.isNotEmpty)
-                  collectionList(),
-                if (_selectedTab == 1) pokedex()
+                _dataLoaded
+                    ? (_selectedTab == 0 && collection.isEmpty)
+                        ? const Expanded(
+                            child: Center(
+                              child: Text(
+                                "You have no items in your collection",
+                                style: TextStyle(
+                                  color: Colors.amber,
+                                  fontSize: 30,
+                                ),
+                              ),
+                            ),
+                          )
+                        : (_selectedTab == 0 && collection.isNotEmpty)
+                            ? collectionList()
+                            : pokedex()
+                    : const CircularProgressIndicator()
               ],
             ),
           ),
@@ -175,27 +183,6 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
         break;
     }
 
-    // // ORIGINAL
-    // // return Expanded(
-    // //   child: SingleChildScrollView(
-    // //     child: Screenshot(
-    // //       controller: controller,
-    // //       child: ListView.builder(
-    // //         physics: const NeverScrollableScrollPhysics(),
-    // //         shrinkWrap: true,
-    // //         itemCount: (CollectionDisplayType.flatList == displayType)
-    // //             ? collection.length
-    // //             : groups.length,
-    // //         itemBuilder: ((context, index) {
-    // //           return (displayType == CollectionDisplayType.flatList)
-    // //               ? createTile(collection, index)
-    // //               : createCards(groups[index]);
-    // //         }),
-    // //       ),
-    // //     ),
-    // //   ),
-    // // );
-
     return (CollectionDisplayType.flatList == displayType)
         // FLAT LIST
         ? Expanded(
@@ -213,10 +200,8 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
                           saveToCollection(item);
                         });
                       },
-                      onDelete: (item) {
-                        setState(() {
-                          removeFromColletion(item);
-                        });
+                      onDelete: (item) async {
+                        await removeFromColletion(item);
                       },
                     );
                   },
@@ -261,10 +246,8 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
                                       saveToCollection(item);
                                     });
                                   },
-                                  onDelete: (item) {
-                                    setState(() {
-                                      removeFromColletion(item);
-                                    });
+                                  onDelete: (item) async {
+                                    await removeFromColletion(item);
                                   },
                                 );
                               },
@@ -279,107 +262,19 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
               ),
             ),
           );
-
-    // // return Expanded(
-    // //   child: SingleChildScrollView(
-    // //     child: Column(
-    // //       children: [
-    // //         AnimatedContainer(
-    // //           clipBehavior: Clip.antiAlias,
-    // //           duration: const Duration(milliseconds: 200),
-    // //           curve: Curves.easeInOut,
-    // //           width: double.infinity,
-    // //           height: isExpanded ? 1000 : 50,
-    // //           decoration: BoxDecoration(
-    // //             color: Colors.blueAccent,
-    // //             borderRadius: BorderRadius.circular(10),
-    // //           ),
-    // //           child: Column(
-    // //             children: [
-    // //               SizedBox(
-    // //                 height: 50,
-    // //                 child: TextButton(
-    // //                   onPressed: () => setState(() {
-    // //                     isExpanded = !isExpanded;
-    // //                   }),
-    // //                   child: const Text(
-    // //                     "NO GAME SET",
-    // //                     style: TextStyle(
-    // //                       fontSize: 35,
-    // //                     ),
-    // //                   ),
-    // //                 ),
-    // //               ),
-    // //               child,
-    // //             ],
-    // //           ),
-    // //         ),
-
-    // //       ],
-    // //     ),
-    // //   ),
-    // // );
-
-    // // ORIGINAL
-    // // return Expanded(
-    // //   child: SingleChildScrollView(
-    // //     child: Screenshot(
-    // //       controller: controller,
-    // //       child: ListView.builder(
-    // //         physics: const NeverScrollableScrollPhysics(),
-    // //         shrinkWrap: true,
-    // //         itemCount: (CollectionDisplayType.flatList == displayType)
-    // //             ? collection.length
-    // //             : groups.length,
-    // //         itemBuilder: ((context, index) {
-    // //           return (displayType == CollectionDisplayType.flatList)
-    // //               ? createTile(collection, index)
-    // //               : createCards(groups[index]);
-    // //         }),
-    // //       ),
-    // //     ),
-    // //   ),
-    // // );
-
-    // return Expanded(
-    //   child: SingleChildScrollView(
-    //     child: Screenshot(
-    //       controller: controller,
-    //       child: PkmGrid(
-    //         itemBuilder: (context, index) {
-    //           return ItemTile(
-    //             pokemons: collection,
-    //             isLowerTile: false,
-    //             indexes: [index],
-    //             onStateChange: (item) {
-    //               setState(() {
-    //                 saveToCollection(item);
-    //               });
-    //             },
-    //             onDelete: (item) {
-    //               setState(() {
-    //                 removeFromColletion(item);
-    //               });
-    //             },
-    //           );
-    //         },
-    //         itemCount: collection.length,
-    //       ),
-    //     ),
-    //   ),
-    // );
   }
 
-  void removeFromColletion(Item item) {
-    collection = retrieveItems(widget.screenKey);
+  Future removeFromColletion(Item item) async {
+    collection = await retrieveItems(widget.screenKey);
     collection.removeWhere((element) => element.ref == item.ref);
     saveItems(widget.screenKey, collection);
     collection = collection.applyAllFilters(filters, searchQuery);
+    setState(() {});
   }
 
-  void saveToCollection(Item item) {
+  void saveToCollection(Item item) async {
     item.displayImage = item.updateDisplayImage();
-    collection = retrieveItems(widget.screenKey);
+    collection = await retrieveItems(widget.screenKey);
     final index = collection.indexWhere((element) => element.ref == item.ref);
     if (index == -1) {
       collection.add(item);
@@ -390,13 +285,13 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
     collection = collection.applyAllFilters(filters, searchQuery);
   }
 
-  void applyFilters() {
-    setState(() {
+  void applyFilters() async {
+    setState(() async {
       (searchQuery == "")
           ? removeFilters([FilterType.byValue])
           : addFilter(FilterType.byValue);
 
-      collection = retrieveItems(widget.screenKey);
+      collection = await retrieveItems(widget.screenKey);
       collection = collection.applyAllFilters(filters, searchQuery);
 
       originalPokedex =
@@ -493,59 +388,6 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
         },
       ),
     );
-
-    // return PokedexList(
-    //   pokemons: originalPokedex,
-    //   detailsKey: widget.screenKey,
-    //   pageBuilder: (items, indexes) => TrackerDetailsPage(
-    //     pokemons: items,
-    //     indexes: indexes,
-    //     onStateChange: () {
-    //       saveToCollection(items.current(indexes));
-    //     },
-    //   ),
-    //   button1Icon: const Icon(Icons.add_box_outlined, color: Colors.amber),
-    //   button1OnPressed: (p0) => {print(p0.name)},
-    //   button2Icon: const Icon(Icons.edit_square, color: Colors.amber),
-    //   button2OnPressed: (p0) => {print(p0.number)},
-    //   // sideOptions: [
-    //   //   TileButton(
-    //   //     onOptionSelected: (p0) {
-    //   //       print(p0.name);
-    //   //     },
-    //   //     icon: const Icon(Icons.add_box_outlined, color: Colors.amber),
-    //   //   ),
-    //   //   TileButton(
-    //   //     onOptionSelected: (p0) {
-    //   //       print(p0.number);
-    //   //     },
-    //   //     icon: const Icon(Icons.edit_square, color: Colors.amber),
-    //   //   ),
-    //   // ],
-
-    //   // buttonBuilder: (icon, item) => GestureDetector(
-    //   //         onTap: () {
-    //   //           print("Clicked on ADD");
-    //   //           saveToCollection(items.current(indexes));
-    //   //         },
-    //   //         child: const Icon(icon, color: Colors.amber)),
-    //   // sideOptions: Column(
-    //   //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-    //   //   children: [
-    //   //     GestureDetector(
-    //   //         onTap: () {
-    //   //           print("Clicked on ADD");
-    //   //           saveToCollection(items.current(indexes));
-    //   //         },
-    //   //         child: const Icon(Icons.add_box_outlined, color: Colors.amber)),
-    //   //     GestureDetector(
-    //   //         onTap: () {
-    //   //           print("Clicked on ADD WITH DETAILS");
-    //   //         },
-    //   //         child: const Icon(Icons.edit_square, color: Colors.amber)),
-    //   //   ],
-    //   // ),
-    // );
   }
 
   Item createPlaceholderItem(
