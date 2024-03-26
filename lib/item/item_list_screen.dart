@@ -286,17 +286,16 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
   }
 
   void applyFilters() async {
-    setState(() async {
-      (searchQuery == "")
-          ? removeFilters([FilterType.byValue])
-          : addFilter(FilterType.byValue);
+    (searchQuery == "")
+        ? removeFilters([FilterType.byValue])
+        : addFilter(FilterType.byValue);
 
-      collection = await retrieveItems(widget.screenKey);
-      collection = collection.applyAllFilters(filters, searchQuery);
+    collection = await retrieveItems(widget.screenKey);
+    collection = collection.applyAllFilters(filters, searchQuery);
 
-      originalPokedex =
-          originalPokedex.applyAllFilters(filters, searchQuery, null);
-    });
+    originalPokedex =
+        originalPokedex.applyAllFilters(filters, searchQuery, null);
+    setState(() {});
   }
 
   void addFilter(FilterType filter) {

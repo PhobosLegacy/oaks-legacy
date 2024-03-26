@@ -7,6 +7,11 @@ class Todos {
 TODO: BUG: Item List (FT.LT.COL) side buttons mess forms (when openings Venusaur for example)
 TODO: BUG: Tracker if change the gender/attributes, image doesnt update
 TODO: BUG: Screenshot.. when list is smaller than the width of the screen (eg 1) screenshot is too large to the sides (prob due to the Expanded);{Perhaps making the Expanded disabled when clicking on the screenshot buttons solves it?}
+TODO: BUG: Alcremie not showing correct name in Pokedex
+TODO: BUG: Error with hero animation (not animating probably because not same widget between pages)
+TOGO: BUG: Hero animation throws error when list is filtered (probably because mons have same name)
+
+TODO: ENH: Make a Future widget for images in the list so the loading looks better
 TODO: ENH: Add a toast message when clicking in the Items List side buttons   
 TODO: ENH: Block gender on Living Dexes
 TODO: ENH: Item List (FT.LT.COL) improve UI for the side buttons
