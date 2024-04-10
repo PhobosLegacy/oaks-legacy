@@ -152,7 +152,9 @@ class _PkmAccountIconState extends State<PkmAccountIcon>
       child: Padding(
         padding: const EdgeInsets.all(10),
         child: SupaEmailAuth(
-          redirectTo: kIsWeb ? null : 'http://localhost:54160/',
+          redirectTo: kIsWeb
+              ? null
+              : 'https://oaks-legacy-git-breakpoints-phobos-projects-b27fbefd.vercel.app/',
           onError: (error) {
             showSnackbar(context, error.toString());
           },
@@ -183,7 +185,6 @@ class _PkmAccountIconState extends State<PkmAccountIcon>
   }
 
   resetPassword(resetCode) {
-    isLoginBoxVisible = true;
     return SizedBox(
       width: 300,
       child: Padding(
