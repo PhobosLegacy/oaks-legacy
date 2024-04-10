@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/base_background.dart';
 import 'package:oaks_legacy/components/disclaimer.dart';
 import 'package:oaks_legacy/components/main_button.dart';
+import 'package:oaks_legacy/components/pkm_login.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/item/item_list_screen.dart';
 import 'package:oaks_legacy/pokedex/pokedex_list_screen.dart';
@@ -22,6 +23,7 @@ class _StartScreenState extends State<StartScreen> {
       body: Stack(
         children: [
           const BaseBackground(),
+          // const PkmCreate(),
           Center(
             child: Wrap(
               spacing: 20,
@@ -68,6 +70,7 @@ class _StartScreenState extends State<StartScreen> {
               ],
             ),
           ),
+          PkmAccountIcon(),
           const Disclaimer(),
         ],
       ),

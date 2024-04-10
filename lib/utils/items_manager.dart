@@ -1,23 +1,15 @@
 import 'package:collection/collection.dart';
-import 'package:oaks_legacy/database_manager.dart';
+import 'package:oaks_legacy/data/data_manager.dart';
 import '../models/game.dart';
 import '../models/group.dart';
 import '../models/item.dart';
 
 retrieveItems(String key) async {
-  // String content = FileManager.get(key);
-  // if (content.isEmpty) return List<Item>.empty(growable: true);
-  // return List<Item>.from(
-  //     (jsonDecode(content)).map((model) => Item.fromJson(model)));
-  // await Future.delayed(Duration(seconds: 5));
-  // List<Item> test = await DatabaseManager.getItemCollection(key);
-  // return test
-  return await DatabaseManager.getItemCollection(key);
+  return await DataManager.getItemCollection(key);
 }
 
 saveItems(String key, List<Item> collection) async {
-  // FileManager.save(key, jsonEncode(collection));
-  await DatabaseManager.saveCollection(key, collection);
+  await DataManager.saveCollection(key, collection);
 }
 
 addItems(String key, List<Item> items) async {
@@ -37,7 +29,6 @@ addItems(String key, List<Item> items) async {
         element.ref == pokemon.ref && element.origin == pokemon.origin);
     collection.add(pokemon);
   }
-  // collection.sort((a, b) => int.parse(a.number).compareTo(int.parse(b.number)));
   saveItems(key, collection);
 }
 

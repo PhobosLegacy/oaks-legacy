@@ -1,18 +1,22 @@
 // ignore_for_file: unused_import
 import 'dart:convert';
+import 'dart:html';
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/base_background.dart';
-import 'package:oaks_legacy/database_manager.dart';
+import 'package:oaks_legacy/components/pkm_login.dart';
+import 'package:oaks_legacy/data/data_manager.dart';
+import 'package:oaks_legacy/data/database_manager.dart';
 import 'package:oaks_legacy/item/item_list_screen.dart';
 import 'package:oaks_legacy/models/game.dart';
 import 'package:oaks_legacy/models/item.dart';
 import 'package:oaks_legacy/models/preferences.dart';
 import 'package:oaks_legacy/models/tracker.dart';
 import 'package:oaks_legacy/models/flag.dart';
-import 'package:oaks_legacy/file_manager.dart';
+import 'package:oaks_legacy/data/file_manager.dart';
 import 'package:oaks_legacy/models/pokemon.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:http/http.dart' as http;
+import 'package:oaks_legacy/screens/forgotpassword_screen.dart';
 import 'package:oaks_legacy/screens/maintainance_screen.dart';
 import 'package:oaks_legacy/screens/start_screen.dart';
 import 'package:oaks_legacy/screens/your_trackers.dart';
@@ -31,7 +35,7 @@ class LoadingScreen extends StatefulWidget {
 class _LoadingScreenState extends State<LoadingScreen> {
   @override
   void initState() {
-    loadFiles();
+    initData();
     super.initState();
   }
 
@@ -55,14 +59,20 @@ class _LoadingScreenState extends State<LoadingScreen> {
     );
   }
 
-  void loadFiles() async {
-    // await FileManager.loadPreferences();
+  void initData() async {
+    //Starts Shared Preferences and Supabase
+    await DataManager.start();
 
-    await DatabaseManager.initSupabase();
-    await DatabaseManager.setUser();
+    final session = Supabase.instance.client.auth.currentSession;
+    final user = Supabase.instance.client.auth.currentUser;
 
-    kFlags = await DatabaseManager.getSystemFlags();
-    kPreferences = await DatabaseManager.getUserPreferences();
+    if (session != null && user != null) {
+      loggedUserId = user.id;
+      isUserLogged = true;
+    }
+
+    DataManager.setUserPreferences();
+    await DataManager.setSystemFlags();
 
     if (kFlags.underMaintenance == true) {
       openNextScreen(const MaintainanceScreen());
@@ -72,7 +82,12 @@ class _LoadingScreenState extends State<LoadingScreen> {
       kPokedex = await Pokemon.createPokedex(pokedex);
       //***************************************\\
 
-      openNextScreen(const StartScreen());
+      if (window.location.href.contains('?code=')) {
+        String? code = Uri.parse(window.location.href).queryParameters['code'];
+        openNextScreen(ForgotPasswordScreen(resetCode: code));
+      } else {
+        openNextScreen(const StartScreen());
+      }
     }
   }
 

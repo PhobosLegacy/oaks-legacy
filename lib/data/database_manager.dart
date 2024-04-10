@@ -3,11 +3,10 @@ import 'package:oaks_legacy/models/flag.dart';
 import 'package:oaks_legacy/models/item.dart';
 import 'package:oaks_legacy/models/preferences.dart';
 import 'package:oaks_legacy/models/tracker.dart';
-import 'package:oaks_legacy/models/user.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 class DatabaseManager {
-  static late UserData user;
+  // static late UserData user;
 
   static initSupabase() async {
     await Supabase.initialize(
@@ -16,18 +15,34 @@ class DatabaseManager {
     );
   }
 
+  // static signUp() async {
+  //   final AuthResponse res = await Supabase.instance.client.auth.signUp(
+  //     email: 'icarotor@gmail.com',
+  //     password: 'test123',
+  //   );
+  //   final Session? session = res.session;
+  //   final User? user = res.user;
+  // }
+  // static signIn() async {
+  //   final AuthResponse res =
+  //       await Supabase.instance.client.auth.signInWithPassword(
+  //     email: 'icarotor@gmail.com',
+  //     password: 'test123',
+  //   );
+  //   final Session? session = res.session;
+  //   final User? user = res.user;
+  // }
   //TEMP Retrieve user info before we set a proper auth
-  static setUser() async {
-    var userRecord = await Supabase.instance.client
-        .from('users')
-        .select()
-        .match({'email': 'admin', 'password': 'admin'}).single();
-
-    user = UserData(
-        user: userRecord['email'],
-        pass: userRecord['password'],
-        identity: userRecord['userIdentity']);
-  }
+  // // static setUser() async {
+  // //   var userRecord = await Supabase.instance.client
+  // //       .from('users')
+  // //       .select()
+  // //       .match({'email': 'admin', 'password': 'admin'}).single();
+  // //   user = UserData(
+  // //       user: userRecord['email'],
+  // //       pass: userRecord['password'],
+  // //       identity: userRecord['userIdentity']);
+  // // }
 
   static Future<Flags> getSystemFlags() async {
     var record =
@@ -40,13 +55,13 @@ class DatabaseManager {
     var records = await Supabase.instance.client
         .from(kPreferencesKey)
         .select()
-        .match({'userIdentity': user.identity});
+        .match({'userIdentity': loggedUserId});
 
     if (records.isEmpty) {
       var newUserPreferences = await Supabase.instance.client
           .from(kPreferencesKey)
           .insert({
-        'userIdentity': user.identity,
+        'userIdentity': loggedUserId,
         'trainerNames': List<String>.empty()
       }).select();
 
@@ -64,7 +79,7 @@ class DatabaseManager {
       },
     ).eq(
       'userIdentity',
-      user.identity,
+      loggedUserId,
     );
   }
 
@@ -72,7 +87,7 @@ class DatabaseManager {
     var records = await Supabase.instance.client
         .from(table)
         .select()
-        .match({'userIdentity': user.identity});
+        .match({'userIdentity': loggedUserId});
 
     if (records.isEmpty) {
       return List<Item>.empty(growable: true);
@@ -84,7 +99,7 @@ class DatabaseManager {
 
   static saveCollection(String table, List<Item> items) async {
     await Supabase.instance.client.from(table).upsert(
-      {'collection': items, 'userIdentity': user.identity},
+      {'collection': items, 'userIdentity': loggedUserId},
     );
   }
 
@@ -92,7 +107,7 @@ class DatabaseManager {
     var records = await Supabase.instance.client
         .from(kTrackersKey)
         .select()
-        .match({'userIdentity': user.identity});
+        .match({'userIdentity': loggedUserId});
 
     if (records.isEmpty) {
       return List<Tracker>.empty(growable: true);
@@ -106,7 +121,7 @@ class DatabaseManager {
     var record = await Supabase.instance.client
         .from(kTrackersKey)
         .select()
-        .match({'userIdentity': user.identity, 'ref': ref}).single();
+        .match({'userIdentity': loggedUserId, 'ref': ref}).single();
 
     return Tracker.fromDatabase(record);
   }
@@ -115,12 +130,12 @@ class DatabaseManager {
     var records = await Supabase.instance.client
         .from(kTrackersKey)
         .select()
-        .match({'userIdentity': user.identity, 'ref': tracker.ref});
+        .match({'userIdentity': loggedUserId, 'ref': tracker.ref});
 
     if (records.isEmpty) {
       await Supabase.instance.client.from(kTrackersKey).insert(
         {
-          'userIdentity': user.identity,
+          'userIdentity': loggedUserId,
           'name': tracker.name,
           'ref': tracker.ref,
           'game': tracker.game,
@@ -132,7 +147,7 @@ class DatabaseManager {
     } else {
       await Supabase.instance.client.from(kTrackersKey).update(
         {
-          'userIdentity': user.identity,
+          'userIdentity': loggedUserId,
           'name': tracker.name,
           'ref': tracker.ref,
           'game': tracker.game,
@@ -149,15 +164,6 @@ class DatabaseManager {
         .from(kTrackersKey)
         .delete()
         .eq('ref', ref)
-        .match({'userIdentity': user.identity});
+        .match({'userIdentity': loggedUserId});
   }
 }
-
-
-
-    // final supabase = Supabase.instance.client;
-    // var signUp =
-    //     await supabase.auth.signUp(email: 'admin@admin.com', password: 'admin');
-
-    // var test = await supabase.auth
-    //     .signInWithPassword(email: "admin", password: "admin");

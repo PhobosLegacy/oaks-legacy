@@ -52,6 +52,7 @@ dependencies:
   file_saver: ^0.2.9
   percent_indicator: ^4.2.3
   supabase_flutter: ^2.3.4
+  supabase_auth_ui: ^0.4.3
 
 dev_dependencies:
   flutter_test:

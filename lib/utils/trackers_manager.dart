@@ -1,5 +1,5 @@
 import 'package:collection/collection.dart';
-import 'package:oaks_legacy/database_manager.dart';
+import 'package:oaks_legacy/data/data_manager.dart';
 import '../constants.dart';
 import '../models/tracker.dart';
 import '../models/enums.dart';
@@ -15,22 +15,22 @@ Future<List<Tracker>> getAllTrackers() async {
   //   Tracker tracker = Tracker.fromDatabase(jsonDecode(FileManager.get(key)));
   //   localTrackers.add(tracker);
   // }
-  localTrackers.addAll(await DatabaseManager.getTrackers());
+  localTrackers.addAll(await DataManager.getTrackers());
   return localTrackers;
 }
 
 Future<Tracker> getTracker(String ref) async {
-  return await DatabaseManager.getTracker(ref);
+  return await DataManager.getTracker(ref);
   // Tracker.fromJson(jsonDecode(FileManager.get(ref)));
 }
 
 saveTracker(Tracker tracker) async {
-  await DatabaseManager.saveTracker(tracker);
+  await DataManager.saveTracker(tracker);
   // FileManager.save(tracker.ref, jsonEncode(tracker));
 }
 
 Future deleteTracker(String name) async {
-  await DatabaseManager.removeTracker(name);
+  await DataManager.removeTracker(name);
   // FileManager.delete(name);
 }
 

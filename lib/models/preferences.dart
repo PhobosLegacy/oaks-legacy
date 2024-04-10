@@ -1,4 +1,4 @@
-import 'package:oaks_legacy/database_manager.dart';
+import 'package:oaks_legacy/data/data_manager.dart';
 
 class Preferences {
   bool revealUncaught;
@@ -17,5 +17,12 @@ class Preferences {
     );
   }
 
-  save() => DatabaseManager.saveUserPreferences(this);
+  Map<String, dynamic> toJson() {
+    return {
+      'revealUncaught': revealUncaught,
+      'trainerNames': trainerNames,
+    };
+  }
+
+  save() => DataManager.saveUserPreferences(this);
 }

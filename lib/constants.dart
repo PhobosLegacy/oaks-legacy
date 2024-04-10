@@ -19,12 +19,12 @@ const String kServerPokedexLocation =
     'https://gfoeebribnlwseyepwlx.supabase.co/storage/v1/object/public/resources/pokedex.json';
 //  'https://raw.githubusercontent.com/Icaroto/FlutterTraining/main/ServerVersions/pokedex.json';
 
-const String kFlagsKey = 'flags';
-const String kPreferencesKey = 'userPreferences';
-const String kCollectionKey = 'collections';
-const String kLookingFor = 'lookingFor';
-const String kForTrade = 'forTrade';
-const String kTrackersKey = 'trackers';
+const String kFlagsKey = 'system_flags';
+const String kPreferencesKey = 'user_preferences';
+const String kCollectionKey = 'user_collections';
+const String kLookingFor = 'user_lookingFor';
+const String kForTrade = 'user_forTrade';
+const String kTrackersKey = 'user_trackers';
 
 const String kTrackerPrefix = 't_';
 const String kVersionsKey = 'versions';
@@ -38,3 +38,5 @@ late Preferences kPreferences;
 late Flags kFlags;
 
 List<double> kBreakpoints = [768, 1024, 1440];
+String loggedUserId = '';
+const String tempUser = '14c92086-32ef-47bb-8b8b-02341b30840e';
