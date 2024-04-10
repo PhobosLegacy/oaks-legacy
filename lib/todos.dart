@@ -186,6 +186,10 @@ HOW TO PROPER USE BANNER AND CLIP THE RIGHT ELEMENT:
     //     ),
     //   );
     // }
+
+I accidently came over the solution. supabase.auth.exchangeCodeForSession(code)
+Pass the code that comes along with the call and you get a session in return. Then the user is logged in.
+    https://github.com/orgs/supabase/discussions/21317
  */
   String listBase;
 }

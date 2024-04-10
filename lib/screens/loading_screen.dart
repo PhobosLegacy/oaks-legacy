@@ -1,6 +1,6 @@
 // ignore_for_file: unused_import
 import 'dart:convert';
-import 'dart:html';
+import 'package:universal_html/html.dart' as html;
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/base_background.dart';
 import 'package:oaks_legacy/components/pkm_login.dart';
@@ -67,8 +67,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
     final user = Supabase.instance.client.auth.currentUser;
 
     if (session != null && user != null) {
-      loggedUserId = user.id;
-      isUserLogged = true;
+      logUser(user.id);
     }
 
     DataManager.setUserPreferences();
@@ -82,8 +81,9 @@ class _LoadingScreenState extends State<LoadingScreen> {
       kPokedex = await Pokemon.createPokedex(pokedex);
       //***************************************\\
 
-      if (window.location.href.contains('?code=')) {
-        String? code = Uri.parse(window.location.href).queryParameters['code'];
+      if (html.window.location.href.contains('?code=')) {
+        String? code =
+            Uri.parse(html.window.location.href).queryParameters['code'];
         openNextScreen(ForgotPasswordScreen(resetCode: code));
       } else {
         openNextScreen(const StartScreen());

@@ -26,10 +26,6 @@ class DataManager {
       } else {
         kPreferences = Preferences(revealUncaught: false, trainerNames: []);
       }
-      // kPreferences = (FileManager.exists(kPreferencesKey))
-      //     ? Preferences.fromDataBase(
-      //         jsonDecode(FileManager.get(kPreferencesKey)))
-      //     : Preferences(revealUncaught: false, trainerNames: []);
     }
   }
 

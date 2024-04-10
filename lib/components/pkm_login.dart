@@ -1,6 +1,6 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/constants.dart';
+import 'package:oaks_legacy/data/data_manager.dart';
 import 'package:oaks_legacy/screens/start_screen.dart';
 import 'package:oaks_legacy/utils/functions.dart';
 import 'package:supabase_auth_ui/supabase_auth_ui.dart';
@@ -23,7 +23,11 @@ void logUser(id) {
   if (id != null) {
     isUserLogged = true;
     loggedUserId = id;
+  } else {
+    isUserLogged = false;
+    loggedUserId = '';
   }
+  DataManager.setUserPreferences();
 }
 
 class _PkmAccountIconState extends State<PkmAccountIcon>
@@ -134,18 +138,6 @@ class _PkmAccountIconState extends State<PkmAccountIcon>
     );
   }
 
-  refresh() {
-    Navigator.pop(context);
-    Navigator.push(
-      context,
-      MaterialPageRoute(
-        builder: (context) {
-          return const StartScreen();
-        },
-      ),
-    );
-  }
-
   login() {
     return SizedBox(
       width: 300,
@@ -159,27 +151,70 @@ class _PkmAccountIconState extends State<PkmAccountIcon>
           },
           onPasswordResetEmailSent: () => {
             setState(() {
-              isUserLogged = false;
+              logUser(null);
               isLoginBoxVisible = false;
-              loggedUserId = '';
             }),
           },
           onSignInComplete: (response) {
             setState(() {
-              isUserLogged = true;
+              logUser(response.user!.id);
               isLoginBoxVisible = false;
-              loggedUserId = response.user!.id;
             });
           },
           onSignUpComplete: (response) {
             setState(() {
-              isUserLogged = true;
+              logUser(response.user!.id);
               isLoginBoxVisible = false;
-              loggedUserId = response.user!.id;
             });
           },
+          // metadataFields: [
+          //   MetaDataField(
+          //     prefixIcon: const Icon(Icons.person),
+          //     label: 'Username',
+          //     key: 'username',
+          //     validator: (val) {
+          //       if (val == null || val.isEmpty) {
+          //         return 'Please enter something';
+          //       }
+          //       return null;
+          //     },
+          //   ),
+          // ],
         ),
       ),
+    );
+  }
+
+  logout() {
+    return SizedBox(
+      width: 200,
+      height: 100,
+      child: Padding(
+          padding: const EdgeInsets.all(10),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: [
+              DefaultTextStyle(
+                style: const TextStyle(
+                  color: Colors.white,
+                  fontSize: 15,
+                ),
+                child: Text(
+                  '(${Supabase.instance.client.auth.currentUser!.email.toString()})',
+                ),
+              ),
+              ElevatedButton(
+                onPressed: () async {
+                  await Supabase.instance.client.auth.signOut();
+                  setState(() {
+                    logUser(null);
+                    isLoginBoxVisible = false;
+                  });
+                },
+                child: const Text("Logout"),
+              ),
+            ],
+          )),
     );
   }
 
@@ -193,11 +228,10 @@ class _PkmAccountIconState extends State<PkmAccountIcon>
           accessToken: resetCode,
           onSuccess: (UserResponse response) {
             setState(() {
-              isUserLogged = false;
+              logUser(response.user!.id);
               isLoginBoxVisible = false;
-              loggedUserId = '';
             });
-            refresh();
+            navigate();
           },
           onError: (error) {
             showSnackbar(context, error.toString());
@@ -207,232 +241,15 @@ class _PkmAccountIconState extends State<PkmAccountIcon>
     );
   }
 
-  logout() {
-    return SizedBox(
-      width: 150,
-      child: Padding(
-          padding: const EdgeInsets.all(10),
-          child: Column(
-            children: [
-              ElevatedButton(
-                onPressed: () async {
-                  await Supabase.instance.client.auth.signOut();
-                  setState(() {
-                    isUserLogged = false;
-                    isLoginBoxVisible = false;
-                    loggedUserId = '';
-                  });
-                },
-                child: const Text("Logout"),
-              ),
-            ],
-          )),
+  navigate() {
+    Navigator.pop(context);
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) {
+          return const StartScreen();
+        },
+      ),
     );
   }
 }
-
-
-
-// onPressed: () async {
-//   showDialog(
-//     barrierColor: Colors.black87,
-//     context: context,
-//     builder: (BuildContext context) {
-//       return MaterialApp(
-//         debugShowCheckedModeBanner: false,
-//         theme: ThemeData(
-//             // // Define the theme for input decoration
-//             inputDecorationTheme: const InputDecorationTheme(
-//                 labelStyle: TextStyle(
-//                     color:
-//                         Colors.amber), // TextField title text color
-//                 focusedBorder: OutlineInputBorder(
-//                   borderSide: BorderSide(
-//                       color: Colors
-//                           .amber), // TextField border color when focused
-//                 ),
-//                 enabledBorder: OutlineInputBorder(
-//                   borderSide: BorderSide(
-//                       color: Colors
-//                           .grey), // TextField border color when enabled
-//                 ),
-//                 prefixIconColor: Colors.white),
-
-//             // Define the theme for text fields
-//             textTheme: Theme.of(context).textTheme.copyWith(
-//                   bodyLarge: const TextStyle(color: Colors.white),
-//                 ),
-//             // // Define the theme for icons
-//             iconTheme: const IconThemeData(
-//                 color: Colors.amber), // Icon color
-//             // // Define the theme for buttons
-//             buttonTheme: const ButtonThemeData(
-//               buttonColor: Colors.amber, // Button background color
-//               textTheme: ButtonTextTheme.primary,
-//             ),
-//             textButtonTheme: TextButtonThemeData(
-//               style: ButtonStyle(
-//                 foregroundColor: MaterialStateProperty.all<Color>(
-//                     Colors.white70), // Text color
-//               ),
-//             ),
-//             elevatedButtonTheme: ElevatedButtonThemeData(
-//                 style: ButtonStyle(
-//               foregroundColor:
-//                   MaterialStateProperty.all<Color>(Colors.black),
-//               backgroundColor:
-//                   MaterialStateProperty.all<Color>(Colors.green),
-//             ))),
-//         home: AlertDialog(
-//           backgroundColor: const Color(0xFF1D1E33),
-//           content: Column(
-//             mainAxisSize: MainAxisSize.min,
-//             mainAxisAlignment: MainAxisAlignment.center,
-//             children: [
-//               SupaEmailAuth(
-//                 redirectTo:
-//                     kIsWeb ? null : 'http://localhost:54160/',
-//                 onSignInComplete: (response) {
-//                   isUserLogged = true;
-//                   Navigator.pop(context);
-//                   // do something, for example: navigate('home');
-//                 },
-//                 onSignUpComplete: (response) {
-//                   isUserLogged = true;
-//                   Navigator.pop(context);
-//                   // do something, for example: navigate("wait_for_email");
-//                 },
-//                 // metadataFields: [
-//                 //   MetaDataField(
-//                 //     prefixIcon: const Icon(
-//                 //       Icons.person,
-//                 //       color: Colors.white,
-//                 //     ),
-//                 //     label: 'Username',
-//                 //     key: 'username',
-//                 //     validator: (val) {
-//                 //       if (val == null || val.isEmpty) {
-//                 //         return 'Please enter something';
-//                 //       }
-//                 //       return null;
-//                 //     },
-//                 //   ),
-//                 // ],
-//               ),
-//               Align(
-//                 alignment: Alignment.center,
-//                 child: IconButton(
-//                   onPressed: () => Navigator.pop(context),
-//                   icon: const Icon(
-//                     Icons.close,
-//                     color: Colors.white,
-//                     size: 20,
-//                   ),
-//                 ),
-//               ),
-//             ],
-//           ),
-//         ),
-//       );
-//     },
-//   );
-//   setState(() {});
-// },
-
-
-
-// // child: Container(
-// //   color: const Color(0xFF1D1E33),
-// //   width: 600,
-// //   height: 300,
-// //   child: SupaEmailAuth(
-// //     redirectTo: kIsWeb ? null : 'http://localhost:54160/',
-// //     onSignInComplete: (response) {
-// //       isUserLogged = true;
-// //       Navigator.pop(context);
-// //       // do something, for example: navigate('home');
-// //     },
-// //     onSignUpComplete: (response) {
-// //       isUserLogged = true;
-// //       Navigator.of(context).pop();
-// //       // do something, for example: navigate("wait_for_email");
-// //     },
-// //   ),
-// // ),
-// // child: MaterialApp(
-// //   debugShowCheckedModeBanner: false,
-// //   theme: ThemeData(
-// //       // // Define the theme for input decoration
-// //       inputDecorationTheme: const InputDecorationTheme(
-// //           labelStyle: TextStyle(
-// //               color: Colors.amber), // TextField title text color
-// //           focusedBorder: OutlineInputBorder(
-// //             borderSide: BorderSide(
-// //                 color: Colors
-// //                     .amber), // TextField border color when focused
-// //           ),
-// //           enabledBorder: OutlineInputBorder(
-// //             borderSide: BorderSide(
-// //                 color: Colors
-// //                     .grey), // TextField border color when enabled
-// //           ),
-// //           prefixIconColor: Colors.white),
-
-// //       // Define the theme for text fields
-// //       textTheme: Theme.of(context).textTheme.copyWith(
-// //             bodyLarge: const TextStyle(color: Colors.white),
-// //           ),
-// //       // // Define the theme for icons
-// //       iconTheme:
-// //           const IconThemeData(color: Colors.amber), // Icon color
-// //       // // Define the theme for buttons
-// //       buttonTheme: const ButtonThemeData(
-// //         buttonColor: Colors.amber, // Button background color
-// //         textTheme: ButtonTextTheme.primary,
-// //       ),
-// //       textButtonTheme: TextButtonThemeData(
-// //         style: ButtonStyle(
-// //           foregroundColor: MaterialStateProperty.all<Color>(
-// //               Colors.white70), // Text color
-// //         ),
-// //       ),
-// //       elevatedButtonTheme: ElevatedButtonThemeData(
-// //           style: ButtonStyle(
-// //         foregroundColor:
-// //             MaterialStateProperty.all<Color>(Colors.black),
-// //         backgroundColor:
-// //             MaterialStateProperty.all<Color>(Colors.green),
-// //       ))),
-// //   home: AlertDialog(
-// //     backgroundColor: const Color(0xFF1D1E33),
-// //     content: Column(
-// //       mainAxisSize: MainAxisSize.min,
-// //       mainAxisAlignment: MainAxisAlignment.center,
-// //       children: [
-// //         SupaEmailAuth(
-// //           redirectTo: kIsWeb ? null : 'http://localhost:54160/',
-// //           onSignInComplete: (response) {
-// //             isUserLogged = true;
-// //             Navigator.pop(context);
-// //             // do something, for example: navigate('home');
-// //           },
-// //           onSignUpComplete: (response) {
-// //             isUserLogged = true;
-// //             Navigator.pop(context);
-// //             // do something, for example: navigate("wait_for_email");
-// //           },
-// //         ),
-// //         Align(
-// //           alignment: Alignment.center,
-// //           child: IconButton(
-// //             onPressed: () => Navigator.pop(context),
-// //             icon: const Icon(
-// //               Icons.close,
-// //               color: Colors.white,
-// //               size: 20,
-// //             ),
-// //           ),
-// //         ),
-// //       ],
-// //     ),
-// //   ),
