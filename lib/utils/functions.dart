@@ -1,5 +1,6 @@
 import 'dart:math';
 
+import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:oaks_legacy/constants.dart';
 
@@ -36,4 +37,19 @@ Path drawStar(Size size) {
   }
   path.close();
   return path;
+}
+
+void showSnackbar(BuildContext context, String message) {
+  final snackBar = SnackBar(
+    content: Text(message),
+    duration: const Duration(seconds: 3), // Adjust duration as needed
+    action: SnackBarAction(
+      label: 'Close',
+      onPressed: () {
+        // Some code to execute when the action button is pressed
+      },
+    ),
+  );
+
+  ScaffoldMessenger.of(context).showSnackBar(snackBar);
 }

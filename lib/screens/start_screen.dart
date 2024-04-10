@@ -70,7 +70,7 @@ class _StartScreenState extends State<StartScreen> {
               ],
             ),
           ),
-          PkmAccountIcon(),
+          const PkmAccountIcon(),
           const Disclaimer(),
         ],
       ),

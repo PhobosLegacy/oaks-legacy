@@ -2,12 +2,13 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/screens/start_screen.dart';
+import 'package:oaks_legacy/utils/functions.dart';
 import 'package:supabase_auth_ui/supabase_auth_ui.dart';
 
 class PkmAccountIcon extends StatefulWidget {
-  String? resetCode;
+  final String? resetCode;
 
-  PkmAccountIcon({
+  const PkmAccountIcon({
     super.key,
     this.resetCode,
   });
@@ -153,7 +154,7 @@ class _PkmAccountIconState extends State<PkmAccountIcon>
         child: SupaEmailAuth(
           redirectTo: kIsWeb ? null : 'http://localhost:54160/',
           onError: (error) {
-            showSnackbar(context);
+            showSnackbar(context, error.toString());
           },
           onPasswordResetEmailSent: () => {
             setState(() {
@@ -181,21 +182,6 @@ class _PkmAccountIconState extends State<PkmAccountIcon>
     );
   }
 
-  void showSnackbar(BuildContext context) {
-    final snackBar = SnackBar(
-      content: Text('Error'),
-      duration: Duration(seconds: 3), // Adjust duration as needed
-      action: SnackBarAction(
-        label: 'Close',
-        onPressed: () {
-          // Some code to execute when the action button is pressed
-        },
-      ),
-    );
-
-    ScaffoldMessenger.of(context).showSnackBar(snackBar);
-  }
-
   resetPassword(resetCode) {
     isLoginBoxVisible = true;
     return SizedBox(
@@ -213,7 +199,7 @@ class _PkmAccountIconState extends State<PkmAccountIcon>
             refresh();
           },
           onError: (error) {
-            print(error);
+            showSnackbar(context, error.toString());
           },
         ),
       ),
