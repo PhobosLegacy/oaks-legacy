@@ -138,14 +138,14 @@ class _PkmAccountIconState extends State<PkmAccountIcon>
     );
   }
 
+//https://gfoeebribnlwseyepwlx.supabase.co/auth/v1/verify?token=pkce_9aaa35c2a47249b43fdcbb3a9b252557ab6a1b0598832f4aa419e49f&type=signup&redirect_to=https://oaks-legacy.vercel.app
   login() {
     return SizedBox(
       width: 300,
       child: Padding(
         padding: const EdgeInsets.all(10),
         child: SupaEmailAuth(
-          redirectTo:
-              'https://oaks-legacy-git-breakpoints-phobos-projects-b27fbefd.vercel.app/',
+          redirectTo: 'https://oaks-legacy.vercel.app',
           onError: (error) {
             showSnackbar(context, error.toString());
           },
@@ -163,9 +163,10 @@ class _PkmAccountIconState extends State<PkmAccountIcon>
           },
           onSignUpComplete: (response) {
             setState(() {
-              logUser(response.user!.id);
+              logUser(null);
               isLoginBoxVisible = false;
             });
+            showSnackbar(context, 'Confirmation Email sent!');
           },
           // metadataFields: [
           //   MetaDataField(
