@@ -81,7 +81,8 @@ class _LoadingScreenState extends State<LoadingScreen> {
       kPokedex = await Pokemon.createPokedex(pokedex);
       //***************************************\\
 
-      if (html.window.location.href.contains('?code=')) {
+      if (html.window.location.href.contains('code=') &&
+          !html.window.location.href.contains('signup=complete')) {
         String? code =
             Uri.parse(html.window.location.href).queryParameters['code'];
         openNextScreen(ForgotPasswordScreen(resetCode: code));
