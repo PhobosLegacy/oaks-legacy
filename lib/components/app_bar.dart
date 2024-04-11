@@ -23,6 +23,9 @@ class AppBarBase extends StatelessWidget implements PreferredSizeWidget {
       automaticallyImplyLeading: true,
       actions: actions,
       centerTitle: true,
+      iconTheme: const IconThemeData(
+        color: Colors.white, //change your color here
+      ),
       title: SizedBox(
         width: 200,
         child: Row(
