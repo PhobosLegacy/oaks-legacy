@@ -145,7 +145,7 @@ class _PkmAccountIconState extends State<PkmAccountIcon>
       child: Padding(
         padding: const EdgeInsets.all(10),
         child: SupaEmailAuth(
-          redirectTo: 'https://oaks-legacy.vercel.app',
+          redirectTo: 'https://oaks-legacy.vercel.app/signup-complete/',
           onError: (error) {
             showSnackbar(context, error.toString());
           },
