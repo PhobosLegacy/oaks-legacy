@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:oaks_legacy/components/pkm_login.dart';
+import 'package:oaks_legacy/components/pkm_warning_icon.dart';
 
 class AppBarBase extends StatelessWidget implements PreferredSizeWidget {
   @override
@@ -21,7 +23,18 @@ class AppBarBase extends StatelessWidget implements PreferredSizeWidget {
       automaticallyImplyLeading: true,
       actions: actions,
       centerTitle: true,
-      title: title,
+      iconTheme: const IconThemeData(
+        color: Colors.white, //change your color here
+      ),
+      title: SizedBox(
+        width: 200,
+        child: Row(
+          children: [
+            if (!isUserLogged) const PkmWarningIcon(),
+            title,
+          ],
+        ),
+      ),
       backgroundColor: color,
     );
   }

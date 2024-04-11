@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:oaks_legacy/utils/functions.dart';
 import '../constants.dart';
 
 class MainScreenButton extends StatelessWidget {
@@ -16,8 +17,11 @@ class MainScreenButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    double height = MediaQuery.of(context).size.width > 1024 ? 200 : 100;
-    double widght = MediaQuery.of(context).size.width > 1024 ? 500 : 400;
+    double width =
+        getButtonWidth(MediaQuery.of(context).size.width, [300, 350, 500, 700]);
+    double height =
+        width * ((MediaQuery.of(context).size.height > 1000) ? 0.35 : 0.25);
+
     return GestureDetector(
       onTap: () {
         Navigator.push(
@@ -42,7 +46,7 @@ class MainScreenButton extends StatelessWidget {
             ),
           ],
         ),
-        width: widght,
+        width: width,
         height: height,
         child: Card(
           shape: RoundedRectangleBorder(

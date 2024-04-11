@@ -1,9 +1,13 @@
-import 'dart:math';
 import 'package:confetti/confetti.dart';
 import 'package:flutter/material.dart';
+import 'package:oaks_legacy/components/pkm_checkbox.dart';
+import 'package:oaks_legacy/components/pkm_confetti.dart';
+import 'package:oaks_legacy/components/pkm_tile.dart';
+import 'package:oaks_legacy/components/pkm_tile_image.dart';
 import 'package:oaks_legacy/constants.dart';
+import 'package:oaks_legacy/models/enums.dart';
+import 'package:oaks_legacy/pokedex/pokedex_forms.dart';
 import 'package:oaks_legacy/tracker/tracker_details_screen.dart';
-import '../../components/image.dart';
 import '../../models/game.dart';
 import '../models/item.dart';
 
@@ -12,10 +16,10 @@ class TrackerTile extends StatefulWidget {
       {super.key,
       required this.pokemons,
       required this.indexes,
-      this.tileColor,
+      required this.isLowerTile,
       this.onStateChange});
 
-  final Color? tileColor;
+  final bool isLowerTile;
   final List<Item> pokemons;
   final List<int> indexes;
   final Function()? onStateChange;
@@ -40,173 +44,198 @@ class _TrackerTile extends State<TrackerTile> {
     super.dispose();
   }
 
-  /// A custom Path to paint stars.
-  Path drawStar(Size size) {
-    // Method to convert degree to radians
-    double degToRad(double deg) => deg * (pi / 180.0);
-
-    const numberOfPoints = 5;
-    final halfWidth = size.width / 2;
-    final externalRadius = halfWidth;
-    final internalRadius = halfWidth / 2.5;
-    final degreesPerStep = degToRad(360 / numberOfPoints);
-    final halfDegreesPerStep = degreesPerStep / 2;
-    final path = Path();
-    final fullAngle = degToRad(360);
-    path.moveTo(size.width, halfWidth);
-
-    for (double step = 0; step < fullAngle; step += degreesPerStep) {
-      path.lineTo(halfWidth + externalRadius * cos(step),
-          halfWidth + externalRadius * sin(step));
-      path.lineTo(halfWidth + internalRadius * cos(step + halfDegreesPerStep),
-          halfWidth + internalRadius * sin(step + halfDegreesPerStep));
-    }
-    path.close();
-    return path;
-  }
-
   @override
   Widget build(BuildContext context) {
     Item pokemon = widget.pokemons.current(widget.indexes);
-
-    Widget tile = ListTile(
-      tileColor: widget.tileColor,
-      textColor: Colors.black,
+    return PkmTile(
+      isLowerTile: widget.isLowerTile,
+      desktopContent: tileContent(pokemon, false),
+      mobileContent: tileContent(pokemon, true),
       onTap: () => {
-        if (pokemon.captured)
-          {
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) {
-                  return TrackerDetailsPage(
-                    pokemons: widget.pokemons,
-                    indexes: widget.indexes,
-                    onStateChange: widget.onStateChange,
-                  );
-                },
-              ),
-            ),
-          }
-        else
-          {
-            setState(
-              () {
-                confettiController.play();
-                pokemon.captured = true;
-                pokemon.catchDate = DateTime.now().toString();
-                widget.onStateChange!();
-              },
-            )
-          }
+        (pokemon.forms.isEmpty)
+            ? (pokemon.captured)
+                ? navigateToTrackerDetailsPage()
+                : markAsCaptured(pokemon)
+            : openFormsDialog()
       },
-      onLongPress: () {
+      onLongPress: () => {
         setState(
           () {
             pokemon.captured = false;
             pokemon.catchDate = "";
             widget.onStateChange!();
           },
-        );
+        )
       },
-      leading: Stack(
-        children: [
-          ListImage(
+    );
+  }
+
+  tileContent(Item pokemon, bool isMobileView) {
+    return Row(
+      children: [
+        //IMAGE + CONFETTI
+        Stack(
+          children: [
+            PkmTileImage(
+              heroTag: pokemon.ref,
               image: "mons/${pokemon.displayImage}",
-              shadowOnly:
-                  kPreferences.revealUncaught == false && !pokemon.captured),
-          SizedBox(
-            height: 20,
-            width: 20,
-            child: Align(
-              alignment: Alignment.bottomRight,
-              child: ConfettiWidget(
-                confettiController: confettiController,
-                blastDirectionality: BlastDirectionality
-                    .explosive, // don't specify a direction, blast randomly
-                shouldLoop:
-                    false, // start again as soon as the animation is finished
-                maximumSize: const Size(15, 15),
-                minimumSize: const Size(15, 15),
-                minBlastForce: 2,
-                maxBlastForce: 5,
-                colors: const [
-                  Colors.green,
-                  Colors.blue,
-                  Colors.pink,
-                  Colors.orange,
-                  Colors.purple
-                  // Colors.red,
-                  // Colors.redAccent,
-                  // Colors.black,
-                  // Colors.white,
-                  // Colors.white70
-                ], // manually specify the colors to be used
-                createParticlePath: drawStar, // define a custom shape/path.
-              ),
+              shadowOnly: kPreferences.revealUncaught == false &&
+                  Item.isCaptured(pokemon) != CaptureType.full,
             ),
+            PkmConfetti(
+              confettiController: confettiController,
+              scaleUp: !isMobileView,
+            ),
+          ],
+        ),
+        Expanded(
+          flex: 2,
+          child: Column(
+            children: [
+              //NAME
+              Expanded(
+                flex: (widget.isLowerTile) ? 3 : 2,
+                child: FittedBox(
+                  fit: BoxFit.scaleDown,
+                  child: Text(
+                    pokemon.displayName,
+                    textScaler: const TextScaler.linear(1.3),
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                        fontSize: (isMobileView) ? 15 : 30),
+                  ),
+                ),
+              ),
+
+              //NUMBER
+              if (!widget.isLowerTile && pokemon.number.isNotEmpty)
+                Expanded(
+                  child: Align(
+                    alignment: Alignment.center,
+                    child: Text(
+                      "#${pokemon.number}",
+                      textScaler: const TextScaler.linear(1.3),
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontSize: (isMobileView) ? 12 : 25),
+                    ),
+                  ),
+                ),
+
+              //EXCLUSIVE?
+              Expanded(
+                flex: (isMobileView) ? 2 : 1,
+                child: (pokemon.game.notes.isNotEmpty)
+                    ? Card(
+                        color: Game.getGameExclusiveBannerColor(
+                            pokemon.game.notes),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text(
+                              pokemon.game.notes,
+                              style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.white,
+                                  fontSize: (isMobileView) ? 15 : 13),
+                            ),
+                          ],
+                        ),
+                      )
+                    : const SizedBox(),
+              ),
+
+              //HAS FORMS TO EXPAND
+              Expanded(
+                child: (pokemon.forms.isNotEmpty)
+                    ? Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          if (pokemon.forms.isNotEmpty)
+                            const Icon(
+                              Icons.keyboard_arrow_down_outlined,
+                              // Icons.keyboard_double_arrow_down,
+                              color: Colors.white,
+                            ),
+                          Text(
+                            '${pokemon.forms.where((element) => element.captured == true).length}/${pokemon.forms.length}',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: (isMobileView) ? 10 : 12,
+                              fontStyle: FontStyle.italic,
+                            ),
+                          ),
+                        ],
+                      )
+                    : const SizedBox(),
+              )
+            ],
           ),
-        ],
-      ),
-      title: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [
-          Text(
-            pokemon.displayName,
-            style: const TextStyle(fontWeight: FontWeight.bold),
-          ),
-          if (pokemon.number != "") Text("#${pokemon.number}")
-        ],
-      ),
-      trailing: Checkbox(
-        value: pokemon.captured,
-        onChanged: (value) {
-          setState(
-            () {
-              pokemon.captured = value!;
-              pokemon.catchDate = (value) ? DateTime.now().toString() : "";
-              widget.onStateChange!();
-            },
+        ),
+
+        //CAPTURED
+        Expanded(
+          child: (pokemon.forms.isEmpty)
+              ? PkmCheckbox(
+                  scale: !isMobileView,
+                  value: pokemon.captured,
+                  onChanged: (value) {
+                    setState(
+                      () {
+                        if (value == true) confettiController.play();
+                        pokemon.captured = value!;
+                        pokemon.catchDate =
+                            (value) ? DateTime.now().toString() : "";
+                        widget.onStateChange!();
+                      },
+                    );
+                  },
+                )
+              : const SizedBox(),
+        ),
+      ],
+    );
+  }
+
+  navigateToTrackerDetailsPage() {
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) {
+          return TrackerDetailsPage(
+            pokemons: widget.pokemons,
+            indexes: widget.indexes,
+            onStateChange: widget.onStateChange,
           );
         },
       ),
     );
-
-    if (pokemon.game.notes.isNotEmpty) {
-      tile = ClipRect(
-        child: Banner(
-          message: pokemon.game.notes,
-          location: BannerLocation.topEnd,
-          color: getBannerColor(pokemon.game.notes),
-          textStyle: const TextStyle(
-            color: Colors.white,
-            fontSize: 9,
-            fontWeight: FontWeight.bold,
-          ),
-          child: tile,
-        ),
-      );
-    }
-
-    return Card(child: tile);
   }
 
-  getBannerColor(gameNotes) {
-    switch (gameNotes) {
-      case "Violet Exclusive":
-        return Game.gameColor("Pokemon Violet");
-      case "Scarlet Exclusive":
-        return Game.gameColor("Pokemon Scarlet");
-      case "Sword Exclusive":
-        return Game.gameColor("Pokemon Sword");
-      case "Shield Exclusive":
-        return Game.gameColor("Pokemon Shield");
-      case "Pikachu Exclusive":
-        return Game.gameColor("Let's Go Pikachu");
-      case "Eevee Exclusive":
-        return Game.gameColor("Let's Go Eevee");
-      default:
-        return Colors.black;
-    }
+  markAsCaptured(Item pokemon) {
+    setState(
+      () {
+        confettiController.play();
+        pokemon.captured = true;
+        pokemon.catchDate = DateTime.now().toString();
+        widget.onStateChange!();
+      },
+    );
+  }
+
+  openFormsDialog() {
+    showDialog(
+      barrierColor: Colors.black87,
+      context: context,
+      builder: (BuildContext context) {
+        return ShowItemForms(
+          isLowerTile: true,
+          pokemons: widget.pokemons,
+          indexes: [...widget.indexes],
+          onStateChange: widget.onStateChange,
+        );
+      },
+    );
   }
 }

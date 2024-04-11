@@ -2,11 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/base_background.dart';
 import 'package:oaks_legacy/components/disclaimer.dart';
 import 'package:oaks_legacy/components/main_button.dart';
+import 'package:oaks_legacy/components/pkm_login.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/item/item_list_screen.dart';
 import 'package:oaks_legacy/pokedex/pokedex_list_screen.dart';
+import 'package:oaks_legacy/screens/your_trackers.dart';
 import 'preferences_screen.dart';
-import 'package:oaks_legacy/screens/select_tracker_screen.dart';
 
 class StartScreen extends StatefulWidget {
   const StartScreen({super.key});
@@ -22,6 +23,7 @@ class _StartScreenState extends State<StartScreen> {
       body: Stack(
         children: [
           const BaseBackground(),
+          // const PkmCreate(),
           Center(
             child: Wrap(
               spacing: 20,
@@ -45,7 +47,7 @@ class _StartScreenState extends State<StartScreen> {
                   title: 'Trackers',
                   subtitle: 'Track your progress through game pokedex!',
                   image: 'main/eevee.png',
-                  screen: SelectTrackerScreen(),
+                  screen: YourTrackersScreen(),
                 ),
                 const MainScreenButton(
                   title: 'Looking For',
@@ -68,6 +70,7 @@ class _StartScreenState extends State<StartScreen> {
               ],
             ),
           ),
+          const PkmAccountIcon(),
           const Disclaimer(),
         ],
       ),

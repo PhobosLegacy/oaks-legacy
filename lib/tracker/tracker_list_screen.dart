@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/base_background.dart';
+import 'package:oaks_legacy/components/pkm_grid.dart';
 import 'package:oaks_legacy/models/game.dart';
-import 'package:oaks_legacy/tracker/tracker_cards.dart';
+import 'package:oaks_legacy/tracker/tracker_tiles.dart';
 import '../components/app_bar.dart';
 import '../components/filter_by_type.dart';
 import '../components/filters_side_screen.dart';
@@ -18,9 +19,12 @@ class TrackerListScreen extends StatefulWidget {
   const TrackerListScreen({
     super.key,
     required this.collection,
+    required this.callBackAction,
   });
 
   final Tracker collection;
+  //VoidCallback: To ensure percentage is correct upon returning without having to refresh page
+  final VoidCallback callBackAction;
   @override
   State<TrackerListScreen> createState() => _TrackerListScreenState();
 }
@@ -108,23 +112,22 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
                   },
                 ),
                 Expanded(
-                  child: ListView.builder(
-                    itemBuilder: ((context, index) {
-                      return createCards(
-                        filteredList,
-                        [index],
+                  child: PkmGrid(
+                    itemBuilder: (context, index) {
+                      return TrackerTile(
+                        pokemons: filteredList,
+                        indexes: [index],
+                        isLowerTile: false,
                         onStateChange: () {
                           setState(() {
                             saveTracker(widget.collection);
                             applyFilters();
+                            widget.callBackAction();
                           });
                         },
                       );
-                    }),
+                    },
                     itemCount: filteredList.length,
-                    shrinkWrap: true,
-                    padding: const EdgeInsets.all(5),
-                    scrollDirection: Axis.vertical,
                   ),
                 ),
               ],
@@ -241,12 +244,12 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
         selectedTypes: _drawerByTypesSelected,
         onTypeSelected: (List<String> list) {
           setState(
-            () => {
-              _drawerByTypesSelected = list,
+            () {
+              _drawerByTypesSelected = list;
               (_drawerByTypesSelected.isEmpty)
                   ? removeFilters([FilterType.byType])
-                  : addFilter(FilterType.byType),
-              applyFilters(),
+                  : addFilter(FilterType.byType);
+              applyFilters();
             },
           );
         },

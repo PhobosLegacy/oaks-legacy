@@ -68,6 +68,25 @@ class Game extends Dex {
     }
   }
 
+  static getGameExclusiveBannerColor(notes) {
+    switch (notes) {
+      case "Violet Exclusive":
+        return Game.gameColor("Pokemon Violet");
+      case "Scarlet Exclusive":
+        return Game.gameColor("Pokemon Scarlet");
+      case "Sword Exclusive":
+        return Game.gameColor("Pokemon Sword");
+      case "Shield Exclusive":
+        return Game.gameColor("Pokemon Shield");
+      case "Pikachu Exclusive":
+        return Game.gameColor("Let's Go Pikachu");
+      case "Eevee Exclusive":
+        return Game.gameColor("Let's Go Eevee");
+      default:
+        return Colors.black;
+    }
+  }
+
   static gameIcon(String gameName) {
     String path = "games/";
     // String path = "";
@@ -151,7 +170,7 @@ class Dex {
     ];
   }
 
-  static allGames() {
+  static List<String> allGames() {
     return [
       "Pokemon Scarlet",
       "Pokemon Violet",

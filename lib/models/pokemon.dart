@@ -219,48 +219,73 @@ class Pokemon {
         image.any((element) => element.contains('-g')));
   }
 
-  static Image typeImage(PokemonType? type) {
+  static Image typeImage(PokemonType? type, {double? size}) {
     // String path = "images/types";
+    String typeUrl = kImageLocalPrefix;
+
     switch (type) {
       case PokemonType.bug:
-        return Image.network('$kImageLocalPrefix/types/bug.png');
+        typeUrl += 'types/bug.png';
+        break;
       case PokemonType.dark:
-        return Image.network('$kImageLocalPrefix/types/dark.png');
+        typeUrl += 'types/dark.png';
+        break;
       case PokemonType.dragon:
-        return Image.network('${kImageLocalPrefix}types/dragon.png');
+        typeUrl += 'types/dragon.png';
+        break;
       case PokemonType.electric:
-        return Image.network('${kImageLocalPrefix}types/electric.png');
+        typeUrl += 'types/electric.png';
+        break;
       case PokemonType.fire:
-        return Image.network('${kImageLocalPrefix}types/fire.png');
+        typeUrl += 'types/fire.png';
+        break;
       case PokemonType.grass:
-        return Image.network('${kImageLocalPrefix}types/grass.png');
+        typeUrl += 'types/grass.png';
+        break;
       case PokemonType.fairy:
-        return Image.network('${kImageLocalPrefix}types/fairy.png');
+        typeUrl += 'types/fairy.png';
+        break;
       case PokemonType.fighting:
-        return Image.network('${kImageLocalPrefix}types/fighting.png');
+        typeUrl += 'types/fighting.png';
+        break;
       case PokemonType.flying:
-        return Image.network('${kImageLocalPrefix}types/flying.png');
+        typeUrl += 'types/flying.png';
+        break;
       case PokemonType.ghost:
-        return Image.network('${kImageLocalPrefix}types/ghost.png');
+        typeUrl += 'types/ghost.png';
+        break;
       case PokemonType.ground:
-        return Image.network('${kImageLocalPrefix}types/ground.png');
+        typeUrl += 'types/ground.png';
+        break;
       case PokemonType.ice:
-        return Image.network('${kImageLocalPrefix}types/ice.png');
+        typeUrl += 'types/ice.png';
+        break;
       case PokemonType.normal:
-        return Image.network('${kImageLocalPrefix}types/normal.png');
+        typeUrl += 'types/normal.png';
+        break;
       case PokemonType.poison:
-        return Image.network('${kImageLocalPrefix}types/poison.png');
+        typeUrl += 'types/poison.png';
+        break;
       case PokemonType.psychic:
-        return Image.network('${kImageLocalPrefix}types/psychic.png');
+        typeUrl += 'types/psychic.png';
+        break;
       case PokemonType.rock:
-        return Image.network('${kImageLocalPrefix}types/rock.png');
+        typeUrl += 'types/rock.png';
+        break;
       case PokemonType.steel:
-        return Image.network('${kImageLocalPrefix}types/steel.png');
+        typeUrl += 'types/steel.png';
+        break;
       case PokemonType.water:
-        return Image.network('${kImageLocalPrefix}types/water.png');
+        typeUrl += 'types/water.png';
+        break;
       default:
         throw ("Pokemon Type do not have a primary color defined");
     }
+
+    return Image.network(
+      typeUrl,
+      width: (size == null) ? 23 : size,
+    );
   }
 
   static Color typeColor(PokemonType type, bool isSecondaryColor) {
@@ -358,7 +383,7 @@ extension Filter on List<Pokemon>? {
 
     for (var pokemon in this!) {
       if (pokemon.forms.isEmpty) {
-        if (pokemon.name.toLowerCase().contains(value.toLowerCase())) {
+        if (pokemon.name.toLowerCase().startsWith(value.toLowerCase())) {
           filtered.add(pokemon);
         }
       } else {
@@ -438,15 +463,23 @@ extension Filter on List<Pokemon>? {
     return temp;
   }
 
+  checkParent(indexes) {
+    Pokemon parent = current(indexes.take(indexes.length - 1).toList());
+
+    if ((indexes.last + 1) == parent.forms.length) {
+      indexes.removeLast();
+      if (indexes.length == 1) return indexes;
+      checkParent(indexes);
+    }
+
+    return indexes;
+  }
+
   List<int> nextIndex(List<int> indexes) {
     if (indexes.length == 1) {
       indexes.last++;
     } else {
-      Pokemon parent = current(indexes.take(indexes.length - 1).toList());
-
-      if ((indexes.last + 1) == parent.forms.length) {
-        indexes.removeLast();
-      }
+      indexes = checkParent(indexes);
       indexes.last++;
     }
 
@@ -458,13 +491,19 @@ extension Filter on List<Pokemon>? {
     return indexes;
   }
 
+  removeLastIndex(indexes) {
+    if ((indexes.last) == 0) {
+      indexes.removeLast();
+      removeLastIndex(indexes);
+    }
+    return indexes;
+  }
+
   List<int> previousIndex(List<int> indexes) {
     if (indexes.length == 1) {
       indexes.last--;
     } else {
-      if ((indexes.last) == 0) {
-        indexes.removeLast();
-      }
+      indexes = removeLastIndex(indexes);
       indexes.last--;
     }
 

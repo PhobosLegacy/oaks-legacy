@@ -14,7 +14,6 @@ class FileManager {
 
   static bool exists(String name) {
     bool ret = preferences.containsKey(name);
-    // print("Key with name $name: $ret");
     return ret;
   }
 

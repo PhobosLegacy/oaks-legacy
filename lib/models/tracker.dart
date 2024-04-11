@@ -22,6 +22,17 @@ class Tracker {
                 json['pokemons'].map((model) => Item.fromJson(model)))
             : [];
 
+  Tracker.fromDatabase(Map<String, dynamic> record)
+      : name = record['name'],
+        ref = record['ref'],
+        game = record['game'],
+        dex = record['dex'],
+        type = record['type'],
+        pokemons = record['pokemons'] != null
+            ? List<Item>.from(
+                record['pokemons'].map((model) => Item.fromJson(model)))
+            : [];
+
   Tracker.create(String trackerName, String gameName, String dexName,
       String trackerType, List<Item> pokemonList)
       : name = trackerName,
@@ -86,26 +97,6 @@ class Tracker {
   }
 
   percentage() {
-    // var total = pokemons.where((element) => element.forms.isEmpty).length;
-
-    // pokemons
-    //     .where((element) => element.forms.isNotEmpty)
-    //     .toList()
-    //     .forEach((element) {
-    //   total += element.forms.length;
-    // });
-
-    // var captured = pokemons
-    //     .where((element) => element.forms.isEmpty && element.captured == true)
-    //     .length;
-
-    // pokemons
-    //     .where((element) => element.forms.isNotEmpty)
-    //     .toList()
-    //     .forEach((pokemon) {
-    //   captured += pokemon.forms.where((form) => form.captured == true).length;
-    // });
-
     var perc = (capturedTotal() / total()) * 100;
 
     return perc.toStringAsFixed(2);

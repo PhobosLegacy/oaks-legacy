@@ -1,5 +1,4 @@
-import 'dart:convert';
-import 'package:oaks_legacy/file_manager.dart';
+import 'package:oaks_legacy/data/data_manager.dart';
 
 class Preferences {
   bool revealUncaught;
@@ -7,20 +6,23 @@ class Preferences {
 
   Preferences({required this.revealUncaught, required this.trainerNames});
 
-  factory Preferences.fromJson(Map<String, dynamic> json) {
+  factory Preferences.fromDataBase(Map<String, dynamic> record) {
     return Preferences(
-        revealUncaught: json['revealUncaught'],
-        trainerNames: json['trainerNames'] != null
-            ? List<String>.from(json['trainerNames'].map((model) => (model)))
-            : []);
+      revealUncaught: record['revealUncaught'],
+      trainerNames: List<String>.from(
+        record['trainerNames'].map(
+          (model) => (model),
+        ),
+      ),
+    );
   }
 
   Map<String, dynamic> toJson() {
     return {
       'revealUncaught': revealUncaught,
-      'trainerNames': trainerNames.map((e) => e).toList()
+      'trainerNames': trainerNames,
     };
   }
 
-  save() => FileManager.save('preferences', jsonEncode(this));
+  save() => DataManager.saveUserPreferences(this);
 }

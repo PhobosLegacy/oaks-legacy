@@ -1,22 +1,19 @@
-import 'dart:convert';
 import 'package:collection/collection.dart';
-import 'package:oaks_legacy/file_manager.dart';
+import 'package:oaks_legacy/data/data_manager.dart';
 import '../models/game.dart';
 import '../models/group.dart';
 import '../models/item.dart';
 
-retrieveItems(String key) {
-  String content = FileManager.get(key);
-  if (content.isEmpty) return List<Item>.empty(growable: true);
-  return List<Item>.from(
-      (jsonDecode(content)).map((model) => Item.fromJson(model)));
+retrieveItems(String key) async {
+  return await DataManager.getItemCollection(key);
 }
 
-saveItems(String key, List<Item> collection) =>
-    FileManager.save(key, jsonEncode(collection));
+saveItems(String key, List<Item> collection) async {
+  await DataManager.saveCollection(key, collection);
+}
 
-addItems(String key, List<Item> items) {
-  List<Item> collection = retrieveItems(key);
+addItems(String key, List<Item> items) async {
+  List<Item> collection = await retrieveItems(key);
   List<Item> toAddToCollection = [];
   for (var item in items) {
     if (item.forms.isEmpty) {
@@ -32,7 +29,6 @@ addItems(String key, List<Item> items) {
         element.ref == pokemon.ref && element.origin == pokemon.origin);
     collection.add(pokemon);
   }
-  // collection.sort((a, b) => int.parse(a.number).compareTo(int.parse(b.number)));
   saveItems(key, collection);
 }
 

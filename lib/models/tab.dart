@@ -17,3 +17,17 @@ class PokeTab {
     );
   }
 }
+
+class PokeTabv2 {
+  PokeTabv2({required this.tabName, required this.tabContent});
+  String tabName;
+  Widget tabContent;
+
+  head() {
+    return Tab(text: tabName);
+  }
+
+  cards() {
+    return tabContent;
+  }
+}
