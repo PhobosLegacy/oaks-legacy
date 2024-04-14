@@ -7,7 +7,7 @@
     "weight": "6.9kg",
     "breeding": { "groups": ["Grass", "Monster"], "cycles": "20" },
     "number": "0001",
-    "ref": "001.0",
+    "ref": "001.0" ,
     "type1": "grass",
     "type2": "poison",
     "image": ["001-normal-mf.png", "001-shiny-mf.png"],

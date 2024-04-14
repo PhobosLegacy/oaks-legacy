@@ -53,11 +53,29 @@ class _PokemonTiles extends State<PokemonTiles> {
     );
   }
 
+  getFormName(pokemon) {
+    String formName = pokemon.formName;
+
+    if (formName.contains(':')) {
+      List<String> forms = formName.split(': ');
+
+      if (pokemon.forms.isNotEmpty && widget.isLowerTile) {
+        return forms[0];
+      }
+      if (pokemon.forms.isEmpty && widget.isLowerTile) {
+        return forms[1];
+      }
+    }
+    return formName;
+  }
+
   getPokemonDisplayName(Pokemon pokemon) {
     if (!widget.isLowerTile) return pokemon.name;
-    if (pokemon.forms.isNotEmpty) return pokemon.name;
+    if (pokemon.forms.isNotEmpty && !pokemon.formName.contains(':')) {
+      return pokemon.name;
+    }
     if (pokemon.formName == "") return pokemon.name;
-    return pokemon.formName;
+    return getFormName(pokemon);
   }
 
   tileContent(Pokemon pokemon, bool isMobileView) {
