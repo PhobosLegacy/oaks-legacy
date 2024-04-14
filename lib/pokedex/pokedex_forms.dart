@@ -43,27 +43,36 @@ class ShowForms extends StatelessWidget {
         ),
       ),
       Expanded(
-        child: Center(
-          child: SingleChildScrollView(
-            child: Wrap(
-              spacing: 5,
-              runSpacing: 5,
-              alignment: WrapAlignment.center,
-              children: pokemon.forms.map((form) {
-                final index = pokemon.forms.indexOf(form);
-                return PokemonTiles(
-                  isLowerTile: isLowerTile,
-                  pokemons: pokemons,
-                  indexes: [...indexes, index],
-                  onTapOverride: onStateChange,
-                  button1Icon: button1Icon,
-                  button1OnPressed: button1OnPressed,
-                  button2Icon: button2Icon,
-                  button2OnPressed: button2OnPressed,
-                );
-              }).toList(),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              'Choose a ${pokemon.name} Variant',
+              style: const TextStyle(color: Colors.amber, fontSize: 30),
             ),
-          ),
+            Center(
+              child: SingleChildScrollView(
+                child: Wrap(
+                  spacing: 5,
+                  runSpacing: 5,
+                  alignment: WrapAlignment.center,
+                  children: pokemon.forms.map((form) {
+                    final index = pokemon.forms.indexOf(form);
+                    return PokemonTiles(
+                      isLowerTile: isLowerTile,
+                      pokemons: pokemons,
+                      indexes: [...indexes, index],
+                      onTapOverride: onStateChange,
+                      button1Icon: button1Icon,
+                      button1OnPressed: button1OnPressed,
+                      button2Icon: button2Icon,
+                      button2OnPressed: button2OnPressed,
+                    );
+                  }).toList(),
+                ),
+              ),
+            ),
+          ],
         ),
       ),
     ]);
