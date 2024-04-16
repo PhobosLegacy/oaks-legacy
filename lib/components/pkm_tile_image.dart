@@ -8,13 +8,13 @@ class PkmTileImage extends StatelessWidget {
     required this.image,
     required this.heroTag,
     this.shadowOnly,
-    this.height,
+    this.height = 600,
   });
 
   final String image;
   final Object heroTag;
   final bool? shadowOnly;
-  final double? height;
+  final double height;
 
   @override
   Widget build(BuildContext context) {
@@ -24,13 +24,11 @@ class PkmTileImage extends StatelessWidget {
         child: Stack(
           children: (shadowOnly == true)
               ? [
-                  getImage('$kImageLocalPrefix$image', height ?? 200,
-                      shadow: true),
+                  getImage('$kImageLocalPrefix$image', height, shadow: true),
                 ]
               : [
-                  getImage('$kImageLocalPrefix$image', height ?? 200,
-                      shadow: true),
-                  getImage('$kImageLocalPrefix$image', height ?? 195),
+                  getImage('$kImageLocalPrefix$image', height, shadow: true),
+                  getImage('$kImageLocalPrefix$image', height - 5),
                 ],
         ),
       ),
