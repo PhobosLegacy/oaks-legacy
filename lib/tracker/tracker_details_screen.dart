@@ -119,7 +119,7 @@ class _TrackerDetailsPageState extends State<TrackerDetailsPage> {
                         ),
                       )
                     else
-                      Expanded(child: Panelv2(tabs: buildTab(displayPokemon))),
+                      Expanded(child: Panel(tabs: buildTab(displayPokemon))),
                   ],
                 ),
               ),
@@ -247,9 +247,9 @@ class _TrackerDetailsPageState extends State<TrackerDetailsPage> {
   }
 
   buildTab(Item displayPokemon) {
-    List<PokeTabv2> tabs = [];
+    List<PokeTab> tabs = [];
     tabs.addAll([
-      PokeTabv2(
+      PokeTab(
         tabName: "Catch Data",
         tabContent: Column(
           children: [
@@ -261,7 +261,7 @@ class _TrackerDetailsPageState extends State<TrackerDetailsPage> {
           ],
         ),
       ),
-      PokeTabv2(
+      PokeTab(
         tabName: "Attributes",
         tabContent: Column(
           children: [

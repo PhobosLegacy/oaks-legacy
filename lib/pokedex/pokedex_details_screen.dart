@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/action_button.dart';
 import 'package:oaks_legacy/components/basic.dart';
+import 'package:oaks_legacy/components/pkm_tile_image.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/models/enums.dart';
 import 'package:oaks_legacy/pokedex/blocks/basic_details.dart';
@@ -79,44 +80,94 @@ class _PokedexDetailsPage extends State<PokedexDetailsPage> {
 
     Pokemon pokemon = widget.pokemons.current(currentIndexes);
     bool isMobile = MediaQuery.of(context).size.width < 1024;
+
+    Widget mainBlock = Expanded(
+      child: Column(
+        children: [
+          DetailsAppBar(
+            name: pokemon.name,
+            number: pokemon.number,
+          ),
+          Expanded(
+            child: Align(
+              alignment: Alignment.center,
+              child: PkmTileImage(
+                heroTag: pokemon.ref,
+                image: 'mons/${pokemon.image[imageIndex]}',
+              ),
+            ),
+          ),
+          createButtons(pokemon),
+        ],
+      ),
+    );
+
     if (isMobile) {
-      return Scaffold(
-        body: Stack(
-          children: [
-            TypeBackground(type1: pokemon.type1, type2: pokemon.type2),
-            Column(
+      mainBlock = Column(
+        children: [
+          Expanded(
+            child: Row(
+              children: [mainBlock],
+            ),
+          ),
+          Expanded(child: Panel(tabs: buildTab(pokemon))),
+        ],
+      );
+    } else {
+      mainBlock = Row(
+        children: [
+          Expanded(
+            child: Column(
               children: [
+                mainBlock,
                 Expanded(
-                  child: Row(
+                  child: Column(
                     children: [
-                      Expanded(
-                        child: Column(
-                          children: [
-                            DetailsAppBar(
-                              name: pokemon.name,
-                              number: pokemon.number,
-                            ),
-                            Expanded(
-                              child: Align(
-                                alignment: Alignment.center,
-                                child: Image.network(
-                                  '${kImageLocalPrefix}mons/${pokemon.image[imageIndex]}',
-                                ),
-                              ),
-                            ),
-                            createButtons(pokemon),
-                          ],
-                        ),
-                      ),
+                      BaseDetailsBlock(pokemon: pokemon),
+                      BreedingBlock(pokemon: pokemon)
                     ],
                   ),
-                ),
-                // BaseDetailsBlock(pokemon: pokemon),
-                Expanded(child: Panelv2(tabs: buildTab(pokemon))),
+                )
               ],
             ),
-          ],
-        ),
+          ),
+          Expanded(
+            child: Column(
+              children: [
+                GamesBlock(pokemon: pokemon),
+                WeaknessBlock(pokemon: pokemon),
+              ],
+            ),
+          ),
+          const Expanded(
+            child: Column(
+              children: [
+                DetailsCard(
+                    cardChild: Expanded(
+                      child: Center(
+                        child: Icon(
+                          Icons.not_interested_outlined,
+                          size: 150,
+                          color: Colors.blueGrey,
+                        ),
+                      ),
+                    ),
+                    blockTitle: "Stats"),
+                DetailsCard(
+                    cardChild: Expanded(
+                      child: Center(
+                        child: Icon(
+                          Icons.not_interested_outlined,
+                          size: 150,
+                          color: Colors.blueGrey,
+                        ),
+                      ),
+                    ),
+                    blockTitle: "Stats"),
+              ],
+            ),
+          ),
+        ],
       );
     }
 
@@ -124,80 +175,7 @@ class _PokedexDetailsPage extends State<PokedexDetailsPage> {
       body: Stack(
         children: [
           TypeBackground(type1: pokemon.type1, type2: pokemon.type2),
-          Row(
-            children: [
-              Expanded(
-                child: Column(
-                  children: [
-                    //Main Block
-                    Expanded(
-                      child: Column(
-                        children: [
-                          DetailsAppBar(
-                            name: pokemon.name,
-                            number: pokemon.number,
-                          ),
-                          Expanded(
-                            child: Align(
-                              alignment: Alignment.center,
-                              child: Image.network(
-                                '${kImageLocalPrefix}mons/${pokemon.image[imageIndex]}',
-                              ),
-                            ),
-                          ),
-                          createButtons(pokemon),
-                        ],
-                      ),
-                    ),
-                    Expanded(
-                      child: Column(
-                        children: [
-                          BaseDetailsBlock(pokemon: pokemon),
-                          BreedingBlock(pokemon: pokemon)
-                        ],
-                      ),
-                    )
-                  ],
-                ),
-              ),
-              Expanded(
-                child: Column(
-                  children: [
-                    GamesBlock(pokemon: pokemon),
-                    WeaknessBlock(pokemon: pokemon),
-                  ],
-                ),
-              ),
-              const Expanded(
-                child: Column(
-                  children: [
-                    DetailsCard(
-                        cardChild: Expanded(
-                          child: Center(
-                            child: Icon(
-                              Icons.not_interested_outlined,
-                              size: 150,
-                              color: Colors.blueGrey,
-                            ),
-                          ),
-                        ),
-                        blockTitle: "Stats"),
-                    DetailsCard(
-                        cardChild: Expanded(
-                          child: Center(
-                            child: Icon(
-                              Icons.not_interested_outlined,
-                              size: 150,
-                              color: Colors.blueGrey,
-                            ),
-                          ),
-                        ),
-                        blockTitle: "Stats"),
-                  ],
-                ),
-              ),
-            ],
-          )
+          mainBlock,
         ],
       ),
     );
@@ -306,9 +284,9 @@ class _PokedexDetailsPage extends State<PokedexDetailsPage> {
   }
 
   buildTab(Pokemon pokemon) {
-    List<PokeTabv2> tabs = [];
+    List<PokeTab> tabs = [];
     tabs.addAll([
-      PokeTabv2(
+      PokeTab(
         tabName: "Base",
         tabContent: Column(
           children: [
@@ -317,11 +295,11 @@ class _PokedexDetailsPage extends State<PokedexDetailsPage> {
           ],
         ),
       ),
-      PokeTabv2(
+      PokeTab(
         tabName: "Games",
         tabContent: GamesBlock(pokemon: pokemon),
       ),
-      PokeTabv2(
+      PokeTab(
         tabName: "Weak",
         tabContent: WeaknessBlock(pokemon: pokemon),
       ),

@@ -96,7 +96,9 @@ class _LoadingScreenState extends State<LoadingScreen> {
     final response = await http.get(Uri.parse(url));
 
     if (response.statusCode == 200) {
-      return response.body;
+      // Decode the response body explicitly with the correct encoding
+      String responseBody = utf8.decode(response.bodyBytes);
+      return responseBody;
     } else {
       throw Exception('Failed to load server version');
     }
