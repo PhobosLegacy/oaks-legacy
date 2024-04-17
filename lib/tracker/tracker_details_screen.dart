@@ -17,10 +17,12 @@ class TrackerDetailsPage extends StatefulWidget {
     required this.pokemons,
     required this.indexes,
     required this.onStateChange,
+    this.trackerInfo,
   });
 
   final List<Item> pokemons;
   final List<int> indexes;
+  final List<String>? trackerInfo;
   final Function()? onStateChange;
 
   @override
@@ -224,20 +226,22 @@ class _TrackerDetailsPageState extends State<TrackerDetailsPage> {
 
   createLocks(Item pokemon) {
     List<DetailsLock> locks = [];
-    // locks.add(DetailsLock.gameOrigin);
-    // locks.add(DetailsLock.gameCurrently);
     if (pokemon.gender == PokemonGender.genderless ||
         pokemon.gender == PokemonGender.femaleOnly ||
         pokemon.gender == PokemonGender.maleOnly) {
       locks.add(DetailsLock.gender);
     }
 
-    locks.add(DetailsLock.attributes);
+    if (widget.trackerInfo != null) {
+      if (pokemon.hasGenderDiff() &&
+          widget.trackerInfo!.last.contains('Living')) {
+        locks.add(DetailsLock.gender);
+      }
 
-    // if (pokemon.attributes.contains(PokemonAttributes.isShiny)) {
-    //   locks.add(DetailsLock.attributesShiny);
-    // }
-
+      if (widget.trackerInfo!.last.contains('Shiny')) {
+        locks.add(DetailsLock.attributesShiny);
+      }
+    }
     return locks;
   }
 }

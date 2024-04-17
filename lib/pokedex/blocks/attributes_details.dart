@@ -69,6 +69,8 @@ class _AttributesDetailsBlockState extends State<AttributesDetailsBlock> {
                                   PkmCheckbox(
                                       value: widget.pokemon.attributes
                                           .contains(attributes[index]),
+                                      isLocked:
+                                          isAttibuteLocked(attributes[index]),
                                       onChanged: (change) {
                                         setState(() {
                                           if (change == false) {

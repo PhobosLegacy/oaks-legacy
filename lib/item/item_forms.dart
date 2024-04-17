@@ -9,11 +9,13 @@ class ShowItemForms extends StatelessWidget {
     required this.indexes,
     required this.isLowerTile,
     this.onStateChange,
+    required this.trackerInfo,
   });
 
   final bool isLowerTile;
   final List<Item> pokemons;
   final List<int> indexes;
+  final List<String> trackerInfo;
   final Function()? onStateChange;
 
   @override
@@ -46,6 +48,7 @@ class ShowItemForms extends StatelessWidget {
                   pokemons: pokemons,
                   indexes: [...indexes, index],
                   onStateChange: onStateChange,
+                  trackerInfo: trackerInfo,
                 );
               }).toList(),
             ),

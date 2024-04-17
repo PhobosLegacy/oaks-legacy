@@ -116,6 +116,7 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
                     itemBuilder: (context, index) {
                       return TrackerTile(
                         pokemons: filteredList,
+                        trackerInfo: widget.collection.trackerInfo(),
                         indexes: [index],
                         isLowerTile: false,
                         onStateChange: () {

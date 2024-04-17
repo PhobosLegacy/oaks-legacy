@@ -166,6 +166,10 @@ class Tracker {
     return values!.contains(type.name);
   }
 
+  trackerInfo() {
+    return [game, dex, type];
+  }
+
   static CaptureType isPokemonCaptured(Item pokemon) {
     if (pokemon.forms.isNotEmpty) {
       if (pokemon.forms.every((element) => element.captured == true)) {
