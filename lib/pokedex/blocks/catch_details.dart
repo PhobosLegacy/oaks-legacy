@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:oaks_legacy/components/basic.dart';
 import 'package:oaks_legacy/components/catch_card.dart';
+import 'package:oaks_legacy/components/options.dart';
 import 'package:oaks_legacy/components/pkm_edit_button.dart';
 import 'package:oaks_legacy/components/pkm_level_picker.dart';
 import 'package:oaks_legacy/components/pkm_name_picker.dart';
@@ -10,7 +11,6 @@ import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/models/enums.dart';
 import 'package:oaks_legacy/models/game.dart';
 import 'package:oaks_legacy/models/item.dart';
-import 'package:oaks_legacy/pokedex/pokedex_forms.dart';
 
 class CatchDetailsBlock extends StatefulWidget {
   const CatchDetailsBlock({

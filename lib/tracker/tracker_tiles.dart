@@ -5,8 +5,8 @@ import 'package:oaks_legacy/components/pkm_confetti.dart';
 import 'package:oaks_legacy/components/pkm_tile.dart';
 import 'package:oaks_legacy/components/pkm_tile_image.dart';
 import 'package:oaks_legacy/constants.dart';
+import 'package:oaks_legacy/item/item_forms.dart';
 import 'package:oaks_legacy/models/enums.dart';
-import 'package:oaks_legacy/pokedex/pokedex_forms.dart';
 import 'package:oaks_legacy/tracker/tracker_details_screen.dart';
 import '../../models/game.dart';
 import '../models/item.dart';
@@ -17,11 +17,13 @@ class TrackerTile extends StatefulWidget {
       required this.pokemons,
       required this.indexes,
       required this.isLowerTile,
+      required this.trackerInfo,
       this.onStateChange});
 
   final bool isLowerTile;
   final List<Item> pokemons;
   final List<int> indexes;
+  final List<String> trackerInfo;
   final Function()? onStateChange;
 
   @override
@@ -180,6 +182,7 @@ class _TrackerTile extends State<TrackerTile> {
               ? PkmCheckbox(
                   scale: !isMobileView,
                   value: pokemon.captured,
+                  isLocked: false,
                   onChanged: (value) {
                     setState(
                       () {
@@ -204,8 +207,9 @@ class _TrackerTile extends State<TrackerTile> {
       MaterialPageRoute(
         builder: (context) {
           return TrackerDetailsPage(
-            pokemons: widget.pokemons,
             indexes: widget.indexes,
+            pokemons: widget.pokemons,
+            trackerInfo: widget.trackerInfo,
             onStateChange: widget.onStateChange,
           );
         },
@@ -234,6 +238,7 @@ class _TrackerTile extends State<TrackerTile> {
           pokemons: widget.pokemons,
           indexes: [...widget.indexes],
           onStateChange: widget.onStateChange,
+          trackerInfo: widget.trackerInfo,
         );
       },
     );
