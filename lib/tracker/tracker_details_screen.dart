@@ -188,62 +188,6 @@ class _TrackerDetailsPageState extends State<TrackerDetailsPage> {
         ],
       ),
     );
-
-    // return Scaffold(
-    //   floatingActionButtonLocation: FloatingActionButtonLocation.miniEndFloat,
-    //   floatingActionButton: FloatingActionButton.small(
-    //     backgroundColor: const Color(0xFF1D1E33),
-    //     // foregroundColor: Colors.white,
-    //     onPressed: () {
-    //       setState(() => {
-    //             if (isEditable)
-    //               {
-    //                 isEditable = false,
-    //                 widget.onStateChange!(),
-    //               }
-    //             else
-    //               {
-    //                 isEditable = true,
-    //               }
-    //           });
-
-    //       // ScaffoldMessenger.of(context).showSnackBar(
-    //       //   const SnackBar(
-    //       //     content: Text('Under Construction'),
-    //       //   ),
-    //       // );
-    //     },
-    //     child: (isEditable) ? const Icon(Icons.save) : const Icon(Icons.edit),
-    //   ),
-    //   body: Stack(
-    //     children: [
-    //       TypeBackground(
-    //           type1: displayPokemon.type1, type2: displayPokemon.type2),
-    //       DetailsAppBar(
-    //         name: displayPokemon.name,
-    //         number: displayPokemon.number,
-    //       ),
-    //       DetailsHeader(
-    //         type1: displayPokemon.type1,
-    //         type2: displayPokemon.type2,
-    //       ),
-    //       Panel(tabs: giveMeATab(displayPokemon)),
-    //       PopScope(
-    //           canPop: true,
-    //           onPopInvoked: (didPop) {
-    //             if (!didPop) {
-    //               Navigator.pop(context, false);
-    //             }
-    //           },
-    //           // WillPopScope(
-    //           //     onWillPop: () async {
-    //           //       Navigator.pop(context, false);
-    //           //       return false;
-    //           //     },
-    //           child: MainImage(imagePath: displayPokemon.displayImage)),
-    //     ],
-    //   ),
-    // );
   }
 
   buildTab(Item displayPokemon) {
