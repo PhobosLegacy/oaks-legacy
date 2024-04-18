@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/pkm_tile.dart';
-import 'package:oaks_legacy/components/pkm_tile_image.dart';
+import 'package:oaks_legacy/components/pkm_image.dart';
 import 'package:oaks_legacy/pokedex/pokedex_details_screen.dart';
 import 'package:oaks_legacy/models/pokemon.dart';
 import 'pokedex_forms.dart';
@@ -81,7 +81,7 @@ class _PokemonTiles extends State<PokemonTiles> {
   tileContent(Pokemon pokemon, bool isMobileView) {
     return Row(
       children: [
-        PkmTileImage(
+        PkmImage(
           heroTag: pokemon.ref,
           image: 'mons/${pokemon.image[0]}',
         ),
@@ -172,25 +172,26 @@ class _PokemonTiles extends State<PokemonTiles> {
 
         //SIDE PANEL WITH ADDITIONAL OPTIONS
         if (pokemon.forms.isEmpty)
-          Expanded(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: [
-                if (widget.button1Icon != null)
-                  GestureDetector(
-                      onTap: () {
-                        widget.button1OnPressed!(pokemon);
-                      },
-                      child: widget.button1Icon),
-                if (widget.button2Icon != null)
-                  GestureDetector(
-                      onTap: () {
-                        widget.button2OnPressed!(pokemon);
-                      },
-                      child: widget.button2Icon),
-              ],
+          if (widget.button1Icon != null || widget.button2Icon != null)
+            Expanded(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  if (widget.button1Icon != null)
+                    GestureDetector(
+                        onTap: () {
+                          widget.button1OnPressed!(pokemon);
+                        },
+                        child: widget.button1Icon),
+                  if (widget.button2Icon != null)
+                    GestureDetector(
+                        onTap: () {
+                          widget.button2OnPressed!(pokemon);
+                        },
+                        child: widget.button2Icon),
+                ],
+              ),
             ),
-          ),
         //NUMBER
         //(IN MOBILE VIEW DISPLAYED IN THE RIGHT CORNER INSTEAD)
         if (!widget.isLowerTile && isMobileView)

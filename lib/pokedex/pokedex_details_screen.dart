@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/action_button.dart';
 import 'package:oaks_legacy/components/basic.dart';
-import 'package:oaks_legacy/components/pkm_tile_image.dart';
+import 'package:oaks_legacy/components/pkm_image.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/models/enums.dart';
 import 'package:oaks_legacy/pokedex/blocks/basic_details.dart';
@@ -91,7 +91,7 @@ class _PokedexDetailsPage extends State<PokedexDetailsPage> {
           Expanded(
             child: Align(
               alignment: Alignment.center,
-              child: PkmTileImage(
+              child: PkmImage(
                 heroTag: pokemon.ref,
                 image: 'mons/${pokemon.image[imageIndex]}',
               ),
