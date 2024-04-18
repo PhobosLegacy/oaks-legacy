@@ -81,9 +81,12 @@ class _PokemonTiles extends State<PokemonTiles> {
   tileContent(Pokemon pokemon, bool isMobileView) {
     return Row(
       children: [
-        PkmImage(
-          heroTag: pokemon.ref,
-          image: 'mons/${pokemon.image[0]}',
+        Expanded(
+          flex: 2,
+          child: PkmImage(
+            heroTag: pokemon.ref,
+            image: 'mons/${pokemon.image[0]}',
+          ),
         ),
         Expanded(
           flex: 2,
