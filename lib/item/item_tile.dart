@@ -185,11 +185,10 @@ class _ItemTile extends State<ItemTile> {
   tileContent(Item pokemon, bool isMobileView) {
     return Row(
       children: [
-        //IMAGE + CONFETTI
         Expanded(
           flex: 2,
           child: PkmImage(
-            image: 'mons/${pokemon.image[0]}',
+            image: 'mons/${pokemon.displayImage}',
             heroTag: pokemon.ref,
             shadowOnly: false,
           ),
