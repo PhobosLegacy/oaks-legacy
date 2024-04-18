@@ -81,9 +81,12 @@ class _PokemonTiles extends State<PokemonTiles> {
   tileContent(Pokemon pokemon, bool isMobileView) {
     return Row(
       children: [
-        PkmImage(
-          heroTag: pokemon.ref,
-          image: 'mons/${pokemon.image[0]}',
+        Expanded(
+          flex: 2,
+          child: PkmImage(
+            image: 'mons/${pokemon.image[0]}',
+            heroTag: pokemon.ref,
+          ),
         ),
         Expanded(
           flex: 2,
@@ -172,25 +175,26 @@ class _PokemonTiles extends State<PokemonTiles> {
 
         //SIDE PANEL WITH ADDITIONAL OPTIONS
         if (pokemon.forms.isEmpty)
-          Expanded(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: [
-                if (widget.button1Icon != null)
-                  GestureDetector(
-                      onTap: () {
-                        widget.button1OnPressed!(pokemon);
-                      },
-                      child: widget.button1Icon),
-                if (widget.button2Icon != null)
-                  GestureDetector(
-                      onTap: () {
-                        widget.button2OnPressed!(pokemon);
-                      },
-                      child: widget.button2Icon),
-              ],
+          if (widget.button1Icon != null || widget.button2Icon != null)
+            Expanded(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  if (widget.button1Icon != null)
+                    GestureDetector(
+                        onTap: () {
+                          widget.button1OnPressed!(pokemon);
+                        },
+                        child: widget.button1Icon),
+                  if (widget.button2Icon != null)
+                    GestureDetector(
+                        onTap: () {
+                          widget.button2OnPressed!(pokemon);
+                        },
+                        child: widget.button2Icon),
+                ],
+              ),
             ),
-          ),
         //NUMBER
         //(IN MOBILE VIEW DISPLAYED IN THE RIGHT CORNER INSTEAD)
         if (!widget.isLowerTile && isMobileView)
