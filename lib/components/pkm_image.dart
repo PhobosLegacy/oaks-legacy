@@ -38,19 +38,19 @@ class PkmImage extends StatelessWidget {
                     ),
                   ]
                 : [
+                    // CachedNetworkImage(
+                    //   imageUrl: "$kImageLocalPrefix/$image",
+                    //   color: Colors.black87,
+                    //   height: height,
+                    //   placeholder: (context, url) => const Center(
+                    //     child: CircularProgressIndicator(
+                    //       color: Colors.red,
+                    //     ),
+                    //   ),
+                    // ),
                     CachedNetworkImage(
                       imageUrl: "$kImageLocalPrefix/$image",
-                      color: Colors.black87,
                       height: height,
-                      placeholder: (context, url) => const Center(
-                        child: CircularProgressIndicator(
-                          color: Colors.red,
-                        ),
-                      ),
-                    ),
-                    CachedNetworkImage(
-                      imageUrl: "$kImageLocalPrefix/$image",
-                      height: height / 3,
                       placeholder: (context, url) => const Center(
                         child: CircularProgressIndicator(
                           color: Colors.red,
