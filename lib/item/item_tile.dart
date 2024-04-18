@@ -186,10 +186,13 @@ class _ItemTile extends State<ItemTile> {
     return Row(
       children: [
         //IMAGE + CONFETTI
-        PkmImage(
-          heroTag: pokemon.ref,
-          image: "mons/${pokemon.displayImage}",
-          shadowOnly: false,
+        Expanded(
+          flex: 2,
+          child: PkmImage(
+            image: 'mons/${pokemon.image[0]}',
+            heroTag: pokemon.ref,
+            shadowOnly: false,
+          ),
         ),
         Expanded(
           flex: 2,

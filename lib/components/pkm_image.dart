@@ -1,4 +1,5 @@
-import 'dart:async';
+// import 'dart:async';
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/constants.dart';
 
@@ -18,62 +19,105 @@ class PkmImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return FutureBuilder<ImageProvider>(
-      future: _getImage(context, "$kImageLocalPrefix/$image"),
-      builder: (context, AsyncSnapshot<ImageProvider> snapshot) {
-        if (snapshot.connectionState == ConnectionState.waiting) {
-          return const Center(
-            child: CircularProgressIndicator(
-              color: Colors.red,
-            ),
-          );
-        } else if (snapshot.hasError) {
-          return const Center(
-            child: Text('Failed to load image'),
-          );
-        } else {
-          return Hero(
-            tag: heroTag,
-            child: SizedBox(
-              child: Stack(
-                children: (shadowOnly == true)
-                    ? [
-                        Image(
-                          image: snapshot.data!,
-                          color: Colors.black87,
-                          height: height,
+    return Center(
+      child: Hero(
+        tag: heroTag,
+        child: SizedBox(
+          child: Stack(
+            children: (shadowOnly == true)
+                ? [
+                    CachedNetworkImage(
+                      imageUrl: "$kImageLocalPrefix/$image",
+                      color: Colors.black87,
+                      height: height,
+                      placeholder: (context, url) => const Center(
+                        child: CircularProgressIndicator(
+                          color: Colors.red,
                         ),
-                      ]
-                    : [
-                        Image(
-                          image: snapshot.data!,
-                          color: Colors.black87,
-                          height: height,
+                      ),
+                    ),
+                  ]
+                : [
+                    CachedNetworkImage(
+                      imageUrl: "$kImageLocalPrefix/$image",
+                      color: Colors.black87,
+                      height: height,
+                      placeholder: (context, url) => const Center(
+                        child: CircularProgressIndicator(
+                          color: Colors.red,
                         ),
-                        Image(
-                          image: snapshot.data!,
-                          height: height - 5,
+                      ),
+                    ),
+                    CachedNetworkImage(
+                      imageUrl: "$kImageLocalPrefix/$image",
+                      height: height / 3,
+                      placeholder: (context, url) => const Center(
+                        child: CircularProgressIndicator(
+                          color: Colors.red,
                         ),
-                      ],
-              ),
-            ),
-          );
-        }
-      },
+                      ),
+                    ),
+                  ],
+          ),
+        ),
+      ),
     );
+    // return FutureBuilder<ImageProvider>(
+    //   future: _getImage(context, "$kImageLocalPrefix/$image"),
+    //   builder: (context, AsyncSnapshot<ImageProvider> snapshot) {
+    //     if (snapshot.connectionState == ConnectionState.waiting) {
+    //       return const Center(
+    //         child: CircularProgressIndicator(
+    //           color: Colors.red,
+    //         ),
+    //       );
+    //     } else if (snapshot.hasError) {
+    //       return const Center(
+    //         child: Text('Failed to load image'),
+    //       );
+    //     } else {
+    //       return Hero(
+    //         tag: heroTag,
+    //         child: SizedBox(
+    //           child: Stack(
+    //             children: (shadowOnly == true)
+    //                 ? [
+    //                     Image.network(
+    //                       "$kImageLocalPrefix/$image",
+    //                       color: Colors.black87,
+    //                       height: height,
+    //                     ),
+    //                   ]
+    //                 : [
+    //                     Image.network(
+    //                       "$kImageLocalPrefix/$image",
+    //                       color: Colors.black87,
+    //                       height: height,
+    //                     ),
+    //                     Image.network(
+    //                       "$kImageLocalPrefix/$image",
+    //                       height: height - 5,
+    //                     ),
+    //                   ],
+    //           ),
+    //         ),
+    //       );
+    //     }
+    //   },
+    // );
   }
 
-  Future<ImageProvider> _getImage(BuildContext context, String imageUrl) async {
-    final Completer<ImageProvider> completer = Completer<ImageProvider>();
+  // Future<ImageProvider> _getImage(BuildContext context, String imageUrl) async {
+  //   final Completer<ImageProvider> completer = Completer<ImageProvider>();
 
-    final ImageStream stream =
-        Image.network(imageUrl).image.resolve(ImageConfiguration.empty);
-    stream.addListener(
-      ImageStreamListener((ImageInfo image, bool synchronousCall) {
-        completer.complete(NetworkImage(imageUrl));
-      }),
-    );
+  //   final ImageStream stream =
+  //       Image.network(imageUrl).image.resolve(ImageConfiguration.empty);
+  //   stream.addListener(
+  //     ImageStreamListener((ImageInfo image, bool synchronousCall) {
+  //       completer.complete(NetworkImage(imageUrl));
+  //     }),
+  //   );
 
-    return completer.future;
-  }
+  //   return completer.future;
+  // }
 }

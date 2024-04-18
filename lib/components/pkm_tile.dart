@@ -32,8 +32,8 @@ class _PkmTile extends State<PkmTile> {
       onTap: widget.onTap,
       onLongPress: widget.onLongPress,
       child: Card(
-          color:
-              (widget.isLowerTile) ? const Color(0xFF1D1E33) : Colors.black26,
+          color: Colors.amber,
+          // (widget.isLowerTile) ? const Color(0xFF1D1E33) : Colors.black26,
           clipBehavior: Clip.antiAlias,
           child:
               (cardsPerRow > 1) ? widget.desktopContent : widget.mobileContent),

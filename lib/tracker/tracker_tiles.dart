@@ -76,19 +76,22 @@ class _TrackerTile extends State<TrackerTile> {
     return Row(
       children: [
         //IMAGE + CONFETTI
-        Stack(
-          children: [
-            PkmImage(
-              heroTag: pokemon.ref,
-              image: "mons/${pokemon.displayImage}",
-              shadowOnly: kPreferences.revealUncaught == false &&
-                  Item.isCaptured(pokemon) != CaptureType.full,
-            ),
-            PkmConfetti(
-              confettiController: confettiController,
-              scaleUp: !isMobileView,
-            ),
-          ],
+        Expanded(
+          flex: 2,
+          child: Stack(
+            children: [
+              PkmImage(
+                heroTag: pokemon.ref,
+                image: "mons/${pokemon.displayImage}",
+                shadowOnly: kPreferences.revealUncaught == false &&
+                    Item.isCaptured(pokemon) != CaptureType.full,
+              ),
+              PkmConfetti(
+                confettiController: confettiController,
+                scaleUp: !isMobileView,
+              ),
+            ],
+          ),
         ),
         Expanded(
           flex: 2,
