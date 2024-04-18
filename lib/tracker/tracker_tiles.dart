@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/pkm_checkbox.dart';
 import 'package:oaks_legacy/components/pkm_confetti.dart';
 import 'package:oaks_legacy/components/pkm_tile.dart';
-import 'package:oaks_legacy/components/pkm_tile_image.dart';
+import 'package:oaks_legacy/components/pkm_image.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/item/item_forms.dart';
 import 'package:oaks_legacy/models/enums.dart';
@@ -78,7 +78,7 @@ class _TrackerTile extends State<TrackerTile> {
         //IMAGE + CONFETTI
         Stack(
           children: [
-            PkmTileImage(
+            PkmImage(
               heroTag: pokemon.ref,
               image: "mons/${pokemon.displayImage}",
               shadowOnly: kPreferences.revealUncaught == false &&

@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/image.dart';
 import 'package:oaks_legacy/constants.dart';
 
-class PkmTileImage extends StatelessWidget {
-  const PkmTileImage({
+class PkmImage extends StatelessWidget {
+  const PkmImage({
     super.key,
     required this.image,
     required this.heroTag,

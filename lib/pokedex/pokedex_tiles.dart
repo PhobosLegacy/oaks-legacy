@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/pkm_tile.dart';
-import 'package:oaks_legacy/components/pkm_tile_image.dart';
+import 'package:oaks_legacy/components/pkm_image.dart';
 import 'package:oaks_legacy/pokedex/pokedex_details_screen.dart';
 import 'package:oaks_legacy/models/pokemon.dart';
 import 'pokedex_forms.dart';
@@ -81,7 +81,7 @@ class _PokemonTiles extends State<PokemonTiles> {
   tileContent(Pokemon pokemon, bool isMobileView) {
     return Row(
       children: [
-        PkmTileImage(
+        PkmImage(
           heroTag: pokemon.ref,
           image: 'mons/${pokemon.image[0]}',
         ),

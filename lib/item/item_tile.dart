@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/pkm_tile.dart';
-import 'package:oaks_legacy/components/pkm_tile_image.dart';
+import 'package:oaks_legacy/components/pkm_image.dart';
 import 'package:oaks_legacy/models/game.dart';
 import 'package:oaks_legacy/models/item.dart';
 import 'package:oaks_legacy/tracker/tracker_details_screen.dart';
@@ -186,7 +186,7 @@ class _ItemTile extends State<ItemTile> {
     return Row(
       children: [
         //IMAGE + CONFETTI
-        PkmTileImage(
+        PkmImage(
           heroTag: pokemon.ref,
           image: "mons/${pokemon.displayImage}",
           shadowOnly: false,
