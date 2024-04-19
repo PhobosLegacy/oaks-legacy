@@ -6,6 +6,7 @@ import 'package:oaks_legacy/models/game.dart';
 import 'package:oaks_legacy/pokedex/pokedex_tiles.dart';
 import 'package:oaks_legacy/tracker/tracker_details_screen.dart';
 import 'package:oaks_legacy/utils/enum_manager.dart';
+import 'package:oaks_legacy/utils/functions.dart';
 import 'package:screenshot/screenshot.dart';
 import '../components/app_bar.dart';
 import '../components/base_background.dart';
@@ -199,6 +200,7 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
                         setState(() {
                           saveToCollection(item);
                         });
+                        showSnackbar(context, '${item.name} updated.');
                       },
                       onDelete: (item) async {
                         await removeFromColletion(item);
@@ -245,6 +247,8 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
                                     setState(() {
                                       saveToCollection(item);
                                     });
+                                    showSnackbar(
+                                        context, '${item.name} updated.');
                                   },
                                   onDelete: (item) async {
                                     await removeFromColletion(item);
@@ -365,6 +369,7 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
                           setState(() {
                             saveToCollection(items.current([0]));
                           });
+                          showSnackbar(context, '${items[0].name} added.');
                         },
                       );
                     },
@@ -380,6 +385,7 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
               saveToCollection(
                 createPlaceholderItem([0], widget.screenKey, [pokemon]),
               ),
+              showSnackbar(context, '${pokemon.name} added.'),
             },
             // button2Icon: const Icon(Icons.edit_square, color: Colors.amber),
             // button2OnPressed: (pokemon) => {print(pokemon.number)},
