@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:oaks_legacy/constants.dart';
@@ -16,6 +17,8 @@ class PkmLevelPicker extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Timer? timer;
+
     return AlertDialog(
       backgroundColor: const Color(0xFF1D1E33),
       title: const Center(
@@ -27,17 +30,21 @@ class PkmLevelPicker extends StatelessWidget {
       )),
       content: Row(
         children: [
-          IconButton(
-            icon: const Icon(
-              Icons.remove,
-              color: Colors.white,
+          GestureDetector(
+            onLongPress: () => timer =
+                Timer.periodic(const Duration(milliseconds: 50), (timer) {
+              lowUp();
+            }),
+            onLongPressEnd: (_) => timer?.cancel(),
+            child: IconButton(
+              icon: const Icon(
+                Icons.remove,
+                color: Colors.white,
+              ),
+              onPressed: () {
+                lowUp();
+              },
             ),
-            onPressed: () {
-              if (textController.text != "" && textController.text != "1") {
-                textController.text =
-                    (int.parse(textController.text) - 1).toString();
-              }
-            },
           ),
           Expanded(
             child: TextField(
@@ -59,14 +66,18 @@ class PkmLevelPicker extends StatelessWidget {
               ],
             ),
           ),
-          IconButton(
-            icon: const Icon(Icons.add, color: Colors.white),
-            onPressed: () {
-              if (textController.text != "" && textController.text != "100") {
-                textController.text =
-                    (int.parse(textController.text) + 1).toString();
-              }
-            },
+          GestureDetector(
+            onLongPress: () => timer =
+                Timer.periodic(const Duration(milliseconds: 50), (timer) {
+              addUp();
+            }),
+            onLongPressEnd: (_) => timer?.cancel(),
+            child: IconButton(
+              icon: const Icon(Icons.add, color: Colors.white),
+              onPressed: () {
+                addUp();
+              },
+            ),
           ),
         ],
       ),
@@ -112,5 +123,17 @@ class PkmLevelPicker extends StatelessWidget {
         ),
       ],
     );
+  }
+
+  void addUp() {
+    if (textController.text != "" && textController.text != "100") {
+      textController.text = (int.parse(textController.text) + 1).toString();
+    }
+  }
+
+  void lowUp() {
+    if (textController.text != "" && textController.text != "1") {
+      textController.text = (int.parse(textController.text) - 1).toString();
+    }
   }
 }
