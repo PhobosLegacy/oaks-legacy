@@ -33,6 +33,7 @@ class _PkmGridState extends State<PkmGrid> {
     return Center(
       child: GridView.builder(
         shrinkWrap: true,
+        physics: const NeverScrollableScrollPhysics(),
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisSpacing: 5,
           mainAxisSpacing: 5,
