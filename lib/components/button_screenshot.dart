@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:file_saver/file_saver.dart';
 import 'package:flutter/foundation.dart';
 import 'package:image_gallery_saver/image_gallery_saver.dart';
+import 'package:oaks_legacy/utils/functions.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:screenshot/screenshot.dart';
 import 'package:image/image.dart' as img;
@@ -46,13 +47,19 @@ class ScreenShotButton extends StatelessWidget {
 
         Uint8List? imageBytes;
 
-        imageBytes = await screenshotController.capture();
+        try {
+          imageBytes = await screenshotController.capture();
+        } catch (err) {
+          if (context.mounted) showSnackbar(context, err.toString());
+        }
 
-        if (imageBytes == null) return;
+        if (imageBytes == null) {
+          if (context.mounted) Navigator.pop(context);
+          return;
+        }
 
         if (shouldTrim) {
           //Trimmer
-          print('trimming');
           img.Image originalImage = img.decodeImage(imageBytes)!;
           img.Image trimmedImage = img.trim(originalImage);
           imageBytes = Uint8List.fromList(img.encodePng(trimmedImage));
