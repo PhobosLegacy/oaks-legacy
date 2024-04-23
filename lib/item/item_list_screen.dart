@@ -321,7 +321,11 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
           });
         },
       ),
-      if (_selectedTab == 0) ScreenShotButton(screenshotController: controller),
+      if (_selectedTab == 0)
+        ScreenShotButton(
+          screenshotController: controller,
+          shouldTrim: collection.length < PkmGrid.getCardsPerRow(context),
+        ),
       if (_selectedTab == 0) FiltersButton(scaffoldKey: scaffoldKey),
     ];
   }

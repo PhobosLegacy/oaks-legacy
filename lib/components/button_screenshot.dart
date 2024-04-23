@@ -7,10 +7,14 @@ import 'package:screenshot/screenshot.dart';
 import 'package:image/image.dart' as img;
 
 class ScreenShotButton extends StatelessWidget {
-  const ScreenShotButton({super.key, required this.screenshotController});
+  const ScreenShotButton({
+    super.key,
+    required this.screenshotController,
+    this.shouldTrim = false,
+  });
 
   final ScreenshotController screenshotController;
-
+  final bool shouldTrim;
   @override
   Widget build(BuildContext context) {
     return IconButton(
@@ -46,12 +50,14 @@ class ScreenShotButton extends StatelessWidget {
 
         if (imageBytes == null) return;
 
-        //Trimmer
-        img.Image originalImage = img.decodeImage(imageBytes)!;
-        img.Image trimmedImage = img.trim(originalImage);
-        Uint8List trimmedImageBytes =
-            Uint8List.fromList(img.encodePng(trimmedImage));
-        //END
+        if (shouldTrim) {
+          //Trimmer
+          print('trimming');
+          img.Image originalImage = img.decodeImage(imageBytes)!;
+          img.Image trimmedImage = img.trim(originalImage);
+          imageBytes = Uint8List.fromList(img.encodePng(trimmedImage));
+          //END
+        }
 
         final time = DateTime.now()
             .toIso8601String()
@@ -61,11 +67,10 @@ class ScreenShotButton extends StatelessWidget {
         final name = 'pk_$time';
 
         if (kIsWeb) {
-          FileSaver.instance
-              .saveFile(name: '$name.png', bytes: trimmedImageBytes);
+          FileSaver.instance.saveFile(name: '$name.png', bytes: imageBytes);
         } else {
           await [Permission.storage].request();
-          await ImageGallerySaver.saveImage(trimmedImageBytes, name: name);
+          await ImageGallerySaver.saveImage(imageBytes, name: name);
         }
         if (context.mounted) Navigator.pop(context); // Close the loading modal
       },

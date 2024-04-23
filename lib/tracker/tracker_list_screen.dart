@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/base_background.dart';
+import 'package:oaks_legacy/components/button_screenshot.dart';
 import 'package:oaks_legacy/components/pkm_grid.dart';
 import 'package:oaks_legacy/models/game.dart';
 import 'package:oaks_legacy/tracker/tracker_tiles.dart';
+import 'package:screenshot/screenshot.dart';
 import '../components/app_bar.dart';
 import '../components/filter_by_type.dart';
 import '../components/filters_side_screen.dart';
@@ -39,6 +41,7 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
   List<String> _drawerByTypesSelected = [];
   TextEditingController editingController = TextEditingController();
   GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
+  final controller = ScreenshotController();
 
   @override
   void initState() {
@@ -112,23 +115,28 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
                   },
                 ),
                 Expanded(
-                  child: PkmGrid(
-                    itemBuilder: (context, index) {
-                      return TrackerTile(
-                        pokemons: filteredList,
-                        trackerInfo: widget.collection.trackerInfo(),
-                        indexes: [index],
-                        isLowerTile: false,
-                        onStateChange: () {
-                          setState(() {
-                            saveTracker(widget.collection);
-                            applyFilters();
-                            widget.callBackAction();
-                          });
+                  child: SingleChildScrollView(
+                    child: Screenshot(
+                      controller: controller,
+                      child: PkmGrid(
+                        itemBuilder: (context, index) {
+                          return TrackerTile(
+                            pokemons: filteredList,
+                            trackerInfo: widget.collection.trackerInfo(),
+                            indexes: [index],
+                            isLowerTile: false,
+                            onStateChange: () {
+                              setState(() {
+                                saveTracker(widget.collection);
+                                applyFilters();
+                                widget.callBackAction();
+                              });
+                            },
+                          );
                         },
-                      );
-                    },
-                    itemCount: filteredList.length,
+                        itemCount: filteredList.length,
+                      ),
+                    ),
                   ),
                 ),
               ],
@@ -220,6 +228,10 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
             scaffoldKey.currentState!.openEndDrawer();
           });
         },
+      ),
+      ScreenShotButton(
+        screenshotController: controller,
+        shouldTrim: filteredList.length < PkmGrid.getCardsPerRow(context),
       ),
     ];
   }

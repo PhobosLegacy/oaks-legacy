@@ -137,6 +137,115 @@ HOW TO PROPER USE BANNER AND CLIP THE RIGHT ELEMENT:
 I accidently came over the solution. supabase.auth.exchangeCodeForSession(code)
 Pass the code that comes along with the call and you get a session in return. Then the user is logged in.
     https://github.com/orgs/supabase/discussions/21317
+
+
+Screenshot attempt by splitting image:
+
+  // gridShot() async {
+  //   int cardsPerRow = PkmGrid.getCardsPerRow(context);
+  //   List<Item> screenshotLista = List<Item>.from(filteredList);
+
+  //   // print('there are ${list.length} cards');
+  //   // print('there are $cardsPerRow cards per row');
+
+  //   // var rows = list.length ~/ cardsPerRow;
+  //   // print('there are $rows rows');
+
+  //   var otro = 99 ~/ cardsPerRow;
+  //   // print('screenshot 1 will have $otro rows');
+
+  //   for (var i = 0; i < filteredList.length; i) {
+  //     var limit = ((i + otro * cardsPerRow) > filteredList.length)
+  //         ? filteredList.length
+  //         : i + otro * cardsPerRow;
+
+  //     filteredList.clear();
+  //     filteredList.addAll(screenshotLista.sublist(i, limit));
+
+  //     print(
+  //         'first index is ${filteredList.first.name} index ${filteredList.first.number}');
+  //     print(
+  //         'last index is ${filteredList.last.name} index ${filteredList.last.number}');
+  //     Uint8List? imageBytes;
+  //     try {
+  //       imageBytes = await controller.capture();
+  //       // imageBytes = await controller.captureFromWidget(screenshotList2());
+  //     } catch (err) {
+  //       print(err);
+  //     }
+  //     if (imageBytes == null) return;
+  //     FileSaver.instance.saveFile(name: 'test.png', bytes: imageBytes);
+  //     // //Trimmer
+  //     // img.Image originalImage = img.decodeImage(imageBytes)!;
+  //     // img.Image trimmedImage = img.trim(originalImage);
+  //     // Uint8List trimmedImageBytes =
+  //     //     Uint8List.fromList(img.encodePng(trimmedImage));
+  //     // //END
+
+  //     // final time = DateTime.now()
+  //     //     .toIso8601String()
+  //     //     .replaceAll('.', '-')
+  //     //     .replaceAll(':', '-');
+
+  //     // final name = 'pk_$time';
+
+  //     // FileSaver.instance.saveFile(name: '$name.png', bytes: trimmedImageBytes);
+
+  //     i = limit;
+
+  //     filteredList.clear();
+  //     filteredList.addAll(screenshotLista);
+  //   }
+
+  //   // showDialog(
+  //   //   context: context,
+  //   //   barrierColor: Colors.transparent,
+  //   //   barrierDismissible: false,
+  //   //   builder: (BuildContext dialogContext) {
+  //   //     return Center(
+  //   //       child: Container(
+  //   //         padding: const EdgeInsets.all(16.0),
+  //   //         decoration: BoxDecoration(
+  //   //           color: Colors.white,
+  //   //           borderRadius: BorderRadius.circular(10.0),
+  //   //         ),
+  //   //         child: const Text(
+  //   //           "Hang On...",
+  //   //           style: TextStyle(color: Colors.black, fontSize: 20),
+  //   //         ),
+  //   //       ),
+  //   //     );
+  //   //   },
+  //   // );
+
+  //   // Uint8List? imageBytes;
+
+  //   // imageBytes = await screenshotController.capture();
+
+  //   // if (imageBytes == null) return;
+
+  //   // //Trimmer
+  //   // img.Image originalImage = img.decodeImage(imageBytes)!;
+  //   // img.Image trimmedImage = img.trim(originalImage);
+  //   // Uint8List trimmedImageBytes =
+  //   //     Uint8List.fromList(img.encodePng(trimmedImage));
+  //   // //END
+
+  //   // final time = DateTime.now()
+  //   //     .toIso8601String()
+  //   //     .replaceAll('.', '-')
+  //   //     .replaceAll(':', '-');
+
+  //   // final name = 'pk_$time';
+
+  //   // if (kIsWeb) {
+  //   //   FileSaver.instance.saveFile(name: '$name.png', bytes: trimmedImageBytes);
+  //   // } else {
+  //   //   await [Permission.storage].request();
+  //   //   await ImageGallerySaver.saveImage(trimmedImageBytes, name: name);
+  //   // }
+  //   // if (context.mounted) Navigator.pop(context); // Close the loading modal
+  // }
  */
   String listBase;
 }
