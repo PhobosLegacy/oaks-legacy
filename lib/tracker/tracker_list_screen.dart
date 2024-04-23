@@ -3,6 +3,7 @@ import 'package:file_saver/file_saver.dart';
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/base_background.dart';
 import 'package:oaks_legacy/components/pkm_grid.dart';
+import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/models/game.dart';
 import 'package:oaks_legacy/tracker/tracker_tiles.dart';
 import 'package:oaks_legacy/utils/functions.dart';
@@ -232,58 +233,60 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
           });
         },
       ),
-      IconButton(
-          icon: const Icon(Icons.camera),
-          onPressed: () async {
-            int cardsPerRow = PkmGrid.getCardsPerRow(context);
-            var otro = 99 ~/ cardsPerRow;
-            List<Item> original = List<Item>.from(filteredList);
-            List<Uint8List?> images = List<Uint8List?>.empty(growable: true);
+      if (kFlags.screenshot)
+        IconButton(
+            icon: const Icon(Icons.camera),
+            onPressed: () async {
+              int cardsPerRow = PkmGrid.getCardsPerRow(context);
+              var otro = 99 ~/ cardsPerRow;
+              List<Item> original = List<Item>.from(filteredList);
+              List<Uint8List?> images = List<Uint8List?>.empty(growable: true);
 
-            for (var i = 0; i < original.length; i) {
-              var limit = ((i + otro * cardsPerRow) > filteredList.length)
-                  ? filteredList.length
-                  : i + otro * cardsPerRow;
+              for (var i = 0; i < original.length; i) {
+                var limit = ((i + otro * cardsPerRow) > filteredList.length)
+                    ? filteredList.length
+                    : i + otro * cardsPerRow;
 
-              filteredList = original.sublist(i, limit);
+                filteredList = original.sublist(i, limit);
+                setState(() {});
+                Uint8List? snapshot = await snap();
+                if (snapshot != null) images.add(snapshot);
+                i = limit;
+                filteredList.clear();
+                filteredList.addAll(original);
+              }
               setState(() {});
-              Uint8List? snapshot = await snap();
-              if (snapshot != null) images.add(snapshot);
-              i = limit;
-              filteredList.clear();
-              filteredList.addAll(original);
-            }
-            setState(() {});
 
-            List<img.Image> lista = List<img.Image>.empty(growable: true);
-            int totalHeight = 0;
-            int maxWidth = 0;
-            for (Uint8List? image in images) {
-              lista.add(img.decodeImage(image as List<int>)!);
-              totalHeight += lista.last.height;
-            }
-            maxWidth = lista.last.width;
-            img.Image mergedImage = img.Image(maxWidth, totalHeight);
+              List<img.Image> lista = List<img.Image>.empty(growable: true);
+              int totalHeight = 0;
+              int maxWidth = 0;
+              for (Uint8List? image in images) {
+                lista.add(img.decodeImage(image as List<int>)!);
+                totalHeight += lista.last.height;
+              }
+              maxWidth = lista.last.width;
+              img.Image mergedImage = img.Image(maxWidth, totalHeight);
 
-            for (var i = 0; i < lista.length; i++) {
-              if (i == 0) img.copyInto(mergedImage, lista[0], dstX: 0, dstY: 0);
+              for (var i = 0; i < lista.length; i++) {
+                if (i == 0)
+                  img.copyInto(mergedImage, lista[0], dstX: 0, dstY: 0);
 
-              img.copyInto(mergedImage, lista[i],
-                  dstX: 0, dstY: getHeight(lista, i));
-            }
-            Uint8List mergedImageBytes =
-                Uint8List.fromList(img.encodePng(mergedImage));
+                img.copyInto(mergedImage, lista[i],
+                    dstX: 0, dstY: getHeight(lista, i));
+              }
+              Uint8List mergedImageBytes =
+                  Uint8List.fromList(img.encodePng(mergedImage));
 
-            final time = DateTime.now()
-                .toIso8601String()
-                .replaceAll('.', '-')
-                .replaceAll(':', '-');
+              final time = DateTime.now()
+                  .toIso8601String()
+                  .replaceAll('.', '-')
+                  .replaceAll(':', '-');
 
-            final name = 'pk_$time';
+              final name = 'pk_$time';
 
-            FileSaver.instance
-                .saveFile(name: '$name.png', bytes: mergedImageBytes);
-          }),
+              FileSaver.instance
+                  .saveFile(name: '$name.png', bytes: mergedImageBytes);
+            }),
       // ScreenShotButton(
       //   screenshotController: controller,
       //   shouldTrim: filteredList.length < PkmGrid.getCardsPerRow(context),
