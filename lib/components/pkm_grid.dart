@@ -29,10 +29,10 @@ class _PkmGridState extends State<PkmGrid> {
     // int cardsPerRow = currentWidth ~/ 400;
     // if (cardsPerRow == 0) cardsPerRow = 1;
     int cardsPerRow = PkmGrid.getCardsPerRow(context);
-
     return Center(
       child: GridView.builder(
         shrinkWrap: true,
+        physics: const NeverScrollableScrollPhysics(),
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisSpacing: 5,
           mainAxisSpacing: 5,
