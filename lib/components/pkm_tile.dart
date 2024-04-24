@@ -55,6 +55,7 @@ class PkmOption extends StatefulWidget {
 
   final void Function()? onTap;
   final Widget content;
+  static size(context) => MediaQuery.of(context).size.width < 400 ? 50 : 100;
 
   @override
   State<PkmOption> createState() => _PkmOption();
