@@ -1,12 +1,8 @@
-import 'dart:typed_data';
-import 'package:file_saver/file_saver.dart';
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/base_background.dart';
 import 'package:oaks_legacy/components/pkm_grid.dart';
-import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/models/game.dart';
 import 'package:oaks_legacy/tracker/tracker_tiles.dart';
-import 'package:oaks_legacy/utils/functions.dart';
 import 'package:screenshot/screenshot.dart';
 import '../components/app_bar.dart';
 import '../components/filter_by_type.dart';
@@ -19,7 +15,7 @@ import '../models/tracker.dart';
 import '../models/enums.dart';
 import '../models/item.dart';
 import '../utils/trackers_manager.dart';
-import 'package:image/image.dart' as img;
+// import 'package:image/image.dart' as img;
 
 class TrackerListScreen extends StatefulWidget {
   const TrackerListScreen({
