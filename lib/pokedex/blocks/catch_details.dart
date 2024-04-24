@@ -63,7 +63,7 @@ class _CatchDetailsBlockState extends State<CatchDetailsBlock> {
                                 content: Padding(
                                   padding: const EdgeInsets.all(10.0),
                                   child: Image.network(ball.getImagePath(),
-                                      height: 100),
+                                      height: PkmOption.size(context)),
                                 ),
                               );
                             }).toList(),
@@ -400,6 +400,7 @@ class _CatchDetailsBlockState extends State<CatchDetailsBlock> {
                         context: context,
                         builder: (BuildContext context) {
                           return ShowOptions(
+                            listMode: true,
                             items: Dex.allGames().toList().map((game) {
                               return PkmOption(
                                 onTap: () => {
@@ -410,19 +411,27 @@ class _CatchDetailsBlockState extends State<CatchDetailsBlock> {
                                 },
                                 content: Padding(
                                   padding: const EdgeInsets.all(10.0),
-                                  child: Column(
+                                  child: Row(
+                                    mainAxisSize:
+                                        (MediaQuery.of(context).size.width <
+                                                400)
+                                            ? MainAxisSize.max
+                                            : MainAxisSize.min,
                                     children: [
                                       Image.network(
                                           kImageLocalPrefix +
                                               Game.gameIcon(game),
-                                          height: 100),
-                                      const SizedBox(
-                                        height: 10,
-                                      ),
-                                      Text(
-                                        game,
-                                        style: const TextStyle(
-                                            color: Colors.amber),
+                                          height: PkmOption.size(context)),
+                                      Padding(
+                                        padding:
+                                            const EdgeInsets.only(left: 20),
+                                        child: Text(
+                                          game,
+                                          style: const TextStyle(
+                                            color: Colors.amber,
+                                            fontSize: 15,
+                                          ),
+                                        ),
                                       )
                                     ],
                                   ),
@@ -452,6 +461,7 @@ class _CatchDetailsBlockState extends State<CatchDetailsBlock> {
                         context: context,
                         builder: (BuildContext context) {
                           return ShowOptions(
+                            listMode: true,
                             items: Dex.allGames().toList().map((game) {
                               return PkmOption(
                                 onTap: () => {
@@ -462,19 +472,27 @@ class _CatchDetailsBlockState extends State<CatchDetailsBlock> {
                                 },
                                 content: Padding(
                                   padding: const EdgeInsets.all(10.0),
-                                  child: Column(
+                                  child: Row(
+                                    mainAxisSize:
+                                        (MediaQuery.of(context).size.width <
+                                                400)
+                                            ? MainAxisSize.max
+                                            : MainAxisSize.min,
                                     children: [
                                       Image.network(
                                           kImageLocalPrefix +
                                               Game.gameIcon(game),
-                                          height: 100),
-                                      const SizedBox(
-                                        height: 10,
-                                      ),
-                                      Text(
-                                        game,
-                                        style: const TextStyle(
-                                            color: Colors.amber),
+                                          height: PkmOption.size(context)),
+                                      Padding(
+                                        padding:
+                                            const EdgeInsets.only(left: 20),
+                                        child: Text(
+                                          game,
+                                          style: const TextStyle(
+                                            color: Colors.amber,
+                                            fontSize: 15,
+                                          ),
+                                        ),
                                       )
                                     ],
                                   ),

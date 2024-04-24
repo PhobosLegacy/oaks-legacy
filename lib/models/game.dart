@@ -178,13 +178,13 @@ class Dex {
       "Pokemon Shield",
       "Let's Go Pikachu",
       "Let's Go Eevee",
-      "Pokemon Legends: Arceus",
       "Pokemon X",
       "Pokemon Y",
       "Pokemon Sun",
       "Pokemon Moon",
       "Pokemon Ultra Sun",
       "Pokemon Ultra Moon",
+      "Pokemon Legends: Arceus",
       "Pokemon Home",
     ];
   }
