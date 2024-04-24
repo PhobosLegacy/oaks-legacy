@@ -1,6 +1,7 @@
 // import 'dart:async';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:oaks_legacy/components/image.dart';
 import 'package:oaks_legacy/constants.dart';
 
 class PkmImage extends StatelessWidget {
@@ -26,38 +27,46 @@ class PkmImage extends StatelessWidget {
           child: Stack(
             children: (shadowOnly == true)
                 ? [
-                    CachedNetworkImage(
-                      imageUrl: "$kImageLocalPrefix/$image",
-                      color: Colors.black87,
-                      height: height,
-                      placeholder: (context, url) => const Center(
-                        child: CircularProgressIndicator(
-                          color: Colors.red,
-                        ),
-                      ),
-                    ),
+                    getImage('$kImageLocalPrefix$image', height, shadow: true),
                   ]
                 : [
-                    // CachedNetworkImage(
-                    //   imageUrl: "$kImageLocalPrefix/$image",
-                    //   color: Colors.black87,
-                    //   height: height,
-                    //   placeholder: (context, url) => const Center(
-                    //     child: CircularProgressIndicator(
-                    //       color: Colors.red,
-                    //     ),
-                    //   ),
-                    // ),
-                    CachedNetworkImage(
-                      imageUrl: "$kImageLocalPrefix/$image",
-                      height: height,
-                      placeholder: (context, url) => const Center(
-                        child: CircularProgressIndicator(
-                          color: Colors.red,
-                        ),
-                      ),
-                    ),
+                    getImage('$kImageLocalPrefix$image', height, shadow: true),
+                    getImage('$kImageLocalPrefix$image', height - 5),
                   ],
+            // children: (shadowOnly == true)
+            //     ? [
+            //         CachedNetworkImage(
+            //           imageUrl: "$kImageLocalPrefix/$image",
+            //           color: Colors.black87,
+            //           height: height,
+            //           placeholder: (context, url) => const Center(
+            //             child: CircularProgressIndicator(
+            //               color: Colors.red,
+            //             ),
+            //           ),
+            //         ),
+            //       ]
+            //     : [
+            //         // CachedNetworkImage(
+            //         //   imageUrl: "$kImageLocalPrefix/$image",
+            //         //   color: Colors.black87,
+            //         //   height: height,
+            //         //   placeholder: (context, url) => const Center(
+            //         //     child: CircularProgressIndicator(
+            //         //       color: Colors.red,
+            //         //     ),
+            //         //   ),
+            //         // ),
+            //         CachedNetworkImage(
+            //           imageUrl: "$kImageLocalPrefix/$image",
+            //           height: height,
+            //           placeholder: (context, url) => const Center(
+            //             child: CircularProgressIndicator(
+            //               color: Colors.red,
+            //             ),
+            //           ),
+            //         ),
+            //       ],
           ),
         ),
       ),
