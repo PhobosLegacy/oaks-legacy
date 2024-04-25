@@ -107,7 +107,7 @@ class DatabaseManager {
     var records = await Supabase.instance.client
         .from(kTrackersKey)
         .select()
-        .match({'userIdentity': loggedUserId});
+        .match({'userIdentity': loggedUserId}).order('id', ascending: true);
 
     if (records.isEmpty) {
       return List<Tracker>.empty(growable: true);
