@@ -191,6 +191,25 @@ class Item {
   }
 }
 
+extension ListItemExtensions on List<Item>? {
+  asFlatList() {
+    List<Item> filtered = [];
+
+    for (var pokemon in this!) {
+      if (pokemon.forms.isEmpty) {
+        filtered.add(pokemon);
+      } else {
+        List<Item> pokemons = pokemon.forms.asFlatList();
+        if (pokemons.isNotEmpty) {
+          filtered.addAll(pokemons);
+        }
+      }
+    }
+
+    return filtered;
+  }
+}
+
 extension Filter on List<Item>? {
   Item current(List<int> indexes) {
     Item pokemon = this![indexes.first];

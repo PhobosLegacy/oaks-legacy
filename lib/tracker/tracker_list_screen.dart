@@ -122,12 +122,12 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
                         trackerInfo: widget.collection.trackerInfo(),
                         indexes: [index],
                         isLowerTile: false,
-                        onStateChange: () {
-                          setState(() async {
-                            await saveTracker(widget.collection);
+                        onStateChange: () async {
+                          await saveTracker(widget.collection);
+                          setState(() {
                             applyFilters();
-                            widget.callBackAction();
                           });
+                          widget.callBackAction();
                         },
                       );
                     },
@@ -206,6 +206,7 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
     }
   }
 
+  bool flat = false;
   List<Widget> appBarActions() {
     return [
       IconButton(
