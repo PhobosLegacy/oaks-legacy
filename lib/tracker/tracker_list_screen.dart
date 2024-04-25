@@ -123,8 +123,8 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
                         indexes: [index],
                         isLowerTile: false,
                         onStateChange: () {
-                          setState(() {
-                            saveTracker(widget.collection);
+                          setState(() async {
+                            await saveTracker(widget.collection);
                             applyFilters();
                             widget.callBackAction();
                           });
