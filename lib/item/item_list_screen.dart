@@ -209,50 +209,54 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
           )
         //GROUPED
         : Expanded(
-            child: Column(
-              children: [
-                ...groups.map((group) {
-                  return SizedBox(
-                    height:
-                        (group.items.length / PkmGrid.getCardsPerRow(context))
-                                .ceil() *
-                            270,
-                    child: Column(
-                      children: [
-                        SizedBox(
-                          height: 50,
-                          child: Text(
-                            group.name,
-                            style: const TextStyle(
-                              fontSize: 35,
-                              color: Colors.white,
+            child: SingleChildScrollView(
+              child: Column(
+                mainAxisSize: MainAxisSize.max,
+                children: [
+                  ...groups.map((group) {
+                    return SizedBox(
+                      height:
+                          (group.items.length / PkmGrid.getCardsPerRow(context))
+                                  .ceil() *
+                              270,
+                      child: Column(
+                        children: [
+                          SizedBox(
+                            height: 50,
+                            child: Text(
+                              group.name,
+                              style: const TextStyle(
+                                fontSize: 35,
+                                color: Colors.white,
+                              ),
                             ),
                           ),
-                        ),
-                        PkmGrid(
-                          itemBuilder: (context, index) {
-                            return ItemTile(
-                              pokemons: group.items,
-                              isLowerTile: false,
-                              indexes: [index],
-                              onStateChange: (item) {
-                                setState(() {
-                                  saveToCollection(item);
-                                });
-                                showSnackbar(context, '${item.name} updated.');
-                              },
-                              onDelete: (item) async {
-                                await removeFromColletion(item);
-                              },
-                            );
-                          },
-                          itemCount: group.items.length,
-                        ),
-                      ],
-                    ),
-                  );
-                }),
-              ],
+                          PkmGrid(
+                            itemBuilder: (context, index) {
+                              return ItemTile(
+                                pokemons: group.items,
+                                isLowerTile: false,
+                                indexes: [index],
+                                onStateChange: (item) {
+                                  setState(() {
+                                    saveToCollection(item);
+                                  });
+                                  showSnackbar(
+                                      context, '${item.name} updated.');
+                                },
+                                onDelete: (item) async {
+                                  await removeFromColletion(item);
+                                },
+                              );
+                            },
+                            itemCount: group.items.length,
+                          ),
+                        ],
+                      ),
+                    );
+                  }),
+                ],
+              ),
             ),
           );
   }
