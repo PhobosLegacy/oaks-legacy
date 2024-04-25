@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/action_button.dart';
 import 'package:oaks_legacy/components/app_bar_details.dart';
 import 'package:oaks_legacy/components/basic.dart';
-import 'package:oaks_legacy/constants.dart';
+import 'package:oaks_legacy/components/pkm_image.dart';
 import 'package:oaks_legacy/models/enums.dart';
 import 'package:oaks_legacy/pokedex/blocks/attributes_details.dart';
 import 'package:oaks_legacy/pokedex/blocks/catch_details.dart';
@@ -72,8 +72,9 @@ class _TrackerDetailsPageState extends State<TrackerDetailsPage> {
                           Expanded(
                             child: Align(
                               alignment: Alignment.center,
-                              child: Image.network(
-                                '${kImageLocalPrefix}mons/${displayPokemon.displayImage}',
+                              child: PkmImage(
+                                heroTag: displayPokemon.ref,
+                                image: 'mons/${displayPokemon.displayImage}',
                               ),
                             ),
                           ),
