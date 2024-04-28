@@ -92,7 +92,8 @@ enum FilterType {
   nameAsc,
   nameDesc,
   numAsc,
-  numDesc
+  numDesc,
+  flatList
 }
 
 enum CollectionDisplayType {
