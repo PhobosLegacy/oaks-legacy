@@ -6389,22 +6389,7 @@
         "weaknessdouble": ["electric", "grass", "bug", "ghost", "dark"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-        "games": [
-          {
-            "name": "Pokemon Sword",
-            "dex": "Isle of Armor",
-            "number": "002",
-            "shinyLocked": "UNLOCKED",
-            "notes": ""
-          },
-          {
-            "name": "Pokemon Shield",
-            "dex": "Isle of Armor",
-            "number": "002",
-            "shinyLocked": "UNLOCKED",
-            "notes": ""
-          }
-        ]
+        "games": []
       },
       {
         "name": "Galarian Slowbro",
@@ -10506,22 +10491,7 @@
         "weaknessdouble": ["electric", "grass", "fighting", "bug", "fairy"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-        "games": [
-          {
-            "name": "Pokemon Sword",
-            "dex": "Regional",
-            "number": "145",
-            "shinyLocked": "UNLOCKED",
-            "notes": ""
-          },
-          {
-            "name": "Pokemon Shield",
-            "dex": "Regional",
-            "number": "145",
-            "shinyLocked": "UNLOCKED",
-            "notes": ""
-          }
-        ]
+        "games": []
       }
     ]
   },
@@ -14808,7 +14778,7 @@
         "weight": "5.0kg",
         "breeding": { "groups": ["Undiscovered"], "cycles": "40" },
         "number": "0201",
-        "ref": "201.0",
+        "ref": "201.1",
         "type1": "psychic",
         "type2": null,
         "image": ["201-002-normal-g.png", "201-002-shiny-g.png"],
@@ -14838,7 +14808,7 @@
         "weight": "5.0kg",
         "breeding": { "groups": ["Undiscovered"], "cycles": "40" },
         "number": "0201",
-        "ref": "201.0",
+        "ref": "201.2",
         "type1": "psychic",
         "type2": null,
         "image": ["201-003-normal-g.png", "201-003-shiny-g.png"],
@@ -14868,7 +14838,7 @@
         "weight": "5.0kg",
         "breeding": { "groups": ["Undiscovered"], "cycles": "40" },
         "number": "0201",
-        "ref": "201.0",
+        "ref": "201.3",
         "type1": "psychic",
         "type2": null,
         "image": ["201-004-normal-g.png", "201-004-shiny-g.png"],
@@ -14898,7 +14868,7 @@
         "weight": "5.0kg",
         "breeding": { "groups": ["Undiscovered"], "cycles": "40" },
         "number": "0201",
-        "ref": "201.0",
+        "ref": "201.4",
         "type1": "psychic",
         "type2": null,
         "image": ["201-005-normal-g.png", "201-005-shiny-g.png"],
@@ -14928,7 +14898,7 @@
         "weight": "5.0kg",
         "breeding": { "groups": ["Undiscovered"], "cycles": "40" },
         "number": "0201",
-        "ref": "201.0",
+        "ref": "201.5",
         "type1": "psychic",
         "type2": null,
         "image": ["201-006-normal-g.png", "201-006-shiny-g.png"],
@@ -14958,7 +14928,7 @@
         "weight": "5.0kg",
         "breeding": { "groups": ["Undiscovered"], "cycles": "40" },
         "number": "0201",
-        "ref": "201.0",
+        "ref": "201.6",
         "type1": "psychic",
         "type2": null,
         "image": ["201-007-normal-g.png", "201-007-shiny-g.png"],
@@ -14988,7 +14958,7 @@
         "weight": "5.0kg",
         "breeding": { "groups": ["Undiscovered"], "cycles": "40" },
         "number": "0201",
-        "ref": "201.0",
+        "ref": "201.7",
         "type1": "psychic",
         "type2": null,
         "image": ["201-008-normal-g.png", "201-008-shiny-g.png"],
@@ -15018,7 +14988,7 @@
         "weight": "5.0kg",
         "breeding": { "groups": ["Undiscovered"], "cycles": "40" },
         "number": "0201",
-        "ref": "201.0",
+        "ref": "201.8",
         "type1": "psychic",
         "type2": null,
         "image": ["201-009-normal-g.png", "201-009-shiny-g.png"],
@@ -15048,7 +15018,7 @@
         "weight": "5.0kg",
         "breeding": { "groups": ["Undiscovered"], "cycles": "40" },
         "number": "0201",
-        "ref": "201.0",
+        "ref": "201.9",
         "type1": "psychic",
         "type2": null,
         "image": ["201-010-normal-g.png", "201-010-shiny-g.png"],
@@ -15078,7 +15048,7 @@
         "weight": "5.0kg",
         "breeding": { "groups": ["Undiscovered"], "cycles": "40" },
         "number": "0201",
-        "ref": "201.0",
+        "ref": "201.10",
         "type1": "psychic",
         "type2": null,
         "image": ["201-011-normal-g.png", "201-011-shiny-g.png"],
@@ -15108,7 +15078,7 @@
         "weight": "5.0kg",
         "breeding": { "groups": ["Undiscovered"], "cycles": "40" },
         "number": "0201",
-        "ref": "201.0",
+        "ref": "201.11",
         "type1": "psychic",
         "type2": null,
         "image": ["201-012-normal-g.png", "201-012-shiny-g.png"],
@@ -15138,7 +15108,7 @@
         "weight": "5.0kg",
         "breeding": { "groups": ["Undiscovered"], "cycles": "40" },
         "number": "0201",
-        "ref": "201.0",
+        "ref": "201.12",
         "type1": "psychic",
         "type2": null,
         "image": ["201-013-normal-g.png", "201-013-shiny-g.png"],
@@ -15168,7 +15138,7 @@
         "weight": "5.0kg",
         "breeding": { "groups": ["Undiscovered"], "cycles": "40" },
         "number": "0201",
-        "ref": "201.0",
+        "ref": "201.13",
         "type1": "psychic",
         "type2": null,
         "image": ["201-014-normal-g.png", "201-014-shiny-g.png"],
@@ -15198,7 +15168,7 @@
         "weight": "5.0kg",
         "breeding": { "groups": ["Undiscovered"], "cycles": "40" },
         "number": "0201",
-        "ref": "201.0",
+        "ref": "201.14",
         "type1": "psychic",
         "type2": null,
         "image": ["201-015-normal-g.png", "201-015-shiny-g.png"],
@@ -15228,7 +15198,7 @@
         "weight": "5.0kg",
         "breeding": { "groups": ["Undiscovered"], "cycles": "40" },
         "number": "0201",
-        "ref": "201.0",
+        "ref": "201.15",
         "type1": "psychic",
         "type2": null,
         "image": ["201-016-normal-g.png", "201-016-shiny-g.png"],
@@ -15258,7 +15228,7 @@
         "weight": "5.0kg",
         "breeding": { "groups": ["Undiscovered"], "cycles": "40" },
         "number": "0201",
-        "ref": "201.0",
+        "ref": "201.16",
         "type1": "psychic",
         "type2": null,
         "image": ["201-017-normal-g.png", "201-017-shiny-g.png"],
@@ -15288,7 +15258,7 @@
         "weight": "5.0kg",
         "breeding": { "groups": ["Undiscovered"], "cycles": "40" },
         "number": "0201",
-        "ref": "201.0",
+        "ref": "201.17",
         "type1": "psychic",
         "type2": null,
         "image": ["201-018-normal-g.png", "201-018-shiny-g.png"],
@@ -15318,7 +15288,7 @@
         "weight": "5.0kg",
         "breeding": { "groups": ["Undiscovered"], "cycles": "40" },
         "number": "0201",
-        "ref": "201.0",
+        "ref": "201.18",
         "type1": "psychic",
         "type2": null,
         "image": ["201-019-normal-g.png", "201-019-shiny-g.png"],
@@ -15348,7 +15318,7 @@
         "weight": "5.0kg",
         "breeding": { "groups": ["Undiscovered"], "cycles": "40" },
         "number": "0201",
-        "ref": "201.0",
+        "ref": "201.19",
         "type1": "psychic",
         "type2": null,
         "image": ["201-020-normal-g.png", "201-020-shiny-g.png"],
@@ -15378,7 +15348,7 @@
         "weight": "5.0kg",
         "breeding": { "groups": ["Undiscovered"], "cycles": "40" },
         "number": "0201",
-        "ref": "201.0",
+        "ref": "201.20",
         "type1": "psychic",
         "type2": null,
         "image": ["201-021-normal-g.png", "201-021-shiny-g.png"],
@@ -15408,7 +15378,7 @@
         "weight": "5.0kg",
         "breeding": { "groups": ["Undiscovered"], "cycles": "40" },
         "number": "0201",
-        "ref": "201.0",
+        "ref": "201.21",
         "type1": "psychic",
         "type2": null,
         "image": ["201-022-normal-g.png", "201-022-shiny-g.png"],
@@ -15438,7 +15408,7 @@
         "weight": "5.0kg",
         "breeding": { "groups": ["Undiscovered"], "cycles": "40" },
         "number": "0201",
-        "ref": "201.0",
+        "ref": "201.22",
         "type1": "psychic",
         "type2": null,
         "image": ["201-023-normal-g.png", "201-023-shiny-g.png"],
@@ -15468,7 +15438,7 @@
         "weight": "5.0kg",
         "breeding": { "groups": ["Undiscovered"], "cycles": "40" },
         "number": "0201",
-        "ref": "201.0",
+        "ref": "201.23",
         "type1": "psychic",
         "type2": null,
         "image": ["201-024-normal-g.png", "201-024-shiny-g.png"],
@@ -15498,7 +15468,7 @@
         "weight": "5.0kg",
         "breeding": { "groups": ["Undiscovered"], "cycles": "40" },
         "number": "0201",
-        "ref": "201.0",
+        "ref": "201.24",
         "type1": "psychic",
         "type2": null,
         "image": ["201-025-normal-g.png", "201-025-shiny-g.png"],
@@ -15528,7 +15498,7 @@
         "weight": "5.0kg",
         "breeding": { "groups": ["Undiscovered"], "cycles": "40" },
         "number": "0201",
-        "ref": "201.0",
+        "ref": "201.25",
         "type1": "psychic",
         "type2": null,
         "image": ["201-026-normal-g.png", "201-026-shiny-g.png"],
@@ -15558,7 +15528,7 @@
         "weight": "5.0kg",
         "breeding": { "groups": ["Undiscovered"], "cycles": "40" },
         "number": "0201",
-        "ref": "201.0",
+        "ref": "201.26",
         "type1": "psychic",
         "type2": null,
         "image": ["201-027-normal-g.png", "201-027-shiny-g.png"],
@@ -15588,7 +15558,7 @@
         "weight": "5.0kg",
         "breeding": { "groups": ["Undiscovered"], "cycles": "40" },
         "number": "0201",
-        "ref": "201.0",
+        "ref": "201.27",
         "type1": "psychic",
         "type2": null,
         "image": ["201-028-normal-g.png", "201-028-shiny-g.png"],
@@ -15997,22 +15967,7 @@
         "weaknessdouble": ["fire", "water", "fighting", "ground"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-        "games": [
-          {
-            "name": "Pokemon Sword",
-            "dex": "Regional",
-            "number": "179",
-            "shinyLocked": "UNLOCKED",
-            "notes": ""
-          },
-          {
-            "name": "Pokemon Shield",
-            "dex": "Regional",
-            "number": "179",
-            "shinyLocked": "UNLOCKED",
-            "notes": ""
-          }
-        ]
+        "games": []
       }
     ]
   },
@@ -18409,22 +18364,7 @@
         "weaknessdouble": ["water", "grass", "ground", "bug", "steel", "fairy"],
         "weaknessquadruple": ["fighting"],
         "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-        "games": [
-          {
-            "name": "Pokemon Sword",
-            "dex": "Regional",
-            "number": "385",
-            "shinyLocked": "UNLOCKED",
-            "notes": "Shield Exclusive"
-          },
-          {
-            "name": "Pokemon Shield",
-            "dex": "Regional",
-            "number": "385",
-            "shinyLocked": "UNLOCKED",
-            "notes": ""
-          }
-        ]
+        "games": []
       }
     ]
   },
@@ -20180,22 +20120,7 @@
         "weaknessdouble": ["poison", "ghost", "steel"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-        "games": [
-          {
-            "name": "Pokemon Sword",
-            "dex": "Regional",
-            "number": "122",
-            "shinyLocked": "UNLOCKED",
-            "notes": ""
-          },
-          {
-            "name": "Pokemon Shield",
-            "dex": "Regional",
-            "number": "122",
-            "shinyLocked": "UNLOCKED",
-            "notes": ""
-          }
-        ]
+        "games": []
       }
     ]
   },
@@ -21081,22 +21006,7 @@
         "weaknessdouble": ["fairy"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-        "games": [
-          {
-            "name": "Pokemon Sword",
-            "dex": "Regional",
-            "number": "294",
-            "shinyLocked": "UNLOCKED",
-            "notes": "Shield Exclusive"
-          },
-          {
-            "name": "Pokemon Shield",
-            "dex": "Regional",
-            "number": "294",
-            "shinyLocked": "UNLOCKED",
-            "notes": ""
-          }
-        ]
+        "games": []
       }
     ]
   },
@@ -21189,22 +21099,7 @@
         "weaknessdouble": ["fire", "ground"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-        "games": [
-          {
-            "name": "Pokemon Sword",
-            "dex": "Regional",
-            "number": "295",
-            "shinyLocked": "UNLOCKED",
-            "notes": ""
-          },
-          {
-            "name": "Pokemon Shield",
-            "dex": "Regional",
-            "number": "295",
-            "shinyLocked": "UNLOCKED",
-            "notes": "Sword Exclusive"
-          }
-        ]
+        "games": []
       }
     ]
   },
@@ -21560,22 +21455,7 @@
         "weaknessdouble": ["ground"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-        "games": [
-          {
-            "name": "Pokemon Sword",
-            "dex": "Regional",
-            "number": "067",
-            "shinyLocked": "UNLOCKED",
-            "notes": ""
-          },
-          {
-            "name": "Pokemon Shield",
-            "dex": "Regional",
-            "number": "067",
-            "shinyLocked": "UNLOCKED",
-            "notes": ""
-          }
-        ]
+        "games": []
       }
     ]
   },
@@ -24426,22 +24306,7 @@
         "weaknessdouble": ["fire", "fighting", "rock", "steel"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-        "games": [
-          {
-            "name": "Pokemon Sword",
-            "dex": "Regional",
-            "number": "080",
-            "shinyLocked": "UNLOCKED",
-            "notes": ""
-          },
-          {
-            "name": "Pokemon Shield",
-            "dex": "Regional",
-            "number": "080",
-            "shinyLocked": "UNLOCKED",
-            "notes": ""
-          }
-        ]
+        "games": []
       }
     ]
   },
@@ -30365,22 +30230,7 @@
         ],
         "weaknessquadruple": ["fire"],
         "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
-        "games": [
-          {
-            "name": "Pokemon Sword",
-            "dex": "Regional",
-            "number": "097",
-            "shinyLocked": "UNLOCKED",
-            "notes": ""
-          },
-          {
-            "name": "Pokemon Shield",
-            "dex": "Regional",
-            "number": "097",
-            "shinyLocked": "UNLOCKED",
-            "notes": ""
-          }
-        ]
+        "games": []
       }
     ]
   },
@@ -31374,22 +31224,7 @@
         "weaknessdouble": ["flying", "ghost", "fairy"],
         "weaknessquadruple": [],
         "genderRatio": { "male": "100", "female": "0", "genderless": "0" },
-        "games": [
-          {
-            "name": "Pokemon Sword",
-            "dex": "Regional",
-            "number": "123",
-            "shinyLocked": "UNLOCKED",
-            "notes": ""
-          },
-          {
-            "name": "Pokemon Shield",
-            "dex": "Regional",
-            "number": "123",
-            "shinyLocked": "UNLOCKED",
-            "notes": ""
-          }
-        ]
+        "games": []
       }
     ]
   },

@@ -153,6 +153,9 @@ class Tracker {
         case FilterType.nameDesc:
           temp.sort((a, b) => b.name.compareTo(a.name));
           break;
+        case FilterType.flatList:
+          temp = temp.asFlatList();
+          break;
         default:
           return pokemons;
       }

@@ -167,8 +167,6 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
     );
   }
 
-  bool isExpanded = false;
-
   Widget collectionList() {
     List<Group> groups;
     switch (displayType) {

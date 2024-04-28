@@ -37,6 +37,7 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
   String searchQuery = "";
   int _selectedIndex = 0;
   bool _exclusiveOnly = false;
+  bool _flatList = false;
   bool _isSearchOpened = false;
   List<String> _drawerByTypesSelected = [];
   TextEditingController editingController = TextEditingController();
@@ -206,7 +207,6 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
     }
   }
 
-  bool flat = false;
   List<Widget> appBarActions() {
     return [
       IconButton(
@@ -315,9 +315,9 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
       SwitchOption(
         title: "Show Exclusive Only",
         switchValue: _exclusiveOnly,
-        onSwitch: (bool value) {
+        onSwitch: (bool value1) {
           setState(() {
-            _exclusiveOnly = value;
+            _exclusiveOnly = value1;
             (_exclusiveOnly)
                 ? addFilter(FilterType.exclusiveOnly)
                 : removeFilters([FilterType.exclusiveOnly]);
@@ -325,6 +325,22 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
           });
         },
       ),
+      if (widget.collection.pokemons.any((element) => element.forms.isNotEmpty))
+        const Divider(thickness: 2),
+      if (widget.collection.pokemons.any((element) => element.forms.isNotEmpty))
+        SwitchOption(
+          title: "Single List",
+          switchValue: _flatList,
+          onSwitch: (bool value2) {
+            setState(() {
+              _flatList = value2;
+              (_flatList)
+                  ? addFilter(FilterType.flatList)
+                  : removeFilters([FilterType.flatList]);
+              applyFilters();
+            });
+          },
+        ),
       const Divider(thickness: 2),
       FilterByType(
         selectedTypes: _drawerByTypesSelected,
