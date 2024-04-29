@@ -22,48 +22,109 @@ class PkmGrid extends StatefulWidget {
   }
 }
 
+final ScrollController scrollController = ScrollController();
+
 class _PkmGridState extends State<PkmGrid> {
   @override
   build(BuildContext context) {
-    // double currentWidth = MediaQuery.of(context).size.width;
-    // int cardsPerRow = currentWidth ~/ 400;
-    // if (cardsPerRow == 0) cardsPerRow = 1;
     int cardsPerRow = PkmGrid.getCardsPerRow(context);
-    return Center(
-      // child: CustomScrollView(
-      //   scrollDirection: Axis.vertical,
-      //   slivers: <Widget>[
-      //     SliverGrid(
-      //       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-      //         crossAxisSpacing: 5,
-      //         mainAxisSpacing: 5,
-      //         // Adjust the cross axis count as needed
-      //         crossAxisCount: cardsPerRow,
-      //         // Adjust the height here
-      //         childAspectRatio: (cardsPerRow == 1) ? 3 : 2,
-      //       ),
-      //       delegate: SliverChildBuilderDelegate(
-      //         widget.itemBuilder,
-      //         childCount:
-      //             widget.itemCount, // Replace with your actual item count
-      //       ),
-      //     ),
-      //   ],
-      // ),
-      child: GridView.builder(
-        shrinkWrap: true,
-        // physics: const NeverScrollableScrollPhysics(),
-        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisSpacing: 5,
-          mainAxisSpacing: 5,
-          // Adjust the cross axis count as needed
-          crossAxisCount: cardsPerRow,
-          // Adjust the height here
-          childAspectRatio: (cardsPerRow == 1) ? 3 : 2,
-        ),
-        itemCount: widget.itemCount,
-        itemBuilder: widget.itemBuilder,
+
+    return RawScrollbar(
+      controller: scrollController,
+      thumbColor: Colors.red,
+      thickness: 10,
+      minThumbLength: 50,
+      radius: const Radius.circular(10),
+      child: CustomScrollView(
+        controller: scrollController,
+        slivers: [
+          SliverPadding(
+            padding: const EdgeInsets.all(8.0),
+            sliver: SliverGrid(
+              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: cardsPerRow,
+                crossAxisSpacing: 5,
+                mainAxisSpacing: 5,
+                childAspectRatio: (cardsPerRow == 1) ? 3 : 2,
+              ),
+              delegate: SliverChildBuilderDelegate(
+                widget.itemBuilder,
+                childCount: widget.itemCount,
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
 }
+// class _PkmGridState extends State<PkmGrid> {
+//   @override
+//   build(BuildContext context) {
+//     int cardsPerRow = PkmGrid.getCardsPerRow(context);
+
+//     return RawScrollbar(
+//       controller: scrollController,
+//       thumbColor: Colors.red, // set thumb color to transparent
+//       thumbVisibility: true,
+//       minThumbLength: 50,
+//       radius: Radius.circular(10),
+//       trackColor: Colors.amber,
+//       trackVisibility: true,
+//       thickness: 20,
+//       child: CustomScrollView(
+//         controller: scrollController,
+//         slivers: [
+//           SliverPadding(
+//             padding: const EdgeInsets.all(8.0),
+//             sliver: SliverGrid(
+//               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+//                 crossAxisCount: cardsPerRow,
+//                 crossAxisSpacing: 5,
+//                 mainAxisSpacing: 5,
+//                 childAspectRatio: (cardsPerRow == 1) ? 3 : 2,
+//               ),
+//               delegate: SliverChildBuilderDelegate(
+//                 widget.itemBuilder,
+//                 childCount: widget.itemCount,
+//               ),
+//             ),
+//           ),
+//         ],
+//       ),
+//     );
+//   }
+// }
+// double currentWidth = MediaQuery.of(context).size.width;
+// int cardsPerRow = currentWidth ~/ 400;
+// if (cardsPerRow == 0) cardsPerRow = 1;
+// return CustomScrollbar(
+//   scrollController: ScrollController(),
+//   child: GridView.builder(
+//     gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+//       crossAxisCount: cardsPerRow,
+//       crossAxisSpacing: 5,
+//       mainAxisSpacing: 5,
+//       childAspectRatio: (cardsPerRow == 1) ? 3 : 2,
+//     ),
+//     itemBuilder: widget.itemBuilder,
+//     itemCount: widget.itemCount,
+//     shrinkWrap: true, // Ensures the ListView doesn't take extra space
+//   ),
+// );
+// return Center(
+//   child: GridView.builder(
+//     shrinkWrap: true,
+//     // physics: const NeverScrollableScrollPhysics(),
+//     gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+//       crossAxisSpacing: 5,
+//       mainAxisSpacing: 5,
+//       // Adjust the cross axis count as needed
+//       crossAxisCount: cardsPerRow,
+//       // Adjust the height here
+//       childAspectRatio: (cardsPerRow == 1) ? 3 : 2,
+//     ),
+//     itemCount: widget.itemCount,
+//     itemBuilder: widget.itemBuilder,
+//   ),
+// );
