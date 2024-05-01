@@ -38,6 +38,7 @@ class BaseCollectionScreen extends StatefulWidget {
 
 class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
   final controller = ScreenshotController();
+  final gscrollController = ScrollController();
   String searchQuery = "";
   int _selectedTab = 0;
   bool _isSearchOpened = false;
@@ -207,53 +208,61 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
           )
         //GROUPED
         : Expanded(
-            child: SingleChildScrollView(
-              child: Column(
-                mainAxisSize: MainAxisSize.max,
-                children: [
-                  ...groups.map((group) {
-                    return SizedBox(
-                      height:
-                          (group.items.length / PkmGrid.getCardsPerRow(context))
-                                  .ceil() *
-                              270,
-                      child: Column(
-                        children: [
-                          SizedBox(
-                            height: 50,
-                            child: Text(
-                              group.name,
-                              style: const TextStyle(
-                                fontSize: 35,
-                                color: Colors.white,
+            child: RawScrollbar(
+              controller: gscrollController,
+              thumbColor: Colors.red,
+              thickness: 10,
+              minThumbLength: 50,
+              radius: const Radius.circular(10),
+              child: SingleChildScrollView(
+                controller: gscrollController,
+                child: Column(
+                  mainAxisSize: MainAxisSize.max,
+                  children: [
+                    ...groups.map((group) {
+                      return SizedBox(
+                        height: (group.items.length /
+                                    PkmGrid.getCardsPerRow(context))
+                                .ceil() *
+                            270,
+                        child: Column(
+                          children: [
+                            SizedBox(
+                              height: 50,
+                              child: Text(
+                                group.name,
+                                style: const TextStyle(
+                                  fontSize: 35,
+                                  color: Colors.white,
+                                ),
                               ),
                             ),
-                          ),
-                          PkmGrid(
-                            itemBuilder: (context, index) {
-                              return ItemTile(
-                                pokemons: group.items,
-                                isLowerTile: false,
-                                indexes: [index],
-                                onStateChange: (item) {
-                                  setState(() {
-                                    saveToCollection(item);
-                                  });
-                                  showSnackbar(
-                                      context, '${item.name} updated.');
-                                },
-                                onDelete: (item) async {
-                                  await removeFromColletion(item);
-                                },
-                              );
-                            },
-                            itemCount: group.items.length,
-                          ),
-                        ],
-                      ),
-                    );
-                  }),
-                ],
+                            PkmGrid(
+                              itemBuilder: (context, index) {
+                                return ItemTile(
+                                  pokemons: group.items,
+                                  isLowerTile: false,
+                                  indexes: [index],
+                                  onStateChange: (item) {
+                                    setState(() {
+                                      saveToCollection(item);
+                                    });
+                                    showSnackbar(
+                                        context, '${item.name} updated.');
+                                  },
+                                  onDelete: (item) async {
+                                    await removeFromColletion(item);
+                                  },
+                                );
+                              },
+                              itemCount: group.items.length,
+                            ),
+                          ],
+                        ),
+                      );
+                    }),
+                  ],
+                ),
               ),
             ),
           );
@@ -312,7 +321,7 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
           });
         },
       ),
-      if (_selectedTab == 0)
+      if (_selectedTab == 0 && kFlags.screenshot)
         ScreenShotButton(
           screenshotController: controller,
           shouldTrim: collection.length < PkmGrid.getCardsPerRow(context),
