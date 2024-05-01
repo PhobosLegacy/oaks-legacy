@@ -35,25 +35,22 @@ class _PkmGridState extends State<PkmGrid> {
       thickness: 10,
       minThumbLength: 50,
       radius: const Radius.circular(10),
-      child: CustomScrollView(
-        controller: scrollController,
-        slivers: [
-          SliverPadding(
-            padding: const EdgeInsets.all(8.0),
-            sliver: SliverGrid(
-              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: cardsPerRow,
-                crossAxisSpacing: 5,
-                mainAxisSpacing: 5,
-                childAspectRatio: (cardsPerRow == 1) ? 3 : 2,
-              ),
-              delegate: SliverChildBuilderDelegate(
-                widget.itemBuilder,
-                childCount: widget.itemCount,
-              ),
-            ),
+      child: Center(
+        child: GridView.builder(
+          shrinkWrap: true,
+          controller: scrollController,
+          // physics: const NeverScrollableScrollPhysics(),
+          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisSpacing: 5,
+            mainAxisSpacing: 5,
+            // Adjust the cross axis count as needed
+            crossAxisCount: cardsPerRow,
+            // Adjust the height here
+            childAspectRatio: (cardsPerRow == 1) ? 3 : 2,
           ),
-        ],
+          itemCount: widget.itemCount,
+          itemBuilder: widget.itemBuilder,
+        ),
       ),
     );
   }
