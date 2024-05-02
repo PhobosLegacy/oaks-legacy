@@ -85,9 +85,9 @@ class _LoadingScreenState extends State<LoadingScreen> {
           !html.window.location.href.contains('signup=complete')) {
         String? code =
             Uri.parse(html.window.location.href).queryParameters['code'];
-
+        //https://oaks-legacy.vercel.app/?error=access_denied&error_code=403&error_description=Email+link+is+invalid+or+has+expired
         // try {
-        //   await Supabase.instance.client.auth.exchangeCodeForSession(code!);
+        // await Supabase.instance.client.auth.exchangeCodeForSession(code!);
         // } catch (err) {}
 
         // var access = Supabase.instance.client.auth.currentSession!.accessToken;
