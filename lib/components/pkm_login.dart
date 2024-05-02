@@ -219,14 +219,16 @@ class _PkmAccountIconState extends State<PkmAccountIcon>
     );
   }
 
-  resetPassword(resetCode) {
+  resetPassword(resetCode) async {
     isLoginBoxVisible = true;
+    await Supabase.instance.client.auth.exchangeCodeForSession(resetCode);
     return SizedBox(
       width: 300,
       child: Padding(
         padding: const EdgeInsets.all(10),
         child: SupaResetPassword(
-          accessToken: resetCode,
+          accessToken:
+              Supabase.instance.client.auth.currentSession?.accessToken,
           onSuccess: (UserResponse response) {
             setState(() {
               logUser(response.user!.id);
