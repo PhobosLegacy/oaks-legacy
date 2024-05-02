@@ -85,6 +85,13 @@ class _LoadingScreenState extends State<LoadingScreen> {
           !html.window.location.href.contains('signup=complete')) {
         String? code =
             Uri.parse(html.window.location.href).queryParameters['code'];
+
+        // try {
+        //   await Supabase.instance.client.auth.exchangeCodeForSession(code!);
+        // } catch (err) {}
+
+        // var access = Supabase.instance.client.auth.currentSession!.accessToken;
+        // openNextScreen(ForgotPasswordScreen(resetCode: access));
         openNextScreen(ForgotPasswordScreen(resetCode: code));
       } else {
         openNextScreen(const StartScreen());

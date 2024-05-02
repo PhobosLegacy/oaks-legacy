@@ -145,7 +145,7 @@ class _PkmAccountIconState extends State<PkmAccountIcon>
       child: Padding(
         padding: const EdgeInsets.all(10),
         child: SupaEmailAuth(
-          redirectTo: 'https://oaks-legacy.vercel.app/?signup=complete',
+          // redirectTo: 'https://oaks-legacy.vercel.app',
           onError: (error) {
             showSnackbar(context, error.toString());
           },
@@ -219,16 +219,15 @@ class _PkmAccountIconState extends State<PkmAccountIcon>
     );
   }
 
-  resetPassword(resetCode) async {
+  resetPassword(resetCode) {
     isLoginBoxVisible = true;
-    // await Supabase.instance.client.auth.exchangeCodeForSession(resetCode);
+
     return SizedBox(
       width: 300,
       child: Padding(
         padding: const EdgeInsets.all(10),
         child: SupaResetPassword(
           accessToken: resetCode,
-          // Supabase.instance.client.auth.currentSession?.accessToken,
           onSuccess: (UserResponse response) {
             setState(() {
               logUser(response.user!.id);
