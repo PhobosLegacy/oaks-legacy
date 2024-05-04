@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:oaks_legacy/components/pkm_scrollbar.dart';
 import 'package:oaks_legacy/components/pkm_grid.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/item/item_tile.dart';
@@ -208,12 +209,8 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
           )
         //GROUPED
         : Expanded(
-            child: RawScrollbar(
-              controller: gscrollController,
-              thumbColor: Colors.red,
-              thickness: 10,
-              minThumbLength: 50,
-              radius: const Radius.circular(10),
+            child: PkmScrollbar(
+              scrollController: gscrollController,
               child: SingleChildScrollView(
                 controller: gscrollController,
                 child: Column(

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:oaks_legacy/components/pkm_scrollbar.dart';
 
 class PkmGrid extends StatefulWidget {
   const PkmGrid({
@@ -29,12 +30,8 @@ class _PkmGridState extends State<PkmGrid> {
   build(BuildContext context) {
     int cardsPerRow = PkmGrid.getCardsPerRow(context);
 
-    return RawScrollbar(
-      controller: scrollController,
-      thumbColor: Colors.red,
-      thickness: 10,
-      minThumbLength: 50,
-      radius: const Radius.circular(10),
+    return PkmScrollbar(
+      scrollController: scrollController,
       child: Center(
         child: GridView.builder(
           shrinkWrap: true,
