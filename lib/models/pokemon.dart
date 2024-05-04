@@ -402,8 +402,7 @@ extension Filter on List<Pokemon>? {
 
     for (var pokemon in this!) {
       if (pokemon.forms.isEmpty) {
-        if (containsType(types, pokemon.type1) ||
-            containsType(types, pokemon.type2)) {
+        if (containsType(types!, [pokemon.type1, pokemon.type2])) {
           filtered.add(pokemon);
         }
       } else {
@@ -426,19 +425,10 @@ extension Filter on List<Pokemon>? {
       switch (filter) {
         case FilterType.byValue:
           temp = temp.findByName(words!);
-          // temp = temp
-          //     .where((element) =>
-          //         element.name.toLowerCase().contains(words!.toLowerCase()))
-          //     .toList();
           break;
         case FilterType.byType:
           if (types != null && types.isNotEmpty) {
             temp = temp.findByType(types);
-            // temp = temp
-            //     .where((element) =>
-            //         containsType(types, element.type1) ||
-            //         containsType(types, element.type2))
-            //     .toList();
           }
           break;
         case FilterType.numAsc:
@@ -544,7 +534,12 @@ extension Filter on List<Pokemon>? {
   }
 }
 
-containsType(List<String>? values, PokemonType? type) {
-  if (type == null) return false;
-  return values!.contains(type.name);
+containsType(List<String> filterTypes, List<PokemonType?> pkmTypes) {
+  if (!filterTypes.contains(pkmTypes[0]!.name)) return false;
+  if (filterTypes.length == 2 && pkmTypes[1] == null) return false;
+  if (filterTypes.length == 1 && pkmTypes[1] != null) return false;
+  if (filterTypes.length == 2 && pkmTypes[1] != null) {
+    if (!filterTypes.contains(pkmTypes[1]!.name)) return false;
+  }
+  return true;
 }

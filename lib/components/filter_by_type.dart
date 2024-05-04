@@ -53,6 +53,10 @@ class FilterByType extends StatelessWidget {
                           ? selectedTypes.remove(item.name)
                           : selectedTypes.add(item.name);
 
+                      if (selectedTypes.length > 2) {
+                        selectedTypes.removeAt(0);
+                      }
+
                       onTypeSelected(selectedTypes);
                     },
                     label: TypeIcon(

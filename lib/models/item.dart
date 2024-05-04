@@ -272,6 +272,35 @@ extension Filter on List<Item>? {
 
     return temp;
   }
+
+  findByType(List<String>? types) {
+    List<Item> filtered = [];
+
+    for (var pokemon in this!) {
+      if (pokemon.forms.isEmpty) {
+        if (containsType(types!, [pokemon.type1, pokemon.type2])) {
+          filtered.add(pokemon);
+        }
+      } else {
+        List<Item> pokemons = pokemon.forms.findByType(types);
+        if (pokemons.isNotEmpty) {
+          filtered.addAll(pokemons);
+        }
+      }
+    }
+
+    return filtered;
+  }
+}
+
+containsType(List<String> filterTypes, List<PokemonType?> pkmTypes) {
+  if (!filterTypes.contains(pkmTypes[0]!.name)) return false;
+  if (filterTypes.length == 2 && pkmTypes[1] == null) return false;
+  if (filterTypes.length == 1 && pkmTypes[1] != null) return false;
+  if (filterTypes.length == 2 && pkmTypes[1] != null) {
+    if (!filterTypes.contains(pkmTypes[1]!.name)) return false;
+  }
+  return true;
 }
 
 extension ItemExtensions on Item {
