@@ -248,10 +248,8 @@ extension Filter on List<Item>? {
     for (var filter in filters) {
       switch (filter) {
         case FilterType.byValue:
-          temp = temp
-              .where((element) =>
-                  element.name.toLowerCase().contains(words!.toLowerCase()))
-              .toList();
+          // temp = temp.findByName(words!);
+          temp = temp.findByName(words!);
           break;
         case FilterType.numAsc:
           temp.sort((a, b) => a.number.compareTo(b.number));
@@ -283,6 +281,49 @@ extension Filter on List<Item>? {
         }
       } else {
         List<Item> pokemons = pokemon.forms.findByType(types);
+        if (pokemons.isNotEmpty) {
+          filtered.addAll(pokemons);
+        }
+      }
+    }
+
+    return filtered;
+  }
+
+  findByName(String value) {
+    if (int.tryParse(value) != null) return findByNumber(int.parse(value));
+    List<Item> filtered = [];
+
+    for (var pokemon in this!) {
+      if (pokemon.forms.isEmpty) {
+        if (pokemon.name.toLowerCase().startsWith(value.toLowerCase())) {
+          filtered.add(pokemon);
+        }
+      } else {
+        List<Item> pokemons = pokemon.forms.findByName(value);
+        if (pokemons.isNotEmpty) {
+          filtered.addAll(pokemons);
+        }
+      }
+    }
+
+    return filtered;
+  }
+
+  findByNumber(int value) {
+    List<Item> filtered = [];
+
+    if (this!.any((element) => element.number == "")) {
+      return List<Item>.empty(growable: true);
+    }
+
+    for (var pokemon in this!) {
+      if (pokemon.forms.isEmpty) {
+        if (int.parse(pokemon.number) == value) {
+          filtered.add(pokemon);
+        }
+      } else {
+        List<Item> pokemons = pokemon.forms.findByNumber(value);
         if (pokemons.isNotEmpty) {
           filtered.addAll(pokemons);
         }

@@ -109,6 +109,14 @@ class Tracker {
 
     for (var filter in filters) {
       switch (filter) {
+        case FilterType.byValue:
+          temp = temp.findByName(words!);
+          break;
+        case FilterType.byType:
+          if (types != null && types.isNotEmpty) {
+            temp = temp.findByType(types);
+          }
+          break;
         case FilterType.captured:
           temp = temp
               .where((element) =>
@@ -126,17 +134,7 @@ class Tracker {
         case FilterType.exclusiveOnly:
           temp = temp.where((element) => element.game.notes != "").toList();
           break;
-        case FilterType.byValue:
-          temp = temp
-              .where((element) =>
-                  element.name.toLowerCase().contains(words!.toLowerCase()))
-              .toList();
-          break;
-        case FilterType.byType:
-          if (types != null && types.isNotEmpty) {
-            temp = temp.findByType(types);
-          }
-          break;
+
         // case FilterType.byType:
         //   if (types != null && types.isNotEmpty) {
         //     temp = temp

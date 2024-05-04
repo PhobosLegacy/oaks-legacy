@@ -379,6 +379,7 @@ class Pokemon {
 
 extension Filter on List<Pokemon>? {
   findByName(String value) {
+    if (int.tryParse(value) != null) return findByNumber(int.parse(value));
     List<Pokemon> filtered = [];
 
     for (var pokemon in this!) {
@@ -388,6 +389,25 @@ extension Filter on List<Pokemon>? {
         }
       } else {
         List<Pokemon> pokemons = pokemon.forms.findByName(value);
+        if (pokemons.isNotEmpty) {
+          filtered.addAll(pokemons);
+        }
+      }
+    }
+
+    return filtered;
+  }
+
+  findByNumber(int value) {
+    List<Pokemon> filtered = [];
+
+    for (var pokemon in this!) {
+      if (pokemon.forms.isEmpty) {
+        if (int.parse(pokemon.number) == value) {
+          filtered.add(pokemon);
+        }
+      } else {
+        List<Pokemon> pokemons = pokemon.forms.findByNumber(value);
         if (pokemons.isNotEmpty) {
           filtered.addAll(pokemons);
         }
