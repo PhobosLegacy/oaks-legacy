@@ -109,6 +109,14 @@ class Tracker {
 
     for (var filter in filters) {
       switch (filter) {
+        case FilterType.byValue:
+          temp = temp.findByName(words!);
+          break;
+        case FilterType.byType:
+          if (types != null && types.isNotEmpty) {
+            temp = temp.findByType(types);
+          }
+          break;
         case FilterType.captured:
           temp = temp
               .where((element) =>
@@ -126,21 +134,16 @@ class Tracker {
         case FilterType.exclusiveOnly:
           temp = temp.where((element) => element.game.notes != "").toList();
           break;
-        case FilterType.byValue:
-          temp = temp
-              .where((element) =>
-                  element.name.toLowerCase().contains(words!.toLowerCase()))
-              .toList();
-          break;
-        case FilterType.byType:
-          if (types != null && types.isNotEmpty) {
-            temp = temp
-                .where((element) =>
-                    containsType(types, element.type1) ||
-                    containsType(types, element.type2))
-                .toList();
-          }
-          break;
+
+        // case FilterType.byType:
+        //   if (types != null && types.isNotEmpty) {
+        //     temp = temp
+        //         .where((element) =>
+        //             containsType(types, element.type1) ||
+        //             containsType(types, element.type2))
+        //         .toList();
+        //   }
+        //   break;
         case FilterType.numAsc:
           temp.sort((a, b) => a.number.compareTo(b.number));
           break;
@@ -164,10 +167,10 @@ class Tracker {
     return temp;
   }
 
-  containsType(List<String>? values, PokemonType? type) {
-    if (type == null) return false;
-    return values!.contains(type.name);
-  }
+  // containsType(List<String>? values, PokemonType? type) {
+  //   if (type == null) return false;
+  //   return values!.contains(type.name);
+  // }
 
   trackerInfo() {
     return [game, dex, type];
