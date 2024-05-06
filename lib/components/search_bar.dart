@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:universal_html/html.dart' as html;
 
 class Search extends StatelessWidget {
   const Search(
@@ -24,7 +25,7 @@ class Search extends StatelessWidget {
               padding: const EdgeInsets.all(8.0),
               child: TextField(
                 style: const TextStyle(color: Colors.white),
-                autofocus: true,
+                autofocus: !isIOS(),
                 onChanged: onValueChange,
                 controller: editingController,
                 decoration: InputDecoration(
@@ -65,4 +66,10 @@ class Search extends StatelessWidget {
       ),
     );
   }
+}
+
+bool isIOS() {
+  // Check if the user agent contains "iPhone" or "iPad"
+  return html.window.navigator.userAgent.toLowerCase().contains('iphone') ||
+      html.window.navigator.userAgent.toLowerCase().contains('ipad');
 }
