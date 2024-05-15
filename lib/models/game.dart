@@ -58,13 +58,15 @@ class Game extends Dex {
         return const Color.fromARGB(255, 194, 63, 56);
       case "Pokemon X":
         return const Color.fromARGB(255, 59, 40, 178);
+      case "Pokemon Brilliant Diamond":
+        return const Color.fromARGB(255, 63, 90, 241);
+      case "Pokemon Shining Pearl":
+        return Color.fromARGB(255, 232, 172, 234);
       case "Pokemon Omega Ruby":
       case "Pokemon Alpha Sapphire":
-      case "Pokemon Brillian Diamond":
-      case "Pokemon Shining Pearl":
       case "Pokemon Go":
       default:
-        return Colors.blue;
+        return Colors.black;
     }
   }
 
@@ -82,6 +84,10 @@ class Game extends Dex {
         return Game.gameColor("Let's Go Pikachu");
       case "Eevee Exclusive":
         return Game.gameColor("Let's Go Eevee");
+      case "Diamond Exclusive":
+        return Game.gameColor("Pokemon Brilliant Diamond");
+      case "Pearl Exclusive":
+        return Game.gameColor("Pokemon Shining Pearl");
       default:
         return Colors.black;
     }
@@ -119,7 +125,7 @@ class Game extends Dex {
         return path += "pokemon_omega_ruby.png";
       case "Pokemon Alpha Sapphire":
         return path += "pokemon_alpha_sapphire.png";
-      case "Pokemon Brillian Diamond":
+      case "Pokemon Brilliant Diamond":
         return path += "pokemon_brilliant_diamond.png";
       case "Pokemon Shining Pearl":
         return path += "pokemon_shining_pearl.png";
@@ -160,7 +166,9 @@ class Dex {
       "Pokemon Shield",
       "Let's Go Pikachu",
       "Let's Go Eevee",
-      "Pokemon Legends: Arceus"
+      "Pokemon Legends: Arceus",
+      "Pokemon Brilliant Diamond",
+      "Pokemon Shining Pearl",
       // "Pokemon X",
       // "Pokemon Y",
       // "Pokemon Sun",
@@ -185,6 +193,8 @@ class Dex {
       "Pokemon Ultra Sun",
       "Pokemon Ultra Moon",
       "Pokemon Legends: Arceus",
+      "Pokemon Brilliant Diamond",
+      "Pokemon Shining Pearl",
       "Pokemon Home",
     ];
   }
@@ -209,6 +219,10 @@ class Dex {
           "Dynamax Adventure Bosses",
           "Gigantamax Forms"
         ]);
+        break;
+      case "Pokemon Brilliant Diamond":
+      case "Pokemon Shining Pearl":
+        dex.addAll(["National Dex"]);
         break;
       default:
     }
