@@ -45,10 +45,10 @@ class StartTrackingButton extends StatelessWidget {
                     actions: [
                       TextButton(
                         child: const Text("Confirm"),
-                        onPressed: () {
+                        onPressed: () async {
                           Navigator.pop(context);
 
-                          var test = createTracker(textController.text,
+                          var test = await createTracker(textController.text,
                               gamePicked, dexPicked, trackerPicked);
 
                           setStateCallback(test);

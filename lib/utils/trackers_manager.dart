@@ -34,9 +34,9 @@ Future deleteTracker(String name) async {
   // FileManager.delete(name);
 }
 
-Tracker createTracker(
+Future<Tracker> createTracker(
     String trackerName, String gameName, String dexName, String trackerType,
-    {bool save = true}) {
+    {bool save = true}) async {
   List<Item> pokemons = [];
   bool isShinyTracker = trackerType.contains("Shiny");
   bool isLivingDexTracker = trackerType.contains("Living");
@@ -86,7 +86,7 @@ Tracker createTracker(
           : pokemon.number);
   // tracker.pokemons.sortBy((pokemon) => pokemon.number);
 
-  if (save) saveTracker(tracker);
+  if (save) await saveTracker(tracker);
 
   return tracker;
 }
