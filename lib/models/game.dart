@@ -61,7 +61,7 @@ class Game extends Dex {
       case "Pokemon Brilliant Diamond":
         return const Color.fromARGB(255, 63, 90, 241);
       case "Pokemon Shining Pearl":
-        return Color.fromARGB(255, 232, 172, 234);
+        return const Color.fromARGB(255, 232, 172, 234);
       case "Pokemon Omega Ruby":
       case "Pokemon Alpha Sapphire":
       case "Pokemon Go":

@@ -31,23 +31,23 @@ class GroupListBy extends StatelessWidget {
                 onDisplaySelected(CollectionDisplayType.groupByPokemon);
               },
               style: ButtonStyle(
-                shape: MaterialStateProperty.all(
+                shape: WidgetStateProperty.all(
                   RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30.0),
                   ),
                 ),
-                foregroundColor: MaterialStateProperty.resolveWith<Color?>(
-                  (Set<MaterialState> states) {
+                foregroundColor: WidgetStateProperty.resolveWith<Color?>(
+                  (Set<WidgetState> states) {
                     return Colors.amber;
                   },
                 ),
-                backgroundColor: MaterialStateProperty.resolveWith<Color?>(
-                  (Set<MaterialState> states) {
+                backgroundColor: WidgetStateProperty.resolveWith<Color?>(
+                  (Set<WidgetState> states) {
                     return Colors.blueGrey[800];
                   },
                 ),
-                overlayColor: MaterialStateProperty.resolveWith<Color?>(
-                  (Set<MaterialState> states) {
+                overlayColor: WidgetStateProperty.resolveWith<Color?>(
+                  (Set<WidgetState> states) {
                     return Colors.amber[800];
                   },
                 ),
@@ -59,23 +59,23 @@ class GroupListBy extends StatelessWidget {
                 onDisplaySelected(CollectionDisplayType.groupByCurrentGame);
               },
               style: ButtonStyle(
-                shape: MaterialStateProperty.all(
+                shape: WidgetStateProperty.all(
                   RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30.0),
                   ),
                 ),
-                foregroundColor: MaterialStateProperty.resolveWith<Color?>(
-                  (Set<MaterialState> states) {
+                foregroundColor: WidgetStateProperty.resolveWith<Color?>(
+                  (Set<WidgetState> states) {
                     return Colors.amber;
                   },
                 ),
-                backgroundColor: MaterialStateProperty.resolveWith<Color?>(
-                  (Set<MaterialState> states) {
+                backgroundColor: WidgetStateProperty.resolveWith<Color?>(
+                  (Set<WidgetState> states) {
                     return Colors.blueGrey[800];
                   },
                 ),
-                overlayColor: MaterialStateProperty.resolveWith<Color?>(
-                  (Set<MaterialState> states) {
+                overlayColor: WidgetStateProperty.resolveWith<Color?>(
+                  (Set<WidgetState> states) {
                     return Colors.amber[800];
                   },
                 ),
@@ -87,23 +87,23 @@ class GroupListBy extends StatelessWidget {
                 onDisplaySelected(CollectionDisplayType.groupByOriginalGame);
               },
               style: ButtonStyle(
-                shape: MaterialStateProperty.all(
+                shape: WidgetStateProperty.all(
                   RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30.0),
                   ),
                 ),
-                foregroundColor: MaterialStateProperty.resolveWith<Color?>(
-                  (Set<MaterialState> states) {
+                foregroundColor: WidgetStateProperty.resolveWith<Color?>(
+                  (Set<WidgetState> states) {
                     return Colors.amber;
                   },
                 ),
-                backgroundColor: MaterialStateProperty.resolveWith<Color?>(
-                  (Set<MaterialState> states) {
+                backgroundColor: WidgetStateProperty.resolveWith<Color?>(
+                  (Set<WidgetState> states) {
                     return Colors.blueGrey[800];
                   },
                 ),
-                overlayColor: MaterialStateProperty.resolveWith<Color?>(
-                  (Set<MaterialState> states) {
+                overlayColor: WidgetStateProperty.resolveWith<Color?>(
+                  (Set<WidgetState> states) {
                     return Colors.amber[800];
                   },
                 ),
@@ -115,23 +115,23 @@ class GroupListBy extends StatelessWidget {
                 onDisplaySelected(CollectionDisplayType.flatList);
               },
               style: ButtonStyle(
-                shape: MaterialStateProperty.all(
+                shape: WidgetStateProperty.all(
                   RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30.0),
                   ),
                 ),
-                foregroundColor: MaterialStateProperty.resolveWith<Color?>(
-                  (Set<MaterialState> states) {
+                foregroundColor: WidgetStateProperty.resolveWith<Color?>(
+                  (Set<WidgetState> states) {
                     return Colors.amber;
                   },
                 ),
-                backgroundColor: MaterialStateProperty.resolveWith<Color?>(
-                  (Set<MaterialState> states) {
+                backgroundColor: WidgetStateProperty.resolveWith<Color?>(
+                  (Set<WidgetState> states) {
                     return Colors.blueGrey[800];
                   },
                 ),
-                overlayColor: MaterialStateProperty.resolveWith<Color?>(
-                  (Set<MaterialState> states) {
+                overlayColor: WidgetStateProperty.resolveWith<Color?>(
+                  (Set<WidgetState> states) {
                     return Colors.amber[800];
                   },
                 ),

@@ -114,16 +114,16 @@ class _PkmAccountIconState extends State<PkmAccountIcon>
                     ),
                     textButtonTheme: TextButtonThemeData(
                       style: ButtonStyle(
-                        foregroundColor: MaterialStateProperty.all<Color>(
+                        foregroundColor: WidgetStateProperty.all<Color>(
                             Colors.white70), // Text color
                       ),
                     ),
                     elevatedButtonTheme: ElevatedButtonThemeData(
                         style: ButtonStyle(
                       foregroundColor:
-                          MaterialStateProperty.all<Color>(Colors.black),
+                          WidgetStateProperty.all<Color>(Colors.black),
                       backgroundColor:
-                          MaterialStateProperty.all<Color>(Colors.green),
+                          WidgetStateProperty.all<Color>(Colors.green),
                     ))),
                 home: (widget.resetCode != null)
                     ? resetPassword(widget.resetCode)

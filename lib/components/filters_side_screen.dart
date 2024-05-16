@@ -37,23 +37,23 @@ class FiltersSideScreen extends StatelessWidget {
             child: TextButton(
               onPressed: onClose,
               style: ButtonStyle(
-                shape: MaterialStateProperty.all(
+                shape: WidgetStateProperty.all(
                   RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30.0),
                   ),
                 ),
-                foregroundColor: MaterialStateProperty.resolveWith<Color?>(
-                  (Set<MaterialState> states) {
+                foregroundColor: WidgetStateProperty.resolveWith<Color?>(
+                  (Set<WidgetState> states) {
                     return Colors.amber;
                   },
                 ),
-                backgroundColor: MaterialStateProperty.resolveWith<Color?>(
-                  (Set<MaterialState> states) {
+                backgroundColor: WidgetStateProperty.resolveWith<Color?>(
+                  (Set<WidgetState> states) {
                     return Colors.blueGrey[800];
                   },
                 ),
-                overlayColor: MaterialStateProperty.resolveWith<Color?>(
-                  (Set<MaterialState> states) {
+                overlayColor: WidgetStateProperty.resolveWith<Color?>(
+                  (Set<WidgetState> states) {
                     return Colors.amber[800];
                   },
                 ),
