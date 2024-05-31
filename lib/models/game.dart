@@ -135,6 +135,12 @@ class Game extends Dex {
         return path += "pokemon_y.png";
       case "Pokemon X":
         return path += "pokemon_x.png";
+      case "Pokemon Red":
+        return path += "pokemon_red.png";
+      case "Pokemon Blue":
+        return path += "pokemon_blue.png";
+      case "Pokemon Yellow":
+        return path += "pokemon_yellow.png";
       default:
         return path += "colored_ball.png";
     }
@@ -169,6 +175,9 @@ class Dex {
       "Pokemon Legends: Arceus",
       "Pokemon Brilliant Diamond",
       "Pokemon Shining Pearl",
+      "Pokemon Red",
+      "Pokemon Blue",
+      "Pokemon Yellow",
       // "Pokemon X",
       // "Pokemon Y",
       // "Pokemon Sun",
