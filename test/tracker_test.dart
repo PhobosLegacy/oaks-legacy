@@ -16,7 +16,7 @@ void main() {
     kPokedex = await Pokemon.createPokedex(file);
   });
 
-  group('Tracker_Manager.dart', () {
+  group('Tracker_Manager.dart', () async {
     for (final trackerData in trackers) {
       test('Create Tracker -> ${trackerData['testFileName']}', () async {
         // Arrange
@@ -25,7 +25,7 @@ void main() {
                 .readAsString());
 
         // Act
-        Tracker tracker = createTracker(
+        Tracker tracker = await createTracker(
             trackerData['trackerName'],
             trackerData['gameName'],
             trackerData['dexName'],
