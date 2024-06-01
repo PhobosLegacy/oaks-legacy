@@ -35,12 +35,6 @@ class FilterByType extends StatelessWidget {
           alignment: WrapAlignment.center,
           children: PokemonType.values
               .map((item) => ActionChip(
-                    // shape: const RoundedRectangleBorder(
-                    //   borderRadius: BorderRadius.only(
-                    //     topRight: Radius.circular(20),
-                    //     bottomRight: Radius.circular(20),
-                    //   ),
-                    // ),
                     shape: const StadiumBorder(side: BorderSide()),
                     padding: const EdgeInsets.all(1),
                     backgroundColor: (selectedTypes.contains(item.name))
