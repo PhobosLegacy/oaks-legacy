@@ -166,8 +166,9 @@ Item? checkPokemon(Pokemon pokemon,
           !isShinyTracker) {
         item = createNewItem(pokemon, game, entryOrigin, isShinyTracker);
         item.forms.addAll(forms);
-        if (item.forms.length == 1) {
-          item.forms.clear();
+
+        if (item.hasGenderDiff() || item.forms.length == 1) {
+          item.forms.removeAt(0);
         }
       }
     } else if (forms.isNotEmpty) {

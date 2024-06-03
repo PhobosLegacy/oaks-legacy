@@ -70,6 +70,8 @@ class Game extends Dex {
         return const Color(0xffddbf2d);
       case "Pokemon Green (Jp)":
         return const Color(0xff43913f);
+      case "Pokemon HOME":
+        return const Color.fromARGB(255, 118, 221, 151);
       case "Pokemon Omega Ruby":
       case "Pokemon Alpha Sapphire":
       case "Pokemon Go":
@@ -100,6 +102,8 @@ class Game extends Dex {
         return const Color.fromARGB(255, 115, 109, 115);
       case "Event":
         return const Color.fromARGB(255, 199, 72, 210);
+      case "Pokemon HOME":
+        return Game.gameColor("Pokemon HOME");
       default:
         return Colors.black;
     }
@@ -155,6 +159,8 @@ class Game extends Dex {
         return path += "pokemon_yellow.png";
       case "Pokemon Green (Jp)":
         return path += "pokemon_green.png";
+      case "Pokemon HOME":
+        return path += "pokemon_home.png";
       default:
         return path += "colored_ball.png";
     }
@@ -193,6 +199,7 @@ class Dex {
       "Pokemon Blue (Int)",
       "Pokemon Green (Jp)",
       "Pokemon Yellow",
+      "Pokemon HOME",
       // "Pokemon X",
       // "Pokemon Y",
       // "Pokemon Sun",
@@ -224,6 +231,7 @@ class Dex {
       "Pokemon Blue (Int)",
       "Pokemon Green (Jp)",
       "Pokemon Yellow",
+      "Pokemon HOME",
     ];
   }
 
@@ -251,6 +259,9 @@ class Dex {
       case "Pokemon Brilliant Diamond":
       case "Pokemon Shining Pearl":
         dex.addAll(["National Dex"]);
+        break;
+      case "Pokemon HOME":
+        dex = ['Full Dex'];
         break;
       default:
     }
