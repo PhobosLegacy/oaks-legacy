@@ -83,15 +83,15 @@ class FilterByType extends StatelessWidget {
                               boxShadow: (!selectedTypes.contains(item.name))
                                   ? []
                                   : [
-                                      BoxShadow(
+                                      const BoxShadow(
                                         color: Colors.amber,
-                                        offset: const Offset(5, 5),
+                                        offset: Offset(5, 5),
                                         blurRadius: 5,
                                         spreadRadius: 0.1,
                                       ),
                                       BoxShadow(
                                         color: Colors.blueGrey[800]!,
-                                        offset: Offset(-5, -5),
+                                        offset: const Offset(-5, -5),
                                         blurRadius: 5,
                                         spreadRadius: 0.1,
                                       ),

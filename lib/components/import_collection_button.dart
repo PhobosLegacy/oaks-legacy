@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
-
 import '../models/item.dart';
 import '../utils/items_manager.dart';
 
@@ -33,7 +32,7 @@ class ImportToCollectionButton extends StatelessWidget {
                 border: Border.all(
                   color: Colors.blueGrey[800]!,
                 ),
-                boxShadow: []),
+                boxShadow: const []),
             child: const Center(
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -56,36 +55,6 @@ class ImportToCollectionButton extends StatelessWidget {
             ),
           ),
         ),
-      ),
-    );
-    return Center(
-      child: TextButton(
-        onPressed: () {
-          addItems(kCollectionKey, listToImport);
-        },
-        style: ButtonStyle(
-          shape: WidgetStateProperty.all(
-            RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(30.0),
-            ),
-          ),
-          foregroundColor: WidgetStateProperty.resolveWith<Color?>(
-            (Set<WidgetState> states) {
-              return Colors.amber;
-            },
-          ),
-          backgroundColor: WidgetStateProperty.resolveWith<Color?>(
-            (Set<WidgetState> states) {
-              return Colors.blueGrey[800];
-            },
-          ),
-          overlayColor: WidgetStateProperty.resolveWith<Color?>(
-            (Set<WidgetState> states) {
-              return Colors.amber[800];
-            },
-          ),
-        ),
-        child: const Text("Import to collection"),
       ),
     );
   }
