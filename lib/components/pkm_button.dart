@@ -1,3 +1,4 @@
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/utils/functions.dart';
 
@@ -91,7 +92,7 @@ class _PkmButtonState extends State<PkmButton> with TickerProviderStateMixin {
                             ),
                           Flexible(
                             child: Center(
-                              child: Text(
+                              child: AutoSizeText(
                                 widget.buttonName,
                                 style: TextStyle(
                                   fontStyle: FontStyle.italic,

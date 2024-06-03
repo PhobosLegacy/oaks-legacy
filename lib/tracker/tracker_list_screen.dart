@@ -336,7 +336,6 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
 
   List<Widget> trackerFilters() {
     return [
-      const Divider(thickness: 2),
       SwitchOption(
         title: "Show Exclusive Only",
         switchValue: _exclusiveOnly,
@@ -354,7 +353,7 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
         const Divider(thickness: 2),
       if (widget.collection.pokemons.any((element) => element.forms.isNotEmpty))
         SwitchOption(
-          title: "Single List",
+          title: "Flat List (show forms)",
           switchValue: _flatList,
           onSwitch: (bool value2) {
             setState(() {
@@ -390,7 +389,8 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
       ),
       const Divider(thickness: 2),
       SortListBy(
-        onFilterSelected: (filter) {
+        currentFilters: filters,
+        onSortSelected: (filter) {
           setState(() {
             removeFilters([
               FilterType.numAsc,
@@ -398,7 +398,9 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
               FilterType.nameAsc,
               FilterType.nameDesc
             ]);
-            addFilter(filter);
+            if (filter != null) {
+              addFilter(filter);
+            }
             applyFilters();
           });
         },

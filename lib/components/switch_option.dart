@@ -26,9 +26,7 @@ class SwitchOption extends StatelessWidget {
             padding: const EdgeInsets.all(8.0),
             child: Text(
               title,
-              style: const TextStyle(
-                color: Colors.white,
-              ),
+              style: const TextStyle(color: Colors.white, fontSize: 20),
             ),
           ),
           Switch(
