@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/base_background.dart';
 import 'package:oaks_legacy/components/button_filters.dart';
 import 'package:oaks_legacy/components/button_search.dart';
+import 'package:oaks_legacy/components/filter_by_generation.dart';
 import 'package:oaks_legacy/components/pkm_grid.dart';
 import 'package:oaks_legacy/pokedex/pokedex_tiles.dart';
 import '../components/app_bar.dart';
@@ -29,6 +30,7 @@ class _PokedexListScreenState extends State<PokedexListScreen> {
 
   List<FilterType> filters = [];
   List<String> typesSelected = [];
+  List<String> generationsSelected = [];
   List<Pokemon> originalPokedex = [];
 
   ScrollController scrollController = ScrollController();
@@ -121,8 +123,8 @@ class _PokedexListScreenState extends State<PokedexListScreen> {
       (searchQuery == "")
           ? removeFilters([FilterType.byValue])
           : addFilter(FilterType.byValue);
-      originalPokedex =
-          widget.pokemons.applyAllFilters(filters, searchQuery, typesSelected);
+      originalPokedex = widget.pokemons.applyAllFilters(
+          filters, searchQuery, typesSelected, generationsSelected);
     });
   }
 
@@ -186,6 +188,28 @@ class _PokedexListScreenState extends State<PokedexListScreen> {
             if (filter != null) {
               addFilter(filter);
             }
+            applyFilters();
+          });
+        },
+      ),
+      const Divider(thickness: 2),
+      FilterByGeneration(
+        selectedTypes: generationsSelected,
+        onTypeSelected: (List<String> list) {
+          setState(
+            () {
+              generationsSelected = list;
+              (generationsSelected.isEmpty)
+                  ? removeFilters([FilterType.generation])
+                  : addFilter(FilterType.generation);
+              applyFilters();
+            },
+          );
+        },
+        onClearPressed: () {
+          setState(() {
+            generationsSelected.clear();
+            removeFilters([FilterType.byType]);
             applyFilters();
           });
         },

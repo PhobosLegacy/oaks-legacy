@@ -25,6 +25,7 @@ class Pokemon {
   final String? hiddenAbility;
   final Breeding breeding;
   final GenderRatio genderRatio;
+  final String generation;
 
   int currentImageIndex = 0;
 
@@ -59,7 +60,8 @@ class Pokemon {
         abilities = json['abilities'],
         hiddenAbility = json['hiddenAbility'],
         breeding = Breeding.fromJson(json['breeding']),
-        genderRatio = GenderRatio.fromJson(json['genderRatio']);
+        genderRatio = GenderRatio.fromJson(json['genderRatio']),
+        generation = json['generation'];
 
   Map<String, dynamic> toJson() {
     return {
@@ -84,6 +86,7 @@ class Pokemon {
       'hiddenAbility': hiddenAbility,
       'breeding': breeding.toJson(),
       'genderRatio': genderRatio.toJson(),
+      'generation': generation
     };
   }
 
@@ -104,7 +107,8 @@ class Pokemon {
         abilities = pokemon.abilities,
         hiddenAbility = pokemon.hiddenAbility,
         breeding = pokemon.breeding,
-        genderRatio = pokemon.genderRatio;
+        genderRatio = pokemon.genderRatio,
+        generation = pokemon.generation;
 
   static createPokedex(String file) async {
     Iterable l = jsonDecode(file);
@@ -436,8 +440,27 @@ extension Filter on List<Pokemon>? {
     return filtered;
   }
 
-  applyAllFilters(
-      List<FilterType> filters, String? words, List<String>? types) {
+  findByGeneration(List<String> generations) {
+    List<Pokemon> filtered = [];
+
+    for (var pokemon in this!) {
+      if (pokemon.forms.isEmpty) {
+        if (generations.contains(pokemon.generation)) {
+          filtered.add(pokemon);
+        }
+      } else {
+        List<Pokemon> pokemons = pokemon.forms.findByGeneration(generations);
+        if (pokemons.isNotEmpty) {
+          filtered.addAll(pokemons);
+        }
+      }
+    }
+
+    return filtered;
+  }
+
+  applyAllFilters(List<FilterType> filters, String? words, List<String>? types,
+      List<String>? generations) {
     List<Pokemon> temp = [];
     temp.addAll(kPokedex);
 
@@ -449,6 +472,11 @@ extension Filter on List<Pokemon>? {
         case FilterType.byType:
           if (types != null && types.isNotEmpty) {
             temp = temp.findByType(types);
+          }
+          break;
+        case FilterType.generation:
+          if (generations != null && generations.isNotEmpty) {
+            temp = temp.findByGeneration(generations);
           }
           break;
         case FilterType.numAsc:

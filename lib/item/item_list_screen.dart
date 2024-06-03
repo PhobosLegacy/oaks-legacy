@@ -299,7 +299,7 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
     collection = collection.applyAllFilters(filters, searchQuery);
 
     originalPokedex =
-        originalPokedex.applyAllFilters(filters, searchQuery, null);
+        originalPokedex.applyAllFilters(filters, searchQuery, null, null);
     setState(() {});
   }
 
