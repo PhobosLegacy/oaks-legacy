@@ -84,7 +84,7 @@ class SortListBy extends StatelessWidget {
                                 ),
                                 BoxShadow(
                                   color: Colors.blueGrey[800]!,
-                                  offset: Offset(-5, -5),
+                                  offset: const Offset(-5, -5),
                                   blurRadius: 5,
                                   spreadRadius: 0.1,
                                 ),
@@ -110,7 +110,7 @@ class SortListBy extends StatelessWidget {
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: AnimatedContainer(
-                    padding: EdgeInsets.all(5),
+                    padding: const EdgeInsets.all(5),
                     height: (smallScreen) ? 50 : 80,
                     width: (smallScreen) ? 50 : 80,
                     duration: const Duration(milliseconds: 100),
@@ -126,15 +126,15 @@ class SortListBy extends StatelessWidget {
                             (!currentFilters.contains(FilterType.numDesc))
                                 ? []
                                 : [
-                                    BoxShadow(
+                                    const BoxShadow(
                                       color: Colors.amber,
-                                      offset: const Offset(5, 5),
+                                      offset: Offset(5, 5),
                                       blurRadius: 5,
                                       spreadRadius: 0.1,
                                     ),
                                     BoxShadow(
                                       color: Colors.blueGrey[800]!,
-                                      offset: Offset(-5, -5),
+                                      offset: const Offset(-5, -5),
                                       blurRadius: 5,
                                       spreadRadius: 0.1,
                                     ),
@@ -160,7 +160,7 @@ class SortListBy extends StatelessWidget {
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: AnimatedContainer(
-                    padding: EdgeInsets.all(5),
+                    padding: const EdgeInsets.all(5),
                     height: (smallScreen) ? 50 : 80,
                     width: (smallScreen) ? 50 : 80,
                     duration: const Duration(milliseconds: 100),
@@ -176,15 +176,15 @@ class SortListBy extends StatelessWidget {
                             (!currentFilters.contains(FilterType.nameAsc))
                                 ? []
                                 : [
-                                    BoxShadow(
+                                    const BoxShadow(
                                       color: Colors.amber,
-                                      offset: const Offset(5, 5),
+                                      offset: Offset(5, 5),
                                       blurRadius: 5,
                                       spreadRadius: 0.1,
                                     ),
                                     BoxShadow(
                                       color: Colors.blueGrey[800]!,
-                                      offset: Offset(-5, -5),
+                                      offset: const Offset(-5, -5),
                                       blurRadius: 5,
                                       spreadRadius: 0.1,
                                     ),
@@ -210,7 +210,7 @@ class SortListBy extends StatelessWidget {
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: AnimatedContainer(
-                    padding: EdgeInsets.all(5),
+                    padding: const EdgeInsets.all(5),
                     height: (smallScreen) ? 50 : 80,
                     width: (smallScreen) ? 50 : 80,
                     duration: const Duration(milliseconds: 100),
@@ -226,15 +226,15 @@ class SortListBy extends StatelessWidget {
                             (!currentFilters.contains(FilterType.nameDesc))
                                 ? []
                                 : [
-                                    BoxShadow(
+                                    const BoxShadow(
                                       color: Colors.amber,
-                                      offset: const Offset(5, 5),
+                                      offset: Offset(5, 5),
                                       blurRadius: 5,
                                       spreadRadius: 0.1,
                                     ),
                                     BoxShadow(
                                       color: Colors.blueGrey[800]!,
-                                      offset: Offset(-5, -5),
+                                      offset: const Offset(-5, -5),
                                       blurRadius: 5,
                                       spreadRadius: 0.1,
                                     ),

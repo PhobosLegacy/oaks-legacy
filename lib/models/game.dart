@@ -97,7 +97,7 @@ class Game extends Dex {
       case "Pearl Exclusive":
         return Game.gameColor("Pokemon Shining Pearl");
       case "Trade Only":
-        return Color.fromARGB(255, 115, 109, 115);
+        return const Color.fromARGB(255, 115, 109, 115);
       case "Event":
         return const Color.fromARGB(255, 199, 72, 210);
       default:

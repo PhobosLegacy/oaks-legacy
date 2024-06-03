@@ -70,7 +70,7 @@ class GroupListBy extends StatelessWidget {
                                 ),
                                 BoxShadow(
                                   color: Colors.blueGrey[800]!,
-                                  offset: Offset(-5, -5),
+                                  offset: const Offset(-5, -5),
                                   blurRadius: 5,
                                   spreadRadius: 0.1,
                                 ),
@@ -121,7 +121,7 @@ class GroupListBy extends StatelessWidget {
                                 ),
                                 BoxShadow(
                                   color: Colors.blueGrey[800]!,
-                                  offset: Offset(-5, -5),
+                                  offset: const Offset(-5, -5),
                                   blurRadius: 5,
                                   spreadRadius: 0.1,
                                 ),
@@ -172,7 +172,7 @@ class GroupListBy extends StatelessWidget {
                                 ),
                                 BoxShadow(
                                   color: Colors.blueGrey[800]!,
-                                  offset: Offset(-5, -5),
+                                  offset: const Offset(-5, -5),
                                   blurRadius: 5,
                                   spreadRadius: 0.1,
                                 ),
@@ -223,7 +223,7 @@ class GroupListBy extends StatelessWidget {
                                     ),
                                     BoxShadow(
                                       color: Colors.blueGrey[800]!,
-                                      offset: Offset(-5, -5),
+                                      offset: const Offset(-5, -5),
                                       blurRadius: 5,
                                       spreadRadius: 0.1,
                                     ),
