@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/pkm_grid.dart';
+import 'package:oaks_legacy/utils/extensions.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class FilterByGeneration extends StatelessWidget {
@@ -94,9 +95,9 @@ class FilterByGeneration extends StatelessWidget {
                       ),
                       child: Center(
                         child: Text(
-                          (index + 1).toString(),
-                          style: const TextStyle(
-                            fontSize: 40,
+                          index.getRomanNumber(),
+                          style: TextStyle(
+                            fontSize: (smallScreen) ? 20 : 40,
                             color: Colors.amber,
                           ),
                         ),
