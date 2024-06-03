@@ -4,6 +4,7 @@ import 'package:oaks_legacy/components/base_background.dart';
 import 'package:oaks_legacy/components/switch_option.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/models/preferences.dart';
+import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class PreferencesScreen extends StatefulWidget {
   const PreferencesScreen({super.key});
@@ -21,7 +22,12 @@ class _PreferencesScreenState extends State<PreferencesScreen> {
     return Scaffold(
       resizeToAvoidBottomInset: false,
       appBar: AppBarBase(
-        title: const Text("Preferences"),
+        title: const Text(
+          "Preferences",
+          style: TextStyle(
+            color: Colors.white,
+          ),
+        ),
         color: Colors.blueGrey[800],
         actions: null,
       ),
@@ -42,9 +48,19 @@ class _PreferencesScreenState extends State<PreferencesScreen> {
                   },
                 ),
                 const Divider(),
-                const Text(
-                  'Your Trainer Names: ',
-                  style: TextStyle(color: Colors.white),
+                const Row(
+                  children: [
+                    Padding(
+                      padding: EdgeInsets.all(8.0),
+                      child: Text(
+                        'Your Trainer Names: ',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 20,
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
                 SingleChildScrollView(
                   child: Column(
@@ -68,49 +84,55 @@ class _PreferencesScreenState extends State<PreferencesScreen> {
                                   (int index) {
                                     if (index ==
                                         kPreferences.trainerNames.length) {
-                                      return GestureDetector(
-                                        onTap: () => showDialog(
-                                          context: context,
-                                          builder: (dialogContex) =>
-                                              AlertDialog(
-                                            title: const Text('Trainer Name'),
-                                            content: TextField(
-                                              controller: textController,
-                                              autofocus: true,
-                                            ),
-                                            actions: [
-                                              TextButton(
-                                                child: const Text("Confirm"),
-                                                onPressed: () {
-                                                  setState(() {
-                                                    if (textController.text !=
-                                                        "") {
-                                                      kPreferences.trainerNames
-                                                          .add(textController
-                                                              .text);
+                                      return ZoomTapAnimation(
+                                        child: GestureDetector(
+                                          onTap: () => showDialog(
+                                            context: context,
+                                            builder: (dialogContex) =>
+                                                AlertDialog(
+                                              title: const Text('Trainer Name'),
+                                              content: TextField(
+                                                controller: textController,
+                                                autofocus: true,
+                                              ),
+                                              actions: [
+                                                TextButton(
+                                                  child: const Text("Confirm"),
+                                                  onPressed: () {
+                                                    setState(() {
+                                                      if (textController.text !=
+                                                          "") {
+                                                        kPreferences
+                                                            .trainerNames
+                                                            .add(textController
+                                                                .text);
 
-                                                      kPreferences.save();
-                                                    }
+                                                        kPreferences.save();
+                                                      }
+                                                      textController.clear();
+                                                    });
+                                                    Navigator.pop(dialogContex);
+                                                  },
+                                                ),
+                                                TextButton(
+                                                  child: const Text("Cancel"),
+                                                  onPressed: () {
                                                     textController.clear();
-                                                  });
-                                                  Navigator.pop(dialogContex);
-                                                },
-                                              ),
-                                              TextButton(
-                                                child: const Text("Cancel"),
-                                                onPressed: () {
-                                                  textController.clear();
-                                                  Navigator.pop(dialogContex);
-                                                },
-                                              ),
-                                            ],
+                                                    Navigator.pop(dialogContex);
+                                                  },
+                                                ),
+                                              ],
+                                            ),
                                           ),
-                                        ),
-                                        child: const Chip(
-                                          shadowColor: Colors.blue,
-                                          elevation: 2,
-                                          label: Text(
-                                            "+",
+                                          child: const Padding(
+                                            padding: EdgeInsets.all(8.0),
+                                            child: Chip(
+                                              shadowColor: Colors.blue,
+                                              elevation: 2,
+                                              label: Text(
+                                                "+",
+                                              ),
+                                            ),
                                           ),
                                         ),
                                       );
@@ -124,19 +146,22 @@ class _PreferencesScreenState extends State<PreferencesScreen> {
                                           kPreferences.save();
                                         });
                                       },
-                                      child: Chip(
-                                        label: GestureDetector(
-                                          onLongPress: () {
-                                            setState(() {
-                                              kPreferences.trainerNames.remove(
-                                                  kPreferences
-                                                      .trainerNames[index]);
+                                      child: Padding(
+                                        padding: const EdgeInsets.all(8.0),
+                                        child: Chip(
+                                          label: GestureDetector(
+                                            onLongPress: () {
+                                              setState(() {
+                                                kPreferences.trainerNames
+                                                    .remove(kPreferences
+                                                        .trainerNames[index]);
 
-                                              kPreferences.save();
-                                            });
-                                          },
-                                          child: Text(
-                                            kPreferences.trainerNames[index],
+                                                kPreferences.save();
+                                              });
+                                            },
+                                            child: Text(
+                                              kPreferences.trainerNames[index],
+                                            ),
                                           ),
                                         ),
                                       ),

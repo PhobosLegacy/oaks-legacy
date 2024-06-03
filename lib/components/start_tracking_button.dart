@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:oaks_legacy/components/pkm_button.dart';
 import 'package:oaks_legacy/models/tracker.dart';
 import '../utils/trackers_manager.dart';
@@ -39,9 +40,11 @@ class StartTrackingButton extends StatelessWidget {
                   builder: (_) => AlertDialog(
                     title: const Text('Give a name'),
                     content: TextField(
-                      autofocus: true,
-                      controller: textController,
-                    ),
+                        autofocus: true,
+                        controller: textController,
+                        inputFormatters: [
+                          LengthLimitingTextInputFormatter(50),
+                        ]),
                     actions: [
                       TextButton(
                         child: const Text("Confirm"),

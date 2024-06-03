@@ -62,6 +62,14 @@ class Game extends Dex {
         return const Color.fromARGB(255, 63, 90, 241);
       case "Pokemon Shining Pearl":
         return const Color.fromARGB(255, 232, 172, 234);
+      case "Pokemon Red":
+        return const Color(0xffc03a2d);
+      case "Pokemon Blue (Int)":
+        return const Color(0xff23409a);
+      case "Pokemon Yellow":
+        return const Color(0xffddbf2d);
+      case "Pokemon Green (Jp)":
+        return const Color(0xff43913f);
       case "Pokemon Omega Ruby":
       case "Pokemon Alpha Sapphire":
       case "Pokemon Go":
@@ -88,6 +96,10 @@ class Game extends Dex {
         return Game.gameColor("Pokemon Brilliant Diamond");
       case "Pearl Exclusive":
         return Game.gameColor("Pokemon Shining Pearl");
+      case "Trade Only":
+        return Color.fromARGB(255, 115, 109, 115);
+      case "Event":
+        return const Color.fromARGB(255, 199, 72, 210);
       default:
         return Colors.black;
     }
@@ -135,6 +147,14 @@ class Game extends Dex {
         return path += "pokemon_y.png";
       case "Pokemon X":
         return path += "pokemon_x.png";
+      case "Pokemon Red":
+        return path += "pokemon_red.png";
+      case "Pokemon Blue (Int)":
+        return path += "pokemon_blue.png";
+      case "Pokemon Yellow":
+        return path += "pokemon_yellow.png";
+      case "Pokemon Green (Jp)":
+        return path += "pokemon_green.png";
       default:
         return path += "colored_ball.png";
     }
@@ -169,6 +189,10 @@ class Dex {
       "Pokemon Legends: Arceus",
       "Pokemon Brilliant Diamond",
       "Pokemon Shining Pearl",
+      "Pokemon Red",
+      "Pokemon Blue (Int)",
+      "Pokemon Green (Jp)",
+      "Pokemon Yellow",
       // "Pokemon X",
       // "Pokemon Y",
       // "Pokemon Sun",
@@ -196,6 +220,10 @@ class Dex {
       "Pokemon Brilliant Diamond",
       "Pokemon Shining Pearl",
       "Pokemon Home",
+      "Pokemon Red",
+      "Pokemon Blue (Int)",
+      "Pokemon Green (Jp)",
+      "Pokemon Yellow",
     ];
   }
 

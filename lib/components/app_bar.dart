@@ -26,14 +26,12 @@ class AppBarBase extends StatelessWidget implements PreferredSizeWidget {
       iconTheme: const IconThemeData(
         color: Colors.white, //change your color here
       ),
-      title: SizedBox(
-        width: 200,
-        child: Row(
-          children: [
-            if (!isUserLogged) const PkmWarningIcon(),
-            title,
-          ],
-        ),
+      title: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          if (!isUserLogged) const PkmWarningIcon(),
+          title,
+        ],
       ),
       backgroundColor: color,
     );

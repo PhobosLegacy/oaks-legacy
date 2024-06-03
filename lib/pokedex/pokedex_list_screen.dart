@@ -39,6 +39,11 @@ class _PokedexListScreenState extends State<PokedexListScreen> {
   void initState() {
     originalPokedex.addAll(widget.pokemons);
     super.initState();
+
+    // // Schedule the openEndDrawer call after the first frame is rendered
+    // WidgetsBinding.instance.addPostFrameCallback((_) {
+    //   scaffoldKey.currentState?.openEndDrawer();
+    // });
   }
 
   @override
@@ -146,7 +151,6 @@ class _PokedexListScreenState extends State<PokedexListScreen> {
 
   List<Widget> pokedexFilters() {
     return [
-      const Divider(thickness: 2),
       FilterByType(
         selectedTypes: typesSelected,
         onTypeSelected: (List<String> list) {
@@ -170,7 +174,8 @@ class _PokedexListScreenState extends State<PokedexListScreen> {
       ),
       const Divider(thickness: 2),
       SortListBy(
-        onFilterSelected: (filter) {
+        currentFilters: filters,
+        onSortSelected: (filter) {
           setState(() {
             removeFilters([
               FilterType.numAsc,
@@ -178,7 +183,9 @@ class _PokedexListScreenState extends State<PokedexListScreen> {
               FilterType.nameAsc,
               FilterType.nameDesc
             ]);
-            addFilter(filter);
+            if (filter != null) {
+              addFilter(filter);
+            }
             applyFilters();
           });
         },

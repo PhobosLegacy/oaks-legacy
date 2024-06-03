@@ -57,6 +57,8 @@ dependencies:
   universal_html: ^2.2.4
   avatar_glow: ^3.0.1
   cached_network_image: ^3.3.1
+  zoom_tap_animation: ^1.1.0
+  auto_size_text: ^3.0.0
 
 dev_dependencies:
   flutter_test:

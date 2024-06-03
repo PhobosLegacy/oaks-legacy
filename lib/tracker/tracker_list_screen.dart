@@ -56,31 +56,7 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
       resizeToAvoidBottomInset: false,
       key: scaffoldKey,
       appBar: AppBarBase(
-        title: Column(
-          children: [
-            Text(
-              widget.collection.game,
-              style: const TextStyle(
-                fontSize: 15,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            Text(
-              widget.collection.dex,
-              style: const TextStyle(
-                  fontSize: 10,
-                  fontWeight: FontWeight.bold,
-                  fontStyle: FontStyle.italic),
-            ),
-            Text(
-              "(${widget.collection.percentage()}%)",
-              style: const TextStyle(
-                fontSize: 15,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-          ],
-        ),
+        title: getAppBarTitleWidget(),
         color: Game.gameColor(widget.collection.game),
         actions: appBarActions(),
       ),
@@ -183,6 +159,55 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
           );
         },
       ),
+    );
+  }
+
+  getAppBarTitleWidget() {
+    bool isSmall = (PkmGrid.getCardsPerRow(context) == 1);
+
+    final gameText = Text(
+      widget.collection.game,
+      style: TextStyle(
+        fontSize: (isSmall) ? 15 : 40,
+        fontWeight: FontWeight.bold,
+        fontStyle: (isSmall) ? null : FontStyle.italic,
+      ),
+    );
+
+    final dexText = Text(
+      '${widget.collection.dex} Dex',
+      style: TextStyle(
+        fontSize: (isSmall) ? 10 : 20,
+        fontWeight: FontWeight.bold,
+        fontStyle: (isSmall) ? null : FontStyle.italic,
+      ),
+    );
+
+    final percentageText = Text(
+      "(${widget.collection.percentage()}%)",
+      style: TextStyle(
+        fontSize: (isSmall) ? 15 : 20,
+        fontWeight: FontWeight.bold,
+      ),
+    );
+
+    if (PkmGrid.getCardsPerRow(context) > 1) {
+      return Row(
+        children: [
+          gameText,
+          const SizedBox(width: 20),
+          Column(
+            children: [
+              dexText,
+              percentageText,
+            ],
+          ),
+        ],
+      );
+    }
+
+    return Column(
+      children: [gameText, dexText, percentageText],
     );
   }
 
@@ -311,7 +336,6 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
 
   List<Widget> trackerFilters() {
     return [
-      const Divider(thickness: 2),
       SwitchOption(
         title: "Show Exclusive Only",
         switchValue: _exclusiveOnly,
@@ -329,7 +353,7 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
         const Divider(thickness: 2),
       if (widget.collection.pokemons.any((element) => element.forms.isNotEmpty))
         SwitchOption(
-          title: "Single List",
+          title: "Flat List (show forms)",
           switchValue: _flatList,
           onSwitch: (bool value2) {
             setState(() {
@@ -365,7 +389,8 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
       ),
       const Divider(thickness: 2),
       SortListBy(
-        onFilterSelected: (filter) {
+        currentFilters: filters,
+        onSortSelected: (filter) {
           setState(() {
             removeFilters([
               FilterType.numAsc,
@@ -373,7 +398,9 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
               FilterType.nameAsc,
               FilterType.nameDesc
             ]);
-            addFilter(filter);
+            if (filter != null) {
+              addFilter(filter);
+            }
             applyFilters();
           });
         },

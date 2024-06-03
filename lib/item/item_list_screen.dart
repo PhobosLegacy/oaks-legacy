@@ -61,6 +61,10 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
       });
     });
     super.initState();
+    // Schedule the openEndDrawer call after the first frame is rendered
+    // WidgetsBinding.instance.addPostFrameCallback((_) {
+    //   scaffoldKey.currentState?.openEndDrawer();
+    // });
   }
 
   @override
@@ -329,7 +333,6 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
 
   List<Widget> trackerFilters() {
     return [
-      const Divider(thickness: 2),
       GroupListBy(
         currentDisplay: displayType,
         onDisplaySelected: (newDisplay) {
