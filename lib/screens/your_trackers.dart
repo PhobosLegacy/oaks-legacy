@@ -20,14 +20,13 @@ class _YourTrackersScreenState extends State<YourTrackersScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: false,
-      appBar: AppBarBase(
-        title: const Text(
+      appBar: const AppBarBase(
+        title: Text(
           "Your Trackers",
           style: TextStyle(
             color: Colors.white,
           ),
         ),
-        color: Colors.blueGrey[800],
         actions: null,
       ),
       body: Stack(

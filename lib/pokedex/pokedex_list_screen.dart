@@ -60,7 +60,6 @@ class _PokedexListScreenState extends State<PokedexListScreen> {
             color: Colors.white,
           ),
         ),
-        color: Colors.blueGrey[800],
         actions: appBarActions(),
       ),
       endDrawer: FiltersSideScreen(

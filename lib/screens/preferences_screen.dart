@@ -21,14 +21,13 @@ class _PreferencesScreenState extends State<PreferencesScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: false,
-      appBar: AppBarBase(
-        title: const Text(
+      appBar: const AppBarBase(
+        title: Text(
           "Preferences",
           style: TextStyle(
             color: Colors.white,
           ),
         ),
-        color: Colors.blueGrey[800],
         actions: null,
       ),
       body: Stack(

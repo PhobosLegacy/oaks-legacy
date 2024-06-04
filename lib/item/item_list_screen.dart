@@ -91,7 +91,6 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
               ),
           ],
         ),
-        color: Colors.blueGrey[800],
         actions: appBarActions(),
       ),
       endDrawer: FiltersSideScreen(
