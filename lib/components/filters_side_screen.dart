@@ -15,14 +15,12 @@ class FiltersSideScreen extends StatelessWidget {
     return SizedBox(
       width: 600,
       child: Drawer(
-        backgroundColor: Colors.blueGrey[900],
         child: ListView(
           padding: EdgeInsets.zero,
           children: [
             SizedBox(
               height: 80,
               child: DrawerHeader(
-                decoration: BoxDecoration(color: Colors.blueGrey[800]),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [

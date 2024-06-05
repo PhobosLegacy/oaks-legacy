@@ -3094,6 +3094,254 @@
     ],
     "forms": [
       {
+        "name": "Pikachu",
+        "formName": "Original Cap",
+        "species": "Mouse Pokémon",
+        "height": "0.4m",
+        "weight": "6.0kg",
+        "breeding": { "groups": ["Fairy", "Field"], "cycles": "10" },
+        "number": "0025",
+        "ref": "025.0",
+        "type1": "electric",
+        "type2": null,
+        "image": ["025-001-normal-m.png", "025-001-shiny-m.png"],
+        "abilities": ["Static"],
+        "hiddenAbility": "Lightning Rod",
+        "weaknessquarter": [],
+        "weaknesshalf": ["electric", "flying", "steel"],
+        "weaknessnone": [],
+        "weaknessdouble": ["ground"],
+        "weaknessquadruple": [],
+        "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
+        "games": [
+          {
+            "name": "Pokemon HOME",
+            "dex": "Full Dex",
+            "number": "0025",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ],
+        "generation": "1"
+      },
+      {
+        "name": "Pikachu",
+        "formName": "Hoenn Cap",
+        "species": "Mouse Pokémon",
+        "height": "0.4m",
+        "weight": "6.0kg",
+        "breeding": { "groups": ["Fairy", "Field"], "cycles": "10" },
+        "number": "0025",
+        "ref": "025.0",
+        "type1": "electric",
+        "type2": null,
+        "image": ["025-002-normal-m.png", "025-002-shiny-m.png"],
+        "abilities": ["Static"],
+        "hiddenAbility": "Lightning Rod",
+        "weaknessquarter": [],
+        "weaknesshalf": ["electric", "flying", "steel"],
+        "weaknessnone": [],
+        "weaknessdouble": ["ground"],
+        "weaknessquadruple": [],
+        "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
+        "games": [
+          {
+            "name": "Pokemon HOME",
+            "dex": "Full Dex",
+            "number": "0025",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ],
+        "generation": "1"
+      },
+      {
+        "name": "Pikachu",
+        "formName": "Sinnoh Cap",
+        "species": "Mouse Pokémon",
+        "height": "0.4m",
+        "weight": "6.0kg",
+        "breeding": { "groups": ["Fairy", "Field"], "cycles": "10" },
+        "number": "0025",
+        "ref": "025.0",
+        "type1": "electric",
+        "type2": null,
+        "image": ["025-003-normal-m.png", "025-003-shiny-m.png"],
+        "abilities": ["Static"],
+        "hiddenAbility": "Lightning Rod",
+        "weaknessquarter": [],
+        "weaknesshalf": ["electric", "flying", "steel"],
+        "weaknessnone": [],
+        "weaknessdouble": ["ground"],
+        "weaknessquadruple": [],
+        "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
+        "games": [
+          {
+            "name": "Pokemon HOME",
+            "dex": "Full Dex",
+            "number": "0025",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ],
+        "generation": "1"
+      },
+      {
+        "name": "Pikachu",
+        "formName": "Unova Cap",
+        "species": "Mouse Pokémon",
+        "height": "0.4m",
+        "weight": "6.0kg",
+        "breeding": { "groups": ["Fairy", "Field"], "cycles": "10" },
+        "number": "0025",
+        "ref": "025.0",
+        "type1": "electric",
+        "type2": null,
+        "image": ["025-004-normal-m.png", "025-004-shiny-m.png"],
+        "abilities": ["Static"],
+        "hiddenAbility": "Lightning Rod",
+        "weaknessquarter": [],
+        "weaknesshalf": ["electric", "flying", "steel"],
+        "weaknessnone": [],
+        "weaknessdouble": ["ground"],
+        "weaknessquadruple": [],
+        "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
+        "games": [
+          {
+            "name": "Pokemon HOME",
+            "dex": "Full Dex",
+            "number": "0025",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ],
+        "generation": "1"
+      },
+      {
+        "name": "Pikachu",
+        "formName": "Kalos Cap",
+        "species": "Mouse Pokémon",
+        "height": "0.4m",
+        "weight": "6.0kg",
+        "breeding": { "groups": ["Fairy", "Field"], "cycles": "10" },
+        "number": "0025",
+        "ref": "025.0",
+        "type1": "electric",
+        "type2": null,
+        "image": ["025-005-normal-m.png", "025-005-shiny-m.png"],
+        "abilities": ["Static"],
+        "hiddenAbility": "Lightning Rod",
+        "weaknessquarter": [],
+        "weaknesshalf": ["electric", "flying", "steel"],
+        "weaknessnone": [],
+        "weaknessdouble": ["ground"],
+        "weaknessquadruple": [],
+        "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
+        "games": [
+          {
+            "name": "Pokemon HOME",
+            "dex": "Full Dex",
+            "number": "0025",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ],
+        "generation": "1"
+      },
+      {
+        "name": "Pikachu",
+        "formName": "Alola Cap",
+        "species": "Mouse Pokémon",
+        "height": "0.4m",
+        "weight": "6.0kg",
+        "breeding": { "groups": ["Fairy", "Field"], "cycles": "10" },
+        "number": "0025",
+        "ref": "025.0",
+        "type1": "electric",
+        "type2": null,
+        "image": ["025-006-normal-m.png", "025-006-shiny-m.png"],
+        "abilities": ["Static"],
+        "hiddenAbility": "Lightning Rod",
+        "weaknessquarter": [],
+        "weaknesshalf": ["electric", "flying", "steel"],
+        "weaknessnone": [],
+        "weaknessdouble": ["ground"],
+        "weaknessquadruple": [],
+        "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
+        "games": [
+          {
+            "name": "Pokemon HOME",
+            "dex": "Full Dex",
+            "number": "0025",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ],
+        "generation": "1"
+      },
+      {
+        "name": "Pikachu",
+        "formName": "World Cap",
+        "species": "Mouse Pokémon",
+        "height": "0.4m",
+        "weight": "6.0kg",
+        "breeding": { "groups": ["Fairy", "Field"], "cycles": "10" },
+        "number": "0025",
+        "ref": "025.0",
+        "type1": "electric",
+        "type2": null,
+        "image": ["025-007-normal-m.png", "025-007-shiny-m.png"],
+        "abilities": ["Static"],
+        "hiddenAbility": "Lightning Rod",
+        "weaknessquarter": [],
+        "weaknesshalf": ["electric", "flying", "steel"],
+        "weaknessnone": [],
+        "weaknessdouble": ["ground"],
+        "weaknessquadruple": [],
+        "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
+        "games": [
+          {
+            "name": "Pokemon HOME",
+            "dex": "Full Dex",
+            "number": "0025",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ],
+        "generation": "1"
+      },
+      {
+        "name": "Pikachu",
+        "formName": "Partner Cap",
+        "species": "Mouse Pokémon",
+        "height": "0.4m",
+        "weight": "6.0kg",
+        "breeding": { "groups": ["Fairy", "Field"], "cycles": "10" },
+        "number": "0025",
+        "ref": "025.0",
+        "type1": "electric",
+        "type2": null,
+        "image": ["025-008-normal-m.png", "025-008-shiny-m.png"],
+        "abilities": ["Static"],
+        "hiddenAbility": "Lightning Rod",
+        "weaknessquarter": [],
+        "weaknesshalf": ["electric", "flying", "steel"],
+        "weaknessnone": [],
+        "weaknessdouble": ["ground"],
+        "weaknessquadruple": [],
+        "genderRatio": { "male": "50", "female": "50", "genderless": "0" },
+        "games": [
+          {
+            "name": "Pokemon HOME",
+            "dex": "Full Dex",
+            "number": "0025",
+            "shinyLocked": "UNLOCKED",
+            "notes": ""
+          }
+        ],
+        "generation": "1"
+      },
+      {
         "name": "Gigantamax Pikachu",
         "formName": "",
         "species": "Mouse Pokémon",
@@ -52287,7 +52535,7 @@
             "number": "493",
             "shinyLocked": "UNLOCKED",
             "notes": ""
-          } 
+          }
         ],
         "generation": "4"
       },
@@ -75595,7 +75843,49 @@
         "notes": ""
       }
     ],
-    "forms": [],
+    "forms": [
+      {
+        "name": "Magearna",
+        "formName": "Original Color",
+        "species": "Artificial Pokémon",
+        "height": "1.0m",
+        "weight": "80.5kg",
+        "breeding": { "groups": ["Undiscovered"], "cycles": "120" },
+        "number": "0801",
+        "ref": "801.0",
+        "type1": "steel",
+        "type2": "fairy",
+        "image": ["801-002-normal-g.png", "801-002-shiny-g.png"],
+        "abilities": ["Soul-Heart"],
+        "hiddenAbility": "",
+        "weaknessquarter": ["bug"],
+        "weaknesshalf": [
+          "normal",
+          "grass",
+          "ice",
+          "flying",
+          "psychic",
+          "rock",
+          "dark",
+          "fairy"
+        ],
+        "weaknessnone": ["poison", "dragon"],
+        "weaknessdouble": ["fire", "ground"],
+        "weaknessquadruple": [],
+        "genderRatio": { "male": "0", "female": "0", "genderless": "100" },
+        "games": [
+          {
+            "name": "Pokemon HOME",
+            "dex": "Full Dex",
+            "number": "0801",
+            "shinyLocked": "LOCKED",
+            "notes": ""
+          }
+        ],
+        "forms": [],
+        "generation": "7"
+      }
+    ],
     "generation": "7"
   },
   {
@@ -85934,7 +86224,7 @@
         "name": "Pokemon Shield",
         "dex": "Isle of Armor",
         "number": "101",
-        "shinyLOCKED": "LOCKED",
+        "shinyLocked": "LOCKED",
         "notes": ""
       },
       {

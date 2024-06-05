@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/data/data_manager.dart';
 import 'package:oaks_legacy/screens/start_screen.dart';
+import 'package:oaks_legacy/utils/colors.dart';
 import 'package:oaks_legacy/utils/functions.dart';
 import 'package:supabase_auth_ui/supabase_auth_ui.dart';
 
@@ -45,7 +46,7 @@ class _PkmAccountIconState extends State<PkmAccountIcon>
     return Align(
       alignment: Alignment.topCenter,
       child: Card(
-        color: const Color(0xFF1D1E33),
+        color: cCardMainColor,
         child: Column(
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -60,21 +61,21 @@ class _PkmAccountIconState extends State<PkmAccountIcon>
                 child: Transform.scale(
                   scale: isHovered ? 1.2 : 1.0,
                   child: (isLoginBoxVisible)
-                      ? const Icon(
+                      ? Icon(
                           Icons.close,
                           size: 40,
-                          color: Colors.amber,
+                          color: cIconMainColor,
                         )
                       : (isUserLogged)
-                          ? const Icon(
+                          ? Icon(
                               Icons.person,
                               size: 40,
-                              color: Colors.amber,
+                              color: cIconMainColor,
                             )
-                          : const Icon(
+                          : Icon(
                               Icons.person,
                               size: 40,
-                              color: Colors.white,
+                              color: cIconAltColor,
                             ),
                 ),
               ),
@@ -85,45 +86,44 @@ class _PkmAccountIconState extends State<PkmAccountIcon>
                 debugShowCheckedModeBanner: false,
                 theme: ThemeData(
                     // // Define the theme for input decoration
-                    inputDecorationTheme: const InputDecorationTheme(
+                    inputDecorationTheme: InputDecorationTheme(
                         labelStyle: TextStyle(
-                            color: Colors.amber), // TextField title text color
+                            color:
+                                cTextFieldPlaceholderTextColor), // TextField title text color
                         focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(
-                              color: Colors
-                                  .amber), // TextField border color when focused
+                              color:
+                                  cTextFieldBorderColor), // TextField border color when focused
                         ),
                         enabledBorder: OutlineInputBorder(
                           borderSide: BorderSide(
-                              color: Colors
-                                  .grey), // TextField border color when enabled
+                              color:
+                                  cTextFieldBorderColor), // TextField border color when enabled
                         ),
-                        prefixIconColor: Colors.white),
+                        errorStyle: TextStyle(color: cErrorTextColor),
+                        errorBorder: OutlineInputBorder(
+                          borderSide: BorderSide(
+                            color: cTextFieldErrorBorderColor,
+                          ), // TextField border color when enabled
+                        ),
+                        prefixIconColor: cIconAltColor),
 
                     // Define the theme for text fields
                     textTheme: Theme.of(context).textTheme.copyWith(
-                          bodyLarge: const TextStyle(color: Colors.white),
+                          bodyLarge: TextStyle(color: cTextFieldTextColor),
                         ),
-                    // // Define the theme for icons
-                    iconTheme:
-                        const IconThemeData(color: Colors.amber), // Icon color
-                    // // Define the theme for buttons
-                    buttonTheme: const ButtonThemeData(
-                      buttonColor: Colors.amber, // Button background color
-                      textTheme: ButtonTextTheme.primary,
-                    ),
                     textButtonTheme: TextButtonThemeData(
                       style: ButtonStyle(
                         foregroundColor: WidgetStateProperty.all<Color>(
-                            Colors.white70), // Text color
+                            cTextButtonTextColor), // Text color
                       ),
                     ),
                     elevatedButtonTheme: ElevatedButtonThemeData(
                         style: ButtonStyle(
-                      foregroundColor:
-                          WidgetStateProperty.all<Color>(Colors.black),
+                      foregroundColor: WidgetStateProperty.all<Color>(
+                          cButtonConfirmTextColor),
                       backgroundColor:
-                          WidgetStateProperty.all<Color>(Colors.green),
+                          WidgetStateProperty.all<Color>(cButtonConfirmColor),
                     ))),
                 home: (widget.resetCode != null)
                     ? resetPassword(widget.resetCode)
@@ -197,8 +197,8 @@ class _PkmAccountIconState extends State<PkmAccountIcon>
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               DefaultTextStyle(
-                style: const TextStyle(
-                  color: Colors.white,
+                style: TextStyle(
+                  color: cTextFieldTextColor,
                   fontSize: 15,
                 ),
                 child: Text(

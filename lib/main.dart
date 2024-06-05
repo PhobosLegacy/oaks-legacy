@@ -16,12 +16,19 @@ class MyApp extends StatelessWidget {
           appBarTheme: const AppBarTheme(
             color: Color(0xFF1D1E33),
           ),
+          drawerTheme: const DrawerThemeData(
+            // backgroundColor: Colors.blueGrey[800],
+            backgroundColor: Color(0xFF1D1E33),
+          ),
+          cardTheme: const CardTheme(color: Colors.red),
           // scaffoldBackgroundColor: Colors.blueGrey[900],
-          scaffoldBackgroundColor: Colors.blueGrey[900]),
+          scaffoldBackgroundColor: const Color(0xFF1D1E33)),
       home: const LoadingScreen(),
     );
   }
 }
+
+const styleBackgroundColor = Color(0xFF1D1E33);
 
 /*
 Flutter Notes:
