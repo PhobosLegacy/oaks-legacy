@@ -158,9 +158,9 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
           ),
         ],
         currentIndex: _selectedTab,
-        backgroundColor: Colors.blueGrey[800],
+        backgroundColor: Colors.black26,
         selectedItemColor: Colors.white,
-        unselectedItemColor: Colors.black,
+        unselectedItemColor: Colors.blueGrey[800]!,
         onTap: (int index) {
           setState(
             () {

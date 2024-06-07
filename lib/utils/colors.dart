@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 //Card
-Color cCardMainColor = const Color(0xff30627C);
-Color cCardShadowColor = const Color(0xff87D6BC);
+Color cCardMainColor = const Color(0xff644442);
+Color cCardShadowColor = const Color(0xff341818);
 
 //Text
-Color cTitleColor = const Color(0xff87D6BC);
+Color cTitleColor = const Color(0xffFFFADE);
 Color cSubTitleColor = Colors.white70;
 Color cErrorTextColor = const Color(0xffDE7B67);
 Color cWarningTextColor = const Color(0xffF9F871);
@@ -15,7 +15,7 @@ Color cIconMainColor = const Color(0xff87D6BC);
 Color cIconAltColor = const Color(0xffF1EDFF);
 
 //TextField
-Color cTextFieldPlaceholderTextColor = const Color(0xffF9F871);
+Color cTextFieldPlaceholderTextColor = const Color(0xffF1EDFF);
 Color cTextFieldBorderColor = const Color(0xffF9F871);
 Color cTextFieldErrorBorderColor = const Color(0xffA35369);
 Color cTextFieldTextColor = const Color(0xffF1EDFF);

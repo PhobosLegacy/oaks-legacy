@@ -174,24 +174,6 @@ class _PokedexListScreenState extends State<PokedexListScreen> {
         },
       ),
       const Divider(thickness: 2),
-      SortListBy(
-        currentFilters: filters,
-        onSortSelected: (filter) {
-          setState(() {
-            removeFilters([
-              FilterType.numAsc,
-              FilterType.numDesc,
-              FilterType.nameAsc,
-              FilterType.nameDesc
-            ]);
-            if (filter != null) {
-              addFilter(filter);
-            }
-            applyFilters();
-          });
-        },
-      ),
-      const Divider(thickness: 2),
       FilterByGeneration(
         selectedTypes: generationsSelected,
         onTypeSelected: (List<String> list) {
@@ -209,6 +191,24 @@ class _PokedexListScreenState extends State<PokedexListScreen> {
           setState(() {
             generationsSelected.clear();
             removeFilters([FilterType.byType]);
+            applyFilters();
+          });
+        },
+      ),
+      const Divider(thickness: 2),
+      SortListBy(
+        currentFilters: filters,
+        onSortSelected: (filter) {
+          setState(() {
+            removeFilters([
+              FilterType.numAsc,
+              FilterType.numDesc,
+              FilterType.nameAsc,
+              FilterType.nameDesc
+            ]);
+            if (filter != null) {
+              addFilter(filter);
+            }
             applyFilters();
           });
         },
