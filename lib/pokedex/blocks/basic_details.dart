@@ -1,3 +1,4 @@
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/basic.dart';
 import 'package:oaks_legacy/models/pokemon.dart';
@@ -42,11 +43,11 @@ class BaseDetailsBlock extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Pokemon.typeImage(pokemon.type1, size: 70),
-                            Text(
+                            AutoSizeText(
                               pokemon.type1.name.toUpperCase(),
                               textAlign: TextAlign.center,
                               style: const TextStyle(
-                                  color: Colors.white, fontSize: 25),
+                                  color: Colors.white, fontSize: 20),
                             ),
                           ],
                         ),
@@ -63,11 +64,11 @@ class BaseDetailsBlock extends StatelessWidget {
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Pokemon.typeImage(pokemon.type2, size: 70),
-                              Text(
+                              AutoSizeText(
                                 pokemon.type2!.name.toUpperCase(),
                                 textAlign: TextAlign.center,
                                 style: const TextStyle(
-                                    color: Colors.white, fontSize: 25),
+                                    color: Colors.white, fontSize: 20),
                               ),
                             ],
                           ),
