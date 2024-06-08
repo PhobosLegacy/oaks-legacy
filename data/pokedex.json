@@ -86237,8 +86237,8 @@
     ],
     "forms": [
       {
-        "name": "Single Strike Style",
-        "formName": "",
+        "name": "Urshifu",
+        "formName": "Single Strike Style",
         "species": "Wushu Pokémon",
         "height": "1.9m",
         "weight": "105.0kg",
@@ -86281,8 +86281,8 @@
         ],
         "forms": [
           {
-            "name": "Gigantamax Single Strike Style",
-            "formName": "",
+            "name": "Gigantamax Urshifu",
+            "formName": "Single Strike Style",
             "species": "Wushu Pokémon",
             "height": "29.0+ m",
             "weight": "???? kg",
@@ -86333,8 +86333,8 @@
         "generation": "8"
       },
       {
-        "name": "Rapid Strike Style",
-        "formName": "",
+        "name": "Urshifu",
+        "formName": "Rapid Strike Style",
         "species": "Wushu Pokémon",
         "height": "1.9m",
         "weight": "105.0kg",
@@ -86385,8 +86385,8 @@
         ],
         "forms": [
           {
-            "name": "Gigantamax Rapid Strike Style",
-            "formName": "",
+            "name": "Gigantamax Urshifu",
+            "formName": "Rapid Strike Style",
             "species": "Wushu Pokémon",
             "height": "26.0+ m",
             "weight": "???? kg",
