@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/app_bar.dart';
 import 'package:oaks_legacy/components/base_background.dart';
 import 'package:oaks_legacy/components/pkm_button.dart';
+import 'package:oaks_legacy/components/pkm_text_dialog.dart';
 import 'package:oaks_legacy/components/progress_bar.dart';
 import 'package:oaks_legacy/tracker/create_tracker.dart';
 import 'package:oaks_legacy/models/tracker.dart';
@@ -137,24 +138,13 @@ class _YourTrackersScreenState extends State<YourTrackersScreen> {
   void showDeleteDialog(Tracker tracker, BuildContext context) {
     showDialog(
       context: context,
-      builder: (_) => AlertDialog(
-        title: const Text('Delete Tracker'),
-        content: Text('Remove ${tracker.name}?'),
-        actions: [
-          TextButton(
-            child: const Text("Confirm"),
-            onPressed: () async {
-              await deleteTracker(tracker.ref);
-              setState(() {});
-              if (!context.mounted) return;
-              Navigator.of(context).pop();
-            },
-          ),
-          TextButton(
-            child: const Text("Cancel"),
-            onPressed: () => Navigator.pop(context),
-          ),
-        ],
+      builder: (_) => PkmTextDialog(
+        title: 'Delete Tracker',
+        content: 'Remove ${tracker.name}?',
+        onConfirm: () async {
+          await deleteTracker(tracker.ref);
+          setState(() {});
+        },
       ),
     );
   }

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
+import 'package:oaks_legacy/components/pkm_text_dialog.dart';
 import 'package:oaks_legacy/components/pkm_button.dart';
 import 'package:oaks_legacy/models/tracker.dart';
 import '../utils/trackers_manager.dart';
@@ -37,34 +37,15 @@ class StartTrackingButton extends StatelessWidget {
           ? () => {
                 showDialog(
                   context: context,
-                  builder: (_) => AlertDialog(
-                    title: const Text('Give a name'),
-                    content: TextField(
-                        autofocus: true,
-                        controller: textController,
-                        inputFormatters: [
-                          LengthLimitingTextInputFormatter(50),
-                        ]),
-                    actions: [
-                      TextButton(
-                        child: const Text("Confirm"),
-                        onPressed: () async {
-                          Navigator.pop(context);
+                  builder: (_) => PkmTextEditDialog(
+                      title: 'Tracker Name',
+                      textController: textController,
+                      onChange: () async {
+                        var test = await createTracker(textController.text,
+                            gamePicked, dexPicked, trackerPicked);
 
-                          var test = await createTracker(textController.text,
-                              gamePicked, dexPicked, trackerPicked);
-
-                          setStateCallback(test);
-                        },
-                      ),
-                      TextButton(
-                        child: const Text("Cancel"),
-                        onPressed: () {
-                          Navigator.pop(context);
-                        },
-                      ),
-                    ],
-                  ),
+                        setStateCallback(test);
+                      }),
                 ),
               }
           : null,

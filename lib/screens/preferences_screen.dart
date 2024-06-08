@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/app_bar.dart';
 import 'package:oaks_legacy/components/base_background.dart';
+import 'package:oaks_legacy/components/pkm_text_dialog.dart';
 import 'package:oaks_legacy/components/switch_option.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/models/preferences.dart';
@@ -66,11 +67,11 @@ class _PreferencesScreenState extends State<PreferencesScreen> {
                     mainAxisSize: MainAxisSize.min,
                     children: [
                       Card(
-                        shadowColor: Colors.white,
-                        color: Colors.blueGrey[800],
+                        shadowColor: Colors.black26,
+                        color: Colors.black26,
                         borderOnForeground: true,
                         child: SizedBox(
-                          height: 130, // Set a fixed height for the Card
+                          height: 130,
                           child: ListView(
                             padding: const EdgeInsets.only(left: 5, right: 5),
                             shrinkWrap: true,
@@ -88,40 +89,19 @@ class _PreferencesScreenState extends State<PreferencesScreen> {
                                           onTap: () => showDialog(
                                             context: context,
                                             builder: (dialogContex) =>
-                                                AlertDialog(
-                                              title: const Text('Trainer Name'),
-                                              content: TextField(
-                                                controller: textController,
-                                                autofocus: true,
-                                              ),
-                                              actions: [
-                                                TextButton(
-                                                  child: const Text("Confirm"),
-                                                  onPressed: () {
-                                                    setState(() {
-                                                      if (textController.text !=
-                                                          "") {
+                                                PkmTextEditDialog(
+                                                    title: 'Your Trainer Name',
+                                                    textController:
+                                                        textController,
+                                                    onChange: () {
+                                                      setState(() {
                                                         kPreferences
                                                             .trainerNames
                                                             .add(textController
                                                                 .text);
-
                                                         kPreferences.save();
-                                                      }
-                                                      textController.clear();
-                                                    });
-                                                    Navigator.pop(dialogContex);
-                                                  },
-                                                ),
-                                                TextButton(
-                                                  child: const Text("Cancel"),
-                                                  onPressed: () {
-                                                    textController.clear();
-                                                    Navigator.pop(dialogContex);
-                                                  },
-                                                ),
-                                              ],
-                                            ),
+                                                      });
+                                                    }),
                                           ),
                                           child: const Padding(
                                             padding: EdgeInsets.all(8.0),
@@ -175,88 +155,6 @@ class _PreferencesScreenState extends State<PreferencesScreen> {
                     ],
                   ),
                 ),
-
-                // Row(
-                //   children: [
-                //     Expanded(
-                //       child: Card(
-                //         shadowColor: Colors.blue,
-                //         // height: 5 * 80,
-                //         // color: Colors.red,
-                //         child: Wrap(direction: Axis.vertical, children: [
-                //           ListView.builder(
-                //             itemBuilder: (context, index) {
-                //               if (index == kPreferences.trainerNames.length) {
-                //                 return GestureDetector(
-                //                   onTap: () => showDialog(
-                //                     context: context,
-                //                     builder: (dialogContex) => AlertDialog(
-                //                       title: const Text('Trainer Name'),
-                //                       content: TextField(
-                //                         controller: textController,
-                //                         autofocus: true,
-                //                       ),
-                //                       actions: [
-                //                         TextButton(
-                //                           child: const Text("Confirm"),
-                //                           onPressed: () {
-                //                             setState(() {
-                //                               if (textController.text != "") {
-                //                                 kPreferences.trainerNames
-                //                                     .add(textController.text);
-
-                //                                 kPreferences.save();
-                //                               }
-                //                               textController.clear();
-                //                             });
-                //                             Navigator.pop(dialogContex);
-                //                           },
-                //                         ),
-                //                         TextButton(
-                //                           child: const Text("Cancel"),
-                //                           onPressed: () {
-                //                             textController.clear();
-                //                             Navigator.pop(dialogContex);
-                //                           },
-                //                         ),
-                //                       ],
-                //                     ),
-                //                   ),
-                //                   child: const Chip(
-                //                     shadowColor: Colors.blue,
-                //                     elevation: 2,
-                //                     label: Text(
-                //                       "+",
-                //                     ),
-                //                   ),
-                //                 );
-                //               }
-                //               return Chip(
-                //                 label: GestureDetector(
-                //                   onLongPress: () {
-                //                     setState(() {
-                //                       kPreferences.trainerNames.remove(
-                //                           kPreferences.trainerNames[index]);
-
-                //                       kPreferences.save();
-                //                     });
-                //                   },
-                //                   child: Text(
-                //                     kPreferences.trainerNames[index],
-                //                   ),
-                //                 ),
-                //               );
-                //             },
-                //             itemCount: kPreferences.trainerNames.length + 1,
-                //             shrinkWrap: true,
-                //             padding: const EdgeInsets.all(5),
-                //             scrollDirection: Axis.vertical,
-                //           ),
-                //         ]),
-                //       ),
-                //     ),
-                //   ],
-                // ),
                 const Text(
                   '*Press and hold to remove*',
                   style: TextStyle(
@@ -271,29 +169,5 @@ class _PreferencesScreenState extends State<PreferencesScreen> {
         ],
       ),
     );
-    // return Drawer(
-    //   child: ListView(
-    //     padding: EdgeInsets.zero,
-    //     children: [
-    //       const SizedBox(
-    //         height: 80,
-    //         child: DrawerHeader(
-    //           decoration: BoxDecoration(color: Colors.blue),
-    //           child: Text('Filters'),
-    //         ),
-    //       ),
-    //       Column(
-    //         children: [],
-    //       ),
-    //       const Divider(thickness: 2),
-    //       Center(
-    //         child: TextButton(
-    //           onPressed: this..pop(context),
-    //           child: const Text("Close"),
-    //         ),
-    //       ),
-    //     ],
-    //   ),
-    // );
   }
 }

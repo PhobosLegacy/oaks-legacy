@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:oaks_legacy/components/pkm_text_dialog.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/models/enums.dart';
 import '../../components/basic.dart';
@@ -293,41 +294,25 @@ class _CatchInformationCardState extends State<CatchInformationCard> {
                                     //   setState(() {
                                     showDialog(
                                       context: context,
-                                      builder: (dialogContex) => AlertDialog(
-                                        title: const Text('Trainer Name'),
-                                        content: TextField(
-                                          controller: textController,
-                                          autofocus: true,
-                                        ),
-                                        actions: [
-                                          TextButton(
-                                            child: const Text("Confirm"),
-                                            onPressed: () {
-                                              setState(() {
-                                                if (textController.text != "") {
-                                                  kPreferences.trainerNames
-                                                      .add(textController.text);
+                                      builder: (dialogContex) =>
+                                          PkmTextEditDialog(
+                                              title: 'Trainer Name',
+                                              textController: textController,
+                                              onChange: () {
+                                                setState(() {
+                                                  if (textController.text !=
+                                                      "") {
+                                                    kPreferences.trainerNames
+                                                        .add(textController
+                                                            .text);
 
-                                                  kPreferences.save();
+                                                    kPreferences.save();
 
-                                                  widget.pokemon.trainerName =
-                                                      textController.text;
-                                                }
-
-                                                textController.clear();
-                                              });
-                                              Navigator.pop(dialogContex);
-                                            },
-                                          ),
-                                          TextButton(
-                                            child: const Text("Cancel"),
-                                            onPressed: () {
-                                              textController.clear();
-                                              Navigator.pop(dialogContex);
-                                            },
-                                          ),
-                                        ],
-                                      ),
+                                                    widget.pokemon.trainerName =
+                                                        textController.text;
+                                                  }
+                                                });
+                                              }),
                                     ),
                                   },
                                   child: const Center(
