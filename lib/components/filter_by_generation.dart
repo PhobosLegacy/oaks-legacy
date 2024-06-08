@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:oaks_legacy/components/pkm_filter_button.dart';
 import 'package:oaks_legacy/components/pkm_grid.dart';
 import 'package:oaks_legacy/utils/extensions.dart';
-import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class FilterByGeneration extends StatelessWidget {
   const FilterByGeneration({
@@ -50,58 +50,22 @@ class FilterByGeneration extends StatelessWidget {
           child: Wrap(
             alignment: WrapAlignment.center,
             children: List.generate(9, (index) {
-              return ZoomTapAnimation(
-                child: GestureDetector(
-                  onTap: () {
-                    (selectedTypes.contains((index + 1).toString()))
-                        ? selectedTypes.remove((index + 1).toString())
-                        : selectedTypes.add((index + 1).toString());
+              return PkmFilterButton(
+                condition: (!selectedTypes.contains((index + 1).toString())),
+                onTap: () {
+                  (selectedTypes.contains((index + 1).toString()))
+                      ? selectedTypes.remove((index + 1).toString())
+                      : selectedTypes.add((index + 1).toString());
 
-                    onTypeSelected(selectedTypes);
-                  },
-                  child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: AnimatedContainer(
-                      padding: const EdgeInsets.all(5),
-                      height: (smallScreen) ? 40 : 80,
-                      width: (smallScreen) ? 40 : 80,
-                      duration: const Duration(milliseconds: 100),
-                      decoration: BoxDecoration(
-                        color: Colors.blueGrey[900],
-                        borderRadius: BorderRadius.circular(12),
-                        border: Border.all(
-                          color:
-                              (!selectedTypes.contains((index + 1).toString()))
-                                  ? Colors.blueGrey[800]!
-                                  : Colors.blueGrey[900]!,
-                        ),
-                        boxShadow:
-                            (!selectedTypes.contains((index + 1).toString()))
-                                ? []
-                                : [
-                                    const BoxShadow(
-                                      color: Colors.amber,
-                                      offset: Offset(5, 5),
-                                      blurRadius: 5,
-                                      spreadRadius: 0.1,
-                                    ),
-                                    BoxShadow(
-                                      color: Colors.blueGrey[800]!,
-                                      offset: const Offset(-5, -5),
-                                      blurRadius: 5,
-                                      spreadRadius: 0.1,
-                                    ),
-                                  ],
-                      ),
-                      child: Center(
-                        child: Text(
-                          index.getRomanNumber(),
-                          style: TextStyle(
-                            fontSize: (smallScreen) ? 20 : 40,
-                            color: Colors.amber,
-                          ),
-                        ),
-                      ),
+                  onTypeSelected(selectedTypes);
+                },
+                smallScreen: smallScreen,
+                btnContent: Center(
+                  child: Text(
+                    index.getRomanNumber(),
+                    style: TextStyle(
+                      fontSize: (smallScreen) ? 20 : 40,
+                      color: Colors.amber,
                     ),
                   ),
                 ),

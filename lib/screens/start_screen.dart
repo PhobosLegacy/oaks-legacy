@@ -23,7 +23,6 @@ class _StartScreenState extends State<StartScreen> {
       body: Stack(
         children: [
           const BaseBackground(),
-          // const PkmCreate(),
           Center(
             child: Wrap(
               spacing: 20,

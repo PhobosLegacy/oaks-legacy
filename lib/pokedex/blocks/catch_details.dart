@@ -5,7 +5,7 @@ import 'package:oaks_legacy/components/catch_card.dart';
 import 'package:oaks_legacy/components/options.dart';
 import 'package:oaks_legacy/components/pkm_edit_button.dart';
 import 'package:oaks_legacy/components/pkm_level_picker.dart';
-import 'package:oaks_legacy/components/pkm_name_picker.dart';
+import 'package:oaks_legacy/components/pkm_text_dialog.dart';
 import 'package:oaks_legacy/components/pkm_tile.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/models/enums.dart';
@@ -286,19 +286,20 @@ class _CatchDetailsBlockState extends State<CatchDetailsBlock> {
                                       context: context,
                                       barrierColor: Colors.black87,
                                       builder: (BuildContext otContext) {
-                                        return PkmNamePicker(
-                                            textController: textController,
-                                            onChange: () {
-                                              setState(() {
-                                                kPreferences.trainerNames
-                                                    .add(textController.text);
-                                                Navigator.pop(context);
-                                                kPreferences.save();
-                                                widget.pokemon.trainerName =
-                                                    textController.text;
-                                              });
-                                            },
-                                            dialogContext: context);
+                                        return PkmTextEditDialog(
+                                          title: 'Add your OT',
+                                          textController: textController,
+                                          onChange: () {
+                                            setState(() {
+                                              kPreferences.trainerNames
+                                                  .add(textController.text);
+                                              Navigator.pop(context);
+                                              kPreferences.save();
+                                              widget.pokemon.trainerName =
+                                                  textController.text;
+                                            });
+                                          },
+                                        );
                                       });
                                 },
                                 content: const SizedBox(

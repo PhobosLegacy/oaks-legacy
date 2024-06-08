@@ -35,19 +35,6 @@ class _PkmButtonState extends State<PkmButton> with TickerProviderStateMixin {
     });
   }
 
-  Color makeItDarker(Color color, double percent) {
-    // Ensure the percentage is between 0 and 1
-    percent = percent.clamp(0.0, 1.0);
-
-    // Calculate darker values for each channel
-    int red = (color.red * (1 - percent)).round();
-    int green = (color.green * (1 - percent)).round();
-    int blue = (color.blue * (1 - percent)).round();
-
-    // Create a new Color with the darker values
-    return Color.fromARGB(color.alpha, red, green, blue);
-  }
-
   @override
   Widget build(BuildContext context) {
     double width = getButtonWidth(

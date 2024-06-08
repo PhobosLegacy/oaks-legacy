@@ -1,5 +1,7 @@
 // ignore_for_file: unused_import
 import 'dart:convert';
+import 'package:flutter/services.dart';
+import 'package:oaks_legacy/utils/colors.dart';
 import 'package:universal_html/html.dart' as html;
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/base_background.dart';
@@ -41,16 +43,16 @@ class _LoadingScreenState extends State<LoadingScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: Stack(
         children: [
-          BaseBackground(),
+          const BaseBackground(),
           Center(
             child: Text(
               'Loading...',
               style: TextStyle(
                 fontSize: 30,
-                color: Colors.amber,
+                color: cWarningTextColor,
               ),
             ),
           ),
@@ -79,6 +81,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
       //********* Resolve Pokedex file *********\\
       String pokedex = await fetchData(kServerPokedexLocation);
       kPokedex = await Pokemon.createPokedex(pokedex);
+
       //***************************************\\
 
       if (html.window.location.href.contains('code=') &&

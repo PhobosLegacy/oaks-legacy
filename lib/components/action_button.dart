@@ -26,10 +26,10 @@ class ActionButton extends StatelessWidget {
                 child: ElevatedButton(
                   style: ElevatedButton.styleFrom(
                     padding: EdgeInsets.zero,
-                    backgroundColor: Colors.blueGrey,
+                    backgroundColor: Colors.black12,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10.0),
-                      side: const BorderSide(color: Colors.amber),
+                      side: const BorderSide(color: Colors.white12),
                     ),
                   ),
                   onPressed: onPress,

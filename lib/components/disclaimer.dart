@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:oaks_legacy/utils/colors.dart';
 
 class Disclaimer extends StatelessWidget {
   const Disclaimer({
@@ -48,8 +49,7 @@ class DisclaimerText extends StatelessWidget {
         text,
         style: TextStyle(
             fontSize: 18,
-            color: Colors.amber.shade200,
-            backgroundColor: Colors.black26,
+            color: cWarningTextColor,
             fontWeight: FontWeight.w300,
             fontStyle: FontStyle.italic),
         textAlign: TextAlign.center,
