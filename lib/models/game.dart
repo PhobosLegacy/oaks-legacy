@@ -362,6 +362,11 @@ class Dex {
           "Gigantamax Forms"
         ]);
         break;
+      case "Pokemon Ruby":
+      case "Pokemon Sapphire":
+      case "Pokemon Emerald":
+      case "Pokemon FireRed":
+      case "Pokemon LeafGreen":
       case "Pokemon Brilliant Diamond":
       case "Pokemon Shining Pearl":
         dex.addAll(["National Dex"]);
