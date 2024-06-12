@@ -298,45 +298,7 @@ class Dex {
 
   static List<String> allGames() {
     return [
-      "Pokemon Red",
-      "Pokemon Blue (Int)",
-      "Pokemon Green (Jp)",
-      "Pokemon Yellow",
-      "Pokemon Gold",
-      "Pokemon Silver",
-      "Pokemon Crystal",
-      "Pokemon Ruby",
-      "Pokemon Sapphire",
-      "Pokemon Emerald",
-      "Pokemon FireRed",
-      "Pokemon LeafGreen",
-      "Pokemon Diamond",
-      "Pokemon Pearl",
-      "Pokemon Platinum",
-      "Pokemon HeartGold",
-      "Pokemon SoulSilver",
-      "Pokemon Black",
-      "Pokemon White",
-      "Pokemon Black 2",
-      "Pokemon White 2",
-      "Pokemon X",
-      "Pokemon Y",
-      "Pokemon Omega Ruby",
-      "Pokemon Alpha Sapphire",
-      "Pokemon Sun",
-      "Pokemon Moon",
-      "Pokemon Ultra Sun",
-      "Pokemon Ultra Moon",
-      "Let's Go Pikachu",
-      "Let's Go Eevee",
-      "Pokemon Sword",
-      "Pokemon Shield",
-      "Pokemon Brilliant Diamond",
-      "Pokemon Shining Pearl",
-      "Pokemon Legends: Arceus",
-      "Pokemon Scarlet",
-      "Pokemon Violet",
-      "Pokemon HOME",
+      ...availableGames(),
       "Pokemon Go",
     ];
   }
@@ -374,6 +336,25 @@ class Dex {
       case "Pokemon HOME":
         dex = ['Full Dex'];
         break;
+      case "Pokemon Omega Ruby":
+      case "Pokemon Alpha Sapphire":
+        dex.addAll(["Megas"]);
+        break;
+      case "Pokemon X":
+      case "Pokemon Y":
+        dex = ['Central', 'Coastal', 'Mountain', 'Megas'];
+        break;
+      case "Pokemon Sun":
+      case "Pokemon Moon":
+      case "Pokemon Ultra Sun":
+      case "Pokemon Ultra Moon":
+        dex.addAll([
+          'Melemele Island',
+          'Akala Island',
+          'Ula\'Ula Island',
+          'Poni Island'
+        ]);
+        break;
       default:
     }
 
@@ -390,6 +371,7 @@ class Dex {
           "Basic",
           "Shiny",
         ];
+      case "Megas":
       case "Mightiest Mark":
         return [
           "Basic",

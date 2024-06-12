@@ -104,7 +104,7 @@ Tracker applyTrackerChanges(Tracker tracker, bool isLivingDexTracker) {
     tracker.pokemons = flatList;
   }
 
-  if (["Vivillons", "Mightiest Mark"].contains(tracker.dex)) {
+  if (["Vivillons", "Mightiest Mark", "Megas"].contains(tracker.dex)) {
     List<Item> flatList = [];
     for (var pokemon in tracker.pokemons) {
       flatList.addAll(flatIt(pokemon));
@@ -183,21 +183,60 @@ Item? checkPokemon(Pokemon pokemon,
     //if notes is not empty means it is an exclusive form
     if (item.game.notes != "" &&
         item.forms.any((element) => element.game.notes == "")) {
+      // Item parent =
+      //     item.forms.firstWhere((element) => element.game.notes == "");
+      // parent.forms.clear();
+      // for (var form in item.forms) {
+      //   if (form.ref == parent.ref) {
+      //     parent.forms.insert(0, Item.copy(form));
+      //   } else {
+      //     parent.forms.add(Item.copy(form));
+      //   }
+      // }
+      List<Item> flattened = flat(item);
+      flattened = removeDuplicates(flattened);
+
       Item parent =
-          item.forms.firstWhere((element) => element.game.notes == "");
+          item.forms.firstWhere((element) => element.game.notes.isEmpty);
       parent.forms.clear();
-      for (var form in item.forms) {
-        if (form.ref == parent.ref) {
-          parent.forms.insert(0, Item.copy(form));
-        } else {
-          parent.forms.add(Item.copy(form));
-        }
-      }
+      flattened.removeWhere((element) => element.ref == parent.ref);
+      parent.forms.insert(0, Item.copy(parent));
+      parent.forms.addAll(flattened);
+
       return parent;
     }
   }
 
   return item;
+}
+
+flat(Item item) {
+  List<Item> flat = [];
+  if (item.forms.isEmpty) return [item];
+  for (var form in item.forms) {
+    flat.add(Item.copy(item));
+    if (form.forms.isEmpty) {
+      flat.add(form);
+    } else {
+      flat.addAll(flatIt(form));
+    }
+  }
+  return flat;
+}
+
+List<Item> removeDuplicates(List<Item> items) {
+  Set<String> seenRefs = {};
+  List<Item> uniqueItems = [];
+
+  for (Item item in items) {
+    var shortRef = item.ref.substring(0, item.ref.indexOf('.') + 2);
+    if (!seenRefs.contains(shortRef)) {
+      seenRefs.add(shortRef);
+      uniqueItems.add(item);
+    }
+  }
+
+  return uniqueItems;
 }
 
 Item createNewItem(Pokemon pokemon, Game game, entryOrigin, isShinyTracker) {
