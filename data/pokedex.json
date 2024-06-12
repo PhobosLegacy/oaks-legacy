@@ -7609,14 +7609,14 @@
             "dex": "Regional",
             "number": "251",
             "shinyLocked": "UNLOCKED",
-            "notes": "MoonExclusive"
+            "notes": "Moon Exclusive"
           },
           {
             "name": "Pokemon Sun",
             "dex": "Ula'Ula Island",
             "number": "123",
             "shinyLocked": "UNLOCKED",
-            "notes": "MoonExclusive"
+            "notes": "Moon Exclusive"
           },
           {
             "name": "Pokemon Moon",
@@ -7637,14 +7637,14 @@
             "dex": "Regional",
             "number": "328",
             "shinyLocked": "UNLOCKED",
-            "notes": "UltraMoonExclusive"
+            "notes": "Ultra Moon Exclusive"
           },
           {
             "name": "Pokemon Ultra Sun",
             "dex": "Ula'Ula Island",
             "number": "149",
             "shinyLocked": "UNLOCKED",
-            "notes": "UltraMoonExclusive"
+            "notes": "Ultra Moon Exclusive"
           },
           {
             "name": "Pokemon Ultra Moon",
@@ -7996,14 +7996,14 @@
             "dex": "Regional",
             "number": "252",
             "shinyLocked": "UNLOCKED",
-            "notes": "MoonExclusive"
+            "notes": "Moon Exclusive"
           },
           {
             "name": "Pokemon Sun",
             "dex": "Ula'Ula Island",
             "number": "124",
             "shinyLocked": "UNLOCKED",
-            "notes": "MoonExclusive"
+            "notes": "Moon Exclusive"
           },
           {
             "name": "Pokemon Moon",
@@ -8024,14 +8024,14 @@
             "dex": "Regional",
             "number": "329",
             "shinyLocked": "UNLOCKED",
-            "notes": "UltraMoonExclusive"
+            "notes": "Ultra Moon Exclusive"
           },
           {
             "name": "Pokemon Ultra Sun",
             "dex": "Ula'Ula Island",
             "number": "150",
             "shinyLocked": "UNLOCKED",
-            "notes": "UltraMoonExclusive"
+            "notes": "Ultra Moon Exclusive"
           },
           {
             "name": "Pokemon Ultra Moon",
@@ -10248,14 +10248,14 @@
             "dex": "Regional",
             "number": "253",
             "shinyLocked": "UNLOCKED",
-            "notes": "SunExclusive"
+            "notes": "Sun Exclusive"
           },
           {
             "name": "Pokemon Moon",
             "dex": "Ula'Ula Island",
             "number": "125",
             "shinyLocked": "UNLOCKED",
-            "notes": "SunExclusive"
+            "notes": "Sun Exclusive"
           },
           {
             "name": "Pokemon Ultra Sun",
@@ -10276,14 +10276,14 @@
             "dex": "Regional",
             "number": "330",
             "shinyLocked": "UNLOCKED",
-            "notes": "UltraSunExclusive"
+            "notes": "Ultra Sun Exclusive"
           },
           {
             "name": "Pokemon Ultra Moon",
             "dex": "Ula'Ula Island",
             "number": "151",
             "shinyLocked": "UNLOCKED",
-            "notes": "UltraSunExclusive"
+            "notes": "Ultra Sun Exclusive"
           }
         ],
         "generation": "1"
@@ -10634,14 +10634,14 @@
             "dex": "Regional",
             "number": "254",
             "shinyLocked": "UNLOCKED",
-            "notes": "SunExclusive"
+            "notes": "Sun Exclusive"
           },
           {
             "name": "Pokemon Moon",
             "dex": "Ula'Ula Island",
             "number": "126",
             "shinyLocked": "UNLOCKED",
-            "notes": "SunExclusive"
+            "notes": "Sun Exclusive"
           },
           {
             "name": "Pokemon Ultra Sun",
@@ -10662,14 +10662,14 @@
             "dex": "Regional",
             "number": "331",
             "shinyLocked": "UNLOCKED",
-            "notes": "UltraSunExclusive"
+            "notes": "Ultra Sun Exclusive"
           },
           {
             "name": "Pokemon Ultra Moon",
             "dex": "Ula'Ula Island",
             "number": "152",
             "shinyLocked": "UNLOCKED",
-            "notes": "UltraSunExclusive"
+            "notes": "Ultra Sun Exclusive"
           }
         ],
         "generation": "1"
@@ -42255,14 +42255,14 @@
         "dex": "Regional",
         "number": "227",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Akala Island",
         "number": "128",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],
@@ -42469,14 +42469,14 @@
         "dex": "Regional",
         "number": "228",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Akala Island",
         "number": "129",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],
@@ -42669,14 +42669,14 @@
         "dex": "Regional",
         "number": "229",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
         "dex": "Akala Island",
         "number": "130",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
@@ -42883,14 +42883,14 @@
         "dex": "Regional",
         "number": "230",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
         "dex": "Akala Island",
         "number": "131",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
@@ -43772,6 +43772,20 @@
         "number": "151",
         "shinyLocked": "LOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -44018,6 +44032,20 @@
         "number": "152",
         "shinyLocked": "LOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -44263,6 +44291,20 @@
         "dex": "Coastal",
         "number": "153",
         "shinyLocked": "LOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
         "notes": ""
       }
     ],
@@ -45333,6 +45375,20 @@
         "dex": "Mountain",
         "number": "151",
         "shinyLocked": "LOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
         "notes": ""
       }
     ],
@@ -63575,14 +63631,14 @@
         "dex": "Regional",
         "number": "289",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Ula'Ula Island",
         "number": "110",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],
@@ -63773,14 +63829,14 @@
         "dex": "Regional",
         "number": "290",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Ula'Ula Island",
         "number": "111",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [
@@ -66527,6 +66583,20 @@
         "number": "243",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],
@@ -66657,6 +66727,20 @@
         "number": "244",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Ultra Moon Exclusive"
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [],
@@ -66785,6 +66869,20 @@
         "name": "Pokemon SoulSilver",
         "dex": "Regional",
         "number": "245",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -67598,6 +67696,20 @@
         "number": "252",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Ultra Moon Exclusive"
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [],
@@ -67728,6 +67840,20 @@
         "number": "253",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],
@@ -78113,14 +78239,14 @@
         "dex": "Regional",
         "number": "293",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
         "dex": "Ula'Ula Island",
         "number": "114",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
@@ -78285,14 +78411,14 @@
         "dex": "Regional",
         "number": "294",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
         "dex": "Ula'Ula Island",
         "number": "115",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
@@ -84799,14 +84925,14 @@
         "dex": "Regional",
         "number": "310",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
         "dex": "Ula'Ula Island",
         "number": "131",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
@@ -84985,14 +85111,14 @@
         "dex": "Regional",
         "number": "311",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
         "dex": "Ula'Ula Island",
         "number": "132",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
@@ -85143,14 +85269,14 @@
         "dex": "Regional",
         "number": "231",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
         "dex": "Akala Island",
         "number": "132",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
@@ -85301,14 +85427,14 @@
         "dex": "Regional",
         "number": "232",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
         "dex": "Akala Island",
         "number": "133",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
@@ -85473,14 +85599,14 @@
         "dex": "Regional",
         "number": "233",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Akala Island",
         "number": "134",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],
@@ -85631,14 +85757,14 @@
         "dex": "Regional",
         "number": "234",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Akala Island",
         "number": "135",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],
@@ -91620,6 +91746,20 @@
         "number": "202",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [],
@@ -91748,6 +91888,20 @@
         "name": "Pokemon Alpha Sapphire",
         "dex": "Regional",
         "number": "203",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -91891,6 +92045,20 @@
         "number": "204",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [],
@@ -92026,6 +92194,20 @@
         "name": "Pokemon Alpha Sapphire",
         "dex": "Regional",
         "number": "205",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Ultra Moon Exclusive"
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -92211,6 +92393,20 @@
         "number": "206",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [
@@ -92387,6 +92583,20 @@
         "number": "207",
         "shinyLocked": "LOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Ultra Moon Exclusive"
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -92556,6 +92766,20 @@
         "number": "208",
         "shinyLocked": "LOCKED",
         "notes": "Trade Only"
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [
@@ -92724,6 +92948,20 @@
         "dex": "Regional",
         "number": "209",
         "shinyLocked": "LOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
         "notes": ""
       }
     ],
@@ -95763,14 +96001,14 @@
         "dex": "Regional",
         "number": "188",
         "shinyLocked": "UNLOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Moon",
         "dex": "Akala Island",
         "number": "115",
         "shinyLocked": "UNLOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
@@ -95791,14 +96029,14 @@
         "dex": "Regional",
         "number": "235",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Akala Island",
         "number": "136",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],
@@ -95921,14 +96159,14 @@
         "dex": "Regional",
         "number": "189",
         "shinyLocked": "UNLOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Moon",
         "dex": "Akala Island",
         "number": "116",
         "shinyLocked": "UNLOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
@@ -95949,14 +96187,14 @@
         "dex": "Regional",
         "number": "236",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Akala Island",
         "number": "137",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],
@@ -96065,14 +96303,14 @@
         "dex": "Regional",
         "number": "190",
         "shinyLocked": "UNLOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Sun",
         "dex": "Akala Island",
         "number": "117",
         "shinyLocked": "UNLOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Moon",
@@ -96093,14 +96331,14 @@
         "dex": "Regional",
         "number": "237",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
         "dex": "Akala Island",
         "number": "138",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
@@ -96223,14 +96461,14 @@
         "dex": "Regional",
         "number": "191",
         "shinyLocked": "UNLOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Sun",
         "dex": "Akala Island",
         "number": "118",
         "shinyLocked": "UNLOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Moon",
@@ -96251,14 +96489,14 @@
         "dex": "Regional",
         "number": "238",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
         "dex": "Akala Island",
         "number": "139",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
@@ -108327,6 +108565,20 @@
         "number": "146",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [],
@@ -108429,6 +108681,20 @@
         "number": "147",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [],
@@ -108529,6 +108795,20 @@
         "name": "Pokemon Platinum",
         "dex": "Regional",
         "number": "148",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -108642,6 +108922,20 @@
         "number": "149",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [
@@ -108799,6 +109093,20 @@
         "number": "150",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Ultra Moon Exclusive"
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -108912,6 +109220,20 @@
         "number": "0485",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],
@@ -108963,6 +109285,20 @@
         "name": "Pokemon HOME",
         "dex": "Full Dex",
         "number": "0486",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Ultra Moon Exclusive"
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -109037,6 +109373,20 @@
         "name": "Pokemon Platinum",
         "dex": "Regional",
         "number": "210",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -109150,6 +109500,20 @@
         "name": "Pokemon HOME",
         "dex": "Full Dex",
         "number": "0488",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -115226,28 +115590,28 @@
         "dex": "Regional",
         "number": "087",
         "shinyLocked": "UNLOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Moon",
         "dex": "Melemele Island",
         "number": "087",
         "shinyLocked": "UNLOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Moon",
         "dex": "Ula'Ula Island",
         "number": "047",
         "shinyLocked": "UNLOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Moon",
         "dex": "Poni Island",
         "number": "037",
         "shinyLocked": "UNLOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
@@ -115282,28 +115646,28 @@
         "dex": "Regional",
         "number": "105",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Melemele Island",
         "number": "105",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Ula'Ula Island",
         "number": "050",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Poni Island",
         "number": "049",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],
@@ -115447,28 +115811,28 @@
         "dex": "Regional",
         "number": "088",
         "shinyLocked": "UNLOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Moon",
         "dex": "Melemele Island",
         "number": "088",
         "shinyLocked": "UNLOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Moon",
         "dex": "Ula'Ula Island",
         "number": "048",
         "shinyLocked": "UNLOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Moon",
         "dex": "Poni Island",
         "number": "038",
         "shinyLocked": "UNLOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
@@ -115503,28 +115867,28 @@
         "dex": "Regional",
         "number": "106",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Melemele Island",
         "number": "106",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Ula'Ula Island",
         "number": "051",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Poni Island",
         "number": "050",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],
@@ -115640,28 +116004,28 @@
         "dex": "Regional",
         "number": "085",
         "shinyLocked": "UNLOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Sun",
         "dex": "Melemele Island",
         "number": "085",
         "shinyLocked": "UNLOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Sun",
         "dex": "Ula'Ula Island",
         "number": "045",
         "shinyLocked": "UNLOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Sun",
         "dex": "Poni Island",
         "number": "035",
         "shinyLocked": "UNLOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Moon",
@@ -115696,28 +116060,28 @@
         "dex": "Regional",
         "number": "103",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
         "dex": "Melemele Island",
         "number": "103",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
         "dex": "Ula'Ula Island",
         "number": "048",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
         "dex": "Poni Island",
         "number": "047",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
@@ -115861,28 +116225,28 @@
         "dex": "Regional",
         "number": "086",
         "shinyLocked": "UNLOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Sun",
         "dex": "Melemele Island",
         "number": "086",
         "shinyLocked": "UNLOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Sun",
         "dex": "Ula'Ula Island",
         "number": "046",
         "shinyLocked": "UNLOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Sun",
         "dex": "Poni Island",
         "number": "036",
         "shinyLocked": "UNLOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Moon",
@@ -115917,28 +116281,28 @@
         "dex": "Regional",
         "number": "104",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
         "dex": "Melemele Island",
         "number": "104",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
         "dex": "Ula'Ula Island",
         "number": "049",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
         "dex": "Poni Island",
         "number": "048",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
@@ -118061,14 +118425,14 @@
         "dex": "Regional",
         "number": "194",
         "shinyLocked": "UNLOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Moon",
         "dex": "Akala Island",
         "number": "121",
         "shinyLocked": "UNLOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
@@ -118089,14 +118453,14 @@
         "dex": "Regional",
         "number": "241",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Akala Island",
         "number": "142",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],
@@ -118191,14 +118555,14 @@
         "dex": "Regional",
         "number": "195",
         "shinyLocked": "UNLOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Moon",
         "dex": "Akala Island",
         "number": "122",
         "shinyLocked": "UNLOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
@@ -118219,14 +118583,14 @@
         "dex": "Regional",
         "number": "242",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Akala Island",
         "number": "143",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],
@@ -118307,14 +118671,14 @@
         "dex": "Regional",
         "number": "192",
         "shinyLocked": "UNLOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Sun",
         "dex": "Akala Island",
         "number": "119",
         "shinyLocked": "UNLOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Moon",
@@ -118335,14 +118699,14 @@
         "dex": "Regional",
         "number": "239",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
         "dex": "Akala Island",
         "number": "140",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
@@ -118437,14 +118801,14 @@
         "dex": "Regional",
         "number": "193",
         "shinyLocked": "UNLOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Sun",
         "dex": "Akala Island",
         "number": "120",
         "shinyLocked": "UNLOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Moon",
@@ -118465,14 +118829,14 @@
         "dex": "Regional",
         "number": "240",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
         "dex": "Akala Island",
         "number": "141",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
@@ -125510,14 +125874,14 @@
         "dex": "Regional",
         "number": "312",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Ula'Ula Island",
         "number": "133",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],
@@ -125654,14 +126018,14 @@
         "dex": "Regional",
         "number": "313",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Ula'Ula Island",
         "number": "134",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],
@@ -126222,21 +126586,21 @@
         "dex": "Regional",
         "number": "075",
         "shinyLocked": "UNLOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Moon",
         "dex": "Melemele Island",
         "number": "075",
         "shinyLocked": "UNLOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Moon",
         "dex": "Poni Island",
         "number": "026",
         "shinyLocked": "UNLOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
@@ -126264,21 +126628,21 @@
         "dex": "Regional",
         "number": "089",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Melemele Island",
         "number": "089",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Poni Island",
         "number": "035",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],
@@ -126422,21 +126786,21 @@
         "dex": "Regional",
         "number": "076",
         "shinyLocked": "UNLOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Moon",
         "dex": "Melemele Island",
         "number": "076",
         "shinyLocked": "UNLOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Moon",
         "dex": "Poni Island",
         "number": "027",
         "shinyLocked": "UNLOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
@@ -126464,21 +126828,21 @@
         "dex": "Regional",
         "number": "090",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Melemele Island",
         "number": "090",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Poni Island",
         "number": "036",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [
@@ -126640,21 +127004,21 @@
         "dex": "Regional",
         "number": "077",
         "shinyLocked": "UNLOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Sun",
         "dex": "Melemele Island",
         "number": "077",
         "shinyLocked": "UNLOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Sun",
         "dex": "Poni Island",
         "number": "028",
         "shinyLocked": "UNLOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Moon",
@@ -126682,21 +127046,21 @@
         "dex": "Regional",
         "number": "091",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
         "dex": "Melemele Island",
         "number": "091",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
         "dex": "Poni Island",
         "number": "037",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
@@ -126840,21 +127204,21 @@
         "dex": "Regional",
         "number": "078",
         "shinyLocked": "UNLOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Sun",
         "dex": "Melemele Island",
         "number": "078",
         "shinyLocked": "UNLOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Sun",
         "dex": "Poni Island",
         "number": "029",
         "shinyLocked": "UNLOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Moon",
@@ -126882,21 +127246,21 @@
         "dex": "Regional",
         "number": "092",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
         "dex": "Melemele Island",
         "number": "092",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
         "dex": "Poni Island",
         "number": "038",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
@@ -127784,6 +128148,20 @@
         "number": "225",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [],
@@ -127866,6 +128244,20 @@
         "number": "226",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [],
@@ -127938,6 +128330,20 @@
         "name": "Pokemon White 2",
         "dex": "Regional",
         "number": "227",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -128021,6 +128427,20 @@
         "number": "198",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [
@@ -128141,6 +128561,20 @@
         "number": "199",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Ultra Moon Exclusive"
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [
@@ -128254,6 +128688,20 @@
         "number": "295",
         "shinyLocked": "LOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],
@@ -128328,6 +128776,20 @@
         "number": "296",
         "shinyLocked": "LOCKED",
         "notes": "Trade Only"
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Ultra Moon Exclusive"
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [],
@@ -128407,6 +128869,20 @@
         "name": "Pokemon White 2",
         "dex": "Regional",
         "number": "200",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -128520,6 +128996,20 @@
         "name": "Pokemon White 2",
         "dex": "Regional",
         "number": "297",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -134146,14 +134636,14 @@
         "dex": "Regional",
         "number": "347",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
         "dex": "Poni Island",
         "number": "094",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
@@ -134248,14 +134738,14 @@
         "dex": "Regional",
         "number": "348",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
         "dex": "Poni Island",
         "number": "095",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
@@ -134364,14 +134854,14 @@
         "dex": "Regional",
         "number": "349",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Poni Island",
         "number": "096",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],
@@ -134466,14 +134956,14 @@
         "dex": "Regional",
         "number": "350",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Poni Island",
         "number": "097",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],
@@ -134674,14 +135164,14 @@
         "dex": "Regional",
         "number": "243",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Akala Island",
         "number": "144",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],
@@ -134762,14 +135252,14 @@
         "dex": "Regional",
         "number": "244",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Akala Island",
         "number": "145",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],
@@ -134836,14 +135326,14 @@
         "dex": "Regional",
         "number": "245",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
         "dex": "Akala Island",
         "number": "146",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
@@ -134924,14 +135414,14 @@
         "dex": "Regional",
         "number": "246",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
         "dex": "Akala Island",
         "number": "147",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
@@ -137575,6 +138065,20 @@
         "number": "148",
         "shinyLocked": "LOCKED",
         "notes": "Trade Only"
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],
@@ -137634,6 +138138,20 @@
         "dex": "Mountain",
         "number": "149",
         "shinyLocked": "LOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Ultra Moon Exclusive"
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
         "notes": ""
       }
     ],
@@ -144946,14 +145464,14 @@
         "dex": "Regional",
         "number": "176",
         "shinyLocked": "UNLOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Sun",
         "dex": "Akala Island",
         "number": "103",
         "shinyLocked": "UNLOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Moon",
@@ -144974,14 +145492,14 @@
         "dex": "Regional",
         "number": "215",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
         "dex": "Akala Island",
         "number": "116",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
@@ -145090,14 +145608,14 @@
         "dex": "Regional",
         "number": "177",
         "shinyLocked": "UNLOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Moon",
         "dex": "Akala Island",
         "number": "104",
         "shinyLocked": "UNLOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
@@ -145118,14 +145636,14 @@
         "dex": "Regional",
         "number": "216",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Akala Island",
         "number": "117",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],
@@ -147058,14 +147576,14 @@
         "dex": "Regional",
         "number": "224",
         "shinyLocked": "UNLOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Moon",
         "dex": "Ula'Ula Island",
         "number": "096",
         "shinyLocked": "UNLOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
@@ -147086,14 +147604,14 @@
         "dex": "Regional",
         "number": "288",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Ula'Ula Island",
         "number": "109",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],
@@ -147518,14 +148036,14 @@
         "dex": "Regional",
         "number": "244",
         "shinyLocked": "UNLOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Sun",
         "dex": "Ula'Ula Island",
         "number": "116",
         "shinyLocked": "UNLOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Moon",
@@ -147546,14 +148064,14 @@
         "dex": "Regional",
         "number": "321",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
         "dex": "Ula'Ula Island",
         "number": "142",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
@@ -148693,7 +149211,7 @@
         "dex": "Regional",
         "number": "291",
         "shinyLocked": "LOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
@@ -148707,7 +149225,7 @@
         "dex": "Regional",
         "number": "389",
         "shinyLocked": "LOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],
@@ -148760,7 +149278,7 @@
         "dex": "Regional",
         "number": "292",
         "shinyLocked": "LOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Moon",
@@ -148774,7 +149292,7 @@
         "dex": "Regional",
         "number": "390",
         "shinyLocked": "LOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
@@ -148856,6 +149374,20 @@
         "number": "393",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [],
@@ -148915,7 +149447,7 @@
         "dex": "Regional",
         "number": "294",
         "shinyLocked": "LOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
@@ -148929,7 +149461,21 @@
         "dex": "Regional",
         "number": "394",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],
@@ -148982,7 +149528,7 @@
         "dex": "Regional",
         "number": "295",
         "shinyLocked": "LOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Moon",
@@ -148996,12 +149542,26 @@
         "dex": "Regional",
         "number": "395",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Regional",
         "number": "395",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Ultra Moon Exclusive"
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -149078,6 +149638,20 @@
         "number": "396",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
       }
     ],
     "forms": [],
@@ -149130,7 +149704,7 @@
         "dex": "Regional",
         "number": "297",
         "shinyLocked": "LOCKED",
-        "notes": "MoonExclusive"
+        "notes": "Moon Exclusive"
       },
       {
         "name": "Pokemon Moon",
@@ -149144,12 +149718,26 @@
         "dex": "Regional",
         "number": "397",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
         "dex": "Regional",
         "number": "397",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Ultra Moon Exclusive"
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -149220,7 +149808,7 @@
         "dex": "Regional",
         "number": "298",
         "shinyLocked": "LOCKED",
-        "notes": "SunExclusive"
+        "notes": "Sun Exclusive"
       },
       {
         "name": "Pokemon Ultra Sun",
@@ -149234,7 +149822,21 @@
         "dex": "Regional",
         "number": "398",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],
@@ -149307,6 +149909,20 @@
         "name": "Pokemon Ultra Moon",
         "dex": "Regional",
         "number": "399",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Sun",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
+        "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Ultra Moon",
+        "dex": "Ultra Wormholes Legendaries",
+        "number": "",
         "shinyLocked": "UNLOCKED",
         "notes": ""
       }
@@ -149784,7 +150400,7 @@
         "dex": "Regional",
         "number": "391",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraMoonExclusive"
+        "notes": "Ultra Moon Exclusive"
       },
       {
         "name": "Pokemon Ultra Moon",
@@ -149851,7 +150467,7 @@
         "dex": "Regional",
         "number": "392",
         "shinyLocked": "UNLOCKED",
-        "notes": "UltraSunExclusive"
+        "notes": "Ultra Sun Exclusive"
       }
     ],
     "forms": [],

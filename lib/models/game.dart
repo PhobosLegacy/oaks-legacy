@@ -346,13 +346,21 @@ class Dex {
         break;
       case "Pokemon Sun":
       case "Pokemon Moon":
+        dex.addAll([
+          'Melemele Island',
+          'Akala Island',
+          'Ula\'Ula Island',
+          'Poni Island',
+        ]);
+        break;
       case "Pokemon Ultra Sun":
       case "Pokemon Ultra Moon":
         dex.addAll([
           'Melemele Island',
           'Akala Island',
           'Ula\'Ula Island',
-          'Poni Island'
+          'Poni Island',
+          'Ultra Wormholes Legendaries'
         ]);
         break;
       default:
@@ -367,6 +375,7 @@ class Dex {
       case "Gigantamax Forms":
       case "Vivillons":
       case "Dynamax Adventure Bosses":
+      case "Ultra Wormholes Legendaries":
         return [
           "Basic",
           "Shiny",
