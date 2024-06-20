@@ -39,7 +39,7 @@ class GamesBlock extends StatelessWidget {
                 height: 40,
               ),
               title: Text(
-                pokemon.games[index].name,
+                gameGroup[index]['name'],
                 style: const TextStyle(color: Colors.white, fontSize: 18),
               ),
               children: [

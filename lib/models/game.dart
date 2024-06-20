@@ -70,10 +70,44 @@ class Game extends Dex {
         return const Color(0xffddbf2d);
       case "Pokemon Green (Jp)":
         return const Color(0xff43913f);
+      case "Pokemon Gold":
+        return const Color(0xffdfc832);
+      case "Pokemon Silver":
+        return const Color(0xffd2e3f1);
+      case "Pokemon Crystal":
+        return const Color(0xffe8eaf0);
+      case "Pokemon Omega Ruby":
+        return const Color(0xff4e0505);
+      case "Pokemon Ruby":
+        return const Color(0xffb83f33);
+      case "Pokemon Alpha Sapphire":
+        return const Color(0xff07256c);
+      case "Pokemon Sapphire":
+        return const Color(0xff2064a3);
+      case "Pokemon Emerald":
+        return const Color(0xff1f5a4d);
+      case "Pokemon FireRed":
+        return const Color(0xff995024);
+      case "Pokemon LeafGreen":
+        return const Color(0xff9bb45d);
+      case "Pokemon Diamond":
+        return const Color(0xffd9c8bc);
+      case "Pokemon Pearl":
+        return const Color(0xff536d8d);
+      case "Pokemon Platinum":
+        return const Color(0xff6e6462);
+      case "Pokemon HeartGold":
+        return const Color(0xffd2ad3d);
+      case "Pokemon SoulSilver":
+        return const Color(0xffc4c3cb);
+      case "Pokemon Black":
+      case "Pokemon Black 2":
+        return const Color(0xffcfd4ce);
+      case "Pokemon White":
+      case "Pokemon White 2":
+        return const Color(0xff4a5a5b);
       case "Pokemon HOME":
         return const Color.fromARGB(255, 118, 221, 151);
-      case "Pokemon Omega Ruby":
-      case "Pokemon Alpha Sapphire":
       case "Pokemon Go":
       default:
         return Colors.black;
@@ -159,6 +193,40 @@ class Game extends Dex {
         return path += "pokemon_yellow.png";
       case "Pokemon Green (Jp)":
         return path += "pokemon_green.png";
+      case "Pokemon Gold":
+        return path += "pokemon_gold.png";
+      case "Pokemon Silver":
+        return path += "pokemon_silver.png";
+      case "Pokemon Crystal":
+        return path += "pokemon_crystal.png";
+      case "Pokemon Ruby":
+        return path += "pokemon_ruby.png";
+      case "Pokemon Sapphire":
+        return path += "pokemon_sapphire.png";
+      case "Pokemon Emerald":
+        return path += "pokemon_emerald.png";
+      case "Pokemon FireRed":
+        return path += "pokemon_fireRed.png";
+      case "Pokemon LeafGreen":
+        return path += "pokemon_leafGreen.png";
+      case "Pokemon Diamond":
+        return path += "pokemon_diamon.png";
+      case "Pokemon Pearl":
+        return path += "pokemon_pearl.png";
+      case "Pokemon Platinum":
+        return path += "pokemon_platinum.png";
+      case "Pokemon HeartGold":
+        return path += "pokemon_heartGold.png";
+      case "Pokemon SoulSilver":
+        return path += "pokemon_soulSilver.png";
+      case "Pokemon Black":
+        return path += "pokemon_black.png";
+      case "Pokemon Black 2":
+        return path += "pokemon_black2.png";
+      case "Pokemon White":
+        return path += "pokemon_white.png";
+      case "Pokemon White 2":
+        return path += "pokemon_white2.png";
       case "Pokemon HOME":
         return path += "pokemon_home.png";
       default:
@@ -186,52 +254,52 @@ class Dex {
 
   static availableGames() {
     return [
-      "Pokemon Scarlet",
-      "Pokemon Violet",
-      "Pokemon Sword",
-      "Pokemon Shield",
-      "Let's Go Pikachu",
-      "Let's Go Eevee",
-      "Pokemon Legends: Arceus",
-      "Pokemon Brilliant Diamond",
-      "Pokemon Shining Pearl",
       "Pokemon Red",
       "Pokemon Blue (Int)",
       "Pokemon Green (Jp)",
       "Pokemon Yellow",
+      "Pokemon Gold",
+      "Pokemon Silver",
+      "Pokemon Crystal",
+      "Pokemon Ruby",
+      "Pokemon Sapphire",
+      "Pokemon Emerald",
+      "Pokemon FireRed",
+      "Pokemon LeafGreen",
+      "Pokemon Diamond",
+      "Pokemon Pearl",
+      "Pokemon Platinum",
+      "Pokemon HeartGold",
+      "Pokemon SoulSilver",
+      "Pokemon Black",
+      "Pokemon White",
+      "Pokemon Black 2",
+      "Pokemon White 2",
+      "Pokemon X",
+      "Pokemon Y",
+      "Pokemon Omega Ruby",
+      "Pokemon Alpha Sapphire",
+      "Pokemon Sun",
+      "Pokemon Moon",
+      "Pokemon Ultra Sun",
+      "Pokemon Ultra Moon",
+      "Let's Go Pikachu",
+      "Let's Go Eevee",
+      "Pokemon Sword",
+      "Pokemon Shield",
+      "Pokemon Brilliant Diamond",
+      "Pokemon Shining Pearl",
+      "Pokemon Legends: Arceus",
+      "Pokemon Scarlet",
+      "Pokemon Violet",
       "Pokemon HOME",
-      // "Pokemon X",
-      // "Pokemon Y",
-      // "Pokemon Sun",
-      // "Pokemon Moon",
-      // "Pokemon Ultra Sun",
-      // "Pokemon Ultra Moon"
     ];
   }
 
   static List<String> allGames() {
     return [
-      "Pokemon Scarlet",
-      "Pokemon Violet",
-      "Pokemon Sword",
-      "Pokemon Shield",
-      "Let's Go Pikachu",
-      "Let's Go Eevee",
-      "Pokemon X",
-      "Pokemon Y",
-      "Pokemon Sun",
-      "Pokemon Moon",
-      "Pokemon Ultra Sun",
-      "Pokemon Ultra Moon",
-      "Pokemon Legends: Arceus",
-      "Pokemon Brilliant Diamond",
-      "Pokemon Shining Pearl",
-      "Pokemon Home",
-      "Pokemon Red",
-      "Pokemon Blue (Int)",
-      "Pokemon Green (Jp)",
-      "Pokemon Yellow",
-      "Pokemon HOME",
+      ...availableGames(),
+      "Pokemon Go",
     ];
   }
 
@@ -256,12 +324,44 @@ class Dex {
           "Gigantamax Forms"
         ]);
         break;
+      case "Pokemon Ruby":
+      case "Pokemon Sapphire":
+      case "Pokemon Emerald":
+      case "Pokemon FireRed":
+      case "Pokemon LeafGreen":
       case "Pokemon Brilliant Diamond":
       case "Pokemon Shining Pearl":
         dex.addAll(["National Dex"]);
         break;
       case "Pokemon HOME":
         dex = ['Full Dex'];
+        break;
+      case "Pokemon Omega Ruby":
+      case "Pokemon Alpha Sapphire":
+        dex.addAll(["Megas"]);
+        break;
+      case "Pokemon X":
+      case "Pokemon Y":
+        dex = ['Central', 'Coastal', 'Mountain', 'Megas'];
+        break;
+      case "Pokemon Sun":
+      case "Pokemon Moon":
+        dex.addAll([
+          'Melemele Island',
+          'Akala Island',
+          'Ula\'Ula Island',
+          'Poni Island',
+        ]);
+        break;
+      case "Pokemon Ultra Sun":
+      case "Pokemon Ultra Moon":
+        dex.addAll([
+          'Melemele Island',
+          'Akala Island',
+          'Ula\'Ula Island',
+          'Poni Island',
+          'Ultra Wormholes Legendaries'
+        ]);
         break;
       default:
     }
@@ -275,10 +375,12 @@ class Dex {
       case "Gigantamax Forms":
       case "Vivillons":
       case "Dynamax Adventure Bosses":
+      case "Ultra Wormholes Legendaries":
         return [
           "Basic",
           "Shiny",
         ];
+      case "Megas":
       case "Mightiest Mark":
         return [
           "Basic",

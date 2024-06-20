@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/app_bar.dart';
 import 'package:oaks_legacy/components/base_background.dart';
 import 'package:oaks_legacy/components/pkm_button.dart';
+import 'package:oaks_legacy/components/pkm_scrollbar.dart';
 import 'package:oaks_legacy/components/pkm_text_dialog.dart';
 import 'package:oaks_legacy/components/progress_bar.dart';
 import 'package:oaks_legacy/tracker/create_tracker.dart';
@@ -33,32 +34,30 @@ class _YourTrackersScreenState extends State<YourTrackersScreen> {
       body: Stack(
         children: [
           const BaseBackground(),
-          Column(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  FutureBuilder<List<Tracker>>(
-                    future: getAllTrackers(),
-                    builder: (context, snapshot) {
-                      if (snapshot.connectionState == ConnectionState.waiting) {
-                        return const Center(child: CircularProgressIndicator());
-                      } else if (snapshot.hasError) {
-                        return Text("Error: ${snapshot.error}");
-                      } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
-                        return const Center(
-                          child: Text(
-                            "No trackers available.",
-                            style: TextStyle(
-                              color: Colors.amber,
-                              fontSize: 30,
-                            ),
+          Center(
+            child: Column(
+              children: [
+                FutureBuilder<List<Tracker>>(
+                  future: getAllTrackers(),
+                  builder: (context, snapshot) {
+                    if (snapshot.connectionState == ConnectionState.waiting) {
+                      return const Center(child: CircularProgressIndicator());
+                    } else if (snapshot.hasError) {
+                      return Text("Error: ${snapshot.error}");
+                    } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
+                      return const Center(
+                        child: Text(
+                          "No trackers available.",
+                          style: TextStyle(
+                            color: Colors.amber,
+                            fontSize: 30,
                           ),
-                        );
-                      } else {
-                        return Expanded(
+                        ),
+                      );
+                    } else {
+                      return Expanded(
+                        child: PkmScrollbar(
+                          scrollController: ScrollController(),
                           child: SingleChildScrollView(
                             child: Wrap(
                               alignment: WrapAlignment.center,
@@ -80,55 +79,51 @@ class _YourTrackersScreenState extends State<YourTrackersScreen> {
                                           snapshot.data![index].percentage(),
                                         ),
                                       ),
-                                      textColor: Colors.black,
-                                      buttonColor: Colors.grey);
+                                      textColor: Colors.white,
+                                      buttonColor: Colors.black45);
                                 },
                               ),
                             ),
                           ),
+                        ),
+                      );
+                    }
+                  },
+                ),
+                PkmButton(
+                  buttonName: "NEW TRACKER",
+                  onPressed: () => {
+                    showDialog(
+                      barrierColor: Colors.black87,
+                      context: context,
+                      builder: (BuildContext context) {
+                        return CreateTrackerScreen(
+                          onTrackerCreation: (tracker) => {
+                            setState(() {
+                              Navigator.pop(context);
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) {
+                                    return TrackerListScreen(
+                                        callBackAction: () {
+                                          setState(() {});
+                                        },
+                                        collection: tracker);
+                                  },
+                                ),
+                              );
+                            }),
+                          },
                         );
-                      }
-                    },
-                  ),
-                ],
-              ),
-              Column(
-                children: [
-                  PkmButton(
-                    buttonName: "NEW TRACKER",
-                    onPressed: () => {
-                      showDialog(
-                        barrierColor: Colors.black87,
-                        context: context,
-                        builder: (BuildContext context) {
-                          return CreateTrackerScreen(
-                            onTrackerCreation: (tracker) => {
-                              setState(() {
-                                Navigator.pop(context);
-                                Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                    builder: (context) {
-                                      return TrackerListScreen(
-                                          callBackAction: () {
-                                            setState(() {});
-                                          },
-                                          collection: tracker);
-                                    },
-                                  ),
-                                );
-                              }),
-                            },
-                          );
-                        },
-                      )
-                    },
-                    textColor: Colors.black,
-                    buttonColor: Colors.grey,
-                  ),
-                ],
-              ),
-            ],
+                      },
+                    )
+                  },
+                  textColor: Colors.black,
+                  buttonColor: Colors.grey,
+                ),
+              ],
+            ),
           ),
         ],
       ),
