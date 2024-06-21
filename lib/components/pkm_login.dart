@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:oaks_legacy/components/pkm_grid.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/data/data_manager.dart';
 import 'package:oaks_legacy/screens/start_screen.dart';
@@ -43,96 +44,102 @@ class _PkmAccountIconState extends State<PkmAccountIcon>
 
   @override
   Widget build(BuildContext context) {
+    bool isMobile = PkmGrid.getCardsPerRow(context) == 1;
+    double iconSize = (isMobile) ? 25 : 40;
+
     return Align(
       alignment: Alignment.topCenter,
-      child: Card(
-        color: cCardMainColor,
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            IconButton(
-              onPressed: () => setState(() {
-                isLoginBoxVisible = !isLoginBoxVisible;
-              }),
-              icon: MouseRegion(
-                onEnter: (event) => onEntered(true),
-                onExit: (event) => onEntered(false),
-                child: Transform.scale(
-                  scale: isHovered ? 1.2 : 1.0,
-                  child: (isLoginBoxVisible)
-                      ? Icon(
-                          Icons.close,
-                          size: 40,
-                          color: cIconMainColor,
-                        )
-                      : (isUserLogged)
-                          ? Icon(
-                              Icons.person,
-                              size: 40,
-                              color: cIconMainColor,
-                            )
-                          : Icon(
-                              Icons.person,
-                              size: 40,
-                              color: cIconAltColor,
-                            ),
+      child: Padding(
+        padding: const EdgeInsets.symmetric(vertical: 10),
+        child: Card(
+          color: cCardMainColor,
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              IconButton(
+                onPressed: () => setState(() {
+                  isLoginBoxVisible = !isLoginBoxVisible;
+                }),
+                icon: MouseRegion(
+                  onEnter: (event) => onEntered(true),
+                  onExit: (event) => onEntered(false),
+                  child: Transform.scale(
+                    scale: isHovered ? 1.2 : 1.0,
+                    child: (isLoginBoxVisible)
+                        ? Icon(
+                            Icons.close,
+                            size: iconSize,
+                            color: cIconMainColor,
+                          )
+                        : (isUserLogged)
+                            ? Icon(
+                                Icons.person,
+                                size: iconSize,
+                                color: cIconMainColor,
+                              )
+                            : Icon(
+                                Icons.person,
+                                size: iconSize,
+                                color: cIconAltColor,
+                              ),
+                  ),
                 ),
               ),
-            ),
-            Visibility(
-              visible: isLoginBoxVisible,
-              child: MaterialApp(
-                debugShowCheckedModeBanner: false,
-                theme: ThemeData(
-                    // // Define the theme for input decoration
-                    inputDecorationTheme: InputDecorationTheme(
-                        labelStyle: TextStyle(
-                            color:
-                                cTextFieldPlaceholderTextColor), // TextField title text color
-                        focusedBorder: OutlineInputBorder(
-                          borderSide: BorderSide(
+              Visibility(
+                visible: isLoginBoxVisible,
+                child: MaterialApp(
+                  debugShowCheckedModeBanner: false,
+                  theme: ThemeData(
+                      // // Define the theme for input decoration
+                      inputDecorationTheme: InputDecorationTheme(
+                          labelStyle: TextStyle(
                               color:
-                                  cTextFieldBorderColor), // TextField border color when focused
-                        ),
-                        enabledBorder: OutlineInputBorder(
-                          borderSide: BorderSide(
-                              color:
-                                  cTextFieldBorderColor), // TextField border color when enabled
-                        ),
-                        errorStyle: TextStyle(color: cErrorTextColor),
-                        errorBorder: OutlineInputBorder(
-                          borderSide: BorderSide(
-                            color: cTextFieldErrorBorderColor,
-                          ), // TextField border color when enabled
-                        ),
-                        prefixIconColor: cIconAltColor),
+                                  cTextFieldPlaceholderTextColor), // TextField title text color
+                          focusedBorder: OutlineInputBorder(
+                            borderSide: BorderSide(
+                                color:
+                                    cTextFieldBorderColor), // TextField border color when focused
+                          ),
+                          enabledBorder: OutlineInputBorder(
+                            borderSide: BorderSide(
+                                color:
+                                    cTextFieldBorderColor), // TextField border color when enabled
+                          ),
+                          errorStyle: TextStyle(color: cErrorTextColor),
+                          errorBorder: OutlineInputBorder(
+                            borderSide: BorderSide(
+                              color: cTextFieldErrorBorderColor,
+                            ), // TextField border color when enabled
+                          ),
+                          prefixIconColor: cIconAltColor),
 
-                    // Define the theme for text fields
-                    textTheme: Theme.of(context).textTheme.copyWith(
-                          bodyLarge: TextStyle(color: cTextFieldTextColor),
-                        ),
-                    textButtonTheme: TextButtonThemeData(
-                      style: ButtonStyle(
-                        foregroundColor: WidgetStateProperty.all<Color>(
-                            cTextButtonTextColor), // Text color
-                      ),
-                    ),
-                    elevatedButtonTheme: ElevatedButtonThemeData(
+                      // Define the theme for text fields
+                      textTheme: Theme.of(context).textTheme.copyWith(
+                            bodyLarge: TextStyle(color: cTextFieldTextColor),
+                          ),
+                      textButtonTheme: TextButtonThemeData(
                         style: ButtonStyle(
-                      foregroundColor: WidgetStateProperty.all<Color>(
-                          cButtonConfirmTextColor),
-                      backgroundColor:
-                          WidgetStateProperty.all<Color>(cButtonConfirmColor),
-                    ))),
-                home: (widget.resetCode != null)
-                    ? resetPassword(widget.resetCode)
-                    : (isUserLogged)
-                        ? logout()
-                        : login(),
-              ),
-            )
-          ],
+                          foregroundColor: WidgetStateProperty.all<Color>(
+                              cTextButtonTextColor), // Text color
+                        ),
+                      ),
+                      elevatedButtonTheme: ElevatedButtonThemeData(
+                          style: ButtonStyle(
+                        foregroundColor: WidgetStateProperty.all<Color>(
+                            cButtonConfirmTextColor),
+                        backgroundColor:
+                            WidgetStateProperty.all<Color>(cButtonConfirmColor),
+                      ))),
+                  home: (widget.resetCode != null)
+                      ? resetPassword(widget.resetCode)
+                      : (isUserLogged)
+                          ? logout()
+                          : login(),
+                ),
+              )
+            ],
+          ),
         ),
       ),
     );

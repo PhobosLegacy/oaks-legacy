@@ -69,6 +69,7 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
 
   @override
   Widget build(BuildContext context) {
+    bool isMobile = PkmGrid.getCardsPerRow(context) == 1;
     return Scaffold(
       resizeToAvoidBottomInset: false,
       key: scaffoldKey,
@@ -126,13 +127,13 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
                 ),
                 _dataLoaded
                     ? (_selectedTab == 0 && collection.isEmpty)
-                        ? const Expanded(
+                        ? Expanded(
                             child: Center(
                               child: Text(
                                 "You have no items in your collection",
                                 style: TextStyle(
                                   color: Colors.amber,
-                                  fontSize: 30,
+                                  fontSize: (isMobile) ? 15 : 30,
                                 ),
                               ),
                             ),

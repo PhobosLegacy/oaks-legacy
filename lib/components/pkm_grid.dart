@@ -32,22 +32,20 @@ class _PkmGridState extends State<PkmGrid> {
 
     return PkmScrollbar(
       scrollController: scrollController,
-      child: Center(
-        child: GridView.builder(
-          shrinkWrap: true,
-          controller: scrollController,
-          // physics: const NeverScrollableScrollPhysics(),
-          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisSpacing: 5,
-            mainAxisSpacing: 5,
-            // Adjust the cross axis count as needed
-            crossAxisCount: cardsPerRow,
-            // Adjust the height here
-            childAspectRatio: (cardsPerRow == 1) ? 3 : 2,
-          ),
-          itemCount: widget.itemCount,
-          itemBuilder: widget.itemBuilder,
+      child: GridView.builder(
+        shrinkWrap: true,
+        controller: scrollController,
+        // physics: const NeverScrollableScrollPhysics(),
+        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+          crossAxisSpacing: 5,
+          mainAxisSpacing: 5,
+          // Adjust the cross axis count as needed
+          crossAxisCount: cardsPerRow,
+          // Adjust the height here
+          childAspectRatio: (cardsPerRow == 1) ? 3 : 2,
         ),
+        itemCount: widget.itemCount,
+        itemBuilder: widget.itemBuilder,
       ),
     );
   }
