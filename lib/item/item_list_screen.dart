@@ -130,7 +130,7 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
                         ? Expanded(
                             child: Center(
                               child: Text(
-                                "You have no items in your collection",
+                                getEmptyListMessage(widget.screenKey),
                                 style: TextStyle(
                                   color: Colors.amber,
                                   fontSize: (isMobile) ? 15 : 30,
@@ -161,7 +161,7 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
         currentIndex: _selectedTab,
         backgroundColor: Colors.black26,
         selectedItemColor: Colors.white,
-        unselectedItemColor: Colors.blueGrey[800]!,
+        unselectedItemColor: Colors.blueGrey[300]!,
         onTap: (int index) {
           setState(
             () {
@@ -206,6 +206,7 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
                   onDelete: (item) async {
                     await removeFromColletion(item);
                   },
+                  screenKey: widget.screenKey,
                 );
               },
               itemCount: collection.length,
@@ -254,6 +255,7 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
                                   onDelete: (item) async {
                                     await removeFromColletion(item);
                                   },
+                                  screenKey: widget.screenKey,
                                 );
                               },
                               itemCount: group.items.length,
@@ -409,6 +411,19 @@ class _BaseCollectionScreenState extends State<BaseCollectionScreen> {
     item.catchDate = DateTime.now().toString();
     return item;
   }
+
+  String getEmptyListMessage(screenKey) {
+    switch (screenKey) {
+      case kCollectionKey:
+        return "You have no Pokemon in your collection";
+      case kLookingFor:
+        return "You have no Pokemon in your list. Try adding some!";
+      case kForTrade:
+        return "You have no Pokemon in your list. Try adding some!";
+      default:
+        return "You have no items in your collection";
+    }
+  }
 }
 
 class CollectionScreen extends BaseCollectionScreen {
@@ -429,5 +444,8 @@ class LookingForScreen extends BaseCollectionScreen {
 
 class ForTradeScreen extends BaseCollectionScreen {
   const ForTradeScreen({super.key})
-      : super(screenKey: kForTrade, title: 'For Trade');
+      : super(
+          screenKey: kForTrade,
+          title: 'For Trade',
+        );
 }

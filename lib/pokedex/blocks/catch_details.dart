@@ -1,8 +1,10 @@
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:oaks_legacy/components/basic.dart';
 import 'package:oaks_legacy/components/catch_card.dart';
 import 'package:oaks_legacy/components/options.dart';
+import 'package:oaks_legacy/components/pkm_drop_down.dart';
 import 'package:oaks_legacy/components/pkm_edit_button.dart';
 import 'package:oaks_legacy/components/pkm_level_picker.dart';
 import 'package:oaks_legacy/components/pkm_text_dialog.dart';
@@ -400,45 +402,42 @@ class _CatchDetailsBlockState extends State<CatchDetailsBlock> {
                         barrierColor: Colors.black87,
                         context: context,
                         builder: (BuildContext context) {
-                          return ShowOptions(
-                            listMode: true,
-                            items: Dex.allGames().toList().map((game) {
-                              return PkmOption(
-                                onTap: () => {
-                                  setState(() {
-                                    Navigator.pop(context);
-                                    widget.pokemon.originalLocation = game;
-                                  }),
-                                },
-                                content: Padding(
-                                  padding: const EdgeInsets.all(10.0),
-                                  child: Row(
-                                    mainAxisSize:
-                                        (MediaQuery.of(context).size.width <
-                                                400)
-                                            ? MainAxisSize.max
-                                            : MainAxisSize.min,
-                                    children: [
-                                      Image.network(
-                                          kImageLocalPrefix +
-                                              Game.gameIcon(game),
-                                          height: PkmOption.size(context)),
-                                      Padding(
-                                        padding:
-                                            const EdgeInsets.only(left: 20),
-                                        child: Text(
-                                          game,
-                                          style: const TextStyle(
-                                            color: Colors.amber,
-                                            fontSize: 15,
+                          String gamePicked = "";
+                          return PkmDropDown(
+                            value: gamePicked,
+                            hintText: 'Select a Game',
+                            enableSearch: true,
+                            onTap: (value) {
+                              setState(() {
+                                Navigator.pop(context);
+                                widget.pokemon.originalLocation = value;
+                              });
+                            },
+                            items: Dex.allGames()
+                                .toList()
+                                .map((item) => DropdownMenuItem(
+                                      value: item,
+                                      child: Row(
+                                        children: [
+                                          Padding(
+                                            padding: const EdgeInsets.all(8.0),
+                                            child: Image.network(
+                                                height:
+                                                    (isSmallScreen) ? 50 : 70,
+                                                '$kImageLocalPrefix${Game.gameIcon(item)}'),
                                           ),
-                                        ),
-                                      )
-                                    ],
-                                  ),
-                                ),
-                              );
-                            }).toList(),
+                                          AutoSizeText(
+                                            item,
+                                            style: TextStyle(
+                                              fontSize:
+                                                  (isSmallScreen) ? 15 : 20,
+                                              color: Colors.white,
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ))
+                                .toList(),
                           );
                         },
                       );
@@ -461,45 +460,42 @@ class _CatchDetailsBlockState extends State<CatchDetailsBlock> {
                         barrierColor: Colors.black87,
                         context: context,
                         builder: (BuildContext context) {
-                          return ShowOptions(
-                            listMode: true,
-                            items: Dex.allGames().toList().map((game) {
-                              return PkmOption(
-                                onTap: () => {
-                                  setState(() {
-                                    Navigator.pop(context);
-                                    widget.pokemon.currentLocation = game;
-                                  }),
-                                },
-                                content: Padding(
-                                  padding: const EdgeInsets.all(10.0),
-                                  child: Row(
-                                    mainAxisSize:
-                                        (MediaQuery.of(context).size.width <
-                                                400)
-                                            ? MainAxisSize.max
-                                            : MainAxisSize.min,
-                                    children: [
-                                      Image.network(
-                                          kImageLocalPrefix +
-                                              Game.gameIcon(game),
-                                          height: PkmOption.size(context)),
-                                      Padding(
-                                        padding:
-                                            const EdgeInsets.only(left: 20),
-                                        child: Text(
-                                          game,
-                                          style: const TextStyle(
-                                            color: Colors.amber,
-                                            fontSize: 15,
+                          String gamePicked = "";
+                          return PkmDropDown(
+                            value: gamePicked,
+                            hintText: 'Select a Game',
+                            enableSearch: true,
+                            onTap: (value) {
+                              setState(() {
+                                Navigator.pop(context);
+                                widget.pokemon.currentLocation = value;
+                              });
+                            },
+                            items: Dex.allGames()
+                                .toList()
+                                .map((item) => DropdownMenuItem(
+                                      value: item,
+                                      child: Row(
+                                        children: [
+                                          Padding(
+                                            padding: const EdgeInsets.all(8.0),
+                                            child: Image.network(
+                                                height:
+                                                    (isSmallScreen) ? 50 : 70,
+                                                '$kImageLocalPrefix${Game.gameIcon(item)}'),
                                           ),
-                                        ),
-                                      )
-                                    ],
-                                  ),
-                                ),
-                              );
-                            }).toList(),
+                                          AutoSizeText(
+                                            item,
+                                            style: TextStyle(
+                                              fontSize:
+                                                  (isSmallScreen) ? 15 : 20,
+                                              color: Colors.white,
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ))
+                                .toList(),
                           );
                         },
                       );
