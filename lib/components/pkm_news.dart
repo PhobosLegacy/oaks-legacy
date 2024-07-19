@@ -70,7 +70,7 @@ class _PkmNewsIconState extends State<PkmNewsIcon>
                               Padding(
                                 padding: const EdgeInsets.all(8.0),
                                 child: Text(
-                                  "What\'s Up",
+                                  "What's Up",
                                   style: TextStyle(
                                     color: cTitleColor,
                                     fontSize: 20,

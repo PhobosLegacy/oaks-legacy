@@ -182,18 +182,32 @@ class _PkmContactIconState extends State<PkmContactIcon>
                                     ),
                                     ActionButton(
                                       onPress: () async {
-                                        bool isMessageSent = await sendEmail(
-                                            selectedValue, message);
-                                        String retMsg = (isMessageSent)
-                                            ? 'Message sent successfully!'
-                                            : 'Daily limit reached';
+                                        String retMsg = '';
 
-                                        if (context.mounted) {
-                                          ScaffoldMessenger.of(context)
-                                              .showSnackBar(
-                                            SnackBar(content: Text(retMsg)),
-                                          );
-                                          Navigator.pop(context);
+                                        if (selectedValue.isEmpty ||
+                                            message.isEmpty) {
+                                          retMsg =
+                                              'Both fields needs to be filled.';
+                                          if (context.mounted) {
+                                            ScaffoldMessenger.of(context)
+                                                .showSnackBar(
+                                              SnackBar(content: Text(retMsg)),
+                                            );
+                                          }
+                                        } else {
+                                          bool isMessageSent = await sendEmail(
+                                              selectedValue, message);
+
+                                          retMsg = (isMessageSent)
+                                              ? 'Message sent successfully!'
+                                              : 'Daily limit reached';
+                                          if (context.mounted) {
+                                            ScaffoldMessenger.of(context)
+                                                .showSnackBar(
+                                              SnackBar(content: Text(retMsg)),
+                                            );
+                                            Navigator.pop(context);
+                                          }
                                         }
                                       },
                                       icon: const Icon(
