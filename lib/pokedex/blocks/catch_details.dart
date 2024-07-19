@@ -439,6 +439,7 @@ class _CatchDetailsBlockState extends State<CatchDetailsBlock> {
                                     ))
                                 .toList(),
                           );
+                          // );
                         },
                       );
                     },

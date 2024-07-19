@@ -1,6 +1,8 @@
 import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/models/flag.dart';
 import 'package:oaks_legacy/models/item.dart';
+import 'package:oaks_legacy/models/message.dart';
+import 'package:oaks_legacy/models/news.dart';
 import 'package:oaks_legacy/models/preferences.dart';
 import 'package:oaks_legacy/models/tracker.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
@@ -49,6 +51,43 @@ class DatabaseManager {
         await Supabase.instance.client.from(kFlagsKey).select().single();
 
     return Flags.fromDataBase(record);
+  }
+
+  static Future<List<News>> getLatestNews() async {
+    var record = await Supabase.instance.client
+        .from(kNewsKey)
+        .select()
+        .limit(10)
+        .order('created_at', ascending: false);
+
+    List<News> newsList =
+        record.map((item) => News.fromDataBase(item)).toList();
+
+    return newsList;
+  }
+
+  static saveMessage(Message message) async {
+    await Supabase.instance.client.from(kMessagesKey).upsert(
+      {
+        'type': message.type,
+        'content': message.content,
+        'userIdentity': loggedUserId
+      },
+    );
+  }
+
+  static Future<List<Message>> getMessages() async {
+    var records = await Supabase.instance.client
+        .from(kMessagesKey)
+        .select()
+        .match({'userIdentity': loggedUserId});
+
+    if (records.isEmpty) {
+      return [];
+    } else {
+      return List<Message>.from(
+          (records).map((model) => Message.fromDataBase(model)));
+    }
   }
 
   static Future<Preferences> getUserPreferences() async {

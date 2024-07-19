@@ -60,6 +60,7 @@ dependencies:
   zoom_tap_animation: ^1.1.0
   auto_size_text: ^3.0.0
   dropdown_button2: ^2.3.9
+  url_launcher: ^6.3.0
 
 dev_dependencies:
   flutter_test:

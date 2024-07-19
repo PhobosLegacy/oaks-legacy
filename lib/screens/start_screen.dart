@@ -2,7 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/base_background.dart';
 import 'package:oaks_legacy/components/disclaimer.dart';
 import 'package:oaks_legacy/components/main_button.dart';
+import 'package:oaks_legacy/components/pkm_contact.dart';
+import 'package:oaks_legacy/components/pkm_donate.dart';
 import 'package:oaks_legacy/components/pkm_login.dart';
+import 'package:oaks_legacy/components/pkm_news.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/item/item_list_screen.dart';
 import 'package:oaks_legacy/pokedex/pokedex_list_screen.dart';
@@ -69,7 +72,19 @@ class _StartScreenState extends State<StartScreen> {
               ],
             ),
           ),
-          const PkmAccountIcon(),
+          PkmAccountIcon(
+            callBack: () => setState(() {}),
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.end,
+            mainAxisSize: MainAxisSize.max,
+            children: [
+              if (kFlags.displayNews) const PkmNewsIcon(),
+              if (loggedUserId != '' && kFlags.displayContactUs)
+                const PkmContactIcon(),
+              if (kFlags.displayDonate) const PkmDonateIcon(),
+            ],
+          ),
           const Disclaimer(),
         ],
       ),

@@ -16,6 +16,8 @@ class DataManager {
   static setSystemFlags() async =>
       kFlags = await DatabaseManager.getSystemFlags();
 
+  static getNews() async => kNews = await DatabaseManager.getLatestNews();
+
   static void setUserPreferences() async {
     if (isUserLogged) {
       kPreferences = await DatabaseManager.getUserPreferences();

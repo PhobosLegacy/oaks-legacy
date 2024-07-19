@@ -1,6 +1,7 @@
 import 'package:dropdown_button2/dropdown_button2.dart';
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/pkm_grid.dart';
+import 'package:oaks_legacy/utils/colors.dart';
 
 class PkmDropDown extends StatelessWidget {
   PkmDropDown({
@@ -157,6 +158,96 @@ class PkmDropDown extends StatelessWidget {
                   textEditingController.clear();
                 }
               },
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class PkmDropDown2 extends StatelessWidget {
+  PkmDropDown2({
+    super.key,
+    required this.value,
+    required this.onTap,
+    required this.items,
+    required this.hintText,
+    this.enableSearch = false,
+  });
+
+  final TextEditingController textEditingController = TextEditingController();
+  final String value;
+  final Function(String) onTap;
+  final List<DropdownMenuItem<String>> items;
+  final String hintText;
+  final bool enableSearch;
+
+  @override
+  Widget build(BuildContext context) {
+    bool isMobile = PkmGrid.getCardsPerRow(context) == 1;
+    return Padding(
+      padding: const EdgeInsets.all(15),
+      child: Center(
+        child: Material(
+          color: Colors.transparent,
+          child: DropdownButtonHideUnderline(
+            child: DropdownButton2<String>(
+              isExpanded: true,
+              hint: Center(
+                child: Text(
+                  hintText,
+                  style: TextStyle(
+                    fontSize: (isMobile) ? 15 : 20,
+                    color: (items.isEmpty) ? Colors.grey : Colors.amber,
+                  ),
+                ),
+              ),
+              buttonStyleData: ButtonStyleData(
+                height: (isMobile) ? 30 : 50,
+                width: (isMobile) ? 180 : 300,
+                padding: const EdgeInsets.only(left: 14, right: 14),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(14),
+                  border: Border.all(
+                    color: Colors.amber,
+                  ),
+                  //color: Colors.black12,
+                  color: Colors.black26,
+                ),
+                elevation: 2,
+              ),
+              items: items,
+              value: (value.isEmpty) ? null : value,
+              onChanged: (selected) {
+                onTap(selected!);
+              },
+              iconStyleData: const IconStyleData(
+                iconSize: 30,
+                iconEnabledColor: Colors.amber,
+                iconDisabledColor: Colors.grey,
+              ),
+
+              //Style of the List Item
+              dropdownStyleData: DropdownStyleData(
+                maxHeight: (isMobile) ? 180 : 180, //Height of the list
+                width: (isMobile) ? 200 : 300, //Width of the list
+                offset: const Offset(-10, 0), //To centralize the list
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(14),
+                  color: Colors.black26,
+                ),
+                scrollbarTheme: ScrollbarThemeData(
+                  thumbColor: const WidgetStatePropertyAll(Colors.red),
+                  radius: const Radius.circular(40),
+                  thickness: WidgetStateProperty.all(6),
+                  thumbVisibility: WidgetStateProperty.all(true),
+                ),
+              ),
+              menuItemStyleData: MenuItemStyleData(
+                height: 40,
+                overlayColor: WidgetStatePropertyAll(cCardMainColor),
+              ),
             ),
           ),
         ),

@@ -48,7 +48,7 @@ class DisclaimerText extends StatelessWidget {
       child: Text(
         text,
         style: TextStyle(
-            fontSize: 18,
+            fontSize: 10,
             color: cWarningTextColor,
             fontWeight: FontWeight.w300,
             fontStyle: FontStyle.italic),
