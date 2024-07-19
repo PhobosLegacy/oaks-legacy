@@ -9,10 +9,12 @@ import 'package:supabase_auth_ui/supabase_auth_ui.dart';
 
 class PkmAccountIcon extends StatefulWidget {
   final String? resetCode;
+  final Function()? callBack;
 
   const PkmAccountIcon({
     super.key,
     this.resetCode,
+    this.callBack,
   });
 
   @override
@@ -156,18 +158,20 @@ class _PkmAccountIconState extends State<PkmAccountIcon>
           onError: (error) {
             showSnackbar(context, error.toString());
           },
-          onPasswordResetEmailSent: () => {
+          onPasswordResetEmailSent: () {
             setState(() {
               logUser(null);
               isLoginBoxVisible = false;
-            }),
-            showSnackbar(context, 'Reset Password Email sent!')
+            });
+            showSnackbar(context, 'Reset Password Email sent!');
+            widget.callBack!();
           },
           onSignInComplete: (response) {
             setState(() {
               logUser(response.user!.id);
               isLoginBoxVisible = false;
             });
+            widget.callBack!();
           },
           onSignUpComplete: (response) {
             setState(() {
@@ -175,6 +179,7 @@ class _PkmAccountIconState extends State<PkmAccountIcon>
               isLoginBoxVisible = false;
             });
             showSnackbar(context, 'Confirmation Email sent!');
+            widget.callBack!();
           },
           // metadataFields: [
           //   MetaDataField(
@@ -219,6 +224,7 @@ class _PkmAccountIconState extends State<PkmAccountIcon>
                     logUser(null);
                     isLoginBoxVisible = false;
                   });
+                  widget.callBack!();
                 },
                 child: const Text("Logout"),
               ),

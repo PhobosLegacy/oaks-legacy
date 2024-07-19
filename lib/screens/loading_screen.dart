@@ -74,6 +74,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
 
     DataManager.setUserPreferences();
     await DataManager.setSystemFlags();
+    await DataManager.getNews();
 
     if (kFlags.underMaintenance == true) {
       openNextScreen(const MaintainanceScreen());

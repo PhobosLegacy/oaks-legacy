@@ -1,3 +1,4 @@
+import 'package:oaks_legacy/models/news.dart';
 import 'package:oaks_legacy/models/preferences.dart';
 import 'package:oaks_legacy/models/flag.dart';
 import 'models/pokemon.dart';
@@ -19,8 +20,12 @@ const String kServerPokedexLocation =
     'https://gfoeebribnlwseyepwlx.supabase.co/storage/v1/object/public/resources/pokedex.json';
 //  'https://raw.githubusercontent.com/Icaroto/FlutterTraining/main/ServerVersions/pokedex.json';
 
+const kDonateLink = 'https://buymeacoffee.com/phoboslegacy';
+
 const String kFlagsKey = 'system_flags';
+const String kNewsKey = 'system_news';
 const String kPreferencesKey = 'user_preferences';
+const String kMessagesKey = 'user_messages';
 const String kCollectionKey = 'user_collections';
 const String kLookingFor = 'user_lookingFor';
 const String kForTrade = 'user_forTrade';
@@ -34,8 +39,11 @@ const String kValueNotFound = "?";
 
 List<Pokemon> kPokedex = [];
 
+const int kMaxNumberOfMessagesDaily = 5;
+
 late Preferences kPreferences;
 late Flags kFlags;
+late List<News> kNews;
 
 List<double> kBreakpoints = [768, 1024, 1440];
 String loggedUserId = '';

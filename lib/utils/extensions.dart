@@ -1,3 +1,5 @@
+import 'package:intl/intl.dart';
+
 const romanNumerals = [
   'I', // 1
   'II', // 2
@@ -10,8 +12,16 @@ const romanNumerals = [
   'IX' // 9
 ];
 
-extension StringExtensions on int {
+extension IntExtensions on int {
   String getRomanNumber() {
     return romanNumerals[this];
+  }
+}
+
+extension StringExtensions on String {
+  String formatDateTime() {
+    return DateFormat('dd/MM/yyyy').format(
+      DateTime.parse(this),
+    );
   }
 }
