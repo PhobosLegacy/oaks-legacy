@@ -1,5 +1,7 @@
+import 'dart:convert';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
+import 'package:oaks_legacy/components/pkm_button.dart';
 import 'package:oaks_legacy/components/pkm_drop_down.dart';
 import 'package:oaks_legacy/components/pkm_grid.dart';
 import 'package:oaks_legacy/components/start_tracking_button.dart';
@@ -7,6 +9,9 @@ import 'package:oaks_legacy/components/tracker_options_title.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/models/game.dart';
 import 'package:oaks_legacy/models/tracker.dart';
+import 'package:oaks_legacy/utils/functions.dart';
+import 'package:oaks_legacy/utils/trackers_manager.dart';
+import 'package:uuid/uuid.dart';
 
 class CreateTrackerScreen extends StatefulWidget {
   const CreateTrackerScreen({
@@ -140,6 +145,20 @@ class _CreateTrackerScreenState extends State<CreateTrackerScreen>
               ),
             ),
           ],
+        ),
+        PkmButton(
+          buttonName: '... OR IMPORT ONE',
+          onPressed: () async {
+            String data = await importFile();
+            if (data.isNotEmpty) {
+              Tracker tracker = Tracker.fromJson(json.decode(data));
+              tracker.ref = kTrackerPrefix + const Uuid().v4().toString();
+              await saveTracker(tracker);
+              widget.onTrackerCreation(tracker);
+            }
+          },
+          textColor: Colors.amber,
+          buttonColor: const Color(0xFF1D1E33),
         ),
       ],
     );

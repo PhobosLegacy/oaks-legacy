@@ -1,5 +1,7 @@
+import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/components/base_background.dart';
+import 'package:oaks_legacy/components/export_button.dart';
 import 'package:oaks_legacy/components/pkm_grid.dart';
 import 'package:oaks_legacy/models/game.dart';
 import 'package:oaks_legacy/tracker/tracker_tiles.dart';
@@ -412,7 +414,8 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
                 Tracker.isPokemonCaptured(element) == CaptureType.full ||
                 Tracker.isPokemonCaptured(element) == CaptureType.partial)
             .toList(),
-      )
+      ),
+      ExportButton(data: jsonEncode(widget.collection.toJson()))
     ];
   }
 }

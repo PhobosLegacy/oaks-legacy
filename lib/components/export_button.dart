@@ -1,22 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:oaks_legacy/constants.dart';
+import 'package:oaks_legacy/utils/functions.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
-import '../models/item.dart';
-import '../utils/items_manager.dart';
 
-class ImportToCollectionButton extends StatelessWidget {
-  const ImportToCollectionButton({
-    required this.listToImport,
+class ExportButton extends StatelessWidget {
+  const ExportButton({
+    required this.data,
     super.key,
   });
 
-  final List<Item> listToImport;
+  final String data;
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {
-        addItems(kCollectionKey, listToImport);
+      onTap: () async {
+        await exportFile('test', data);
       },
       child: ZoomTapAnimation(
         child: Padding(
@@ -39,12 +37,12 @@ class ImportToCollectionButton extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Icon(
-                    Icons.import_export_rounded,
+                    Icons.import_export,
                     size: 30,
                     color: Colors.amber,
                   ),
                   Text(
-                    "Send to collection",
+                    "Export",
                     style: TextStyle(
                       color: Colors.amber,
                       fontSize: 20,

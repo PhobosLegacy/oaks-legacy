@@ -1,4 +1,8 @@
+import 'dart:convert';
 import 'dart:math';
+import 'package:file_picker/file_picker.dart';
+import 'package:file_saver/file_saver.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:oaks_legacy/constants.dart';
 
@@ -63,4 +67,35 @@ Color makeItDarker(Color color, double percent) {
 
   // Create a new Color with the darker values
   return Color.fromARGB(color.alpha, red, green, blue);
+}
+
+Future<void> exportFile(String fileName, String content) async {
+  // Convert the JSON data to a Uint8List
+  Uint8List fileBytes = Uint8List.fromList(utf8.encode(content));
+
+  if (kIsWeb) {
+    // Use FileSaver for web
+    await FileSaver.instance.saveFile(
+      name: '$fileName.oak',
+      bytes: fileBytes,
+      mimeType: MimeType.json,
+    );
+  }
+}
+
+Future<String> importFile() async {
+  FilePickerResult? result = await FilePicker.platform.pickFiles(
+    type: FileType.custom,
+    allowedExtensions: ['oak'],
+  );
+
+  if (result != null) {
+    PlatformFile file = result.files.first;
+    if (file.bytes != null) {
+      Uint8List fileBytes = file.bytes!;
+      String jsonString = utf8.decode(fileBytes);
+      return jsonString;
+    }
+  }
+  return '';
 }

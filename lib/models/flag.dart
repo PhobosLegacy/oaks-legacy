@@ -4,6 +4,8 @@ class Flags {
   bool displayNews;
   bool displayContactUs;
   bool displayDonate;
+  bool displayExport;
+  bool displayImport;
 
   Flags({
     required this.underMaintenance,
@@ -11,6 +13,8 @@ class Flags {
     required this.displayNews,
     required this.displayContactUs,
     required this.displayDonate,
+    required this.displayExport,
+    required this.displayImport,
   });
 
   factory Flags.fromDataBase(Map<String, dynamic> record) {
@@ -20,6 +24,8 @@ class Flags {
       displayNews: record['displayNews'],
       displayContactUs: record['displayContactUs'],
       displayDonate: record['displayDonate'],
+      displayExport: record['displayExport'],
+      displayImport: record['displayImport'],
     );
   }
 }
