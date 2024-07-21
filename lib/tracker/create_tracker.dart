@@ -146,20 +146,21 @@ class _CreateTrackerScreenState extends State<CreateTrackerScreen>
             ),
           ],
         ),
-        PkmButton(
-          buttonName: '... OR IMPORT ONE',
-          onPressed: () async {
-            String data = await importFile();
-            if (data.isNotEmpty) {
-              Tracker tracker = Tracker.fromJson(json.decode(data));
-              tracker.ref = kTrackerPrefix + const Uuid().v4().toString();
-              await saveTracker(tracker);
-              widget.onTrackerCreation(tracker);
-            }
-          },
-          textColor: Colors.amber,
-          buttonColor: const Color(0xFF1D1E33),
-        ),
+        if (kFlags.displayImport)
+          PkmButton(
+            buttonName: '... OR IMPORT ONE',
+            onPressed: () async {
+              String data = await importFile();
+              if (data.isNotEmpty) {
+                Tracker tracker = Tracker.fromJson(json.decode(data));
+                tracker.ref = kTrackerPrefix + const Uuid().v4().toString();
+                await saveTracker(tracker);
+                widget.onTrackerCreation(tracker);
+              }
+            },
+            textColor: Colors.amber,
+            buttonColor: const Color(0xFF1D1E33),
+          ),
       ],
     );
   }
