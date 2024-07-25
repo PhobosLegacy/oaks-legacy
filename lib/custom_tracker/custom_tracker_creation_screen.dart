@@ -396,9 +396,6 @@ class _CustomTrackerScreenState extends State<CustomTrackerScreen> {
                     indexes, widget.screenKey, originalPokedex)
               ];
               widget.tracker.pokemons.addAll(items);
-              List<Map<String, String>> test = [
-                {'string': '2'}
-              ];
               setState(() {});
               // Navigator.push(
               //   context,
