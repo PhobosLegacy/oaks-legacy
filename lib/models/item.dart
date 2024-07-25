@@ -158,6 +158,17 @@ class Item {
     };
   }
 
+  static Item createPlaceholderItem(
+      List<int> indexes, String origin, List<Pokemon> pokemons) {
+    Pokemon pokemon = pokemons.current(indexes);
+    Game tempGame =
+        Game(name: "Unknown", dex: "", number: "", notes: "", shinyLocked: "");
+    Item item = Item.fromDex(pokemon, tempGame, origin);
+    item.currentLocation = "Unknown";
+    item.catchDate = DateTime.now().toString();
+    return item;
+  }
+
   formattedTypes() {
     var union = type1.name;
     if (type2 != null) {
