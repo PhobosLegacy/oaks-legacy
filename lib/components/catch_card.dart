@@ -785,6 +785,8 @@ extension Extensions2 on PokemonAttributes {
         return 'Alpha';
       case PokemonAttributes.isShiny:
         return 'Shiny';
+      case PokemonAttributes.hasCostume:
+        return 'Costume';
     }
   }
 }

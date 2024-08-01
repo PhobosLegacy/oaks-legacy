@@ -1,10 +1,11 @@
-import 'package:confetti/confetti.dart';
 import 'package:flutter/material.dart';
-import 'package:oaks_legacy/components/pkm_checkbox.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter/widgets.dart';
 import 'package:oaks_legacy/components/pkm_tile.dart';
 import 'package:oaks_legacy/components/pkm_image.dart';
 import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/models/enums.dart';
+import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 import '../models/item.dart';
 
 class CustomTrackerTile extends StatefulWidget {
@@ -27,31 +28,18 @@ class CustomTrackerTile extends StatefulWidget {
 }
 
 class _CustomTrackerTile extends State<CustomTrackerTile> {
-  late ConfettiController confettiController;
-
-  @override
-  void initState() {
-    super.initState();
-    confettiController =
-        ConfettiController(duration: const Duration(seconds: 1));
-  }
-
-  @override
-  void dispose() {
-    confettiController.dispose();
-    super.dispose();
-  }
+  TextEditingController textEditingController = TextEditingController();
+  bool isEditEnable = false;
 
   @override
   Widget build(BuildContext context) {
     Item pokemon = widget.pokemons.current(widget.indexes);
+    textEditingController.text = pokemon.number;
     return PkmTile(
       isLowerTile: widget.isLowerTile,
       desktopContent: tileContent(pokemon, false),
       mobileContent: tileContent(pokemon, true),
-      onTap: () => {
-        markAsCaptured(pokemon),
-      },
+      onTap: () => {},
     );
   }
 
@@ -69,12 +57,14 @@ class _CustomTrackerTile extends State<CustomTrackerTile> {
           ),
         ),
         Expanded(
-          flex: 2,
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisSize: MainAxisSize.max,
             children: [
               //NAME
               Expanded(
-                flex: (widget.isLowerTile) ? 3 : 2,
+                // flex: (widget.isLowerTile) ? 3 : 2,
+                flex: 1,
                 child: FittedBox(
                   fit: BoxFit.scaleDown,
                   child: Text(
@@ -89,60 +79,190 @@ class _CustomTrackerTile extends State<CustomTrackerTile> {
               ),
 
               //NUMBER
-              if (!widget.isLowerTile && pokemon.number.isNotEmpty)
-                Expanded(
-                  child: Align(
-                    alignment: Alignment.center,
-                    child: Text(
-                      "#${pokemon.number}",
-                      textScaler: const TextScaler.linear(1.3),
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontSize: (isMobileView) ? 12 : 25),
-                    ),
-                  ),
-                ),
-
-              //HAS FORMS TO EXPAND
               Expanded(
-                child: (pokemon.forms.isNotEmpty)
-                    ? Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          if (pokemon.forms.isNotEmpty)
-                            const Icon(
-                              Icons.keyboard_arrow_down_outlined,
-                              // Icons.keyboard_double_arrow_down,
-                              color: Colors.white,
-                            ),
-                          Text(
-                            '${pokemon.forms.where((element) => element.captured == true).length}/${pokemon.forms.length}',
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontSize: (isMobileView) ? 10 : 12,
-                              fontStyle: FontStyle.italic,
-                            ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    const Text(
+                      '#',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 25,
+                      ),
+                    ),
+                    SizedBox(
+                      width: 60,
+                      child: TextField(
+                        cursorColor: Colors.amber,
+                        decoration: const InputDecoration(
+                          enabledBorder: UnderlineInputBorder(
+                            borderSide: BorderSide(color: Colors.white),
                           ),
+                          focusedBorder: UnderlineInputBorder(
+                            borderSide: BorderSide(color: Colors.amber),
+                          ),
+                        ),
+                        // focusedBorder: ...
+                        // border: ...,
+                        onChanged: (value) {
+                          pokemon.number =
+                              textEditingController.text.replaceAll('#', '');
+                        },
+                        inputFormatters: <TextInputFormatter>[
+                          FilteringTextInputFormatter.digitsOnly,
+                          LengthLimitingTextInputFormatter(4),
                         ],
-                      )
-                    : const SizedBox(),
-              )
+                        enabled: true,
+                        controller: textEditingController,
+
+                        //  textScaler: const TextScaler.linear(1.3),
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: (isMobileView) ? 12 : 25),
+                      ),
+                    ),
+                    // (isEditEnable)
+                    //     ? Row(
+                    //         children: [
+                    //           IconButton(
+                    //             onPressed: () => setState(() {
+                    //               isEditEnable = !isEditEnable;
+                    //               pokemon.number = textEditingController.text
+                    //                   .replaceAll('#', '');
+                    //             }),
+                    //             icon: const Icon(
+                    //               Icons.check,
+                    //               color: Colors.green,
+                    //               size: 25,
+                    //             ),
+                    //           ),
+                    //           IconButton(
+                    //             onPressed: () => setState(() {
+                    //               isEditEnable = !isEditEnable;
+                    //             }),
+                    //             icon: const Icon(
+                    //               Icons.cancel,
+                    //               color: Colors.red,
+                    //               size: 25,
+                    //             ),
+                    //           ),
+                    //         ],
+                    //       )
+                    //     : IconButton(
+                    //         onPressed: () => setState(() {
+                    //           isEditEnable = !isEditEnable;
+                    //         }),
+                    //         icon: const Icon(
+                    //           Icons.edit,
+                    //           color: Colors.white,
+                    //           size: 25,
+                    //         ),
+                    //       ),
+                  ],
+                ),
+              ),
+
+              //ICONS
+              Expanded(
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: [
+                    Tooltip(
+                      message: 'Pokemon is shiny',
+                      child: ZoomTapAnimation(
+                        child: GestureDetector(
+                            onTap: () {
+                              if (pokemon.attributes
+                                  .contains(PokemonAttributes.isShiny)) {
+                                pokemon.attributes
+                                    .remove(PokemonAttributes.isShiny);
+                              } else {
+                                pokemon.attributes
+                                    .add(PokemonAttributes.isShiny);
+                              }
+                              pokemon.displayImage =
+                                  pokemon.updateDisplayImage();
+                              setState(() {});
+                            },
+                            child: (pokemon.attributes
+                                    .contains(PokemonAttributes.isShiny))
+                                ? const Icon(
+                                    Icons.auto_awesome,
+                                    color: Colors.amber,
+                                    size: 30,
+                                  )
+                                : const Icon(
+                                    Icons.auto_awesome_rounded,
+                                    color: Colors.grey,
+                                    size: 30,
+                                  )
+                            // : Image.network(
+                            //     '$kImageLocalPrefix/icons/box_icon_shiny_01.png',
+                            //     color: Colors.grey,
+                            //     height: 25,
+                            //     width: 25,
+                            //   ),
+                            ),
+                      ),
+                    ),
+                    Tooltip(
+                      message: 'Pokemon has costume',
+                      child: ZoomTapAnimation(
+                        child: GestureDetector(
+                            onTap: () {
+                              if (pokemon.attributes
+                                  .contains(PokemonAttributes.hasCostume)) {
+                                pokemon.attributes
+                                    .remove(PokemonAttributes.hasCostume);
+                              } else {
+                                pokemon.attributes
+                                    .add(PokemonAttributes.hasCostume);
+                              }
+                              setState(() {});
+                            },
+                            child: (pokemon.attributes
+                                    .contains(PokemonAttributes.hasCostume))
+                                ? const Icon(
+                                    Icons.yard_rounded,
+                                    color: Colors.amber,
+                                    size: 30,
+                                  )
+                                : const Icon(
+                                    Icons.yard_outlined,
+                                    color: Colors.grey,
+                                    size: 30,
+                                  )
+                            // : Image.network(
+                            //     '$kImageLocalPrefix/icons/box_icon_shiny_01.png',
+                            //     color: Colors.grey,
+                            //     height: 25,
+                            //     width: 25,
+                            //   ),
+                            ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
             ],
           ),
         ),
 
         //CAPTURED
         Expanded(
-          child: (pokemon.forms.isEmpty)
-              ? PkmCheckbox(
-                  scale: !isMobileView,
-                  value: pokemon.captured,
-                  isLocked: false,
-                  onChanged: (value) {
-                    markAsCaptured(pokemon);
-                  },
-                )
-              : const SizedBox(),
+          child: Align(
+            alignment: Alignment.topRight,
+            child: IconButton(
+              onPressed: () {
+                markAsCaptured(pokemon);
+              },
+              icon: const Icon(
+                Icons.delete,
+                size: 30,
+                color: Colors.white,
+              ),
+            ),
+          ),
         ),
       ],
     );

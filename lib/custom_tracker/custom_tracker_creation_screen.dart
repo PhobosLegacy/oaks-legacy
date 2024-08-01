@@ -58,7 +58,8 @@ class _CustomTrackerScreenState extends State<CustomTrackerScreen> {
     });
 
     originalPokedex.addAll(kPokedex.asFlatList());
-
+    widget.tracker.pokemons.add(
+        Item.createPlaceholderItem([7], widget.screenKey, originalPokedex));
     super.initState();
     // Schedule the openEndDrawer call after the first frame is rendered
     // WidgetsBinding.instance.addPostFrameCallback((_) {
@@ -298,7 +299,7 @@ class _CustomTrackerScreenState extends State<CustomTrackerScreen> {
         ? removeFilters([FilterType.byValue])
         : addFilter(FilterType.byValue);
 
-    collection = await retrieveItems(widget.screenKey);
+    collection = widget.tracker.pokemons;
     collection = collection.applyAllFilters(filters, searchQuery);
 
     originalPokedex =
@@ -326,6 +327,21 @@ class _CustomTrackerScreenState extends State<CustomTrackerScreen> {
           });
         },
       ),
+      Tooltip(
+        message: 'Make it all shiny!',
+        child: IconButton(
+          icon: const Icon(Icons.auto_awesome),
+          onPressed: () {
+            for (var i = 0; i < widget.tracker.pokemons.length; i++) {
+              Item pkm = widget.tracker.pokemons[i];
+              pkm.attributes.add(PokemonAttributes.isShiny);
+              pkm.displayImage = pkm.updateDisplayImage();
+            }
+            setState(() {});
+            print('all shiny!');
+          },
+        ),
+      ),
       IconButton(
         icon: const Icon(Icons.save),
         onPressed: () {
@@ -335,6 +351,10 @@ class _CustomTrackerScreenState extends State<CustomTrackerScreen> {
           print(widget.tracker.name);
           print(widget.tracker.pokemons.toList());
         },
+      ),
+      IconButton(
+        icon: const Icon(Icons.more_vert),
+        onPressed: () {},
       ),
       if (_selectedTab == 0 && kFlags.screenshot)
         ScreenShotButton(
@@ -391,11 +411,10 @@ class _CustomTrackerScreenState extends State<CustomTrackerScreen> {
             pokemons: originalPokedex,
             indexes: [index],
             onTapOverride: (indexes) {
-              List<Item> items = [
-                Item.createPlaceholderItem(
-                    indexes, widget.screenKey, originalPokedex)
-              ];
-              widget.tracker.pokemons.addAll(items);
+              Item item = Item.createPlaceholderItem(
+                  indexes, widget.screenKey, originalPokedex);
+              widget.tracker.pokemons.add(item);
+              collection = widget.tracker.pokemons;
               setState(() {});
               // Navigator.push(
               //   context,
