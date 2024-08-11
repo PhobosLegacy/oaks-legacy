@@ -11,7 +11,6 @@ import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 import '../components/app_bar.dart';
 import '../components/base_background.dart';
 import '../components/button_search.dart';
-import '../components/button_screenshot.dart';
 import '../components/search_bar.dart';
 import '../models/enums.dart';
 import '../models/group.dart';
@@ -52,6 +51,7 @@ class _CustomTrackerScreenState extends State<CustomTrackerScreen> {
   @override
   void initState() {
     textEditingController.text = name;
+
     setState(() {
       collection = widget.tracker.pokemons;
       _dataLoaded = true;
@@ -319,6 +319,42 @@ class _CustomTrackerScreenState extends State<CustomTrackerScreen> {
   }
 
   List<Widget> appBarActions() {
+    bool isMobile = PkmGrid.getCardsPerRow(context) == 1;
+
+    if (isMobile) {
+      return [
+        SearchButton(
+          onPressed: () {
+            setState(() {
+              _isSearchOpened = !_isSearchOpened;
+            });
+          },
+        ),
+        PopupMenuButton<String>(
+          onSelected: (String result) {
+            if (result == 'ShinyUp') {
+              makeAllShiny();
+            } else if (result == 'Save') {
+              saveTracker();
+            }
+          },
+          itemBuilder: (BuildContext context) => <PopupMenuEntry<String>>[
+            const PopupMenuItem<String>(
+              value: 'ShinyUp',
+              child: Text('Make it all shiny!'),
+            ),
+            const PopupMenuItem<String>(
+              value: 'Save',
+              child: Text('Save'),
+            ),
+          ],
+          icon: const Icon(
+            Icons.more_vert_outlined,
+            size: 30,
+          ),
+        )
+      ];
+    }
     return [
       SearchButton(
         onPressed: () {
@@ -332,74 +368,39 @@ class _CustomTrackerScreenState extends State<CustomTrackerScreen> {
         child: IconButton(
           icon: const Icon(Icons.auto_awesome),
           onPressed: () {
-            for (var i = 0; i < widget.tracker.pokemons.length; i++) {
-              Item pkm = widget.tracker.pokemons[i];
-              pkm.attributes.add(PokemonAttributes.isShiny);
-              pkm.displayImage = pkm.updateDisplayImage();
-            }
-            setState(() {});
-            print('all shiny!');
+            makeAllShiny();
           },
         ),
       ),
       IconButton(
         icon: const Icon(Icons.save),
         onPressed: () {
-          print(widget.tracker.trackerInfo());
-          print(widget.tracker.game);
-          print(widget.tracker.dex);
-          print(widget.tracker.name);
-          print(widget.tracker.pokemons.toList());
+          saveTracker();
         },
       ),
-      IconButton(
-        icon: const Icon(Icons.more_vert),
-        onPressed: () {},
-      ),
-      if (_selectedTab == 0 && kFlags.screenshot)
-        ScreenShotButton(
-          screenshotController: controller,
-          shouldTrim: collection.length < PkmGrid.getCardsPerRow(context),
-        ),
-      // if (_selectedTab == 0) FiltersButton(scaffoldKey: scaffoldKey),
     ];
   }
 
-  // List<Widget> trackerFilters() {
-  //   return [
-  //     GroupListBy(
-  //       currentDisplay: displayType,
-  //       onDisplaySelected: (newDisplay) {
-  //         setState(() {
-  //           displayType = newDisplay;
-  //           applyFilters();
-  //         });
-  //       },
-  //     ),
-  //   ];
-  // }
+  makeAllShiny() {
+    setState(() {
+      for (var i = 0; i < widget.tracker.pokemons.length; i++) {
+        Item pkm = widget.tracker.pokemons[i];
+        if (!pkm.attributes.contains(PokemonAttributes.isShiny)) {
+          pkm.attributes.add(PokemonAttributes.isShiny);
+        }
+        pkm.displayImage = pkm.updateDisplayImage();
+      }
+    });
+  }
 
-  // This is the Second Tab Bits
-  // pokedex() {
-  //   kPreferences.revealUncaught = true;
-  //   return Expanded(
-  //     child: PkmGrid(
-  //       itemCount: filteredAllItems.length,
-  //       itemBuilder: (context, index) {
-  //         return CustomTrackerTile(
-  //           isLowerTile: false,
-  //           pokemons: filteredAllItems,
-  //           indexes: [index],
-  //           trackerInfo: widget.tracker.trackerInfo(),
-  //           onStateChange: (pokemon) {
-  //             widget.tracker.pokemons.add(pokemon);
-  //             setState(() {});
-  //           },
-  //         );
-  //       },
-  //     ),
-  //   );
-  // }
+  saveTracker() {
+    print(widget.tracker.trackerInfo());
+    print(widget.tracker.game);
+    print(widget.tracker.dex);
+    print(widget.tracker.name);
+    print(widget.tracker.pokemons.toList());
+  }
+
   pokedex() {
     return Expanded(
       child: PkmGrid(
@@ -416,23 +417,6 @@ class _CustomTrackerScreenState extends State<CustomTrackerScreen> {
               widget.tracker.pokemons.add(item);
               collection = widget.tracker.pokemons;
               setState(() {});
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: (context) {
-              //       return TrackerDetailsPage(
-              //         pokemons: items,
-              //         indexes: const [0],
-              //         onStateChange: () {
-              //           setState(() {
-              //             saveToCollection(items.current([0]));
-              //           });
-              //           showSnackbar(context, '${items[0].name} added.');
-              //         },
-              //       );
-              //     },
-              //   ),
-              // );
             },
             button1Icon: Text(
               widget.tracker.pokemons

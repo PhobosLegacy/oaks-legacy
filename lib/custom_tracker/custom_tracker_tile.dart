@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter/widgets.dart';
 import 'package:oaks_legacy/components/pkm_tile.dart';
 import 'package:oaks_legacy/components/pkm_image.dart';
 import 'package:oaks_legacy/constants.dart';
@@ -44,211 +43,171 @@ class _CustomTrackerTile extends State<CustomTrackerTile> {
   }
 
   tileContent(Item pokemon, bool isMobileView) {
+    Widget pokeImage = Expanded(
+      flex: 2,
+      child: PkmImage(
+        heroTag: pokemon.ref,
+        image: "mons/${pokemon.displayImage}",
+        shadowOnly: kPreferences.revealUncaught == false &&
+            Item.isCaptured(pokemon) != CaptureType.full,
+      ),
+    );
+
+    //NAME
+    Widget pokeName = Expanded(
+      child: FittedBox(
+        fit: BoxFit.scaleDown,
+        child: Text(
+          pokemon.displayName,
+          textScaler: const TextScaler.linear(1.3),
+          style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Colors.white,
+              fontSize: (isMobileView) ? 15 : 30),
+        ),
+      ),
+    );
+
+    //NUMBER
+    Widget pokeNumber = Expanded(
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          const Text(
+            '#',
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 25,
+            ),
+          ),
+          SizedBox(
+            width: 60,
+            child: TextField(
+              cursorColor: Colors.amber,
+              decoration: const InputDecoration(
+                enabledBorder: UnderlineInputBorder(
+                  borderSide: BorderSide(color: Colors.white),
+                ),
+                focusedBorder: UnderlineInputBorder(
+                  borderSide: BorderSide(color: Colors.amber),
+                ),
+              ),
+              // focusedBorder: ...
+              // border: ...,
+              onChanged: (value) {
+                pokemon.number = textEditingController.text.replaceAll('#', '');
+              },
+              inputFormatters: <TextInputFormatter>[
+                FilteringTextInputFormatter.digitsOnly,
+                LengthLimitingTextInputFormatter(4),
+              ],
+              enabled: true,
+              controller: textEditingController,
+
+              //  textScaler: const TextScaler.linear(1.3),
+              style: TextStyle(
+                  color: Colors.white, fontSize: (isMobileView) ? 12 : 25),
+            ),
+          ),
+        ],
+      ),
+    );
+
+    Widget pokeButtons = //ICONS
+        Expanded(
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        children: [
+          Tooltip(
+            message: 'Pokemon is shiny',
+            child: ZoomTapAnimation(
+              child: GestureDetector(
+                  onTap: () {
+                    if (pokemon.attributes
+                        .contains(PokemonAttributes.isShiny)) {
+                      pokemon.attributes.remove(PokemonAttributes.isShiny);
+                    } else {
+                      pokemon.attributes.add(PokemonAttributes.isShiny);
+                    }
+                    pokemon.displayImage = pokemon.updateDisplayImage();
+                    setState(() {});
+                  },
+                  child:
+                      (pokemon.attributes.contains(PokemonAttributes.isShiny))
+                          ? const Icon(
+                              Icons.auto_awesome,
+                              color: Colors.amber,
+                              size: 30,
+                            )
+                          : const Icon(
+                              Icons.auto_awesome_rounded,
+                              color: Colors.grey,
+                              size: 30,
+                            )
+                  // : Image.network(
+                  //     '$kImageLocalPrefix/icons/box_icon_shiny_01.png',
+                  //     color: Colors.grey,
+                  //     height: 25,
+                  //     width: 25,
+                  //   ),
+                  ),
+            ),
+          ),
+          Tooltip(
+            message: 'Pokemon has costume',
+            child: ZoomTapAnimation(
+              child: GestureDetector(
+                  onTap: () {
+                    if (pokemon.attributes
+                        .contains(PokemonAttributes.hasCostume)) {
+                      pokemon.attributes.remove(PokemonAttributes.hasCostume);
+                    } else {
+                      pokemon.attributes.add(PokemonAttributes.hasCostume);
+                    }
+                    setState(() {});
+                  },
+                  child: (pokemon.attributes
+                          .contains(PokemonAttributes.hasCostume))
+                      ? const Icon(
+                          Icons.yard_rounded,
+                          color: Colors.amber,
+                          size: 30,
+                        )
+                      : const Icon(
+                          Icons.yard_outlined,
+                          color: Colors.grey,
+                          size: 30,
+                        )
+                  // : Image.network(
+                  //     '$kImageLocalPrefix/icons/box_icon_shiny_01.png',
+                  //     color: Colors.grey,
+                  //     height: 25,
+                  //     width: 25,
+                  //   ),
+                  ),
+            ),
+          ),
+        ],
+      ),
+    );
+
     return Row(
       children: [
         //IMAGE
-        Expanded(
-          flex: 2,
-          child: PkmImage(
-            heroTag: pokemon.ref,
-            image: "mons/${pokemon.displayImage}",
-            shadowOnly: kPreferences.revealUncaught == false &&
-                Item.isCaptured(pokemon) != CaptureType.full,
-          ),
-        ),
+        pokeImage,
+
         Expanded(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            mainAxisSize: MainAxisSize.max,
-            children: [
-              //NAME
-              Expanded(
-                // flex: (widget.isLowerTile) ? 3 : 2,
-                flex: 1,
-                child: FittedBox(
-                  fit: BoxFit.scaleDown,
-                  child: Text(
-                    pokemon.displayName,
-                    textScaler: const TextScaler.linear(1.3),
-                    style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        color: Colors.white,
-                        fontSize: (isMobileView) ? 15 : 30),
-                  ),
-                ),
-              ),
-
-              //NUMBER
-              Expanded(
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    const Text(
-                      '#',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 25,
-                      ),
-                    ),
-                    SizedBox(
-                      width: 60,
-                      child: TextField(
-                        cursorColor: Colors.amber,
-                        decoration: const InputDecoration(
-                          enabledBorder: UnderlineInputBorder(
-                            borderSide: BorderSide(color: Colors.white),
-                          ),
-                          focusedBorder: UnderlineInputBorder(
-                            borderSide: BorderSide(color: Colors.amber),
-                          ),
-                        ),
-                        // focusedBorder: ...
-                        // border: ...,
-                        onChanged: (value) {
-                          pokemon.number =
-                              textEditingController.text.replaceAll('#', '');
-                        },
-                        inputFormatters: <TextInputFormatter>[
-                          FilteringTextInputFormatter.digitsOnly,
-                          LengthLimitingTextInputFormatter(4),
-                        ],
-                        enabled: true,
-                        controller: textEditingController,
-
-                        //  textScaler: const TextScaler.linear(1.3),
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontSize: (isMobileView) ? 12 : 25),
-                      ),
-                    ),
-                    // (isEditEnable)
-                    //     ? Row(
-                    //         children: [
-                    //           IconButton(
-                    //             onPressed: () => setState(() {
-                    //               isEditEnable = !isEditEnable;
-                    //               pokemon.number = textEditingController.text
-                    //                   .replaceAll('#', '');
-                    //             }),
-                    //             icon: const Icon(
-                    //               Icons.check,
-                    //               color: Colors.green,
-                    //               size: 25,
-                    //             ),
-                    //           ),
-                    //           IconButton(
-                    //             onPressed: () => setState(() {
-                    //               isEditEnable = !isEditEnable;
-                    //             }),
-                    //             icon: const Icon(
-                    //               Icons.cancel,
-                    //               color: Colors.red,
-                    //               size: 25,
-                    //             ),
-                    //           ),
-                    //         ],
-                    //       )
-                    //     : IconButton(
-                    //         onPressed: () => setState(() {
-                    //           isEditEnable = !isEditEnable;
-                    //         }),
-                    //         icon: const Icon(
-                    //           Icons.edit,
-                    //           color: Colors.white,
-                    //           size: 25,
-                    //         ),
-                    //       ),
-                  ],
-                ),
-              ),
-
-              //ICONS
-              Expanded(
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: [
-                    Tooltip(
-                      message: 'Pokemon is shiny',
-                      child: ZoomTapAnimation(
-                        child: GestureDetector(
-                            onTap: () {
-                              if (pokemon.attributes
-                                  .contains(PokemonAttributes.isShiny)) {
-                                pokemon.attributes
-                                    .remove(PokemonAttributes.isShiny);
-                              } else {
-                                pokemon.attributes
-                                    .add(PokemonAttributes.isShiny);
-                              }
-                              pokemon.displayImage =
-                                  pokemon.updateDisplayImage();
-                              setState(() {});
-                            },
-                            child: (pokemon.attributes
-                                    .contains(PokemonAttributes.isShiny))
-                                ? const Icon(
-                                    Icons.auto_awesome,
-                                    color: Colors.amber,
-                                    size: 30,
-                                  )
-                                : const Icon(
-                                    Icons.auto_awesome_rounded,
-                                    color: Colors.grey,
-                                    size: 30,
-                                  )
-                            // : Image.network(
-                            //     '$kImageLocalPrefix/icons/box_icon_shiny_01.png',
-                            //     color: Colors.grey,
-                            //     height: 25,
-                            //     width: 25,
-                            //   ),
-                            ),
-                      ),
-                    ),
-                    Tooltip(
-                      message: 'Pokemon has costume',
-                      child: ZoomTapAnimation(
-                        child: GestureDetector(
-                            onTap: () {
-                              if (pokemon.attributes
-                                  .contains(PokemonAttributes.hasCostume)) {
-                                pokemon.attributes
-                                    .remove(PokemonAttributes.hasCostume);
-                              } else {
-                                pokemon.attributes
-                                    .add(PokemonAttributes.hasCostume);
-                              }
-                              setState(() {});
-                            },
-                            child: (pokemon.attributes
-                                    .contains(PokemonAttributes.hasCostume))
-                                ? const Icon(
-                                    Icons.yard_rounded,
-                                    color: Colors.amber,
-                                    size: 30,
-                                  )
-                                : const Icon(
-                                    Icons.yard_outlined,
-                                    color: Colors.grey,
-                                    size: 30,
-                                  )
-                            // : Image.network(
-                            //     '$kImageLocalPrefix/icons/box_icon_shiny_01.png',
-                            //     color: Colors.grey,
-                            //     height: 25,
-                            //     width: 25,
-                            //   ),
-                            ),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
+              mainAxisAlignment: MainAxisAlignment.center,
+              mainAxisSize: MainAxisSize.max,
+              children: [
+                pokeName,
+                pokeNumber,
+                pokeButtons,
+              ]),
         ),
 
-        //CAPTURED
+        //DELETE
         Expanded(
           child: Align(
             alignment: Alignment.topRight,
@@ -256,9 +215,9 @@ class _CustomTrackerTile extends State<CustomTrackerTile> {
               onPressed: () {
                 markAsCaptured(pokemon);
               },
-              icon: const Icon(
+              icon: Icon(
                 Icons.delete,
-                size: 30,
+                size: (isMobileView) ? 25 : 30,
                 color: Colors.white,
               ),
             ),
