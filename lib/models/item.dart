@@ -8,7 +8,7 @@ import 'game.dart';
 class Item {
   final String name;
   final String formName;
-  final String number;
+  String number;
   final String natDexNumber;
   final String ref;
   final PokemonType type1;
@@ -156,6 +156,22 @@ class Item {
       'capturedMethod': capturedMethod.name,
       'attributes': attributes.map((e) => e.name).toList()
     };
+  }
+
+  static Item createPlaceholderItem(
+      List<int> indexes, String origin, List<Pokemon> pokemons) {
+    Pokemon pokemon = pokemons.current(indexes);
+    Game tempGame =
+        Game(name: "Unknown", dex: "", number: "", notes: "", shinyLocked: "");
+    Item item = Item.fromDex(
+      pokemon,
+      tempGame,
+      origin,
+      useGameDexNumber: true,
+    );
+    item.currentLocation = "Unknown";
+    item.catchDate = DateTime.now().toString();
+    return item;
   }
 
   formattedTypes() {
@@ -364,6 +380,14 @@ extension ItemExtensions on Item {
     String image =
         this.image.firstWhere((img) => img.contains(v) && img.contains(g));
     return image;
+  }
+
+  imageVariant() {
+    if (displayImage.contains('-normal-')) {
+      return PokemonVariant.normal;
+    }
+
+    return PokemonVariant.shiny;
   }
 
   String updateDisplayImage() {

@@ -9,6 +9,7 @@ import 'package:oaks_legacy/data/database_manager.dart';
 import 'package:oaks_legacy/models/message.dart';
 import 'package:oaks_legacy/utils/colors.dart';
 import 'package:oaks_legacy/utils/extensions.dart';
+import 'package:oaks_legacy/utils/functions.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class PkmContactIcon extends StatefulWidget {
@@ -189,10 +190,7 @@ class _PkmContactIconState extends State<PkmContactIcon>
                                           retMsg =
                                               'Both fields needs to be filled.';
                                           if (context.mounted) {
-                                            ScaffoldMessenger.of(context)
-                                                .showSnackBar(
-                                              SnackBar(content: Text(retMsg)),
-                                            );
+                                            showSnackbar(context, retMsg);
                                           }
                                         } else {
                                           bool isMessageSent = await sendEmail(
@@ -201,11 +199,9 @@ class _PkmContactIconState extends State<PkmContactIcon>
                                           retMsg = (isMessageSent)
                                               ? 'Message sent successfully!'
                                               : 'Daily limit reached';
+
                                           if (context.mounted) {
-                                            ScaffoldMessenger.of(context)
-                                                .showSnackBar(
-                                              SnackBar(content: Text(retMsg)),
-                                            );
+                                            showSnackbar(context, retMsg);
                                             Navigator.pop(context);
                                           }
                                         }

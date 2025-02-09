@@ -580,6 +580,23 @@ extension Filter on List<Pokemon>? {
     if (lastPokemon == currentPokemon) return true;
     return false;
   }
+
+  List<Pokemon> asFlatList() {
+    List<Pokemon> filtered = [];
+
+    for (var pokemon in this!) {
+      if (pokemon.forms.isEmpty) {
+        filtered.add(pokemon);
+      } else {
+        List<Pokemon> pokemons = pokemon.forms.asFlatList();
+        if (pokemons.isNotEmpty) {
+          filtered.addAll(pokemons);
+        }
+      }
+    }
+
+    return filtered;
+  }
 }
 
 containsType(List<String> filterTypes, List<PokemonType?> pkmTypes) {

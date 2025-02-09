@@ -22,9 +22,9 @@ class PokemonTiles extends StatefulWidget {
   final List<Pokemon> pokemons;
   final List<int> indexes;
   final Function(List<int>)? onTapOverride;
-  final Icon? button1Icon;
+  final Widget? button1Icon;
   final Function(Pokemon)? button1OnPressed;
-  final Icon? button2Icon;
+  final Widget? button2Icon;
   final Function(Pokemon)? button2OnPressed;
 
   @override

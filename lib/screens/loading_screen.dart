@@ -1,6 +1,7 @@
 // ignore_for_file: unused_import
 import 'dart:convert';
 import 'package:flutter/services.dart';
+import 'package:oaks_legacy/custom_tracker/custom_tracker_creation_screen.dart';
 import 'package:oaks_legacy/utils/colors.dart';
 import 'package:universal_html/html.dart' as html;
 import 'package:flutter/material.dart';
@@ -98,6 +99,9 @@ class _LoadingScreenState extends State<LoadingScreen> {
         // openNextScreen(ForgotPasswordScreen(resetCode: access));
         openNextScreen(ForgotPasswordScreen(resetCode: code));
       } else {
+        // Tracker trk =
+        //     Tracker.create('Custom', 'Custom', 'Custom', 'Custom', []);
+        // openNextScreen(CustomTrackerScreen(tracker: trk));
         openNextScreen(const StartScreen());
       }
     }

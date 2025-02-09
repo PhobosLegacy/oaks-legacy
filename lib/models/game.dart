@@ -109,6 +109,9 @@ class Game extends Dex {
       case "Pokemon HOME":
         return const Color.fromARGB(255, 118, 221, 151);
       case "Pokemon Go":
+        return const Color(0xFFADB3AC);
+      case "Custom":
+        return const Color.fromARGB(255, 35, 8, 77);
       default:
         return Colors.black;
     }

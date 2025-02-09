@@ -42,6 +42,14 @@ class Tracker {
         type = trackerType,
         pokemons = pokemonList;
 
+  Tracker.custom()
+      : name = 'Custom Tracker',
+        ref = kTrackerPrefix + const Uuid().v4().toString(),
+        game = 'Custom',
+        dex = 'Custom',
+        type = 'Custom',
+        pokemons = [];
+
   Map<String, dynamic> toJson() {
     return {
       'name': name,

@@ -78,6 +78,7 @@ enum PokeballType {
 enum PokemonAttributes {
   isShiny,
   isAlpha,
+  hasCostume,
 }
 
 enum ScreenType { pokedex, tracker, collection }
