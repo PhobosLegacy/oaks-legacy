@@ -59,7 +59,9 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
       resizeToAvoidBottomInset: false,
       key: scaffoldKey,
       appBar: AppBarBase(
-        title: getAppBarTitleWidget(),
+        title: (widget.collection.game == "Custom")
+            ? getAppBarCustomTitleWidget()
+            : getAppBarTitleWidget(),
         color: Game.gameColor(widget.collection.game),
         actions: appBarActions(),
       ),
@@ -165,52 +167,65 @@ class _TrackerListScreenState extends State<TrackerListScreen> {
     );
   }
 
-  getAppBarTitleWidget() {
+  Widget buildAppBarTitle(
+      {required String title,
+      String? subtitle,
+      required String percentage,
+      bool isCustom = false}) {
     bool isSmall = (PkmGrid.getCardsPerRow(context) == 1);
-
-    final gameText = Text(
-      widget.collection.game,
-      style: TextStyle(
-        fontSize: (isSmall) ? 15 : 40,
-        fontWeight: FontWeight.bold,
-        fontStyle: (isSmall) ? null : FontStyle.italic,
-      ),
+    TextStyle textStyle = TextStyle(
+      color: isCustom ? Colors.white : Colors.black,
+      fontSize: isSmall ? 15 : 40,
+      fontWeight: FontWeight.bold,
+      fontStyle: isSmall ? null : FontStyle.italic,
     );
 
-    final dexText = Text(
-      '${widget.collection.dex} Dex',
-      style: TextStyle(
-        fontSize: (isSmall) ? 10 : 20,
-        fontWeight: FontWeight.bold,
-        fontStyle: (isSmall) ? null : FontStyle.italic,
-      ),
-    );
+    TextStyle percentageStyle = textStyle.copyWith(fontSize: isSmall ? 15 : 20);
 
-    final percentageText = Text(
-      "(${widget.collection.percentage()}%)",
-      style: TextStyle(
-        fontSize: (isSmall) ? 15 : 20,
-        fontWeight: FontWeight.bold,
-      ),
-    );
+    final titleWidget = Text(title, style: textStyle);
+    final percentageWidget = Text("($percentage%)", style: percentageStyle);
 
     if (PkmGrid.getCardsPerRow(context) > 1) {
       return Row(
         children: [
-          gameText,
+          titleWidget,
           const SizedBox(width: 20),
-          Column(
-            children: [
-              dexText,
-              percentageText,
-            ],
-          ),
+          if (subtitle != null)
+            Column(children: [
+              Text(subtitle,
+                  style: textStyle.copyWith(fontSize: isSmall ? 10 : 20)),
+              percentageWidget
+            ])
+          else
+            percentageWidget,
         ],
       );
     }
 
     return Column(
-      children: [gameText, dexText, percentageText],
+      children: [
+        titleWidget,
+        if (subtitle != null)
+          Text(subtitle,
+              style: textStyle.copyWith(fontSize: isSmall ? 10 : 20)),
+        percentageWidget
+      ],
+    );
+  }
+
+  Widget getAppBarTitleWidget() {
+    return buildAppBarTitle(
+      title: widget.collection.game,
+      subtitle: "${widget.collection.dex} Dex",
+      percentage: widget.collection.percentage().toString(),
+    );
+  }
+
+  Widget getAppBarCustomTitleWidget() {
+    return buildAppBarTitle(
+      title: widget.collection.name,
+      percentage: widget.collection.percentage().toString(),
+      isCustom: true,
     );
   }
 

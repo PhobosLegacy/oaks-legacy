@@ -6,6 +6,7 @@ class Flags {
   bool displayDonate;
   bool displayExport;
   bool displayImport;
+  bool displayCustomTracker;
 
   Flags({
     required this.underMaintenance,
@@ -15,6 +16,7 @@ class Flags {
     required this.displayDonate,
     required this.displayExport,
     required this.displayImport,
+    required this.displayCustomTracker,
   });
 
   factory Flags.fromDataBase(Map<String, dynamic> record) {
@@ -26,6 +28,7 @@ class Flags {
       displayDonate: record['displayDonate'],
       displayExport: record['displayExport'],
       displayImport: record['displayImport'],
+      displayCustomTracker: record['displayCustomTracker'],
     );
   }
 }

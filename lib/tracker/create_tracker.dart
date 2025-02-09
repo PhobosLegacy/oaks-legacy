@@ -7,6 +7,7 @@ import 'package:oaks_legacy/components/pkm_grid.dart';
 import 'package:oaks_legacy/components/start_tracking_button.dart';
 import 'package:oaks_legacy/components/tracker_options_title.dart';
 import 'package:oaks_legacy/constants.dart';
+import 'package:oaks_legacy/custom_tracker/custom_tracker_creation_screen.dart';
 import 'package:oaks_legacy/models/game.dart';
 import 'package:oaks_legacy/models/tracker.dart';
 import 'package:oaks_legacy/utils/functions.dart';
@@ -146,24 +147,31 @@ class _CreateTrackerScreenState extends State<CreateTrackerScreen>
             ),
           ],
         ),
-        if (kFlags.displayImport)
+        if (kFlags.displayCustomTracker)
           PkmButton(
-            buttonName: '... OR IMPORT ONE',
+            buttonName: '...MAKE YOUR OWN',
             onPressed: () async {
-              String data = await importFile();
-              if (data.isNotEmpty) {
-                Tracker tracker = Tracker.fromJson(json.decode(data));
-                tracker.ref = kTrackerPrefix + const Uuid().v4().toString();
-                await saveTracker(tracker);
-                widget.onTrackerCreation(tracker);
-              }
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) {
+                    return CustomTrackerScreen(
+                      tracker: Tracker.custom(),
+                      onTrackerCreation: (tracker) {
+                        Navigator.pop(context);
+                        widget.onTrackerCreation(tracker);
+                      },
+                    );
+                  },
+                ),
+              );
             },
             textColor: Colors.amber,
             buttonColor: const Color(0xFF1D1E33),
           ),
         if (kFlags.displayImport)
           PkmButton(
-            buttonName: '... OR MAKE YOUR OWN',
+            buttonName: '... OR IMPORT ONE',
             onPressed: () async {
               String data = await importFile();
               if (data.isNotEmpty) {

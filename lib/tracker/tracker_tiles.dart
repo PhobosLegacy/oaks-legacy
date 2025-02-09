@@ -113,6 +113,21 @@ class _TrackerTile extends State<TrackerTile> {
                 ),
               ),
 
+              //COSTUME
+              if (pokemon.attributes.contains(PokemonAttributes.hasCostume))
+                Expanded(
+                  child: Align(
+                    alignment: Alignment.center,
+                    child: Text(
+                      "(Customized)",
+                      textScaler: const TextScaler.linear(1.3),
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontSize: (isMobileView) ? 10 : 12),
+                    ),
+                  ),
+                ),
+
               //NUMBER
               if (!widget.isLowerTile && pokemon.number.isNotEmpty)
                 Expanded(

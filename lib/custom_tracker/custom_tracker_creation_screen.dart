@@ -6,6 +6,7 @@ import 'package:oaks_legacy/constants.dart';
 import 'package:oaks_legacy/custom_tracker/custom_tracker_tile.dart';
 import 'package:oaks_legacy/models/tracker.dart';
 import 'package:oaks_legacy/pokedex/pokedex_tiles.dart';
+import 'package:oaks_legacy/utils/trackers_manager.dart';
 import 'package:screenshot/screenshot.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 import '../components/app_bar.dart';
@@ -21,9 +22,10 @@ import '../utils/items_manager.dart';
 class CustomTrackerScreen extends StatefulWidget {
   final String screenKey = '';
   final Tracker tracker;
-
+  final Function(Tracker) onTrackerCreation;
   const CustomTrackerScreen({
     required this.tracker,
+    required this.onTrackerCreation,
     super.key,
   });
 
@@ -46,11 +48,10 @@ class _CustomTrackerScreenState extends State<CustomTrackerScreen> {
   List<Pokemon> originalPokedex = [];
   List<Item> filteredAllItems = [];
   TextEditingController textEditingController = TextEditingController();
-  String name = "Custom Name";
 
   @override
   void initState() {
-    textEditingController.text = name;
+    textEditingController.text = widget.tracker.name;
 
     setState(() {
       collection = widget.tracker.pokemons;
@@ -81,13 +82,13 @@ class _CustomTrackerScreenState extends State<CustomTrackerScreen> {
                 context: context,
                 barrierColor: Colors.black87,
                 builder: (BuildContext otContext) {
-                  textEditingController.text = name;
+                  textEditingController.text = widget.tracker.name;
                   return PkmTextEditDialog(
                     title: 'Change Name',
                     textController: textEditingController,
                     onChange: () {
                       setState(() {
-                        name = textEditingController.text;
+                        widget.tracker.name = textEditingController.text;
                       });
                     },
                   );
@@ -98,7 +99,7 @@ class _CustomTrackerScreenState extends State<CustomTrackerScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  '$name ',
+                  '${widget.tracker.name} ',
                   style: const TextStyle(
                     color: Colors.white,
                   ),
@@ -335,7 +336,7 @@ class _CustomTrackerScreenState extends State<CustomTrackerScreen> {
             if (result == 'ShinyUp') {
               makeAllShiny();
             } else if (result == 'Save') {
-              saveTracker();
+              saveCustomTracker();
             }
           },
           itemBuilder: (BuildContext context) => <PopupMenuEntry<String>>[
@@ -375,7 +376,7 @@ class _CustomTrackerScreenState extends State<CustomTrackerScreen> {
       IconButton(
         icon: const Icon(Icons.save),
         onPressed: () {
-          saveTracker();
+          saveCustomTracker();
         },
       ),
     ];
@@ -393,12 +394,9 @@ class _CustomTrackerScreenState extends State<CustomTrackerScreen> {
     });
   }
 
-  saveTracker() {
-    print(widget.tracker.trackerInfo());
-    print(widget.tracker.game);
-    print(widget.tracker.dex);
-    print(widget.tracker.name);
-    print(widget.tracker.pokemons.toList());
+  saveCustomTracker() async {
+    await saveTracker(widget.tracker);
+    widget.onTrackerCreation(widget.tracker);
   }
 
   pokedex() {
@@ -433,14 +431,6 @@ class _CustomTrackerScreenState extends State<CustomTrackerScreen> {
                 color: Colors.white,
               ),
             ),
-            // button1OnPressed: (pokemon) => {
-            //   saveToCollection(
-            //     createPlaceholderItem([0], widget.screenKey, [pokemon]),
-            //   ),
-            //   showSnackbar(context, '${pokemon.name} added.'),
-            // },
-            // button2Icon: const Icon(Icons.edit_square, color: Colors.amber),
-            // button2OnPressed: (pokemon) => {print(pokemon.number)},
           );
         },
       ),

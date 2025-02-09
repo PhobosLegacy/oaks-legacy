@@ -99,10 +99,10 @@ class _LoadingScreenState extends State<LoadingScreen> {
         // openNextScreen(ForgotPasswordScreen(resetCode: access));
         openNextScreen(ForgotPasswordScreen(resetCode: code));
       } else {
-        Tracker trk =
-            Tracker.create('Custom', 'Custom', 'Custom', 'Custom', []);
-        openNextScreen(CustomTrackerScreen(tracker: trk));
-        // openNextScreen(const StartScreen());
+        // Tracker trk =
+        //     Tracker.create('Custom', 'Custom', 'Custom', 'Custom', []);
+        // openNextScreen(CustomTrackerScreen(tracker: trk));
+        openNextScreen(const StartScreen());
       }
     }
   }

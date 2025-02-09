@@ -45162,6 +45162,20 @@
         "number": "128",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Scarlet",
+        "dex": "Mightiest Mark",
+        "number": "",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Violet",
+        "dex": "Mightiest Mark",
+        "number": "",
+        "shinyLocked": "LOCKED",
+        "notes": ""
       }
     ],
     "forms": [],
@@ -46922,6 +46936,20 @@
         "dex": "Regional",
         "number": "009",
         "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Scarlet",
+        "dex": "Mightiest Mark",
+        "number": "",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Violet",
+        "dex": "Mightiest Mark",
+        "number": "",
+        "shinyLocked": "LOCKED",
         "notes": ""
       }
     ],
@@ -68366,6 +68394,20 @@
         "dex": "Regional",
         "number": "003",
         "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Scarlet",
+        "dex": "Mightiest Mark",
+        "number": "",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Violet",
+        "dex": "Mightiest Mark",
+        "number": "",
+        "shinyLocked": "LOCKED",
         "notes": ""
       }
     ],
@@ -93685,6 +93727,20 @@
         "number": "003",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Scarlet",
+        "dex": "Mightiest Mark",
+        "number": "",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Violet",
+        "dex": "Mightiest Mark",
+        "number": "",
+        "shinyLocked": "LOCKED",
+        "notes": ""
       }
     ],
     "forms": [],
@@ -93990,6 +94046,20 @@
         "dex": "Regional",
         "number": "006",
         "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Scarlet",
+        "dex": "Mightiest Mark",
+        "number": "",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Violet",
+        "dex": "Mightiest Mark",
+        "number": "",
+        "shinyLocked": "LOCKED",
         "notes": ""
       }
     ],
@@ -110936,6 +111006,20 @@
         "number": "003",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Scarlet",
+        "dex": "Mightiest Mark",
+        "number": "",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Violet",
+        "dex": "Mightiest Mark",
+        "number": "",
+        "shinyLocked": "LOCKED",
+        "notes": ""
       }
     ],
     "forms": [],
@@ -111157,6 +111241,20 @@
         "dex": "Regional",
         "number": "006",
         "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Scarlet",
+        "dex": "Mightiest Mark",
+        "number": "",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Violet",
+        "dex": "Mightiest Mark",
+        "number": "",
+        "shinyLocked": "LOCKED",
         "notes": ""
       }
     ],
@@ -139206,6 +139304,20 @@
         "number": "006",
         "shinyLocked": "UNLOCKED",
         "notes": ""
+      },
+      {
+        "name": "Pokemon Scarlet",
+        "dex": "Mightiest Mark",
+        "number": "",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Violet",
+        "dex": "Mightiest Mark",
+        "number": "",
+        "shinyLocked": "LOCKED",
+        "notes": ""
       }
     ],
     "forms": [],
@@ -161599,7 +161711,7 @@
         "name": "Pokemon HOME",
         "dex": "Full Dex",
         "number": "0905",
-        "shinyLocked": "LOCKED",
+        "shinyLocked": "UNLOCKED",
         "notes": ""
       }
     ],
@@ -165395,6 +165507,20 @@
         "dex": "Full Dex",
         "number": "0977",
         "shinyLocked": "UNLOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Scarlet",
+        "dex": "Mightiest Mark",
+        "number": "",
+        "shinyLocked": "LOCKED",
+        "notes": ""
+      },
+      {
+        "name": "Pokemon Violet",
+        "dex": "Mightiest Mark",
+        "number": "",
+        "shinyLocked": "LOCKED",
         "notes": ""
       }
     ],
