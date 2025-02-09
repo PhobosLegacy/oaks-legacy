@@ -59,8 +59,6 @@ class _CustomTrackerScreenState extends State<CustomTrackerScreen> {
     });
 
     originalPokedex.addAll(kPokedex.asFlatList());
-    widget.tracker.pokemons.add(
-        Item.createPlaceholderItem([7], widget.screenKey, originalPokedex));
     super.initState();
     // Schedule the openEndDrawer call after the first frame is rendered
     // WidgetsBinding.instance.addPostFrameCallback((_) {
